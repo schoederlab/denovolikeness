@@ -56,7 +56,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Initialize PyRosetta
-pyrosetta.init(silent=True)
+pyrosetta.init("-mute all")
 
 class PredictionPipeline:
     """Main class for protein structure prediction pipeline."""
