@@ -31,12 +31,11 @@ pip install tr-rosetta-pytorch
 ```
 
 ## Classifying Proteins
-To classify the de novolikenss of proteins:
-```bash
-cd predict
+
 To run predictions on a directory of PDB files:
 
 ```bash
+cd predict
 python predict.py <pdb_directory>
 ```
 
