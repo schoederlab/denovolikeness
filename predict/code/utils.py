@@ -456,7 +456,7 @@ def preprocess(msa_file, wmin=0.8, ns=21):
 
 # paths
 
-CURRENT_PATH = Path('./').parent
+CURRENT_PATH = Path('./').parent.parent
 DEFAULT_MODEL_PATH = CURRENT_PATH / 'models'
 MODEL_PATH =  DEFAULT_MODEL_PATH / 'models.tar.gz'
 MODEL_FILES = [*Path(DEFAULT_MODEL_PATH).glob('*.pt')]
