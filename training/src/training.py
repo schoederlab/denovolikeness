@@ -67,8 +67,9 @@ def save_models(model_list, history_list, save_dir='./models/'):
     os.makedirs(os.path.join(save_dir, 'histories'), exist_ok=True)
     
     for i, model in enumerate(model_list):
-        model.save(os.path.join(save_dir, f'model_{i}'))
-        
+        # model.save(os.path.join(save_dir, f'model_{i}'))
+        keras.models.save_model(model, os.path.join(save_dir, f'model_{i}.keras'))
+            
     for i, history in enumerate(history_list):
         with open(os.path.join(save_dir, 'histories', f'history_{i}'), 'wb') as f:
             pickle.dump(history.history, f)
@@ -83,12 +84,13 @@ def load_models(model_dir='./models/', num_models=5):
     Returns:
         Tuple of (model_list, history_list)
     """
+    # model_dir = 
     print("\nLoading saved models...")
     model_list = []
     history_list = []
     
     for i in range(num_models):
-        model = keras.models.load_model(os.path.join(model_dir, f'model_{i}'))
+        model = keras.models.load_model(os.path.join(model_dir, f'model_{i}.keras'))
         model_list.append(model)
         
         with open(os.path.join(model_dir, 'histories', f'history_{i}'), "rb") as f:
@@ -146,6 +148,7 @@ def create_visualizations(model_list, history_list, test_X, test_y, img_dir='./i
     fig_loss, ax_loss = plt.subplots(1, 1, figsize=(10, 9))
     for i, history in enumerate(history_list):
         plot_loss(history, i, ax_loss)
+        
     plt.savefig(os.path.join(img_dir, "loss.png"),
                 dpi=300, bbox_inches='tight')
     plt.close()
@@ -156,16 +159,16 @@ def main():
     check_gpu()
     
     # Load and prepare data
-    data_path = "./data/cleaned_data_cropped.csv"
+    data_path = "../data/cleaned_data_cropped.csv"
     train_val_X, train_val_y, test_X, test_y, train_val_name, test_name = load_data(data_path)
     
     # Train or load models
     TRAIN_NEW_MODELS = False
-    if TRAIN_NEW_MODELS:
-        history_list, model_list, datasplit_list = train_models(train_val_X, train_val_y)
-        save_models(model_list, history_list)
-    else:
-        model_list, history_list = load_models()
+
+    history_list, model_list, datasplit_list = train_models(train_val_X, train_val_y)
+    save_models(model_list, history_list)
+
+    model_list, history_list = load_models()
     
     # Create visualizations
     create_visualizations(model_list, history_list, test_X, test_y)

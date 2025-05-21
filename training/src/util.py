@@ -28,7 +28,7 @@ from tensorflow.keras.callbacks import LearningRateScheduler
 
 SEED = 7
 BATCH_SIZE = 1024
-EPOCHS = 350
+EPOCHS = 300
 LEARNING_RATE = 1e-3
 DECAY_RATE = LEARNING_RATE / EPOCHS
 
