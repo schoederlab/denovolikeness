@@ -7,9 +7,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
-  - tensorflow=2.14.0
-  - tensorflow-base=2.14.0
+  - python=3.8
+  - cudatoolkit=11.0
+  - cudnn=8.0.5.39
+  - tensorflow=2.4.1
+  - tensorflow-base=2.4.1
   - pyrosetta=2023.45
   - numpy
   - pandas
@@ -17,3 +19,5 @@ dependencies:
   - scikit-learn
   - matplotlib
   - imbalanced-learn
+  - pip:
+    - tr-rosetta-pytorch==0.0.3
