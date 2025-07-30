@@ -82,7 +82,8 @@ def plot_confusion_matrix(labels, predictions, threshold=0.5, title='',
         cmap=plt.cm.Blues,
         normalize=None,
         ax=ax,
-        colorbar=False
+        colorbar=False,
+        include_values=False
     )
     
     # Style text in confusion matrix

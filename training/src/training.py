@@ -119,7 +119,7 @@ def create_visualizations(model_list, history_list, test_X, test_y, img_dir='./i
         plot_roc(test_y, test_pred, i,
                 xlabel="False Positive Rate",
                 ylabel="True Positive Rate",
-                title="ROC Curves",
+                title="ROC",
                 ax=ax_roc)
     
     ax_roc.plot([0, 1], [0, 1], "k--",
@@ -159,7 +159,7 @@ def main():
     check_gpu()
     
     # Load and prepare data
-    data_path = "../data/cleaned_data_cropped.csv"
+    data_path = "../data/training_data.csv"
     train_val_X, train_val_y, test_X, test_y, train_val_name, test_name = load_data(data_path)
     
     # Train or load models

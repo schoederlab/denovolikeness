@@ -12,6 +12,7 @@ print(tf.__version__)
 # import matplotlib as mpl
 # import matplotlib.pyplot as plt
 import numpy as np
+import joblib
 
 import sklearn
 from sklearn.preprocessing import RobustScaler
@@ -111,7 +112,8 @@ def prep_data(dataframe):
     scaler = RobustScaler()
     train_val_X = scaler.fit_transform(train_val_X)
     test_X = scaler.transform(test_X)
-    
+    joblib.dump(scaler, "scaler.pkl")
+
     return train_val_X, train_val_y, test_X, test_y, train_val_name, test_name
 
 def exp_decay(epoch):
