@@ -1,10 +1,3 @@
-"""
-Visualization utilities for model evaluation and analysis.
-
-This module provides functions for plotting confusion matrices, loss curves,
-and ROC curves with consistent styling.
-"""
-
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import numpy as np
@@ -28,7 +21,7 @@ STYLE = {
 mpl.rcParams['figure.figsize'] = (12, 10)
 
 def _apply_axis_styling(ax, title='', xlabel='', ylabel='', show_top_right=False):
-    """Apply consistent styling to plot axes."""
+
     # Set labels
     if title:
         ax.set_title(title, fontsize=STYLE['fontsize']['title'], 
@@ -60,17 +53,7 @@ def _apply_axis_styling(ax, title='', xlabel='', ylabel='', show_top_right=False
 
 def plot_confusion_matrix(labels, predictions, threshold=0.5, title='', 
                          xlabel='', ylabel='', ax=None):
-    """Plot confusion matrix with consistent styling.
-    
-    Args:
-        labels: True labels
-        predictions: Model predictions (probabilities)
-        threshold: Classification threshold
-        title: Plot title
-        xlabel: X-axis label
-        ylabel: Y-axis label
-        ax: Matplotlib axis to plot on
-    """
+
     if ax is None:
         fig, ax = plt.subplots(figsize=(10, 10))
     
@@ -112,13 +95,7 @@ def plot_confusion_matrix(labels, predictions, threshold=0.5, title='',
     return cm
 
 def plot_loss(history, fold_num, ax=None):
-    """Plot training and validation loss curves.
-    
-    Args:
-        history: Training history dictionary
-        fold_num: Fold number for labeling
-        ax: Matplotlib axis to plot on
-    """
+
     if ax is None:
         fig, ax = plt.subplots(figsize=(10, 9))
     
@@ -137,17 +114,7 @@ def plot_loss(history, fold_num, ax=None):
     _apply_axis_styling(ax, "Loss Function", "Epoch", "Loss")
 
 def plot_roc(labels, predictions, fold_num, title='', xlabel='', ylabel='', ax=None):
-    """Plot ROC curve.
-    
-    Args:
-        labels: True labels
-        predictions: Model predictions (probabilities)
-        fold_num: Fold number for labeling
-        title: Plot title
-        xlabel: X-axis label
-        ylabel: Y-axis label
-        ax: Matplotlib axis to plot on
-    """
+
     if ax is None:
         fig, ax = plt.subplots(figsize=(10, 9))
     
