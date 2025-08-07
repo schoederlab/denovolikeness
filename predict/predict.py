@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""
-Main script for protein structure prediction and analysis.
-
-This script processes PDB files to predict and analyze protein structures,
-calculating various structural features and making predictions about their
-characteristics.
-"""
 
 import os
 import sys
@@ -59,14 +52,9 @@ logger = logging.getLogger(__name__)
 pyrosetta.init('-mute all', silent=True)
 
 class PredictionPipeline:
-    """Main class for protein structure prediction pipeline."""
     
     def __init__(self, input_path: str):
-        """Initialize the prediction pipeline.
-        
-        Args:
-            input_path: Path to directory containing PDB files
-        """
+
         self.input_path = Path(input_path)
         if not self.input_path.exists():
             raise FileNotFoundError(f"Input path not found: {input_path}")
@@ -80,11 +68,7 @@ class PredictionPipeline:
         self.scaler = self._load_scaler()
     
     def _load_model(self) -> Any:
-        """Load the trained model using Keras.
-        
-        Returns:
-            Loaded Keras model
-        """
+
         try:
             #model_path = MODEL_DIR / 'model_1'
             model_path = MODEL_DIR / 'model_0.keras'
@@ -94,11 +78,7 @@ class PredictionPipeline:
             raise
     
     def _load_scaler(self) -> Any:
-        """Load the feature scaler.
-        
-        Returns:
-            Loaded scaler object
-        """
+
         try:
             return joblib.load(SCALER_PATH)
         except Exception as e:
@@ -106,14 +86,7 @@ class PredictionPipeline:
             raise
     
     def process_structure(self, pdb_file: Path) -> Dict[str, float]:
-        """Process a single PDB structure.
-        
-        Args:
-            pdb_file: Path to PDB file
-        
-        Returns:
-            Dictionary of calculated features
-        """
+
         try:
             # Load and process structure
             pose = pyrosetta.pose_from_file(str(pdb_file)).split_by_chain(1)
@@ -187,14 +160,7 @@ class PredictionPipeline:
             raise
     
     def predict(self, features: Dict[str, float]) -> float:
-        """Make prediction based on calculated features.
-        
-        Args:
-            features: Dictionary of calculated features
-        
-        Returns:
-            Prediction score
-        """
+
         try:
             X = np.array([[
                 features[feat] for feat in OUTPUT_FEATURES
@@ -207,7 +173,7 @@ class PredictionPipeline:
             raise
     
     def run(self) -> None:
-        """Run the prediction pipeline on all PDB files."""
+
         try:
             # Process each PDB file
             for pdb_file in self.input_path.glob(PDB_PATTERN):
@@ -236,7 +202,7 @@ class PredictionPipeline:
             raise
 
 def main():
-    """Main function to run the prediction pipeline."""
+
     try:
         if len(sys.argv) != 2:
             print("Usage: predict.py <pdb_directory>")
