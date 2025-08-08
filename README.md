@@ -3,13 +3,25 @@ A tool for assessing the de novo likeness of protein structures through structur
 
 ## Project Structure
 
-The project is organized into two main components:
+The project is organized into several main components:
 
 ### 1. Prediction (`/predict`)
 Machine learning model for classifying proteins based on their structural scores.
 
 ### 2. Training (`/training`)
-Code for training of the model
+Code for training the classification model.
+
+### 3. Data (`/data`)
+Contains training data, feature calculations, and prediction results:
+- `training_data.csv`: Training dataset
+- `features_screen/`: Calculated features for different organisms
+- `predictions_screen/`: Prediction results for screened organisms
+- `sequence_info/`: Organism sequence information and metadata
+
+### 4. Figures (`/figures`)
+Analysis notebooks and visualization code:
+- `screening/`: Cross-organism screening analysis and plots
+- `features/`: Feature analysis and visualization
 
 ## Installation
 
@@ -19,15 +31,22 @@ git clone https://github.com/JohannesKlier/denovolikeness
 cd denovolikeness
 ```
 
-2. Create and activate the conda environment:
+2. Set up the conda environment using the provided script:
 ```bash
-conda env create -f environment.yml
-conda activate denovolike
+chmod +x setup.sh
+./setup.sh
 ```
 
-3. Install the Pytorch version of [trRossetta](https://github.com/lucidrains/tr-rosetta-pytorch)
+This will create a conda environment with all necessary dependencies including:
+- Python 3.11
+- TensorFlow 2.16.1
+- PyTorch
+- PyRosetta
+- Scientific computing libraries (numpy, pandas, scikit-learn, matplotlib)
+
+3. Activate the environment:
 ```bash
-pip install tr-rosetta-pytorch
+conda activate denovolikeness
 ```
 
 ## Classifying Proteins
@@ -51,11 +70,26 @@ This will:
 
 1. Features File (`<directory_name>_features.csv`):
    - Contains structural features for each protein
-   - Includes: -logP_Struc, -logP_Contact, dist_acc, per_con, per_no_con, contact_order
+   - Includes: -logP_Struc, -logP_Contact, area_sc, per_con, per_no_con, contact_order
 
 2. Predictions File (`<directory_name>_predictions.csv`):
    - Contains final predictions for each protein
-   - Format: `<pdb_file>,<prediction_score>`
+   - Format: `UniProtID,scores`
+
+## Analysis and Visualization
+
+The `/figures` directory contains Jupyter notebooks for comprehensive analysis:
+
+### Cross-Organism Screening (`/figures/screening/`)
+- `screening.ipynb`: Complete analysis pipeline including:
+  - Feature calculation across multiple organisms
+  - Model predictions and scoring
+  - Phylogenetic analysis with dendrograms
+  - Statistical visualization (bar plots, violin plots, swarm plots)
+  - Cross-species comparison of denovolikeness
+
+### Feature Analysis (`/figures/features/`)
+- Analysis of structural features used in the classification model
 
 
 ## Citation
