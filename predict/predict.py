@@ -4,8 +4,10 @@ import os
 import sys
 import logging
 import warnings
+from sklearn.exceptions import InconsistentVersionWarning
 warnings.filterwarnings('ignore', category=FutureWarning)
-logging.disable(logging.WARNING)
+warnings.filterwarnings('ignore', category=InconsistentVersionWarning)
+
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 from pathlib import Path
@@ -44,7 +46,7 @@ from code.config import (
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    format='[%(asctime)s] %(name)s | %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
 
@@ -60,8 +62,15 @@ class PredictionPipeline:
             raise FileNotFoundError(f"Input path not found: {input_path}")
         
         self.directory_name = self.input_path.name
-        self.features_file = Path(f"{self.directory_name}_features.csv")
-        self.predictions_file = Path(f"{self.directory_name}_predictions.csv")
+        self.features_file = self.input_path / f"{self.directory_name}_features.csv"
+        self.predictions_file = self.input_path / f"{self.directory_name}_predictions.csv"
+
+        # Create output directories
+        self.npz_dir = self.input_path / "npz_files"
+        self.fasta_dir = self.input_path / "fasta"
+        logger.info(f"Creating output directories: {self.npz_dir} and {self.fasta_dir}")
+        self.npz_dir.mkdir(exist_ok=True)
+        self.fasta_dir.mkdir(exist_ok=True)
         
         # Load model and scaler
         self.model = self._load_model()
@@ -94,14 +103,15 @@ class PredictionPipeline:
             
             # Create FASTA file
             seq = pose.sequence()
-            header = f">{pdb_file}"
-            fasta_path = pdb_file.with_suffix(FASTA_EXTENSION)
+            header = f">{pdb_file.name}"
+            fasta_path = self.fasta_dir / pdb_file.with_suffix(FASTA_EXTENSION).name
+            logger.info(f"Creating FASTA file: {fasta_path}")
             with open(fasta_path, 'w') as fasta:
                 fasta.write(f"{header}\n{seq}\n")
             
-            # Get predictions
-            get_ensembled_predictions(str(fasta_path))
-            npz_path = pdb_file.with_suffix(NPZ_EXTENSION)
+            npz_path = self.npz_dir / pdb_file.with_suffix(NPZ_EXTENSION).name
+            logger.info(f"Creating NPZ file: {npz_path}")
+            get_ensembled_predictions(str(fasta_path), str(npz_path))
             
             # Process structure features
             pdb_out = prep_input('ChainA.pdb')
@@ -162,6 +172,7 @@ class PredictionPipeline:
     def predict(self, features: Dict[str, float]) -> float:
 
         try:
+            logger.info("Starting prediction...")
             X = np.array([[
                 features[feat] for feat in OUTPUT_FEATURES
             ]])
@@ -196,6 +207,10 @@ class PredictionPipeline:
                     f.write(f"{pdb_file.name},{prediction}\n")
                 
                 logger.info(f"Prediction saved to {self.predictions_file}")
+
+            logger.info("Pipeline finished.")
+            logger.info(f"Feature file saved to: {self.features_file}")
+            logger.info(f"Predictions file saved to: {self.predictions_file}")
                 
         except Exception as e:
             logger.error(f"Pipeline failed: {str(e)}")
@@ -204,11 +219,18 @@ class PredictionPipeline:
 def main():
 
     try:
-        if len(sys.argv) != 2:
-            print("Usage: predict.py <pdb_directory>")
-            sys.exit(1)
-        
-        pipeline = PredictionPipeline(sys.argv[1])
+        import argparse
+
+        parser = argparse.ArgumentParser(description="Predict denovolikeness of PDB structures.")
+        parser.add_argument("pdb_directory", type=str, help="Directory containing PDB files.")
+        parser.add_argument("--no-logging", dest="logging", action="store_false", help="Disable logging.")
+        parser.set_defaults(logging=True)
+        args = parser.parse_args()
+
+        if not args.logging:
+            logging.disable(logging.CRITICAL)
+
+        pipeline = PredictionPipeline(args.pdb_directory)
         pipeline.run()
         
     except Exception as e:
