@@ -12,6 +12,7 @@ print(tf.__version__)
 # import matplotlib as mpl
 # import matplotlib.pyplot as plt
 import numpy as np
+import joblib
 
 import sklearn
 from sklearn.preprocessing import RobustScaler
@@ -111,31 +112,16 @@ def prep_data(dataframe):
     scaler = RobustScaler()
     train_val_X = scaler.fit_transform(train_val_X)
     test_X = scaler.transform(test_X)
-    
+    joblib.dump(scaler, "scaler.pkl")
+
     return train_val_X, train_val_y, test_X, test_y, train_val_name, test_name
 
 def exp_decay(epoch):
-    """Calculate learning rate with exponential decay.
-    
-    Args:
-        epoch: Current epoch number
-    
-    Returns:
-        Decayed learning rate
-    """
+
     return LEARNING_RATE * np.exp(-DECAY_RATE * epoch)
 
 def cross_validate(X, y, create_model):
-    """Perform k-fold cross-validation with SMOTE resampling.
-    
-    Args:
-        X: Input features
-        y: Target labels
-        create_model: Function to create model
-    
-    Returns:
-        Tuple of (history_list, model_list, datasplit_list)
-    """
+
     history_list = []
     model_list = []
     datasplit_list = []
@@ -180,16 +166,7 @@ def cross_validate(X, y, create_model):
 
 
 def eval_models(df, model_list, datasplit_list):
-    """Evaluate models on training and validation sets.
-    
-    Args:
-        df: Input DataFrame
-        model_list: List of trained models
-        datasplit_list: List of data split indices
-    
-    Returns:
-        Tuple of (train_scores, val_scores)
-    """
+
     METRICS = [
         'Accuracy', 'Balanced Accuracy', 'ROC_AUC',
         'Average Precision', 'Matthews Correlation',
@@ -258,81 +235,5 @@ def eval_models(df, model_list, datasplit_list):
         print(f"  Validation:  {val_avg[i]} ± {val_std[i]}")
     
     return train_scores, val_scores
-# def plot_loss(history, label, n):
-#     # Use a log scale on y-axis to show the wide range of values.
-#     colors = ["#ee6a00","#72acff","#fdaf00","#907aff"]
-#     plt.semilogy(history.epoch, history.history['loss'],
-#                color=colors[n], label='Train ' + label)
-#     plt.semilogy(history.epoch, history.history['val_loss'],
-#                color=colors[n], label='Val ' + label,
-#                linestyle="--")
-#     plt.xlabel('Epoch')
-#     plt.ylabel('Loss')
-#     plt.legend()
-
-    
-    
-# def plot_metrics(history,title='', 
-#                   xlabel='', ylabel='',ax=None,grid=False,my_col ='0.2'):
-#     colors = plt.rcParams['axes.prop_cycle'].by_key()['color']
-#     metrics = ['loss', 'auc', 'precision', 'recall']
-#     for n, metric in enumerate(metrics):
-#         name = metric.replace("_"," ").capitalize()
-#         plt.subplot(2,2,n+1)
-#         plt.plot(history.epoch, history.history[metric], color=colors[0], label='Train')
-#         plt.plot(history.epoch, history.history['val_'+metric],
-#                  color=colors[0], linestyle="--", label='Val')
-
-
-#         plt.title(title, fontsize=20,fontname='Arial', weight='bold', color=my_col)
-#         plt.xlabel(xlabel, fontsize=15,fontname='Arial', weight='bold', color=my_col)
-#         plt.ylabel(ylabel, fontsize=15,fontname='Arial', weight='bold', color=my_col)
-#         plt.xticks(fontsize=15,fontname='Arial', weight='bold', color=my_col)
-#         plt.yticks(fontsize=15,fontname='Arial', weight='bold', color=my_col)
-#         if grid:    
-#             plt.grid(color='black',axis='both',linestyle=':',linewidth=0.5,which='major')
-
-
-#         plt.xlabel('Epoch')
-#         plt.ylabel(name)
-#         if metric == 'loss':
-#             plt.ylim([0, plt.ylim()[1]])
-#         elif metric == 'auc':
-#             plt.ylim([0.8,1])
-#         else:
-#             plt.ylim([0,1])
-
-#         plt.legend()
-
-    
-    
-# def plot_roc(name, labels, predictions, **kwargs):
-#     fp, tp, _ = roc_curve(labels, predictions)
-
-#     plt.plot(100*fp, 100*tp, label=name, linewidth=2, **kwargs)
-#     plt.xlabel('False positives [%]')
-#     plt.ylabel('True positives [%]')
-#     plt.xlim([-0.5,20])
-#     plt.ylim([80,100.5])
-#     plt.grid(True)
-#     ax = plt.gca()
-#     ax.set_aspect('equal')
-    
-    
-# def make_ds(features, labels):
-#     ds = tf.data.Dataset.from_tensor_slices((features, labels))#.cache()
-#     ds = ds.shuffle(100000).repeat()
-#     return ds
-
-
-# def plot_prc(name, labels, predictions, **kwargs):
-#     precision, recall, _ = precision_recall_curve(labels, predictions)
-
-#     plt.plot(precision, recall, label=name, linewidth=2, **kwargs)
-#     plt.xlabel('Precision')
-#     plt.ylabel('Recall')
-#     plt.grid(True)
-#     ax = plt.gca()
-#     ax.set_aspect('equal')
     
     

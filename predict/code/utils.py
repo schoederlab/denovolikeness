@@ -550,9 +550,9 @@ def get_ensembled_predictions(input_file, output_file=None, model_dir=DEFAULT_MO
     net = trRosettaNetwork()
     i = preprocess(input_file)
 
-    if output_file is None:
-        input_path = Path(input_file)
-        output_file = f'{input_path.parents[0] / input_path.stem}.npz'
+    # if output_file is None:
+    #     input_path = Path(input_file)
+    #     output_file = f'{input_path.parents[0] / input_path.stem}.npz'
 
     outputs = []
     model_files = [*Path(model_dir).glob('*.pt')]
@@ -570,7 +570,7 @@ def get_ensembled_predictions(input_file, output_file=None, model_dir=DEFAULT_MO
     # prob_theta, prob_phi, prob_distance, prob_omega
     output_dict = dict(zip(['theta', 'phi', 'dist', 'omega'], averaged_outputs))
     np.savez_compressed(output_file, **output_dict)
-    print(f'predictions for {input_file} saved to {output_file}')
+    #print(f'predictions for {input_file} saved to {output_file}')
 
 # def predict():
 #     fire.Fire(get_ensembled_predictions)
