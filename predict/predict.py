@@ -28,8 +28,6 @@ from code.utils import (
 from code.functions import (
     P_struc_given_seq,
     P_contact_given_seq,
-    distance_score,
-    d_close,
     perc_contact,
     perc_no_contact
 )
@@ -55,7 +53,7 @@ pyrosetta.init('-mute all', silent=True)
 
 class PredictionPipeline:
     
-    def __init__(self, input_path: str):
+    def __init__(self, input_path: str, overwrite: bool = True, save_structure: bool = False):
 
         self.input_path = Path(input_path)
         if not self.input_path.exists():
@@ -65,16 +63,27 @@ class PredictionPipeline:
         self.features_file = self.input_path / f"{self.directory_name}_features.csv"
         self.predictions_file = self.input_path / f"{self.directory_name}_predictions.csv"
 
+        self.overwrite = overwrite
+        if self.overwrite or not self.features_file.exists():
+            with open(self.features_file, "w") as f:
+                f.write("pdb_file\t" + '\t'.join(OUTPUT_FEATURES) + "\n")
+        if self.overwrite or not self.predictions_file.exists():
+            with open(self.predictions_file, "w") as f:
+                f.write("pdb_file,prediction\n")
+
         # Create output directories
         self.npz_dir = self.input_path / "npz_files"
         self.fasta_dir = self.input_path / "fasta"
-        logger.info(f"Creating output directories: {self.npz_dir} and {self.fasta_dir}")
+        self.pred_structure_dir = self.input_path / "pred_structure"
+        logger.info(f"Creating output directories: {self.npz_dir}, {self.fasta_dir} and {self.pred_structure_dir}")
         self.npz_dir.mkdir(exist_ok=True)
         self.fasta_dir.mkdir(exist_ok=True)
+        self.pred_structure_dir.mkdir(exist_ok=True)
         
         # Load model and scaler
         self.model = self._load_model()
         self.scaler = self._load_scaler()
+        self.save_structure = save_structure
     
     def _load_model(self) -> Any:
 
@@ -99,7 +108,8 @@ class PredictionPipeline:
         try:
             # Load and process structure
             pose = pyrosetta.pose_from_file(str(pdb_file)).split_by_chain(1)
-            pose.dump_pdb('ChainA.pdb')
+            temp_pdb_path = self.pred_structure_dir / f"{pdb_file.stem}_firstChain.pdb"
+            pose.dump_pdb(str(temp_pdb_path))
             
             # Create FASTA file
             seq = pose.sequence()
@@ -114,7 +124,7 @@ class PredictionPipeline:
             get_ensembled_predictions(str(fasta_path), str(npz_path))
             
             # Process structure features
-            pdb_out = prep_input('ChainA.pdb')
+            pdb_out = prep_input(str(temp_pdb_path))
             pdb_feat = pdb_out["feat"][None]
             
             # Extract features
@@ -184,6 +194,7 @@ class PredictionPipeline:
             raise
     
     def run(self) -> None:
+        import shutil
 
         try:
             # Process each PDB file
@@ -215,6 +226,11 @@ class PredictionPipeline:
         except Exception as e:
             logger.error(f"Pipeline failed: {str(e)}")
             raise
+        finally:
+            if not self.save_structure:
+                if self.pred_structure_dir.exists():
+                    shutil.rmtree(self.pred_structure_dir)
+                    logger.info(f"Removed temporary structure directory: {self.pred_structure_dir}")
 
 def main():
 
@@ -224,13 +240,16 @@ def main():
         parser = argparse.ArgumentParser(description="Predict denovolikeness of PDB structures.")
         parser.add_argument("pdb_directory", type=str, help="Directory containing PDB files.")
         parser.add_argument("--no-logging", dest="logging", action="store_false", help="Disable logging.")
+        parser.add_argument("--save-structure", action="store_true", help="Save the PDB files of the first chain.")
+        parser.add_argument("--no-overwrite", dest='overwrite', action="store_false", help="Prevent overwriting existing prediction files.")
+        parser.set_defaults(overwrite=True)
         parser.set_defaults(logging=True)
         args = parser.parse_args()
 
         if not args.logging:
             logging.disable(logging.CRITICAL)
 
-        pipeline = PredictionPipeline(args.pdb_directory)
+        pipeline = PredictionPipeline(args.pdb_directory, overwrite=args.overwrite, save_structure=args.save_structure)
         pipeline.run()
         
     except Exception as e:
