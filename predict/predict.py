@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
 import os
+import shutil
 import sys
 import logging
 import warnings
+import argparse
 from sklearn.exceptions import InconsistentVersionWarning
 warnings.filterwarnings('ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=InconsistentVersionWarning)
@@ -103,7 +105,7 @@ class PredictionPipeline:
             logger.error(f"Error loading scaler: {str(e)}")
             raise
     
-    def process_structure(self, pdb_file: Path) -> Dict[str, float]:
+    def process_structure(self, pdb_file: Path) -> Optional[Dict[str, float]]:
 
         try:
             # Load and process structure
@@ -177,9 +179,9 @@ class PredictionPipeline:
             
         except Exception as e:
             logger.error(f"Error processing {pdb_file}: {str(e)}")
-            raise
+            return None
     
-    def predict(self, features: Dict[str, float]) -> float:
+    def predict(self, features: Dict[str, float]) -> Optional[float]:
 
         try:
             logger.info("Starting prediction...")
@@ -194,8 +196,6 @@ class PredictionPipeline:
             raise
     
     def run(self) -> None:
-        import shutil
-
         try:
             # Process each PDB file
             for pdb_file in self.input_path.glob(PDB_PATTERN):
@@ -204,9 +204,13 @@ class PredictionPipeline:
                 # Calculate features
                 features = self.process_structure(pdb_file)
                 
+                if features is None:
+                    logger.warning(f"Skipping {pdb_file.name} due to processing errors.")
+                    continue
+                
                 # Save features
                 feature_line = "\t".join([
-                    str(pdb_file),
+                    str(pdb_file.name),
                     *[str(features[feat]) for feat in OUTPUT_FEATURES]
                 ])
                 with open(self.features_file, "a") as f:
@@ -214,6 +218,10 @@ class PredictionPipeline:
                 
                 # Make and save prediction
                 prediction = self.predict(features)
+                if prediction is None:
+                    logger.warning(f"Skipping prediction for {pdb_file.name} due to prediction errors.")
+                    continue
+
                 with open(self.predictions_file, "a") as f:
                     f.write(f"{pdb_file.name},{prediction}\n")
                 
@@ -235,8 +243,6 @@ class PredictionPipeline:
 def main():
 
     try:
-        import argparse
-
         parser = argparse.ArgumentParser(description="Predict denovolikeness of PDB structures.")
         parser.add_argument("pdb_directory", type=str, help="Directory containing PDB files.")
         parser.add_argument("--no-logging", dest="logging", action="store_false", help="Disable logging.")
