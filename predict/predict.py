@@ -210,7 +210,7 @@ class PredictionPipeline:
                 
                 # Save features
                 feature_line = "\t".join([
-                    str(pdb_file),
+                    str(pdb_file.name),
                     *[str(features[feat]) for feat in OUTPUT_FEATURES]
                 ])
                 with open(self.features_file, "a") as f:
