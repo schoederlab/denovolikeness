@@ -1,0 +1,524 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368745",
+          "query_title": "5j0h_A,B",
+          "query_len": 79,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5J0H|A",
+                  "accession": "5J0H_A",
+                  "title": "Chain A, Design construct 2L6HC3_13 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.673,
+                  "score": 374,
+                  "evalue": 9.15135e-45,
+                  "identity": 79,
+                  "positive": 79,
+                  "query_from": 1,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 79,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GSHMGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKINAKSD",
+                  "hseq": "GSHMGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKINAKSD",
+                  "midline": "GSHMGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKINAKSD"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5J0I|A",
+                  "accession": "5J0I_A",
+                  "title": "Chain A, Designed protein 2L6HC3_12 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.612,
+                  "score": 270,
+                  "evalue": 6.71967e-29,
+                  "identity": 59,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 79,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GSHMGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKINAKSD",
+                  "hseq": "GSHMGTKYELRRALEELEKALQELREMLRKLKESLEELKKNPSEDALVRNNELIVEVLRVIVEVLSIIARVLEINARSD",
+                  "midline": "GSHMGTKYELRRALEELEKAL+EL++ L +L+ SLEEL+KNPSEDALV NN L VE  ++IVEVL IIA VL+INA+SD"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|7UHB|K",
+                  "accession": "7UHB_K",
+                  "title": "Chain K, Multivalent miniprotein inhibitor AHB2-2GS-SB175 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 1.68956e-25,
+                  "identity": 57,
+                  "positive": 59,
+                  "query_from": 13,
+                  "query_to": 74,
+                  "hit_from": 80,
+                  "hit_to": 141,
+                  "align_len": 62,
+                  "gaps": 0,
+                  "qseq": "ALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "ALEELEKALRELKKSTDELERSTEELEKNPSEDALVENNRLIVENNKIIVEVLRIIAKVLKL",
+                  "midline": "ALEELEKALRELKKS DELERS EELEKNPSEDALVENNRL VENNKIIVEVLRIIA+VLK+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6N9H|A",
+                  "accession": "6N9H_A",
+                  "title": "Chain A, amantadine-binding protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 80,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 1.08371e-19,
+                  "identity": 61,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 1,
+                  "qseq": "GSHMG-TKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKINAK",
+                  "hseq": "GSHMGDAQDKLKYLVKQLERALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIILELAKASAK",
+                  "midline": "GSHMG  + +L+  +++LE+ALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRII E+ K +AK"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|6MSQ|A",
+                  "accession": "6MSQ_A",
+                  "title": "Chain A, pRO-2.3 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 76,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 7.89825e-15,
+                  "identity": 41,
+                  "positive": 54,
+                  "query_from": 5,
+                  "query_to": 74,
+                  "hit_from": 1,
+                  "hit_to": 70,
+                  "align_len": 70,
+                  "gaps": 0,
+                  "qseq": "GTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "GSEYEIRKALEELKASTAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVENNRIIAAVLEL",
+                  "midline": "G++YE+R+ALEEL+ +  ELK++   L    EEL+KNPSEDALVE+NR  VE+N IIVE  RIIA VL++"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|5J0J|A",
+                  "accession": "5J0J_A",
+                  "title": "Chain A, designed protein 2L6HC3_6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 3.95879e-11,
+                  "identity": 39,
+                  "positive": 55,
+                  "query_from": 1,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 79,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GSHMGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKINAKSD",
+                  "hseq": "GSHMGTKYKIKETLKRLEDSLRELRRILEELKEMLERLEKNPDKDVIVEVLKVIVKAIEASVENQRISAENQKALAESD",
+                  "midline": "GSHMGTKY+++  L+ LE +LREL++ L+EL+  LE LEKNP +D +VE  ++ V+  +  VE  RI AE  K  A+SD"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|8UB3|4",
+                  "accession": "8UB3_4",
+                  "title": "Chain 4, DpHF7 filament [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 245,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.0106,
+                  "score": 162,
+                  "evalue": 5.12971e-11,
+                  "identity": 40,
+                  "positive": 51,
+                  "query_from": 4,
+                  "query_to": 72,
+                  "hit_from": 1,
+                  "hit_to": 69,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "MGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVL",
+                  "hseq": "MGSEVEILKALLELKKSTAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVENNRIIAAVL",
+                  "midline": "MG++ E+ +AL EL+K+  ELK++   L    EEL+KNPSEDALVE+NR  VE+N IIVE  RIIA VL"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.4177e-10,
+                  "identity": 39,
+                  "positive": 51,
+                  "query_from": 4,
+                  "query_to": 74,
+                  "hit_from": 76,
+                  "hit_to": 146,
+                  "align_len": 71,
+                  "gaps": 0,
+                  "qseq": "MGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "VGMTQEIKKALEELVASTAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVENNRIIAAVLEL",
+                  "midline": "+G   E+++ALEEL  +  ELK++   L    EEL+KNPSEDALVE+NR  VE+N IIVE  RIIA VL++"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 1.56227e-06,
+                  "identity": 37,
+                  "positive": 46,
+                  "query_from": 6,
+                  "query_to": 74,
+                  "hit_from": 154,
+                  "hit_to": 222,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "TKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "TDAEVIKALIELRLSTLELVAATASLREITEELKKNPSEDALVEHNRAIVEHNAIIVENNRIIAAVLEL",
+                  "midline": "T  E+ +AL EL  +  EL  +   L    EEL+KNPSEDALVE+NR  VE+N IIVE  RIIA VL++"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|8UBG|A",
+                  "accession": "8UBG_A",
+                  "title": "Chain A, DpHF19,Green fluorescent protein (Fragment) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 497,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 2.85271e-08,
+                  "identity": 34,
+                  "positive": 43,
+                  "query_from": 6,
+                  "query_to": 63,
+                  "hit_from": 154,
+                  "hit_to": 211,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "TKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVE",
+                  "hseq": "TDEEVRKALEELKASTAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVE",
+                  "midline": "T  E+R+ALEEL+ +  ELK++   L    EEL+KNPSEDALVE+NR  VE+N IIVE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 5.8184e-08,
+                  "identity": 36,
+                  "positive": 52,
+                  "query_from": 4,
+                  "query_to": 74,
+                  "hit_from": 1,
+                  "hit_to": 71,
+                  "align_len": 71,
+                  "gaps": 0,
+                  "qseq": "MGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "MGSEEEIAKALEELVASLAELKRATLKLLDITDKLKKNPSESALVSHNKAIVEHNAIIVENNRIIAAVLEL",
+                  "midline": "MG++ E+ +ALEEL  +L ELK++  +L    ++L+KNPSE ALV +N+  VE+N IIVE  RIIA VL++"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 1.26664e-05,
+                  "identity": 35,
+                  "positive": 46,
+                  "query_from": 4,
+                  "query_to": 74,
+                  "hit_from": 76,
+                  "hit_to": 146,
+                  "align_len": 71,
+                  "gaps": 0,
+                  "qseq": "MGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "VGMTDEIDLALLKLKASTARLKVATALLRMITEELKKNPSEDALVEHNRAIVNHNAIIVENNRIIAAVLEL",
+                  "midline": "+G   E+  AL +L+ +   LK +   L    EEL+KNPSEDALVE+NR  V +N IIVE  RIIA VL++"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|8UAO|A",
+                  "accession": "8UAO_A",
+                  "title": "Chain A, DpHF18 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 3.40714e-08,
+                  "identity": 34,
+                  "positive": 43,
+                  "query_from": 6,
+                  "query_to": 63,
+                  "hit_from": 167,
+                  "hit_to": 224,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "TKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVE",
+                  "hseq": "TDEEVRKALEELKASTAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVE",
+                  "midline": "T  E+R+ALEEL+ +  ELK++   L    EEL+KNPSEDALVE+NR  VE+N IIVE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.5286,
+                  "score": 127,
+                  "evalue": 3.62523e-06,
+                  "identity": 35,
+                  "positive": 47,
+                  "query_from": 10,
+                  "query_to": 74,
+                  "hit_from": 20,
+                  "hit_to": 84,
+                  "align_len": 65,
+                  "gaps": 0,
+                  "qseq": "LRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "IAKALEELVASLAELKRATLKLLVITEELKKNPSESALVSHNKAIVEHNAIIVENNRIIAAVLEL",
+                  "midline": "+ +ALEEL  +L ELK++  +L    EEL+KNPSE ALV +N+  VE+N IIVE  RIIA VL++"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 52.373,
+                  "score": 124,
+                  "evalue": 9.50033e-06,
+                  "identity": 36,
+                  "positive": 46,
+                  "query_from": 4,
+                  "query_to": 74,
+                  "hit_from": 89,
+                  "hit_to": 159,
+                  "align_len": 71,
+                  "gaps": 0,
+                  "qseq": "MGTKYELRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVLKI",
+                  "hseq": "VGMTDEILLALLELKASTARLKVATALLRMITEELKKNPSEDALVEHNRAIVNHNAIIVENNRIIAAVLEL",
+                  "midline": "+G   E+  AL EL+ +   LK +   L    EEL+KNPSEDALVE+NR  V +N IIVE  RIIA VL++"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "pdb|8GLT|0",
+                  "accession": "8GLT_0",
+                  "title": "Chain 0, C3-comp_O32-15, polyalanine model [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 338,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 56.9954,
+                  "score": 136,
+                  "evalue": 3.03579e-07,
+                  "identity": 38,
+                  "positive": 44,
+                  "query_from": 17,
+                  "query_to": 72,
+                  "hit_from": 269,
+                  "hit_to": 331,
+                  "align_len": 63,
+                  "gaps": 7,
+                  "qseq": "LEKALRELKKSLDELERSL-------EELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVL",
+                  "hseq": "IEALLRLLKKSTAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVENNRIIAMVL",
+                  "midline": "+E  LR LKKS  EL+R+        EEL+KNPSEDALVE+NR  VE+N IIVE  RIIA VL"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|9DRL|B",
+                  "accession": "9DRL_B",
+                  "title": "Chain B, T33-549_A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 400,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 2.25105e-06,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 23,
+                  "query_to": 72,
+                  "hit_from": 20,
+                  "hit_to": 69,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "ELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIVEVLRIIAEVL",
+                  "hseq": "ELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVENNRIIATVL",
+                  "midline": "ELK++   L    EEL+KNPSEDALVE+NR  VE+N IIVE  RIIA VL"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|8CWY|A",
+                  "accession": "8CWY_A",
+                  "title": "Chain A, T32-15-1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 451,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000166336,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 10,
+                  "query_to": 62,
+                  "hit_from": 389,
+                  "hit_to": 434,
+                  "align_len": 53,
+                  "gaps": 7,
+                  "qseq": "LRRALEELEKALRELKKSLDELERSLEELEKNPSEDALVENNRLNVENNKIIV",
+                  "hseq": "LRLSTAELERATRSLKAIT-------EELKKNPSEDALVEHNRAIVEHNRIIV",
+                  "midline": "LR +  ELE+A R LK          EEL+KNPSEDALVE+NR  VE+N+IIV"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

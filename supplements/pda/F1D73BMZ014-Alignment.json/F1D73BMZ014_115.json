@@ -1,0 +1,759 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368760",
+          "query_title": "4n9g_C,D,Y,Z",
+          "query_len": 123,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|4JLR|C",
+                  "accession": "4JLR_C",
+                  "title": "Chain C, RSV_1Isea designed scaffold [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.817,
+                  "score": 621,
+                  "evalue": 5.14637e-81,
+                  "identity": 123,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "GSRSDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQGSWLEHHHHHH",
+                  "hseq": "GSRSDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQGSWLEHHHHHH",
+                  "midline": "GSRSDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQGSWLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|6XXV|C",
+                  "accession": "6XXV_C",
+                  "title": "Chain C, S2_1.2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 6.47543e-42,
+                  "identity": 78,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 118,
+                  "hit_from": 2,
+                  "hit_to": 119,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "GSRSDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQGSWLEH",
+                  "hseq": "ASREDMREEADEDFKSFVEAAKDNFNKFKARLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTGGSWLEH",
+                  "midline": " SR DMR++A+  F  FVEAAK+ F+KFKA LRKG I  E R+ MKKLA++ A +A+ AVR RLSELLSKINDMPITNDQKKLMSN VL+FA +AE +I+ LAA A  +FT GSWLEH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|4L8I|A",
+                  "accession": "4L8I_A",
+                  "title": "Chain A, RSV epitope scaffold FFL_005 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 6.14275e-40,
+                  "identity": 77,
+                  "positive": 82,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 121,
+                  "gaps": 6,
+                  "qseq": "GSRSDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQGSWLEHHHH",
+                  "hseq": "GSMSDIRKDLEERFDKLVEALKNKVDKMKAAFRMDQFHEERMKDWFKDLRKEVEQMRRAVRNYASEALSKINDLPITNDDKKLASNDVLKLVAEVWKKLEAILADVE------AWFTHHHH",
+                  "midline": "GS SD+RKD E RFDK VEA KNK DK KAA R     EER KD  K  RKE EQ RRAVRN  SE LSKIND+PITND KKL SNDVLK  AE  KK+EA+ AD E      +W  HHHH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|3LHP|S",
+                  "accession": "3LHP_S",
+                  "title": "Chain S, 4E10_D0_1ISEA_004_N (T93) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.4185,
+                  "score": 202,
+                  "evalue": 2.6062e-17,
+                  "identity": 61,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 113,
+                  "hit_from": 7,
+                  "hit_to": 123,
+                  "align_len": 119,
+                  "gaps": 8,
+                  "qseq": "GSRSDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRL------SELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQG",
+                  "hseq": "GSISDIRKDAEVRMDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLW--DVQKLTDAAIKKIEAALADMEAWLTQG",
+                  "midline": "GS SD+RKDAE R DK VEA KNK DKFKAA+RK    EER KD  K+ R EAEQAR AVRN        +  L K  ++   +  + L   DV K    A KKIEA  AD E   TQG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|1Y69|8",
+                  "accession": "1Y69_8",
+                  "title": "Chain 8, Ribosome-recycling factor [Escherichia coli K-12]",
+                  "taxid": 83333,
+                  "sciname": "Escherichia coli K-12"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 1.3493e-12,
+                  "identity": 51,
+                  "positive": 62,
+                  "query_from": 4,
+                  "query_to": 112,
+                  "hit_from": 3,
+                  "hit_to": 112,
+                  "align_len": 113,
+                  "gaps": 7,
+                  "qseq": "SDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKI----NDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "SDIRKDAEVRMDKCVEAFKTQISKIRTG---GGGTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "SD+RKDAE R DK VEA K +  K +     G   EERRKD+ K+ R EAEQAR AVRN   +   K+     D  I+ D  +   +DV K    A KKIEA  AD E +  Q"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|6YWD|C",
+                  "accession": "6YWD_C",
+                  "title": "Chain C, De novo designed protein 4H_01 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.9878,
+                  "score": 123,
+                  "evalue": 6.44013e-06,
+                  "identity": 24,
+                  "positive": 29,
+                  "query_from": 55,
+                  "query_to": 92,
+                  "hit_from": 2,
+                  "hit_to": 39,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "QARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFA",
+                  "hseq": "EVERELRNWLSEVLSKINDAPVTNDIKKAISNQVLKVA",
+                  "midline": "+  R +RN LSE+LSKIND P+TND KK +SN VLK A"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|AXX71039.1|",
+                  "accession": "AXX71039",
+                  "title": "fusion protein, partial [Human respiratory syncytial virus A]",
+                  "taxid": 208893,
+                  "sciname": "Human respiratory syncytial virus A"
+                }
+              ],
+              "len": 46,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.000190807,
+                  "identity": 21,
+                  "positive": 23,
+                  "query_from": 65,
+                  "query_to": 88,
+                  "hit_from": 15,
+                  "hit_to": 38,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SELLSKINDMPITNDQKKLMSNDV",
+                  "hseq": "SELLSLINDMPITNDQKKLMSSNV",
+                  "midline": "SELLS INDMPITNDQKKLMS++V"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "emb|CUS01858.1|",
+                  "accession": "CUS01858",
+                  "title": "Fusion Protein, partial [human respiratory syncytial virus]",
+                  "taxid": 11250,
+                  "sciname": "human respiratory syncytial virus"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 0.000214323,
+                  "identity": 22,
+                  "positive": 23,
+                  "query_from": 65,
+                  "query_to": 88,
+                  "hit_from": 75,
+                  "hit_to": 98,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SELLSKINDMPITNDQKKLMSNDV",
+                  "hseq": "SELLSLINDMPITNDQKKLMSNNV",
+                  "midline": "SELLS INDMPITNDQKKLMSN+V"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|8YDK|A",
+                  "accession": "8YDK_A",
+                  "title": "Chain A, Fusion glycoprotein F2, F1 [Human respiratory syncytial virus A]",
+                  "taxid": 208893,
+                  "sciname": "Human respiratory syncytial virus A"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.000290808,
+                  "identity": 22,
+                  "positive": 23,
+                  "query_from": 65,
+                  "query_to": 88,
+                  "hit_from": 191,
+                  "hit_to": 214,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SELLSKINDMPITNDQKKLMSNDV",
+                  "hseq": "SELLSLINDMPITNDQKKLMSNNV",
+                  "midline": "SELLS INDMPITNDQKKLMSN+V"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|AXX71093.1|",
+                  "accession": "AXX71093",
+                  "title": "fusion protein, partial [Human respiratory syncytial virus B]",
+                  "taxid": 208895,
+                  "sciname": "Human respiratory syncytial virus B"
+                }
+              ],
+              "len": 40,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.000440088,
+                  "identity": 21,
+                  "positive": 23,
+                  "query_from": 65,
+                  "query_to": 88,
+                  "hit_from": 9,
+                  "hit_to": 32,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SELLSKINDMPITNDQKKLMSNDV",
+                  "hseq": "SELLSLINDMPITNDQKKLMSSNV",
+                  "midline": "SELLS INDMPITNDQKKLMS++V"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "dbj|BEC69749.1|",
+                  "accession": "BEC69749",
+                  "title": "hypothetical protein VEE57_14650 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.000530221,
+                  "identity": 35,
+                  "positive": 44,
+                  "query_from": 37,
+                  "query_to": 112,
+                  "hit_from": 28,
+                  "hit_to": 107,
+                  "align_len": 80,
+                  "gaps": 4,
+                  "qseq": "IKEERRKDMKKLARKEAEQARRAVRNRLSELLSKI----NDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "LTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+ EERRKD+ K+ R EAEQAR AVRN   +   K+     D  I+ D  +   +DV K    A KKIEA  AD E +  Q"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_049043930.1|",
+                  "accession": "WP_049043930",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.00108905,
+                  "identity": 35,
+                  "positive": 44,
+                  "query_from": 37,
+                  "query_to": 112,
+                  "hit_from": 44,
+                  "hit_to": 123,
+                  "align_len": 80,
+                  "gaps": 4,
+                  "qseq": "IKEERRKDMKKLARKEAEQARRAVRNRLSELLSKI----NDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "LTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+ EERRKD+ K+ R EAEQAR AVRN   +   K+     D  I+ D  +   +DV K    A KKIEA  AD E +  Q"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|8YDL|A",
+                  "accession": "8YDL_A",
+                  "title": "Chain A, Fusion glycoprotein F2, F1 [Respiratory syncytial virus]",
+                  "taxid": 12814,
+                  "sciname": "Respiratory syncytial virus"
+                }
+              ],
+              "len": 491,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.00162601,
+                  "identity": 22,
+                  "positive": 23,
+                  "query_from": 65,
+                  "query_to": 88,
+                  "hit_from": 191,
+                  "hit_to": 214,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SELLSKINDMPITNDQKKLMSNDV",
+                  "hseq": "SELLSLINDMPITNDQKKLMSNNV",
+                  "midline": "SELLS INDMPITNDQKKLMSN+V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.00162601,
+                  "identity": 22,
+                  "positive": 23,
+                  "query_from": 65,
+                  "query_to": 88,
+                  "hit_from": 433,
+                  "hit_to": 456,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "SELLSKINDMPITNDQKKLMSNDV",
+                  "hseq": "SELLSLINDMPITNDQKKLMSNNV",
+                  "midline": "SELLS INDMPITNDQKKLMSN+V"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_249819009.1|",
+                  "accession": "WP_249819009",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.00168825,
+                  "identity": 35,
+                  "positive": 44,
+                  "query_from": 37,
+                  "query_to": 112,
+                  "hit_from": 80,
+                  "hit_to": 159,
+                  "align_len": 80,
+                  "gaps": 4,
+                  "qseq": "IKEERRKDMKKLARKEAEQARRAVRNRLSELLSKI----NDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "LTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+ EERRKD+ K+ R EAEQAR AVRN   +   K+     D  I+ D  +   +DV K    A KKIEA  AD E +  Q"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_032260747.1|",
+                  "accession": "WP_032260747",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.00184743,
+                  "identity": 36,
+                  "positive": 45,
+                  "query_from": 37,
+                  "query_to": 112,
+                  "hit_from": 75,
+                  "hit_to": 154,
+                  "align_len": 83,
+                  "gaps": 10,
+                  "qseq": "IKEERRKDMKKLARKEAEQARRAVRN-------RLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "LTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALL---KDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+ EERRKD+ K+ R EAEQAR AVRN       ++  LL    D  I+ D  +   +DV K    A KKIEA  AD E +  Q"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|MFK7839657.1|",
+                  "accession": "MFK7839657",
+                  "title": "ribosome recycling factor [Bdellovibrionales bacterium]",
+                  "taxid": 2053517,
+                  "sciname": "Bdellovibrionales bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.00218427,
+                  "identity": 30,
+                  "positive": 44,
+                  "query_from": 36,
+                  "query_to": 107,
+                  "hit_from": 103,
+                  "hit_to": 174,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "DIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAE",
+                  "hseq": "DLTEERRQDLKKVAGKYAEQARIAVRNVRKDGMDAIKGGDESEDIQKKLSDDVQKLTDSIIKRVDTLLSDKE",
+                  "midline": "D+ EERR+D+KK+A K AEQAR AVRN   + +  I     + D +K +S+DV K      K+++ L +D E"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|MBD4757539.1|",
+                  "accession": "MBD4757539",
+                  "title": "ribosome recycling factor [Xanthomonas citri pv. citri]",
+                  "taxid": 611301,
+                  "sciname": "Xanthomonas citri pv. citri"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.00367088,
+                  "identity": 32,
+                  "positive": 39,
+                  "query_from": 37,
+                  "query_to": 101,
+                  "hit_from": 15,
+                  "hit_to": 83,
+                  "align_len": 69,
+                  "gaps": 4,
+                  "qseq": "IKEERRKDMKKLARKEAEQARRAVRNRLSELLSKI----NDMPITNDQKKLMSNDVLKFAAEAEKKIEA",
+                  "hseq": "LTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEITEDDDRRSQDDVQKLTDAAIKKIEA",
+                  "midline": "+ EERRKD+ K+ R EAEQAR AVRN   +   K+     D  IT D  +   +DV K    A KKIEA"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "pdb|3IXT|C",
+                  "accession": "3IXT_C",
+                  "title": "Chain C, Fusion glycoprotein F1 [Human respiratory syncytial virus A2]",
+                  "taxid": 11259,
+                  "sciname": "Human respiratory syncytial virus A2"
+                }
+              ],
+              "len": 26,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.3578,
+                  "score": 98,
+                  "evalue": 0.0119221,
+                  "identity": 21,
+                  "positive": 22,
+                  "query_from": 65,
+                  "query_to": 87,
+                  "hit_from": 3,
+                  "hit_to": 25,
+                  "align_len": 23,
+                  "gaps": 0,
+                  "qseq": "SELLSKINDMPITNDQKKLMSND",
+                  "hseq": "SELLSLINDMPITNDQKKLMSNN",
+                  "midline": "SELLS INDMPITNDQKKLMSN+"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_133055019.1|",
+                  "accession": "WP_133055019",
+                  "title": "ribosome-recycling factor, partial [Cronobacter sakazakii]",
+                  "taxid": 28141,
+                  "sciname": "Cronobacter sakazakii"
+                }
+              ],
+              "len": 89,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0142502,
+                  "identity": 32,
+                  "positive": 44,
+                  "query_from": 37,
+                  "query_to": 112,
+                  "hit_from": 9,
+                  "hit_to": 88,
+                  "align_len": 80,
+                  "gaps": 4,
+                  "qseq": "IKEERRKDMKKLARKEAEQARRAVRNRLSELLSKI----NDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "LTEERRKDLIKVVRGEAEQARVAIRNVRRDANDKVKALLKDKEIGEDEDRRSQDDVQKLTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+ EERRKD+ K+ R EAEQAR A+RN   +   K+     D  I  D+ +   +DV K    A KK++A  AD E +  Q"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|MCH9758892.1|",
+                  "accession": "MCH9758892",
+                  "title": "ribosome recycling factor [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0146861,
+                  "identity": 28,
+                  "positive": 45,
+                  "query_from": 36,
+                  "query_to": 105,
+                  "hit_from": 102,
+                  "hit_to": 175,
+                  "align_len": 74,
+                  "gaps": 4,
+                  "qseq": "DIKEERRKDMKKLARKEAEQARRAVRN----RLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAAD",
+                  "hseq": "DLSEERRRDLGKVVGREAEEARIAVRNIRRDAVAEVKTAVKDKEIGEDEGRRLEQEIEKSTKEAVGKIDKLATD",
+                  "midline": "D+ EERR+D+ K+  +EAE+AR AVRN     ++E+ + + D  I  D+ + +  ++ K   EA  KI+ LA D"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|MBN6335559.1|",
+                  "accession": "MBN6335559",
+                  "title": "ribosome recycling factor [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0223003,
+                  "identity": 32,
+                  "positive": 44,
+                  "query_from": 37,
+                  "query_to": 112,
+                  "hit_from": 47,
+                  "hit_to": 126,
+                  "align_len": 80,
+                  "gaps": 4,
+                  "qseq": "IKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDM----PITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "LTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKEKEISEDDDRRSQDDVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+ EERRKD+ K+ R EAEQAR AVRN   +   K+  +     I+ D  +   +DV K    A KK++A  AD E +  Q"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_334632423.1|",
+                  "accession": "WP_334632423",
+                  "title": "ribosome recycling factor [Phytobacter diazotrophicus]",
+                  "taxid": 395631,
+                  "sciname": "Phytobacter diazotrophicus"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.0254911,
+                  "identity": 41,
+                  "positive": 53,
+                  "query_from": 11,
+                  "query_to": 112,
+                  "hit_from": 108,
+                  "hit_to": 213,
+                  "align_len": 111,
+                  "gaps": 14,
+                  "qseq": "ERRFD--KFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRN-------RLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQ",
+                  "hseq": "ERRKDLTKIVRGXSSAGTDIRVPLPP--LTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALL---KDKEISEDDDRRSQEDVQKLTDAAIKKVDAALADKEAELMQ",
+                  "midline": "ERR D  K V    +     +  L    + EERRKD+ K+ R EAEQAR AVRN       ++  LL    D  I+ D  +    DV K    A KK++A  AD E +  Q"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

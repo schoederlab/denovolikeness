@@ -1,0 +1,70 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368837",
+          "query_title": "6e5c_A",
+          "query_len": 78,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6E5C|A",
+                  "accession": "6E5C_A",
+                  "title": "Chain A, De novo beta protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 78,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 154.836,
+                  "score": 390,
+                  "evalue": 3.01366e-47,
+                  "identity": 78,
+                  "positive": 78,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "TRETKVTVNPGEEYEVKVNPGTRVEIQAKGPAEFEGGGTRTRLNPGESYKFENLTSQPLRIRLRNLSDTPIEFRIREE",
+                  "hseq": "TRETKVTVNPGEEYEVKVNPGTRVEIQAKGPAEFEGGGTRTRLNPGESYKFENLTSQPLRIRLRNLSDTPIEFRIREE",
+                  "midline": "TRETKVTVNPGEEYEVKVNPGTRVEIQAKGPAEFEGGGTRTRLNPGESYKFENLTSQPLRIRLRNLSDTPIEFRIREE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

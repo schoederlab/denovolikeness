@@ -1,0 +1,166 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368787",
+          "query_title": "6o0c_A,B,C",
+          "query_len": 96,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6NZ3|A",
+                  "accession": "6NZ3_A",
+                  "title": "Chain A, Design construct XAA_GGHN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 172.94,
+                  "score": 437,
+                  "evalue": 5.92741e-54,
+                  "identity": 92,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 96,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "GSHLGDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGVDQKILEEMKKQLKDLKRSLERG",
+                  "hseq": "GSHMGDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKDLKRSLERG",
+                  "midline": "GSH+GDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIG   KILEEMKKQLKDLKRSLERG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8UB3|4",
+                  "accession": "8UB3_4",
+                  "title": "Chain 4, DpHF7 filament [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 245,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.00299516,
+                  "identity": 36,
+                  "positive": 47,
+                  "query_from": 5,
+                  "query_to": 92,
+                  "hit_from": 19,
+                  "hit_to": 92,
+                  "align_len": 88,
+                  "gaps": 14,
+                  "qseq": "GDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGVDQKILEEMKKQLKDLKRS",
+                  "hseq": "AELKRATASLRAITEELKKNPSEDALVEHNRAIVEH--------------NAIIVENNRIIAAVLMLIVVAVGMTQEIKKALEELVAS",
+                  "midline": " +LK +   LR I E L++NPSE  +VE  RAIVE+              NA IVENNR I   L  I V   + +E+KK L++L  S"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|XP_057337790.1|",
+                  "accession": "XP_057337790",
+                  "title": "uncharacterized protein LOC130675907 [Microplitis mediator]",
+                  "taxid": 375433,
+                  "sciname": "Microplitis mediator"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0345274,
+                  "identity": 29,
+                  "positive": 35,
+                  "query_from": 30,
+                  "query_to": 89,
+                  "hit_from": 369,
+                  "hit_to": 432,
+                  "align_len": 64,
+                  "gaps": 4,
+                  "qseq": "IVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGVDQKIL----EEMKKQLKDL",
+                  "hseq": "VTENLAAITENNAAITENNAAITENNAAITENNAAINELRELHDADLDILKVQYQDSINELRDL",
+                  "midline": "+ E + AI ENNA I E   AI ENNA I ENN AI E  E    D  IL    ++   +L+DL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "emb|CAD8105803.1|",
+                  "accession": "CAD8105803",
+                  "title": "unnamed protein product [Paramecium sonneborni]",
+                  "taxid": 65129,
+                  "sciname": "Paramecium sonneborni"
+                }
+              ],
+              "len": 2871,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0357625,
+                  "identity": 23,
+                  "positive": 44,
+                  "query_from": 26,
+                  "query_to": 91,
+                  "hit_from": 2802,
+                  "hit_to": 2868,
+                  "align_len": 67,
+                  "gaps": 1,
+                  "qseq": "SEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEA-IGVDQKILEEMKKQLKDLKR",
+                  "hseq": "NEQAIIQNQQAIIENQQAIIENQQAVIQNKQTIIENEQAIIQNQQAIIENEQAIIENKQAIIENQKR",
+                  "midline": "+E+ I++  +AI+EN   I+E  +A+++N   I+EN +AII+  +A I  +Q I+E  +  +++ KR"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

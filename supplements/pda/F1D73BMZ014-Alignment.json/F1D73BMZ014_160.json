@@ -1,0 +1,4717 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368805",
+          "query_title": "2jwu_A",
+          "query_len": 56,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|2LHC|A",
+                  "accession": "2LHC_A",
+                  "title": "Chain A, Ga98 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 56,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.7525,
+                  "score": 247,
+                  "evalue": 3.65956e-26,
+                  "identity": 52,
+                  "positive": 52,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 1,
+                  "hit_to": 56,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLILNLKQAKEEAIKELVDAGTAEKYFKLIANAKTVEGVWTLKDEIKTFTVTE",
+                  "midline": "TTYKLILNLKQAKEEAIKELVDA TAEKYFKL ANAKTVEGVWT KDE KTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|3MP9|A",
+                  "accession": "3MP9_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G [Streptococcus sp. 'group G']",
+                  "taxid": 1320,
+                  "sciname": "Streptococcus sp. 'group G'"
+                }
+              ],
+              "len": 64,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 4.71267e-14,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 10,
+                  "hit_to": 64,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|9CHT|B",
+                  "accession": "9CHT_B",
+                  "title": "Chain B, Immunoglobulin G-binding protein G/Cellular tumor antigen p53 fusion protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 396,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 75.0998,
+                  "score": 183,
+                  "evalue": 4.83204e-14,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 13,
+                  "hit_to": 67,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|1IGC|A",
+                  "accession": "1IGC_A",
+                  "title": "Chain A, STREPTOCOCCAL PROTEIN G (DOMAIN III) [Streptococcus sp. G148]",
+                  "taxid": 1324,
+                  "sciname": "Streptococcus sp. G148"
+                }
+              ],
+              "len": 61,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.44755e-13,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 6,
+                  "hit_to": 61,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|1PGX|A",
+                  "accession": "1PGX_A",
+                  "title": "Chain A, PROTEIN G [Streptococcus]",
+                  "taxid": 1301,
+                  "sciname": "Streptococcus"
+                }
+              ],
+              "len": 83,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 1.47381e-13,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 14,
+                  "hit_to": 69,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|7QTR|A",
+                  "accession": "7QTR_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G [Streptococcus sp. 'group G']",
+                  "taxid": 1320,
+                  "sciname": "Streptococcus sp. 'group G'"
+                }
+              ],
+              "len": 57,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.51561e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 4,
+                  "hit_to": 57,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|2KBT|A",
+                  "accession": "2KBT_A",
+                  "title": "Chain A, Proto-oncogene vav,Immunoglobulin G-binding protein G [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 1.91811e-13,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 78,
+                  "hit_to": 132,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|6KMC|A",
+                  "accession": "6KMC_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G B1 [Streptococcus sp. 'group G']",
+                  "taxid": 1320,
+                  "sciname": "Streptococcus sp. 'group G'"
+                }
+              ],
+              "len": 57,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.3958,
+                  "score": 163,
+                  "evalue": 2.45673e-13,
+                  "identity": 37,
+                  "positive": 37,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 57,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAAHAEKVFKHYANEHGVHGHWTYDPETKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAA AEK FK YAN   V G WTY  ETKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|8ARI|a",
+                  "accession": "8ARI_a",
+                  "title": "Chain a, Retinoic acid-induced protein 2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 3.04242e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 11,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_347094315.1|",
+                  "accession": "WP_347094315",
+                  "title": "albumin-binding GA domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 317,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 3.77333e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 167,
+                  "hit_to": 221,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGQTTTEAVDAATAEKVFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K +   E VDAATAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|2MBB|A",
+                  "accession": "2MBB_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G/DNA polymerase iota fusion protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 4.03977e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|2KN4|A",
+                  "accession": "2KN4_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G,Serine/arginine-rich splicing factor 2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 4.27265e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|6HPJ|B",
+                  "accession": "6HPJ_B",
+                  "title": "Chain B, Immunoglobulin G-binding protein G,Serine/arginine-rich splicing factor 1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 4.7985e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "pdb|2I38|A",
+                  "accession": "2I38_A",
+                  "title": "Chain A, Fusion protein consists of immunoglobulin G-Binding Protein G and Splicing factor, arginine/serine-rich 3 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 5.26129e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_347114957.1|",
+                  "accession": "WP_347114957",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 453,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 5.63788e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 303,
+                  "hit_to": 357,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGQTTTEAVDAATAEKVFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K +   E VDAATAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "pdb|2KHU|A",
+                  "accession": "2KHU_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G, DNA polymerase iota [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 6.15047e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "pdb|9G4T|A",
+                  "accession": "9G4T_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G,Carboxysome shell carbonic anhydrase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 614,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 7.16965e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 31,
+                  "hit_to": 84,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "pdb|1IBX|B",
+                  "accession": "1IBX_B",
+                  "title": "Chain B, CHIMERA OF IGG BINDING PROTEIN G AND DNA FRAGMENTATION FACTOR 45 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 7.84621e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "emb|CAA37410.1|",
+                  "accession": "CAA37410",
+                  "title": "Protein G' [Streptococcus sp. 'group G']",
+                  "taxid": 1320,
+                  "sciname": "Streptococcus sp. 'group G'"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 8.32547e-13,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 60,
+                  "hit_to": 115,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 3.19807e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 130,
+                  "hit_to": 185,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 56.225,
+                  "score": 134,
+                  "evalue": 1.08983e-07,
+                  "identity": 30,
+                  "positive": 31,
+                  "query_from": 13,
+                  "query_to": 56,
+                  "hit_from": 2,
+                  "hit_to": 45,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "KEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "KGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "pdb|5LDE|A",
+                  "accession": "5LDE_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G,Viral FLICE protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 265,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 9.24092e-13,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "pdb|1PN5|A",
+                  "accession": "1PN5_A",
+                  "title": "Chain A, NACHT-, LRR- and PYD-containing protein 2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.20122e-12,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_142562694.1|",
+                  "accession": "WP_142562694",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 1.3167e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 32,
+                  "hit_to": 86,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 5.71136e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 101,
+                  "hit_to": 156,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "pdb|6RSS|A",
+                  "accession": "6RSS_A",
+                  "title": "Chain A, NEDD4-like E3 ubiquitin-protein ligase WWP2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.0106,
+                  "score": 162,
+                  "evalue": 1.42805e-12,
+                  "identity": 36,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 6,
+                  "hit_to": 59,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTYTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKT+TVTE"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_148852818.1|",
+                  "accession": "WP_148852818",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 303,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 1.46771e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 153,
+                  "hit_to": 207,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|ABL60854.1|",
+                  "accession": "ABL60854",
+                  "title": "NTAP(GS), partial [Expression vector pCeMM-NTAP(GS)-Gw]",
+                  "taxid": 415353,
+                  "sciname": "Expression vector pCeMM-NTAP(GS)-Gw"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.52312e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 10,
+                  "hit_to": 65,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.52312e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 72,
+                  "hit_to": 127,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "pdb|6NLA|A",
+                  "accession": "6NLA_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G [Streptococcus]",
+                  "taxid": 1301,
+                  "sciname": "Streptococcus"
+                }
+              ],
+              "len": 56,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.84832e-12,
+                  "identity": 36,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 2,
+                  "hit_to": 56,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTHKGVLTIEAVDAATAEKHFKQHANDLGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K     E VDAATAEK+FK +AN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "pdb|2CWB|A",
+                  "accession": "2CWB_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G,Ubiquitin-like protein 7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 1.93289e-12,
+                  "identity": 36,
+                  "positive": 37,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 9,
+                  "hit_to": 62,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLALNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKL LN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "pdb|2RPV|A",
+                  "accession": "2RPV_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G [Streptococcus sp. 'group G']",
+                  "taxid": 1320,
+                  "sciname": "Streptococcus sp. 'group G'"
+                }
+              ],
+              "len": 75,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 1.98713e-12,
+                  "identity": 36,
+                  "positive": 37,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 22,
+                  "hit_to": 75,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTCAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E     VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|AHA62523.1|",
+                  "accession": "AHA62523",
+                  "title": "CTAP(SG), partial [Cloning vector pEnEOimCherryF3SGThsp]",
+                  "taxid": 1424654,
+                  "sciname": "Cloning vector pEnEOimCherryF3SGThsp"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 2.03844e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 62,
+                  "hit_to": 117,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 2.03844e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 124,
+                  "hit_to": 179,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "pdb|1GB4|A",
+                  "accession": "1GB4_A",
+                  "title": "Chain A, GB1-C3B4 [Streptococcus sp. G148]",
+                  "taxid": 1324,
+                  "sciname": "Streptococcus sp. G148"
+                }
+              ],
+              "len": 57,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 2.28082e-12,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 2,
+                  "hit_to": 57,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTFKLIINGKTLKGEITIEAVDAAEAEKIFKQYANDNGIDGEWTYDDATKTFTVTE",
+                  "midline": "TT+KLI+N K  K E   E VDAA AEK FK YAN   ++G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "pdb|6HKA|A",
+                  "accession": "6HKA_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G,Serine-protein kinase ATM [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 2.59464e-12,
+                  "identity": 36,
+                  "positive": 37,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLALNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKL LN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_111679084.1|",
+                  "accession": "WP_111679084",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 448,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.64349e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 228,
+                  "hit_to": 282,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.00144e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 297,
+                  "hit_to": 352,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|XHW08293.1|",
+                  "accession": "XHW08293",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae subsp. equisimilis]",
+                  "taxid": 119602,
+                  "sciname": "Streptococcus dysgalactiae subsp. equisimilis"
+                }
+              ],
+              "len": 373,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 2.69555e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 153,
+                  "hit_to": 207,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.07157e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 222,
+                  "hit_to": 277,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_115261953.1|",
+                  "accession": "WP_115261953",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 501,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.76727e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 281,
+                  "hit_to": 335,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.03411e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 350,
+                  "hit_to": 405,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_152652300.1|",
+                  "accession": "WP_152652300",
+                  "title": "albumin-binding GA domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 406,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 2.88407e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 186,
+                  "hit_to": 240,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.0797e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 255,
+                  "hit_to": 310,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_204107134.1|",
+                  "accession": "WP_204107134",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 547,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 2.88792e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 327,
+                  "hit_to": 381,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.08893e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 396,
+                  "hit_to": 451,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_165745758.1|",
+                  "accession": "WP_165745758",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 668,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 2.98201e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 378,
+                  "hit_to": 432,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.25573e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 447,
+                  "hit_to": 502,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.10258e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 517,
+                  "hit_to": 572,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_218661882.1|",
+                  "accession": "WP_218661882",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 3.03748e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 58,
+                  "hit_to": 113,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_159338672.1|",
+                  "accession": "WP_159338672",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 593,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.0663e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 303,
+                  "hit_to": 357,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.41372e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 372,
+                  "hit_to": 427,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.15607e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 442,
+                  "hit_to": 497,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_176714922.1|",
+                  "accession": "WP_176714922",
+                  "title": "albumin-binding GA domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 491,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.07631e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 271,
+                  "hit_to": 325,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.12779e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 340,
+                  "hit_to": 395,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "pdb|9JA6|A",
+                  "accession": "9JA6_A",
+                  "title": "Chain A, Meiotically up-regulated gene 135 protein,Immunoglobulin G-binding protein G [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 332,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 3.11952e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 278,
+                  "hit_to": 332,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_283264262.1|",
+                  "accession": "WP_283264262",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 3.25392e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 77,
+                  "hit_to": 132,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.151,
+                  "score": 139,
+                  "evalue": 2.74333e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 7,
+                  "hit_to": 62,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYANENGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YAN   V+G W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "emb|CAA27638.1|",
+                  "accession": "CAA27638",
+                  "title": "protein G, partial [Streptococcus sp.]",
+                  "taxid": 1306,
+                  "sciname": "Streptococcus sp."
+                }
+              ],
+              "len": 480,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.28663e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 190,
+                  "hit_to": 244,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.65963e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 259,
+                  "hit_to": 314,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.25358e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 329,
+                  "hit_to": 384,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_065957339.1|",
+                  "accession": "WP_065957339",
+                  "title": "albumin-binding GA domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 555,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.31171e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 453,
+                  "hit_to": 507,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|AHW57457.1|",
+                  "accession": "AHW57457",
+                  "title": "GB1-CMTI-III [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 3.51196e-12,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 9,
+                  "hit_to": 63,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGVLTIEAVDAATAEKVFKQYANDLGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K     E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "pdb|7R0R|A",
+                  "accession": "7R0R_A",
+                  "title": "Chain A, Designed Armadillo Repeat Protein N(A4)M4C(AII) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 571,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 4.14709e-12,
+                  "identity": 37,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 19,
+                  "hit_to": 74,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "SGYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "+ YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_443597750.1|",
+                  "accession": "WP_443597750",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 4.79975e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 75,
+                  "hit_to": 130,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYATANGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YA A  V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 7.77377e-09,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 5,
+                  "hit_to": 60,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTIKAVDAETAEKAFKQYANENGVDGVWNYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDA TAEK FK YAN   V+GVW Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_431979385.1|",
+                  "accession": "WP_431979385",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 4.99343e-12,
+                  "identity": 36,
+                  "positive": 41,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 432,
+                  "hit_to": 487,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAIDAATAEKEFKQYATANGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + +DAATAEK FK YA A  V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 2.86059e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 362,
+                  "hit_to": 417,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_218661144.1|",
+                  "accession": "WP_218661144",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 344,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 5.06955e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 39,
+                  "hit_to": 93,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVLNGKTFKGETTTEAVDAATAEKEFKLFATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKL+LN K  K E   E VDAATAEK FKL+A A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 7.04655e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 178,
+                  "hit_to": 233,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVXGNTXXGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 58.151,
+                  "score": 139,
+                  "evalue": 5.23606e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 108,
+                  "hit_to": 163,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNXFSGETTTKAVDAATAEKEFKQYAXXNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA    V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_404966764.1|",
+                  "accession": "WP_404966764",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 457,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 5.64256e-12,
+                  "identity": 36,
+                  "positive": 41,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 291,
+                  "hit_to": 346,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAIDAATAEKEFKQYATANGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + +DAATAEK FK YA A  V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.22406e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 81,
+                  "hit_to": 136,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANNVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 2.65843e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 221,
+                  "hit_to": 276,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 3.81725e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 151,
+                  "hit_to": 206,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANNVDGEWAYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "pir|A45063|",
+                  "accession": "A45063",
+                  "title": "immunoglobulin-binding protein LG - Peptostreptococcus magnus [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 455,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 5.92073e-12,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 330,
+                  "hit_to": 384,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 2.15418e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 399,
+                  "hit_to": 454,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_243096479.1|",
+                  "accession": "WP_243096479",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 276,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 6.27147e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 120,
+                  "hit_to": 175,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.151,
+                  "score": 139,
+                  "evalue": 3.90723e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 50,
+                  "hit_to": 105,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYANENGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YAN   V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.000118326,
+                  "identity": 24,
+                  "positive": 26,
+                  "query_from": 22,
+                  "query_to": 56,
+                  "hit_from": 1,
+                  "hit_to": 35,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "DAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "DTATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "D ATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "pdb|3UI3|A",
+                  "accession": "3UI3_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G, Virulence-associated protein D [Streptococcus sp. 'group G']",
+                  "taxid": 1320,
+                  "sciname": "Streptococcus sp. 'group G'"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 6.29352e-12,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|WEQ72078.1|",
+                  "accession": "WEQ72078",
+                  "title": "msfGFP-FRMVQ-F3SG [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 685,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 6.44789e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 568,
+                  "hit_to": 623,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 6.44789e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 630,
+                  "hit_to": 685,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "ref|WP_415955811.1|",
+                  "accession": "WP_415955811",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 404,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 6.51708e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 253,
+                  "hit_to": 308,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 55.8398,
+                  "score": 133,
+                  "evalue": 3.6022e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 183,
+                  "hit_to": 238,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATDNNVDGEWSYDNATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA    V+G W+Y + TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|MSU86949.1|",
+                  "accession": "MSU86949",
+                  "title": "LPXTG cell wall anchor domain-containing protein [Streptococcus dysgalactiae subsp. dysgalactiae]",
+                  "taxid": 99822,
+                  "sciname": "Streptococcus dysgalactiae subsp. dysgalactiae"
+                }
+              ],
+              "len": 417,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 6.74984e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 57,
+                  "hit_to": 111,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVLNGKTFKGETTTEAVDAATAEKEFKLFATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKL+LN K  K E   E VDAATAEK FKL+A A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.35614e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 266,
+                  "hit_to": 321,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 5.63383e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 126,
+                  "hit_to": 181,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.92539e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 196,
+                  "hit_to": 251,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|WP_231118374.1|",
+                  "accession": "WP_231118374",
+                  "title": "albumin-binding GA domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 332,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 6.77166e-12,
+                  "identity": 37,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 112,
+                  "hit_to": 166,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGQTTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K +   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.02263e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 181,
+                  "hit_to": 236,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "ref|WP_143935247.1|",
+                  "accession": "WP_143935247",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 598,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 6.82597e-12,
+                  "identity": 37,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 378,
+                  "hit_to": 432,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTLKGQTTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K +   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 9.98748e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 447,
+                  "hit_to": 502,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gb|QGH02325.1|",
+                  "accession": "QGH02325",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus dysgalactiae subsp. dysgalactiae]",
+                  "taxid": 99822,
+                  "sciname": "Streptococcus dysgalactiae subsp. dysgalactiae"
+                }
+              ],
+              "len": 660,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 6.83395e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 300,
+                  "hit_to": 354,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVLNGKTFKGETTTEAVDAATAEKEFKLFATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKL+LN K  K E   E VDAATAEK FKL+A A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.25157e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 509,
+                  "hit_to": 564,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.611e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 369,
+                  "hit_to": 424,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.611e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 439,
+                  "hit_to": 494,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_343233270.1|",
+                  "accession": "WP_343233270",
+                  "title": "LPXTG cell wall anchor domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 584,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 7.165e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 224,
+                  "hit_to": 278,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVLNGKTFKGETTTEAVDAATAEKEFKLFATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKL+LN K  K E   E VDAATAEK FKL+A A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.17862e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 433,
+                  "hit_to": 488,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.59622e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 363,
+                  "hit_to": 418,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 9.02673e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 293,
+                  "hit_to": 348,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "pdb|5UBS|A",
+                  "accession": "5UBS_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G [Streptococcus sp. GX7805]",
+                  "taxid": 1325,
+                  "sciname": "Streptococcus sp. GX7805"
+                }
+              ],
+              "len": 56,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 7.20926e-12,
+                  "identity": 33,
+                  "positive": 38,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 2,
+                  "hit_to": 56,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TFKLIINGKTLKGETTTEAVDAATAEKVFKQYFNDNGIDGEWTYDDATKTFTITE",
+                  "midline": "T+KLI+N K  K E   E VDAATAEK FK Y N   ++G WTY D TKTFT+TE"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_375709091.1|",
+                  "accession": "WP_375709091",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 474,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 8.38723e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 323,
+                  "hit_to": 378,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 4.01257e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 253,
+                  "hit_to": 308,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDEATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY + TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 55.8398,
+                  "score": 133,
+                  "evalue": 3.88014e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 183,
+                  "hit_to": 238,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATDNNVDGEWSYDNATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA    V+G W+Y + TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|WP_394854654.1|",
+                  "accession": "WP_394854654",
+                  "title": "LPXTG cell wall anchor domain-containing protein [Streptococcus canis]",
+                  "taxid": 1329,
+                  "sciname": "Streptococcus canis"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 8.89014e-12,
+                  "identity": 36,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 101,
+                  "hit_to": 155,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTFKGETTTKAVDAATAEKEFKQYANDNGADGVWSYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   + VDAATAEK FK YAN    +GVW+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gb|WEQ72080.1|",
+                  "accession": "WEQ72080",
+                  "title": "msfGFP-mOrange2-F3SG [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 689,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 8.98561e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 572,
+                  "hit_to": 627,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 8.98561e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 634,
+                  "hit_to": 689,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_129555500.1|",
+                  "accession": "WP_129555500",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 544,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 9.13387e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 393,
+                  "hit_to": 448,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 6.59523e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 323,
+                  "hit_to": 378,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.01892e-09,
+                  "identity": 33,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 253,
+                  "hit_to": 308,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTNAVDAATAEKEFKQYATANNVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E     VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 55.8398,
+                  "score": 133,
+                  "evalue": 3.96732e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 183,
+                  "hit_to": 238,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATDNNVDGEWSYDNATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA    V+G W+Y + TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "pdb|7MP7|A",
+                  "accession": "7MP7_A",
+                  "title": "Chain A, Sb3 [Thermus thermophilus]",
+                  "taxid": 274,
+                  "sciname": "Thermus thermophilus"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 9.36053e-12,
+                  "identity": 36,
+                  "positive": 38,
+                  "query_from": 1,
+                  "query_to": 55,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVT",
+                  "hseq": "TTYKYILNLKFAFGDTNSEAVDAAEAEKKFKQYANDHGVDGEWTYDDATKTFTVT",
+                  "midline": "TTYK ILNLK A  +   E VDAA AEK FK YAN   V+G WTY D TKTFTVT"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_342370258.1|",
+                  "accession": "WP_342370258",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 594,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 9.511e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 443,
+                  "hit_to": 498,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 3.45531e-10,
+                  "identity": 35,
+                  "positive": 38,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 304,
+                  "hit_to": 358,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVLNGKTFKGETTTEAVDAATAEKEFKQYATANGVDGEWSYDSATKTFTVTE",
+                  "midline": "TYKL+LN K  K E   E VDAATAEK FK YA A  V+G W+Y   TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 61.2326,
+                  "score": 147,
+                  "evalue": 4.29614e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 373,
+                  "hit_to": 428,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gb|AAY41168.1|",
+                  "accession": "AAY41168",
+                  "title": "protein G/SspDnaE fusion protein [Expression vector pJJDuet30]",
+                  "taxid": 328606,
+                  "sciname": "Expression vector pJJDuet30"
+                }
+              ],
+              "len": 201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.0106,
+                  "score": 162,
+                  "evalue": 9.68061e-12,
+                  "identity": 36,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 23,
+                  "hit_to": 76,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTYTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKT+TVTE"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_115246162.1|",
+                  "accession": "WP_115246162",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 566,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 9.69173e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 415,
+                  "hit_to": 470,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 2.2393e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 345,
+                  "hit_to": 400,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 56.225,
+                  "score": 134,
+                  "evalue": 2.60675e-07,
+                  "identity": 31,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 275,
+                  "hit_to": 330,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANNVDDEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+  W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|WP_222819198.1|",
+                  "accession": "WP_222819198",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 631,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 9.89703e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 480,
+                  "hit_to": 535,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.6929e-11,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 341,
+                  "hit_to": 395,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTFKGETAIEAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.11564e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 410,
+                  "hit_to": 465,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKAFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "dbj|BBE39909.1|",
+                  "accession": "BBE39909",
+                  "title": "immunoglobulin G-binding protein G precursor [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 373,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 9.89834e-12,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 222,
+                  "hit_to": 277,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 6.62839e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 152,
+                  "hit_to": 207,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 7.91204e-09,
+                  "identity": 33,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 82,
+                  "hit_to": 137,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTNAVDAATAEKEFKQYATANNVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E     VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 55.4546,
+                  "score": 132,
+                  "evalue": 4.05843e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 12,
+                  "hit_to": 67,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATDNNVDGEWSYDNATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA    V+G W+Y + TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "pdb|9JA5|A",
+                  "accession": "9JA5_A",
+                  "title": "Chain A, Meiotically up-regulated gene 135 protein,SWR1 complex bromodomain subunit bdf1,Immunoglobulin G-binding protein G [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 444,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.02936e-11,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 382,
+                  "hit_to": 435,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "ref|WP_126426831.1|",
+                  "accession": "WP_126426831",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 413,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.06703e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 257,
+                  "hit_to": 312,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "pdb|8A14|A",
+                  "accession": "8A14_A",
+                  "title": "Chain A, Cerato-platatanin-like protein 1 [Mycosarcoma maydis]",
+                  "taxid": 5270,
+                  "sciname": "Mycosarcoma maydis"
+                }
+              ],
+              "len": 324,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.13377e-11,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 21,
+                  "hit_to": 74,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_192942630.1|",
+                  "accession": "WP_192942630",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 610,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.30019e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 469,
+                  "hit_to": 524,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 2.31258e-11,
+                  "identity": 38,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 400,
+                  "hit_to": 454,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTFKGETAIEAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   E VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_330549649.1|",
+                  "accession": "WP_330549649",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 483,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.31701e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 327,
+                  "hit_to": 382,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 3.43301e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 257,
+                  "hit_to": 312,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|MDV5977078.1|",
+                  "accession": "MDV5977078",
+                  "title": "LPXTG cell wall anchor domain-containing protein [Streptococcus canis]",
+                  "taxid": 1329,
+                  "sciname": "Streptococcus canis"
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 1.31825e-11,
+                  "identity": 36,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 135,
+                  "hit_to": 189,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTFKGETTTKAVDAATAEKEFKQYANDNGADGVWSYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K E   + VDAATAEK FK YAN    +GVW+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "pdb|7RXC|B",
+                  "accession": "7RXC_B",
+                  "title": "Chain B, Maltodextrin-binding protein,Immunoglobulin G-binding protein A,Immunoglobulin G-binding protein G [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 545,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.33655e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 481,
+                  "hit_to": 536,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "emb|CAA82764.1|",
+                  "accession": "CAA82764",
+                  "title": "streptococcal surface protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 664,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 1.3533e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 503,
+                  "hit_to": 558,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 2.81046e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 363,
+                  "hit_to": 418,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 57.7658,
+                  "score": 138,
+                  "evalue": 6.84245e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 293,
+                  "hit_to": 348,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 56.6102,
+                  "score": 135,
+                  "evalue": 1.63397e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 223,
+                  "hit_to": 278,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAIDTATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + +D ATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 55.8398,
+                  "score": 133,
+                  "evalue": 3.33723e-07,
+                  "identity": 32,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 433,
+                  "hit_to": 488,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYANENGVYGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YAN   V G W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|WP_283265678.1|",
+                  "accession": "WP_283265678",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 589,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.36459e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 433,
+                  "hit_to": 488,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.151,
+                  "score": 139,
+                  "evalue": 6.19416e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 363,
+                  "hit_to": 418,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYANENGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YAN   V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 56.6102,
+                  "score": 135,
+                  "evalue": 1.69613e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 223,
+                  "hit_to": 278,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAIDTATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + +D ATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 55.0694,
+                  "score": 131,
+                  "evalue": 7.50397e-07,
+                  "identity": 31,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 293,
+                  "hit_to": 348,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANNVDGEWSYDYATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y   TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|WP_283279550.1|",
+                  "accession": "WP_283279550",
+                  "title": "LPXTG cell wall anchor domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 502,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.38623e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 346,
+                  "hit_to": 401,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 2.06656e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 206,
+                  "hit_to": 261,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 57.7658,
+                  "score": 138,
+                  "evalue": 6.2993e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 276,
+                  "hit_to": 331,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYANENGVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YAN   V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 56.6102,
+                  "score": 135,
+                  "evalue": 1.67498e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 66,
+                  "hit_to": 121,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAIDTATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + +D ATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 56.6102,
+                  "score": 135,
+                  "evalue": 1.67498e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 136,
+                  "hit_to": 191,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAIDTATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + +D ATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "pdb|4Q0C|A",
+                  "accession": "4Q0C_A",
+                  "title": "Chain A, Virulence sensor protein BvgS [Bordetella pertussis Tohama I]",
+                  "taxid": 257313,
+                  "sciname": "Bordetella pertussis Tohama I"
+                }
+              ],
+              "len": 584,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.43266e-11,
+                  "identity": 36,
+                  "positive": 37,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLALNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKL LN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "ref|WP_269458803.1|",
+                  "accession": "WP_269458803",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 617,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.75982e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 433,
+                  "hit_to": 488,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDAETAEKAFKQYATANGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VDA TAEK FK YA A  V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 62.003,
+                  "score": 149,
+                  "evalue": 2.29997e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 363,
+                  "hit_to": 418,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 5.5963e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 293,
+                  "hit_to": 348,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVIKGNSFSGETTTKAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 4.07085e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 223,
+                  "hit_to": 278,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATANGVDGEWTYDNATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY + TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "pdb|8ATI|a",
+                  "accession": "8ATI_a",
+                  "title": "Chain a, Retinoic acid-induced protein 2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 243,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 2.19302e-11,
+                  "identity": 37,
+                  "positive": 38,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 11,
+                  "hit_to": 64,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLILNGKTLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "YKLILN K  K E   E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "pdb|8WCJ|A",
+                  "accession": "8WCJ_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein G [Streptococcus sp. 'group G']",
+                  "taxid": 1320,
+                  "sciname": "Streptococcus sp. 'group G'"
+                }
+              ],
+              "len": 56,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.3882,
+                  "score": 150,
+                  "evalue": 2.87402e-11,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 3,
+                  "hit_to": 56,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKVVINGHTLKGESTTEAVDAETAEKAFKQIANDNGVDGVWTYDDATKTFTVTE",
+                  "midline": "YK+++N    K E+  E VDA TAEK FK  AN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gb|MDY4034703.1|",
+                  "accession": "MDY4034703",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 5.48885e-11,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 273,
+                  "hit_to": 327,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVLNGKTFKGETTTEAVDAAAAEKEFKLFATANGVDGEWSYNDATKTFTVTE",
+                  "midline": "TYKL+LN K  K E   E VDAA AEK FKL+A A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.51575e-10,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 342,
+                  "hit_to": 397,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGKTFSGETTTKAVDAATAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++  K    E   + VDAATAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "ref|WP_309543646.1|",
+                  "accession": "WP_309543646",
+                  "title": "LPXTG cell wall anchor domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 516,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 6.06155e-11,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 350,
+                  "hit_to": 405,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVINGKTLKGETTTKAVDVETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++N K  K E   + VD  TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 2.12917e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 210,
+                  "hit_to": 265,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAIDAATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + +DAATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 57.7658,
+                  "score": 138,
+                  "evalue": 7.22719e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 280,
+                  "hit_to": 335,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YA A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 56.6102,
+                  "score": 135,
+                  "evalue": 1.72575e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 140,
+                  "hit_to": 195,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAIDTATAEKEFKQYATANNVDGEWSYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + +D ATAEK FK YA A  V+G W+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "ref|WP_138125935.1|",
+                  "accession": "WP_138125935",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 578,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 6.4407e-11,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 273,
+                  "hit_to": 327,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVLNGKTFKGETTTEAVDAAAAEKEFKLFATANGVDGEWSYDDATKTFTVTE",
+                  "midline": "TYKL+LN K  K E   E VDAA AEK FKL+A A  V+G W+Y D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.53574e-10,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 412,
+                  "hit_to": 467,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGKTFSGETTTKAVDAATAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++  K    E   + VDAATAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 8.10537e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 342,
+                  "hit_to": 397,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_125074912.1|",
+                  "accession": "WP_125074912",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus canis]",
+                  "taxid": 1329,
+                  "sciname": "Streptococcus canis"
+                }
+              ],
+              "len": 472,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 8.75112e-11,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 327,
+                  "hit_to": 381,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGKTFKGKTTTKAVDAATAEKEFKQYANDNGVDGVWSYDDATKTFTVTE",
+                  "midline": "TYKLILN K  K +   + VDAATAEK FK YAN   V+GVW+Y D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "ref|WP_262366086.1|",
+                  "accession": "WP_262366086",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus pyogenes]",
+                  "taxid": 1314,
+                  "sciname": "Streptococcus pyogenes"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 9.26272e-11,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 3,
+                  "query_to": 56,
+                  "hit_from": 1,
+                  "hit_to": 54,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "YKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "YKLVINGKTLKGETTTKAVDAETAEKAFKQYANDNGVDGDWTYDDATKTFTVTE",
+                  "midline": "YKL++N K  K E   + VDA TAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|WP_313769781.1|",
+                  "accession": "WP_313769781",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 567,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 1.16805e-10,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 421,
+                  "hit_to": 476,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGKTFSGETTTKAVDAATAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++  K    E   + VDAATAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 6.59955e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 351,
+                  "hit_to": 406,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 2.69645e-08,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 281,
+                  "hit_to": 336,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYAIANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_411863194.1|",
+                  "accession": "WP_411863194",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 610,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 3.66515e-10,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 464,
+                  "hit_to": 519,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVIIGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++  K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 1.0357e-08,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 394,
+                  "hit_to": 449,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 3.25049e-08,
+                  "identity": 33,
+                  "positive": 34,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 325,
+                  "hit_to": 379,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILKGNSFSGETTTEAVDATAAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLIL       E   E VDA  AEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "gb|MEC4577814.1|",
+                  "accession": "MEC4577814",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 496,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 4.066e-10,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 350,
+                  "hit_to": 405,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVIIGKTLKGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKL++  K  K E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 1.03215e-08,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 280,
+                  "hit_to": 335,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANENGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 3.17653e-08,
+                  "identity": 33,
+                  "positive": 34,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 211,
+                  "hit_to": 265,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILKGNSFSGETTTEAVDATAAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLIL       E   E VDA  AEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "pdb|1MI0|A",
+                  "accession": "1MI0_A",
+                  "title": "Chain A, immunoglobulin-binding protein G [Finegoldia magna ATCC 29328]",
+                  "taxid": 334413,
+                  "sciname": "Finegoldia magna ATCC 29328"
+                }
+              ],
+              "len": 65,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 59.6918,
+                  "score": 143,
+                  "evalue": 4.11288e-10,
+                  "identity": 33,
+                  "positive": 36,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 11,
+                  "hit_to": 65,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLVIVLNGTTFTYTTEAVDAATAEKVFKQYANDNGVDGEWTYADATKTFTVTE",
+                  "midline": "TYKL++ L         E VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_283687944.1|",
+                  "accession": "WP_283687944",
+                  "title": "LPXTG cell wall anchor domain-containing protein, partial [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 198,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.3882,
+                  "score": 150,
+                  "evalue": 4.93914e-10,
+                  "identity": 34,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 42,
+                  "hit_to": 97,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "pdb|4KGT|A",
+                  "accession": "4KGT_A",
+                  "title": "Chain A, Streptococcal Protein GB1 Backbone Modified Variant: Aib10, D-Pro47 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 7.23058e-10,
+                  "identity": 34,
+                  "positive": 36,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 2,
+                  "hit_to": 54,
+                  "align_len": 55,
+                  "gaps": 2,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILNGXGLKGETTTEAVDAATAEKVFKQYANDNGVDGEWTY--DXGTFTVTE",
+                  "midline": "TYKLILN    K E   E VDAATAEK FK YAN   V+G WTY  +  TFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_434177245.1|",
+                  "accession": "WP_434177245",
+                  "title": "LPXTG cell wall anchor domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 8.20546e-10,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 12,
+                  "hit_to": 67,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNSFSGETTTKAVDAATAEKEFKQYATANGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YA A  V+G WTY D TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "pdb|7MQ4|A",
+                  "accession": "7MQ4_A",
+                  "title": "Chain A, Sb1 [Thermus thermophilus]",
+                  "taxid": 274,
+                  "sciname": "Thermus thermophilus"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 1.47081e-09,
+                  "identity": 32,
+                  "positive": 35,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 6,
+                  "hit_to": 60,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TFKLVLNGKTLKGETTTEAVDAATALKNFGAYAQDVGVDGAWTYDDATKTFTVGE",
+                  "midline": "T+KL+LN K  K E   E VDAATA K F  YA    V+G WTY D TKTFTV E"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_283278896.1|",
+                  "accession": "WP_283278896",
+                  "title": "YSIRK-type signal peptide-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 519,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.003,
+                  "score": 149,
+                  "evalue": 2.36206e-09,
+                  "identity": 34,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 363,
+                  "hit_to": 418,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYANENGVDGVWTYDDATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YAN   V+GVWTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.5286,
+                  "score": 127,
+                  "evalue": 2.42316e-06,
+                  "identity": 31,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 293,
+                  "hit_to": 348,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLIVKGNTFSGETTTKAVDAETAEKAFKQYATANNVDGEWSYDYATKTFTVTE",
+                  "midline": "TTYKLI+       E   + VDA TAEK FK YA A  V+G W+Y   TKTFTVTE"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 52.373,
+                  "score": 124,
+                  "evalue": 5.9061e-06,
+                  "identity": 29,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 223,
+                  "hit_to": 278,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAIDTATAEKEFKQYATANNVDGEWSYDYATKTFTVTE",
+                  "midline": "TTYKL++       E   + +D ATAEK FK YA A  V+G W+Y   TKTFTVTE"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_439943848.1|",
+                  "accession": "WP_439943848",
+                  "title": "albumin-binding GA domain-containing protein [Streptococcus dysgalactiae]",
+                  "taxid": 1334,
+                  "sciname": "Streptococcus dysgalactiae"
+                }
+              ],
+              "len": 484,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.003,
+                  "score": 149,
+                  "evalue": 2.50073e-09,
+                  "identity": 34,
+                  "positive": 35,
+                  "query_from": 2,
+                  "query_to": 56,
+                  "hit_from": 264,
+                  "hit_to": 318,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "TYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TYKLILKGNSFSGETTTEAVDAAAAEKEFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TYKLIL       E   E VDAA AEK FK YAN   V+G WTY D TKTFTVTE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 6.51624e-09,
+                  "identity": 33,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 333,
+                  "hit_to": 388,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "TTYKLILNLKQAKEEAIKELVDAATAEKYFKLYANAKTVEGVWTYKDETKTFTVTE",
+                  "hseq": "TTYKLVVKGNTFSGETTTKAVDAATAEKEFKQYANDNGVDGEWTYDDATKTFTVTE",
+                  "midline": "TTYKL++       E   + VDAATAEK FK YAN   V+G WTY D TKTFTVTE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

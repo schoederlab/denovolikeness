@@ -1,0 +1,966 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368721",
+          "query_title": "8jvy_A",
+          "query_len": 49,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8JVY|A",
+                  "accession": "8JVY_A",
+                  "title": "Chain A, tkoL2_v1_turn [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 49,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 8.69779e-23,
+                  "identity": 49,
+                  "positive": 49,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 49,
+                  "align_len": 49,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLIIAPEGVKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLIIAPEGVKVGDVVEVKKV",
+                  "midline": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLIIAPEGVKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8JVS|A",
+                  "accession": "8JVS_A",
+                  "title": "Chain A, tkoL2_v1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 79.337,
+                  "score": 194,
+                  "evalue": 3.4924e-18,
+                  "identity": 47,
+                  "positive": 47,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 55,
+                  "gaps": 6,
+                  "qseq": "GPMPGKKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVEEILHDPGRTAPVARVKFEDGTKKLIIAPEGVKVGDVVEVKKV",
+                  "midline": "GPMPGKKVVARVEEIL        VARVKFEDGTKKLIIAPEGVKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|8JVU|A",
+                  "accession": "8JVU_A",
+                  "title": "Chain A, tkoL2_v1.2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 1.07225e-14,
+                  "identity": 40,
+                  "positive": 45,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 55,
+                  "gaps": 6,
+                  "qseq": "GPMPGKKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVEEILHDPGRTAPVARVKFEDGTKRVVIIPKGIKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARVEEIL        VARVKFEDGTK+++I P+G+KVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|8JVT|A",
+                  "accession": "8JVT_A",
+                  "title": "Chain A, mkaL2_v1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 1.25523e-13,
+                  "identity": 39,
+                  "positive": 44,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 55,
+                  "gaps": 6,
+                  "qseq": "GPMPGKKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVVELLHDPARNAPVARVRFEDGEERLILVPEGVKVGDVVEVKKV",
+                  "midline": "GPMPGKKVVARV E+L        VARV+FEDG ++LI+ PEGVKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|8JVW|A",
+                  "accession": "8JVW_A",
+                  "title": "Chain A, tkoL2_v1.2_Z [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 42,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 8.71279e-07,
+                  "identity": 30,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 42,
+                  "align_len": 49,
+                  "gaps": 7,
+                  "qseq": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLIIAPEGVKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVEE-------ARAEDVGKRVVIIPKGIKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARVEE        + ED  K+++I P+G+KVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_054839834.1|",
+                  "accession": "WP_054839834",
+                  "title": "50S ribosomal protein L2 [Thermococcus sp. JCM 11816]",
+                  "taxid": 1295125,
+                  "sciname": "Thermococcus sp. JCM 11816"
+                }
+              ],
+              "len": 241,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.000928233,
+                  "identity": 27,
+                  "positive": 29,
+                  "query_from": 12,
+                  "query_to": 46,
+                  "hit_from": 47,
+                  "hit_to": 87,
+                  "align_len": 41,
+                  "gaps": 6,
+                  "qseq": "VEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "VEEILHDPGRTAPVARVKFEDGTKKLIIAPEGVLVGQEIYI",
+                  "midline": "VEEIL        VARVKFEDGTKKLIIAPEGV VG  + +"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|8JVP|A",
+                  "accession": "8JVP_A",
+                  "title": "Chain A, Ph1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.00179339,
+                  "identity": 29,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 55,
+                  "gaps": 13,
+                  "qseq": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLIIAPE------GVKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVAE-------ARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARV E        + ED  K+++I P+      G+KVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gb|MFB6266045.1|",
+                  "accession": "MFB6266045",
+                  "title": "50S ribosomal protein L2 [Halodesulfurarchaeum sp.]",
+                  "taxid": 1980530,
+                  "sciname": "Halodesulfurarchaeum sp."
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00493626,
+                  "identity": 20,
+                  "positive": 25,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 55,
+                  "hit_to": 82,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "VARVQFEDGDERLILAPEGVGVGDRIEV",
+                  "midline": "VARV+FEDG ++LI+APEGV VGD +EV"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "tpg|HIP74879.1|",
+                  "accession": "HIP74879",
+                  "title": "50S ribosomal protein L2 [Thermococcus paralvinellae]",
+                  "taxid": 582419,
+                  "sciname": "Thermococcus paralvinellae"
+                }
+              ],
+              "len": 81,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.00522831,
+                  "identity": 25,
+                  "positive": 30,
+                  "query_from": 6,
+                  "query_to": 42,
+                  "hit_from": 39,
+                  "hit_to": 81,
+                  "align_len": 43,
+                  "gaps": 6,
+                  "qseq": "KKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGD",
+                  "hseq": "KTLVGKVVEILHDPGRTAPVARVKFENGLEKLIIAPEGLLVGD",
+                  "midline": "K +V +V EIL        VARVKFE+G +KLIIAPEG+ VGD"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|KXB02550.1|",
+                  "accession": "KXB02550",
+                  "title": "50S ribosomal protein L2 [candidate division MSBL1 archaeon SCGC-AAA261D19]",
+                  "taxid": 1698273,
+                  "sciname": "candidate division MSBL1 archaeon SCGC-AAA261D19"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00624408,
+                  "identity": 24,
+                  "positive": 33,
+                  "query_from": 2,
+                  "query_to": 44,
+                  "hit_from": 32,
+                  "hit_to": 80,
+                  "align_len": 49,
+                  "gaps": 6,
+                  "qseq": "PMPGKKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVV",
+                  "hseq": "PAPKEGAKARVVDILHDPGRTAPVARVRYADGEERLVLAPEGVKVGDVI",
+                  "midline": "P P +   ARV +IL        VARV++ DG ++L++APEGVKVGDV+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gb|MEO2241129.1|",
+                  "accession": "MEO2241129",
+                  "title": "50S ribosomal protein L2 [Methanobacteriota archaeon]",
+                  "taxid": 2026739,
+                  "sciname": "Methanobacteriota archaeon"
+                }
+              ],
+              "len": 196,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.1282,
+                  "score": 100,
+                  "evalue": 0.00632586,
+                  "identity": 23,
+                  "positive": 31,
+                  "query_from": 7,
+                  "query_to": 46,
+                  "hit_from": 41,
+                  "hit_to": 86,
+                  "align_len": 46,
+                  "gaps": 6,
+                  "qseq": "KVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "KVVGKVIELLHDPARNAPVARVRFEDGEERLVLVPEGTKVGDTIEC",
+                  "midline": "KVV +V E+L        VARV+FEDG ++L++ PEG KVGD +E "
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_011018782.1|",
+                  "accession": "WP_011018782",
+                  "title": "50S ribosomal protein L2 [Methanopyrus kandleri]",
+                  "taxid": 2320,
+                  "sciname": "Methanopyrus kandleri"
+                }
+              ],
+              "len": 243,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0063345,
+                  "identity": 18,
+                  "positive": 24,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 59,
+                  "hit_to": 86,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "VARVRFEDGEERLILVPEGTKVGDIIEC",
+                  "midline": "VARV+FEDG ++LI+ PEG KVGD++E "
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|MFB6076441.1|",
+                  "accession": "MFB6076441",
+                  "title": "50S ribosomal protein L2 [Candidatus Aenigmatarchaeota archaeon]",
+                  "taxid": 3121606,
+                  "sciname": "Candidatus Aenigmatarchaeota archaeon"
+                }
+              ],
+              "len": 232,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.743,
+                  "score": 99,
+                  "evalue": 0.00895208,
+                  "identity": 18,
+                  "positive": 25,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 51,
+                  "hit_to": 78,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "VAKVKFEDGEERLIVAPEGIKIGDEIEC",
+                  "midline": "VA+VKFEDG ++LI+APEG+K+GD +E "
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|RLE48986.1|",
+                  "accession": "RLE48986",
+                  "title": "MAG: 50S ribosomal protein L2 [Thermoproteota archaeon]",
+                  "taxid": 2056631,
+                  "sciname": "Thermoproteota archaeon"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.743,
+                  "score": 99,
+                  "evalue": 0.0103646,
+                  "identity": 23,
+                  "positive": 29,
+                  "query_from": 8,
+                  "query_to": 44,
+                  "hit_from": 42,
+                  "hit_to": 84,
+                  "align_len": 43,
+                  "gaps": 6,
+                  "qseq": "VVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVV",
+                  "hseq": "VTGRVEALLHDPGRGAPVALVKFEDGTKQLILAPEGLAVGQII",
+                  "midline": "V  RVE +L        VA VKFEDGTK+LI+APEG+ VG ++"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gb|MGC9129633.1|",
+                  "accession": "MGC9129633",
+                  "title": "50S ribosomal protein L2 [Candidatus Micrarchaeia archaeon]",
+                  "taxid": 3018267,
+                  "sciname": "Candidatus Micrarchaeia archaeon"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.3578,
+                  "score": 98,
+                  "evalue": 0.0128523,
+                  "identity": 19,
+                  "positive": 32,
+                  "query_from": 2,
+                  "query_to": 45,
+                  "hit_from": 32,
+                  "hit_to": 81,
+                  "align_len": 50,
+                  "gaps": 6,
+                  "qseq": "PMPGKKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVE",
+                  "hseq": "PSPASKIMGEVIEFIDDPGHTAPLMRIRYEDNTESILIAPEGIKIGDKIE",
+                  "midline": "P P  K++  V E +D       + R+++ED T+ ++IAPEG+K+GD +E"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|MEX2701709.1|",
+                  "accession": "MEX2701709",
+                  "title": "50S ribosomal protein L2 [Candidatus Baldrarchaeota archaeon]",
+                  "taxid": 2799005,
+                  "sciname": "Candidatus Baldrarchaeota archaeon"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.3578,
+                  "score": 98,
+                  "evalue": 0.0134684,
+                  "identity": 23,
+                  "positive": 31,
+                  "query_from": 6,
+                  "query_to": 46,
+                  "hit_from": 40,
+                  "hit_to": 86,
+                  "align_len": 47,
+                  "gaps": 6,
+                  "qseq": "KKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "KKVVGRIIELLHDPGRGAPVARVRFEDGDERLILVPEGSYVGQLIEC",
+                  "midline": "KKVV R+ E+L        VARV+FEDG ++LI+ PEG  VG ++E "
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "pdb|8JVR|A",
+                  "accession": "8JVR_A",
+                  "title": "Chain A, Ph1_GG [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 44,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 39.6614,
+                  "score": 91,
+                  "evalue": 0.0178985,
+                  "identity": 28,
+                  "positive": 33,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 44,
+                  "align_len": 55,
+                  "gaps": 17,
+                  "qseq": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLIIAPE------GVKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVAE-----------AGGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARV E            G K+++I P+      G+KVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|MFB6138655.1|",
+                  "accession": "MFB6138655",
+                  "title": "50S ribosomal protein L2 [Halobacteriaceae archaeon]",
+                  "taxid": 1931997,
+                  "sciname": "Halobacteriaceae archaeon"
+                }
+              ],
+              "len": 245,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.0197354,
+                  "identity": 19,
+                  "positive": 24,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 55,
+                  "hit_to": 82,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "VARVAFDDGEERLVLAPEGVGVGDAVEV",
+                  "midline": "VARV F+DG ++L++APEGV VGD VEV"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_048149479.1|",
+                  "accession": "WP_048149479",
+                  "title": "50S ribosomal protein L2 [Palaeococcus ferrophilus]",
+                  "taxid": 83868,
+                  "sciname": "Palaeococcus ferrophilus"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.0199485,
+                  "identity": 21,
+                  "positive": 24,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 58,
+                  "hit_to": 85,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "VARVKFEDGSEKLIIAPEGVLVGQEVYI",
+                  "midline": "VARVKFEDG++KLIIAPEGV VG  V +"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_070364297.1|",
+                  "accession": "WP_070364297",
+                  "title": "50S ribosomal protein L2 [Halodesulfurarchaeum formicicum]",
+                  "taxid": 1873524,
+                  "sciname": "Halodesulfurarchaeum formicicum"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0250745,
+                  "identity": 19,
+                  "positive": 24,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 56,
+                  "hit_to": 83,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "VARVAFEDGDERLVLAPEGVGVGDRIEV",
+                  "midline": "VARV FEDG ++L++APEGV VGD +EV"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|MBQ3518764.1|",
+                  "accession": "MBQ3518764",
+                  "title": "50S ribosomal protein L2 [Clostridia bacterium]",
+                  "taxid": 2044939,
+                  "sciname": "Clostridia bacterium"
+                }
+              ],
+              "len": 276,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0283609,
+                  "identity": 18,
+                  "positive": 23,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 90,
+                  "hit_to": 117,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "IALVQYEDGTKSYILAPEGLKVNDVVEA",
+                  "midline": "+A V++EDGTK  I+APEG+KV DVVE "
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_209678110.1|",
+                  "accession": "WP_209678110",
+                  "title": "50S ribosomal protein L2 [Methanohalophilus levihalophilus]",
+                  "taxid": 1431282,
+                  "sciname": "Methanohalophilus levihalophilus"
+                }
+              ],
+              "len": 237,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0287274,
+                  "identity": 16,
+                  "positive": 24,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 56,
+                  "hit_to": 83,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "IVKVSFEDGSEKLILAPEGIAIGDVIEC",
+                  "midline": "+ +V FEDG++KLI+APEG+ +GDV+E "
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_297067765.1|",
+                  "accession": "WP_297067765",
+                  "title": "50S ribosomal protein L2 [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.2022,
+                  "score": 95,
+                  "evalue": 0.0384424,
+                  "identity": 25,
+                  "positive": 32,
+                  "query_from": 3,
+                  "query_to": 46,
+                  "hit_from": 36,
+                  "hit_to": 85,
+                  "align_len": 50,
+                  "gaps": 6,
+                  "qseq": "MPGKKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "MGGQTLVGKVVEILHDPGRSAPVARVKFANGMNKLIIAPEGILVGEEVAI",
+                  "midline": "M G+ +V +V EIL        VARVKF +G  KLIIAPEG+ VG+ V +"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gb|MGB1749678.1|",
+                  "accession": "MGB1749678",
+                  "title": "50S ribosomal protein L2 [Dehalococcoidia bacterium]",
+                  "taxid": 2026734,
+                  "sciname": "Dehalococcoidia bacterium"
+                }
+              ],
+              "len": 275,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.2022,
+                  "score": 95,
+                  "evalue": 0.0384819,
+                  "identity": 18,
+                  "positive": 23,
+                  "query_from": 19,
+                  "query_to": 45,
+                  "hit_from": 90,
+                  "hit_to": 116,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVE",
+                  "hseq": "IALVRFEDGMKRYIVAPNGVKVGDVVQ",
+                  "midline": "+A V+FEDG K+ I+AP GVKVGDVV+"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|MDE1822875.1|",
+                  "accession": "MDE1822875",
+                  "title": "50S ribosomal protein L2 [Candidatus Micrarchaeota archaeon]",
+                  "taxid": 2250274,
+                  "sciname": "Candidatus Micrarchaeota archaeon"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.817,
+                  "score": 94,
+                  "evalue": 0.0437409,
+                  "identity": 19,
+                  "positive": 30,
+                  "query_from": 6,
+                  "query_to": 45,
+                  "hit_from": 37,
+                  "hit_to": 82,
+                  "align_len": 46,
+                  "gaps": 6,
+                  "qseq": "KKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGDVVE",
+                  "hseq": "NRIVGEVMEFIDDPGHTAPLMRIKYEDGTENTLIAPEGIKVGDRIQ",
+                  "midline": " ++V  V E +D       + R+K+EDGT+  +IAPEG+KVGD ++"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gb|MBI2141213.1|",
+                  "accession": "MBI2141213",
+                  "title": "50S ribosomal protein L2 [Candidatus Woesearchaeota archaeon]",
+                  "taxid": 2026803,
+                  "sciname": "Candidatus Woesearchaeota archaeon"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.817,
+                  "score": 94,
+                  "evalue": 0.0452437,
+                  "identity": 17,
+                  "positive": 24,
+                  "query_from": 19,
+                  "query_to": 46,
+                  "hit_from": 59,
+                  "hit_to": 86,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVEV",
+                  "hseq": "IARVRYDDSQEALVIAPEGVKVGDVLEA",
+                  "midline": "+ARV+++D  + L+IAPEGVKVGDV+E "
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|MBD5390406.1|",
+                  "accession": "MBD5390406",
+                  "title": "30S ribosomal protein S17 [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 101,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 39.6614,
+                  "score": 91,
+                  "evalue": 0.0468897,
+                  "identity": 18,
+                  "positive": 22,
+                  "query_from": 19,
+                  "query_to": 45,
+                  "hit_from": 50,
+                  "hit_to": 76,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVE",
+                  "hseq": "IALVKYEDGEKRYIIAPNGLKVGDVVR",
+                  "midline": "+A VK+EDG K+ IIAP G+KVGDVV "
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|MEA1904839.1|",
+                  "accession": "MEA1904839",
+                  "title": "50S ribosomal protein L2 [Candidatus Hadarchaeota archaeon]",
+                  "taxid": 3097284,
+                  "sciname": "Candidatus Hadarchaeota archaeon"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.817,
+                  "score": 94,
+                  "evalue": 0.0490659,
+                  "identity": 21,
+                  "positive": 31,
+                  "query_from": 2,
+                  "query_to": 42,
+                  "hit_from": 32,
+                  "hit_to": 78,
+                  "align_len": 47,
+                  "gaps": 6,
+                  "qseq": "PMPGKKVVARVEEILDG------VARVKFEDGTKKLIIAPEGVKVGD",
+                  "hseq": "PTPKENVRARVVDILHDPGRGAPVARIRYPDGQERLVLAPEGVRVGS",
+                  "midline": "P P + V ARV +IL        VAR+++ DG ++L++APEGV+VG "
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|MCI8349926.1|",
+                  "accession": "MCI8349926",
+                  "title": "50S ribosomal protein L2 [Oscillospiraceae bacterium]",
+                  "taxid": 2485925,
+                  "sciname": "Oscillospiraceae bacterium"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.817,
+                  "score": 94,
+                  "evalue": 0.0492754,
+                  "identity": 18,
+                  "positive": 23,
+                  "query_from": 19,
+                  "query_to": 45,
+                  "hit_from": 91,
+                  "hit_to": 117,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "VARVKFEDGTKKLIIAPEGVKVGDVVE",
+                  "hseq": "IALVQYEDGEKRYIIAPHGLKVGDVVE",
+                  "midline": "+A V++EDG K+ IIAP G+KVGDVVE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

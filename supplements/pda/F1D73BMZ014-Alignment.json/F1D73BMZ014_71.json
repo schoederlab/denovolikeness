@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368716",
+          "query_title": "7upo_B",
+          "query_len": 78,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7UPQ|B",
+                  "accession": "7UPQ_B",
+                  "title": "Chain B, DHT03 protein B [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 77,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.109,
+                  "score": 331,
+                  "evalue": 3.3342e-38,
+                  "identity": 70,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "SPVDEIDKEVKKLEEEAKKSQEEVERLKQEVEKASKAGLDHEGDSRIFKKIHDVVTKQIKVIIRLIEVYVRLVEII",
+                  "hseq": "GPVDEIDKEVKKLEEEAKKSQEEVERLKQEVEKASKAGLDHEGDSRIFKKIHDVVTKQIKVILRLIAVYAELVAII",
+                  "midline": " PVDEIDKEVKKLEEEAKKSQEEVERLKQEVEKASKAGLDHEGDSRIFKKIHDVVTKQIKVI+RLI VY  LV II"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7UPP|B",
+                  "accession": "7UPP_B",
+                  "title": "Chain B, DHT03 protein B [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 312,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 1.87146e-30,
+                  "identity": 62,
+                  "positive": 64,
+                  "query_from": 7,
+                  "query_to": 77,
+                  "hit_from": 241,
+                  "hit_to": 311,
+                  "align_len": 71,
+                  "gaps": 0,
+                  "qseq": "IDKEVKKLEEEAKKSQEEVERLKQEVEKASKAGLDHEGDSRIFKKIHDVVTKQIKVIIRLIEVYVRLVEII",
+                  "hseq": "VASEVLKLEEEAKKSQEEVERLKQEVEKASKAGLDHEGDSRIFKKIHDVVTKQIKVILRLIAVYAELVAII",
+                  "midline": "+  EV KLEEEAKKSQEEVERLKQEVEKASKAGLDHEGDSRIFKKIHDVVTKQIKVI+RLI VY  LV II"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

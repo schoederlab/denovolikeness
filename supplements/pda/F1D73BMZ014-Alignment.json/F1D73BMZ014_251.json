@@ -1,0 +1,198 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368896",
+          "query_title": "3lt8_A",
+          "query_len": 81,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|3DGO|A",
+                  "accession": "3DGO_A",
+                  "title": "Chain A, ATP Binding Protein-DX [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 81,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 165.622,
+                  "score": 418,
+                  "evalue": 1.66794e-51,
+                  "identity": 79,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 81,
+                  "hit_from": 1,
+                  "hit_to": 81,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "GSMDYKDDDDKKTNWLKRIYRVRPCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGHVDWLMYADSKEISNT",
+                  "hseq": "GSMDYKDDDDKKTNWLKRIYRVRPCVKCKVAPRDWKVKNKHLRIFNMCKTCFNNSIDIGDDTYHGHVDWLMYADSKEISNT",
+                  "midline": "GSMDYKDDDDKKTNWLKRIYRVRPCVKCKVAPR+WKVKNKHLRI+NMCKTCFNNSIDIGDDTYHGHVDWLMYADSKEISNT"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|AAK50879.1|",
+                  "accession": "AAK50879",
+                  "title": "ATP-binding protein, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 161.77,
+                  "score": 408,
+                  "evalue": 1.43854e-49,
+                  "identity": 78,
+                  "positive": 78,
+                  "query_from": 3,
+                  "query_to": 81,
+                  "hit_from": 1,
+                  "hit_to": 79,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "MDYKDDDDKKTNWLKRIYRVRPCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGHVDWLMYADSKEISNT",
+                  "hseq": "MDYKDDDDKKTNWLKRIYRVRPCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGHDDWLMYADSKEISNT",
+                  "midline": "MDYKDDDDKKTNWLKRIYRVRPCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGH DWLMYADSKEISNT"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|AAK50878.1|",
+                  "accession": "AAK50878",
+                  "title": "optimized ATP-binding protein family B, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.54024e-33,
+                  "identity": 57,
+                  "positive": 64,
+                  "query_from": 11,
+                  "query_to": 81,
+                  "hit_from": 9,
+                  "hit_to": 79,
+                  "align_len": 71,
+                  "gaps": 0,
+                  "qseq": "KKTNWLKRIYRVRPCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGHVDWLMYADSKEISNT",
+                  "hseq": "KKTNWQKRIYRVRPCVICKVAPRDWRVENRHLRIYNMCKTCFSNSINYGDDTYYGHDDWLMYTDCKEFSNT",
+                  "midline": "KKTNW KRIYRVRPCV CKVAPR+W+V+N+HLRIYNMCKTCF+NSI+ GDDTY+GH DWLMY D KE SNT"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|2P0X|A",
+                  "accession": "2P0X_A",
+                  "title": "Chain A, abiotic ATP-binding, folding optimized protein [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 64,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.775,
+                  "score": 286,
+                  "evalue": 1.81027e-31,
+                  "identity": 50,
+                  "positive": 57,
+                  "query_from": 20,
+                  "query_to": 81,
+                  "hit_from": 3,
+                  "hit_to": 64,
+                  "align_len": 62,
+                  "gaps": 0,
+                  "qseq": "YRVRPCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGHVDWLMYADSKEISNT",
+                  "hseq": "FRVKPCVVCKVAPRDWRVKNRHLRIYNMCKTCFNNSIKSGDDTYHGHVDWLMYTDAKEFSST",
+                  "midline": "+RV+PCV CKVAPR+W+VKN+HLRIYNMCKTCFNNSI  GDDTYHGHVDWLMY D+KE S+T"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|AAK55118.1|",
+                  "accession": "AAK55118",
+                  "title": "maltose binding protein/SBP-tag/His-tag fusion protein [Fusion protein expression vector pTAG2K]",
+                  "taxid": 160636,
+                  "sciname": "Fusion protein expression vector pTAG2K"
+                }
+              ],
+              "len": 479,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.531,
+                  "score": 262,
+                  "evalue": 1.98903e-24,
+                  "identity": 44,
+                  "positive": 44,
+                  "query_from": 24,
+                  "query_to": 68,
+                  "hit_from": 435,
+                  "hit_to": 479,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "PCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGHVD",
+                  "hseq": "PCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGHDD",
+                  "midline": "PCVKCKVAPRNWKVKNKHLRIYNMCKTCFNNSIDIGDDTYHGH D"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368804",
+          "query_title": "8a85_A,B,C,D,E,F",
+          "query_len": 190,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8A85|A",
+                  "accession": "8A85_A",
+                  "title": "Chain A, Phenolic acid decarboxylase N134 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 396.741,
+                  "score": 1018,
+                  "evalue": 2.16927e-139,
+                  "identity": 190,
+                  "positive": 190,
+                  "query_from": 1,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 190,
+                  "align_len": 190,
+                  "gaps": 0,
+                  "qseq": "MGSSHHHHHHSSGLVPRGSHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MGSSHHHHHHSSGLVPRGSHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "midline": "MGSSHHHHHHSSGLVPRGSHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8ADX|A",
+                  "accession": "8ADX_A",
+                  "title": "Chain A, Phenolic acid decarboxylase N55 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 192,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.922,
+                  "score": 668,
+                  "evalue": 3.97202e-86,
+                  "identity": 137,
+                  "positive": 159,
+                  "query_from": 1,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 192,
+                  "align_len": 195,
+                  "gaps": 8,
+                  "qseq": "MGSSHHHHHHSSGLVPRGSHMA-----SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MGSSHHHHHHSSGLVPRGSHMSDAFESTRPE---ELTGFVGKHLIYTYDNGWQYEMYVKNERTIDYRIHSGMVGGRWVRDQLVHIVRLSDDVYKISWDEPTGTTVSVAVNLAERRLHGVIFFPQWIAQDPKKTVCFQNDHLDEMRAYRDAGPTYPKLVIDEFATITFMEDCGADDETVIACAPSELPAGYAARRN",
+                  "midline": "MGSSHHHHHHSSGLVPRGSHM+     +RP+   +L+G VGKHLIYTY NGWQYE+YVKNE TIDYRIHSG VGGRWV+DQ V IVRL + +YK+SW EPTGT VS+ V+LAER LHG IFF QW++Q P+ TV FQN+HLDEMRA RD GP YP++VIDEFATITF+E+CG D++ VI CAP ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_396964156.1|",
+                  "accession": "WP_396964156",
+                  "title": "phenolic acid decarboxylase [Nocardia sp. NPDC050175]",
+                  "taxid": 3364317,
+                  "sciname": "Nocardia sp. NPDC050175"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.447,
+                  "score": 646,
+                  "evalue": 5.43441e-83,
+                  "identity": 113,
+                  "positive": 138,
+                  "query_from": 24,
+                  "query_to": 190,
+                  "hit_from": 7,
+                  "hit_to": 173,
+                  "align_len": 167,
+                  "gaps": 0,
+                  "qseq": "RPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "RAIPVQDFSGIVGQHIIYTYANGWTYEVYVKNESTIDYRVHGGDVAGRWVKDQPVALARVATSMFTVSWTEPTGNTVSLLINLAERWLHGAFWFAKWVHDNPKLTVMFQNDHLDEIRALCGKGPVSPQFMLDEFATITFAESSGIDNEDIIACAPGDLPKGYITRTN",
+                  "midline": "R  P QD SGIVG+H+IYTYANGW YE+YVKNE+TIDYR+H G V GRWVKDQPV + R+   M+ VSWTEPTG  VSL+++LAERWLHG  +FA+WV  +P+LTV+FQN+HLDE+RAL  +GPV PQ ++DEFATITF E+ GIDN+D+I CAPG+LP GYI RTN"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_392423940.1|",
+                  "accession": "WP_392423940",
+                  "title": "phenolic acid decarboxylase [Barrientosiimonas humi]",
+                  "taxid": 999931,
+                  "sciname": "Barrientosiimonas humi"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.44,
+                  "score": 633,
+                  "evalue": 4.29259e-81,
+                  "identity": 115,
+                  "positive": 135,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 4,
+                  "hit_to": 172,
+                  "align_len": 169,
+                  "gaps": 0,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ALLPAPDDDTTGLQGKHLIYTYANGWRYELFVKNAGEIDYRIHAGDVAGRWVKGQPVQLSRLGEQVFTVSWNEPTGTCVSLVVNLADRWVHGAIFFAQWVHQDPARTALFQNEHLDEMYALRDQGPVAPLELLDEAATITFVEQCDVDDDTVIDRAPSELPEGYVDRTS",
+                  "midline": "A  P PD D +G+ GKHLIYTYANGW+YEL+VKN   IDYRIH+G V GRWVK QPV + RLG  ++ VSW EPTGTCVSLVV+LA+RW+HG IFFAQWV Q P  T +FQNEHLDEM ALRD+GPV P  ++DE ATITFVE C +D+D VID AP ELP+GY+DRT+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_397152556.1|",
+                  "accession": "WP_397152556",
+                  "title": "phenolic acid decarboxylase [Nocardia sp. NPDC051570]",
+                  "taxid": 3364324,
+                  "sciname": "Nocardia sp. NPDC051570"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 247.284,
+                  "score": 630,
+                  "evalue": 1.93812e-80,
+                  "identity": 111,
+                  "positive": 141,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 4,
+                  "hit_to": 181,
+                  "align_len": 178,
+                  "gaps": 6,
+                  "qseq": "SHMASR-PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSG-----PVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SQFATRLPQDNQDLSGLLGKHLIYTYSNGWQYELYIKTNDRVEYRVHASTKDVNPLTGRWVKDQNAVIARLGDAMYSIAWNEPTGTCVNLVLDTEQRWVHFTGFLAKWVSDHPERTVVFQNEHLAEIQAYRDAGPIAPQVQADLFGTISFAEDCGLDNDDVIACAPGDVPDGFLDRTN",
+                  "midline": "S  A+R PQ +QDLSG++GKHLIYTY+NGWQYELY+K  + ++YR+H+      P+ GRWVKDQ  VI RLG+ MY ++W EPTGTCV+LV+D  +RW+H T F A+WVS HPE TVVFQNEHL E++A RD GP+ PQV  D F TI+F E+CG+DNDDVI CAPG++PDG++DRTN"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|8B30|A",
+                  "accession": "8B30_A",
+                  "title": "Chain A, Phenolic acid decarboxylase N31 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.432,
+                  "score": 620,
+                  "evalue": 8.89862e-79,
+                  "identity": 129,
+                  "positive": 151,
+                  "query_from": 1,
+                  "query_to": 187,
+                  "hit_from": 1,
+                  "hit_to": 184,
+                  "align_len": 187,
+                  "gaps": 3,
+                  "qseq": "MGSSHHHHHHSSGLVPRGSHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYID",
+                  "hseq": "MGSSHHHHHHSSGLVPRGSHMSFD---KEDLSGFVGKHFIYTYDNGWRYEIYVKNENTIDYRIHSGIVGGRWVKDQQVYIVRVADDVYKISWTEPTGTDVSLTVNLADYILHGTIFFPRWIIENPEKTVCYQNDHLPLMRAYRDAGPTYPKEVIDEFATITFMRDCGENNETVINCPPSELPADYPD",
+                  "midline": "MGSSHHHHHHSSGLVPRGSHM+      +DLSG VGKH IYTY NGW+YE+YVKNENTIDYRIHSG VGGRWVKDQ V IVR+ + +YK+SWTEPTGT VSL V+LA+  LHGTIFF +W+ ++PE TV +QN+HL  MRA RD GP YP+ VIDEFATITF+ +CG +N+ VI+C P ELP  Y D"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_037341997.1|",
+                  "accession": "WP_037341997",
+                  "title": "phenolic acid decarboxylase [Salinisphaera hydrothermalis]",
+                  "taxid": 563188,
+                  "sciname": "Salinisphaera hydrothermalis"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.121,
+                  "score": 614,
+                  "evalue": 4.02874e-78,
+                  "identity": 107,
+                  "positive": 131,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "QELVGFIGKHFIYTYANGWQYELYVKNDRTIDYRIHTGMVGGRWVRDQVAHIVRLGEGVYKISWDEPTGTSVSVAFNLIERKLHGVIFFPQWISQAPKKTVCFQNEHIERMQAFRDAGPTYPKLVIDEFAELTYLEDCGADNEQVINCAPADLPEGYAARRN",
+                  "midline": "Q+L G +GKH IYTYANGWQYELYVKN+ TIDYRIH+G VGGRWV+DQ   IVRLG G+YK+SW EPTGT VS+  +L ER LHG IFF QW+SQ P+ TV FQNEH++ M+A RD GP YP++VIDEFA +T++E+CG DN+ VI+CAP +LP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gb|MGA9174477.1|",
+                  "accession": "MGA9174477",
+                  "title": "phenolic acid decarboxylase [Thermoactinomyces sp.]",
+                  "taxid": 2025,
+                  "sciname": "Thermoactinomyces sp."
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.736,
+                  "score": 613,
+                  "evalue": 4.58829e-78,
+                  "identity": 111,
+                  "positive": 131,
+                  "query_from": 21,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 0,
+                  "qseq": "MASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MTNTHQDANALSGIIGKHLIYTYDNGWQYELYVKNADTIDYRIHSGMVGGRWVTDQKVFIAALSESIFKISWDEPTGTAVSLAVNLSERKLHGVIFFPRWVAEAPEKTVCYQNEHLDLMQQYRDAGPTYPKLVIDEFATITFIEDCGANRNDVINCPPSELPDGYASRKN",
+                  "midline": "M +  Q    LSGI+GKHLIYTY NGWQYELYVKN +TIDYRIHSG VGGRWV DQ V I  L   ++K+SW EPTGT VSL V+L+ER LHG IFF +WV++ PE TV +QNEHLD M+  RD GP YP++VIDEFATITF+E+CG + +DVI+C P ELPDGY  R N"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_069164865.1|",
+                  "accession": "WP_069164865",
+                  "title": "phenolic acid decarboxylase [Nocardia altamirensis]",
+                  "taxid": 472158,
+                  "sciname": "Nocardia altamirensis"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.35,
+                  "score": 612,
+                  "evalue": 1.01641e-77,
+                  "identity": 109,
+                  "positive": 139,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 4,
+                  "hit_to": 181,
+                  "align_len": 178,
+                  "gaps": 6,
+                  "qseq": "SHMASR-PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSG-----PVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SQFATQLPQDNQDLSGLLGQHLIYTYSNGWRYELYIKNSNHVEYRVHASVKDVNPLAGRWVKDQKAVIARLGNGMYSIAWNEPTGTCVNLVMDTEQRWVHFTGFLAKWVSDHPELTVVFQNEHLAEIQALRDAGPIAPQVQADLFGTISFAEYSGTDNEQVIASPPGDVPDGFLDRTN",
+                  "midline": "S  A++ PQ +QDLSG++G+HLIYTY+NGW+YELY+KN N ++YR+H+      P+ GRWVKDQ  VI RLGNGMY ++W EPTGTCV+LV+D  +RW+H T F A+WVS HPELTVVFQNEHL E++ALRD GP+ PQV  D F TI+F E  G DN+ VI   PG++PDG++DRTN"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_319496507.1|",
+                  "accession": "WP_319496507",
+                  "title": "phenolic acid decarboxylase [uncultured Cohaesibacter sp.]",
+                  "taxid": 1002546,
+                  "sciname": "uncultured Cohaesibacter sp."
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.195,
+                  "score": 609,
+                  "evalue": 2.45345e-77,
+                  "identity": 104,
+                  "positive": 133,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTAFVGKHLIYTYDNGWQYELYVKNEKTIDYRIHSGMVGGRWVRDQETHIVRLSDNVFKISWDEPTGTCVSVAVNLAERKLHGVIFFPRWIANDPKLTVCYQNDHLDQMKSLRDAGPTYPKLVIDEFATVTFVEDCAANDETVVSCDPSDLPEGYAARRN",
+                  "midline": "++L+  VGKHLIYTY NGWQYELYVKNE TIDYRIHSG VGGRWV+DQ   IVRL + ++K+SW EPTGTCVS+ V+LAER LHG IFF +W++  P+LTV +QN+HLD+M++LRD GP YP++VIDEFAT+TFVE+C  +++ V+ C P +LP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_013139800.1|",
+                  "accession": "WP_013139800",
+                  "title": "phenolic acid decarboxylase [Segniliparus rotundus]",
+                  "taxid": 286802,
+                  "sciname": "Segniliparus rotundus"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.424,
+                  "score": 607,
+                  "evalue": 4.33012e-77,
+                  "identity": 109,
+                  "positive": 128,
+                  "query_from": 27,
+                  "query_to": 190,
+                  "hit_from": 7,
+                  "hit_to": 170,
+                  "align_len": 164,
+                  "gaps": 0,
+                  "qseq": "PDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PTQDLSGIVGKHIIYTYANGWKYEVYYKNETAIDYRIHHGMVGGRWVRDQKAAIVQFEPGVYLVSWDEPTGTNVALTVDFTRRRLHGVIFFPAWVGEHPERTVLYQNDHLEQMRAYRDEGPTYPKLVIEEFAKITFLEDCGRDDQTVISCAPAELPSGYADRVN",
+                  "midline": "P QDLSGIVGKH+IYTYANGW+YE+Y KNE  IDYRIH G VGGRWV+DQ   IV+   G+Y VSW EPTGT V+L VD   R LHG IFF  WV +HPE TV++QN+HL++MRA RDEGP YP++VI+EFA ITF+E+CG D+  VI CAP ELP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_377390449.1|",
+                  "accession": "WP_377390449",
+                  "title": "phenolic acid decarboxylase [Rhodobacter lacus]",
+                  "taxid": 1641972,
+                  "sciname": "Rhodobacter lacus"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 237.654,
+                  "score": 605,
+                  "evalue": 1.0073e-76,
+                  "identity": 109,
+                  "positive": 127,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTSFVGKHLIYTYDNGWQYELYVKNARTIDYRIHSGMVGGRWVRDQEVHIVRLAPDVFKISWDEPTGTAVSVAVNLTSRQLHGVIFFPAWIGETPEKTVCFQNEHLDEMRAYRDAGPTYPRLVIDEFATVTFVEDCGADDETVVACAPSELPAGYAARRN",
+                  "midline": "++L+  VGKHLIYTY NGWQYELYVKN  TIDYRIHSG VGGRWV+DQ V IVRL   ++K+SW EPTGT VS+ V+L  R LHG IFF  W+ + PE TV FQNEHLDEMRA RD GP YP++VIDEFAT+TFVE+CG D++ V+ CAP ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|MDU2065240.1|",
+                  "accession": "MDU2065240",
+                  "title": "phenolic acid decarboxylase [Sporomusaceae bacterium]",
+                  "taxid": 1917525,
+                  "sciname": "Sporomusaceae bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 237.269,
+                  "score": 604,
+                  "evalue": 1.07051e-76,
+                  "identity": 105,
+                  "positive": 124,
+                  "query_from": 28,
+                  "query_to": 190,
+                  "hit_from": 2,
+                  "hit_to": 164,
+                  "align_len": 163,
+                  "gaps": 0,
+                  "qseq": "DQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ENELKSLIGKHFIYTYENGWQYEFYVKNENTVDYRIHSGIVGGRWVTDQTAYIVALGENVYKVSWDEPTGTCVSLAFNLSTRKIHGTIFFPAWVAEEPTKTVCYQNEHLVKMNEYRDQGPTYPKMVVDEFATITFIEECGADNNSVIQCAPSELPTGYTTRQN",
+                  "midline": "+ +L  ++GKH IYTY NGWQYE YVKNENT+DYRIHSG VGGRWV DQ   IV LG  +YKVSW EPTGTCVSL  +L+ R +HGTIFF  WV++ P  TV +QNEHL +M   RD+GP YP++V+DEFATITF+E CG DN+ VI CAP ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_345621638.1|",
+                  "accession": "WP_345621638",
+                  "title": "phenolic acid decarboxylase [Streptomyces ziwulingensis]",
+                  "taxid": 1045501,
+                  "sciname": "Streptomyces ziwulingensis"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 237.654,
+                  "score": 605,
+                  "evalue": 1.40756e-76,
+                  "identity": 110,
+                  "positive": 124,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 15,
+                  "hit_to": 183,
+                  "align_len": 169,
+                  "gaps": 3,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVS---QHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PEPEQDLSPFVGNHFIYTYANGWQYEWYARNEKECDYRIHHGLVGGRWVTRQAVSVVRIAEGQYKTDWHEPTGTCVSLFFDLTRRLVHGTIFFPQWIAGEGQHPEKTICYQNDFLDSMRDFRDEGPAYPYVIIPEFAKITFIEQCGRDNDTVIDLAPGQLPDGYADRTN",
+                  "midline": "P+P+QDLS  VG H IYTYANGWQYE Y +NE   DYRIH G VGGRWV  Q V +VR+  G YK  W EPTGTCVSL  DL  R +HGTIFF QW++   QHPE T+ +QN+ LD MR  RDEGP YP V+I EFA ITF+E CG DND VID APG+LPDGY DRTN"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gb|MDR3519096.1|",
+                  "accession": "MDR3519096",
+                  "title": "phenolic acid decarboxylase [Azospirillaceae bacterium]",
+                  "taxid": 2952893,
+                  "sciname": "Azospirillaceae bacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 236.884,
+                  "score": 603,
+                  "evalue": 1.56081e-76,
+                  "identity": 111,
+                  "positive": 130,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTDFVGQHLIYTYANGWQYELYVKNDRTIDYRIHSGMVGGRWVRDQRVHIVRLGTEIYKISWDEPTGTAVSLGVNLAWRKLHGVIFFPRWIANDPKKTVCFQNEHLDEMTALRDAGPTYPRLVVDEFADITFIEKCRPDDETVIACAPSELPKGYTDRRN",
+                  "midline": "++L+  VG+HLIYTYANGWQYELYVKN+ TIDYRIHSG VGGRWV+DQ V IVRLG  +YK+SW EPTGT VSL V+LA R LHG IFF +W++  P+ TV FQNEHLDEM ALRD GP YP++V+DEFA ITF+E C  D++ VI CAP ELP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_342766340.1|",
+                  "accession": "WP_342766340",
+                  "title": "phenolic acid decarboxylase [Haladaptatus sp. AB643]",
+                  "taxid": 2934174,
+                  "sciname": "Haladaptatus sp. AB643"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 236.884,
+                  "score": 603,
+                  "evalue": 1.72243e-76,
+                  "identity": 108,
+                  "positive": 134,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 4,
+                  "hit_to": 172,
+                  "align_len": 172,
+                  "gaps": 3,
+                  "qseq": "SHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SFESTRPET---LSRVLGKHFIYTYDNGWQYEMYIKDGYTIDYRIHSGMVGGRWVRDQDAHIVRLSDDVFKVSWDEPTGTSVSVSFNLTERQIHGVIFFPQWIEQNPELTVCYQNEHLDEMRQYRDEGPTYPKLVVDEFAEITFIEDVGTEREDIIDCAPAELPDRYTDRRN",
+                  "midline": "S  ++RP+    LS ++GKH IYTY NGWQYE+Y+K+  TIDYRIHSG VGGRWV+DQ   IVRL + ++KVSW EPTGT VS+  +L ER +HG IFF QW+ Q+PELTV +QNEHLDEMR  RDEGP YP++V+DEFA ITF+E+ G + +D+IDCAP ELPD Y DR N"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|MDR3740069.1|",
+                  "accession": "MDR3740069",
+                  "title": "phenolic acid decarboxylase [Terracidiphilus sp.]",
+                  "taxid": 1964191,
+                  "sciname": "Terracidiphilus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 236.113,
+                  "score": 601,
+                  "evalue": 3.10918e-76,
+                  "identity": 106,
+                  "positive": 126,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 10,
+                  "hit_to": 171,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTGFVGKHVIYTYDNGWQYEIYIKNATTVDYRIHSGIVGGRWVRDQKAHIVRLADGIYKVSWDEPTGTCVSLCFMLETRKTHGTAFFPQWIAQAPDKTVCFQNEHLDRMHALRDAGPTHPKFVLDEFSTITFLEDCGADNESVIDCGPERLPAGYASRRN",
+                  "midline": "++L+G VGKH+IYTY NGWQYE+Y+KN  T+DYRIHSG VGGRWV+DQ   IVRL +G+YKVSW EPTGTCVSL   L  R  HGT FF QW++Q P+ TV FQNEHLD M ALRD GP +P+ V+DEF+TITF+E+CG DN+ VIDC P  LP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|MGB8261376.1|",
+                  "accession": "MGB8261376",
+                  "title": "phenolic acid decarboxylase [Terracidiphilus sp.]",
+                  "taxid": 1964191,
+                  "sciname": "Terracidiphilus sp."
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 235.343,
+                  "score": 599,
+                  "evalue": 7.64241e-76,
+                  "identity": 103,
+                  "positive": 125,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 13,
+                  "hit_to": 174,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTAFIGKHIIYTYENGWQYEIYIKNATTVDYRIHSGLVGGRWVRDQKAHIVRLAEEIYKVSWDEPTGTCVSLCFMLAARTTHGTAFFPQWIFAEPGKTVCYQNEHLERMRALREAGPTYPKFVLDEFSTITFIEDCGADDESVISCPPGELPEGYADRRN",
+                  "midline": "++L+  +GKH+IYTY NGWQYE+Y+KN  T+DYRIHSG VGGRWV+DQ   IVRL   +YKVSW EPTGTCVSL   LA R  HGT FF QW+   P  TV +QNEHL+ MRALR+ GP YP+ V+DEF+TITF+E+CG D++ VI C PGELP+GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_405162117.1|",
+                  "accession": "WP_405162117",
+                  "title": "phenolic acid decarboxylase [Nocardia sp. NBC_01499]",
+                  "taxid": 2903597,
+                  "sciname": "Nocardia sp. NBC_01499"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.958,
+                  "score": 598,
+                  "evalue": 1.29704e-75,
+                  "identity": 106,
+                  "positive": 138,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 4,
+                  "hit_to": 181,
+                  "align_len": 178,
+                  "gaps": 6,
+                  "qseq": "SHMASR-PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSG-----PVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SQFATQLPQDNQDLSALLGQHLIYTYSNGWQYELYIKNNDRVDYRVHPSIKDVNPLTGRWVKDQKTVIARLGDSMYSIAWNEPTGTCVNLVLDIGQRWVHFTGFLAKWVSDHPERTVVFQNEHLPEIQAYRDTGPIAPQTPANLFGTISYAEDSGIDNEAVIACAPGEVPDGFLDRTN",
+                  "midline": "S  A++ PQ +QDLS ++G+HLIYTY+NGWQYELY+KN + +DYR+H       P+ GRWVKDQ  VI RLG+ MY ++W EPTGTCV+LV+D+ +RW+H T F A+WVS HPE TVVFQNEHL E++A RD GP+ PQ   + F TI++ E+ GIDN+ VI CAPGE+PDG++DRTN"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "tpg|HEX7730353.1|",
+                  "accession": "HEX7730353",
+                  "title": "phenolic acid decarboxylase [Terracidiphilus sp.]",
+                  "taxid": 1964191,
+                  "sciname": "Terracidiphilus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 2.2065e-75,
+                  "identity": 107,
+                  "positive": 128,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 3,
+                  "hit_to": 171,
+                  "align_len": 172,
+                  "gaps": 3,
+                  "qseq": "SHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SFESTKPE---ELTGFIGKHVIYTYDNGWQYELYIKNATTVDYRIHSGIVGGRWVRDQKAHIVRLAEGICKVSWDEPTGTCVSLCFMFAEQKTHGTAFFPQWIAQEPGTTVCFQNEHLERMRMLRDAGPTYPKFVLDEFSTITFVEECGADNETVIACGPEKLPAGYASRRN",
+                  "midline": "S  +++P+   +L+G +GKH+IYTY NGWQYELY+KN  T+DYRIHSG VGGRWV+DQ   IVRL  G+ KVSW EPTGTCVSL    AE+  HGT FF QW++Q P  TV FQNEHL+ MR LRD GP YP+ V+DEF+TITFVE CG DN+ VI C P +LP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|MFE2426010.1|",
+                  "accession": "MFE2426010",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. NPDC059373]",
+                  "taxid": 3346813,
+                  "sciname": "Streptomyces sp. NPDC059373"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 2.25768e-75,
+                  "identity": 111,
+                  "positive": 125,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 8,
+                  "hit_to": 173,
+                  "align_len": 166,
+                  "gaps": 0,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PVPEQDLSEFVGAHLIYTYANGWQYEMYVKNATTMDYRIHSGMVGGRWVKDQAIDLVRLDADSYKVSWTEPTGTSVAVNVMPGKRRLHGVIFFPHWVEEHPQRTVCFQNEHLDEMRRFRDEGPTYPVYVVPEFAYITFFEQCAPDDESVVDRAPGELPGGYASRTN",
+                  "midline": "P P+QDLS  VG HLIYTYANGWQYE+YVKN  T+DYRIHSG VGGRWVKDQ + +VRL    YKVSWTEPTGT V++ V   +R LHG IFF  WV +HP+ TV FQNEHLDEMR  RDEGP YP  V+ EFA ITF E C  D++ V+D APGELP GY  RTN"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_107344594.1|",
+                  "accession": "WP_107344594",
+                  "title": "phenolic acid decarboxylase [Rhodopseudomonas palustris]",
+                  "taxid": 1076,
+                  "sciname": "Rhodopseudomonas palustris"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.032,
+                  "score": 593,
+                  "evalue": 5.53703e-75,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 30,
+                  "query_to": 190,
+                  "hit_from": 12,
+                  "hit_to": 172,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ELVDFVGSHLIYTYDNGWQYELYVKNENTIDYRIHSGMVGGRWVRDQFAHIVRLGEGIYKISWDEPTGTCVSVAVNLPKRKLHGVIFFPDWIARDPKKTVCFQNDHLDAMRAYRDAGPTYPKLVIDEFATITFMERRDRDDQSVIDCPPEKLPSGYADRRN",
+                  "midline": "+L   VG HLIYTY NGWQYELYVKNENTIDYRIHSG VGGRWV+DQ   IVRLG G+YK+SW EPTGTCVS+ V+L +R LHG IFF  W+++ P+ TV FQN+HLD MRA RD GP YP++VIDEFATITF+E    D+  VIDC P +LP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_012334964.1|",
+                  "accession": "WP_012334964",
+                  "title": "MULTISPECIES: phenolic acid decarboxylase [unclassified Methylobacterium]",
+                  "taxid": 2615210,
+                  "sciname": "unclassified Methylobacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.032,
+                  "score": 593,
+                  "evalue": 6.17756e-75,
+                  "identity": 102,
+                  "positive": 128,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EEIAPFLGKHFIYTYENGWQYEMYIKNERTIDYRIHSGIVGGRWVRDQVAHIVRLSDEVVKISWDEPTGTTVSVAVNFEERRIHGVIFFPQWIAQDPKRTVCFQNEHLDRMRQYRDAGPTYPKLVVDEFASVTFLEDCGIDNQEVIACAPADLPDGYAARQN",
+                  "midline": "++++  +GKH IYTY NGWQYE+Y+KNE TIDYRIHSG VGGRWV+DQ   IVRL + + K+SW EPTGT VS+ V+  ER +HG IFF QW++Q P+ TV FQNEHLD MR  RD GP YP++V+DEFA++TF+E+CGIDN +VI CAP +LPDGY  R N"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_042695336.1|",
+                  "accession": "WP_042695336",
+                  "title": "phenolic acid decarboxylase [Azospirillum sp. B506]",
+                  "taxid": 137721,
+                  "sciname": "Azospirillum sp. B506"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.032,
+                  "score": 593,
+                  "evalue": 6.53457e-75,
+                  "identity": 106,
+                  "positive": 127,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTDFIGRHFIYTYDNGWQYEFYVKNDRTVDYRIHSGMVGGRWVRDQIAHIVRLAPQVFKVSWDEPTGTAVSLAFNLEARRVHGVIFFPRWVAEAPEKTVCFQNEHLDEMRSLRDAGPTYPRLVIDEFAPITFLENCGPDNQEVIACAPSELPAGYANRRN",
+                  "midline": "++L+  +G+H IYTY NGWQYE YVKN+ T+DYRIHSG VGGRWV+DQ   IVRL   ++KVSW EPTGT VSL  +L  R +HG IFF +WV++ PE TV FQNEHLDEMR+LRD GP YP++VIDEFA ITF+ENCG DN +VI CAP ELP GY +R N"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_305884113.1|",
+                  "accession": "WP_305884113",
+                  "title": "phenolic acid decarboxylase [Pleomorphomonas sp. NRK KF1]",
+                  "taxid": 2943000,
+                  "sciname": "Pleomorphomonas sp. NRK KF1"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.261,
+                  "score": 591,
+                  "evalue": 1.25842e-74,
+                  "identity": 106,
+                  "positive": 127,
+                  "query_from": 26,
+                  "query_to": 188,
+                  "hit_from": 9,
+                  "hit_to": 170,
+                  "align_len": 163,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDR",
+                  "hseq": "RPDE-LTAFIGKHFIYTYENGWQYELYVKNERTIDYRIHSGMVGGRWVRDQEAHIVRLSDDVFKISWDEPTGTTVSVAFNLTTHIIHGVIFFPQWVAQDPKKTVCFQNDHLDEMRALRDAGPTYPKLVIDEFADVTFTEDCGADDQTVISCAPSELPEGYAAR",
+                  "midline": "+PD+ L+  +GKH IYTY NGWQYELYVKNE TIDYRIHSG VGGRWV+DQ   IVRL + ++K+SW EPTGT VS+  +L    +HG IFF QWV+Q P+ TV FQN+HLDEMRALRD GP YP++VIDEFA +TF E+CG D+  VI CAP ELP+GY  R"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_253234536.1|",
+                  "accession": "WP_253234536",
+                  "title": "phenolic acid decarboxylase [Haladaptatus sp. AB618]",
+                  "taxid": 2934173,
+                  "sciname": "Haladaptatus sp. AB618"
+                }
+              ],
+              "len": 222,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.802,
+                  "score": 595,
+                  "evalue": 1.37432e-74,
+                  "identity": 107,
+                  "positive": 133,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 54,
+                  "hit_to": 222,
+                  "align_len": 172,
+                  "gaps": 3,
+                  "qseq": "SHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SFESTRPET---LSRVLGKHFIYTYDNGWQYEMYIKDGYTIDYRIHSGMVGGRWVRDQDAHIVRLSDDVFKVSWDEPTGTSVSVSFNLTERQIHGVIFFPQWIEQNPELTVCYQNEHLDEMRQYRDEGPTYPKLVVDEFAEIMFIEDVGTEREDIIDCAPAELPDRYTDRRN",
+                  "midline": "S  ++RP+    LS ++GKH IYTY NGWQYE+Y+K+  TIDYRIHSG VGGRWV+DQ   IVRL + ++KVSW EPTGT VS+  +L ER +HG IFF QW+ Q+PELTV +QNEHLDEMR  RDEGP YP++V+DEFA I F+E+ G + +D+IDCAP ELPD Y DR N"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_362613585.1|",
+                  "accession": "WP_362613585",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. NPDC048611]",
+                  "taxid": 3155635,
+                  "sciname": "Streptomyces sp. NPDC048611"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.876,
+                  "score": 590,
+                  "evalue": 1.43506e-74,
+                  "identity": 107,
+                  "positive": 130,
+                  "query_from": 23,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 172,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ANPVPAQDLSGLTGKHFIYTYANGWQYEMYVKNSRTIDYRIHTGMVGGRWVKDQAVDLVRLDSDVYKISWTEPTGTSVSVNVLPAKRLLHGVIFFPHWVHQHPERSVCYQNDHLEQMAKYREQGPAYPICVVPEFAKITFFEDCGENNEDVIAVAPADLPEGYADRVN",
+                  "midline": "+ P P QDLSG+ GKH IYTYANGWQYE+YVKN  TIDYRIH+G VGGRWVKDQ V +VRL + +YK+SWTEPTGT VS+ V  A+R LHG IFF  WV QHPE +V +QN+HL++M   R++GP YP  V+ EFA ITF E+CG +N+DVI  AP +LP+GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_420132667.1|",
+                  "accession": "WP_420132667",
+                  "title": "phenolic acid decarboxylase [Rhodopseudomonas sp.]",
+                  "taxid": 1078,
+                  "sciname": "Rhodopseudomonas sp."
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.876,
+                  "score": 590,
+                  "evalue": 1.56713e-74,
+                  "identity": 111,
+                  "positive": 127,
+                  "query_from": 30,
+                  "query_to": 190,
+                  "hit_from": 12,
+                  "hit_to": 173,
+                  "align_len": 162,
+                  "gaps": 1,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQH-PELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ELVDFVGCHLIYTYDNGWQYEFYVKNESTVDYRIHSGMVGGRWVRDQFVHIVRLGEGIYKISWDEPTGTCVSVAVNLVERRLHGVIFFPQWIAQDTSKKTVCFQNDHLDEMRAYRDAGPTYPKLVIDEFATITFMERLGRDDQTVIACPPSELPAGYADRRN",
+                  "midline": "+L   VG HLIYTY NGWQYE YVKNE+T+DYRIHSG VGGRWV+DQ V IVRLG G+YK+SW EPTGTCVS+ V+L ER LHG IFF QW++Q   + TV FQN+HLDEMRA RD GP YP++VIDEFATITF+E  G D+  VI C P ELP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|TMC19757.1|",
+                  "accession": "TMC19757",
+                  "title": "MAG: phenolic acid decarboxylase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.876,
+                  "score": 590,
+                  "evalue": 1.84417e-74,
+                  "identity": 105,
+                  "positive": 127,
+                  "query_from": 21,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 0,
+                  "qseq": "MASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MIPTNQREETLKGIIGKHYIYTYENGWQYEFYVKNADTADFRMHSGMVGGRWVKDQKVFIVALSDSIFKISWDEPTGAAVSLAVNLARRQVHATIFFPRWMVEAPEKTVCYQNEHLDLMYQYRDTGPTYPKLVINEFATITFLEDCGADQDDVINCAPSELPTGYTSRKN",
+                  "midline": "M    Q ++ L GI+GKH IYTY NGWQYE YVKN +T D+R+HSG VGGRWVKDQ V IV L + ++K+SW EPTG  VSL V+LA R +H TIFF +W+ + PE TV +QNEHLD M   RD GP YP++VI+EFATITF+E+CG D DDVI+CAP ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_163138848.1|",
+                  "accession": "WP_163138848",
+                  "title": "MULTISPECIES: phenolic acid decarboxylase [unclassified Arhodomonas]",
+                  "taxid": 2621637,
+                  "sciname": "unclassified Arhodomonas"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.491,
+                  "score": 589,
+                  "evalue": 2.45362e-74,
+                  "identity": 108,
+                  "positive": 132,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "RPDE-LTGFVGCHLIYTYDNGWQYEIYVKNERTFDYRIHSGMVGGRWVRDQPVHIVRLADGVYKLSWDEPTGTTVSVAVNLGERRLHGVIFFPRWIAEDPKKTVCYQNEHIEEMIALRDAGPTYPKLVIDEFATITFLEYCDANDEDVIACPPSELPADYAARRN",
+                  "midline": "+PD+ L+G VG HLIYTY NGWQYE+YVKNE T DYRIHSG VGGRWV+DQPV IVRL +G+YK+SW EPTGT VS+ V+L ER LHG IFF +W+++ P+ TV +QNEH++EM ALRD GP YP++VIDEFATITF+E C  +++DVI C P ELP  Y  R N"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_412809177.1|",
+                  "accession": "WP_412809177",
+                  "title": "phenolic acid decarboxylase [Saccharopolyspora sp. MS10]",
+                  "taxid": 3385973,
+                  "sciname": "Saccharopolyspora sp. MS10"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 4.68236e-74,
+                  "identity": 107,
+                  "positive": 131,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 7,
+                  "hit_to": 172,
+                  "align_len": 166,
+                  "gaps": 0,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PAPAQHLDQIVGKHLIYTYANGWQYEMYVKNDTTIDYRIHSGLVGGRWVKDQEVKLVRVGDDTFKCSWTEPTGTSVSQAINLADDVLHGVIFFPRWVMSYPEKTVCFQNNYLESMQRYRDWGPTYPIYVVDEFAKITFLKDVGLDDETVINCAPGELPEGYAERTN",
+                  "midline": "P P Q L  IVGKHLIYTYANGWQYE+YVKN+ TIDYRIHSG VGGRWVKDQ V +VR+G+  +K SWTEPTGT VS  ++LA+  LHG IFF +WV  +PE TV FQN +L+ M+  RD GP YP  V+DEFA ITF+++ G+D++ VI+CAPGELP+GY +RTN"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_351515591.1|",
+                  "accession": "WP_351515591",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. NPDC002055]",
+                  "taxid": 3154534,
+                  "sciname": "Streptomyces sp. NPDC002055"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 4.998e-74,
+                  "identity": 110,
+                  "positive": 128,
+                  "query_from": 23,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 172,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ANPVPEQDLSGITGKHFIYTYANGWQYEMYVKNARTIDYRIHTGLVGGRWVKDQTVDLVCLDSDVYKISWTEPTGTSVSVNVLPAKRRLHGVIFFPHWVHQHPERTVCFQNDHLDQMADYRHQGPAYPICVVPEFAKITFLEDCGEDNEAVIAAAPADLPQGYADRIN",
+                  "midline": "+ P P+QDLSGI GKH IYTYANGWQYE+YVKN  TIDYRIH+G VGGRWVKDQ V +V L + +YK+SWTEPTGT VS+ V  A+R LHG IFF  WV QHPE TV FQN+HLD+M   R +GP YP  V+ EFA ITF+E+CG DN+ VI  AP +LP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_116683141.1|",
+                  "accession": "WP_116683141",
+                  "title": "phenolic acid decarboxylase [Fulvimarina endophytica]",
+                  "taxid": 2293836,
+                  "sciname": "Fulvimarina endophytica"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 5.57612e-74,
+                  "identity": 106,
+                  "positive": 132,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 7,
+                  "hit_to": 172,
+                  "align_len": 169,
+                  "gaps": 3,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "STRPE---ELTSVVGKHFIYTYDNGWQYEMYVKNPRTIDYRIHSGMVGGRWVRDQEAHIVRLSDDVFKISWNEPTGTNVSVAVNLATRIIHGVIFFPQWVARDPKKTVCFQNDHLDEMRSLRDAGPTYPPLVVDEFAKITFSETCGADDETVICCAPSDLPEGYAARRN",
+                  "midline": "++RP+   +L+ +VGKH IYTY NGWQYE+YVKN  TIDYRIHSG VGGRWV+DQ   IVRL + ++K+SW EPTGT VS+ V+LA R +HG IFF QWV++ P+ TV FQN+HLDEMR+LRD GP YP +V+DEFA ITF E CG D++ VI CAP +LP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_344547296.1|",
+                  "accession": "WP_344547296",
+                  "title": "phenolic acid decarboxylase [Actinomadura fulvescens]",
+                  "taxid": 46160,
+                  "sciname": "Actinomadura fulvescens"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 5.91581e-74,
+                  "identity": 104,
+                  "positive": 128,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 15,
+                  "hit_to": 183,
+                  "align_len": 169,
+                  "gaps": 3,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVS---QHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PEPKQDLSAFVGKHFIYTYANGWQYEWYARNEKTCDYRIHHGLVGGRWVTSQPMELVQISDGQYKVDWHEPTGTCVSLLFDLPRRLLHGTIFFPQWIAGKGQHPEKTICYQNEFIEDMHTFRDAGPAYPYLIVPEFAKITYIADRGCDNDEVINVAPGQLPDGYADRTN",
+                  "midline": "P+P QDLS  VGKH IYTYANGWQYE Y +NE T DYRIH G VGGRWV  QP+ +V++ +G YKV W EPTGTCVSL+ DL  R LHGTIFF QW++   QHPE T+ +QNE +++M   RD GP YP +++ EFA IT++ + G DND+VI+ APG+LPDGY DRTN"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_433664930.1|",
+                  "accession": "WP_433664930",
+                  "title": "phenolic acid decarboxylase [Nocardia sp. CA-128927]",
+                  "taxid": 3239975,
+                  "sciname": "Nocardia sp. CA-128927"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.95,
+                  "score": 585,
+                  "evalue": 8.26914e-74,
+                  "identity": 108,
+                  "positive": 128,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 4,
+                  "hit_to": 172,
+                  "align_len": 169,
+                  "gaps": 0,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ATKQDTTQDLSQIVGKHLIYTYENGWQYELYIRNATTIDYRIHAGMVGGRWVKGQFVDLVRLDTDNYKISWSEPTGTAVSVNIMPAQRRLHGVIFFPQWIKQHPEHSVCFQNEHMAEMAEYRDKGPTYPLYVLAEFAQITFIEDRGIDNDDVIACAPADLPADYVTRTN",
+                  "midline": "A++    QDLS IVGKHLIYTY NGWQYELY++N  TIDYRIH+G VGGRWVK Q V +VRL    YK+SW+EPTGT VS+ +  A+R LHG IFF QW+ QHPE +V FQNEH+ EM   RD+GP YP  V+ EFA ITF+E+ GIDNDDVI CAP +LP  Y+ RTN"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_128290628.1|",
+                  "accession": "WP_128290628",
+                  "title": "MULTISPECIES: phenolic acid decarboxylase [Afifella]",
+                  "taxid": 643217,
+                  "sciname": "Afifella"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.95,
+                  "score": 585,
+                  "evalue": 8.82665e-74,
+                  "identity": 103,
+                  "positive": 131,
+                  "query_from": 20,
+                  "query_to": 189,
+                  "hit_from": 5,
+                  "hit_to": 171,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "HMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRT",
+                  "hseq": "YSSTRPE---ELKPFLGRHFIYTYDNGWQYEMYIKNADTIDYRIHSGMVGGRWVRDQKVHLARLSDDVLKVSWDEPTGTSVSVSVNFAERQLHGVIFFPQWIAQDPKKTVCFQNEHLDEMRAFRDAGPTYPKLVIDEFAKVTFLETCAVDDETVVAVAPEELPEGYASRT",
+                  "midline": "+ ++RP+   +L   +G+H IYTY NGWQYE+Y+KN +TIDYRIHSG VGGRWV+DQ V + RL + + KVSW EPTGT VS+ V+ AER LHG IFF QW++Q P+ TV FQNEHLDEMRA RD GP YP++VIDEFA +TF+E C +D++ V+  AP ELP+GY  RT"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_140470065.1|",
+                  "accession": "WP_140470065",
+                  "title": "phenolic acid decarboxylase [Ewingella americana]",
+                  "taxid": 41202,
+                  "sciname": "Ewingella americana"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.95,
+                  "score": 585,
+                  "evalue": 8.91216e-74,
+                  "identity": 107,
+                  "positive": 124,
+                  "query_from": 29,
+                  "query_to": 185,
+                  "hit_from": 7,
+                  "hit_to": 163,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "QDLSRFVGKHLVYTYDNGWNYEIYVKNANTLDYRIHSGLVGNRWVKDQQAYIVRVGQDIYKISWTEPTGTDVSLIVNLADKVFHGTIFFPRWVINNPEKTVCFQNEHIAEMLALRDAGPAYPTEVIDEFATITFVRDCGENNESVIDCAASELPKDF",
+                  "midline": "QDLS  VGKHL+YTY NGW YE+YVKN NT+DYRIHSG VG RWVKDQ   IVR+G  +YK+SWTEPTGT VSL+V+LA++  HGTIFF +WV  +PE TV FQNEH+ EM ALRD GP YP  VIDEFATITFV +CG +N+ VIDCA  ELP  +"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_205493563.1|",
+                  "accession": "WP_205493563",
+                  "title": "phenolic acid decarboxylase [Polycladomyces zharkentensis]",
+                  "taxid": 2807616,
+                  "sciname": "Polycladomyces zharkentensis"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.18,
+                  "score": 583,
+                  "evalue": 1.30268e-73,
+                  "identity": 106,
+                  "positive": 126,
+                  "query_from": 31,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "LSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MKGMIGKHLIYTYDNGWQYEFYVKNADTIDYRIHSGMVGGRWVKDQKVHMVKLADHVFKLSWHEPTGTSVSLAVNLSDRKLHGVIFFPRWIIEAPEKTVCYQNEHLDLMRQYRDAGPTYPVEVVDEFATITFVEDCGPDREDVIDCPPSELPAGYASRRN",
+                  "midline": "+ G++GKHLIYTY NGWQYE YVKN +TIDYRIHSG VGGRWVKDQ V +V+L + ++K+SW EPTGT VSL V+L++R LHG IFF +W+ + PE TV +QNEHLD MR  RD GP YP  V+DEFATITFVE+CG D +DVIDC P ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_321336217.1|",
+                  "accession": "WP_321336217",
+                  "title": "phenolic acid decarboxylase [uncultured Cohaesibacter sp.]",
+                  "taxid": 1002546,
+                  "sciname": "uncultured Cohaesibacter sp."
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 1.64789e-73,
+                  "identity": 103,
+                  "positive": 131,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KPDE-ISSFVGKHFIYTYDNGWQYELYVKNDRTIDYRIHSGMVGGRWVRDQIAHIVRLSDEVYKISWDEPTGTCVSVAFNLSERSIHGVIFFPRWVANDPKRTVCFQNDHLDKMRTFRDAGPTYPKLVIDEFASVTFMETCEPNDETVINCPPEDLPDGFAARTN",
+                  "midline": "+PD+ +S  VGKH IYTY NGWQYELYVKN+ TIDYRIHSG VGGRWV+DQ   IVRL + +YK+SW EPTGTCVS+  +L+ER +HG IFF +WV+  P+ TV FQN+HLD+MR  RD GP YP++VIDEFA++TF+E C  +++ VI+C P +LPDG+  RTN"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "dbj|BGR80637.1|",
+                  "accession": "BGR80637",
+                  "title": "phenolic acid decarboxylase [Micropepsis pineolensis]",
+                  "taxid": 1804997,
+                  "sciname": "Micropepsis pineolensis"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 1.64789e-73,
+                  "identity": 102,
+                  "positive": 131,
+                  "query_from": 30,
+                  "query_to": 190,
+                  "hit_from": 12,
+                  "hit_to": 172,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EIARFVGKHFIYTYDNGWQYEVYVKNDRTIDYRIHSGMVGGRWVRNQEAHIIRLSDDVYKFSWDEPTGTCVSVAVNLAEKRLHGVIFFPRWVGENPKATVCFQNDHLDKMRALRDAGPTYPKLVVDEAATITYLEDCGPNDETVINCAPSELPAGYAARKN",
+                  "midline": "+++  VGKH IYTY NGWQYE+YVKN+ TIDYRIHSG VGGRWV++Q   I+RL + +YK SW EPTGTCVS+ V+LAE+ LHG IFF +WV ++P+ TV FQN+HLD+MRALRD GP YP++V+DE ATIT++E+CG +++ VI+CAP ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_230353413.1|",
+                  "accession": "WP_230353413",
+                  "title": "phenolic acid decarboxylase [Lelliottia sp. WAP21]",
+                  "taxid": 2877426,
+                  "sciname": "Lelliottia sp. WAP21"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.18,
+                  "score": 583,
+                  "evalue": 1.73769e-73,
+                  "identity": 103,
+                  "positive": 123,
+                  "query_from": 29,
+                  "query_to": 185,
+                  "hit_from": 7,
+                  "hit_to": 163,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "QDLSGFVGKHLVYTYDNGWNYEIYVKNENTLDYRIHSGLVANRWVKDQQAYIVRVGENIYKISWTEPTGTDVSLIANLGDKLFHGTIFFPRWVMNNPEKTVCFQNDHIPQMNAYRDAGPAYPTEVIDEFATITFVRDCGANNESVIDCAASELPENF",
+                  "midline": "QDLSG VGKHL+YTY NGW YE+YVKNENT+DYRIHSG V  RWVKDQ   IVR+G  +YK+SWTEPTGT VSL+ +L ++  HGTIFF +WV  +PE TV FQN+H+ +M A RD GP YP  VIDEFATITFV +CG +N+ VIDCA  ELP+ +"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_052423628.1|",
+                  "accession": "WP_052423628",
+                  "title": "phenolic acid decarboxylase [Nonomuraea candida]",
+                  "taxid": 359159,
+                  "sciname": "Nonomuraea candida"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 1.84537e-73,
+                  "identity": 109,
+                  "positive": 131,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 6,
+                  "hit_to": 182,
+                  "align_len": 177,
+                  "gaps": 8,
+                  "qseq": "ASRP-----QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWV---SQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "AARPGAPQFEPPQHLDGLVGTHVIYTYANGWQYELYVRNERACDYRIHHGLVGGRWVKNQDAHMTRIDDGTYKIDWHEPTGTCVSLLLDLPRRLVHGTIFFPQWIGGEGQHPERTICFQNDFVHDMRAFRDAGPAYPYVIIAEFARITYVEQCGRDNESVIDAAPGQLPPGYTDRTN",
+                  "midline": "A+RP     +P Q L G+VG H+IYTYANGWQYELYV+NE   DYRIH G VGGRWVK+Q   + R+ +G YK+ W EPTGTCVSL++DL  R +HGTIFF QW+    QHPE T+ FQN+ + +MRA RD GP YP V+I EFA IT+VE CG DN+ VID APG+LP GY DRTN"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_250055881.1|",
+                  "accession": "WP_250055881",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. MCA2]",
+                  "taxid": 2944805,
+                  "sciname": "Streptomyces sp. MCA2"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.18,
+                  "score": 583,
+                  "evalue": 1.92077e-73,
+                  "identity": 108,
+                  "positive": 126,
+                  "query_from": 23,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 172,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ANPAPEQDLSGITGKHFLYTYANGWRYEMYVKNSRTIDYRIHSGMVGGRWVKDQTVDLVRLDADDYKISWTEPTGTSVSVNVLPAERRLHGVIFFPHWVHQHPERTVCFQNDHLEQMAKYRDQGPAYPVCVVPEFAKITFFEDCGENKEGVIAADPADLPEGYADRVN",
+                  "midline": "+ P P+QDLSGI GKH +YTYANGW+YE+YVKN  TIDYRIHSG VGGRWVKDQ V +VRL    YK+SWTEPTGT VS+ V  AER LHG IFF  WV QHPE TV FQN+HL++M   RD+GP YP  V+ EFA ITF E+CG + + VI   P +LP+GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_326493818.1|",
+                  "accession": "WP_326493818",
+                  "title": "phenolic acid decarboxylase [Rhizobium sp. SL86]",
+                  "taxid": 2995148,
+                  "sciname": "Rhizobium sp. SL86"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.18,
+                  "score": 583,
+                  "evalue": 2.05114e-73,
+                  "identity": 102,
+                  "positive": 126,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTALVGQHFIYTYENGWQYEMYVKNARTIDYRIHAGIVGGRWVRDQLAHIVRLAENVFKISWDEPTGTTVSVAVNLAERRLHGVIFFPAWIAEDPGKTVCFQNDHLDRMKAFRDAGPTYPKLVIDEFADITYLENCGADNDTVIVCPPDQLPSGYVARRN",
+                  "midline": "++L+ +VG+H IYTY NGWQYE+YVKN  TIDYRIH+G VGGRWV+DQ   IVRL   ++K+SW EPTGT VS+ V+LAER LHG IFF  W+++ P  TV FQN+HLD M+A RD GP YP++VIDEFA IT++ENCG DND VI C P +LP GY+ R N"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|MBP2656444.1|",
+                  "accession": "MBP2656444",
+                  "title": "Phenolic acid decarboxylase [Bacillota bacterium]",
+                  "taxid": 1879010,
+                  "sciname": "Bacillota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.794,
+                  "score": 582,
+                  "evalue": 2.13578e-73,
+                  "identity": 101,
+                  "positive": 124,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 3,
+                  "hit_to": 164,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELKKLIGKHFIYTYHNGWQYEVYIKNAKTFDYRIHSGLVGGRWVKGQEAYIVALADDIYKISWDEPTGTCVSLAFNLATRKIHGTIFFPAWVAQEPKKTVCFQNDHLPLMNQYRDQGPTYPKMVVDEFATITFIEECGADNDEVINCAPCDLPENYTKRKN",
+                  "midline": "++L  ++GKH IYTY NGWQYE+Y+KN  T DYRIHSG VGGRWVK Q   IV L + +YK+SW EPTGTCVSL  +LA R +HGTIFF  WV+Q P+ TV FQN+HL  M   RD+GP YP++V+DEFATITF+E CG DND+VI+CAP +LP+ Y  R N"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_030261769.1|",
+                  "accession": "WP_030261769",
+                  "title": "phenolic acid decarboxylase [Streptomyces violens]",
+                  "taxid": 66377,
+                  "sciname": "Streptomyces violens"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.794,
+                  "score": 582,
+                  "evalue": 2.66836e-73,
+                  "identity": 109,
+                  "positive": 123,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 8,
+                  "hit_to": 173,
+                  "align_len": 166,
+                  "gaps": 0,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PVPPQDLSGITGKRFIYTYANGWQYEMYVKNAGTIDYRIHTGMVGGRWVKDQAVDLVRLDEDVYKVSWTEPTGTSVSVTVSPAKRQLHGVIFFPHWVEQHPERTVCFQNDHLDEMAKYRDEGPAYPVYVVPEFAKITLFEHVGEDDESVVAVGPADLPAGFADRTN",
+                  "midline": "P P QDLSGI GK  IYTYANGWQYE+YVKN  TIDYRIH+G VGGRWVKDQ V +VRL   +YKVSWTEPTGT VS+ V  A+R LHG IFF  WV QHPE TV FQN+HLDEM   RDEGP YP  V+ EFA IT  E+ G D++ V+   P +LP G+ DRTN"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_301846425.1|",
+                  "accession": "WP_301846425",
+                  "title": "phenolic acid decarboxylase [Burkholderia diffusa]",
+                  "taxid": 488732,
+                  "sciname": "Burkholderia diffusa"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.794,
+                  "score": 582,
+                  "evalue": 2.78668e-73,
+                  "identity": 106,
+                  "positive": 126,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KPEQ-LVPFVGKHFIYTYENGWQYEMYVKNERTIDYRIHSGMVGGRWVRDQEAHIVRLSDDVCKISWDEPTGTTVSVAINFAERQLHGVIFFPRWIAQDPKKTVCFQNEHLDQIRQYRDTGPTYPKLVIDEFARVTFVEECGRDKQKVIACAPTDLPDGYAARRN",
+                  "midline": "+P+Q L   VGKH IYTY NGWQYE+YVKNE TIDYRIHSG VGGRWV+DQ   IVRL + + K+SW EPTGT VS+ ++ AER LHG IFF +W++Q P+ TV FQNEHLD++R  RD GP YP++VIDEFA +TFVE CG D   VI CAP +LPDGY  R N"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_077972214.1|",
+                  "accession": "WP_077972214",
+                  "title": "phenolic acid decarboxylase [Streptomyces tsukubensis]",
+                  "taxid": 83656,
+                  "sciname": "Streptomyces tsukubensis"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.18,
+                  "score": 583,
+                  "evalue": 3.15552e-73,
+                  "identity": 108,
+                  "positive": 120,
+                  "query_from": 27,
+                  "query_to": 190,
+                  "hit_from": 17,
+                  "hit_to": 183,
+                  "align_len": 167,
+                  "gaps": 3,
+                  "qseq": "PDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWV---SQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PEQDLSGFVGSHFIYTYANGWQYEWYARNEKECDYRIHHGLVGGRWVTRQAVSIVRFSDGQYKADWHEPTGTCVSLLFDLPRRLLHGTVFFPQWIGGEGRHPEKTICYQNEFTDDMHRFRDEGPAYPYVVIPEFAKITYTEQRGRDNDTVIDAAPGQLPDGYADRTN",
+                  "midline": "P+QDLSG VG H IYTYANGWQYE Y +NE   DYRIH G VGGRWV  Q V IVR  +G YK  W EPTGTCVSL+ DL  R LHGT+FF QW+    +HPE T+ +QNE  D+M   RDEGP YP VVI EFA IT+ E  G DND VID APG+LPDGY DRTN"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_054260766.1|",
+                  "accession": "WP_054260766",
+                  "title": "phenolic acid decarboxylase [Propionispora sp. 2/2-37]",
+                  "taxid": 1677858,
+                  "sciname": "Propionispora sp. 2/2-37"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.409,
+                  "score": 581,
+                  "evalue": 3.30922e-73,
+                  "identity": 101,
+                  "positive": 125,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 3,
+                  "hit_to": 164,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KELKDLVGKHFIYTYDNGWQYEVYIKNDTTFDYRIHSGIVGGRWVKGQEAYIVALADDVYKISWDEPTGTCVSLAFNLATRRIHGTIFFPAWISKTPQKTVCFQNEHLPLMNQYRDQGPTYPKMVVDEFATITFIEDCGADNEEVINCAPSALPEEYTKRKN",
+                  "midline": "++L  +VGKH IYTY NGWQYE+Y+KN+ T DYRIHSG VGGRWVK Q   IV L + +YK+SW EPTGTCVSL  +LA R +HGTIFF  W+S+ P+ TV FQNEHL  M   RD+GP YP++V+DEFATITF+E+CG DN++VI+CAP  LP+ Y  R N"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_122628196.1|",
+                  "accession": "WP_122628196",
+                  "title": "phenolic acid decarboxylase [Lucifera butyrica]",
+                  "taxid": 1351585,
+                  "sciname": "Lucifera butyrica"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.024,
+                  "score": 580,
+                  "evalue": 3.85731e-73,
+                  "identity": 99,
+                  "positive": 125,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 3,
+                  "hit_to": 164,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELKNLIGKHFIYTYDNGWQYEVYIKNDKTFDYRIHSGIVGGRWVKGQEAYIVALADDVYKISWDEPTGTCVSLAFNLATRKIHGTIFFPAWIKEDPKKTVCFQNEYLPLMKKYRDQGPTYPKMVVDEFATITFLEECGADKEEVINCAPGELPETYTKRKN",
+                  "midline": "++L  ++GKH IYTY NGWQYE+Y+KN+ T DYRIHSG VGGRWVK Q   IV L + +YK+SW EPTGTCVSL  +LA R +HGTIFF  W+ + P+ TV FQNE+L  M+  RD+GP YP++V+DEFATITF+E CG D ++VI+CAPGELP+ Y  R N"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "ref|WP_379655532.1|",
+                  "accession": "WP_379655532",
+                  "title": "phenolic acid decarboxylase [Pseudoxanthomonas sp. UC19_8]",
+                  "taxid": 3350175,
+                  "sciname": "Pseudoxanthomonas sp. UC19_8"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.409,
+                  "score": 581,
+                  "evalue": 4.17789e-73,
+                  "identity": 106,
+                  "positive": 124,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELVDFVGTHMIYTYDNGWQYELYVKDERTVDYRIHSGMVGGRWVRDQAAHIVRLSPEVYKISWDEPTGTCVSVSVNLKARKLHGVIFFPQWVAQAPEKTVCFQNEHLGEMRAYRDAGPTYPKLVVDEFATLTFIENRGAHDESVIACPPSELPPGYAARRN",
+                  "midline": "++L   VG H+IYTY NGWQYELYVK+E T+DYRIHSG VGGRWV+DQ   IVRL   +YK+SW EPTGTCVS+ V+L  R LHG IFF QWV+Q PE TV FQNEHL EMRA RD GP YP++V+DEFAT+TF+EN G  ++ VI C P ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_392410511.1|",
+                  "accession": "WP_392410511",
+                  "title": "MULTISPECIES: phenolic acid decarboxylase [Pseudomonadota]",
+                  "taxid": 1224,
+                  "sciname": "Pseudomonadota"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.409,
+                  "score": 581,
+                  "evalue": 4.31734e-73,
+                  "identity": 102,
+                  "positive": 131,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KPEQ-LKNFVGKHFIYTYDNGWQYEMYIKNDRTIDYRIHSGMVGGRWVRDQLVHLVRLSDDICKVSWDEPTGTTVSVAVNFAERFVHGVIFFPQWIAREPEKTVCFQNDHLDQIKQYRDNGPTYPKLVIDEFATLTFVEDAGVDDETVVACGPAELPEGYASRRN",
+                  "midline": "+P+Q L   VGKH IYTY NGWQYE+Y+KN+ TIDYRIHSG VGGRWV+DQ V +VRL + + KVSW EPTGT VS+ V+ AER++HG IFF QW+++ PE TV FQN+HLD+++  RD GP YP++VIDEFAT+TFVE+ G+D++ V+ C P ELP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "ref|WP_188470661.1|",
+                  "accession": "WP_188470661",
+                  "title": "phenolic acid decarboxylase [Hafnia psychrotolerans]",
+                  "taxid": 1477018,
+                  "sciname": "Hafnia psychrotolerans"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.024,
+                  "score": 580,
+                  "evalue": 4.80918e-73,
+                  "identity": 105,
+                  "positive": 124,
+                  "query_from": 30,
+                  "query_to": 185,
+                  "hit_from": 8,
+                  "hit_to": 163,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "DLSGFVGKHLIYTYDNGWNYELYVKNATTLDYRIHSGLVGNRWVKDQLAYIVRVGQDVYKISWTEPTGTDVSLTANLADKVFHGTIFFPRWVMNNPEKTVCFQNDHIDEMKALRDAGPAYPTEVIDEFATISFVRDCGENNEEVINCAASELPKDF",
+                  "midline": "DLSG VGKHLIYTY NGW YELYVKN  T+DYRIHSG VG RWVKDQ   IVR+G  +YK+SWTEPTGT VSL  +LA++  HGTIFF +WV  +PE TV FQN+H+DEM+ALRD GP YP  VIDEFATI+FV +CG +N++VI+CA  ELP  +"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "ref|WP_014818365.1|",
+                  "accession": "WP_014818365",
+                  "title": "phenolic acid decarboxylase [Mycolicibacterium chubuense]",
+                  "taxid": 1800,
+                  "sciname": "Mycolicibacterium chubuense"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.024,
+                  "score": 580,
+                  "evalue": 6.33252e-73,
+                  "identity": 111,
+                  "positive": 130,
+                  "query_from": 22,
+                  "query_to": 189,
+                  "hit_from": 4,
+                  "hit_to": 171,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRT",
+                  "hseq": "VTSPVPDQDLSGIAGHRFIYTYANGWQYEMYVKNDTTIDYRIHSGHVGGRWVKDQTVDLVQLDDDVFKVSWTEPTGTSVSVNVLPGKRRLHGTIFFPEWVRTHGERTVCFQNDHLDEMRAYRDEGPTYPIYVVPEFAYITLFEHVGVDDDTVIDRAPQDLPEGWADRT",
+                  "midline": " + P PDQDLSGI G   IYTYANGWQYE+YVKN+ TIDYRIHSG VGGRWVKDQ V +V+L + ++KVSWTEPTGT VS+ V   +R LHGTIFF +WV  H E TV FQN+HLDEMRA RDEGP YP  V+ EFA IT  E+ G+D+D VID AP +LP+G+ DRT"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "ref|WP_019854369.1|",
+                  "accession": "WP_019854369",
+                  "title": "phenolic acid decarboxylase [Actinopolyspora mortivallis]",
+                  "taxid": 33906,
+                  "sciname": "Actinopolyspora mortivallis"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.024,
+                  "score": 580,
+                  "evalue": 6.47266e-73,
+                  "identity": 106,
+                  "positive": 126,
+                  "query_from": 27,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 164,
+                  "gaps": 0,
+                  "qseq": "PDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PEQDLTGILGRHFIYTYANGWRYEMYVKNAETIDYRIHSGMVGGRWVKDQPVDLVRLAEDSYKISWNEPTGTSVSVNVLLGPRRLHGVIFFPRWVHQHPERTVCFQNEHLEQMKRYRDQGPTYPVFTVPEFATITFVEDRGLDDETVIAEPPERLPEGYTTRVN",
+                  "midline": "P+QDL+GI+G+H IYTYANGW+YE+YVKN  TIDYRIHSG VGGRWVKDQPV +VRL    YK+SW EPTGT VS+ V L  R LHG IFF +WV QHPE TV FQNEHL++M+  RD+GP YP   + EFATITFVE+ G+D++ VI   P  LP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_364240763.1|",
+                  "accession": "WP_364240763",
+                  "title": "phenolic acid decarboxylase [Amycolatopsis sp. NPDC049688]",
+                  "taxid": 3154733,
+                  "sciname": "Amycolatopsis sp. NPDC049688"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 7.03455e-73,
+                  "identity": 109,
+                  "positive": 122,
+                  "query_from": 34,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 161,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "IVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "LLGKHLIYTYDSGWQYELYVKNATTIDYRIHSGPVGGRWVKDQAVHAARLDSGAHTVSWTEPTGTSVALVVDLAHRQVHGVIFFPRWVWEDPAKTVCFQNDHLDRMTALRDSGPAYPVEVVDEIARITFVDQCDTDDDGVIDRAPGELPDGYADRTR",
+                  "midline": "++GKHLIYTY +GWQYELYVKN  TIDYRIHSGPVGGRWVKDQ V   RL +G + VSWTEPTGT V+LVVDLA R +HG IFF +WV + P  TV FQN+HLD M ALRD GP YP  V+DE A ITFV+ C  D+D VID APGELPDGY DRT "
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|WP_101252367.1|",
+                  "accession": "WP_101252367",
+                  "title": "phenolic acid decarboxylase [Telmatospirillum siberiense]",
+                  "taxid": 382514,
+                  "sciname": "Telmatospirillum siberiense"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.639,
+                  "score": 579,
+                  "evalue": 7.79335e-73,
+                  "identity": 105,
+                  "positive": 127,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 3,
+                  "hit_to": 171,
+                  "align_len": 169,
+                  "gaps": 0,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "AHSPKNGNSLENFLGKHLIYTYDNGWQYEIYIKNAKTMDYRIHSGMVGGRWVRDQQVHMVRIADDVCKISWDEPTGTAVSLAINFTERHLHGVIFFPQWVAQAPEKTVCFQNEHLDRMQRLRDEGPTYPKLVIDEFASITFIEDRGLDDQTVIDRAPSALPAGYAARRN",
+                  "midline": "A  P+    L   +GKHLIYTY NGWQYE+Y+KN  T+DYRIHSG VGGRWV+DQ V +VR+ + + K+SW EPTGT VSL ++  ER LHG IFF QWV+Q PE TV FQNEHLD M+ LRDEGP YP++VIDEFA+ITF+E+ G+D+  VID AP  LP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "ref|WP_045046748.1|",
+                  "accession": "WP_045046748",
+                  "title": "phenolic acid decarboxylase [Rouxiella chamberiensis]",
+                  "taxid": 1513468,
+                  "sciname": "Rouxiella chamberiensis"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 8.68491e-73,
+                  "identity": 103,
+                  "positive": 123,
+                  "query_from": 29,
+                  "query_to": 185,
+                  "hit_from": 7,
+                  "hit_to": 163,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "EDLSGFVGKHVVYTYDNGWNYEIYVKNATTLDYRIHSGIVGNRWVKSQHAYIVRVAREVYKISWTEPTGTDVSLIVNLADKVFHGTIFFPRWVINHPERTVCFQNEHIAQMEAYRDAGPAYPTEIIDEFATITFVRDCGADNEDVIDCAASELPENF",
+                  "midline": "+DLSG VGKH++YTY NGW YE+YVKN  T+DYRIHSG VG RWVK Q   IVR+   +YK+SWTEPTGT VSL+V+LA++  HGTIFF +WV  HPE TV FQNEH+ +M A RD GP YP  +IDEFATITFV +CG DN+DVIDCA  ELP+ +"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_380670507.1|",
+                  "accession": "WP_380670507",
+                  "title": "phenolic acid decarboxylase [Saccharopolyspora griseoalba]",
+                  "taxid": 1431848,
+                  "sciname": "Saccharopolyspora griseoalba"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 1.08376e-72,
+                  "identity": 110,
+                  "positive": 128,
+                  "query_from": 23,
+                  "query_to": 190,
+                  "hit_from": 8,
+                  "hit_to": 175,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SEPVPAQDLSGLVGHRFIYTYANGWQYEMYVKNERTIDYRIHTGHVGGRWVKDQEVDLVRLTEGVYKVSWTEPTGTSVAVNVIPAERLLHGVIFFPDWIRTHGERTVLHQNDHLDEMRAYRDAGPTYPIYVVPEFARITLFEHVGENDEDVISVAPADLPEGWADRTN",
+                  "midline": "S P P QDLSG+VG   IYTYANGWQYE+YVKNE TIDYRIH+G VGGRWVKDQ V +VRL  G+YKVSWTEPTGT V++ V  AER LHG IFF  W+  H E TV+ QN+HLDEMRA RD GP YP  V+ EFA IT  E+ G +++DVI  AP +LP+G+ DRTN"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_067708330.1|",
+                  "accession": "WP_067708330",
+                  "title": "phenolic acid decarboxylase [Erwinia sp. ErVv1]",
+                  "taxid": 1603299,
+                  "sciname": "Erwinia sp. ErVv1"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.868,
+                  "score": 577,
+                  "evalue": 1.3319e-72,
+                  "identity": 105,
+                  "positive": 124,
+                  "query_from": 30,
+                  "query_to": 185,
+                  "hit_from": 9,
+                  "hit_to": 164,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "NLDGIVGKHLVYTYDNGWNYELYVKNKETIDYRIHSGLVGNRWVKDQHVYVVRVGTQIYKISWTEPTGTDVSLIVNLSDKLFHGTIFFPRWVMNNPEKTVCFQNDHLAEMQRYRDTGPAYPTEVIDEFATITFVRDCGVDNDSVIACAASELPADF",
+                  "midline": "+L GIVGKHL+YTY NGW YELYVKN+ TIDYRIHSG VG RWVKDQ V +VR+G  +YK+SWTEPTGT VSL+V+L+++  HGTIFF +WV  +PE TV FQN+HL EM+  RD GP YP  VIDEFATITFV +CG+DND VI CA  ELP  +"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gb|MGL6014544.1|",
+                  "accession": "MGL6014544",
+                  "title": "phenolic acid decarboxylase [Selenomonadaceae bacterium]",
+                  "taxid": 2652289,
+                  "sciname": "Selenomonadaceae bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.868,
+                  "score": 577,
+                  "evalue": 1.46649e-72,
+                  "identity": 103,
+                  "positive": 121,
+                  "query_from": 30,
+                  "query_to": 190,
+                  "hit_from": 4,
+                  "hit_to": 164,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ELKNLIGKHFIYTYDNGWQYEVYVKNEKTFDYRIHSGIVGGRWVTDQEAHIVVLADDVYKISWDEPTGTCVSLAFNLVTRKIHGTIFFPAWVAADPQKTVCYQNEHLDLMNQYRDQGPTYPKMVVDEFATITFMEECGADKADVICCAPSELPEGYTARKN",
+                  "midline": "+L  ++GKH IYTY NGWQYE+YVKNE T DYRIHSG VGGRWV DQ   IV L + +YK+SW EPTGTCVSL  +L  R +HGTIFF  WV+  P+ TV +QNEHLD M   RD+GP YP++V+DEFATITF+E CG D  DVI CAP ELP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_325714743.1|",
+                  "accession": "WP_325714743",
+                  "title": "phenolic acid decarboxylase [Pseudonocardia sp.]",
+                  "taxid": 60912,
+                  "sciname": "Pseudonocardia sp."
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.868,
+                  "score": 577,
+                  "evalue": 1.87121e-72,
+                  "identity": 106,
+                  "positive": 126,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 7,
+                  "hit_to": 172,
+                  "align_len": 166,
+                  "gaps": 0,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PTPPQTLDHIVGAHLIYTYANGWRYELYVKDSTTIDYRIHSGMVGGRWVRDQPVHLVRLGDERFKMSWDEPTGTTVSVSIDLSARELHGVIFFPRWVAEHPERTICFQNDHLDQIRGYRDAGPTYPAHVIDEFAKITLLERPGPRREDVIACGPADLPPDYADRTN",
+                  "midline": "P P Q L  IVG HLIYTYANGW+YELYVK+  TIDYRIHSG VGGRWV+DQPV +VRLG+  +K+SW EPTGT VS+ +DL+ R LHG IFF +WV++HPE T+ FQN+HLD++R  RD GP YP  VIDEFA IT +E  G   +DVI C P +LP  Y DRTN"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|WP_388858253.1|",
+                  "accession": "WP_388858253",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. NPDC001922]",
+                  "taxid": 3364624,
+                  "sciname": "Streptomyces sp. NPDC001922"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 2.1573e-72,
+                  "identity": 108,
+                  "positive": 126,
+                  "query_from": 23,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 172,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ANPVPEQDLSGLTGKHFIYTYANGWQYEMYVKNARTIDYRIHTGMVGGRWVKDQAVDLVRLDSDDYKISWTEPTGTSVSVNVLPARRRIHGVIFFPHWVHQHPERTVCFQNDHLDRMAEYRDQGPSYPIRVVPEFAEITFLEDCGENDEGVIATAPAGLPQGYADRVN",
+                  "midline": "+ P P+QDLSG+ GKH IYTYANGWQYE+YVKN  TIDYRIH+G VGGRWVKDQ V +VRL +  YK+SWTEPTGT VS+ V  A R +HG IFF  WV QHPE TV FQN+HLD M   RD+GP YP  V+ EFA ITF+E+CG +++ VI  AP  LP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "tpg|HEX6272808.1|",
+                  "accession": "HEX6272808",
+                  "title": "phenolic acid decarboxylase [Polyangiaceae bacterium]",
+                  "taxid": 2268199,
+                  "sciname": "Polyangiaceae bacterium"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.098,
+                  "score": 575,
+                  "evalue": 2.24905e-72,
+                  "identity": 102,
+                  "positive": 126,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 166,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KELAGLVGKHLIYTYDNGWQYEIYVKNTTTFSYRIHSGIVGGRWVTDQEAHIVNVGDNVFKISWDEPTGTTVSIVVNLSRRRLYGTIFFPRWIADDPKKTICYQNRHLDRMRKYRDQGPTYPKLVIDEAAKITFVEDCGADRDDVIDCPPSELPPGYTARAN",
+                  "midline": "++L+G+VGKHLIYTY NGWQYE+YVKN  T  YRIHSG VGGRWV DQ   IV +G+ ++K+SW EPTGT VS+VV+L+ R L+GTIFF +W++  P+ T+ +QN HLD MR  RD+GP YP++VIDE A ITFVE+CG D DDVIDC P ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_043081218.1|",
+                  "accession": "WP_043081218",
+                  "title": "phenolic acid decarboxylase [Pluralibacter gergoviae]",
+                  "taxid": 61647,
+                  "sciname": "Pluralibacter gergoviae"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 2.37728e-72,
+                  "identity": 103,
+                  "positive": 120,
+                  "query_from": 30,
+                  "query_to": 185,
+                  "hit_from": 8,
+                  "hit_to": 163,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "DLSSFVGKHLVYTYDNGWNYELYVKNDRTVDYRIHSGMVGNRWVKDQRAYIVRVGESIYKISWTEPTGTDVSLIVNLGDRLFHGTIFFPRWVMNHPQRTVCFQNEHIAEMETYRDAGPAYPTEVIDEFATLTFVRDCGADNDEVINCPASELPKDF",
+                  "midline": "DLS  VGKHL+YTY NGW YELYVKN+ T+DYRIHSG VG RWVKDQ   IVR+G  +YK+SWTEPTGT VSL+V+L +R  HGTIFF +WV  HP+ TV FQNEH+ EM   RD GP YP  VIDEFAT+TFV +CG DND+VI+C   ELP  +"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|WP_275955691.1|",
+                  "accession": "WP_275955691",
+                  "title": "phenolic acid decarboxylase [Sodalis sp. dw_96]",
+                  "taxid": 2719794,
+                  "sciname": "Sodalis sp. dw_96"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 2.59841e-72,
+                  "identity": 103,
+                  "positive": 121,
+                  "query_from": 31,
+                  "query_to": 190,
+                  "hit_from": 13,
+                  "hit_to": 172,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "LSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "LTGFIGKHFIYTYDNGWQYEMYLKNPRTIDYRIHSGMVGGRWVRDQEAHIVRLSDDVCKISWDEPTGTTVSVAVNFAERMLHGVIFFPQWIALHPDKTVCYQNEHLDLMRQYRDAGPTYPKLVIDEFAPLTFVEECGADNQTVINCAPATLPADYTQRRN",
+                  "midline": "L+G +GKH IYTY NGWQYE+Y+KN  TIDYRIHSG VGGRWV+DQ   IVRL + + K+SW EPTGT VS+ V+ AER LHG IFF QW++ HP+ TV +QNEHLD MR  RD GP YP++VIDEFA +TFVE CG DN  VI+CAP  LP  Y  R N"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_405618282.1|",
+                  "accession": "WP_405618282",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. NBC_00076]",
+                  "taxid": 2975642,
+                  "sciname": "Streptomyces sp. NBC_00076"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 2.90758e-72,
+                  "identity": 111,
+                  "positive": 125,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 17,
+                  "hit_to": 182,
+                  "align_len": 166,
+                  "gaps": 0,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PVPHQDLSGIVGHRFIYTYANGWQYEMYVKNATTIDYRIHSGHVGGRWVKDQEVDLVALTEGIYKVSWTEPTGTSVSVNVLPAERVLHGVIFFPEWIRTHGERTVLFQNDHLDEMRGYRDEGPTYPIYVVPEFARITLFEYVGEDDEDVVSVAPGDLPTGWSDRAN",
+                  "midline": "P P QDLSGIVG   IYTYANGWQYE+YVKN  TIDYRIHSG VGGRWVKDQ V +V L  G+YKVSWTEPTGT VS+ V  AER LHG IFF +W+  H E TV+FQN+HLDEMR  RDEGP YP  V+ EFA IT  E  G D++DV+  APG+LP G+ DR N"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_356373409.1|",
+                  "accession": "WP_356373409",
+                  "title": "MULTISPECIES: phenolic acid decarboxylase [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 3.06944e-72,
+                  "identity": 110,
+                  "positive": 127,
+                  "query_from": 25,
+                  "query_to": 190,
+                  "hit_from": 15,
+                  "hit_to": 180,
+                  "align_len": 166,
+                  "gaps": 0,
+                  "qseq": "PQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PVPPQDLSGIVGHRFIYTYANGWQYEMYVKNASTIDYRIHTGHVGGRWVKDQKVDLVRLTEGVYKVSWTEPTGTSVSVNVVPAERVLHGVIFFPHWIKEHGERTVLFQNDHLDEMRAYRDAGPTYPIFEVPEFAHITLFEYVGEDDESVVAIAPGDLPEGWSDRTN",
+                  "midline": "P P QDLSGIVG   IYTYANGWQYE+YVKN +TIDYRIH+G VGGRWVKDQ V +VRL  G+YKVSWTEPTGT VS+ V  AER LHG IFF  W+ +H E TV+FQN+HLDEMRA RD GP YP   + EFA IT  E  G D++ V+  APG+LP+G+ DRTN"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_076574304.1|",
+                  "accession": "WP_076574304",
+                  "title": "phenolic acid decarboxylase [Aeromonas sp. RU39B]",
+                  "taxid": 1907416,
+                  "sciname": "Aeromonas sp. RU39B"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.098,
+                  "score": 575,
+                  "evalue": 3.12972e-72,
+                  "identity": 102,
+                  "positive": 131,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 2,
+                  "hit_to": 172,
+                  "align_len": 172,
+                  "gaps": 1,
+                  "qseq": "SHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "TDLFASTQPET-LTDFIGRHVIYTYDNGWQYEIYIKNERTLDYRIHSGMVGGRWVRDQLAHIVRLSPSVCKISWDEPTGTTVSIALNIEEKKLHGVIFFPQWIAQDPVKTVCFQNEHIDRMLALRDAGPTYPKLVIDEFATVTFMEQCGANDESVIACAPSELPAGYADRRN",
+                  "midline": "+ + +  QP+  L+  +G+H+IYTY NGWQYE+Y+KNE T+DYRIHSG VGGRWV+DQ   IVRL   + K+SW EPTGT VS+ +++ E+ LHG IFF QW++Q P  TV FQNEH+D M ALRD GP YP++VIDEFAT+TF+E CG +++ VI CAP ELP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|WP_109284550.1|",
+                  "accession": "WP_109284550",
+                  "title": "phenolic acid decarboxylase [Streptomyces orinoci]",
+                  "taxid": 67339,
+                  "sciname": "Streptomyces orinoci"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.098,
+                  "score": 575,
+                  "evalue": 3.57654e-72,
+                  "identity": 110,
+                  "positive": 126,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 179,
+                  "align_len": 169,
+                  "gaps": 0,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "VANPVPPQDLSGIVGHRLIYTYANGWQYEMYVKNDHTIDYRIHSGHVGGRWVKDQEVDLVMLTRGVYKVSWNEPTGTSVVVNIIPGERVLHGVIFFPDWVKTHGERTVLFQNDHLDQMHAHRDAGPTYPLYVVPEFAKITLFENAGQDNDEIISVAPGDLPSGWSDRTN",
+                  "midline": " + P P QDLSGIVG  LIYTYANGWQYE+YVKN++TIDYRIHSG VGGRWVKDQ V +V L  G+YKVSW EPTGT V + +   ER LHG IFF  WV  H E TV+FQN+HLD+M A RD GP YP  V+ EFA IT  EN G DND++I  APG+LP G+ DRTN"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|WP_277761962.1|",
+                  "accession": "WP_277761962",
+                  "title": "phenolic acid decarboxylase [Pseudomonas sp. A34-9]",
+                  "taxid": 3034675,
+                  "sciname": "Pseudomonas sp. A34-9"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.713,
+                  "score": 574,
+                  "evalue": 4.95743e-72,
+                  "identity": 105,
+                  "positive": 127,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KPEQ-LGQFIGKHFIYTYENGWQYELYLKNDRTIDYRIHSGMVGGRWVRDQEAHIVRLSDDVCKVSWSEPTGTTVSVAINFAEKHLHGVIFFPQWVALAPEKTVCFQNEHLDLMRHYRDTGPTYPTLVIDEFAPVTFIEDCGPNNQDVISCSSSELPEGYTERRN",
+                  "midline": "+P+Q L   +GKH IYTY NGWQYELY+KN+ TIDYRIHSG VGGRWV+DQ   IVRL + + KVSW+EPTGT VS+ ++ AE+ LHG IFF QWV+  PE TV FQNEHLD MR  RD GP YP +VIDEFA +TF+E+CG +N DVI C+  ELP+GY +R N"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|WP_293230978.1|",
+                  "accession": "WP_293230978",
+                  "title": "phenolic acid decarboxylase [Paludibacterium sp.]",
+                  "taxid": 1917523,
+                  "sciname": "Paludibacterium sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 5.52724e-72,
+                  "identity": 103,
+                  "positive": 128,
+                  "query_from": 21,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 1,
+                  "qseq": "MASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY-IDRTN",
+                  "hseq": "MTTQQTATQDLAGLIGKHLVYTYDNGWQYEIYVKGSDVFDYRIHSGIVGGRWVTDQQAFIRAVGADVYKISWDEPTGTCVSLTVNLSRKQLHGVIFFPRWVIDDPKKTVCYQNQHLDQMRAYRDAGPTYPKAVIDEFATITFVEDCGPGRDDVINCPPSALPAGFPLSRSN",
+                  "midline": "M ++    QDL+G++GKHL+YTY NGWQYE+YVK  +  DYRIHSG VGGRWV DQ   I  +G  +YK+SW EPTGTCVSL V+L+ + LHG IFF +WV   P+ TV +QN+HLD+MRA RD GP YP+ VIDEFATITFVE+CG   DDVI+C P  LP G+ + R+N"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "tpg|HXP96142.1|",
+                  "accession": "HXP96142",
+                  "title": "phenolic acid decarboxylase [Telmatospirillum sp.]",
+                  "taxid": 2079197,
+                  "sciname": "Telmatospirillum sp."
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.713,
+                  "score": 574,
+                  "evalue": 5.65311e-72,
+                  "identity": 105,
+                  "positive": 125,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 12,
+                  "hit_to": 173,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ETLTRFIGKHFIYTYDNGWQYELYVKNAMTIDYRIHSGMVGGRWVKDQKVHIVRLSDEVFKVSWTEPTGTSVSVAVNLVERHLHGVIFFPQWIAQNPSKTVCFQNDHLPLMQSYRDTGPTYPILVIDEFAKITFLEDCGADNDALIACGPEVLPAGFAKQTN",
+                  "midline": "+ L+  +GKH IYTY NGWQYELYVKN  TIDYRIHSG VGGRWVKDQ V IVRL + ++KVSWTEPTGT VS+ V+L ER LHG IFF QW++Q+P  TV FQN+HL  M++ RD GP YP +VIDEFA ITF+E+CG DND +I C P  LP G+  +TN"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|WP_188723957.1|",
+                  "accession": "WP_188723957",
+                  "title": "phenolic acid decarboxylase [Franconibacter daqui]",
+                  "taxid": 2047724,
+                  "sciname": "Franconibacter daqui"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 6.22824e-72,
+                  "identity": 104,
+                  "positive": 122,
+                  "query_from": 30,
+                  "query_to": 185,
+                  "hit_from": 8,
+                  "hit_to": 163,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "DLSGFVGKHLLYTYDNGWNYEIYVKNETTLDYRIHSGLVGNRWVKDQRAYIVRVGESIYKISWTEPTGTDVSLIVNLGDRLFHGTIFFPRWVMNNPEKTVCFQNEHIAEMESYREAGPAYPTEVIDEFATITFVRDCGPDDDSVINCAASELPADF",
+                  "midline": "DLSG VGKHL+YTY NGW YE+YVKNE T+DYRIHSG VG RWVKDQ   IVR+G  +YK+SWTEPTGT VSL+V+L +R  HGTIFF +WV  +PE TV FQNEH+ EM + R+ GP YP  VIDEFATITFV +CG D+D VI+CA  ELP  +"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gb|MBP2632896.1|",
+                  "accession": "MBP2632896",
+                  "title": "Phenolic acid decarboxylase [Bacillota bacterium]",
+                  "taxid": 1879010,
+                  "sciname": "Bacillota bacterium"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.942,
+                  "score": 572,
+                  "evalue": 6.57416e-72,
+                  "identity": 98,
+                  "positive": 124,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 166,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EALKNLIGKHFIYTYDNGWQYEVYIKNENTFDYRIHSGIVGGRWVTDQEAYIVTLADNVYKISWDEPTGTCVSLAFNLDTRKIHGTIFFPRWIEENPKKTVCYQNEHLPLMNKYRDQGPTYPKMVVDEFATITYLEECGANNNEVINCAPSELDANYTKRTN",
+                  "midline": "+ L  ++GKH IYTY NGWQYE+Y+KNENT DYRIHSG VGGRWV DQ   IV L + +YK+SW EPTGTCVSL  +L  R +HGTIFF +W+ ++P+ TV +QNEHL  M   RD+GP YP++V+DEFATIT++E CG +N++VI+CAP EL   Y  RTN"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_285716894.1|",
+                  "accession": "WP_285716894",
+                  "title": "phenolic acid decarboxylase [Pelosinus sp. IPA-1]",
+                  "taxid": 3029569,
+                  "sciname": "Pelosinus sp. IPA-1"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 6.58905e-72,
+                  "identity": 102,
+                  "positive": 124,
+                  "query_from": 21,
+                  "query_to": 188,
+                  "hit_from": 1,
+                  "hit_to": 168,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "MASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDR",
+                  "hseq": "MTTTYQNDNALNGIIGKHFIYTYDNGWQYEIYVKNADTFDYRIHSGMVGGRWVTDQKAFIVAISDNVFKISWDEPTGTTVSLSINTTARHLHGVIFFPRWVAEAPEKTVCYQNEHLDLMKQYRDAGPTYPKLVIDEFATITFAEDCGANRDDVINCPPSELPAQYASR",
+                  "midline": "M +  Q D  L+GI+GKH IYTY NGWQYE+YVKN +T DYRIHSG VGGRWV DQ   IV + + ++K+SW EPTGT VSL ++   R LHG IFF +WV++ PE TV +QNEHLD M+  RD GP YP++VIDEFATITF E+CG + DDVI+C P ELP  Y  R"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|WP_324269583.1|",
+                  "accession": "WP_324269583",
+                  "title": "phenolic acid decarboxylase [Saccharopolyspora mangrovi]",
+                  "taxid": 3082379,
+                  "sciname": "Saccharopolyspora mangrovi"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 7.4384e-72,
+                  "identity": 109,
+                  "positive": 128,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 8,
+                  "hit_to": 176,
+                  "align_len": 169,
+                  "gaps": 0,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "VEQPVPEQDLSGIVGHRFIYTYANGWQYEMYVKNPTTIDYRIHTGHVGGRWVKDQEVDLVVLTRGVYKVSWTEPTGTSVSVNVIPGERVLHGVIFFPDWIREHGERTVLYQNDHLDEMREYRDEGPTYPIYVVPEFARITLFEHVGTDDESVIATAPGDLPEGWSDRTN",
+                  "midline": "  +P P+QDLSGIVG   IYTYANGWQYE+YVKN  TIDYRIH+G VGGRWVKDQ V +V L  G+YKVSWTEPTGT VS+ V   ER LHG IFF  W+ +H E TV++QN+HLDEMR  RDEGP YP  V+ EFA IT  E+ G D++ VI  APG+LP+G+ DRTN"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|WP_283163670.1|",
+                  "accession": "WP_283163670",
+                  "title": "phenolic acid decarboxylase [Brenneria tiliae]",
+                  "taxid": 2914984,
+                  "sciname": "Brenneria tiliae"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 7.51139e-72,
+                  "identity": 100,
+                  "positive": 125,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ETLTRFIGKHLIYTYDNGWQYEMYIKNARTIDYRIHSGMVGGRWVRDQEVHLVRLADEVCKISWDEPTGTAVSVAINFAERLIHGVIFFPQWIAQHPERTVCFQNDHLDLMRQYRDAGPTYPKLVIDEFAALTFVEDCDPDDQTVVDCAPDKVAAGYTARRN",
+                  "midline": "+ L+  +GKHLIYTY NGWQYE+Y+KN  TIDYRIHSG VGGRWV+DQ V +VRL + + K+SW EPTGT VS+ ++ AER +HG IFF QW++QHPE TV FQN+HLD MR  RD GP YP++VIDEFA +TFVE+C  D+  V+DCAP ++  GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|WP_359010154.1|",
+                  "accession": "WP_359010154",
+                  "title": "phenolic acid decarboxylase [Streptomyces caniferus]",
+                  "taxid": 285557,
+                  "sciname": "Streptomyces caniferus"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 7.51139e-72,
+                  "identity": 109,
+                  "positive": 129,
+                  "query_from": 23,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 172,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "ANPVPEQDLSGITGKHFIYTYANGWQYEMYVKNSRTIDYRIHSGMVGGRWVKNQAVDLVQLDSDVYKVSWTEPTGTSVSVNVLPAERRLHGVIFFPHWVHQHPERTVCFQNDHLDRMAAYRDQGPTHPIHVVPEFAEITFLEDRGENDEGVIAVDPADLPEGYADRVN",
+                  "midline": "+ P P+QDLSGI GKH IYTYANGWQYE+YVKN  TIDYRIHSG VGGRWVK+Q V +V+L + +YKVSWTEPTGT VS+ V  AER LHG IFF  WV QHPE TV FQN+HLD M A RD+GP +P  V+ EFA ITF+E+ G +++ VI   P +LP+GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|WP_063449805.1|",
+                  "accession": "WP_063449805",
+                  "title": "phenolic acid decarboxylase [Enterobacter genomosp. S]",
+                  "taxid": 2364151,
+                  "sciname": "Enterobacter genomosp. S"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.942,
+                  "score": 572,
+                  "evalue": 9.2388e-72,
+                  "identity": 103,
+                  "positive": 122,
+                  "query_from": 29,
+                  "query_to": 182,
+                  "hit_from": 7,
+                  "hit_to": 160,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELP",
+                  "hseq": "EDLSGFTGKHLVYTYDNGWNYELYIKNENTVDYRIHSGMVGGRWVKDQHVYIVRVGKDIYKVSWTEPTGTDVSLVANLGDKLFHGTIFFPRWVMNNPEKTVCFQNDHIDKMEEYRAAGPAYPTEVIDEFATITFVNDSGVNNESVIDCPPDQLP",
+                  "midline": "+DLSG  GKHL+YTY NGW YELY+KNENT+DYRIHSG VGGRWVKDQ V IVR+G  +YKVSWTEPTGT VSLV +L ++  HGTIFF +WV  +PE TV FQN+H+D+M   R  GP YP  VIDEFATITFV + G++N+ VIDC P +LP"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|WP_330633288.1|",
+                  "accession": "WP_330633288",
+                  "title": "phenolic acid decarboxylase [Halocatena halophila]",
+                  "taxid": 2814576,
+                  "sciname": "Halocatena halophila"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.942,
+                  "score": 572,
+                  "evalue": 9.55601e-72,
+                  "identity": 99,
+                  "positive": 128,
+                  "query_from": 23,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 172,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "SRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SEKTSTEEVSRILGKHLIYTYDNGWEYELYVKNSTTIDYRIHSGMVGGRWVRNQDVSITKLTDNIFKIYWDEPTGTSVSVTYDLTERQTHGVVFFPQWIKQNPELTICYQNNHLDEMRQYRDQGPTYPKLIMDEPAEITFMEDVGTEREDIINCAPQELPDEYADRRN",
+                  "midline": "S     +++S I+GKHLIYTY NGW+YELYVKN  TIDYRIHSG VGGRWV++Q V I +L + ++K+ W EPTGT VS+  DL ER  HG +FF QW+ Q+PELT+ +QN HLDEMR  RD+GP YP++++DE A ITF+E+ G + +D+I+CAP ELPD Y DR N"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_242695232.1|",
+                  "accession": "WP_242695232",
+                  "title": "phenolic acid decarboxylase, partial [Shewanella sp. 4t3-1-2LB]",
+                  "taxid": 2817682,
+                  "sciname": "Shewanella sp. 4t3-1-2LB"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 1.05354e-71,
+                  "identity": 99,
+                  "positive": 127,
+                  "query_from": 29,
+                  "query_to": 185,
+                  "hit_from": 8,
+                  "hit_to": 164,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "NDVSGLVGKHLVYTYDNGWNYEIYVKNANTMDYRIHSGIVGNRWVRDQKIYLVRVASDVYKISWTEPTGTDVSLIVNLADKVFHGTIFFPRWIINNPEKTVCFQNDHIAQMNAYRDAGPAYPTVVIDEFATITFVRDCGENNEEVINCAASELPKDF",
+                  "midline": " D+SG+VGKHL+YTY NGW YE+YVKN NT+DYRIHSG VG RWV+DQ + +VR+ + +YK+SWTEPTGT VSL+V+LA++  HGTIFF +W+  +PE TV FQN+H+ +M A RD GP YP VVIDEFATITFV +CG +N++VI+CA  ELP  +"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gb|RYF23457.1|",
+                  "accession": "RYF23457",
+                  "title": "MAG: phenolic acid decarboxylase [Oxalobacteraceae bacterium]",
+                  "taxid": 1871070,
+                  "sciname": "Oxalobacteraceae bacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.942,
+                  "score": 572,
+                  "evalue": 1.0897e-71,
+                  "identity": 105,
+                  "positive": 127,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KPEQ-LGAFIGKHFIYTYANGWQYEMYLKDARTIDYRIHSGMVGGRWVRDQEAHIVRLSDDVVKVSWDEPTGTSVSVAVNFSERQLHGIIFFPQWIEQAPEKTVCFQNDHLDEMRRLRDAGPHYPKLVIDEFAPVTFLEDRGERDETVIACAPADLPAGYTDRRN",
+                  "midline": "+P+Q L   +GKH IYTYANGWQYE+Y+K+  TIDYRIHSG VGGRWV+DQ   IVRL + + KVSW EPTGT VS+ V+ +ER LHG IFF QW+ Q PE TV FQN+HLDEMR LRD GP YP++VIDEFA +TF+E+ G  ++ VI CAP +LP GY DR N"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_114394735.1|",
+                  "accession": "WP_114394735",
+                  "title": "phenolic acid decarboxylase [Oleisolibacter albus]",
+                  "taxid": 2171757,
+                  "sciname": "Oleisolibacter albus"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.942,
+                  "score": 572,
+                  "evalue": 1.10169e-71,
+                  "identity": 100,
+                  "positive": 127,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EEIVRFVGRHFIYTYENGWQYEIYIKNSTTIDYRIHSGIVGGRWVRDQKTHIVRLSDDVCKLSWDEPTGTAVSVAVNFAERRIHGVIFFPRWIAENPKKTVCFQNDHLDLMRKYRDEGPTYPKMVVDEFAHISFLEDCGPDREDVIACAAGELPDGYAARRN",
+                  "midline": "+++   VG+H IYTY NGWQYE+Y+KN  TIDYRIHSG VGGRWV+DQ   IVRL + + K+SW EPTGT VS+ V+ AER +HG IFF +W++++P+ TV FQN+HLD MR  RDEGP YP++V+DEFA I+F+E+CG D +DVI CA GELPDGY  R N"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "ref|WP_436187061.1|",
+                  "accession": "WP_436187061",
+                  "title": "phenolic acid decarboxylase [Caballeronia sp. LjRoot34]",
+                  "taxid": 3342325,
+                  "sciname": "Caballeronia sp. LjRoot34"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 1.29859e-71,
+                  "identity": 104,
+                  "positive": 128,
+                  "query_from": 21,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 173,
+                  "align_len": 174,
+                  "gaps": 5,
+                  "qseq": "MASRP----QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MMTKPFESTRPEQ-LTHFLGKHFIYTYENGWQYEMYIKNERTIDYRIHSGMVGGRWVRDQEAHIVRLSDDVCKISWDEPTGTTVSVAINFSERQLHGVIFFPQWIAQDPEKTVCFQNEQLDLMRQYRDAGSTYPKLVIDEFAPVTFLEDCGLDNQSVIACAPSELSSAYATRRN",
+                  "midline": "M ++P    +P+Q L+  +GKH IYTY NGWQYE+Y+KNE TIDYRIHSG VGGRWV+DQ   IVRL + + K+SW EPTGT VS+ ++ +ER LHG IFF QW++Q PE TV FQNE LD MR  RD G  YP++VIDEFA +TF+E+CG+DN  VI CAP EL   Y  R N"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|WP_070716110.1|",
+                  "accession": "WP_070716110",
+                  "title": "MULTISPECIES: phenolic acid decarboxylase [Hafnia]",
+                  "taxid": 568,
+                  "sciname": "Hafnia"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.47862e-71,
+                  "identity": 103,
+                  "positive": 122,
+                  "query_from": 30,
+                  "query_to": 187,
+                  "hit_from": 8,
+                  "hit_to": 165,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYID",
+                  "hseq": "DLSGFVGKHLVYTYDNGWNYEIYVKNEQTLDYRIHSGLVGNRWVKDQRAYIVRVGKDIYKISWTEPTGTDVSLIVNLGDKLFHGTIFFPRWVMNNPEKTVCFQNDHIPLMNQYRDTGPAYPTEVIDEFATITFIRDCGANNDDVIACAASELPENFPD",
+                  "midline": "DLSG VGKHL+YTY NGW YE+YVKNE T+DYRIHSG VG RWVKDQ   IVR+G  +YK+SWTEPTGT VSL+V+L ++  HGTIFF +WV  +PE TV FQN+H+  M   RD GP YP  VIDEFATITF+ +CG +NDDVI CA  ELP+ + D"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "ref|WP_355854219.1|",
+                  "accession": "WP_355854219",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. NPDC005336]",
+                  "taxid": 3157035,
+                  "sciname": "Streptomyces sp. NPDC005336"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 1.56409e-71,
+                  "identity": 107,
+                  "positive": 124,
+                  "query_from": 22,
+                  "query_to": 190,
+                  "hit_from": 5,
+                  "hit_to": 173,
+                  "align_len": 169,
+                  "gaps": 0,
+                  "qseq": "ASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "VENPVPPQDLSDIVGKHLIYTYANNWQYEMYVKNATTIDYRIHTGHVGGRWVKDQEVDLVVLTKGVYKLSWNEPTGTSVCVNIIPAERLLHGTIYFPHWIKDHGHRTVLFQNDHLDDMLKYRDEGPAYPIFFVPEFAKITFIEDCGIDDDTVISVAPDQLPADYADRTN",
+                  "midline": "   P P QDLS IVGKHLIYTYAN WQYE+YVKN  TIDYRIH+G VGGRWVKDQ V +V L  G+YK+SW EPTGT V + +  AER LHGTI+F  W+  H   TV+FQN+HLD+M   RDEGP YP   + EFA ITF+E+CGID+D VI  AP +LP  Y DRTN"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "ref|WP_033137363.1|",
+                  "accession": "WP_033137363",
+                  "title": "phenolic acid decarboxylase [Aeromonas finlandensis]",
+                  "taxid": 1543375,
+                  "sciname": "Aeromonas finlandensis"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.58085e-71,
+                  "identity": 101,
+                  "positive": 126,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELADFIGHHFIYTYENGWQYELYVKNDRTIDYRIHSGMVGGRWVRDQLVHIVRLSAEVFKVSWDEPTGTSVSVAFNLATRKLHGVIFFPRWIAEAPQKTVCFQNEHLDKMQAYRDAGPTYPRLVIDEFADITFLEKCGANDETVIACSPAALPEGYASRHN",
+                  "midline": "++L+  +G H IYTY NGWQYELYVKN+ TIDYRIHSG VGGRWV+DQ V IVRL   ++KVSW EPTGT VS+  +LA R LHG IFF +W+++ P+ TV FQNEHLD+M+A RD GP YP++VIDEFA ITF+E CG +++ VI C+P  LP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_319582471.1|",
+                  "accession": "WP_319582471",
+                  "title": "phenolic acid decarboxylase [uncultured Pseudodesulfovibrio sp.]",
+                  "taxid": 2035858,
+                  "sciname": "uncultured Pseudodesulfovibrio sp."
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.63217e-71,
+                  "identity": 102,
+                  "positive": 124,
+                  "query_from": 30,
+                  "query_to": 187,
+                  "hit_from": 7,
+                  "hit_to": 164,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "DLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYID",
+                  "hseq": "DLSGFVGKHLVYTYDNGWNYEVYVKNPTTIDYRIHSGIVGNRWVKDQQVYMVQVANQVYKISWTEPTGTDVSLIANLADKLFHGTIFFPRWIINEPKKTVCFQNEHIREMEAFREAGPAYPTEVIDEFATITFVEDCGQDNEEVINCPASELPENFPD",
+                  "midline": "DLSG VGKHL+YTY NGW YE+YVKN  TIDYRIHSG VG RWVKDQ V +V++ N +YK+SWTEPTGT VSL+ +LA++  HGTIFF +W+   P+ TV FQNEH+ EM A R+ GP YP  VIDEFATITFVE+CG DN++VI+C   ELP+ + D"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "ref|WP_403562654.1|",
+                  "accession": "WP_403562654",
+                  "title": "phenolic acid decarboxylase [Streptomyces sp. NPDC097107]",
+                  "taxid": 3366089,
+                  "sciname": "Streptomyces sp. NPDC097107"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 1.70982e-71,
+                  "identity": 112,
+                  "positive": 130,
+                  "query_from": 14,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 179,
+                  "align_len": 179,
+                  "gaps": 2,
+                  "qseq": "LVPRGSHMASRPQ--PDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MTSAATHQTAVPACIPPQDLSGIVGHRFIYTYANGWQYELYVKNDHTIDYRIHSGHVGGRWVKDQNVDLVMLTQGVYKLSWTEPTGTSVSVNVIPAERVLHGVIFFPDWIKTHGERTVLFQNDHRDQMRAYRDAGPAYPIYVVPEFAKITFAEYVGQDDDEVISIAPADLPAGWSDRTN",
+                  "midline": "+    +H  + P   P QDLSGIVG   IYTYANGWQYELYVKN++TIDYRIHSG VGGRWVKDQ V +V L  G+YK+SWTEPTGT VS+ V  AER LHG IFF  W+  H E TV+FQN+H D+MRA RD GP YP  V+ EFA ITF E  G D+D+VI  AP +LP G+ DRTN"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|WP_160830812.1|",
+                  "accession": "WP_160830812",
+                  "title": "phenolic acid decarboxylase [Saccharibacter sp. 17.LH.SD]",
+                  "taxid": 2689393,
+                  "sciname": "Saccharibacter sp. 17.LH.SD"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.72548e-71,
+                  "identity": 101,
+                  "positive": 128,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELTDFVGRHFIYTYDNGWQYEIYVKNDRTIDYRIHSGMVGGRWVRDQVAHIVRLGTDIYKISWDEPTGTTVSVAVNLADRKLHGVIFFPRWVALDPKKTVCFQNDHIDQMLAYRDAGPTYPKLVIDEFATISFLESCSPNDESVISCAASELPEGYAARRN",
+                  "midline": "++L+  VG+H IYTY NGWQYE+YVKN+ TIDYRIHSG VGGRWV+DQ   IVRLG  +YK+SW EPTGT VS+ V+LA+R LHG IFF +WV+  P+ TV FQN+H+D+M A RD GP YP++VIDEFATI+F+E+C  +++ VI CA  ELP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gb|NTW42749.1|",
+                  "accession": "NTW42749",
+                  "title": "phenolic acid decarboxylase [Cellulomonadaceae bacterium]",
+                  "taxid": 2021367,
+                  "sciname": "Cellulomonadaceae bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 1.76728e-71,
+                  "identity": 105,
+                  "positive": 126,
+                  "query_from": 27,
+                  "query_to": 190,
+                  "hit_from": 17,
+                  "hit_to": 180,
+                  "align_len": 164,
+                  "gaps": 0,
+                  "qseq": "PDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PPQDLSGIVGYRFIYTYANGWQYELYVKNATTIDYRIHTGMVGGRWVRDQTVDLVQLDESVFKISWTEPTGTSVVVNVLPAKRRLHGTIFFPHWIEQDGSKTVLYQNDHLDEMRAFRDAGPTYPIYVVPEFARITFIENVGIDDETAVDTAPGDLPAGFADRTS",
+                  "midline": "P QDLSGIVG   IYTYANGWQYELYVKN  TIDYRIH+G VGGRWV+DQ V +V+L   ++K+SWTEPTGT V + V  A+R LHGTIFF  W+ Q    TV++QN+HLDEMRA RD GP YP  V+ EFA ITF+EN GID++  +D APG+LP G+ DRT+"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_153837604.1|",
+                  "accession": "WP_153837604",
+                  "title": "phenolic acid decarboxylase [Pseudomonas haemolytica]",
+                  "taxid": 2600065,
+                  "sciname": "Pseudomonas haemolytica"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.78307e-71,
+                  "identity": 102,
+                  "positive": 129,
+                  "query_from": 19,
+                  "query_to": 190,
+                  "hit_from": 2,
+                  "hit_to": 172,
+                  "align_len": 172,
+                  "gaps": 1,
+                  "qseq": "SHMASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "SEYVSSTKPGQ-LTRFVGKHVMYVYDAGWQYEMYIKNDRTIDYRVHSGIVGGRWVRDQPVHLVRLSDDVCKVSWEEPTGTTVSVSINFAERRAHGVIFFPQWLAMEPQKTACFQNEHLDAMRQYRDAGPTYPRVIIDQFATVVFVEDAGVDNEDVVACAPCELPEGYALRRN",
+                  "midline": "S   S  +P Q L+  VGKH++Y Y  GWQYE+Y+KN+ TIDYR+HSG VGGRWV+DQPV +VRL + + KVSW EPTGT VS+ ++ AER  HG IFF QW++  P+ T  FQNEHLD MR  RD GP YP+V+ID+FAT+ FVE+ G+DN+DV+ CAP ELP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_067338557.1|",
+                  "accession": "WP_067338557",
+                  "title": "phenolic acid decarboxylase [Mycobacterium sp. 1245111.1]",
+                  "taxid": 1834073,
+                  "sciname": "Mycobacterium sp. 1245111.1"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.86285e-71,
+                  "identity": 107,
+                  "positive": 127,
+                  "query_from": 27,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 164,
+                  "gaps": 0,
+                  "qseq": "PDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "PPQDLTGIVGHRFIYTYASGWQYEMYVKNEHTIDYRIHSGMVGGRWVKDQQVDVAQLDDDHFKISWTEPTGTSVAVNVMPGKRRLHGVIFFPQWVEQHGERTVCFQNDHLDQMRAYRDQGPTYPIFVVPEFATITFVEAVGTDDESVISTAPADLPPGWADRTN",
+                  "midline": "P QDL+GIVG   IYTYA+GWQYE+YVKNE+TIDYRIHSG VGGRWVKDQ V + +L +  +K+SWTEPTGT V++ V   +R LHG IFF QWV QH E TV FQN+HLD+MRA RD+GP YP  V+ EFATITFVE  G D++ VI  AP +LP G+ DRTN"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_295463126.1|",
+                  "accession": "WP_295463126",
+                  "title": "phenolic acid decarboxylase [uncultured Pseudomonas sp.]",
+                  "taxid": 114707,
+                  "sciname": "uncultured Pseudomonas sp."
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.9462e-71,
+                  "identity": 104,
+                  "positive": 126,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KPEQ-LSRFLGQHLIYTYENGWQYELYLKNATTIDYRIHSGMVGGRWVRDQQAHIVRLSDDVCKISWDEPTGTTVSVAINFRERHLHGVIFFPQWVALEPGKTVCFQNEHLEQMQRYRDAGPTYPKLVIDEFAQVTFSENCGLDDETVIACAPAELPAGYSTRRN",
+                  "midline": "+P+Q LS  +G+HLIYTY NGWQYELY+KN  TIDYRIHSG VGGRWV+DQ   IVRL + + K+SW EPTGT VS+ ++  ER LHG IFF QWV+  P  TV FQNEHL++M+  RD GP YP++VIDEFA +TF ENCG+D++ VI CAP ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "ref|WP_209593612.1|",
+                  "accession": "WP_209593612",
+                  "title": "phenolic acid decarboxylase [Jiella mangrovi]",
+                  "taxid": 2821407,
+                  "sciname": "Jiella mangrovi"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 2.17125e-71,
+                  "identity": 104,
+                  "positive": 128,
+                  "query_from": 26,
+                  "query_to": 190,
+                  "hit_from": 9,
+                  "hit_to": 172,
+                  "align_len": 165,
+                  "gaps": 1,
+                  "qseq": "QPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "KPEQ-LAGFVGKHLIYTYDNGWQYELYVKNPWTIDYRIHSGMVGGRWVRDQKAHIVRLSDDVVKISWDEPTGTTVSVAVNFAERRIHGVIFFPRWIAEEPKKTVCFQNDHLDLMRSYRDAGPTYPKLVIDEFATVTFVETCAENDETVVSCGPEELPAGYAARRN",
+                  "midline": "+P+Q L+G VGKHLIYTY NGWQYELYVKN  TIDYRIHSG VGGRWV+DQ   IVRL + + K+SW EPTGT VS+ V+ AER +HG IFF +W+++ P+ TV FQN+HLD MR+ RD GP YP++VIDEFAT+TFVE C  +++ V+ C P ELP GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "dbj|GAB2859517.1|",
+                  "accession": "GAB2859517",
+                  "title": "phenolic acid decarboxylase [Actinocorallia aurea]",
+                  "taxid": 65511,
+                  "sciname": "Actinocorallia aurea"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.787,
+                  "score": 569,
+                  "evalue": 2.55993e-71,
+                  "identity": 110,
+                  "positive": 122,
+                  "query_from": 21,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 4,
+                  "qseq": "MASRPQPDQDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLG-NGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVS---QHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "MVETPGPAQDLSAIVGTHFIYTYANGWQYEWYARNEKECDYRIHHGLVGGRWVTHQAVELTLLSEDGQFKADWHEPTGTCVSLFFDLPRRRLHGTIFFPQWIGGNGQHPEKTICFQNDFIDDMHRFRDEGPAYPYVVIPEFATITFMEQVGRDNDDVINMAPGQLPDGYTDRAN",
+                  "midline": "M   P P QDLS IVG H IYTYANGWQYE Y +NE   DYRIH G VGGRWV  Q V +  L  +G +K  W EPTGTCVSL  DL  R LHGTIFF QW+    QHPE T+ FQN+ +D+M   RDEGP YP VVI EFATITF+E  G DNDDVI+ APG+LPDGY DR N"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "ref|WP_093796726.1|",
+                  "accession": "WP_093796726",
+                  "title": "phenolic acid decarboxylase [Sporomusa acidovorans]",
+                  "taxid": 112900,
+                  "sciname": "Sporomusa acidovorans"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.402,
+                  "score": 568,
+                  "evalue": 2.58064e-71,
+                  "identity": 100,
+                  "positive": 122,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 3,
+                  "hit_to": 164,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EELKNLIGKHFIYTYDNGWQYEVYVKNDTTFDYRIHSGIVGGRWVKGQKAHIVALADNVYKISWDEPTGTCVSLAFNLAACKIHGTIFFPAWVARDPQKTVCFQNEHLPLKNQYRDQGPTYPKMVVDEFATITFMEECGADNDEVISCTPSQLPEGYTTRKN",
+                  "midline": "++L  ++GKH IYTY NGWQYE+YVKN+ T DYRIHSG VGGRWVK Q   IV L + +YK+SW EPTGTCVSL  +LA   +HGTIFF  WV++ P+ TV FQNEHL      RD+GP YP++V+DEFATITF+E CG DND+VI C P +LP+GY  R N"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "gb|EJH1737706.1|",
+                  "accession": "EJH1737706",
+                  "title": "phenolic acid decarboxylase [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.787,
+                  "score": 569,
+                  "evalue": 2.67001e-71,
+                  "identity": 103,
+                  "positive": 121,
+                  "query_from": 29,
+                  "query_to": 185,
+                  "hit_from": 7,
+                  "hit_to": 163,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGY",
+                  "hseq": "NDLSGFVGTHLVYTYDNGWNYELYIKNENTIDYRIHSGMVGGRWVKDQHVYIVRVAKDIYKVSWTEPTGTDVSLIANLGDKLFHGTIFFPRWVMNNPEKTVCFQNDHLDKMAEYRSAGPAYPTEVIDEFATITFVRDCGKNNESVIACPPDQLPENF",
+                  "midline": " DLSG VG HL+YTY NGW YELY+KNENTIDYRIHSG VGGRWVKDQ V IVR+   +YKVSWTEPTGT VSL+ +L ++  HGTIFF +WV  +PE TV FQN+HLD+M   R  GP YP  VIDEFATITFV +CG +N+ VI C P +LP+ +"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_150351245.1|",
+                  "accession": "WP_150351245",
+                  "title": "phenolic acid decarboxylase [Paracoccus yeei]",
+                  "taxid": 147645,
+                  "sciname": "Paracoccus yeei"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.787,
+                  "score": 569,
+                  "evalue": 2.67304e-71,
+                  "identity": 101,
+                  "positive": 127,
+                  "query_from": 29,
+                  "query_to": 190,
+                  "hit_from": 11,
+                  "hit_to": 172,
+                  "align_len": 162,
+                  "gaps": 0,
+                  "qseq": "QDLSGIVGKHLIYTYANGWQYELYVKNENTIDYRIHSGPVGGRWVKDQPVVIVRLGNGMYKVSWTEPTGTCVSLVVDLAERWLHGTIFFAQWVSQHPELTVVFQNEHLDEMRALRDEGPVYPQVVIDEFATITFVENCGIDNDDVIDCAPGELPDGYIDRTN",
+                  "hseq": "EEIAGFVGKHLIYTYDNGWQYEMYIKNDRTIDYRIHSGMVGGRWVRDQIVHIVRLGLDIYKISWDEPTGTTVSVAVNLAERRLHGVIFFPQWIALDPAKTVCFQNDHLDQMIGYRDAGPTYPKLVIDEFARITYLEQCAANDETVVSVAPADLPEGYAARLN",
+                  "midline": "++++G VGKHLIYTY NGWQYE+Y+KN+ TIDYRIHSG VGGRWV+DQ V IVRLG  +YK+SW EPTGT VS+ V+LAER LHG IFF QW++  P  TV FQN+HLD+M   RD GP YP++VIDEFA IT++E C  +++ V+  AP +LP+GY  R N"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

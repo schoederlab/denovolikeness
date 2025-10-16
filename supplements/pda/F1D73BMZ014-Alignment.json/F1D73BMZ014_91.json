@@ -1,0 +1,70 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368736",
+          "query_title": "8ek4_A,B",
+          "query_len": 141,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8EK4|A",
+                  "accession": "8EK4_A",
+                  "title": "Chain A, Ice-binding protein TIP-99a [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.766,
+                  "score": 665,
+                  "evalue": 3.70398e-87,
+                  "identity": 141,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 141,
+                  "hit_from": 1,
+                  "hit_to": 141,
+                  "align_len": 141,
+                  "gaps": 0,
+                  "qseq": "MEEEVREKLKRMEKKFDDSLEKAERKIREIIKEAEKKLKTLKKRNGPYEAVVTTLRAILKAVETKIRAIIKALKTELDALIKAMETILKAHDKNDELKKEVEDIIKKMRDKLTKLIRKAKELLDRLKKKAKKVQDETSGGW",
+                  "hseq": "MEEEVREKLKRMEKKFDDSLEKAERKIREIIKEAEKKLKTLKKRNGPYEAVVTTLRAILKAVETKIRAIIKALKTELDALIKAMETILKAHDKNDELKKEVEDIIKKMRDKLTKLIRKAKELLDRLKKKAKKVQDETSGGW",
+                  "midline": "MEEEVREKLKRMEKKFDDSLEKAERKIREIIKEAEKKLKTLKKRNGPYEAVVTTLRAILKAVETKIRAIIKALKTELDALIKAMETILKAHDKNDELKKEVEDIIKKMRDKLTKLIRKAKELLDRLKKKAKKVQDETSGGW"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

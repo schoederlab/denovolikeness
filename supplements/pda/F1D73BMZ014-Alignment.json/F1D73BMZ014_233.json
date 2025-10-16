@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368878",
+          "query_title": "8cuu_B",
+          "query_len": 130,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7L85|B",
+                  "accession": "7L85_B",
+                  "title": "Chain B, BG505 SOSIP-T33-31B [Human immunodeficiency virus 1]",
+                  "taxid": 11676,
+                  "sciname": "Human immunodeficiency virus 1"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 3.30645e-73,
+                  "identity": 113,
+                  "positive": 116,
+                  "query_from": 2,
+                  "query_to": 124,
+                  "hit_from": 3,
+                  "hit_to": 125,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQLE",
+                  "hseq": "VRGIRGAITVEEDTPAAILAATIELLLKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARLIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLNEAVRLRPDLESAQLE",
+                  "midline": "VRGIRGAITV  DTP +I+ ATI LL KMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAAR IGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYL+EAVRLRPDLESAQLE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_038046608.1|",
+                  "accession": "WP_038046608",
+                  "title": "chorismate mutase [Thermus caliditerrae]",
+                  "taxid": 1330700,
+                  "sciname": "Thermus caliditerrae"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 201.83,
+                  "score": 512,
+                  "evalue": 2.01937e-64,
+                  "identity": 103,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGIRGAITVEEDTPEAIHGATRELLLKMLEMNGIRSHEELAAIIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNADVPQEAVKHVYLREAVRLRPDLESAQ",
+                  "midline": "MVRGIRGAITV  DTP +I  AT  LL KMLE NGI+S+EELAA+IFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWN D PQ+ V+HVYL EAVRLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_013703957.1|",
+                  "accession": "WP_013703957",
+                  "title": "chorismate mutase [Marinithermus hydrothermalis]",
+                  "taxid": 186192,
+                  "sciname": "Marinithermus hydrothermalis"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 197.208,
+                  "score": 500,
+                  "evalue": 1.53704e-62,
+                  "identity": 98,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGIRGAITVEHDTPEAIHAATRELLKAILEANGIQSYDELAAIIFTVTPDLSSAFPAEAARQLGMHRVPLLSAQEVPVPGALPRVIRILALWNTQTAQDQVRHVYLREAARLRPDLESAQ",
+                  "midline": "MVRGIRGAITV  DTP +I  AT  LL+ +LEANGIQSY+ELAA+IFTVT DL+SAFPAEAARQ+GMHRVPLLSA+EVPVPG+LPRVIR+LALWNT T QD+VRHVYL EA RLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_352414727.1|",
+                  "accession": "WP_352414727",
+                  "title": "chorismate mutase [Thermus sp.]",
+                  "taxid": 275,
+                  "sciname": "Thermus sp."
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.897,
+                  "score": 494,
+                  "evalue": 1.30533e-61,
+                  "identity": 101,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 122,
+                  "gaps": 1,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGIRGAITVEEDTPEAIHSATRELLLKMLELNRIRP-EELAAVIFTVTEDLSSAFPAEAARQIGLHRVPLLSAREIPVPGSLPRVIRILALWNTDLPQDRVRHVYLKEAVKLRPDLESAQ",
+                  "midline": "MVRGIRGAITV  DTP +I  AT  LL KMLE N I+  EELAAVIFTVTEDL+SAFPAEAARQIG+HRVPLLSARE+PVPGSLPRVIR+LALWNTD PQDRVRHVYL EAV+LRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "dbj|BGR18340.1|",
+                  "accession": "BGR18340",
+                  "title": "chorismate mutase [Vulcanithermus mediatlanticus]",
+                  "taxid": 206045,
+                  "sciname": "Vulcanithermus mediatlanticus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 185.267,
+                  "score": 469,
+                  "evalue": 7.06188e-58,
+                  "identity": 94,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGIRGAITVDEDTPKAIHEATRELLLKILQANGIKDHSEIAAIIFTVTEDLSSAFPAEAARQLGMNRVPLLSAREVPVPGSLPRVIRVLALWNTTRNPEEVRHVYLREATRLRPDLESAQ",
+                  "midline": "MVRGIRGAITV+ DTP +I  AT  LL K+L+ANGI+ + E+AA+IFTVTEDL+SAFPAEAARQ+GM+RVPLLSAREVPVPGSLPRVIRVLALWNT    + VRHVYL EA RLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_147146103.1|",
+                  "accession": "WP_147146103",
+                  "title": "chorismate mutase [Oceanithermus desulfurans]",
+                  "taxid": 227924,
+                  "sciname": "Oceanithermus desulfurans"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 183.341,
+                  "score": 464,
+                  "evalue": 4.08072e-57,
+                  "identity": 92,
+                  "positive": 103,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESA",
+                  "hseq": "MVRGIRGAITVEQDTPEEILAATRRLLEAILERNDIRDPAELAALIFTVTEDLSSAFPAEAARQLGMNRVPLLSAREVPVPGSLPRVIRILALWNTDAPPEAIRHVYLGEAQRLRPDLDSA",
+                  "midline": "MVRGIRGAITV  DTP  I+ AT  LLE +LE N I+   ELAA+IFTVTEDL+SAFPAEAARQ+GM+RVPLLSAREVPVPGSLPRVIR+LALWNTD P + +RHVYL EA RLRPDL+SA"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "dbj|BHA21734.1|",
+                  "accession": "BHA21734",
+                  "title": "chorismate mutase [Rhabdothermus arcticus]",
+                  "taxid": 874266,
+                  "sciname": "Rhabdothermus arcticus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 180.259,
+                  "score": 456,
+                  "evalue": 7.13437e-56,
+                  "identity": 89,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGIRGAITVEEDTPEAILSATEELLKAIFAANGIEDPSTLAAIIFTVTEDLRAAFPAEAARRLGMNLVPLLSAREVPVPGSLPRVIRILALWNTDKAQDEIRHVYLREATRLRPDLKSAQ",
+                  "midline": "MVRGIRGAITV  DTP +I+ AT  LL+ +  ANGI+    LAA+IFTVTEDL +AFPAEAAR++GM+ VPLLSAREVPVPGSLPRVIR+LALWNTD  QD +RHVYL EA RLRPDL+SAQ"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_027892989.1|",
+                  "accession": "WP_027892989",
+                  "title": "MULTISPECIES: chorismate mutase [Calidithermus]",
+                  "taxid": 2747271,
+                  "sciname": "Calidithermus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 174.866,
+                  "score": 442,
+                  "evalue": 1.01165e-53,
+                  "identity": 83,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGVRGAITVEENSREAILSATRELLQKMLEVNRITDFDSIGAMIFTLTDDLNAAFPAEAARQLGMQMVPLINSREVPVPGSLPRVIRVMMLWNTDFPQKQVRHVYLREAVRLRPDLESAQ",
+                  "midline": "MVRG+RGAITV  ++  +I+ AT  LL+KMLE N I  ++ + A+IFT+T+DL +AFPAEAARQ+GM  VPL+++REVPVPGSLPRVIRV+ LWNTD PQ +VRHVYL EAVRLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_119356008.1|",
+                  "accession": "WP_119356008",
+                  "title": "chorismate mutase [Meiothermus granaticius]",
+                  "taxid": 863370,
+                  "sciname": "Meiothermus granaticius"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 173.326,
+                  "score": 438,
+                  "evalue": 5.17888e-53,
+                  "identity": 80,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MTRGVRGAITVEEDSREAILSATRELLQKMLELNHIGSFDEIGAMIFTLTDDLSACFPAEAARQLGMGKVPLINSREIPVPGALPKVIRVMMLWNTDLPQAQVKHVYLREAVRLRPDLESAQ",
+                  "midline": "M RG+RGAITV  D+  +I+ AT  LL+KMLE N I S++E+ A+IFT+T+DL++ FPAEAARQ+GM +VPL+++RE+PVPG+LP+VIRV+ LWNTD PQ +V+HVYL EAVRLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_110526473.1|",
+                  "accession": "WP_110526473",
+                  "title": "MULTISPECIES: chorismate mutase [unclassified Meiothermus]",
+                  "taxid": 370471,
+                  "sciname": "unclassified Meiothermus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 172.94,
+                  "score": 437,
+                  "evalue": 6.44803e-53,
+                  "identity": 84,
+                  "positive": 100,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGIRGAITVEEDTREAILSATRELLSKMLEVNGITDPDSIGAMIFTLTDDLCAAFPAEAARQLGMQMVPLINSREIPVPGSLKRVIRVMILWNTDIPQRKVRHVYLREAVQLRPDLESAQ",
+                  "midline": "MVRGIRGAITV  DT  +I+ AT  LL KMLE NGI   + + A+IFT+T+DL +AFPAEAARQ+GM  VPL+++RE+PVPGSL RVIRV+ LWNTD PQ +VRHVYL EAV+LRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_293170307.1|",
+                  "accession": "WP_293170307",
+                  "title": "chorismate mutase [Oceanithermus sp.]",
+                  "taxid": 2268145,
+                  "sciname": "Oceanithermus sp."
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 171.014,
+                  "score": 432,
+                  "evalue": 3.84778e-52,
+                  "identity": 87,
+                  "positive": 99,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESA",
+                  "hseq": "MVRGIRGAITVTEDRPEAIHAATRRLLTAILERNGIEDPAELAAIIFTVTEDLVSAFPAEAARQLGMNRVPLLSAREVPVPGSLPRVIRILALWNTTKDPETIQHVYLEEAAKLRPDLDSA",
+                  "midline": "MVRGIRGAITV  D P +I  AT  LL  +LE NGI+   ELAA+IFTVTEDL SAFPAEAARQ+GM+RVPLLSAREVPVPGSLPRVIR+LALWNT    + ++HVYL EA +LRPDL+SA"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|MCL4454102.1|",
+                  "accession": "MCL4454102",
+                  "title": "chorismate mutase [Deinococcus sp.]",
+                  "taxid": 47478,
+                  "sciname": "Deinococcus sp."
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 169.088,
+                  "score": 427,
+                  "evalue": 1.80401e-51,
+                  "identity": 80,
+                  "positive": 100,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MVRGIRGAITVEEDTKEAILGATRDLVSKMLEVNQIADHDQIGAMIFTLTDDLRACFPAEAARQLGMQMVPLINSREIPVPGSLPRVIRVMILWNTEIPQKEVRHVYLRDAVKLRPDLESAQ",
+                  "midline": "MVRGIRGAITV  DT  +I+ AT  L+ KMLE N I  ++++ A+IFT+T+DL + FPAEAARQ+GM  VPL+++RE+PVPGSLPRVIRV+ LWNT+ PQ  VRHVYL +AV+LRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|MER3484476.1|",
+                  "accession": "MER3484476",
+                  "title": "chorismate mutase [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 168.318,
+                  "score": 425,
+                  "evalue": 4.05877e-51,
+                  "identity": 80,
+                  "positive": 97,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MTRGVRGAITVEEDTREAILSATRELLQKMLEVNRITDYDTLGAMFFTLTDDLKAAFPAEAARQLGMQMVPLINSREIPVPGSLQRTIRVMMLWETDTAQKQVKHVYLREAVRLRPDLESAQ",
+                  "midline": "M RG+RGAITV  DT  +I+ AT  LL+KMLE N I  Y+ L A+ FT+T+DL +AFPAEAARQ+GM  VPL+++RE+PVPGSL R IRV+ LW TDT Q +V+HVYL EAVRLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|MBF6595587.1|",
+                  "accession": "MBF6595587",
+                  "title": "chorismate mutase [Thermaceae bacterium]",
+                  "taxid": 2614257,
+                  "sciname": "Thermaceae bacterium"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 167.933,
+                  "score": 424,
+                  "evalue": 5.96383e-51,
+                  "identity": 81,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 122,
+                  "gaps": 1,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MTRGVRGAITVDEDTREAILSATRELLQKMLEANRI-SFDDIGAMIFTLTDDLEAAFPAEAARQLGMGMVPLINSREIPVPGSLPRVIRVMMLWNTEVHQKQIKHVYLREAVRLRPDLESAQ",
+                  "midline": "M RG+RGAITV+ DT  +I+ AT  LL+KMLEAN I S++++ A+IFT+T+DL +AFPAEAARQ+GM  VPL+++RE+PVPGSLPRVIRV+ LWNT+  Q +++HVYL EAVRLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gb|MDX2004922.1|",
+                  "accession": "MDX2004922",
+                  "title": "chorismate mutase [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 163.696,
+                  "score": 413,
+                  "evalue": 2.41687e-49,
+                  "identity": 79,
+                  "positive": 97,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MTRGVRGAITTHEDTRESILSATQELLGRMLEANRITDFSTIGAMFFTLTDDLSAAFPAEAARMLGMQMVPLINSREIPVPGSLQRVIRVMMLWETDLPQSQVRHVYLREAVRLRPDLESAQ",
+                  "midline": "M RG+RGAIT + DT  SI+ AT  LL +MLEAN I  +  + A+ FT+T+DL++AFPAEAAR +GM  VPL+++RE+PVPGSL RVIRV+ LW TD PQ +VRHVYL EAVRLRPDLESAQ"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|RMG38057.1|",
+                  "accession": "RMG38057",
+                  "title": "MAG: chorismate mutase [Planctomycetota bacterium]",
+                  "taxid": 2026780,
+                  "sciname": "Planctomycetota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.147,
+                  "score": 396,
+                  "evalue": 1.01979e-46,
+                  "identity": 76,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVEEDTPDAVLEATRELLQALLERNGITSYEDIVSVIFTTTADLTSVFPAEAARSVGMDQVPLLCAAEIPVPGSMPRCIRVLMHWNTDRRQDEIVHVYLREAQKLRPDMTKPQ",
+                  "midline": "VRGIRGA TV  DTP +++ AT  LL+ +LE NGI SYE++ +VIFT T DLTS FPAEAAR +GM +VPLL A E+PVPGS+PR IRVL  WNTD  QD + HVYL EA +LRPD+   Q"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|MBI1310733.1|",
+                  "accession": "MBI1310733",
+                  "title": "chorismate mutase [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 153.68,
+                  "score": 387,
+                  "evalue": 2.28657e-45,
+                  "identity": 75,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGVRGATTVDSDTPAVIHEATRELLEEIVRANEIASFEEIGSIIFTTTIDLTSTFPAEAARAIGMSQVPLICASEIAVPGSMPRCIRVMLHWNTERPQSEIQHVYLREAKRLRPDVSSAQ",
+                  "midline": "VRG+RGA TV+SDTP  I  AT  LLE+++ AN I S+EE+ ++IFT T DLTS FPAEAAR IGM +VPL+ A E+ VPGS+PR IRV+  WNT+ PQ  ++HVYL EA RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|WKZ36082.1|",
+                  "accession": "WKZ36082",
+                  "title": "MAG: chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.525,
+                  "score": 384,
+                  "evalue": 7.62551e-45,
+                  "identity": 76,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVTADEPDLILHATRELLEEILAENESMQPEDIASAVFTVTDDLAATFPAQAARQMGWGPVPMLCAREIPVPGSLPRVIRVLVHWNTDTPQDGITHVYLREAVKLRPDLVSAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE++L  N     E++A+ +FTVT+DL + FPA+AARQ+G   VP+L ARE+PVPGSLPRVIRVL  WNTDTPQD + HVYL EAV+LRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|MCL5610994.1|",
+                  "accession": "MCL5610994",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.14,
+                  "score": 383,
+                  "evalue": 9.08554e-45,
+                  "identity": 75,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVSADEPDLILEATRELLEAILGANASMKPEDVASALFTVTEDLASTFPAQAARQMGWSLVPMLCAREIPVPGSLPKVIRVLVHWNTDVPQNEITHVYLHDAVRLRPDLVAAQ",
+                  "midline": "+RGIRGA TV++D P  I+ AT  LLE +L AN     E++A+ +FTVTEDL S FPA+AARQ+G   VP+L ARE+PVPGSLP+VIRVL  WNTD PQ+ + HVYL +AVRLRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|MCC7119592.1|",
+                  "accession": "MCC7119592",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.754,
+                  "score": 382,
+                  "evalue": 1.34751e-44,
+                  "identity": 72,
+                  "positive": 94,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGVRGAITVSADEPDLILEATRELLQALLEANPGMQPEDVGSALFTVTDDLASTFPAQAARQMGWNLVPMMCAREIPVPGSLPKAIRVLLYWNTQTPQNEVTHIYLREAVKLRPDLVSAQ",
+                  "midline": "+RG+RGAITV++D P  I+ AT  LL+ +LEAN     E++ + +FTVT+DL S FPA+AARQ+G + VP++ ARE+PVPGSLP+ IRVL  WNT TPQ+ V H+YL EAV+LRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|NLG50976.1|",
+                  "accession": "NLG50976",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 135,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.14,
+                  "score": 383,
+                  "evalue": 1.77179e-44,
+                  "identity": 81,
+                  "positive": 96,
+                  "query_from": 3,
+                  "query_to": 130,
+                  "hit_from": 4,
+                  "hit_to": 134,
+                  "align_len": 132,
+                  "gaps": 5,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDL----ESAQLEHHHHHH",
+                  "hseq": "RGIRGATTVASNQADSILAATRELLQEMVSMNHIQA-EDVAAVFFTVTDDLDAAFPAQAARMLGWQQVPLLDAREIPVPGSLPRCIRVLLLWNTDTPQSEVVHVYLGEARRLRPDLVQPAGTDQEESHDSCH",
+                  "midline": "RGIRGA TV S+   SI+ AT  LL++M+  N IQ+ E++AAV FTVT+DL +AFPA+AAR +G  +VPLL ARE+PVPGSLPR IRVL LWNTDTPQ  V HVYL EA RLRPDL     + Q E H   H"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gb|MDD2922003.1|",
+                  "accession": "MDD2922003",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.369,
+                  "score": 381,
+                  "evalue": 2.13422e-44,
+                  "identity": 74,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVASDEPEIILEATRELLEAILQANATMNPEDVGSALFTVTADLVSTFPAQAARQMGWGLVPMMCAREIPVPGSLPRVIRVLVHWNTDMPQSKITHVYLRDAVKLRPDLVAAQ",
+                  "midline": "VRGIRGA TV SD P  I+ AT  LLE +L+AN   + E++ + +FTVT DL S FPA+AARQ+G   VP++ ARE+PVPGSLPRVIRVL  WNTD PQ ++ HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gb|MGC9334911.1|",
+                  "accession": "MGC9334911",
+                  "title": "chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 135,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.369,
+                  "score": 381,
+                  "evalue": 3.30597e-44,
+                  "identity": 75,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 121,
+                  "hit_from": 3,
+                  "hit_to": 121,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESA",
+                  "hseq": "CRGIRGATTVESDSASAILSATRELLASMLEANRVQT-EDVASAVFTVTPDLKAAFPAQAARQLGWQHVPLLDAQEIPVPGSLPRCVRVLLHWNTDTPQQQVRHVYLRGAAVLRPDLEAG",
+                  "midline": " RGIRGA TV SD+ ++I+ AT  LL  MLEAN +Q+ E++A+ +FTVT DL +AFPA+AARQ+G   VPLL A+E+PVPGSLPR +RVL  WNTDTPQ +VRHVYL  A  LRPDLE+ "
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "tpg|HUG20015.1|",
+                  "accession": "HUG20015",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.369,
+                  "score": 381,
+                  "evalue": 3.64132e-44,
+                  "identity": 75,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 16,
+                  "hit_to": 136,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MRGIRGATSVETDTPELILKATRELLEETLRANGIETFEEVVSVIFTMTTDLTSTFPAEAARSFGMNHVPLLCASEIPVPGSLPRCIRILLHVNTDKTQREIVHVYLHEARKLRPDVNSAQ",
+                  "midline": "+RGIRGA +V +DTP  I+ AT  LLE+ L ANGI+++EE+ +VIFT+T DLTS FPAEAAR  GM+ VPLL A E+PVPGSLPR IR+L   NTD  Q  + HVYL EA +LRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|MCB0118547.1|",
+                  "accession": "MCB0118547",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.599,
+                  "score": 379,
+                  "evalue": 3.68958e-44,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVAEDQPDLILQATRELLEAIVKANEDMTPEDIGSAIFTVTEDLASTFPAQAARQMGWSMVPMMCAREIPVPGSLPKVIRVLVNWNTETPQGDVKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV  D P  I+ AT  LLE +++AN   + E++ + IFTVTEDL S FPA+AARQ+G   VP++ ARE+PVPGSLP+VIRVL  WNT+TPQ  V+HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gb|MBN1402437.1|",
+                  "accession": "MBN1402437",
+                  "title": "chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.984,
+                  "score": 380,
+                  "evalue": 4.14549e-44,
+                  "identity": 75,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 118,
+                  "hit_from": 3,
+                  "hit_to": 118,
+                  "align_len": 117,
+                  "gaps": 1,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDL",
+                  "hseq": "VRGVRGATTAESNTAESILAATRTLLEQMASANAIQT-EDLAAAYFTVTEDLDAAFPAHVARKMGWDQVPLLDAREIPVPGSLPRCIRVLLLWNTETPQGEIVHVYQAEAIWLRPDL",
+                  "midline": "VRG+RGA T  S+T  SI+ AT  LLE+M  AN IQ+ E+LAA  FTVTEDL +AFPA  AR++G  +VPLL ARE+PVPGSLPR IRVL LWNT+TPQ  + HVY +EA+ LRPDL"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "tpg|HRQ22049.1|",
+                  "accession": "HRQ22049",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.214,
+                  "score": 378,
+                  "evalue": 5.29517e-44,
+                  "identity": 77,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVPADEPDLILQATRELLEEILAENESMRPEDVGSAIFTVTEDLASAFPAQAARQMGWGLVPMLCAREIPVPGSLPRVVRVLVHWNTDTPQSEVTHVYLRYAVKLRPDLVSAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE++L  N     E++ + IFTVTEDL SAFPA+AARQ+G   VP+L ARE+PVPGSLPRV+RVL  WNTDTPQ  V HVYL  AV+LRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|MBM3125273.1|",
+                  "accession": "MBM3125273",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.214,
+                  "score": 378,
+                  "evalue": 6.44855e-44,
+                  "identity": 76,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGAITVPADEPVLILQATRELLEAILEANSGMRAEEVGSALFTMTEDLCSTFPAQAAREMGWGLVPMLCAREIPVPGSLPRVIRVLVHWNTTEPQNSITHVYLREAVGLRPDLTAAQ",
+                  "midline": "VRGIRGAITV +D P  I+ AT  LLE +LEAN     EE+ + +FT+TEDL S FPA+AAR++G   VP+L ARE+PVPGSLPRVIRVL  WNT  PQ+ + HVYL EAV LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "tpg|HAX68393.1|",
+                  "accession": "HAX68393",
+                  "title": "chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.214,
+                  "score": 378,
+                  "evalue": 6.5913e-44,
+                  "identity": 72,
+                  "positive": 92,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGATTVAEDDPDQILQATRELLEAIMQENARFAPEDVGSAIFTVTDDLASTFPAQAARQMGWGLVPMMCAREIPVPGSLPKVIRVLVHWNTDTPQSQIRHVYLRDAVKLRPDLVAAQ",
+                  "midline": "RGIRGA TV  D P  I+ AT  LLE +++ N   + E++ + IFTVT+DL S FPA+AARQ+G   VP++ ARE+PVPGSLP+VIRVL  WNTDTPQ ++RHVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gb|MBX3449527.1|",
+                  "accession": "MBX3449527",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.828,
+                  "score": 377,
+                  "evalue": 1.02129e-43,
+                  "identity": 71,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATSVEKDQPEEILAATRELLEQILKLNGIEQFDDIGSAVFTTTPDLTSTFPAEAARALGMRQVPLLCASEIAVPGSLPRCIRILLHWNTDRRQCEIQHVYLREAKRLRPDVSSAQ",
+                  "midline": "VRGIRGA +V  D P  I+ AT  LLE++L+ NGI+ ++++ + +FT T DLTS FPAEAAR +GM +VPLL A E+ VPGSLPR IR+L  WNTD  Q  ++HVYL EA RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "tpg|HSK88404.1|",
+                  "accession": "HSK88404",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.443,
+                  "score": 376,
+                  "evalue": 1.06701e-43,
+                  "identity": 73,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVSIDEPDSILQATCELLEAILHENEGMRLEDVASAIFTVTDDLTSTFPAQGARQMGWGLVPMMCAREIPVPGSLPRVIRVLVHWNTAVPQSEIKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV+ D P SI+ AT  LLE +L  N     E++A+ IFTVT+DLTS FPA+ ARQ+G   VP++ ARE+PVPGSLPRVIRVL  WNT  PQ  ++HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gb|NWG34815.1|",
+                  "accession": "NWG34815",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.443,
+                  "score": 376,
+                  "evalue": 1.29941e-43,
+                  "identity": 74,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVATDAPDLILHATRELLEEILAANETMRPEEIASAFFTVTEDLASTFPAQAARQMGWNLVPMLCAREIPVPGSLPRVIRVLVHWNTDISQNKITHVYLRDAVQLRPDWAAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE++L AN     EE+A+  FTVTEDL S FPA+AARQ+G + VP+L ARE+PVPGSLPRVIRVL  WNTD  Q+++ HVYL +AV+LRPD  +AQ"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|MBM80440.1|",
+                  "accession": "MBM80440",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.443,
+                  "score": 376,
+                  "evalue": 1.41834e-43,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGVRGAITAEVDTAEEVKSATRELLQEMLQANGIEQFDDIASAVFTTTLDLTSAFPAEAARVLGMSQVPLLCASEIAVPGSMQRCIRVLLHLNTDKPQSEIVHIYLREAKRLRPDMESAQ",
+                  "midline": "VRG+RGAIT   DT   +  AT  LL++ML+ANGI+ ++++A+ +FT T DLTSAFPAEAAR +GM +VPLL A E+ VPGS+ R IRVL   NTD PQ  + H+YL EA RLRPD+ESAQ"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "tpg|HSL46748.1|",
+                  "accession": "HSL46748",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.443,
+                  "score": 376,
+                  "evalue": 1.48183e-43,
+                  "identity": 72,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGLRGATTVSADEPDLILQATRELLEAVLEANYTMKPDDVASAIFTVTDDLTSTFPAQAARQMGWDMVPMLCGREIPVPSSLPRVIRVLVHWNTELPQSEIKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RG+RGA TV++D P  I+ AT  LLE +LEAN     +++A+ IFTVT+DLTS FPA+AARQ+G   VP+L  RE+PVP SLPRVIRVL  WNT+ PQ  ++HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gb|UCH61583.1|",
+                  "accession": "UCH61583",
+                  "title": "MAG: chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.058,
+                  "score": 375,
+                  "evalue": 1.76549e-43,
+                  "identity": 73,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 121,
+                  "hit_from": 3,
+                  "hit_to": 122,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESA",
+                  "hseq": "VRGVRGANTCEANSPESILAASHELLNKMLEANPQMQPEEIASAVFTVTEDLTAAYPARAARELGWDRVPLLCAREIPVPGDLPRCIRVLLHWNTDLPQVAIQHVYLGAAVALRPDLNQS",
+                  "midline": "VRG+RGA T  +++P SI+ A+  LL KMLEAN     EE+A+ +FTVTEDLT+A+PA AAR++G  RVPLL ARE+PVPG LPR IRVL  WNTD PQ  ++HVYL  AV LRPDL  +"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|MCL4270380.1|",
+                  "accession": "MCL4270380",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.673,
+                  "score": 374,
+                  "evalue": 2.17368e-43,
+                  "identity": 73,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVAEDDADAILQATRELLEAILKENDGMTPEDVGSAIFTVTEDLAATFPAQAARQMGWGLVPMMCAREIPVPGSLPRVIRVLVHWNTDTPQSGVKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV  D   +I+ AT  LLE +L+ N   + E++ + IFTVTEDL + FPA+AARQ+G   VP++ ARE+PVPGSLPRVIRVL  WNTDTPQ  V+HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|NQV28694.1|",
+                  "accession": "NQV28694",
+                  "title": "chorismate mutase [Rhodopirellula sp.]",
+                  "taxid": 2024855,
+                  "sciname": "Rhodopirellula sp."
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.673,
+                  "score": 374,
+                  "evalue": 2.56157e-43,
+                  "identity": 73,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVENDVPAEIHAATREMLEELLRANGISDFEEVGSIIFTTSPDLTSTFPAEAARAIGMSQVPLLCASEIAVPGSMPHCIRVLLNWNTEKSQGEIVHVYLREAKRLRPDVASAQ",
+                  "midline": "VRGIRGA TV +D P  I  AT  +LE++L ANGI  +EE+ ++IFT + DLTS FPAEAAR IGM +VPLL A E+ VPGS+P  IRVL  WNT+  Q  + HVYL EA RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|MBI5945432.1|",
+                  "accession": "MBI5945432",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.673,
+                  "score": 374,
+                  "evalue": 2.98582e-43,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVAADEPELILEATRELLEAILDANNSMTPEDVGSAIFTVTEDLASTFPAQAARQMGWGLVPMMCAREIPVPGSLRRVIRVLVHWNTDVPQNQITHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE +L+AN   + E++ + IFTVTEDL S FPA+AARQ+G   VP++ ARE+PVPGSL RVIRVL  WNTD PQ+++ HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "tpg|HET9915291.1|",
+                  "accession": "HET9915291",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.288,
+                  "score": 373,
+                  "evalue": 3.51864e-43,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGAITVSADEPDLILQATCELLEAILEENKGMQPEDVASAIFTLTNDLVSAFPAQGARQMGWELVPMMCAREIPVPGSLPHVIRVLVHWNTEVSQSEIKHVYLRDAVKLRPDLVSAQ",
+                  "midline": "+RGIRGAITV++D P  I+ AT  LLE +LE N     E++A+ IFT+T DL SAFPA+ ARQ+G   VP++ ARE+PVPGSLP VIRVL  WNT+  Q  ++HVYL +AV+LRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "tpg|HJS20376.1|",
+                  "accession": "HJS20376",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.288,
+                  "score": 373,
+                  "evalue": 3.88294e-43,
+                  "identity": 75,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVPADRPDLILQATRELLEGILEENDGMQPGEVASAIFTVTDDLASSFPAQAARQMGWDLVPMLCAREIPVPSSLPRVIRVLVHWNTEVPQSEIKHVYLREAVKLRPDLVSAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE +LE N      E+A+ IFTVT+DL S+FPA+AARQ+G   VP+L ARE+PVP SLPRVIRVL  WNT+ PQ  ++HVYL EAV+LRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gb|MDP1715882.1|",
+                  "accession": "MDP1715882",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.902,
+                  "score": 372,
+                  "evalue": 5.27559e-43,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVQADELDSILEATRELLEAILEANSGMTPEDVASALFTVTEDLAATFPAQAARQMGWELVPMMCACEIPVPGSLPRVIRVLVHWNTETPQNEITHVYLRDAVSLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D   SI+ AT  LLE +LEAN   + E++A+ +FTVTEDL + FPA+AARQ+G   VP++ A E+PVPGSLPRVIRVL  WNT+TPQ+ + HVYL +AV LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "tpg|HMB23586.1|",
+                  "accession": "HMB23586",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.902,
+                  "score": 372,
+                  "evalue": 5.57238e-43,
+                  "identity": 72,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVTADQPDLILQATCELLEAILEENKELQLDDVASAIFTLTDDLVSTFPALGARQIGWGLVPMMCAREIPVPGSLPRVIRVLVHWNTEVPQSEIKHVYLHEAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE +LE N     +++A+ IFT+T+DL S FPA  ARQIG   VP++ ARE+PVPGSLPRVIRVL  WNT+ PQ  ++HVYL EAV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_345104887.1|",
+                  "accession": "WP_345104887",
+                  "title": "chorismate mutase [Candidatus Villigracilis vicinus]",
+                  "taxid": 3140679,
+                  "sciname": "Candidatus Villigracilis vicinus"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.902,
+                  "score": 372,
+                  "evalue": 5.69572e-43,
+                  "identity": 72,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVSADEPDLILQATRELLETIMKDNPGFTPEEVGSAIFTVTDDLASTFPAQAARQMGWSMVPMMCAREIPVPGSLPKAIRVLVHWNTETPQKDVKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "VRGIRGA TV++D P  I+ AT  LLE +++ N   + EE+ + IFTVT+DL S FPA+AARQ+G   VP++ ARE+PVPGSLP+ IRVL  WNT+TPQ  V+HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gb|MGC1377821.1|",
+                  "accession": "MGC1377821",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.517,
+                  "score": 371,
+                  "evalue": 6.43729e-43,
+                  "identity": 72,
+                  "positive": 89,
+                  "query_from": 2,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 119,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLES",
+                  "hseq": "MRGVRGATTVNEDQAEPMLAATQELLEAILAANPGMRTEDIASVIFTLTNDLCSAFPALAARRIGWSSVPMMCAREIPVPGSLPCCIRVLVHWNTDTPQNDIRHIYLREAVKLRPDLAS",
+                  "midline": "+RG+RGA TVN D    ++ AT  LLE +L AN     E++A+VIFT+T DL SAFPA AAR+IG   VP++ ARE+PVPGSLP  IRVL  WNTDTPQ+ +RH+YL EAV+LRPDL S"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|MBI5823287.1|",
+                  "accession": "MBI5823287",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.517,
+                  "score": 371,
+                  "evalue": 6.71206e-43,
+                  "identity": 72,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATNVTADDPDLILEATRELLEAILKANEHMRPEDVGSAFFTVTEDLAATFPAQAARQMGWSMVPMMCAREIPVPGSLPRAIRVLVHWNTETPQSEIKHVYLREAVRLRPDLVAAQ",
+                  "midline": "+RGIRGA  V +D P  I+ AT  LLE +L+AN     E++ +  FTVTEDL + FPA+AARQ+G   VP++ ARE+PVPGSLPR IRVL  WNT+TPQ  ++HVYL EAVRLRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gb|MBX3140031.1|",
+                  "accession": "MBX3140031",
+                  "title": "chorismate mutase [Trueperaceae bacterium]",
+                  "taxid": 2026798,
+                  "sciname": "Trueperaceae bacterium"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.517,
+                  "score": 371,
+                  "evalue": 8.14971e-43,
+                  "identity": 74,
+                  "positive": 86,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 10,
+                  "hit_to": 130,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVEADVPEQILSATAELLQAMLEQNAISDYEEISSVFFTTTPDLSSTFPAEGARAIGMTMVPLLCFQEIPVPGRLPRCIRVMLLLNTTKGQEEMRHVYLREARSLRPDLVSAQ",
+                  "midline": "VRGIRGA TV +D P  I+ AT  LL+ MLE N I  YEE+++V FT T DL+S FPAE AR IGM  VPLL  +E+PVPG LPR IRV+ L NT   Q+ +RHVYL EA  LRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "dbj|BAW00892.1|",
+                  "accession": "BAW00892",
+                  "title": "chorismate mutase [Thermus thermophilus]",
+                  "taxid": 274,
+                  "sciname": "Thermus thermophilus"
+                }
+              ],
+              "len": 86,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 9.53339e-43,
+                  "identity": 76,
+                  "positive": 77,
+                  "query_from": 1,
+                  "query_to": 85,
+                  "hit_from": 1,
+                  "hit_to": 85,
+                  "align_len": 85,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLP",
+                  "hseq": "MVRGIRGAITVEEDTPEAIHQATRELLLKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLP",
+                  "midline": "MVRGIRGAITV  DTP +I  AT  LL KMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLP"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "tpg|HLA07914.1|",
+                  "accession": "HLA07914",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 1.07465e-42,
+                  "identity": 72,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVTADEPELILEATRELLEAILDGNSGMKPEDVGSAIFTVTDDLASTFPAEAARRMGWSMVPMICAREIPVPGSLARVIRVLVHWNKDVPQDQITHVYLREAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE +L+ N     E++ + IFTVT+DL S FPAEAAR++G   VP++ ARE+PVPGSL RVIRVL  WN D PQD++ HVYL EAV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "tpg|HET9905293.1|",
+                  "accession": "HET9905293",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 1.173e-42,
+                  "identity": 74,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGAITVSADEPELILQATRELLEEILAENEGMKPEEVASAIFTVTDDLASTFPAQGARQMGWGLVPMLCAREIPVPNSLPRVIRVLVHWNTELPQSEITHVYLREAVKLRPDLVAAQ",
+                  "midline": "+RGIRGAITV++D P  I+ AT  LLE++L  N     EE+A+ IFTVT+DL S FPA+ ARQ+G   VP+L ARE+PVP SLPRVIRVL  WNT+ PQ  + HVYL EAV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "tpg|HEV3304001.1|",
+                  "accession": "HEV3304001",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.747,
+                  "score": 369,
+                  "evalue": 1.28034e-42,
+                  "identity": 69,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGAINVPADNPAEVLSATTELLQEIFRANDIQTFEDVASAIFTTTSDLTSAFPAEAARALGMNQVPLLCTCEIPVPNSMGRCIRILLHLNSNKPQDQMVHVYLRDAKRLRPDVSSAQ",
+                  "midline": "VRGIRGAI V +D P  ++ AT  LL+++  AN IQ++E++A+ IFT T DLTSAFPAEAAR +GM++VPLL   E+PVP S+ R IR+L   N++ PQD++ HVYL +A RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gb|PWH16599.1|",
+                  "accession": "PWH16599",
+                  "title": "MAG: chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.747,
+                  "score": 369,
+                  "evalue": 1.35236e-42,
+                  "identity": 72,
+                  "positive": 92,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGAITVEADQPELILAATRELLEAILQANAGMTPADIASAFFTVTADLSSTFPAQAAREMGWSQVPMMCAREIPVPGSLPRVIRVMVHWNTDRHQNEIVHVYLREAVRLRPDLVAAQ",
+                  "midline": "RGIRGAITV +D P  I+ AT  LLE +L+AN   +  ++A+  FTVT DL+S FPA+AAR++G  +VP++ ARE+PVPGSLPRVIRV+  WNTD  Q+ + HVYL EAVRLRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gb|MGQ9833536.1|",
+                  "accession": "MGQ9833536",
+                  "title": "chorismate mutase [Candidatus Villigracilaceae bacterium]",
+                  "taxid": 3140863,
+                  "sciname": "Candidatus Villigracilaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.747,
+                  "score": 369,
+                  "evalue": 1.36725e-42,
+                  "identity": 75,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGAITVDADQPELILAATRELLEAILAANAGLSPGEIASVFFTVTEDLRSTFPAQAARQMGWSHVPMMCAREIPVPGSLPRVIRVLVHWNTERAQHEIIHVYLREAAKLRPDLAAAQ",
+                  "midline": "RGIRGAITV++D P  I+ AT  LLE +L AN   S  E+A+V FTVTEDL S FPA+AARQ+G   VP++ ARE+PVPGSLPRVIRVL  WNT+  Q  + HVYL EA +LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gb|MDQ2693149.1|",
+                  "accession": "MDQ2693149",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.747,
+                  "score": 369,
+                  "evalue": 1.44416e-42,
+                  "identity": 73,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVLADQPDLILQATRELLEAILDANFKMEPADVASAIFTVTDDLCSTFPAQAARQMGWEMVPMLCAREIPVPESLPRVIRVLVHWNTDIPQPEIKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE +L+AN      ++A+ IFTVT+DL S FPA+AARQ+G   VP+L ARE+PVP SLPRVIRVL  WNTD PQ  ++HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|MEM7734346.1|",
+                  "accession": "MEM7734346",
+                  "title": "chorismate mutase [Deinococcota bacterium]",
+                  "taxid": 1913990,
+                  "sciname": "Deinococcota bacterium"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 1.51255e-42,
+                  "identity": 71,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 18,
+                  "hit_to": 138,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "LRGIRGAITVTQDTPEDILAATEELLTAMLNANGITDFEPIASIFFTTTPDLSSTFPAEAARRLGMQTVPLMCNQEIPVPNRLPKAIRVMLQVNTTKPQAAIKHIYLREAVRLRPDLVSAQ",
+                  "midline": "+RGIRGAITV  DTP  I+ AT  LL  ML ANGI  +E +A++ FT T DL+S FPAEAAR++GM  VPL+  +E+PVP  LP+ IRV+   NT  PQ  ++H+YL EAVRLRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gb|MEO8354628.1|",
+                  "accession": "MEO8354628",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.747,
+                  "score": 369,
+                  "evalue": 1.66499e-42,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVAGDQPESILEATRELLEAILDANESMKPEDVGSALFTVTDDLASTFPAQAAREMGWGLVPMLCAREIPVPGSLPMVIRVLVQWNTEIPQNEITHVYLRDAVKLRPDLVAAQ",
+                  "midline": "VRGIRGA TV  D P SI+ AT  LLE +L+AN     E++ + +FTVT+DL S FPA+AAR++G   VP+L ARE+PVPGSLP VIRVL  WNT+ PQ+ + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|MDO9302110.1|",
+                  "accession": "MDO9302110",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 1.77484e-42,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 20,
+                  "hit_to": 140,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVSADDPELILEATRELLEAILEANESMTPEDVGSALFTVTEDLASTFPAQAARQMGWGLVPMMCAREIPVPGSLRKVIRVLVHWNTEMPQNEITHVYLREAVKLRPDLVAAQ",
+                  "midline": "VRGIRGA TV++D P  I+ AT  LLE +LEAN   + E++ + +FTVTEDL S FPA+AARQ+G   VP++ ARE+PVPGSL +VIRVL  WNT+ PQ+ + HVYL EAV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "dbj|GAB4454309.1|",
+                  "accession": "GAB4454309",
+                  "title": "MAG: chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 1.85758e-42,
+                  "identity": 73,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVPADEPELILAATRELLEEILTENETMRPEDIASAVFTVTEDLASAFPAQAARQMGWDLVPMLCAREIPVPNSLPRVIRVLVHWNTDISQNKITHVYLRDAVQLRPDLLAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE++L  N     E++A+ +FTVTEDL SAFPA+AARQ+G   VP+L ARE+PVP SLPRVIRVL  WNTD  Q+++ HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gb|MGH7199400.1|",
+                  "accession": "MGH7199400",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 1.89869e-42,
+                  "identity": 70,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATSVRADEPELILSATRELLEAVLRANAIEQFDDIVSAVFTTTGDLTSTFPAEAARRLGMNQVPLLCACEIPVPGSLPRCIRVLLHVNSDKRQDEITHVYLHDAKKLRPDMESAQ",
+                  "midline": "+RGIRGA +V +D P  I+ AT  LLE +L AN I+ ++++ + +FT T DLTS FPAEAAR++GM++VPLL A E+PVPGSLPR IRVL   N+D  QD + HVYL +A +LRPD+ESAQ"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gb|MCK6581750.1|",
+                  "accession": "MCK6581750",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 1.94071e-42,
+                  "identity": 72,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGAITVPADDPDLILEATREVLEAILSANESMRPEDVGSAIFTVTEDLNSTFPAQAAREMGWGLVPMICAREIPVPASLPRVIRVLVHWNTEVPQDKIAHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGAITV +D P  I+ AT  +LE +L AN     E++ + IFTVTEDL S FPA+AAR++G   VP++ ARE+PVP SLPRVIRVL  WNT+ PQD++ HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gb|NCT19552.1|",
+                  "accession": "NCT19552",
+                  "title": "chorismate mutase [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 1.98366e-42,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATSVHADQPDLILAATRELLEAILAANPAMRPEDVASALFTVTADLVSTFPPQAARQMGWGLVPMMCAREIPVPNSLPRVIRVLVHWNTDIPQDKIVHVYLREAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA +V++D P  I+ AT  LLE +L AN     E++A+ +FTVT DL S FP +AARQ+G   VP++ ARE+PVP SLPRVIRVL  WNTD PQD++ HVYL EAV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gb|MGE3316089.1|",
+                  "accession": "MGE3316089",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 2.1183e-42,
+                  "identity": 69,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATSVEADVPAEILAATRELLQEILRLNGIDGFDEIASAIFTTTADLTSVFPAEAARALGMSQVPLLCASEIPIAGSMPRCVRVLLHLNTEKPQKEIVHVYLREAKKLRPDVKSAQ",
+                  "midline": "VRGIRGA +V +D P  I+ AT  LL+++L  NGI  ++E+A+ IFT T DLTS FPAEAAR +GM +VPLL A E+P+ GS+PR +RVL   NT+ PQ  + HVYL EA +LRPD++SAQ"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gb|MGQ9457035.1|",
+                  "accession": "MGQ9457035",
+                  "title": "chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 2.30928e-42,
+                  "identity": 74,
+                  "positive": 89,
+                  "query_from": 2,
+                  "query_to": 118,
+                  "hit_from": 3,
+                  "hit_to": 118,
+                  "align_len": 117,
+                  "gaps": 1,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDL",
+                  "hseq": "CRGVRGATTVEANEREAILAATRELLEAMAEANGIQPGD-LAAVLFTCTPDLTAAFPAEAARNLGWTHVPLLDAQEIPVPGALPRCIRVLALWNTERPPEEVRHIYLCEARSLRPDL",
+                  "midline": " RG+RGA TV ++   +I+ AT  LLE M EANGIQ  + LAAV+FT T DLT+AFPAEAAR +G   VPLL A+E+PVPG+LPR IRVLALWNT+ P + VRH+YL EA  LRPDL"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gb|MFN0195155.1|",
+                  "accession": "MFN0195155",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 2.41563e-42,
+                  "identity": 72,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGAITVTVDEPAEILAATRELLEELLRANQITHFEDIVSAIFTTTSDLTSTFPAEAARLLGMKQVPLLCACEIPVPGSMPRCIRVLLHVNSEKPQAEIVHVYLRDAKKLRPDVQSAQ",
+                  "midline": "VRGIRGAITV  D P  I+ AT  LLE++L AN I  +E++ + IFT T DLTS FPAEAAR +GM +VPLL A E+PVPGS+PR IRVL   N++ PQ  + HVYL +A +LRPD++SAQ"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "tpg|HNC91573.1|",
+                  "accession": "HNC91573",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 2.41563e-42,
+                  "identity": 70,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVAEDEPELILQATRELLEAVIKENAGMKPEDVGSAIFTVTDDLASTFPAQAARQMGWSMVPMMCAREIPVPGSLPRAIRVLVHWNTETPQKDIKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV  D P  I+ AT  LLE +++ N     E++ + IFTVT+DL S FPA+AARQ+G   VP++ ARE+PVPGSLPR IRVL  WNT+TPQ  ++HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "tpg|HEX6271100.1|",
+                  "accession": "HEX6271100",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 2.55151e-42,
+                  "identity": 73,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGAITVTADQPDLILQATRELLEAILDANLGMELEDVASVLFTVTDDLASTFPAQGAREMGWGLVPMLCAREIPVPGSLPRVIRVLVHWNTELSQSAITHVYLREAVKLRPDLVAAQ",
+                  "midline": "+RGIRGAITV +D P  I+ AT  LLE +L+AN     E++A+V+FTVT+DL S FPA+ AR++G   VP+L ARE+PVPGSLPRVIRVL  WNT+  Q  + HVYL EAV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "tpg|HAB10739.1|",
+                  "accession": "HAB10739",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 2.84081e-42,
+                  "identity": 71,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 124,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVAADETEQVLSATGELLEAILESNGLADFDEIVSAIFTTTSDLNSTFPAEAARALGMHQVPLLCASEIPVPGSMPRCIRVLLHVNTSKPQSEIVHVYLRDAQRLRPDVMSAQ",
+                  "midline": "VRGIRGA TV +D    ++ AT  LLE +LE+NG+  ++E+ + IFT T DL S FPAEAAR +GMH+VPLL A E+PVPGS+PR IRVL   NT  PQ  + HVYL +A RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "gb|MEX0716655.1|",
+                  "accession": "MEX0716655",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 2.87795e-42,
+                  "identity": 70,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATCVEADEPAEVLAATRELLEEILRANGIEDFSEIVSAIFTTTSDLTSTFPAEAARRLGMNQVPLLCACEIPVPGAMPRCIRVLLHVDTQRAQGEITHVYLREAKRLRPDVDSAQ",
+                  "midline": "VRGIRGA  V +D P  ++ AT  LLE++L ANGI+ + E+ + IFT T DLTS FPAEAAR++GM++VPLL A E+PVPG++PR IRVL   +T   Q  + HVYL EA RLRPD++SAQ"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gb|MGE5462970.1|",
+                  "accession": "MGE5462970",
+                  "title": "chorismate mutase [Syntrophothermus sp.]",
+                  "taxid": 2736299,
+                  "sciname": "Syntrophothermus sp."
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 2.87795e-42,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVTADEPALILQATRELLEEILEANRGMRPEDVASALFTVTDDLISTFPAQAARQMGWGLVPMMCAREIPVPGSLPRVIRVLVHWNTELQQNEITHVYLRDAVRLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE++LEAN     E++A+ +FTVT+DL S FPA+AARQ+G   VP++ ARE+PVPGSLPRVIRVL  WNT+  Q+ + HVYL +AVRLRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gb|MCX7976174.1|",
+                  "accession": "MCX7976174",
+                  "title": "chorismate mutase [Bellilinea sp.]",
+                  "taxid": 2838785,
+                  "sciname": "Bellilinea sp."
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 2.94768e-42,
+                  "identity": 73,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 118,
+                  "hit_from": 2,
+                  "hit_to": 119,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDL",
+                  "hseq": "VVRGIRGAITVESDQPEAVLAAARRLLEEIGEANPAFQPADAASVFFTVTPDLTSAFPAQAARQLGWRDVPLMCAQEIPVPGAPPRCIRVLIHWNCDLPQSAVRHVYLGEAARLRPDL",
+                  "midline": "+VRGIRGAITV SD P +++ A   LLE++ EAN      + A+V FTVT DLTSAFPA+AARQ+G   VPL+ A+E+PVPG+ PR IRVL  WN D PQ  VRHVYL EA RLRPDL"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|MEJ5224027.1|",
+                  "accession": "MEJ5224027",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 3.39144e-42,
+                  "identity": 75,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "MRGIRGAITVTEDQPDLILTATRELLESILLANPGMRPEDIASIIFTVTADLSSTFPAQAAREMGWSQVPMLCAREIPVPGSLPRVIRVLVHWNTERLQHEITHVYLREAVRLRPDLVAAQ",
+                  "midline": "+RGIRGAITV  D P  I+ AT  LLE +L AN     E++A++IFTVT DL+S FPA+AAR++G  +VP+L ARE+PVPGSLPRVIRVL  WNT+  Q  + HVYL EAVRLRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|RPJ21606.1|",
+                  "accession": "RPJ21606",
+                  "title": "MAG: chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 4.22133e-42,
+                  "identity": 71,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVSADDPDAILQATREVLEAILDENEGMHPEDVASAIFTVTDDLVSTFPAQAARQMGWGLVPMMCAREIPVPGSLPHVIRVLVHWNTEIPQSEVKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV++D P +I+ AT  +LE +L+ N     E++A+ IFTVT+DL S FPA+AARQ+G   VP++ ARE+PVPGSLP VIRVL  WNT+ PQ  V+HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gb|MCD6520441.1|",
+                  "accession": "MCD6520441",
+                  "title": "chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 4.28818e-42,
+                  "identity": 75,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 118,
+                  "hit_from": 3,
+                  "hit_to": 118,
+                  "align_len": 117,
+                  "gaps": 1,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDL",
+                  "hseq": "VRGVRGATTVARDDAQSILQATKALLEELVARNGIHP-EELAAAIFTTTEDLSAEFPAKAARLLGWRHVPLLDAREIPVPGSLPRCIRVLLLWNTETPQEEIIHVYQGEAQRLRPDL",
+                  "midline": "VRG+RGA TV  D   SI+ AT  LLE+++  NGI   EELAA IFT TEDL++ FPA+AAR +G   VPLL ARE+PVPGSLPR IRVL LWNT+TPQ+ + HVY  EA RLRPDL"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|MBW3543038.1|",
+                  "accession": "MBW3543038",
+                  "title": "chorismate mutase [Planctomycetota bacterium]",
+                  "taxid": 2026780,
+                  "sciname": "Planctomycetota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 4.41024e-42,
+                  "identity": 70,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVDADQPEQILAATRELLEEILRANGIAEFDDIVSAIFTTTSDLSSTFPAEAARRLGMNQVPLLCSCEIPVPGSMPRCIRVLLHVNTERTQREMTHVYLREAKKLRPDVSSAQ",
+                  "midline": "VRGIRGA TV++D P  I+ AT  LLE++L ANGI  ++++ + IFT T DL+S FPAEAAR++GM++VPLL + E+PVPGS+PR IRVL   NT+  Q  + HVYL EA +LRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|WKZ41369.1|",
+                  "accession": "WKZ41369",
+                  "title": "MAG: chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 4.6076e-42,
+                  "identity": 74,
+                  "positive": 89,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVPADEPDLILQATRELLEAILAENDDMRPEDIASAVFTVTDDLASTFPAQAARQMGWGLVPMLCAREIPVPDSLPRVVRVLVHWNTDMPQSDVTHVYLRDAVRLRPDLISAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE +L  N     E++A+ +FTVT+DL S FPA+AARQ+G   VP+L ARE+PVP SLPRV+RVL  WNTD PQ  V HVYL +AVRLRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gb|MCH7686186.1|",
+                  "accession": "MCH7686186",
+                  "title": "chorismate mutase [Planctomycetota bacterium]",
+                  "taxid": 2026780,
+                  "sciname": "Planctomycetota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 4.7614e-42,
+                  "identity": 71,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATSVADDSPTLVVAATRELLEAIFQANEITDFDEIASVVFTTTSDLTSTFPAEAARELGMNRVPLLCASEIPVSDSLPRCIRILLHVNTEKRQREMVHVYLQEAKRLRPDMNSAQ",
+                  "midline": "VRGIRGA +V  D+PT ++ AT  LLE + +AN I  ++E+A+V+FT T DLTS FPAEAAR++GM+RVPLL A E+PV  SLPR IR+L   NT+  Q  + HVYL EA RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_345343432.1|",
+                  "accession": "WP_345343432",
+                  "title": "chorismate mutase [Candidatus Villigracilis affinis]",
+                  "taxid": 3140682,
+                  "sciname": "Candidatus Villigracilis affinis"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 4.86677e-42,
+                  "identity": 70,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGATTVAEDEPDLILQATRELLEAIMKENAGFTPEDVGSAIFTVTEDLAATFPAQAARQMGWSMVPMMCAREIPVPGSLPKAIRVLVHWNTETPQSEIKHVYLRDAVRLRPDLVAAQ",
+                  "midline": "RGIRGA TV  D P  I+ AT  LLE +++ N   + E++ + IFTVTEDL + FPA+AARQ+G   VP++ ARE+PVPGSLP+ IRVL  WNT+TPQ  ++HVYL +AVRLRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|WP_144994711.1|",
+                  "accession": "WP_144994711",
+                  "title": "chorismate mutase [Polystyrenella longa]",
+                  "taxid": 2528007,
+                  "sciname": "Polystyrenella longa"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.206,
+                  "score": 365,
+                  "evalue": 5.14052e-42,
+                  "identity": 72,
+                  "positive": 89,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATSVETDSSEEILAATSELLQAILQANGIDSLEEISSAFFTTTSDLTSAFPAEAARKLGWSQVPLLCATEIPVPGGLPRGIRILLHLNTDKTQAEMEHVYLREAKRLRPDIHSAQ",
+                  "midline": "VRGIRGA +V +D+   I+ AT  LL+ +L+ANGI S EE+++  FT T DLTSAFPAEAAR++G  +VPLL A E+PVPG LPR IR+L   NTD  Q  + HVYL EA RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "gb|MBI5351215.1|",
+                  "accession": "MBI5351215",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.206,
+                  "score": 365,
+                  "evalue": 5.25428e-42,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVSADEPDLILEATRELLESILDANETMQPEDIASAIFTVTTDLASTFPAQAARQMGWGLVPMLCSREIPVPDSLPRVIRVLVHWNTDVKQNEITHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV++D P  I+ AT  LLE +L+AN     E++A+ IFTVT DL S FPA+AARQ+G   VP+L +RE+PVP SLPRVIRVL  WNTD  Q+ + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gb|MCC6300486.1|",
+                  "accession": "MCC6300486",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.206,
+                  "score": 365,
+                  "evalue": 6.61194e-42,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGAITVAADEPDLILEATRELLEAMLESNEGMSPADIASALFTVTDDLASTFPAQGAREMGWGLVPMVCAREIPVPNSLPRVIRVLIHWNTEMPQDEINHVYLRDAVKLRPDLIAAQ",
+                  "midline": "RGIRGAITV +D P  I+ AT  LLE MLE+N   S  ++A+ +FTVT+DL S FPA+ AR++G   VP++ ARE+PVP SLPRVIRVL  WNT+ PQD + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gb|MCL7452714.1|",
+                  "accession": "MCL7452714",
+                  "title": "chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.206,
+                  "score": 365,
+                  "evalue": 6.81843e-42,
+                  "identity": 73,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 118,
+                  "hit_from": 3,
+                  "hit_to": 118,
+                  "align_len": 117,
+                  "gaps": 1,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDL",
+                  "hseq": "CRGIRGATTVESDSAGAILSATRELLARMVEANQVQ-IEDIASAIFTVTPDLKAAFPARAARELGWQHVPLLDAQEVPVPGSLPRCIRVLLHWNSDLPQEQVQHVYLHEAASLRPDL",
+                  "midline": " RGIRGA TV SD+  +I+ AT  LL +M+EAN +Q  E++A+ IFTVT DL +AFPA AAR++G   VPLL A+EVPVPGSLPR IRVL  WN+D PQ++V+HVYL EA  LRPDL"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "emb|CAG0952098.1|",
+                  "accession": "CAG0952098",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 7.96399e-42,
+                  "identity": 71,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGATTVAADEPNLILQATRELLEAILKENEGMKPEDVGSAIFTVTEDLASTFPAQAARQMGWSMVPMMCAREIPVPGSLRKVIRVLVHWNTDVPQSEIKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "RGIRGA TV +D P  I+ AT  LLE +L+ N     E++ + IFTVTEDL S FPA+AARQ+G   VP++ ARE+PVPGSL +VIRVL  WNTD PQ  ++HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gb|NOX56559.1|",
+                  "accession": "NOX56559",
+                  "title": "chorismate mutase [Planctomycetota bacterium]",
+                  "taxid": 2026780,
+                  "sciname": "Planctomycetota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 8.41194e-42,
+                  "identity": 70,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATSVGRDTPEEILEATRELLQELLRANEITDFGDIVSVIFTTTQDLCSTFPAEAARDVGMHQVPLLCASEIPVPESMPRCIRVLVHVNTDKKQSEMNHVYLRDARKLRPDMNSAQ",
+                  "midline": "VRGIRGA +V  DTP  I+ AT  LL+++L AN I  + ++ +VIFT T+DL S FPAEAAR +GMH+VPLL A E+PVP S+PR IRVL   NTD  Q  + HVYL +A +LRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gb|MBI3151466.1|",
+                  "accession": "MBI3151466",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 8.78836e-42,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVAADQADLILEATRELLEAILDANIHMQQEDVGSAFFTVTEDLTSTFPAQAARQMGWSMVPMMCAREIPVPGSLRKVIRVLVHWNTETPQSDIKHVYLRDAVRLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D    I+ AT  LLE +L+AN     E++ +  FTVTEDLTS FPA+AARQ+G   VP++ ARE+PVPGSL +VIRVL  WNT+TPQ  ++HVYL +AVRLRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gb|MBM4427150.1|",
+                  "accession": "MBM4427150",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 8.88507e-42,
+                  "identity": 73,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGATTVSADDPDLILQSTRELLEAILAENEDMRPEDIASAIFTVTEDLAATFPAQAARQMGWGLVPMMCAREIPVPGSLPGAIRVLVHWNTELPQNRITHVYLREAVRLRPDLVSAQ",
+                  "midline": "RGIRGA TV++D P  I+ +T  LLE +L  N     E++A+ IFTVTEDL + FPA+AARQ+G   VP++ ARE+PVPGSLP  IRVL  WNT+ PQ+R+ HVYL EAVRLRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "tpg|HNQ99352.1|",
+                  "accession": "HNQ99352",
+                  "title": "chorismate mutase [Trueperaceae bacterium]",
+                  "taxid": 2026798,
+                  "sciname": "Trueperaceae bacterium"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 1.15104e-41,
+                  "identity": 72,
+                  "positive": 85,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 10,
+                  "hit_to": 130,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVEADVPEQILSATRELLEEMLAQNGISEYSEISSVFFTTTPDLSSTFPAEGARALGMTMVPLLCFQEIPVPNRLPRCVRVMLLLNTTKAQDEMRHVYLREARSLRPDLVSAQ",
+                  "midline": "VRGIRGA TV +D P  I+ AT  LLE+ML  NGI  Y E+++V FT T DL+S FPAE AR +GM  VPLL  +E+PVP  LPR +RV+ L NT   QD +RHVYL EA  LRPDL SAQ"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "tpg|HUG90232.1|",
+                  "accession": "HUG90232",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 1.46992e-41,
+                  "identity": 70,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVDADQPEQILSATQELLEEILRANGIAEFDEIVSAIFTTTQDLRSTFPAEAARRLGMNQVPLLCSCEIAVPGSMPRCVRVLLHVNTERTQQEMVHVYLREARRLRPDVKSAQ",
+                  "midline": "VRGIRGA TV++D P  I+ AT  LLE++L ANGI  ++E+ + IFT T+DL S FPAEAAR++GM++VPLL + E+ VPGS+PR +RVL   NT+  Q  + HVYL EA RLRPD++SAQ"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|NWF64595.1|",
+                  "accession": "NWF64595",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 1.73215e-41,
+                  "identity": 69,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGAITVTEDDADLILQATRELLEAIVKENADMKPDDVGSAIFTVTDDLAATFPAQAARQMGWSMVPMMCAREIPVPGSLPRVIRVLVHWNTETPQKDIKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "RGIRGAITV  D    I+ AT  LLE +++ N     +++ + IFTVT+DL + FPA+AARQ+G   VP++ ARE+PVPGSLPRVIRVL  WNT+TPQ  ++HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "tpg|HMR99602.1|",
+                  "accession": "HMR99602",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 1.82958e-41,
+                  "identity": 72,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGVRGAITVAADEPDLILEATRELLEAILESNEGMYPEDIASALFTVTDDLASTFPAEGARQIGWGLVPMLCAREIPVPNSLPKVIRVLIQWNTETAQNEIVHVYLRDAVKLRPDLVAAQ",
+                  "midline": "RG+RGAITV +D P  I+ AT  LLE +LE+N     E++A+ +FTVT+DL S FPAE ARQIG   VP+L ARE+PVP SLP+VIRVL  WNT+T Q+ + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "tpg|HAV76077.1|",
+                  "accession": "HAV76077",
+                  "title": "chorismate mutase [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 1.84971e-41,
+                  "identity": 71,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVPADDPELILQATRELLESILDANESMRPEDVASALFTVTDDLASTFPAQGARQMGWGLVPMLCAREIPVPNSLPRVIRVLVHWNTEVPQNEITHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV +D P  I+ AT  LLE +L+AN     E++A+ +FTVT+DL S FPA+ ARQ+G   VP+L ARE+PVP SLPRVIRVL  WNT+ PQ+ + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gb|MCS7010135.1|",
+                  "accession": "MCS7010135",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 1.9891e-41,
+                  "identity": 73,
+                  "positive": 89,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGAITVDTDQAEEILAATSELLHAMLESNPGLRPDDIAAAWFTVTEDLTSAFPPQAAREMGWTLVPMLSAREIPVPGSLPRCVRILLLWNTDLPPEAVHHVYLREAASLRPDWQLRQ",
+                  "midline": "VRGIRGAITV++D    I+ AT  LL  MLE+N     +++AA  FTVTEDLTSAFP +AAR++G   VP+LSARE+PVPGSLPR +R+L LWNTD P + V HVYL EA  LRPD +  Q"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gb|MDA0587395.1|",
+                  "accession": "MDA0587395",
+                  "title": "chorismate mutase [Planctomycetota bacterium]",
+                  "taxid": 2026780,
+                  "sciname": "Planctomycetota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 2.10929e-41,
+                  "identity": 70,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGVRGATTVENDSPEEIHEATRELLQSILAQNTIESFEEIGSIIFTTTPDLTSTFPAEAARGIGMSQVPLLCASEIAVEGKMPRCIRVMLHWNTEKPQAEIVHVYLREAKKLRPDVASAQ",
+                  "midline": "VRG+RGA TV +D+P  I  AT  LL+ +L  N I+S+EE+ ++IFT T DLTS FPAEAAR IGM +VPLL A E+ V G +PR IRV+  WNT+ PQ  + HVYL EA +LRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gb|MBM3180909.1|",
+                  "accession": "MBM3180909",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 2.22792e-41,
+                  "identity": 70,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTISADEPELILEATRELLEAILDANESMKPEDVGSALFTVTDDLTSTFPAEAARQMGWGLVPLMCTMEIPVPNSLPRVIRVLVHWNTEMPQNEITHVYLRDAVKLRPDLVTAQ",
+                  "midline": "+RGIRGA T+++D P  I+ AT  LLE +L+AN     E++ + +FTVT+DLTS FPAEAARQ+G   VPL+   E+PVP SLPRVIRVL  WNT+ PQ+ + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_061913195.1|",
+                  "accession": "WP_061913195",
+                  "title": "chorismate mutase [Bellilinea caldifistulae]",
+                  "taxid": 360411,
+                  "sciname": "Bellilinea caldifistulae"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 2.54602e-41,
+                  "identity": 70,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 118,
+                  "hit_from": 2,
+                  "hit_to": 119,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "MVRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDL",
+                  "hseq": "VVRGIRGAVTVENDQPEAVLAATRRLLQAIQQANPGFEPAEAASMVFTVTPDLTSAFPAEAARQLGWTEVPMMCAQEIPVPDALPRCIRVLIHWNCDLPQSAVRHVYLGEAARLRPDL",
+                  "midline": "+VRGIRGA+TV +D P +++ AT  LL+ + +AN      E A+++FTVT DLTSAFPAEAARQ+G   VP++ A+E+PVP +LPR IRVL  WN D PQ  VRHVYL EA RLRPDL"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "tpg|HLE92783.1|",
+                  "accession": "HLE92783",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 2.56853e-41,
+                  "identity": 74,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVASDQPDLILQATRELLEAILEANFEMKPEDIASVLFTVTDDLDSTFPAQGARQMGWGLVPMLCAREIPVPDSLPRVIRVLLHWNTDFRQSGITHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV SD P  I+ AT  LLE +LEAN     E++A+V+FTVT+DL S FPA+ ARQ+G   VP+L ARE+PVP SLPRVIRVL  WNTD  Q  + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "gb|MFM8370111.1|",
+                  "accession": "MFM8370111",
+                  "title": "chorismate mutase [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 2.80353e-41,
+                  "identity": 69,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 122,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "RGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "RGIRGATTVAEDEAETILQATRELLEAIVKENASMRPEDIGSAIFTVTEDLAATFPAQAARQMGWSMVPMMCAREIPVPGALPKVIRVLVHWNTDTPQGEIKHVYLRGAVKLRPDLVAAQ",
+                  "midline": "RGIRGA TV  D   +I+ AT  LLE +++ N     E++ + IFTVTEDL + FPA+AARQ+G   VP++ ARE+PVPG+LP+VIRVL  WNTDTPQ  ++HVYL  AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|MFO1005842.1|",
+                  "accession": "MFO1005842",
+                  "title": "chorismate mutase [Planctomycetaceae bacterium]",
+                  "taxid": 2026779,
+                  "sciname": "Planctomycetaceae bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.28,
+                  "score": 360,
+                  "evalue": 3.85061e-41,
+                  "identity": 70,
+                  "positive": 86,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVEQNVAADILAATRELLQELLSANGLTSYEEIVSAIFTTTTDLNAVFPAEAARSQGMSQVPLLCASEIAVPNSMPRCIRILLHVNTDQPQSAMKHVYLREAKRLRPDMVSAQ",
+                  "midline": "VRGIRGA TV  +    I+ AT  LL+++L ANG+ SYEE+ + IFT T DL + FPAEAAR  GM +VPLL A E+ VP S+PR IR+L   NTD PQ  ++HVYL EA RLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gb|MFN8399370.1|",
+                  "accession": "MFN8399370",
+                  "title": "chorismate mutase [Anaerolineales bacterium]",
+                  "taxid": 2073117,
+                  "sciname": "Anaerolineales bacterium"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 4.11191e-41,
+                  "identity": 71,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVAENETEIILQATRELLEAIMKENPGFKPEDVGSAIFTVTEDLTATFPAQAARQMGWSMVPMMCAREIPVPGSLPKAIRVLVHWNTDTPQAEVKHVYLRDAVKLRPDLVAAQ",
+                  "midline": "VRGIRGA TV  +    I+ AT  LLE +++ N     E++ + IFTVTEDLT+ FPA+AARQ+G   VP++ ARE+PVPGSLP+ IRVL  WNTDTPQ  V+HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "tpg|HKI57073.1|",
+                  "accession": "HKI57073",
+                  "title": "chorismate mutase [Trueperaceae bacterium]",
+                  "taxid": 2026798,
+                  "sciname": "Trueperaceae bacterium"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 4.96388e-41,
+                  "identity": 71,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 7,
+                  "hit_to": 127,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "VRGIRGATTVEADEPGHILEATRELLEVMLEENGIDDFDVIASIFFTTTQDLRSTFPAEAARALGMTMVPLLCNQEIPVPGRLPRCVRVMMQVNTRKTQEEMRHIYLREAVRLRPDIVSAQ",
+                  "midline": "VRGIRGA TV +D P  I+ AT  LLE MLE NGI  ++ +A++ FT T+DL S FPAEAAR +GM  VPLL  +E+PVPG LPR +RV+   NT   Q+ +RH+YL EAVRLRPD+ SAQ"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_345306363.1|",
+                  "accession": "WP_345306363",
+                  "title": "chorismate mutase [Candidatus Villigracilis saccharophilus]",
+                  "taxid": 3140684,
+                  "sciname": "Candidatus Villigracilis saccharophilus"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 5.17422e-41,
+                  "identity": 70,
+                  "positive": 91,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "IRGIRGATTVSADEPELILEATRELLEAILNANAGMSPEDVGSALFTVTDDLASTFPAQAARQMGWSLVPMTCAREIPVPGSLPKVIRVLVHWNTEKRQNEITHVYLRDAVKLRPDLVAAQ",
+                  "midline": "+RGIRGA TV++D P  I+ AT  LLE +L AN   S E++ + +FTVT+DL S FPA+AARQ+G   VP+  ARE+PVPGSLP+VIRVL  WNT+  Q+ + HVYL +AV+LRPDL +AQ"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gb|MDR9391204.1|",
+                  "accession": "MDR9391204",
+                  "title": "chorismate mutase [Trueperaceae bacterium]",
+                  "taxid": 2026798,
+                  "sciname": "Trueperaceae bacterium"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 5.32373e-41,
+                  "identity": 70,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 5,
+                  "hit_to": 125,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "VRGIRGAITVNSDTPTSIIIATILLLEKMLEANGIQSYEELAAVIFTVTEDLTSAFPAEAARQIGMHRVPLLSAREVPVPGSLPRVIRVLALWNTDTPQDRVRHVYLSEAVRLRPDLESAQ",
+                  "hseq": "LRGVRGAITVDEDTPDAILEATRELLRAMLDANGVDDHEAIAAIFFTTTPDLTATFPAEAARDLGMDMVPLICNTEIPVPNRLPRVVRVMLQLNTRKGQREIRHVYLRDAQRLRPDLTSAQ",
+                  "midline": "+RG+RGAITV+ DTP +I+ AT  LL  ML+ANG+  +E +AA+ FT T DLT+ FPAEAAR +GM  VPL+   E+PVP  LPRV+RV+   NT   Q  +RHVYL +A RLRPDL SAQ"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368673",
+          "query_title": "8bl9_A",
+          "query_len": 148,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8BL9|A",
+                  "accession": "8BL9_A",
+                  "title": "Chain A, Sam0.7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 306.99,
+                  "score": 785,
+                  "evalue": 2.59095e-105,
+                  "identity": 148,
+                  "positive": 148,
+                  "query_from": 1,
+                  "query_to": 148,
+                  "hit_from": 1,
+                  "hit_to": 148,
+                  "align_len": 148,
+                  "gaps": 0,
+                  "qseq": "MGSSHHHHHHSSGLVPRGSMLPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVREP",
+                  "hseq": "MGSSHHHHHHSSGLVPRGSMLPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVREP",
+                  "midline": "MGSSHHHHHHSSGLVPRGSMLPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVREP"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_258579067.1|",
+                  "accession": "WP_258579067",
+                  "title": "steroid Delta-isomerase [Pseudomonas wadenswilerensis]",
+                  "taxid": 1785161,
+                  "sciname": "Pseudomonas wadenswilerensis"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 214.542,
+                  "score": 545,
+                  "evalue": 5.73637e-69,
+                  "identity": 105,
+                  "positive": 111,
+                  "query_from": 21,
+                  "query_to": 148,
+                  "hit_from": 3,
+                  "hit_to": 130,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVREP",
+                  "hseq": "LPTAQEVQGLMARYIELVDAGDIEAIVQMYADDATVEDPFGQPPIHGREQIAAFYRQGLGGGKVRACLTGPVRASHNGCGAMPFRVEMVWNGQPCALDVIDVMRFDEHGRIQTMQAYWSEVNLSVREP",
+                  "midline": "LPTA+EVQ LMARYIEL+D GDIEAIVQMYADDATVE PFG PPIHGRE+IA FYR+ LGGG  RA LTGPVRASHNG GAMPFRVE V+NGQP A+DV   MRFDEHGRIQTMQAYW  VNLSVREP"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|4PEJ|A",
+                  "accession": "4PEJ_A",
+                  "title": "Chain A, Retro-aldolase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 204.912,
+                  "score": 520,
+                  "evalue": 5.59089e-65,
+                  "identity": 99,
+                  "positive": 111,
+                  "query_from": 21,
+                  "query_to": 148,
+                  "hit_from": 3,
+                  "hit_to": 130,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVREP",
+                  "hseq": "LPTAQEVQGLMARFIELVDVGDIEAIVQMYADDATVESPFGQPPIHGREQIAAHYRQWLGGGKFRVSLTGPVRASHNGSGAMPLRKEWVWNGQPSALDVILVMRFDEHGRIQTEQRYWSEVNLSVREP",
+                  "midline": "LPTA+EVQ LMAR+IEL+DVGDIEAIVQMYADDATVE+PFG PPIHGRE+IA  YR+ LGGG  R +LTGPVRASHNG+GAMP R E+V+NGQP A+DV + MRFDEHGRIQT Q YW  VNLSVREP"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_431743971.1|",
+                  "accession": "WP_431743971",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp.]",
+                  "taxid": 306,
+                  "sciname": "Pseudomonas sp."
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 189.504,
+                  "score": 480,
+                  "evalue": 4.32355e-59,
+                  "identity": 92,
+                  "positive": 102,
+                  "query_from": 22,
+                  "query_to": 148,
+                  "hit_from": 4,
+                  "hit_to": 130,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "PTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVREP",
+                  "hseq": "PTAQEVQVLMARYVERVDAGDIEAIVQMYADDATVEDPFGQPPIRGREQIAAFYRQGLGASKVNARLTGPVRASHNGCGAMPFRVEMIWNGQPCALDVIDVMSFDEQGRIRTMQAYWSEVNLSVQAP",
+                  "midline": "PTA+EVQ LMARY+E +D GDIEAIVQMYADDATVE PFG PPI GRE+IA FYR+ LG     A LTGPVRASHNG GAMPFRVE ++NGQP A+DV   M FDE GRI+TMQAYW  VNLSV+ P"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_230381095.1|",
+                  "accession": "WP_230381095",
+                  "title": "steroid Delta-isomerase [Pseudomonas guariconensis]",
+                  "taxid": 1288410,
+                  "sciname": "Pseudomonas guariconensis"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 6.08228e-42,
+                  "identity": 69,
+                  "positive": 91,
+                  "query_from": 21,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 128,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "LPTPQQVQAIMQRYVELVDAGDIDGILRLYAEDAVVEDPVGQAPLQGLDRIAEFYRQGLGQMKVSARLTGPVRATHNGCGAMPFRVDMQWDGRDCSLDVIDVMTFDERGLISSMKAYWSEVNLSTR",
+                  "midline": "LPT ++VQ +M RY+EL+D GDI+ I+++YA+DA VE P G  P+ G +RIA FYR+ LG     A LTGPVRA+HNG GAMPFRV+  ++G+  ++DV   M FDE G I +M+AYW  VNLS R"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_182818661.1|",
+                  "accession": "WP_182818661",
+                  "title": "MULTISPECIES: steroid Delta-isomerase [Pseudomonas]",
+                  "taxid": 286,
+                  "sciname": "Pseudomonas"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 1.05457e-40,
+                  "identity": 67,
+                  "positive": 90,
+                  "query_from": 21,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 128,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "LPTPEQVQASMQRYVELVDAGDIDGILALYAEDATVEDPVGQPPLRGMDAISAFYRQGLGQMNVSAALTGPVRATHNGCGAVPFRVDLTWDGRECSLQVIDVMEFDEHGLIRSMKAFWSEVNLQSR",
+                  "midline": "LPT E+VQ  M RY+EL+D GDI+ I+ +YA+DATVE P G PP+ G + I+ FYR+ LG     A LTGPVRA+HNG GA+PFRV+  ++G+  ++ V   M FDEHG I++M+A+W  VNL  R"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_273913482.1|",
+                  "accession": "WP_273913482",
+                  "title": "steroid Delta-isomerase [Pseudomonas fontis]",
+                  "taxid": 2942633,
+                  "sciname": "Pseudomonas fontis"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.51,
+                  "score": 358,
+                  "evalue": 1.37085e-40,
+                  "identity": 69,
+                  "positive": 86,
+                  "query_from": 25,
+                  "query_to": 145,
+                  "hit_from": 7,
+                  "hit_to": 127,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSV",
+                  "hseq": "KNIQAAMARYVELVDAGDIDGILGMYAEDATVEDPVGNAPLKGAGEIADFYRQGLGAGKVTAVQTGPVRATHNGSGAVPFRVQMQWAGQPCALDVIDVMSFDGQGRIVSMKAYWSEVNLSV",
+                  "midline": "+ +Q  MARY+EL+D GDI+ I+ MYA+DATVE P G  P+ G   IA FYR+ LG G   A  TGPVRA+HNG+GA+PFRV+  + GQP A+DV   M FD  GRI +M+AYW  VNLSV"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_249486107.1|",
+                  "accession": "WP_249486107",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. HS6]",
+                  "taxid": 2850559,
+                  "sciname": "Pseudomonas sp. HS6"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.354,
+                  "score": 355,
+                  "evalue": 4.23453e-40,
+                  "identity": 64,
+                  "positive": 87,
+                  "query_from": 23,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "SAQQIQTTMARYVELVDAGDIDGILALYGEDATVEDPVGQPPIQGRADIERFYRQGLGASKVSATLTGPVRATLNGCGAMPFRVDMQWAGQPCSLHVIDVMKFDDDGKIRSMKAYWSEANI",
+                  "midline": "+A+++Q  MARY+EL+D GDI+ I+ +Y +DATVE P G PPI GR  I  FYR+ LG     ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M+FD+ G+I++M+AYW   N+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_258445817.1|",
+                  "accession": "WP_258445817",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. LS1212]",
+                  "taxid": 2972478,
+                  "sciname": "Pseudomonas sp. LS1212"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 1.13954e-39,
+                  "identity": 68,
+                  "positive": 86,
+                  "query_from": 25,
+                  "query_to": 147,
+                  "hit_from": 5,
+                  "hit_to": 127,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "QEVQATMARYVELVDAGDIDAIVALYAEDAVVEDPVGKPAMQGIAEIARFYREGLGVSNASAVLTGAVRATHNGCGAMPFRVDLVWGGQACSIHVIDVMEFDAAGKIRSMKAYWSEVNLTAQE",
+                  "midline": "+EVQ  MARY+EL+D GDI+AIV +YA+DA VE P G P + G   IA FYR  LG   A A LTG VRA+HNG GAMPFRV+ V+ GQ  ++ V   M FD  G+I++M+AYW  VNL+ +E"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_236658315.1|",
+                  "accession": "WP_236658315",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas knackmussii]",
+                  "taxid": 65741,
+                  "sciname": "Pseudomonas knackmussii"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.69639e-39,
+                  "identity": 67,
+                  "positive": 90,
+                  "query_from": 24,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 125,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "AEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "AQLIRRRMARYVELVDAGDIDGILSLYADDAVIEDPVGAPPIVGIEAIARFYREGLGRAEASAQLTGPVRVASNGSGAMPFRVDLVWNGEPCSLHVIDVMEFDGNGRIRSMKAYWGELNMERR",
+                  "midline": "A+ +++ MARY+EL+D GDI+ I+ +YADDA +E P GAPPI G E IA FYR  LG   A A LTGPVR + NG+GAMPFRV+ V+NG+P ++ V   M FD +GRI++M+AYW  +N+  R"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_318010864.1|",
+                  "accession": "WP_318010864",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. p1(2021b)]",
+                  "taxid": 2874628,
+                  "sciname": "Pseudomonas sp. p1(2021b)"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 2.6037e-39,
+                  "identity": 67,
+                  "positive": 90,
+                  "query_from": 21,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 126,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "MPTAQQVQAIMQRYVERVDAGDIDGILQLYAENATVEDPVGQAPLQGIDQIAEFYRQGLGRMKVSATLTGPVRASHSGCGAMPFRVDMQWQGQDCSLHVIDVMTFDEQGLISSMKAYWSEVNVVPR",
+                  "midline": "+PTA++VQ +M RY+E +D GDI+ I+Q+YA++ATVE P G  P+ G ++IA FYR+ LG     ATLTGPVRASH+G GAMPFRV+  + GQ  ++ V   M FDE G I +M+AYW  VN+  R"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_258681873.1|",
+                  "accession": "WP_258681873",
+                  "title": "steroid Delta-isomerase [Pseudomonas laurylsulfatiphila]",
+                  "taxid": 2011015,
+                  "sciname": "Pseudomonas laurylsulfatiphila"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 1.11781e-38,
+                  "identity": 66,
+                  "positive": 86,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SAEQIQTTMARYVELVDAGDIEGILALYAKDATVEDPVGHAPLQGIDAIARFYREGLGAMKVSATRTGPVRATLNGCGAMPFRVDMEWGGQPCSLQVIDVMEFDADGKIRSMKAYWSEVNVTAR",
+                  "midline": "+AE++Q  MARY+EL+D GDIE I+ +YA DATVE P G  P+ G + IA FYR  LG     AT TGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+AYW  VN++ R"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_262114088.1|",
+                  "accession": "WP_262114088",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. 6D_7.1_Bac1]",
+                  "taxid": 2971615,
+                  "sciname": "Pseudomonas sp. 6D_7.1_Bac1"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 1.57207e-38,
+                  "identity": 67,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "SAERIQASMARYVELVDAGDIDGIVALYATDAVVEDPVGNPPIHGLAAIEQFYRQGLGVSRVSATLTGPVRATLNGCGAMPFRVDMTWGGQACSLQVIDVMEFDAEGRIRSMKAYWSPANIGPQE",
+                  "midline": "+AE +Q  MARY+EL+D GDI+ IV +YA DA VE P G PPIHG   I  FYR+ LG     ATLTGPVRA+ NG GAMPFRV+  + GQ  ++ V   M FD  GRI++M+AYW   N+  +E"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_322615427.1|",
+                  "accession": "WP_322615427",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. BIC9C]",
+                  "taxid": 3078458,
+                  "sciname": "Pseudomonas sp. BIC9C"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.732,
+                  "score": 343,
+                  "evalue": 3.4434e-38,
+                  "identity": 64,
+                  "positive": 88,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SAQQIQVTMARYVELVDVGDIDGILALYAKDASVEDPVGQAPLQGIDAIARFYREGLGAMKVSATLTGPVRATLNGCGAMPFRVDMVWGGQPCSLHVIDVMEFDADGKIRSMKAFWSEANVTPR",
+                  "midline": "+A+++Q  MARY+EL+DVGDI+ I+ +YA DA+VE P G  P+ G + IA FYR  LG     ATLTGPVRA+ NG GAMPFRV+ V+ GQP ++ V   M FD  G+I++M+A+W   N++ R"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gb|MDB5996383.1|",
+                  "accession": "MDB5996383",
+                  "title": "3-ketosteroid-5-isomerase [Pseudomonas sp.]",
+                  "taxid": 306,
+                  "sciname": "Pseudomonas sp."
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.346,
+                  "score": 342,
+                  "evalue": 4.93767e-38,
+                  "identity": 65,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 144,
+                  "hit_from": 3,
+                  "hit_to": 124,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLS",
+                  "hseq": "SAQQVQETMARYVELVDAGDIDGIVALYARDAVVEDPVGQPPIQGIVAIERFYREGLGASNASAVLTGPVRSTLNGCGAMPFRVDIEWGGQPCSIHIIDVMEFDAQGKIRTMKAYWSEANLT",
+                  "midline": "+A++VQ+ MARY+EL+D GDI+ IV +YA DA VE P G PPI G   I  FYR  LG   A A LTGPVR++ NG GAMPFRV+  + GQP ++ +   M FD  G+I+TM+AYW   NL+"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_213639389.1|",
+                  "accession": "WP_213639389",
+                  "title": "steroid Delta-isomerase [Pseudomonas lalucatii]",
+                  "taxid": 1424203,
+                  "sciname": "Pseudomonas lalucatii"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.961,
+                  "score": 341,
+                  "evalue": 6.01038e-38,
+                  "identity": 67,
+                  "positive": 87,
+                  "query_from": 25,
+                  "query_to": 148,
+                  "hit_from": 5,
+                  "hit_to": 129,
+                  "align_len": 125,
+                  "gaps": 1,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR-EP",
+                  "hseq": "EQIQQCMARYVELVDAGDIDGIVALYASDAVVEDPVGKAPIVGLDAIDAFYREGLGLSEARATLCGPVRATLNGCGAMAFRVDLDWGGQPCSIEVIDVMEFDAAGKIRSMRAYWSALNLQLRSEP",
+                  "midline": "E++Q+ MARY+EL+D GDI+ IV +YA DA VE P G  PI G + I  FYR  LG   ARATL GPVRA+ NG GAM FRV+  + GQP +++V   M FD  G+I++M+AYW  +NL +R EP"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_201118090.1|",
+                  "accession": "WP_201118090",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. TH41]",
+                  "taxid": 2796405,
+                  "sciname": "Pseudomonas sp. TH41"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.961,
+                  "score": 341,
+                  "evalue": 6.77763e-38,
+                  "identity": 65,
+                  "positive": 84,
+                  "query_from": 25,
+                  "query_to": 146,
+                  "hit_from": 5,
+                  "hit_to": 126,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "QQIQQTMARYVELVDAGDIDAIVALYAQGAVVEDPVGQPPIQGLVAIERFYREGLGASNVSATLTGPVRATLNGCGAMPFRVDMEWAGQPCSLHVIDVMEFDADGKIRSMKAYWSEVNLTAQ",
+                  "midline": "+++Q+ MARY+EL+D GDI+AIV +YA  A VE P G PPI G   I  FYR  LG     ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+AYW  VNL+ +"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_085725833.1|",
+                  "accession": "WP_085725833",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. R37(2017)]",
+                  "taxid": 1981685,
+                  "sciname": "Pseudomonas sp. R37(2017)"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.576,
+                  "score": 340,
+                  "evalue": 1.0264e-37,
+                  "identity": 65,
+                  "positive": 87,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SAQQIQATMARYVELVDAGDIDGILALYADDATVEDPVGHAPLQGIDAIARFYREGLGAMNVCATLTGPVRATLNGCGAMPFRVDMGWGGQPCSLHVIDVMEFNADGRIRSMKAFWSEVNVIAR",
+                  "midline": "+A+++Q  MARY+EL+D GDI+ I+ +YADDATVE P G  P+ G + IA FYR  LG     ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M F+  GRI++M+A+W  VN+  R"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_095128535.1|",
+                  "accession": "WP_095128535",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. Irchel s3h14]",
+                  "taxid": 2009179,
+                  "sciname": "Pseudomonas sp. Irchel s3h14"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.806,
+                  "score": 338,
+                  "evalue": 1.50424e-37,
+                  "identity": 65,
+                  "positive": 82,
+                  "query_from": 23,
+                  "query_to": 144,
+                  "hit_from": 3,
+                  "hit_to": 124,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLS",
+                  "hseq": "SAQQVQATMARYVELVDAGDIDGIVALYGQDAVVEDPVGQPPIRGLVAIERFYREGLGASKVSATLTGPVRATLNGCGAMPFRVDMQWAGQPCSLHVIDVMEFDADGKIRSMKAYWSEANLT",
+                  "midline": "+A++VQ  MARY+EL+D GDI+ IV +Y  DA VE P G PPI G   I  FYR  LG     ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+AYW   NL+"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_096509988.1|",
+                  "accession": "WP_096509988",
+                  "title": "steroid Delta-isomerase [Pseudomonas izuensis]",
+                  "taxid": 2684212,
+                  "sciname": "Pseudomonas izuensis"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.806,
+                  "score": 338,
+                  "evalue": 2.1843e-37,
+                  "identity": 63,
+                  "positive": 85,
+                  "query_from": 24,
+                  "query_to": 148,
+                  "hit_from": 4,
+                  "hit_to": 128,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "AEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVREP",
+                  "hseq": "AQQIQAIMARYVELVDAGDIDEIIALYSQDAVVEDPVGQTPLRGIVAIERFYREGLGTGKVSATLTGPVRATLNGCGAMPFRVDMEWAGQPCSLHVIDVMEFDADGKIRSMKAFWSEINLCRSEP",
+                  "midline": "A+++Q +MARY+EL+D GDI+ I+ +Y+ DA VE P G  P+ G   I  FYR  LG G   ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+A+W  +NL   EP"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_194790325.1|",
+                  "accession": "WP_194790325",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. UFMG81]",
+                  "taxid": 2745936,
+                  "sciname": "Pseudomonas sp. UFMG81"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 2.29884e-37,
+                  "identity": 65,
+                  "positive": 84,
+                  "query_from": 22,
+                  "query_to": 138,
+                  "hit_from": 4,
+                  "hit_to": 120,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "PTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "PTAEQVRAIMQRYVELVDAGDIDGILRLYAEDATVEDPVGQPALRGMEQIAGFYRQGLGQAKVRATLTGPVCATQAGCGAMPFRVDMQWQGQDRSLQVIDVMRFDEQGLIVEMKAYW",
+                  "midline": "PTAE+V+ +M RY+EL+D GDI+ I+++YA+DATVE P G P + G E+IA FYR+ LG    RATLTGPV A+  G GAMPFRV+  + GQ  ++ V   MRFDE G I  M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_119954985.1|",
+                  "accession": "WP_119954985",
+                  "title": "steroid Delta-isomerase [Pseudomonas cavernicola]",
+                  "taxid": 2320866,
+                  "sciname": "Pseudomonas cavernicola"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 2.59688e-37,
+                  "identity": 66,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "TPEQVQQCMARYVELVDAGDIDGIVALYAADAVVEDPVGKAPISGIAAIATFYREGLGKTKASASLTGPVRATVNGCGAMPFRVDLNWGGQLCSIQVIDVMEFNADGKIRSMKAYWSDANLELR",
+                  "midline": "T E+VQ+ MARY+EL+D GDI+ IV +YA DA VE P G  PI G   IA FYR  LG   A A+LTGPVRA+ NG GAMPFRV+  + GQ  ++ V   M F+  G+I++M+AYW   NL +R"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_074981844.1|",
+                  "accession": "WP_074981844",
+                  "title": "steroid Delta-isomerase [Pseudomonas citronellolis]",
+                  "taxid": 53408,
+                  "sciname": "Pseudomonas citronellolis"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.035,
+                  "score": 336,
+                  "evalue": 3.00058e-37,
+                  "identity": 64,
+                  "positive": 86,
+                  "query_from": 24,
+                  "query_to": 146,
+                  "hit_from": 4,
+                  "hit_to": 126,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "AEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "AQLIRRRMARYVELVDAGDIDGILALYADDAVVEDPVGSPPLQGLQAIARFYREGLGRAEASAQLTGPVRVTGNGCGAMPFRVDLNWNGEPCSIHAIDVMEFDAQGRIRSMKAYWGEMNLERR",
+                  "midline": "A+ +++ MARY+EL+D GDI+ I+ +YADDA VE P G+PP+ G + IA FYR  LG   A A LTGPVR + NG GAMPFRV+  +NG+P ++     M FD  GRI++M+AYW  +NL  R"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_110963933.1|",
+                  "accession": "WP_110963933",
+                  "title": "steroid Delta-isomerase [Pseudomonas putida]",
+                  "taxid": 303,
+                  "sciname": "Pseudomonas putida"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 133.65,
+                  "score": 335,
+                  "evalue": 5.19331e-37,
+                  "identity": 65,
+                  "positive": 85,
+                  "query_from": 24,
+                  "query_to": 146,
+                  "hit_from": 4,
+                  "hit_to": 126,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "AEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "AEQIQATMARYVELVDAGDIDGILALYAEDATVEDPVGQAPLQGIDAIERFYRQGLGAMKVSATRTGPVRATANGCGAMPFRVDMEWGGQPCSLHVIDVMEFDGTGRIRSMKAYWSEVNIGPR",
+                  "midline": "AE++Q  MARY+EL+D GDI+ I+ +YA+DATVE P G  P+ G + I  FYR+ LG     AT TGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  GRI++M+AYW  VN+  R"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_403144329.1|",
+                  "accession": "WP_403144329",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. NPDC098740]",
+                  "taxid": 3364486,
+                  "sciname": "Pseudomonas sp. NPDC098740"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.88,
+                  "score": 333,
+                  "evalue": 9.21601e-37,
+                  "identity": 64,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 144,
+                  "hit_from": 3,
+                  "hit_to": 124,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLS",
+                  "hseq": "SAQQVQATMARYVELVDAGDIDRIVALYSEDAVVEDPVGRPPLQGIVDIERFYREGLGASKVSATQTGPVRATLNGCGAMPFRVDMEWAGQPCSIHVIDVMEFDADGKIRSMKAYWSEVNLT",
+                  "midline": "+A++VQ  MARY+EL+D GDI+ IV +Y++DA VE P G PP+ G   I  FYR  LG     AT TGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+AYW  VNL+"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_093224413.1|",
+                  "accession": "WP_093224413",
+                  "title": "steroid Delta-isomerase [Pseudomonas vancouverensis]",
+                  "taxid": 95300,
+                  "sciname": "Pseudomonas vancouverensis"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.88,
+                  "score": 333,
+                  "evalue": 1.14651e-36,
+                  "identity": 62,
+                  "positive": 86,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SAAQIQATMSRYVELVDAGDIDAIVALYARDAVVEDPVGQPPLLGLDAIERFYRQGLGAMKVSATQTGPVRATLNGCGAMPFRVDMEWGGQPCSLHVIDVMEFDAEGKIRSMKAFWSEINVTAR",
+                  "midline": "+A ++Q  M+RY+EL+D GDI+AIV +YA DA VE P G PP+ G + I  FYR+ LG     AT TGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+A+W  +N++ R"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_147171698.1|",
+                  "accession": "WP_147171698",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. SJZ079]",
+                  "taxid": 2572887,
+                  "sciname": "Pseudomonas sp. SJZ079"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.494,
+                  "score": 332,
+                  "evalue": 1.22413e-36,
+                  "identity": 64,
+                  "positive": 85,
+                  "query_from": 25,
+                  "query_to": 146,
+                  "hit_from": 5,
+                  "hit_to": 126,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "EQIQQCMARYVELVDSCDIDGIVALYAADAVVEDPVGNPPIVGLAAIDAFYREGLGLSEARATLSGPVRATLNGCGAMAFRVDLNWSGQLCSIEVIDVMEFDDAGKIRSMKAYWSAANLQLR",
+                  "midline": "E++Q+ MARY+EL+D  DI+ IV +YA DA VE P G PPI G   I  FYR  LG   ARATL+GPVRA+ NG GAM FRV+  ++GQ  +++V   M FD+ G+I++M+AYW   NL +R"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_439888351.1|",
+                  "accession": "WP_439888351",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. MBLB4123]",
+                  "taxid": 3451557,
+                  "sciname": "Pseudomonas sp. MBLB4123"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.109,
+                  "score": 331,
+                  "evalue": 1.79384e-36,
+                  "identity": 64,
+                  "positive": 85,
+                  "query_from": 25,
+                  "query_to": 143,
+                  "hit_from": 5,
+                  "hit_to": 123,
+                  "align_len": 119,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "EQIQQCMARYIELVDAGDIDGIVALYAADAVVEDPVGQAPIVGIEAIEAFYREGLGLSEARATLSGPVRATLNGCGAMAFRVDLNWSGERCSIEVIDVMEFDDAGKIRSMKAYWSALNL",
+                  "midline": "E++Q+ MARYIEL+D GDI+ IV +YA DA VE P G  PI G E I  FYR  LG   ARATL+GPVRA+ NG GAM FRV+  ++G+  +++V   M FD+ G+I++M+AYW  +NL"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_336335111.1|",
+                  "accession": "WP_336335111",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas putida]",
+                  "taxid": 303,
+                  "sciname": "Pseudomonas putida"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 131.339,
+                  "score": 329,
+                  "evalue": 3.29506e-36,
+                  "identity": 69,
+                  "positive": 88,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 122,
+                  "align_len": 124,
+                  "gaps": 4,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "TAEQVQVLMQRYVELVDAGDIEGILAMYAEDATVEDPVGQAPLHGIEAIAAFYRQGLGAVEVSATLTGPVRATCDGQGAMPFRVDF---GER-SLEVIDVMAFDERGLVRSMKAYWSEVNFGPR",
+                  "midline": "TAE+VQ LM RY+EL+D GDIE I+ MYA+DATVE P G  P+HG E IA FYR+ LG     ATLTGPVRA+ +G GAMPFRV++   G+  +++V   M FDE G +++M+AYW  VN   R"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_137889428.1|",
+                  "accession": "WP_137889428",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. 2FE]",
+                  "taxid": 2502190,
+                  "sciname": "Pseudomonas sp. 2FE"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.954,
+                  "score": 328,
+                  "evalue": 5.34437e-36,
+                  "identity": 64,
+                  "positive": 84,
+                  "query_from": 25,
+                  "query_to": 146,
+                  "hit_from": 5,
+                  "hit_to": 126,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "QQIQTTMARYVELVDAGDIDAIVALYAEDAVVEDPVGKPAIVGIAAIERFYREGLGKTDASASLTGPVRATLNGCGAMPFRVDLNWGGKLCSIQVIDVMEFDAAGKIRSMKAYWSDVNLELR",
+                  "midline": "+++Q  MARY+EL+D GDI+AIV +YA+DA VE P G P I G   I  FYR  LG   A A+LTGPVRA+ NG GAMPFRV+  + G+  ++ V   M FD  G+I++M+AYW  VNL +R"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_315810436.1|",
+                  "accession": "WP_315810436",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. C9-3]",
+                  "taxid": 3078264,
+                  "sciname": "Pseudomonas sp. C9-3"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.954,
+                  "score": 328,
+                  "evalue": 6.04253e-36,
+                  "identity": 66,
+                  "positive": 84,
+                  "query_from": 24,
+                  "query_to": 146,
+                  "hit_from": 4,
+                  "hit_to": 126,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "AEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "AQLIRRRMARYVELVDAGDIDGILALYADDAVVEDPVGAEPQVGIEAIARFYREGLGRAEVSAQLTGPVRVTGNGCGAMPFRVDLNWNGAPCSLHVIDVMEFDEHGLIRSMKAYWGDLNLEQR",
+                  "midline": "A+ +++ MARY+EL+D GDI+ I+ +YADDA VE P GA P  G E IA FYR  LG     A LTGPVR + NG GAMPFRV+  +NG P ++ V   M FDEHG I++M+AYW  +NL  R"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_317662644.1|",
+                  "accession": "WP_317662644",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. KU43P]",
+                  "taxid": 2487887,
+                  "sciname": "Pseudomonas sp. KU43P"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.568,
+                  "score": 327,
+                  "evalue": 6.59288e-36,
+                  "identity": 68,
+                  "positive": 86,
+                  "query_from": 21,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 121,
+                  "align_len": 123,
+                  "gaps": 4,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "LPTAQEVQQLMQRYVLLVDGGDVEGILAMYAEDATVEDPVGAAPLRGIEAIAAFYRQGLGAMQVSAVLTGPVRATCDGQGAVPFRVVFGERG----LDVIDVMAFDERGLIRSMKAYWSEVNV",
+                  "midline": "LPTA+EVQ+LM RY+ L+D GD+E I+ MYA+DATVE P GA P+ G E IA FYR+ LG     A LTGPVRA+ +G GA+PFRV +   G    +DV   M FDE G I++M+AYW  VN+"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_007986276.1|",
+                  "accession": "WP_007986276",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. GM48]",
+                  "taxid": 1144330,
+                  "sciname": "Pseudomonas sp. GM48"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 1.2798e-35,
+                  "identity": 63,
+                  "positive": 85,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SAQHVQESMARYVELVDAGDIDGILALYAKNATVEDPVGHAPLQGIEAIERFYREGLGAMKVSATRTGPVRATLNGCGAMPFRVDLEWGGQPCSLHVIDVMEFDADGKIRSMKAFWSEVNVTAR",
+                  "midline": "+A+ VQ+ MARY+EL+D GDI+ I+ +YA +ATVE P G  P+ G E I  FYR  LG     AT TGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+A+W  VN++ R"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_279805994.1|",
+                  "accession": "WP_279805994",
+                  "title": "MULTISPECIES: steroid Delta-isomerase [unclassified Pseudomonas]",
+                  "taxid": 196821,
+                  "sciname": "unclassified Pseudomonas"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.798,
+                  "score": 325,
+                  "evalue": 1.37018e-35,
+                  "identity": 63,
+                  "positive": 86,
+                  "query_from": 21,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 128,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "LPAPEQVRSVMQRYVQLVDGGDIDGILRLYAEDATVEDPVGQPPLRGIEQIAAFYRQGLGRAKVSATLTGPVCVTHAGCGAMPLRVDMQWQGRDCSLQVIDVMTFDEQGLIVGMKAYWSEVNVAPR",
+                  "midline": "LP  E+V+ +M RY++L+D GDI+ I+++YA+DATVE P G PP+ G E+IA FYR+ LG     ATLTGPV  +H G GAMP RV+  + G+  ++ V   M FDE G I  M+AYW  VN++ R"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_160079906.1|",
+                  "accession": "WP_160079906",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. 8AS]",
+                  "taxid": 2653163,
+                  "sciname": "Pseudomonas sp. 8AS"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 2.25751e-35,
+                  "identity": 64,
+                  "positive": 82,
+                  "query_from": 25,
+                  "query_to": 147,
+                  "hit_from": 5,
+                  "hit_to": 127,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "QQIQATMARYIELVDAGDIDGIVALYAEDARVEDPIGTPPHVGRAAIERFYREGLGRAQARARQTGPVSASHAGSGAVPFCVDLLLDGRPSSIQVIDLMEFDEQGLITSMKAYWGEANLVARD",
+                  "midline": "+++Q  MARYIEL+D GDI+ IV +YA+DA VE P G PP  GR  I  FYR  LG   ARA  TGPV ASH G+GA+PF V+ + +G+P ++ V   M FDE G I +M+AYW   NL  R+"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_304997696.1|",
+                  "accession": "WP_304997696",
+                  "title": "MULTISPECIES: steroid Delta-isomerase [unclassified Pseudomonas]",
+                  "taxid": 196821,
+                  "sciname": "unclassified Pseudomonas"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 2.8082e-35,
+                  "identity": 64,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SAQQIQATMARYVELVDAGDIDGIVALYSPVAVVEDPVGQPPLQGIVAIERFYREGLGMIKASATLTGPVRATLNGCGAMPFRVDMEWAGQPCSIHVIDVMEFDIEGKVLSMKAYWSEVNLTPR",
+                  "midline": "+A+++Q  MARY+EL+D GDI+ IV +Y+  A VE P G PP+ G   I  FYR  LG   A ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G++ +M+AYW  VNL+ R"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|MGH8803202.1|",
+                  "accession": "MGH8803202",
+                  "title": "steroid Delta-isomerase [Polaromonas sp.]",
+                  "taxid": 1869339,
+                  "sciname": "Polaromonas sp."
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 3.34398e-35,
+                  "identity": 65,
+                  "positive": 84,
+                  "query_from": 25,
+                  "query_to": 147,
+                  "hit_from": 5,
+                  "hit_to": 127,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "QQVQATMARYVELVDVGDIDGILALYASDAVVEDPVGKPAHVGIAAIERFYREGLGRIEASASLTGPVRATANGCGAMPFRVDLDWGGKPCSIEVIDVMEFDAEGRIRSMKAYWGELNLIARE",
+                  "midline": "++VQ  MARY+EL+DVGDI+ I+ +YA DA VE P G P   G   I  FYR  LG   A A+LTGPVRA+ NG GAMPFRV+  + G+P +++V   M FD  GRI++M+AYW  +NL  RE"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_175380068.1|",
+                  "accession": "WP_175380068",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. C1C7]",
+                  "taxid": 2735272,
+                  "sciname": "Pseudomonas sp. C1C7"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 3.69947e-35,
+                  "identity": 62,
+                  "positive": 82,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SVQQIQSTMERYVELVDAGDIEGIVALYAQDATVEDPVGQVPLQGLEAIAGFYRQGLGAMKVSATRTGPVRVTSNGCGAMPFRVDMEWGGQPCSLHVIDVMEFNADGKIRSMKAYWGESNIGPR",
+                  "midline": "+ +++Q  M RY+EL+D GDIE IV +YA DATVE P G  P+ G E IA FYR+ LG     AT TGPVR + NG GAMPFRV+  + GQP ++ V   M F+  G+I++M+AYW   N+  R"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_217871686.1|",
+                  "accession": "WP_217871686",
+                  "title": "steroid Delta-isomerase [Pseudomonas azerbaijanoccidentalis]",
+                  "taxid": 2842347,
+                  "sciname": "Pseudomonas azerbaijanoccidentalis"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.642,
+                  "score": 322,
+                  "evalue": 4.85999e-35,
+                  "identity": 60,
+                  "positive": 82,
+                  "query_from": 24,
+                  "query_to": 143,
+                  "hit_from": 4,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "AEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "AQRIQATMAHYVELVDAGDINAILALYAEDATVEDPVGQAPLQGIDAIGRFYRQGLGAMKVSATQTGPVRATSNGCGAMPFRVDMEWGGQPCSLHVIDVMEFDAEGKIRSMKAFWSEINI",
+                  "midline": "A+ +Q  MA Y+EL+D GDI AI+ +YA+DATVE P G  P+ G + I  FYR+ LG     AT TGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+A+W  +N+"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gb|QVM88311.1|",
+                  "accession": "QVM88311",
+                  "title": "acetyl-CoA C-acyltransferase [Pseudomonas lalucatii]",
+                  "taxid": 1424203,
+                  "sciname": "Pseudomonas lalucatii"
+                }
+              ],
+              "len": 534,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 6.19972e-35,
+                  "identity": 71,
+                  "positive": 93,
+                  "query_from": 13,
+                  "query_to": 148,
+                  "hit_from": 390,
+                  "hit_to": 534,
+                  "align_len": 145,
+                  "gaps": 9,
+                  "qseq": "GLVPR--------GSMLPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR-EP",
+                  "hseq": "GMAPRRCSKWHREGQQMIKPEQIQQCMARYVELVDAGDIDGIVALYASDAVVEDPVGKAPIVGLDAIDAFYREGLGLSEARATLCGPVRATLNGCGAMAFRVDLDWGGQPCSIEVIDVMEFDAAGKIRSMRAYWSALNLQLRSEP",
+                  "midline": "G+ PR        G  +   E++Q+ MARY+EL+D GDI+ IV +YA DA VE P G  PI G + I  FYR  LG   ARATL GPVRA+ NG GAM FRV+  + GQP +++V   M FD  G+I++M+AYW  +NL +R EP"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_149631716.1|",
+                  "accession": "WP_149631716",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. ANT_J28]",
+                  "taxid": 2597352,
+                  "sciname": "Pseudomonas sp. ANT_J28"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.487,
+                  "score": 319,
+                  "evalue": 1.33321e-34,
+                  "identity": 61,
+                  "positive": 83,
+                  "query_from": 23,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "SAQQIQATMARYLELVDVGDIDGIIALYSEDAVVEDPVGQLLLRGIVDIERFYREGLGASKVAATLTGPVRATLNGCGAMPFRVDMEWAGQPCSLHVIDVMEFDADGKIRSMKAYWSEVNM",
+                  "midline": "+A+++Q  MARY+EL+DVGDI+ I+ +Y++DA VE P G   + G   I  FYR  LG     ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G+I++M+AYW  VN+"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_239482042.1|",
+                  "accession": "WP_239482042",
+                  "title": "steroid Delta-isomerase [Zestomonas insulae]",
+                  "taxid": 2809017,
+                  "sciname": "Zestomonas insulae"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.487,
+                  "score": 319,
+                  "evalue": 1.35954e-34,
+                  "identity": 63,
+                  "positive": 82,
+                  "query_from": 27,
+                  "query_to": 146,
+                  "hit_from": 6,
+                  "hit_to": 125,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "IRRRMARYVELVDAGDIDGILALYAADAVVEDPVGTPPLVGSEAIARFYRDGLGRSSARAELTGPVRVAGNRSAAMPFRVDLDWGGQPCSIHVIDVMEFDADGRIRSMKAYWDEDNMERR",
+                  "midline": "+++ MARY+EL+D GDI+ I+ +YA DA VE P G PP+ G E IA FYR  LG   ARA LTGPVR + N + AMPFRV+  + GQP ++ V   M FD  GRI++M+AYWD  N+  R"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_401325090.1|",
+                  "accession": "WP_401325090",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. NPDC087342]",
+                  "taxid": 3364437,
+                  "sciname": "Pseudomonas sp. NPDC087342"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.716,
+                  "score": 317,
+                  "evalue": 2.38399e-34,
+                  "identity": 60,
+                  "positive": 80,
+                  "query_from": 23,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "SAQQVQATMTRYVELVDAGDIDGIIALYSHDAVVEDPVGQPPIQGLVAIERFYRDGLGASNVSAVLTGPVRATLNGCGAMPFRVDMEWAGQPCSLHVIDVMEFGADGKIRSMKAYWSPINI",
+                  "midline": "+A++VQ  M RY+EL+D GDI+ I+ +Y+ DA VE P G PPI G   I  FYR  LG     A LTGPVRA+ NG GAMPFRV+  + GQP ++ V   M F   G+I++M+AYW  +N+"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_367620480.1|",
+                  "accession": "WP_367620480",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. CAN1]",
+                  "taxid": 3046726,
+                  "sciname": "Pseudomonas sp. CAN1"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.716,
+                  "score": 317,
+                  "evalue": 2.87825e-34,
+                  "identity": 62,
+                  "positive": 82,
+                  "query_from": 27,
+                  "query_to": 146,
+                  "hit_from": 7,
+                  "hit_to": 126,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "IRRRMARYVELVDAGDIDGILSLYADDAVVEDPVGAPALTGIAAIARFYREGLGRAEVSAQLTGPVRVTGNGCGAMPFRVDMHWNGEPCSLHVIDVMEFDGQGRIRSMKAYWGDLNVERR",
+                  "midline": "+++ MARY+EL+D GDI+ I+ +YADDA VE P GAP + G   IA FYR  LG     A LTGPVR + NG GAMPFRV+  +NG+P ++ V   M FD  GRI++M+AYW  +N+  R"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_236193482.1|",
+                  "accession": "WP_236193482",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas faucium]",
+                  "taxid": 2740518,
+                  "sciname": "Pseudomonas faucium"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.331,
+                  "score": 316,
+                  "evalue": 3.10891e-34,
+                  "identity": 66,
+                  "positive": 86,
+                  "query_from": 21,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 124,
+                  "align_len": 126,
+                  "gaps": 4,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "VPTAQHVQVLMQRYVALVDAGDIDGILALYAEDATVEDPVGTAPLQGIAAIAAFYRQGLGAMQVSAALTGPVRATCDGQGAVPFRV--VFGGR--ALDVIDVMAFDERGLIRSMKAYWSEVNVGAQ",
+                  "midline": "+PTA+ VQ LM RY+ L+D GDI+ I+ +YA+DATVE P G  P+ G   IA FYR+ LG     A LTGPVRA+ +G GA+PFRV  VF G+  A+DV   M FDE G I++M+AYW  VN+  +"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_445579815.1|",
+                  "accession": "WP_445579815",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. SP16.1]",
+                  "taxid": 3458854,
+                  "sciname": "Pseudomonas sp. SP16.1"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.331,
+                  "score": 316,
+                  "evalue": 3.85294e-34,
+                  "identity": 63,
+                  "positive": 82,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "TPEQIQATMARYIQLVDACDIDGIVALYAEDARVEDPIGTPPHVGRAAVEHFYREGLGRAQARARQTGPVSASHAGSGAVPFCVDLQMDGRACSIQVIDVMEFDEQGLIRSMKAYWGQANLVARE",
+                  "midline": "T E++Q  MARYI+L+D  DI+ IV +YA+DA VE P G PP  GR  + +FYR  LG   ARA  TGPV ASH G+GA+PF V+   +G+  ++ V   M FDE G I++M+AYW   NL  RE"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_253127088.1|",
+                  "accession": "WP_253127088",
+                  "title": "MULTISPECIES: steroid Delta-isomerase [Pseudomonas chlororaphis group]",
+                  "taxid": 136842,
+                  "sciname": "Pseudomonas chlororaphis group"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.946,
+                  "score": 315,
+                  "evalue": 4.92714e-34,
+                  "identity": 61,
+                  "positive": 82,
+                  "query_from": 23,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "SGERIQAIMAGYVQKVDAGDIEAIVALYAEDAVVEDPVGQPALRGLAAIGDFYRQGLGQVKVAATLTGPVRATLNGCGAMAFRVDMLWQGEPCSLQVIDVMEFDEQGLIRSMKAYWGPVNI",
+                  "midline": "+ E +Q +MA Y++ +D GDIEAIV +YA+DA VE P G P + G   I  FYR+ LG     ATLTGPVRA+ NG GAM FRV+ ++ G+P ++ V   M FDE G I++M+AYW  VN+"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_247256277.1|",
+                  "accession": "WP_247256277",
+                  "title": "steroid Delta-isomerase [Pseudomonas moorei]",
+                  "taxid": 395599,
+                  "sciname": "Pseudomonas moorei"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.946,
+                  "score": 315,
+                  "evalue": 5.11661e-34,
+                  "identity": 60,
+                  "positive": 83,
+                  "query_from": 24,
+                  "query_to": 146,
+                  "hit_from": 4,
+                  "hit_to": 126,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "AEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "AQQIQATMARYVELVDAGDIDGILALYSQDAVVEDPVGQVPLAGLDAIERFYRDGLGTMKVSATLTGPVRATLNGCGAMPFRVDMEWGGQPCSLHVIDVMEFGADGKIRSMKAFWSEVNVTAR",
+                  "midline": "A+++Q  MARY+EL+D GDI+ I+ +Y+ DA VE P G  P+ G + I  FYR  LG     ATLTGPVRA+ NG GAMPFRV+  + GQP ++ V   M F   G+I++M+A+W  VN++ R"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_229603460.1|",
+                  "accession": "WP_229603460",
+                  "title": "MULTISPECIES: steroid Delta-isomerase [Pseudomonas]",
+                  "taxid": 286,
+                  "sciname": "Pseudomonas"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.176,
+                  "score": 313,
+                  "evalue": 1.0659e-33,
+                  "identity": 62,
+                  "positive": 85,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "TPQQIQARMALYVELVDAGDVDGILALYAADATVEDPVGTPVHQGREAIGRFYREGLGQSRASASLQGAVRATHNGYGAMPFRVELDWDGRRCSIEVIDVMEFDAEGCIRSMRAYWGEANLTMRD",
+                  "midline": "T +++Q  MA Y+EL+D GD++ I+ +YA DATVE P G P   GRE I  FYR  LG   A A+L G VRA+HNG GAMPFRVE  ++G+  +++V   M FD  G I++M+AYW   NL++R+"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_374980042.1|",
+                  "accession": "WP_374980042",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas solani]",
+                  "taxid": 2731552,
+                  "sciname": "Pseudomonas solani"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.176,
+                  "score": 313,
+                  "evalue": 1.19819e-33,
+                  "identity": 63,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "SPQQIQQTMARYIELVDACDIDGIVALYALDATVEDPVGSPLHQGREAIGRFYREGLGRANARARQTGPVSASHAGSGAVPFCVDVEWNGAPCSIQVIDVMEFDDDGLIRSMKAYWGEANVVPRD",
+                  "midline": "+ +++Q+ MARYIEL+D  DI+ IV +YA DATVE P G+P   GRE I  FYR  LG   ARA  TGPV ASH G+GA+PF V+  +NG P ++ V   M FD+ G I++M+AYW   N+  R+"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "ref|WP_090261879.1|",
+                  "accession": "WP_090261879",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas panipatensis]",
+                  "taxid": 428992,
+                  "sciname": "Pseudomonas panipatensis"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 2.94868e-33,
+                  "identity": 58,
+                  "positive": 83,
+                  "query_from": 27,
+                  "query_to": 146,
+                  "hit_from": 6,
+                  "hit_to": 125,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "IRRRMARYVEMVDAGDIDGILGLYADDAVIEDPVGTPALVGLQAIARFYREGLGRTEASAQLTGPVRVAGNGCAAMPMRVDLMWNGEPCSLHVIDVMEFDDKGRIRSMKAYWGELNVERR",
+                  "midline": "+++ MARY+E++D GDI+ I+ +YADDA +E P G P + G + IA FYR  LG   A A LTGPVR + NG  AMP RV+ ++NG+P ++ V   M FD+ GRI++M+AYW  +N+  R"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_233317506.1|",
+                  "accession": "WP_233317506",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. Au-Pse12]",
+                  "taxid": 2906459,
+                  "sciname": "Pseudomonas sp. Au-Pse12"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.635,
+                  "score": 309,
+                  "evalue": 4.09022e-33,
+                  "identity": 57,
+                  "positive": 80,
+                  "query_from": 23,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "SSERIQAIMQGYVQKVDAGDIEAIVALYAEDAVLEDPVGQPPVRGLAAIAEFYRQGLGTAKVSATLSGPVRVTLNGCAAMAFRIEMLWQGLPCSLQVIDVMEFDEQGLIRSMKAYWGPANI",
+                  "midline": "++E +Q +M  Y++ +D GDIEAIV +YA+DA +E P G PP+ G   IA FYR+ LG     ATL+GPVR + NG  AM FR+E ++ G P ++ V   M FDE G I++M+AYW   N+"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "ref|WP_106592671.1|",
+                  "accession": "WP_106592671",
+                  "title": "nuclear transport factor 2 family protein [Marinobacterium halophilum]",
+                  "taxid": 267374,
+                  "sciname": "Marinobacterium halophilum"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.635,
+                  "score": 309,
+                  "evalue": 4.21329e-33,
+                  "identity": 62,
+                  "positive": 81,
+                  "query_from": 23,
+                  "query_to": 142,
+                  "hit_from": 3,
+                  "hit_to": 121,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVN",
+                  "hseq": "NAQQVRDLMTRYIALVDAGDVEGILALYADNAVVEDPVGQPPHEGIDAIARFYRDGMGAMDVRATLEGPIRATDNGCGAMPFRVD-VLGEQPCHIEVIDVMEFDADGRIRSMKAYWGELN",
+                  "midline": " A++V+ LM RYI L+D GD+E I+ +YAD+A VE P G PP  G + IA FYR  +G    RATL GP+RA+ NG GAMPFRV+ V   QP  ++V   M FD  GRI++M+AYW  +N"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "ref|WP_342244983.1|",
+                  "accession": "WP_342244983",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. OTU5201]",
+                  "taxid": 3043850,
+                  "sciname": "Pseudomonas sp. OTU5201"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 8.81756e-33,
+                  "identity": 63,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "SPQQVQEIMARYVELVDVCDIDGIIALYAVDATVEDPVGSPPHVGIEAIDRFYREGLGRANARARRTGPVSASHAGSGAVPFCVDLDWNGRACSIQVIDVMEFDADGLICSMKAYWGETNLVERD",
+                  "midline": "+ ++VQ++MARY+EL+DV DI+ I+ +YA DATVE P G+PP  G E I  FYR  LG   ARA  TGPV ASH G+GA+PF V+  +NG+  ++ V   M FD  G I +M+AYW   NL  R+"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "ref|WP_294332206.1|",
+                  "accession": "WP_294332206",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp.]",
+                  "taxid": 306,
+                  "sciname": "Pseudomonas sp."
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 1.24232e-32,
+                  "identity": 65,
+                  "positive": 85,
+                  "query_from": 21,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 121,
+                  "align_len": 123,
+                  "gaps": 4,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "LPTPQQVQQLMQRYVALVDAGDIEGILGLYAEDAKVEDPVGSTPLRGIEAIAAFYRQGLGTLQVSAALTGPVRATCDGQGAVPFRV--VFGER--ALDVIDVMAFDARGLIRSMKAYWSEVNV",
+                  "midline": "LPT ++VQ+LM RY+ L+D GDIE I+ +YA+DA VE P G+ P+ G E IA FYR+ LG     A LTGPVRA+ +G GA+PFRV  VF  +  A+DV   M FD  G I++M+AYW  VN+"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_124314024.1|",
+                  "accession": "WP_124314024",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas chlororaphis]",
+                  "taxid": 587753,
+                  "sciname": "Pseudomonas chlororaphis"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.86269e-32,
+                  "identity": 58,
+                  "positive": 76,
+                  "query_from": 23,
+                  "query_to": 138,
+                  "hit_from": 3,
+                  "hit_to": 118,
+                  "align_len": 116,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "SVERIRATMTRYVECVDAGNIEAIIALFAEDAVLEDPVGQPQVCGRAAIEDFYRRSLGTGKVSATLTGPVRTTLNGYGAMAFRVDMFWQGQASTLPVIDVMEFDEQGRIRSMMAYW",
+                  "midline": "+ E ++  M RY+E +D G+IEAI+ ++A+DA +E P G P + GR  I  FYRR LG G   ATLTGPVR + NG GAM FRV+  + GQ   + V   M FDE GRI++M AYW"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|WP_069082608.1|",
+                  "accession": "WP_069082608",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. TCU-HL1]",
+                  "taxid": 1856685,
+                  "sciname": "Pseudomonas sp. TCU-HL1"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 2.17978e-32,
+                  "identity": 63,
+                  "positive": 82,
+                  "query_from": 25,
+                  "query_to": 147,
+                  "hit_from": 5,
+                  "hit_to": 127,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "QQVQETMVRYIELVDACDIDGIVALYAADATVEDPVGSPPHVGIEAIDRFYREGLGRANARARRTGPVSASHAGSGAVPFCVDVDWNGRACSIQVIDVMEFDAEGRIRSMKAFWGEANLVPRD",
+                  "midline": "++VQ+ M RYIEL+D  DI+ IV +YA DATVE P G+PP  G E I  FYR  LG   ARA  TGPV ASH G+GA+PF V+  +NG+  ++ V   M FD  GRI++M+A+W   NL  R+"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "ref|WP_280286207.1|",
+                  "accession": "WP_280286207",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. BN415]",
+                  "taxid": 2567889,
+                  "sciname": "Pseudomonas sp. BN415"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 6.53813e-31,
+                  "identity": 62,
+                  "positive": 82,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "SPQQVQQTMARYIELVDACDIDGIRALYADNATVEDPVGSPLHVGIDAIDRFYREGLGKANARARRTGPVSASHAGSGAVPFCVDLDWNGRACSIQVIDVMEFDAEGRIVSMKAFWGEANLVPRE",
+                  "midline": "+ ++VQ+ MARYIEL+D  DI+ I  +YAD+ATVE P G+P   G + I  FYR  LG   ARA  TGPV ASH G+GA+PF V+  +NG+  ++ V   M FD  GRI +M+A+W   NL  RE"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_076460904.1|",
+                  "accession": "WP_076460904",
+                  "title": "nuclear transport factor 2 family protein [Marinobacterium stanieri]",
+                  "taxid": 49186,
+                  "sciname": "Marinobacterium stanieri"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 9.09765e-31,
+                  "identity": 58,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 144,
+                  "hit_from": 3,
+                  "hit_to": 124,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLS",
+                  "hseq": "SAQKVQAVMQQYIERVDAVDVDAILELYADDAQVEDPVGAPVHRGKAAIEAFYRKGLTGAKMRATLQGPVRASDAGSGAIAFRVDVLEGEMPGSIDVIDVMEFNEKGQIRSMKAYWGPLNFT",
+                  "midline": "+A++VQ +M +YIE +D  D++AI+++YADDA VE P GAP   G+  I  FYR+ L G   RATL GPVRAS  G+GA+ FRV+ +    P ++DV   M F+E G+I++M+AYW  +N +"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_068825918.1|",
+                  "accession": "WP_068825918",
+                  "title": "steroid Delta-isomerase [Pseudomonas sp. BMS12]",
+                  "taxid": 1796033,
+                  "sciname": "Pseudomonas sp. BMS12"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.33144e-30,
+                  "identity": 62,
+                  "positive": 78,
+                  "query_from": 23,
+                  "query_to": 143,
+                  "hit_from": 2,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "TVEAKRAAMQRYVERVDAGDIDGILALYADDAIVEDPVGTPALVGRTAIERFYREGLGRSNARARLTGPVRVAGN-SAAMPFRVELEWDGKPCAIEVIDVMEFAEDGRFQSMKAYWGPDNL",
+                  "midline": "T E  +  M RY+E +D GDI+ I+ +YADDA VE P G P + GR  I  FYR  LG   ARA LTGPVR + N + AMPFRVE  ++G+P A++V   M F E GR Q+M+AYW   NL"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "ref|WP_333983777.1|",
+                  "accession": "WP_333983777",
+                  "title": "steroid Delta-isomerase [Ectopseudomonas khazarica]",
+                  "taxid": 2502979,
+                  "sciname": "Ectopseudomonas khazarica"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 1.3819e-30,
+                  "identity": 59,
+                  "positive": 76,
+                  "query_from": 23,
+                  "query_to": 138,
+                  "hit_from": 2,
+                  "hit_to": 116,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "TAEAMRAAMQRYIELVDAGDVDGILALYADDARVEDPVGTPPLIGRTAIERFYHKGLGRNKVHAHLTGPVRVAGN-CAAMPFRIELEWDGQPCTIRVIDVMEFNEDGRFQSMKAYW",
+                  "midline": "TAE ++  M RYIEL+D GD++ I+ +YADDA VE P G PP+ GR  I  FY + LG     A LTGPVR + N   AMPFR+E  ++GQP  + V   M F+E GR Q+M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_092435291.1|",
+                  "accession": "WP_092435291",
+                  "title": "steroid Delta-isomerase [Geopseudomonas sagittaria]",
+                  "taxid": 1135990,
+                  "sciname": "Geopseudomonas sagittaria"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.82731e-30,
+                  "identity": 59,
+                  "positive": 84,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "TPKQIQAQMALYVQLVDAGDIDGILALYAADATVEDPVGTPVHQGIDAITRFYREGLARSRARASLDGAVRATHNGYGAVPFRVELDWDGRRCSIEVIDVMEFDTEGCIRSMRAYWGEPNLTMRD",
+                  "midline": "T +++Q  MA Y++L+D GDI+ I+ +YA DATVE P G P   G + I  FYR  L    ARA+L G VRA+HNG GA+PFRVE  ++G+  +++V   M FD  G I++M+AYW   NL++R+"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|WP_239041722.1|",
+                  "accession": "WP_239041722",
+                  "title": "nuclear transport factor 2 family protein [Marinobacterium sediminicola]",
+                  "taxid": 518898,
+                  "sciname": "Marinobacterium sediminicola"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.15911e-30,
+                  "identity": 61,
+                  "positive": 80,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 125,
+                  "gaps": 2,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFA-MDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "NAEQIHTIMARYLELVSSGDVDAILALYASDAIVEDPVGQPPHIGRHAIDAFYRNGLGEMKVRAELQGPIRATDSGWGAMPFSVT-VTNADPVTRIDVIDVMEFDDKGRIKSMKAYWGEQNLTTQ",
+                  "midline": " AE++  +MARY+EL+  GD++AI+ +YA DA VE P G PP  GR  I  FYR  LG    RA L GP+RA+ +G GAMPF V  V N  P   +DV   M FD+ GRI++M+AYW   NL+ +"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "ref|WP_217336107.1|",
+                  "accession": "WP_217336107",
+                  "title": "nuclear transport factor 2 family protein [Marinobacterium weihaiense]",
+                  "taxid": 2851016,
+                  "sciname": "Marinobacterium weihaiense"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.161,
+                  "score": 287,
+                  "evalue": 8.49124e-30,
+                  "identity": 60,
+                  "positive": 80,
+                  "query_from": 23,
+                  "query_to": 142,
+                  "hit_from": 3,
+                  "hit_to": 121,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVN",
+                  "hseq": "NAQQVRDIMTRYIALVDANDVDAILALYADNAVVEDPVGQPPHVGIDAIAAFYRDGMGQMQVRARLEGPVRATDNGWGAMPFRVE-VLGDEPCHIEVIDVMEFDADGRIRSMKAYWGALN",
+                  "midline": " A++V+ +M RYI L+D  D++AI+ +YAD+A VE P G PP  G + IA FYR  +G    RA L GPVRA+ NG GAMPFRVE V   +P  ++V   M FD  GRI++M+AYW  +N"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_234546215.1|",
+                  "accession": "WP_234546215",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.39,
+                  "score": 285,
+                  "evalue": 1.91503e-29,
+                  "identity": 58,
+                  "positive": 81,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 127,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "SPQQVQEIMTRYVELVDACDIDGILALYARDALVEDPVGSPPHVGIEAVGRFYRNGLGRANARARRTGPVSASHAGSGAVPFCVDLEWNGRACSIQVIDVMEFDVGGLICSMKAYWGEANVVGRD",
+                  "midline": "+ ++VQ++M RY+EL+D  DI+ I+ +YA DA VE P G+PP  G E +  FYR  LG   ARA  TGPV ASH G+GA+PF V+  +NG+  ++ V   M FD  G I +M+AYW   N+  R+"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|WP_244731081.1|",
+                  "accession": "WP_244731081",
+                  "title": "steroid Delta-isomerase [Paenibacillus mangrovi]",
+                  "taxid": 2931978,
+                  "sciname": "Paenibacillus mangrovi"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 109.383,
+                  "score": 272,
+                  "evalue": 1.46565e-27,
+                  "identity": 47,
+                  "positive": 78,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPTQSEMKAVMQKYLDAFNAEDADAVIALYADNATIEDPVGSPTLQGKEAIGAFYRQVIPMG-SKLKLVTPIRGSHSNSAAMAFVVESVMDGNPININVIDVMTFDESGKITSMRAYW",
+                  "midline": "+PT  E++ +M +Y++  +  D +A++ +YAD+AT+E P G+P + G+E I  FYR+++  G ++  L  P+R SH+ + AM F VE V +G P  ++V   M FDE G+I +M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_343800536.1|",
+                  "accession": "WP_343800536",
+                  "title": "nuclear transport factor 2 family protein [Marinobacterium maritimum]",
+                  "taxid": 500162,
+                  "sciname": "Marinobacterium maritimum"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.997,
+                  "score": 271,
+                  "evalue": 2.30325e-27,
+                  "identity": 57,
+                  "positive": 78,
+                  "query_from": 23,
+                  "query_to": 143,
+                  "hit_from": 3,
+                  "hit_to": 123,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "SAQQVRDTMTRYIELVDAGDVEGIVALYAEDAVVEDPVGEPVHEGIDAIARFYREGMGQMEISARLEGPVRATDSGWGAVPFRVEVLGGEQPGYIEVIDVMEFNTQGQICSMKAYWGPLNF",
+                  "midline": "+A++V+  M RYIEL+D GD+E IV +YA+DA VE P G P   G + IA FYR  +G     A L GPVRA+ +G GA+PFRVE +   QP  ++V   M F+  G+I +M+AYW  +N "
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_020585078.1|",
+                  "accession": "WP_020585078",
+                  "title": "nuclear transport factor 2 family protein [Endozoicomonas elysicola]",
+                  "taxid": 305900,
+                  "sciname": "Endozoicomonas elysicola"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.612,
+                  "score": 270,
+                  "evalue": 3.32497e-27,
+                  "identity": 54,
+                  "positive": 82,
+                  "query_from": 20,
+                  "query_to": 145,
+                  "hit_from": 1,
+                  "hit_to": 125,
+                  "align_len": 126,
+                  "gaps": 1,
+                  "qseq": "MLPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSV",
+                  "hseq": "MISTST-IREKMELYVQLVNKRDIKAILELYAADATVEDPVGVEPLQGIEAISRFYREGLGQSEASAEQTGDVRTTISGEGAIPFQVKVTFEGRPCVITVIDVMQFNDDGKITSMKAYWSQDNLEV",
+                  "midline": "M+ T+  +++ M  Y++L++  DI+AI+++YA DATVE P G  P+ G E I+ FYR  LG   A A  TG VR + +G GA+PF+V+  F G+P  + V   M+F++ G+I +M+AYW   NL V"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_215372589.1|",
+                  "accession": "WP_215372589",
+                  "title": "nuclear transport factor 2 family protein [Metapseudomonas boanensis]",
+                  "taxid": 2822138,
+                  "sciname": "Metapseudomonas boanensis"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 106.301,
+                  "score": 264,
+                  "evalue": 2.4507e-26,
+                  "identity": 57,
+                  "positive": 79,
+                  "query_from": 23,
+                  "query_to": 147,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 125,
+                  "gaps": 1,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "SEEQVRASLARYVELVGAGDIDGILALYAEDATVEDPVGKPPYVGIEAISRFYREGLGRLDATARLDGSIRATRN-CGAVPFCVDLDWGGSLRTIEVIDVMEFDAEGRIRSMKAYWGESNMIARE",
+                  "midline": "+ E+V+  +ARY+EL+  GDI+ I+ +YA+DATVE P G PP  G E I+ FYR  LG   A A L G +RA+ N  GA+PF V+  + G    ++V   M FD  GRI++M+AYW   N+  RE"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|WP_271470581.1|",
+                  "accession": "WP_271470581",
+                  "title": "nuclear transport factor 2 family protein [Metapseudomonas resinovorans]",
+                  "taxid": 53412,
+                  "sciname": "Metapseudomonas resinovorans"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 104.76,
+                  "score": 260,
+                  "evalue": 1.26573e-25,
+                  "identity": 55,
+                  "positive": 79,
+                  "query_from": 25,
+                  "query_to": 147,
+                  "hit_from": 5,
+                  "hit_to": 126,
+                  "align_len": 123,
+                  "gaps": 1,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "QQVRAKLARYVELVDAVDIDGILALYAEDAVVEDPVGKPPFVGIEAISRFYREGLGRLNASARLDGSIRATR-GCGAVPFCVDLDWGGQARSIEVIDVMEFDAEGRIRSMKAFWGDANMIARE",
+                  "midline": "++V+  +ARY+EL+D  DI+ I+ +YA+DA VE P G PP  G E I+ FYR  LG   A A L G +RA+  G GA+PF V+  + GQ  +++V   M FD  GRI++M+A+W   N+  RE"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|WP_441808595.1|",
+                  "accession": "WP_441808595",
+                  "title": "nuclear transport factor 2 family protein [Marinobacter sp.]",
+                  "taxid": 50741,
+                  "sciname": "Marinobacter sp."
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.99,
+                  "score": 258,
+                  "evalue": 2.21774e-25,
+                  "identity": 54,
+                  "positive": 77,
+                  "query_from": 23,
+                  "query_to": 144,
+                  "hit_from": 3,
+                  "hit_to": 124,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLS",
+                  "hseq": "SAQQVRDTMARYVELVNAIDVGGILALYAEDATVEDPVGQPLHSGIEAIGQFYREGLGKVQVQASLEGAIRATDNGWGAMPFRVVIHGGDQPGVIQVIDVMEFNADGRIRSMKAFWGELNFT",
+                  "midline": "+A++V+  MARY+EL++  D+  I+ +YA+DATVE P G P   G E I  FYR  LG    +A+L G +RA+ NG GAMPFRV      QP  + V   M F+  GRI++M+A+W  +N +"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|WP_422917277.1|",
+                  "accession": "WP_422917277",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. CR3202]",
+                  "taxid": 3351532,
+                  "sciname": "Pseudomonas sp. CR3202"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.219,
+                  "score": 256,
+                  "evalue": 4.00611e-25,
+                  "identity": 56,
+                  "positive": 77,
+                  "query_from": 25,
+                  "query_to": 147,
+                  "hit_from": 5,
+                  "hit_to": 126,
+                  "align_len": 123,
+                  "gaps": 1,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "QQVRATLARYVELVGAVDIDGILELYAADAVVEDPVGKPPYVGIEAIARFYREGLGRLDATARLDGSIRATR-GCGAVPFCVDLNWGGQSRTIEVIDVMEFDAEGRIRSMKAYWGEANMIARE",
+                  "midline": "++V+  +ARY+EL+   DI+ I+++YA DA VE P G PP  G E IA FYR  LG   A A L G +RA+  G GA+PF V+  + GQ   ++V   M FD  GRI++M+AYW   N+  RE"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "ref|WP_245583874.1|",
+                  "accession": "WP_245583874",
+                  "title": "steroid Delta-isomerase [Paenibacillus terrigena]",
+                  "taxid": 369333,
+                  "sciname": "Paenibacillus terrigena"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 2.61696e-24,
+                  "identity": 44,
+                  "positive": 76,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 34,
+                  "hit_to": 150,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MSTQSEMKAVMQKYLDAFNAQDADAVLALYAENATVEDPVGSPPLQGKEAIGAFYQKVIPMG-SKLKLAAPIRGSHSNSAAMAFVVESAMDGHTVNINVIDVMTFDESGKITSMRAYW",
+                  "midline": "+ T  E++ +M +Y++  +  D +A++ +YA++ATVE P G+PP+ G+E I  FY++++  G ++  L  P+R SH+ + AM F VE   +G    ++V   M FDE G+I +M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|WP_088190476.1|",
+                  "accession": "WP_088190476",
+                  "title": "nuclear transport factor 2 family protein [Metapseudomonas furukawaii]",
+                  "taxid": 1149133,
+                  "sciname": "Metapseudomonas furukawaii"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.9821,
+                  "score": 245,
+                  "evalue": 2.43129e-23,
+                  "identity": 54,
+                  "positive": 76,
+                  "query_from": 23,
+                  "query_to": 146,
+                  "hit_from": 3,
+                  "hit_to": 125,
+                  "align_len": 124,
+                  "gaps": 1,
+                  "qseq": "TAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "SEEQVRATLARYVELVGAGDMDGILALYAEDARVEDPVGKPAHVGIEAISRFYREGLGRLDATARLDGAIRATR-GCGAVPFCVDLDWAGQARTIEVIDVMEFDADGRIRCMKAYWGEANMVAR",
+                  "midline": "+ E+V+  +ARY+EL+  GD++ I+ +YA+DA VE P G P   G E I+ FYR  LG   A A L G +RA+  G GA+PF V+  + GQ   ++V   M FD  GRI+ M+AYW   N+  R"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_034833663.1|",
+                  "accession": "WP_034833663",
+                  "title": "nuclear transport factor 2 family protein [Endozoicomonas numazuensis]",
+                  "taxid": 1137799,
+                  "sciname": "Endozoicomonas numazuensis"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.8265,
+                  "score": 242,
+                  "evalue": 6.67136e-23,
+                  "identity": 44,
+                  "positive": 68,
+                  "query_from": 27,
+                  "query_to": 140,
+                  "hit_from": 7,
+                  "hit_to": 120,
+                  "align_len": 114,
+                  "gaps": 0,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDW",
+                  "hseq": "IKSVLEKYVELVDVGDIDGILNLYDDNAVVEDPVGSDPHVGIKAIEDFYRNGLGQAEASANLIGPVRTTSANEGAMAFQVKIKMEGMNMLIDTLDVMELNDDGKVTSMKAYWSY",
+                  "midline": "++ ++ +Y+EL+DVGDI+ I+ +Y D+A VE P G+ P  G + I  FYR  LG   A A L GPVR +    GAM F+V+    G    +D    M  ++ G++ +M+AYW +"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_343862963.1|",
+                  "accession": "WP_343862963",
+                  "title": "steroid Delta-isomerase [Paenibacillus motobuensis]",
+                  "taxid": 295324,
+                  "sciname": "Paenibacillus motobuensis"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 2.35385e-22,
+                  "identity": 46,
+                  "positive": 75,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 113,
+                  "align_len": 118,
+                  "gaps": 5,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPTQSEMKAIMQQYLDAFNAQDADAVIALYADNATVEDPVGSEPLQGKEAIDAFYQQVIPYG-SKLKLVAPIRGSHSNSAAMAFVVESAV-GSINVIDV---MTFDESGKITSMRAYW",
+                  "midline": "+PT  E++ +M +Y++  +  D +A++ +YAD+ATVE P G+ P+ G+E I  FY++++  G ++  L  P+R SH+ + AM F VE    G    +DV   M FDE G+I +M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|MGI9276797.1|",
+                  "accession": "MGI9276797",
+                  "title": "nuclear transport factor 2 family protein [Endozoicomonas sp.]",
+                  "taxid": 1892382,
+                  "sciname": "Endozoicomonas sp."
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.1301,
+                  "score": 235,
+                  "evalue": 7.49568e-22,
+                  "identity": 47,
+                  "positive": 67,
+                  "query_from": 27,
+                  "query_to": 140,
+                  "hit_from": 7,
+                  "hit_to": 120,
+                  "align_len": 114,
+                  "gaps": 0,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDW",
+                  "hseq": "IKGTLEKYIQLVDASDIDGIIALYADNATVEDPVGTEPYVGIEAIDAFYRNGLGQMKVNAELTGQVRTTTANEGAMPFVVRAVTEEGTMIINVIDVMKFNDEGKIISMKAYWSY",
+                  "midline": "++  + +YI+L+D  DI+ I+ +YAD+ATVE P G  P  G E I  FYR  LG     A LTG VR +    GAMPF V  V       ++V   M+F++ G+I +M+AYW +"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|WP_163877493.1|",
+                  "accession": "WP_163877493",
+                  "title": "nuclear transport factor 2 family protein [Paenibacillus favisporus]",
+                  "taxid": 221028,
+                  "sciname": "Paenibacillus favisporus"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 1.08884e-21,
+                  "identity": 40,
+                  "positive": 70,
+                  "query_from": 27,
+                  "query_to": 138,
+                  "hit_from": 7,
+                  "hit_to": 117,
+                  "align_len": 112,
+                  "gaps": 1,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "IKTVMKQYIDRFNQDDVEGVLSLFGEEATVEDPVGSPAVEGKSAIAEFYKKVVNGN-TRIRLEGPIRGSHSNSGAMALQITTSAEGKTISVPVIEVMTFDEQGSIASMKAYW",
+                  "midline": "++ +M +YI+  +  D+E ++ ++ ++ATVE P G+P + G+  IA FY++++ G   R  L GP+R SH+ +GAM  ++     G+  ++ V   M FDE G I +M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|WP_420429117.1|",
+                  "accession": "WP_420429117",
+                  "title": "steroid Delta-isomerase [Algiphilus sp.]",
+                  "taxid": 1872431,
+                  "sciname": "Algiphilus sp."
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.9745,
+                  "score": 232,
+                  "evalue": 1.60955e-21,
+                  "identity": 50,
+                  "positive": 67,
+                  "query_from": 27,
+                  "query_to": 138,
+                  "hit_from": 7,
+                  "hit_to": 117,
+                  "align_len": 112,
+                  "gaps": 1,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MKAAMQAYIDHFNAADPEAIVRLYAEDATVEDPVGSPVRQGREAITEFYRMAVQTG-ARLTLAAPIRASHSNAAAMAFDVQLTMPEGPSVIRVIDVMTFNDAGKFQSMQAYW",
+                  "midline": "++  M  YI+  +  D EAIV++YA+DATVE P G+P   GRE I  FYR  +  G AR TL  P+RASH+   AM F V+      P  + V   M F++ G+ Q+MQAYW"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gb|MDX9741717.1|",
+                  "accession": "MDX9741717",
+                  "title": "nuclear transport factor 2 family protein [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 1.88943e-21,
+                  "identity": 48,
+                  "positive": 66,
+                  "query_from": 28,
+                  "query_to": 143,
+                  "hit_from": 2,
+                  "hit_to": 116,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "QKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNL",
+                  "hseq": "QTALQAYLEALNAGDAEAIVDLFADDASIEDPVGLGVKKGREALVAFYRNAVNTG-ARFQLDGPIRASFSNTAAMAISVVVALRGTPVRIDIIEVMNFDEAGKICSMQAIFGRSNI",
+                  "midline": "Q  +  Y+E ++ GD EAIV ++ADDA++E P G     GRE +  FYR  +  G AR  L GP+RAS + T AM   V     G P  +D+   M FDE G+I +MQA +   N+"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|WP_258205482.1|",
+                  "accession": "WP_258205482",
+                  "title": "steroid Delta-isomerase [Paenibacillus radicibacter]",
+                  "taxid": 2972488,
+                  "sciname": "Paenibacillus radicibacter"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.9745,
+                  "score": 232,
+                  "evalue": 1.95565e-21,
+                  "identity": 42,
+                  "positive": 71,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MQSQSEMKAALQSYVDNFNAGNAEGVIALFAQNATVEDPVGEQPLEGMEAITAFYTQVIASG-SKLTLAAPIRGSHSNSAAMAFVVESNMDGQIIHINVIDVMTFDESGKISSMRAYW",
+                  "midline": "+ +  E++  +  Y++  + G+ E ++ ++A +ATVE P G  P+ G E I  FY +++  G ++ TL  P+R SH+ + AM F VE   +GQ   ++V   M FDE G+I +M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_213649804.1|",
+                  "accession": "WP_213649804",
+                  "title": "nuclear transport factor 2 family protein [Paenibacillus sp. J23TS9]",
+                  "taxid": 2807193,
+                  "sciname": "Paenibacillus sp. J23TS9"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 2.95279e-21,
+                  "identity": 43,
+                  "positive": 69,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPTEQEIKTAMQSYIDSFNQDNLEGILSLFAEEATVEDPAGTAPVQGKAAITEFYRKVVNGN-TRIHRQEPIRASHGNSGAMALHIETQVDGSAFIFHIIEVMTFNENGLITSMTAYW",
+                  "midline": "+PT +E++  M  YI+  +  ++E I+ ++A++ATVE P G  P+ G+  I  FYR+++ G   R     P+RASH  +GAM   +E   +G  F   +   M F+E+G I +M AYW"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gb|MDR3419344.1|",
+                  "accession": "MDR3419344",
+                  "title": "steroid Delta-isomerase [Nevskia sp.]",
+                  "taxid": 1929292,
+                  "sciname": "Nevskia sp."
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.6633,
+                  "score": 226,
+                  "evalue": 1.36134e-20,
+                  "identity": 46,
+                  "positive": 70,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPSEKVMKQALQAYIDAFNRSDAEAVIALYADDATVEDPVGKDVLVGKERIAAFYRMAIGTG-AKLALAAPIRASHGNSAAMAFDVQLNMPQGKALIRVIDVMTFDDEGRFSSMRAFW",
+                  "midline": "+P+ + +++ +  YI+  +  D EA++ +YADDATVE P G   + G+ERIA FYR  +G G A+  L  P+RASH  + AM F V+         + V   M FD+ GR  +M+A+W"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_341920116.1|",
+                  "accession": "WP_341920116",
+                  "title": "steroid Delta-isomerase [Hydrocarboniphaga effusa]",
+                  "taxid": 243629,
+                  "sciname": "Hydrocarboniphaga effusa"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.2781,
+                  "score": 225,
+                  "evalue": 1.9359e-20,
+                  "identity": 47,
+                  "positive": 69,
+                  "query_from": 25,
+                  "query_to": 145,
+                  "hit_from": 5,
+                  "hit_to": 124,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "EEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSV",
+                  "hseq": "NQMKNVLQAYIDGFNHGDAEAIIALYADDATVEDPVGKPPMQGKPAIAKFYRNSIKTG-AKLALAAPIRASQGQEAAMAFDVRLEMPQGPALIRVIDVMRFDSEGKIASMRAFWGLSDMQM",
+                  "midline": " +++ ++  YI+  + GD EAI+ +YADDATVE P G PP+ G+  IA FYR  +  G A+  L  P+RAS     AM F V       P  + V   MRFD  G+I +M+A+W   ++ +"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "ref|WP_310860153.1|",
+                  "accession": "WP_310860153",
+                  "title": "nuclear transport factor 2 family protein [Paenibacillus sp. VCA1]",
+                  "taxid": 3039148,
+                  "sciname": "Paenibacillus sp. VCA1"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 2.81338e-20,
+                  "identity": 44,
+                  "positive": 66,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPTEQHIKTAMQSYIDCFNRDDLEGILSLYAEDAVVEDPAGSEPVRGKAAIAEFYRNVV-NGTTRIRREEPIRGSHANSGAMAVHIETKVEGATIVIHVIEIMNFNDDGRIASMTAYW",
+                  "midline": "+PT + ++  M  YI+  +  D+E I+ +YA+DA VE P G+ P+ G+  IA FYR ++  G  R     P+R SH  +GAM   +E    G    + V   M F++ GRI +M AYW"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|WP_212976782.1|",
+                  "accession": "WP_212976782",
+                  "title": "nuclear transport factor 2 family protein [Paenibacillus azoreducens]",
+                  "taxid": 116718,
+                  "sciname": "Paenibacillus azoreducens"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.5077,
+                  "score": 223,
+                  "evalue": 5.2384e-20,
+                  "identity": 46,
+                  "positive": 69,
+                  "query_from": 21,
+                  "query_to": 147,
+                  "hit_from": 1,
+                  "hit_to": 126,
+                  "align_len": 127,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVRE",
+                  "hseq": "MPTEREIKTAMQAYIDYFNRDDLQGILSLYADDAVVEDPAGTAPIEGKADITEFYRKVVNGR-TRIYRQEPIRGSHSNSGAMAIHIETQAENSRFVFHVIEVMTFNEDGLISSMKAYWGRGDMEKKE",
+                  "midline": "+PT  E++  M  YI+  +  D++ I+ +YADDA VE P G  PI G+  I  FYR+++ G   R     P+R SH+ +GAM   +E       F   V   M F+E G I +M+AYW   ++  +E"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "ref|WP_150801644.1|",
+                  "accession": "WP_150801644",
+                  "title": "steroid delta-isomerase, partial [Pseudomonas fluorescens]",
+                  "taxid": 294,
+                  "sciname": "Pseudomonas fluorescens"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 7.24089e-20,
+                  "identity": 43,
+                  "positive": 56,
+                  "query_from": 59,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 88,
+                  "align_len": 88,
+                  "gaps": 0,
+                  "qseq": "PFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "PVGQAPLQGIDAIARFYREGLGAMKVSATQTGPVRATLNGCGAMPFRVDMEWGGQPCSLHVIDVMEFDTDGKVRSMKAYWSEVNVIAR",
+                  "midline": "P G  P+ G + IA FYR  LG     AT TGPVRA+ NG GAMPFRV+  + GQP ++ V   M FD  G++++M+AYW  VN+  R"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "tpg|HWY24558.1|",
+                  "accession": "HWY24558",
+                  "title": "steroid Delta-isomerase [Nevskia sp.]",
+                  "taxid": 1929292,
+                  "sciname": "Nevskia sp."
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 7.7873e-20,
+                  "identity": 47,
+                  "positive": 69,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPSEKTMKAAMQAYIDGFNRNDLDAIIGLYADDATVEDPVGKEVMQGREKIAAFYKMSLTTG-AKLKLAAPVRASHGNSAAMAFDVELNMPQGHMVIRVIDVMTFNEAGKFSSMRAFW",
+                  "midline": "+P+ + ++  M  YI+  +  D++AI+ +YADDATVE P G   + GRE+IA FY+  L  G A+  L  PVRASH  + AM F VE         + V   M F+E G+  +M+A+W"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gb|MDY0065658.1|",
+                  "accession": "MDY0065658",
+                  "title": "steroid Delta-isomerase [Steroidobacteraceae bacterium]",
+                  "taxid": 2689616,
+                  "sciname": "Steroidobacteraceae bacterium"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 1.09603e-19,
+                  "identity": 49,
+                  "positive": 67,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 113,
+                  "align_len": 118,
+                  "gaps": 5,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPSSSEMKAVLQAYIDAFNRGDAEAIVALYAEDATVEDPVGSPPKRGRQAILEFYREAIATG-GRIVLDSPMRGSHGDAAAMAFSVHV----GPMTVRVIDTMTFDASGRITQMRAYF",
+                  "midline": "+P++ E++ ++  YI+  + GD EAIV +YA+DATVE P G+PP  GR+ I  FYR  +  G  R  L  P+R SH    AM F V       P  + V   M FD  GRI  M+AY+"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "tpg|HZR38349.1|",
+                  "accession": "HZR38349",
+                  "title": "steroid Delta-isomerase [Nevskia sp.]",
+                  "taxid": 1929292,
+                  "sciname": "Nevskia sp."
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 1.16246e-19,
+                  "identity": 47,
+                  "positive": 67,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPSEQVMKAAMQAYIDGFNQSSAEAVVALYADDATVEDPVGKEVMQGKEKIAAFYRMSIATG-ARLKLAAPIRASHGNSAAMAFDVELNLPQGRMLIRVIDVMTFDEAGKFTSMRAFW",
+                  "midline": "+P+ + ++  M  YI+  +    EA+V +YADDATVE P G   + G+E+IA FYR  +  G AR  L  P+RASH  + AM F VE         + V   M FDE G+  +M+A+W"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|WP_222428800.1|",
+                  "accession": "WP_222428800",
+                  "title": "nuclear transport factor 2 family protein [Denitratisoma sp. DHT3]",
+                  "taxid": 1981880,
+                  "sciname": "Denitratisoma sp. DHT3"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 1.23978e-19,
+                  "identity": 47,
+                  "positive": 68,
+                  "query_from": 20,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 120,
+                  "gaps": 2,
+                  "qseq": "MLPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQ-PFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MMPTSAEMKAVMTKYASLVSAGDAEAVVALYADNATIEDPVGSPAQSGREAIAKFYQGACASGVKINVLSGP-YGSFGNSAAMVAEVLVEVPGLGPSRIELVEVMEFDAQGKISAMRAYW",
+                  "midline": "M+PT+ E++ +M +Y  L+  GD EA+V +YAD+AT+E P G+P   GRE IA FY+     G+    L+GP   S   + AM   V     G  P  +++   M FD  G+I  M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_206596696.1|",
+                  "accession": "WP_206596696",
+                  "title": "nuclear transport factor 2 family protein, partial [Bowmanella yangjiangensis]",
+                  "taxid": 2811230,
+                  "sciname": "Bowmanella yangjiangensis"
+                }
+              ],
+              "len": 94,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 1.81479e-19,
+                  "identity": 47,
+                  "positive": 57,
+                  "query_from": 52,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 94,
+                  "align_len": 95,
+                  "gaps": 1,
+                  "qseq": "DDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "DDARVEDPVGTPPLIGRTAIERFYHKGLGRNKVHARLTGPVRVAGN-CAAMPFRIELEWGGQPCTIMVIDVMEFNEDGRFQSMKAYWGVDNLELR",
+                  "midline": "DDA VE P G PP+ GR  I  FY + LG     A LTGPVR + N   AMPFR+E  + GQP  + V   M F+E GR Q+M+AYW   NL +R"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "tpg|HUS23858.1|",
+                  "accession": "HUS23858",
+                  "title": "steroid Delta-isomerase [Candidatus Binatia bacterium]",
+                  "taxid": 2838779,
+                  "sciname": "Candidatus Binatia bacterium"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 2.17652e-19,
+                  "identity": 45,
+                  "positive": 71,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 118,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MVSEQQMKQAMQAYVDGFNRDDLEAVVGLYADDATVEDPVGKPVMSGKPRIREFYTMAMKTG-ARLSLAAPIRASHGDSAAMAFDVTLNYQGRRMVIRVIDVMTFDAAGRFRSMRAFW",
+                  "midline": "+ + +++++ M  Y++  +  D+EA+V +YADDATVE P G P + G+ RI  FY   +  G AR +L  P+RASH  + AM F V   + G+   + V   M FD  GR ++M+A+W"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_378285984.1|",
+                  "accession": "WP_378285984",
+                  "title": "steroid Delta-isomerase [Actinomadura rugatobispora]",
+                  "taxid": 1994,
+                  "sciname": "Actinomadura rugatobispora"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 2.42947e-19,
+                  "identity": 45,
+                  "positive": 69,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 114,
+                  "align_len": 120,
+                  "gaps": 8,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRV--EMRFDEHGRIQTMQAYW",
+                  "hseq": "MPEQERMKQVLQAYVDGFAEGDAAAVAGLFADDATIEDPVGNPPISGRAAIDEFYANAVGSG-AKLSLDGPIRGSHGNSAAMAFTIEV-----PGVVRIRAIEVMTFDDDGKVTEMRAYW",
+                  "midline": "+P  E +++++  Y++    GD  A+  ++ADDAT+E P G PPI GR  I  FY   +G G A+ +L GP+R SH  + AM F +E      P  + +R    M FD+ G++  M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_395111666.1|",
+                  "accession": "WP_395111666",
+                  "title": "nuclear transport factor 2 family protein [Actinomadura sp. SCN-SB]",
+                  "taxid": 3373092,
+                  "sciname": "Actinomadura sp. SCN-SB"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 2.69214e-19,
+                  "identity": 46,
+                  "positive": 67,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 122,
+                  "gaps": 11,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVE----MRFDEHGRIQTMQAYW",
+                  "hseq": "MPAQEQMKKALQTYIDSFDAGDAATIAELFADDAVIEDPVGKPQISGRPAIDEFYAKAISAG-TKLTLDGPIRGSHGNGAAMALTIEVP------AMNLRIRAIDAMTFNEDGKIVEMRAYW",
+                  "midline": "+P  E+++K +  YI+  D GD   I +++ADDA +E P G P I GR  I  FY + +  G  + TL GP+R SH    AM   +E        AM++R+     M F+E G+I  M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "ref|WP_354008428.1|",
+                  "accession": "WP_354008428",
+                  "title": "nuclear transport factor 2 family protein [Endozoicomonas lisbonensis]",
+                  "taxid": 3120522,
+                  "sciname": "Endozoicomonas lisbonensis"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 2.81671e-19,
+                  "identity": 47,
+                  "positive": 68,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MVSKELIRQKMELYIRLLNAGDVEGIIGLYADDAVVEDPVGTDPYVGIDAIASFYRGGLGQVEVSAEQTGAVRTTAASEGAVPFRVILRNDDQTIVVEPIDFMRFNDDGKIVCMRAFW",
+                  "midline": "+ + E +++ M  YI L++ GD+E I+ +YADDA VE P G  P  G + IA FYR  LG     A  TG VR +    GA+PFRV    + Q   ++    MRF++ G+I  M+A+W"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_157529826.1|",
+                  "accession": "WP_157529826",
+                  "title": "nuclear transport factor 2 family protein [Microtetraspora niveoalba]",
+                  "taxid": 46175,
+                  "sciname": "Microtetraspora niveoalba"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 3.13276e-19,
+                  "identity": 47,
+                  "positive": 60,
+                  "query_from": 28,
+                  "query_to": 138,
+                  "hit_from": 5,
+                  "hit_to": 114,
+                  "align_len": 111,
+                  "gaps": 1,
+                  "qseq": "QKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "KEALQEYVTAWNAGDAAAIVALFADDAIVADPYGTPPREGREAIRAFYEDGVKTG-ARLTLDAPIRGSHGDRAAMAFTVELTTEAGPMRIRVIDVMTFDEHGKIARMEALW",
+                  "midline": "++ +  Y+   + GD  AIV ++ADDA V  P+G PP  GRE I  FY   +  G AR TL  P+R SH    AM F VE      P  + V   M FDEHG+I  M+A W"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "ref|WP_145769648.1|",
+                  "accession": "WP_145769648",
+                  "title": "nuclear transport factor 2 family protein [Denitratisoma oestradiolicum]",
+                  "taxid": 311182,
+                  "sciname": "Denitratisoma oestradiolicum"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 3.16281e-19,
+                  "identity": 47,
+                  "positive": 67,
+                  "query_from": 21,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 2,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQ-PFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MPTSADMKAVMTRYAALVSAGDAEAVVALYADNATIEDPVGAPIQSGREAIVKFYQGACASGVKIKVLSGP-YGSFGNSAAMTAEVLVDVPGQGPTRIELIEVMEFDAQGKISAMRAYW",
+                  "midline": "+PT+ +++ +M RY  L+  GD EA+V +YAD+AT+E P GAP   GRE I  FY+     G+    L+GP   S   + AM   V     GQ P  +++   M FD  G+I  M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_366918129.1|",
+                  "accession": "WP_366918129",
+                  "title": "steroid Delta-isomerase [Algiphilus sp.]",
+                  "taxid": 1872431,
+                  "sciname": "Algiphilus sp."
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 3.28351e-19,
+                  "identity": 51,
+                  "positive": 64,
+                  "query_from": 27,
+                  "query_to": 138,
+                  "hit_from": 7,
+                  "hit_to": 117,
+                  "align_len": 113,
+                  "gaps": 3,
+                  "qseq": "VQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVF-NGQPFAMDVRVEMRFDEHGRIQTMQAYW",
+                  "hseq": "MKAAMQAYIDAFNAADPEAIAALYADDATVEDPVGSDRKHGREAILAFYRMAVQTG-ARLSLAAPIRASHDNAAAMAFDVHLEMPTGQSVIRVIDV-MRFDADGRFASMEAYW",
+                  "midline": "++  M  YI+  +  D EAI  +YADDATVE P G+   HGRE I  FYR  +  G AR +L  P+RASH+   AM F V      GQ     + V MRFD  GR  +M+AYW"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_339321011.1|",
+                  "accession": "WP_339321011",
+                  "title": "nuclear transport factor 2 family protein [Paenibacillus sp. FSL W8-0194]",
+                  "taxid": 2921711,
+                  "sciname": "Paenibacillus sp. FSL W8-0194"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 3.58334e-19,
+                  "identity": 43,
+                  "positive": 68,
+                  "query_from": 21,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 125,
+                  "align_len": 126,
+                  "gaps": 1,
+                  "qseq": "LPTAEEVQKLMARYIELMDVGDIEAIVQMYADDATVEAPFGAPPIHGRERIAYFYRRMLGGGIARATLTGPVRASHNGTGAMPFRVEYVFNGQPFAMDVRVEMRFDEHGRIQTMQAYWDWVNLSVR",
+                  "hseq": "MLTEQHIKTAMQNYIDCFNRDDLEGILSLYAEDAVVEDPAGSEPVRGKAAIAEFYRKVVNGS-TRIRREEPIRGSHEHSGAMAVHIETTVEGATIVIHVIELMTFNEEGLITGMKAYWGQSDIETK",
+                  "midline": "+ T + ++  M  YI+  +  D+E I+ +YA+DA VE P G+ P+ G+  IA FYR+++ G   R     P+R SH  +GAM   +E    G    + V   M F+E G I  M+AYW   ++  +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

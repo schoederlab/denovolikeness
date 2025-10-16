@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368725",
+          "query_title": "7jzl_E,G,F",
+          "query_len": 55,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7JZL|E",
+                  "accession": "7JZL_E",
+                  "title": "Chain E, LCB1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.916,
+                  "score": 263,
+                  "evalue": 1.30313e-28,
+                  "identity": 55,
+                  "positive": 55,
+                  "query_from": 1,
+                  "query_to": 55,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 55,
+                  "gaps": 0,
+                  "qseq": "DKEWILQKIYEIMRLLDELGHAEASMRVSDLIYEFMKKGDERLLEEAERLLEEVE",
+                  "hseq": "DKEWILQKIYEIMRLLDELGHAEASMRVSDLIYEFMKKGDERLLEEAERLLEEVE",
+                  "midline": "DKEWILQKIYEIMRLLDELGHAEASMRVSDLIYEFMKKGDERLLEEAERLLEEVE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7X7N|D",
+                  "accession": "7X7N_D",
+                  "title": "Chain D, Synthetic peptide SIH-5 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 38,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 3.43872e-14,
+                  "identity": 35,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 38,
+                  "hit_from": 1,
+                  "hit_to": 38,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "DKEWILQKIYEIMRLLDELGHAEASMRVSDLIYEFMKK",
+                  "hseq": "DKEWILQKIYEIMRLLDELXDXEASMRVSDLIYEFMKK",
+                  "midline": "DKEWILQKIYEIMRLLDEL   EASMRVSDLIYEFMKK"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|8YDR|A",
+                  "accession": "8YDR_A",
+                  "title": "Chain A, SARS-CoV-2 inhibiting peptide Ce59 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 39,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 5.2583e-14,
+                  "identity": 33,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 38,
+                  "hit_from": 1,
+                  "hit_to": 38,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "DKEWILQKIYEIMRLLDELGHAEASMRVSDLIYEFMKK",
+                  "hseq": "DKEWILQKIYEIMRRLDEEGHGEASLRVSDLIYEFMKR",
+                  "midline": "DKEWILQKIYEIMR LDE GH EAS+RVSDLIYEFMK+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

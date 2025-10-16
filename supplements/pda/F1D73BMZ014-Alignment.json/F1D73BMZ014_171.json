@@ -1,0 +1,166 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368816",
+          "query_title": "3he5_B,D,F",
+          "query_len": 52,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|3HE5|B",
+                  "accession": "3HE5_B",
+                  "title": "Chain B, SYNZIP2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 52,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.908,
+                  "score": 250,
+                  "evalue": 1.26829e-26,
+                  "identity": 52,
+                  "positive": 52,
+                  "query_from": 1,
+                  "query_to": 52,
+                  "hit_from": 1,
+                  "hit_to": 52,
+                  "align_len": 52,
+                  "gaps": 0,
+                  "qseq": "GSARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ",
+                  "hseq": "GSARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ",
+                  "midline": "GSARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|UDE22653.1|",
+                  "accession": "UDE22653",
+                  "title": "NanoLuc-SZ2, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.9821,
+                  "score": 245,
+                  "evalue": 9.38505e-24,
+                  "identity": 50,
+                  "positive": 50,
+                  "query_from": 3,
+                  "query_to": 52,
+                  "hit_from": 183,
+                  "hit_to": 232,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "ARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ",
+                  "hseq": "ARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ",
+                  "midline": "ARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|UDE22656.1|",
+                  "accession": "UDE22656",
+                  "title": "GFP-SZ2, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.1301,
+                  "score": 235,
+                  "evalue": 6.74987e-22,
+                  "identity": 50,
+                  "positive": 50,
+                  "query_from": 3,
+                  "query_to": 52,
+                  "hit_from": 257,
+                  "hit_to": 306,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "ARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ",
+                  "hseq": "ARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ",
+                  "midline": "ARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVASHEQ"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|8FSJ|A",
+                  "accession": "8FSJ_A",
+                  "title": "Chain A, HCV E1 ectodomain, SYNZIP1 scaffold fusion [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 206,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.0485,
+                  "score": 227,
+                  "evalue": 1.87588e-21,
+                  "identity": 45,
+                  "positive": 45,
+                  "query_from": 3,
+                  "query_to": 48,
+                  "hit_from": 161,
+                  "hit_to": 206,
+                  "align_len": 46,
+                  "gaps": 0,
+                  "qseq": "ARNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVA",
+                  "hseq": "GRNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVA",
+                  "midline": " RNAYLRKKIARLKKDNLQLERDEQNLEKIIANLRDEIARLENEVA"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

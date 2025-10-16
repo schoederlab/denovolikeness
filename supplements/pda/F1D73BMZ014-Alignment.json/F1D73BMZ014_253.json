@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368898",
+          "query_title": "8k7m_C,B,D,A",
+          "query_len": 238,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8K7M|A",
+                  "accession": "8K7M_A",
+                  "title": "Chain A, De novo design protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 456.062,
+                  "score": 1172,
+                  "evalue": 2.58499e-161,
+                  "identity": 238,
+                  "positive": 238,
+                  "query_from": 1,
+                  "query_to": 238,
+                  "hit_from": 1,
+                  "hit_to": 238,
+                  "align_len": 238,
+                  "gaps": 0,
+                  "qseq": "NNMFLVVALDGGREADAVAVMKAAKERGIKIILWLAGDVERLKRLFEKAKELGTDIAGIILDGAPLEKLRPVIKLAAEFGAALFLANMPDAATAEEAIKIAKEEGLEVYLLADLDNLDTVLALAKKYGAKVIAKVDKVEDLKKIVEKVKAHGTDILAGILISPLKPEMVDTLKKAIDELPGVKTVFLSGVSANPALAVEVTKFLLEKGIAVGVLERVPPEEVVALLDAGALEHHHHHH",
+                  "hseq": "NNMFLVVALDGGREADAVAVMKAAKERGIKIILWLAGDVERLKRLFEKAKELGTDIAGIILDGAPLEKLRPVIKLAAEFGAALFLANMPDAATAEEAIKIAKEEGLEVYLLADLDNLDTVLALAKKYGAKVIAKVDKVEDLKKIVEKVKAHGTDILAGILISPLKPEMVDTLKKAIDELPGVKTVFLSGVSANPALAVEVTKFLLEKGIAVGVLERVPPEEVVALLDAGALEHHHHHH",
+                  "midline": "NNMFLVVALDGGREADAVAVMKAAKERGIKIILWLAGDVERLKRLFEKAKELGTDIAGIILDGAPLEKLRPVIKLAAEFGAALFLANMPDAATAEEAIKIAKEEGLEVYLLADLDNLDTVLALAKKYGAKVIAKVDKVEDLKKIVEKVKAHGTDILAGILISPLKPEMVDTLKKAIDELPGVKTVFLSGVSANPALAVEVTKFLLEKGIAVGVLERVPPEEVVALLDAGALEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|MEK6624738.1|",
+                  "accession": "MEK6624738",
+                  "title": "TrmH family RNA methyltransferase [Bdellovibrionota bacterium]",
+                  "taxid": 3034175,
+                  "sciname": "Bdellovibrionota bacterium"
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.0259753,
+                  "identity": 26,
+                  "positive": 37,
+                  "query_from": 72,
+                  "query_to": 141,
+                  "hit_from": 115,
+                  "hit_to": 183,
+                  "align_len": 70,
+                  "gaps": 1,
+                  "qseq": "VIKLAAEFGAALFLANMPDAATAEEAIKIAKEEGLEVYLLADLDNLDTVLALAKKYGAKVIAKVDKVEDL",
+                  "hseq": "IMRVAAHFGVSGLLTNRPDMATTSAAFRVA-EGGGEFVTLVDLGDTDNVMTLLKKHHFTTLATSSHTSDL",
+                  "midline": "++++AA FG +  L N PD AT   A ++A E G E   L DL + D V+ L KK+    +A      DL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
