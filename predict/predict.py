@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 
 import os
+import shutil
 import sys
 import logging
 import warnings
+import argparse
+from sklearn.exceptions import InconsistentVersionWarning
 warnings.filterwarnings('ignore', category=FutureWarning)
-logging.disable(logging.WARNING)
+warnings.filterwarnings('ignore', category=InconsistentVersionWarning)
+
 os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 from pathlib import Path
@@ -21,13 +25,12 @@ from code.utils import (
     get_ensembled_predictions,
     prep_input,
     split_feat,
-    get_dist_acc
+    get_dist_acc,
+    pyrosetta_get_chains
 )
 from code.functions import (
     P_struc_given_seq,
     P_contact_given_seq,
-    distance_score,
-    d_close,
     perc_contact,
     perc_no_contact
 )
@@ -44,7 +47,7 @@ from code.config import (
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    format='[%(asctime)s] %(name)s | %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
 
@@ -53,19 +56,37 @@ pyrosetta.init('-mute all', silent=True)
 
 class PredictionPipeline:
     
-    def __init__(self, input_path: str):
+    def __init__(self, input_path: str, overwrite: bool = True, save_structure: bool = False):
 
         self.input_path = Path(input_path)
         if not self.input_path.exists():
             raise FileNotFoundError(f"Input path not found: {input_path}")
         
         self.directory_name = self.input_path.name
-        self.features_file = Path(f"{self.directory_name}_features.csv")
-        self.predictions_file = Path(f"{self.directory_name}_predictions.csv")
+        self.features_file = self.input_path / f"{self.directory_name}_features.csv"
+        self.predictions_file = self.input_path / f"{self.directory_name}_predictions.csv"
+
+        self.overwrite = overwrite
+        if self.overwrite or not self.features_file.exists():
+            with open(self.features_file, "w") as f:
+                f.write("pdb_file\t" + '\t'.join(OUTPUT_FEATURES) + "\n")
+        if self.overwrite or not self.predictions_file.exists():
+            with open(self.predictions_file, "w") as f:
+                f.write("pdb_file,prediction\n")
+
+        # Create output directories
+        self.npz_dir = self.input_path / "npz_files"
+        self.fasta_dir = self.input_path / "fasta"
+        self.pred_structure_dir = self.input_path / "pred_structure"
+        logger.info(f"Creating output directories: {self.npz_dir}, {self.fasta_dir} and {self.pred_structure_dir}")
+        self.npz_dir.mkdir(exist_ok=True)
+        self.fasta_dir.mkdir(exist_ok=True)
+        self.pred_structure_dir.mkdir(exist_ok=True)
         
         # Load model and scaler
         self.model = self._load_model()
         self.scaler = self._load_scaler()
+        self.save_structure = save_structure
     
     def _load_model(self) -> Any:
 
@@ -85,26 +106,23 @@ class PredictionPipeline:
             logger.error(f"Error loading scaler: {str(e)}")
             raise
     
-    def process_structure(self, pdb_file: Path) -> Dict[str, float]:
+    def process_structure(self, temp_pdb_path:Path, pose) -> Optional[Dict[str, float]]:
 
         try:
-            # Load and process structure
-            pose = pyrosetta.pose_from_file(str(pdb_file)).split_by_chain(1)
-            pose.dump_pdb('ChainA.pdb')
-            
             # Create FASTA file
             seq = pose.sequence()
-            header = f">{pdb_file}"
-            fasta_path = pdb_file.with_suffix(FASTA_EXTENSION)
+            header = f">{temp_pdb_path.name}"
+            fasta_path = self.fasta_dir / temp_pdb_path.with_suffix(FASTA_EXTENSION).name
+            logger.info(f"Creating FASTA file: {fasta_path}")
             with open(fasta_path, 'w') as fasta:
                 fasta.write(f"{header}\n{seq}\n")
             
-            # Get predictions
-            get_ensembled_predictions(str(fasta_path))
-            npz_path = pdb_file.with_suffix(NPZ_EXTENSION)
+            npz_path = self.npz_dir / temp_pdb_path.with_suffix(NPZ_EXTENSION).name
+            logger.info(f"Creating NPZ file: {npz_path}")
+            get_ensembled_predictions(str(fasta_path), str(npz_path))
             
             # Process structure features
-            pdb_out = prep_input('ChainA.pdb')
+            pdb_out = prep_input(str(temp_pdb_path))
             pdb_feat = pdb_out["feat"][None]
             
             # Extract features
@@ -156,12 +174,13 @@ class PredictionPipeline:
             return scores
             
         except Exception as e:
-            logger.error(f"Error processing {pdb_file}: {str(e)}")
-            raise
+            logger.error(f"Error processing {temp_pdb_path}: {str(e)}")
+            return None
     
-    def predict(self, features: Dict[str, float]) -> float:
+    def predict(self, features: Dict[str, float]) -> Optional[float]:
 
         try:
+            logger.info("Starting prediction...")
             X = np.array([[
                 features[feat] for feat in OUTPUT_FEATURES
             ]])
@@ -173,42 +192,80 @@ class PredictionPipeline:
             raise
     
     def run(self) -> None:
-
         try:
             # Process each PDB file
             for pdb_file in self.input_path.glob(PDB_PATTERN):
                 logger.info(f"Processing {pdb_file.name}")
                 
                 # Calculate features
-                features = self.process_structure(pdb_file)
-                
-                # Save features
-                feature_line = "\t".join([
-                    str(pdb_file),
-                    *[str(features[feat]) for feat in OUTPUT_FEATURES]
-                ])
-                with open(self.features_file, "a") as f:
-                    f.write(f"{feature_line}\n")
-                
-                # Make and save prediction
-                prediction = self.predict(features)
-                with open(self.predictions_file, "a") as f:
-                    f.write(f"{pdb_file.name},{prediction}\n")
-                
-                logger.info(f"Prediction saved to {self.predictions_file}")
+                chains = pyrosetta_get_chains(pyrosetta.pose_from_file(str(pdb_file)))
+                if len(chains) > 1:
+                    chain_names = ', '.join([c[1] for c in chains])
+                    logger.warning(f"PDB {pdb_file.name} contains multiple chains: {chain_names}. Process them separately.")
+
+                for chain_id, chain in chains:
+                    logger.info(f"Processing chain {chain} of {pdb_file.name}")
+
+                    pose = pyrosetta.pose_from_file(str(pdb_file))
+                    pose = pose.split_by_chain(chain_id)
+                    temp_pdb_path = self.pred_structure_dir / f"{pdb_file.stem}_chain-{chain}.pdb"
+                    pose.dump_pdb(str(temp_pdb_path))
+
+                    features = self.process_structure(temp_pdb_path, pose)
+
+                    if features is None:
+                        logger.warning(f"Skipping {pdb_file.name} due to processing errors.")
+                        continue
+                    
+                    # Save features
+                    feature_line = "\t".join([
+                        str(temp_pdb_path.name),
+                        *[str(features[feat]) for feat in OUTPUT_FEATURES]
+                    ])
+                    with open(self.features_file, "a") as f:
+                        f.write(f"{feature_line}\n")
+                    
+                    # Make and save prediction
+                    prediction = self.predict(features)
+                    if prediction is None:
+                        logger.warning(f"Skipping prediction for {temp_pdb_path.name} due to prediction errors.")
+                        continue
+
+                    with open(self.predictions_file, "a") as f:
+                        f.write(f"{temp_pdb_path.name},{prediction}\n")
+                    
+                    logger.info(f"Prediction saved to {self.predictions_file}")
+
+            logger.info("=" * 50)
+            logger.info("Pipeline finished.")
+            logger.info(f"Feature file saved to: {self.features_file}")
+            logger.info(f"Predictions file saved to: {self.predictions_file}")
                 
         except Exception as e:
             logger.error(f"Pipeline failed: {str(e)}")
             raise
+        finally:
+            if not self.save_structure:
+                if self.pred_structure_dir.exists():
+                    shutil.rmtree(self.pred_structure_dir)
+                    logger.info(f"Removed temporary structure directory: {self.pred_structure_dir}")
 
 def main():
 
     try:
-        if len(sys.argv) != 2:
-            print("Usage: predict.py <pdb_directory>")
-            sys.exit(1)
-        
-        pipeline = PredictionPipeline(sys.argv[1])
+        parser = argparse.ArgumentParser(description="Predict denovolikeness of PDB structures.")
+        parser.add_argument("pdb_directory", type=str, help="Directory containing PDB files.")
+        parser.add_argument("--no-logging", dest="logging", action="store_false", help="Disable logging.")
+        parser.add_argument("--save-structure", action="store_true", help="Save the PDB files of the first chain.")
+        parser.add_argument("--no-overwrite", dest='overwrite', action="store_false", help="Prevent overwriting existing prediction files.")
+        parser.set_defaults(overwrite=True)
+        parser.set_defaults(logging=True)
+        args = parser.parse_args()
+
+        if not args.logging:
+            logging.disable(logging.CRITICAL)
+
+        pipeline = PredictionPipeline(args.pdb_directory, overwrite=args.overwrite, save_structure=args.save_structure)
         pipeline.run()
         
     except Exception as e:

@@ -66,6 +66,15 @@ This will:
    - `<directory_name>_features.csv`: Contains calculated structural features
    - `<directory_name>_predictions.csv`: Contains final predictions
 
+### Command-line options
+
+The prediction script `predict.py` accepts the following command-line arguments:
+
+-   `pdb_directory`: (Required) The path to the directory containing the PDB files you want to analyze.
+-   `--no-logging`: (Optional) Disable logging to the console.
+-   `--save-structure`: (Optional) Save the PDB files of the first chain of each processed protein.
+-   `--no-overwrite`: (Optional) Prevent the script from overwriting existing prediction and feature files.
+
 ### Output Files
 
 1. Features File (`<directory_name>_features.csv`):

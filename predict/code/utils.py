@@ -1,6 +1,7 @@
 # load libraries
 import numpy as np
 import string, sys, getopt
+import pyrosetta
 
 DB_DIR = "/home/iwe18/Documents/joh/trDesign/02-GD" # location of databases
 
@@ -170,6 +171,11 @@ def pairwise_id(x):
 
 def arr2str(x, d=3):
   return np.array2string(x,formatter={'float_kind':lambda x: f"%.{d}f" % x}).replace("\n","").replace(" ",",")
+
+
+def pyrosetta_get_chains(pose):
+    chains = [(k, v) for k, v in pyrosetta.rosetta.core.pose.conf2pdb_chain(pose).items()]
+    return chains
 
 #####################################################################
 # Working with multiple sequence alignments
@@ -550,9 +556,9 @@ def get_ensembled_predictions(input_file, output_file=None, model_dir=DEFAULT_MO
     net = trRosettaNetwork()
     i = preprocess(input_file)
 
-    if output_file is None:
-        input_path = Path(input_file)
-        output_file = f'{input_path.parents[0] / input_path.stem}.npz'
+    # if output_file is None:
+    #     input_path = Path(input_file)
+    #     output_file = f'{input_path.parents[0] / input_path.stem}.npz'
 
     outputs = []
     model_files = [*Path(model_dir).glob('*.pt')]
