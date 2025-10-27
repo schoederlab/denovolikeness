@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368681",
+          "query_title": "6tj1_A,B,C",
+          "query_len": 93,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6TJ1|A",
+                  "accession": "6TJ1_A",
+                  "title": "Chain A, De novo designed WSHC6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 93,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 181.03,
+                  "score": 458,
+                  "evalue": 3.36477e-57,
+                  "identity": 93,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 93,
+                  "hit_from": 1,
+                  "hit_to": 93,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "MGSSHHHHHHSSGLVPRGSHMTEDEIRKLRKLLEEAEKKLYKLEDKTRRSEEISKTDDDPKAQSLQLIAESLMLIAESLLIIAISLLLSSRNG",
+                  "hseq": "MGSSHHHHHHSSGLVPRGSHMTEDEIRKLRKLLEEAEKKLYKLEDKTRRSEEISKTDDDPKAQSLQLIAESLMLIAESLLIIAISLLLSSRNG",
+                  "midline": "MGSSHHHHHHSSGLVPRGSHMTEDEIRKLRKLLEEAEKKLYKLEDKTRRSEEISKTDDDPKAQSLQLIAESLMLIAESLLIIAISLLLSSRNG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|6TMS|G",
+                  "accession": "6TMS_G",
+                  "title": "Chain G, a novel designed pore protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 69,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.487,
+                  "score": 319,
+                  "evalue": 2.50355e-36,
+                  "identity": 68,
+                  "positive": 69,
+                  "query_from": 22,
+                  "query_to": 90,
+                  "hit_from": 1,
+                  "hit_to": 69,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "TEDEIRKLRKLLEEAEKKLYKLEDKTRRSEEISKTDDDPKAQSLQLIAESLMLIAESLLIIAISLLLSS",
+                  "hseq": "TEDEIRKLKKLLEEAEKKLYKLEDKTRRSEEISKTDDDPKAQSLQLIAESLMLIAESLLIIAISLLLSS",
+                  "midline": "TEDEIRKL+KLLEEAEKKLYKLEDKTRRSEEISKTDDDPKAQSLQLIAESLMLIAESLLIIAISLLLSS"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

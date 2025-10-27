@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368902",
+          "query_title": "6xxv_C,F",
+          "query_len": 124,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6XXV|C",
+                  "accession": "6XXV_C",
+                  "title": "Chain C, S2_1.2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 250.751,
+                  "score": 639,
+                  "evalue": 7.81607e-84,
+                  "identity": 124,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 124,
+                  "hit_from": 1,
+                  "hit_to": 124,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "MASREDMREEADEDFKSFVEAAKDNFNKFKARLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTGGSWLEHHHHHH",
+                  "hseq": "MASREDMREEADEDFKSFVEAAKDNFNKFKARLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTGGSWLEHHHHHH",
+                  "midline": "MASREDMREEADEDFKSFVEAAKDNFNKFKARLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTGGSWLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|4JLR|C",
+                  "accession": "4JLR_C",
+                  "title": "Chain C, RSV_1Isea designed scaffold [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 1.97942e-42,
+                  "identity": 78,
+                  "positive": 93,
+                  "query_from": 2,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "ASREDMREEADEDFKSFVEAAKDNFNKFKARLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTGGSWLEH",
+                  "hseq": "GSRSDMRKDAERRFDKFVEAAKNKFDKFKAALRKGDIKEERRKDMKKLARKEAEQARRAVRNRLSELLSKINDMPITNDQKKLMSNDVLKFAAEAEKKIEALAADAEDKFTQGSWLEH",
+                  "midline": " SR DMR++A+  F  FVEAAK+ F+KFKA LRKG I  E R+ MKKLA++ A +A+ AVR RLSELLSKINDMPITNDQKKLMSN VL+FA +AE +I+ LAA A  +FT GSWLEH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|4L8I|A",
+                  "accession": "4L8I_A",
+                  "title": "Chain A, RSV epitope scaffold FFL_005 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 1.85833e-13,
+                  "identity": 44,
+                  "positive": 64,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 121,
+                  "gaps": 6,
+                  "qseq": "ASREDMREEADEDFKSFVEAAKDNFNKFKARLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTGGSWLEHHHH",
+                  "hseq": "GSMSDIRKDLEERFDKLVEALKNKVDKMKAAFRMDQFHEERMKDWFKDLRKEVEQMRRAVRNYASEALSKINDLPITNDDKKLASNDVLKLVAEVWKKLEAILADVE------AWFTHHHH",
+                  "midline": " S  D+R++ +E F   VEA K+  +K KA  R  +   E  +   K  ++   + + AVR   SE LSKIND+PITND KKL SN VL+   +   +++ + A         +W  HHHH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gb|KAI5138471.1|",
+                  "accession": "KAI5138471",
+                  "title": "Ribosome-Recycling Factor [Manis pentadactyla]",
+                  "taxid": 143292,
+                  "sciname": "Manis pentadactyla"
+                }
+              ],
+              "len": 420,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.62929e-11,
+                  "identity": 38,
+                  "positive": 50,
+                  "query_from": 37,
+                  "query_to": 113,
+                  "hit_from": 258,
+                  "hit_to": 336,
+                  "align_len": 79,
+                  "gaps": 2,
+                  "qseq": "KITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDMPIT--NDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "KVTREHREMLVKLAKQNTNKAKETLRKVRTNAMNKLKKSKDTASEDTIRLIEKQISQMADDTAAELDKHLAVKTKELLG",
+                  "midline": "K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+     T   D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|XP_074067746.1|",
+                  "accession": "XP_074067746",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Macrotis lagotis]",
+                  "taxid": 92651,
+                  "sciname": "Macrotis lagotis"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.3958,
+                  "score": 163,
+                  "evalue": 4.62311e-11,
+                  "identity": 40,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 88,
+                  "hit_to": 171,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMMVKLAKQNTNKAKDALRKVRTNAINKLKKSKDTVAEDTIKLIEKQIGQMADDTVAEMDKHLALKTKELLG",
+                  "midline": "R+   K+TREHREMM KLAKQN NKAK+A+RK  +  ++K+      +  D  KL+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|XP_039586576.1|",
+                  "accession": "XP_039586576",
+                  "title": "ribosome-recycling factor, mitochondrial [Passer montanus]",
+                  "taxid": 9160,
+                  "sciname": "Passer montanus"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 5.69075e-11,
+                  "identity": 38,
+                  "positive": 57,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 150,
+                  "hit_to": 233,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQIKKSKSKVSEDTIRLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ +++I  +   ++ D  +L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|XP_064250163.1|",
+                  "accession": "XP_064250163",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Passer domesticus]",
+                  "taxid": 48849,
+                  "sciname": "Passer domesticus"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 7.75657e-11,
+                  "identity": 38,
+                  "positive": 57,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 166,
+                  "hit_to": 249,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQIKKSKSKVSEDTIRLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ +++I  +   ++ D  +L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|XP_006890741.1|",
+                  "accession": "XP_006890741",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial isoform X2 [Elephantulus edwardii]",
+                  "taxid": 28737,
+                  "sciname": "Elephantulus edwardii"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.3958,
+                  "score": 163,
+                  "evalue": 8.19344e-11,
+                  "identity": 38,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 127,
+                  "hit_to": 210,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKESLRKIRTNAMNKLKKSKNTVSEDTIRLIEKQISQMADDTVAELDRNLAVKTKELIG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE++RK  +  ++K+  +   ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|XP_064250162.1|",
+                  "accession": "XP_064250162",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Passer domesticus]",
+                  "taxid": 48849,
+                  "sciname": "Passer domesticus"
+                }
+              ],
+              "len": 277,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 9.02247e-11,
+                  "identity": 38,
+                  "positive": 57,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 194,
+                  "hit_to": 277,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQIKKSKSKVSEDTIRLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ +++I  +   ++ D  +L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|XP_006890740.1|",
+                  "accession": "XP_006890740",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial isoform X1 [Elephantulus edwardii]",
+                  "taxid": 28737,
+                  "sciname": "Elephantulus edwardii"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 1.31807e-10,
+                  "identity": 38,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKESLRKIRTNAMNKLKKSKNTVSEDTIRLIEKQISQMADDTVAELDRNLAVKTKELIG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE++RK  +  ++K+  +   ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|XP_039081043.1|",
+                  "accession": "XP_039081043",
+                  "title": "ribosome-recycling factor, mitochondrial, partial [Hyaena hyaena]",
+                  "taxid": 95912,
+                  "sciname": "Hyaena hyaena"
+                }
+              ],
+              "len": 78,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 1.45842e-10,
+                  "identity": 35,
+                  "positive": 51,
+                  "query_from": 38,
+                  "query_to": 113,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 2,
+                  "qseq": "ITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "VTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTAAELDRHLAVKTKELLG",
+                  "midline": "+TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|XP_010137313.1|",
+                  "accession": "XP_010137313",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial [Buceros rhinoceros silvestris]",
+                  "taxid": 175836,
+                  "sciname": "Buceros rhinoceros silvestris"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.3958,
+                  "score": 163,
+                  "evalue": 1.65209e-10,
+                  "identity": 38,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSISQVKKFKSKVSEDTIWLLEKQIQQMSDDAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ +S++      ++ D   L+  Q+ Q +DDA AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|XP_051835541.1|",
+                  "accession": "XP_051835541",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X3 [Antechinus flavipes]",
+                  "taxid": 38775,
+                  "sciname": "Antechinus flavipes"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 3.0281e-10,
+                  "identity": 38,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 127,
+                  "hit_to": 210,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDALRKVRTNAMNKLKKSKDTVAEDTIKLIEKQIGQMADDTAVEMDKHLAQKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+A+RK  +  ++K+      +  D  KL+  Q+ Q ADD   E+D+  A+ TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|XP_004677429.1|",
+                  "accession": "XP_004677429",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial [Condylura cristata]",
+                  "taxid": 143302,
+                  "sciname": "Condylura cristata"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 3.82121e-10,
+                  "identity": 38,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKESLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|XP_072604807.1|",
+                  "accession": "XP_072604807",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Vulpes vulpes]",
+                  "taxid": 9627,
+                  "sciname": "Vulpes vulpes"
+                }
+              ],
+              "len": 315,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.0106,
+                  "score": 162,
+                  "evalue": 4.09176e-10,
+                  "identity": 38,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 232,
+                  "hit_to": 315,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMMVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREMM KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|NXN91022.1|",
+                  "accession": "NXN91022",
+                  "title": "RRFM protein [Rhinopomastus cyanomelas]",
+                  "taxid": 113115,
+                  "sciname": "Rhinopomastus cyanomelas"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 4.37169e-10,
+                  "identity": 37,
+                  "positive": 57,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPRVTREHRESLAKLAKQSTNKSKEALRKVRSKSINQVKKSKSKVSDDTIWLLEKQIQQMADDAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   ++TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   +++D   L+  Q+ Q ADDA AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|NP_080698.1|",
+                  "accession": "NP_080698",
+                  "title": "ribosome-recycling factor, mitochondrial precursor [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 4.68784e-10,
+                  "identity": 39,
+                  "positive": 52,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKENLRKVRTNAMNKLKKSKDKTSEDTIRLIEKQISQMADDTVAELDQHLAAKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+DQ  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|XP_036606443.1|",
+                  "accession": "XP_036606443",
+                  "title": "ribosome-recycling factor, mitochondrial [Trichosurus vulpecula]",
+                  "taxid": 9337,
+                  "sciname": "Trichosurus vulpecula"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 4.8834e-10,
+                  "identity": 39,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDALRKVRTNAMNKLKKSKDTVAEDTIKLIEKQIGQMADDTVAEMDKHLALKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+A+RK  +  ++K+      +  D  KL+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|XP_041581228.1|",
+                  "accession": "XP_041581228",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X3 [Vulpes lagopus]",
+                  "taxid": 494514,
+                  "sciname": "Vulpes lagopus"
+                }
+              ],
+              "len": 272,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 4.92668e-10,
+                  "identity": 38,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 189,
+                  "hit_to": 272,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMMVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREMM KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|XP_025865035.2|",
+                  "accession": "XP_025865035",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Vulpes vulpes]",
+                  "taxid": 9627,
+                  "sciname": "Vulpes vulpes"
+                }
+              ],
+              "len": 341,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 5.78802e-10,
+                  "identity": 38,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 258,
+                  "hit_to": 341,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMMVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREMM KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|XP_019485552.1|",
+                  "accession": "XP_019485552",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial, partial [Hipposideros armiger]",
+                  "taxid": 186990,
+                  "sciname": "Hipposideros armiger"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 5.89093e-10,
+                  "identity": 38,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 74,
+                  "hit_to": 157,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKESLRKVRTSAMNKLKKSKDKASEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gb|NWI96327.1|",
+                  "accession": "NWI96327",
+                  "title": "RRFM protein [Pitta sordida]",
+                  "taxid": 9163,
+                  "sciname": "Pitta sordida"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 6.5911e-10,
+                  "identity": 38,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 173,
+                  "hit_to": 256,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRENLAKLAKQSTNKSKEALRKVRSKSISQVKKSKSKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ +S++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gb|NWY30878.1|",
+                  "accession": "NWY30878",
+                  "title": "RRFM protein [Pheucticus melanocephalus]",
+                  "taxid": 371919,
+                  "sciname": "Pheucticus melanocephalus"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 6.83771e-10,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 66,
+                  "hit_to": 149,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQATNKSKEALRKVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ  NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|XP_045739040.1|",
+                  "accession": "XP_045739040",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X3 [Mirounga angustirostris]",
+                  "taxid": 9716,
+                  "sciname": "Mirounga angustirostris"
+                }
+              ],
+              "len": 294,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 7.42804e-10,
+                  "identity": 38,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 211,
+                  "hit_to": 294,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKITREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   KITREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|ABQ22332.1|",
+                  "accession": "ABQ22332",
+                  "title": "mitochondrial ribosome recycling factor precursor-like protein, partial [Callithrix jacchus]",
+                  "taxid": 9483,
+                  "sciname": "Callithrix jacchus"
+                }
+              ],
+              "len": 90,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.3882,
+                  "score": 150,
+                  "evalue": 8.19917e-10,
+                  "identity": 35,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 7,
+                  "hit_to": 90,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELERHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+++  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|XP_075295901.1|",
+                  "accession": "XP_075295901",
+                  "title": "ribosome-recycling factor, mitochondrial [Opisthocomus hoazin]",
+                  "taxid": 30419,
+                  "sciname": "Opisthocomus hoazin"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 8.23468e-10,
+                  "identity": 39,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 177,
+                  "hit_to": 260,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRENLAKLAKQSTNKSKEALRKVRSKSVNQIKKFKNKVSEDTLWLLEKQIQQMADDAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ +++I      ++ D   L+  Q+ Q ADDA AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|TRZ17265.1|",
+                  "accession": "TRZ17265",
+                  "title": "hypothetical protein HGM15179_009861 [Zosterops borbonicus]",
+                  "taxid": 364589,
+                  "sciname": "Zosterops borbonicus"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 8.34251e-10,
+                  "identity": 36,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 163,
+                  "hit_to": 246,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKFKNSVSEDTIRLLEKQIQQMADEAAMEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D  +L+  Q+ Q AD+A  E+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|NXL56532.1|",
+                  "accession": "NXL56532",
+                  "title": "RRFM protein [Chordeiles acutipennis]",
+                  "taxid": 118183,
+                  "sciname": "Chordeiles acutipennis"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 9.22761e-10,
+                  "identity": 38,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 175,
+                  "hit_to": 258,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKNVNQVKKFKNKVSEDTIWLLEKQIQQMADDAAAELDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q ADDA AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|NWU93657.1|",
+                  "accession": "NWU93657",
+                  "title": "RRFM protein [Upupa epops]",
+                  "taxid": 57439,
+                  "sciname": "Upupa epops"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.00062e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKAKEVLRKVRSKSIAQVKKFKSKVSDDTIWLLEKQIQQMADDAAAEMEKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NKAKE +RK  S+ ++++      +++D   L+  Q+ Q ADDA AE+++L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gb|NWR33637.1|",
+                  "accession": "NWR33637",
+                  "title": "RRFM protein [Tachuris rubrigastra]",
+                  "taxid": 495162,
+                  "sciname": "Tachuris rubrigastra"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.03175e-09,
+                  "identity": 38,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRENLVKLAKQSTNKSKEALRKVRSKSISQVKKSKSKVSEDTIWLLEKQIQQMADEAVAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ +S++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gb|KAI5763090.1|",
+                  "accession": "KAI5763090",
+                  "title": "MRRF protein [Gulo gulo luscus]",
+                  "taxid": 2888765,
+                  "sciname": "Gulo gulo luscus"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.08271e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|NP_001166983.1|",
+                  "accession": "NP_001166983",
+                  "title": "ribosome-recycling factor, mitochondrial isoform 3 precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 1.26437e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 127,
+                  "hit_to": 210,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNSMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|KAK2489137.1|",
+                  "accession": "KAK2489137",
+                  "title": "hypothetical protein MC885_007565 [Smutsia gigantea]",
+                  "taxid": 1559511,
+                  "sciname": "Smutsia gigantea"
+                }
+              ],
+              "len": 313,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.304e-09,
+                  "identity": 42,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 192,
+                  "hit_to": 275,
+                  "align_len": 85,
+                  "gaps": 4,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRK-RLSEL--LSKINDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKETLRKVRTSAMNKLKKSKDK-ASEDTIRLIEKQISQMADDTAAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE +RK R S +  L K  D   + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|XP_034520341.1|",
+                  "accession": "XP_034520341",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Ailuropoda melanoleuca]",
+                  "taxid": 9646,
+                  "sciname": "Ailuropoda melanoleuca"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.30842e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 201,
+                  "hit_to": 284,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|XP_017528802.2|",
+                  "accession": "XP_017528802",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X4 [Manis javanica]",
+                  "taxid": 9974,
+                  "sciname": "Manis javanica"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 1.37619e-09,
+                  "identity": 38,
+                  "positive": 52,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 201,
+                  "hit_to": 284,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKETLRKVRTNAMNKLKKSKDTASEDTIRLIEKQISQMADDTAAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|XP_027597152.1|",
+                  "accession": "XP_027597152",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Pipra filicauda]",
+                  "taxid": 649802,
+                  "sciname": "Pipra filicauda"
+                }
+              ],
+              "len": 335,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.39443e-09,
+                  "identity": 38,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 252,
+                  "hit_to": 335,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRENLAKLAKQATNKSKEALRKVRSKSISQVKKSKSKVSEDTIYLLEKQIQQMADEAVAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ  NK+KEA+RK  S+ +S++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|XP_028741953.1|",
+                  "accession": "XP_028741953",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Peromyscus leucopus]",
+                  "taxid": 10041,
+                  "sciname": "Peromyscus leucopus"
+                }
+              ],
+              "len": 384,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 1.39586e-09,
+                  "identity": 35,
+                  "positive": 48,
+                  "query_from": 37,
+                  "query_to": 113,
+                  "hit_from": 306,
+                  "hit_to": 384,
+                  "align_len": 79,
+                  "gaps": 2,
+                  "qseq": "KITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "KVTREHREMLVKLAKQNTNKAKENLRKVRTNAMNKLKKSKDKTSEDTIRLIEKQISQMADATVVELDRHLAAKTKELLG",
+                  "midline": "K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+       + D  +L+  Q+ Q AD    E+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|NWS06959.1|",
+                  "accession": "NWS06959",
+                  "title": "RRFM protein [Motacilla alba]",
+                  "taxid": 45807,
+                  "sciname": "Motacilla alba"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 1.47757e-09,
+                  "identity": 37,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 156,
+                  "hit_to": 239,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKSKNKVSEDTIFLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "emb|VCX42022.1|",
+                  "accession": "VCX42022",
+                  "title": "unnamed protein product, partial [Gulo gulo]",
+                  "taxid": 48420,
+                  "sciname": "Gulo gulo"
+                }
+              ],
+              "len": 372,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.53466e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 289,
+                  "hit_to": 372,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gb|KAL9826779.1|",
+                  "accession": "KAL9826779",
+                  "title": "ribosome-recycling factor, mitochondrial isoform 1-T1 [Geothlypis trichas]",
+                  "taxid": 135433,
+                  "sciname": "Geothlypis trichas"
+                }
+              ],
+              "len": 321,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.55812e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 238,
+                  "hit_to": 321,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQATNKSKEALRKVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ  NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|NP_001333276.1|",
+                  "accession": "NP_001333276",
+                  "title": "ribosome-recycling factor, mitochondrial isoform 7 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 1.69531e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 88,
+                  "hit_to": 171,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNSMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|XP_023054361.1|",
+                  "accession": "XP_023054361",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X3 [Piliocolobus tephrosceles]",
+                  "taxid": 591936,
+                  "sciname": "Piliocolobus tephrosceles"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 1.70124e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 201,
+                  "hit_to": 284,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|XP_054502118.1|",
+                  "accession": "XP_054502118",
+                  "title": "ribosome-recycling factor, mitochondrial [Agelaius phoeniceus]",
+                  "taxid": 39638,
+                  "sciname": "Agelaius phoeniceus"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 1.7335e-09,
+                  "identity": 37,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 198,
+                  "hit_to": 281,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gb|NXF18891.1|",
+                  "accession": "NXF18891",
+                  "title": "RRFM protein [Rhodinocichla rosea]",
+                  "taxid": 58203,
+                  "sciname": "Rhodinocichla rosea"
+                }
+              ],
+              "len": 201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 1.74012e-09,
+                  "identity": 36,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 118,
+                  "hit_to": 201,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRRVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+R+  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "emb|CAN8197911.1|",
+                  "accession": "CAN8197911",
+                  "title": "unnamed protein product [Coccothraustes coccothraustes]",
+                  "taxid": 37609,
+                  "sciname": "Coccothraustes coccothraustes"
+                }
+              ],
+              "len": 278,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 1.76522e-09,
+                  "identity": 37,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 195,
+                  "hit_to": 278,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|XP_009083064.1|",
+                  "accession": "XP_009083064",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial [Acanthisitta chloris]",
+                  "taxid": 57068,
+                  "sciname": "Acanthisitta chloris"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 1.77213e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSINQVKKFKSKVSEDTIWLLEKQIQQMADEASAEMDKLLAVKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|XP_059720876.1|",
+                  "accession": "XP_059720876",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Haemorhous mexicanus]",
+                  "taxid": 30427,
+                  "sciname": "Haemorhous mexicanus"
+                }
+              ],
+              "len": 305,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 1.80928e-09,
+                  "identity": 38,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 222,
+                  "hit_to": 305,
+                  "align_len": 86,
+                  "gaps": 6,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI----NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKSKNK--VSEDTLWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++    N   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|XP_065504755.1|",
+                  "accession": "XP_065504755",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Caloenas nicobarica]",
+                  "taxid": 187106,
+                  "sciname": "Caloenas nicobarica"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 1.82001e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 124,
+                  "hit_to": 207,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSVNQVKKFKNKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gb|KAI5942230.1|",
+                  "accession": "KAI5942230",
+                  "title": "Ribosome-recycling factor, mitochondrial [Manis javanica]",
+                  "taxid": 9974,
+                  "sciname": "Manis javanica"
+                }
+              ],
+              "len": 299,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 1.97179e-09,
+                  "identity": 38,
+                  "positive": 52,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 211,
+                  "hit_to": 294,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKETLRKVRTNAMNKLKKSKDTASEDTIRLIEKQISQMADDTAAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|XP_030817332.1|",
+                  "accession": "XP_030817332",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Camarhynchus parvulus]",
+                  "taxid": 87175,
+                  "sciname": "Camarhynchus parvulus"
+                }
+              ],
+              "len": 330,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 2.03372e-09,
+                  "identity": 37,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 247,
+                  "hit_to": 330,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "pdb|6ZS9|A5",
+                  "accession": "6ZS9_A5",
+                  "title": "Chain A5, Ribosome-recycling factor, mitochondrial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 192,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 2.09987e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 109,
+                  "hit_to": 192,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNSMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gb|KAI1232214.1|",
+                  "accession": "KAI1232214",
+                  "title": "Ribosome-recycling factor, partial [Lamprotornis superbus]",
+                  "taxid": 245042,
+                  "sciname": "Lamprotornis superbus"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 2.10968e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 144,
+                  "hit_to": 227,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKFKNKVSEDTIWLLEKQIQQMADEAATEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD+A  E+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gb|KAL6085413.1|",
+                  "accession": "KAL6085413",
+                  "title": "hypothetical protein STEG23_030991 [Scotinomys teguina]",
+                  "taxid": 56236,
+                  "sciname": "Scotinomys teguina"
+                }
+              ],
+              "len": 381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 2.13585e-09,
+                  "identity": 36,
+                  "positive": 49,
+                  "query_from": 37,
+                  "query_to": 113,
+                  "hit_from": 303,
+                  "hit_to": 381,
+                  "align_len": 79,
+                  "gaps": 2,
+                  "qseq": "KITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "KVTREHREMLVKLAKQNTNKAKENLRKVRTNAVNKLKKSKDKASEDTIRLIEKQISQMADATVAELDRHLAAKTKELLG",
+                  "midline": "K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+       + D  +L+  Q+ Q AD   AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "ref|XP_046522026.1|",
+                  "accession": "XP_046522026",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Equus quagga]",
+                  "taxid": 89248,
+                  "sciname": "Equus quagga"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 2.16744e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 201,
+                  "hit_to": 284,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKASEDTIRLIEKQISQMADDTVAELDRYLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gb|NXQ85977.1|",
+                  "accession": "NXQ85977",
+                  "title": "RRFM protein [Nyctibius grandis]",
+                  "taxid": 48427,
+                  "sciname": "Nyctibius grandis"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 2.17304e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSMNQLKKSKDKVSEDTIRLLEKQIQQMADSAVAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D  +L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|XP_071310528.1|",
+                  "accession": "XP_071310528",
+                  "title": "ribosome-recycling factor, mitochondrial [Agelaius tricolor]",
+                  "taxid": 9191,
+                  "sciname": "Agelaius tricolor"
+                }
+              ],
+              "len": 364,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.0846,
+                  "score": 157,
+                  "evalue": 2.23307e-09,
+                  "identity": 37,
+                  "positive": 56,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 281,
+                  "hit_to": 364,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|NP_001333270.1|",
+                  "accession": "NP_001333270",
+                  "title": "ribosome-recycling factor, mitochondrial isoform 1 precursor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 2.25494e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNSMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gb|KAL9826781.1|",
+                  "accession": "KAL9826781",
+                  "title": "ribosome-recycling factor, mitochondrial isoform 3-T3 [Geothlypis trichas]",
+                  "taxid": 135433,
+                  "sciname": "Geothlypis trichas"
+                }
+              ],
+              "len": 291,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 2.29458e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 208,
+                  "hit_to": 291,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQATNKSKEALRKVRSKSITQVKKSKNKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ  NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|NP_001333272.1|",
+                  "accession": "NP_001333272",
+                  "title": "ribosome-recycling factor, mitochondrial isoform 5 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 218,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 2.29512e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 135,
+                  "hit_to": 218,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNSMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|XP_071673299.1|",
+                  "accession": "XP_071673299",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Patagioenas fasciata]",
+                  "taxid": 372321,
+                  "sciname": "Patagioenas fasciata"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 2.36641e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 153,
+                  "hit_to": 236,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSVNQVKKFKSKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "ref|XP_064891562.1|",
+                  "accession": "XP_064891562",
+                  "title": "ribosome-recycling factor, mitochondrial [Columba livia]",
+                  "taxid": 8932,
+                  "sciname": "Columba livia"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 2.43848e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 173,
+                  "hit_to": 256,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSINQVKKFKSKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|XP_023386890.1|",
+                  "accession": "XP_023386890",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X5 [Pteropus vampyrus]",
+                  "taxid": 132908,
+                  "sciname": "Pteropus vampyrus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 2.53278e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 88,
+                  "hit_to": 171,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTSAMNKLKKSKDKASEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|XP_008525126.2|",
+                  "accession": "XP_008525126",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Equus przewalskii]",
+                  "taxid": 9798,
+                  "sciname": "Equus przewalskii"
+                }
+              ],
+              "len": 336,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 2.63728e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 253,
+                  "hit_to": 336,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKASEDTIRLIEKQISQMADDTVAELDRYLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "ref|XP_011844856.1|",
+                  "accession": "XP_011844856",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial isoform X1 [Mandrillus leucophaeus]",
+                  "taxid": 9568,
+                  "sciname": "Mandrillus leucophaeus"
+                }
+              ],
+              "len": 336,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 2.71672e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 253,
+                  "hit_to": 336,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDTVSEDTIRLVEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "gb|OXB76382.1|",
+                  "accession": "OXB76382",
+                  "title": "hypothetical protein H355_006793 [Colinus virginianus]",
+                  "taxid": 9014,
+                  "sciname": "Colinus virginianus"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 2.8458e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 201,
+                  "hit_to": 284,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSVNQVKKFKSKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|NP_001333268.1|",
+                  "accession": "NP_001333268",
+                  "title": "ribosome-recycling factor, mitochondrial isoform 4 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 2.91302e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 200,
+                  "hit_to": 283,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPQVTREHREMLVKLAKQNTNKAKDSLRKVRTNSMNKLKKSKDTVSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   ++TREHREM+ KLAKQN NKAK+++RK  +  ++K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|XP_049753213.1|",
+                  "accession": "XP_049753213",
+                  "title": "ribosome-recycling factor, mitochondrial [Elephas maximus indicus]",
+                  "taxid": 99487,
+                  "sciname": "Elephas maximus indicus"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 2.93805e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKIRTSAMNKLKKSKGKTSEDTLRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+  +    + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|XP_023400736.1|",
+                  "accession": "XP_023400736",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X4 [Loxodonta africana]",
+                  "taxid": 9785,
+                  "sciname": "Loxodonta africana"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 3.0695e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 159,
+                  "hit_to": 242,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKIRTNAMNKLKKSKGKTSEDTLRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+  +    + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|XP_074412573.1|",
+                  "accession": "XP_074412573",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Zonotrichia albicollis]",
+                  "taxid": 44394,
+                  "sciname": "Zonotrichia albicollis"
+                }
+              ],
+              "len": 326,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.3142,
+                  "score": 155,
+                  "evalue": 3.19086e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 243,
+                  "hit_to": 326,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQATNKSKEALRKVRSKSITQVKKSKSKVSEDTIWLLEKQIQQMADEAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ  NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|NXY50041.1|",
+                  "accession": "NXY50041",
+                  "title": "RRFM protein [Ceuthmochares aereus]",
+                  "taxid": 1961834,
+                  "sciname": "Ceuthmochares aereus"
+                }
+              ],
+              "len": 201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 3.25625e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 118,
+                  "hit_to": 201,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSVNQVKKFKSKVSEDTIWLLEKQIQQMADGAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|KFV72213.1|",
+                  "accession": "KFV72213",
+                  "title": "hypothetical protein N308_13218, partial [Struthio camelus australis]",
+                  "taxid": 441894,
+                  "sciname": "Struthio camelus australis"
+                }
+              ],
+              "len": 257,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 3.27443e-09,
+                  "identity": 38,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 174,
+                  "hit_to": 257,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKITREHRESLAKLAKQSTNKSKDALRKVRSKSVTQIKKFKNKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   KITREHRE + KLAKQ+ NK+K+A+RK  S+ +++I      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|XP_025956680.1|",
+                  "accession": "XP_025956680",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X3 [Dromaius novaehollandiae]",
+                  "taxid": 8790,
+                  "sciname": "Dromaius novaehollandiae"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.3882,
+                  "score": 150,
+                  "evalue": 3.66512e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 88,
+                  "hit_to": 171,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKITREHRESLAKLAKQSTNKSKDTLRKVRSKSVTQIKKFKNKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   KITREHRE + KLAKQ+ NK+K+ +RK  S+ +++I      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "ref|NP_001292602.1|",
+                  "accession": "NP_001292602",
+                  "title": "ribosome-recycling factor, mitochondrial [Gallus gallus]",
+                  "taxid": 9031,
+                  "sciname": "Gallus gallus"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 3.69112e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSVNQVKKFKSKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|XP_023557328.1|",
+                  "accession": "XP_023557328",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Octodon degus]",
+                  "taxid": 10160,
+                  "sciname": "Octodon degus"
+                }
+              ],
+              "len": 209,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 3.83824e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 126,
+                  "hit_to": 209,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRRVRTDAMNKLKKSKDKTSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++R+  ++ ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|XP_023400733.1|",
+                  "accession": "XP_023400733",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Loxodonta africana]",
+                  "taxid": 9785,
+                  "sciname": "Loxodonta africana"
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 3.99715e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 210,
+                  "hit_to": 293,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKIRTNAMNKLKKSKGKTSEDTLRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+  +    + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|XP_008640374.1|",
+                  "accession": "XP_008640374",
+                  "title": "PREDICTED: LOW QUALITY PROTEIN: ribosome-recycling factor, mitochondrial [Corvus brachyrhynchos]",
+                  "taxid": 85066,
+                  "sciname": "Corvus brachyrhynchos"
+                }
+              ],
+              "len": 244,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 4.26188e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 161,
+                  "hit_to": 244,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLVKLAKQSTNKSKEALRKVRSKSITQVKKFKNKVSEDTIWLLEKQIQQMADEASTEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD+A  E+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|NP_001069775.1|",
+                  "accession": "NP_001069775",
+                  "title": "ribosome-recycling factor, mitochondrial precursor [Bos taurus]",
+                  "taxid": 9913,
+                  "sciname": "Bos taurus"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 4.36827e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAINKVKKSKDKASEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|XP_012885653.1|",
+                  "accession": "XP_012885653",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial isoform X1 [Dipodomys ordii]",
+                  "taxid": 10020,
+                  "sciname": "Dipodomys ordii"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 4.4129e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRRVRSNAINKLKKSKDKTSEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++R+  S  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|XP_067397849.1|",
+                  "accession": "XP_067397849",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Emydura macquarii macquarii]",
+                  "taxid": 1129001,
+                  "sciname": "Emydura macquarii macquarii"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 4.44595e-09,
+                  "identity": 36,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 111,
+                  "hit_from": 130,
+                  "hit_to": 211,
+                  "align_len": 82,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEF",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQLTNKAKDSLRKVRSNAVNRVKKVKSTVSEDTIKLIEKQIQQMADDTAAEMDKLLAGKTKEL",
+                  "midline": "R+   K+TREHRE + KLAKQ  NKAK+++RK  S  ++++  +   ++ D  KL+  Q+ Q ADD  AE+D+L A  TKE "
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|XP_051492620.1|",
+                  "accession": "XP_051492620",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Apus apus]",
+                  "taxid": 8895,
+                  "sciname": "Apus apus"
+                }
+              ],
+              "len": 257,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 4.63014e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 174,
+                  "hit_to": 257,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSMNQVKKSKSKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gb|NXW14019.1|",
+                  "accession": "NXW14019",
+                  "title": "RRFM protein [Circaetus pectoralis]",
+                  "taxid": 321084,
+                  "sciname": "Circaetus pectoralis"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 5.00923e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVAIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSINQVKKFKNKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|XP_075376225.1|",
+                  "accession": "XP_075376225",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Mycteria americana]",
+                  "taxid": 33587,
+                  "sciname": "Mycteria americana"
+                }
+              ],
+              "len": 283,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 5.02e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 200,
+                  "hit_to": 283,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSINQVKKFKNKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "ref|XP_069729664.1|",
+                  "accession": "XP_069729664",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Phaenicophaeus curvirostris]",
+                  "taxid": 33595,
+                  "sciname": "Phaenicophaeus curvirostris"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 5.06045e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSVNQVKKFKSKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|XP_017563655.1|",
+                  "accession": "XP_017563655",
+                  "title": "ribosome-recycling factor, mitochondrial [Pygocentrus nattereri]",
+                  "taxid": 42514,
+                  "sciname": "Pygocentrus nattereri"
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 5.14486e-09,
+                  "identity": 38,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 171,
+                  "hit_to": 254,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRENLAKLAKQFSNKAKESVRRVRSSALAKVKKSKEGVSEDTIRLIEKQVQQIADSYAADIDKQLATKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ +NKAKE+VR+  S  L+K+  +   ++ D  +L+  QV Q AD   A+ID+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gb|NXP09275.1|",
+                  "accession": "NXP09275",
+                  "title": "RRFM protein [Thinocorus orbignyianus]",
+                  "taxid": 161742,
+                  "sciname": "Thinocorus orbignyianus"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 5.40783e-09,
+                  "identity": 37,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 172,
+                  "hit_to": 255,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRENLAKLAKQSTNKSKEALRKVRSKSVNQVKKFKSKVSEDTIWLLEKQIQQMADSATAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "dbj|GAB1286285.1|",
+                  "accession": "GAB1286285",
+                  "title": "Ribosome-recycling factor, mitochondrial [Apodemus speciosus]",
+                  "taxid": 105296,
+                  "sciname": "Apodemus speciosus"
+                }
+              ],
+              "len": 234,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 5.66512e-09,
+                  "identity": 38,
+                  "positive": 52,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 151,
+                  "hit_to": 234,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKENLRKVRTNAMNKLKKSKDKTSEDTIRLIEKQISQMADDMVAELDRHLAAKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|XDA73631.1|",
+                  "accession": "XDA73631",
+                  "title": "hypothetical protein R6Z07_003914 [Ovis aries]",
+                  "taxid": 9940,
+                  "sciname": "Ovis aries"
+                }
+              ],
+              "len": 342,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 5.92425e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 259,
+                  "hit_to": 342,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKIRTNAINKVKKSKDKASEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "ref|XP_004849485.3|",
+                  "accession": "XP_004849485",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Heterocephalus glaber]",
+                  "taxid": 10181,
+                  "sciname": "Heterocephalus glaber"
+                }
+              ],
+              "len": 318,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 5.9458e-09,
+                  "identity": 36,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 235,
+                  "hit_to": 318,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRRVRTDAVNKLKKSKGKTSEDTIRLIEKQISQMADDTMAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++R+  ++ ++K+  +    + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gb|EDL02161.1|",
+                  "accession": "EDL02161",
+                  "title": "mCG10533, isoform CRA_a [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 332,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 5.96937e-09,
+                  "identity": 38,
+                  "positive": 51,
+                  "query_from": 32,
+                  "query_to": 107,
+                  "hit_from": 179,
+                  "hit_to": 257,
+                  "align_len": 79,
+                  "gaps": 3,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQ-LAAKA",
+                  "hseq": "RVPIPKLTREHREMLVKLAKQNTNKAKENLRKVCTNAMNKLKKSKDKTSEDTIRLMEKQISQIADDTVAELDQHLAARP",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE +RK  +  ++K+       + D  +LM  Q+ Q ADD  AE+DQ LAA+ "
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "ref|XP_030317037.1|",
+                  "accession": "XP_030317037",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Calypte anna]",
+                  "taxid": 9244,
+                  "sciname": "Calypte anna"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 6.59232e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 176,
+                  "hit_to": 259,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRRVRSKSVNQVKKFKSKVSEDTIWLLEKQIQQMADSATAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+R+  S+ ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|XP_050570523.1|",
+                  "accession": "XP_050570523",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X2 [Cygnus atratus]",
+                  "taxid": 8868,
+                  "sciname": "Cygnus atratus"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.3882,
+                  "score": 150,
+                  "evalue": 6.82775e-09,
+                  "identity": 36,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 124,
+                  "hit_to": 207,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKDALRKVRSKSMNQVKKFKSKVSEDTIWLLEKQIQQMADNAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+K+A+RK  S+ ++++      ++ D   L+  Q+ Q AD+A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|XP_028919486.1|",
+                  "accession": "XP_028919486",
+                  "title": "ribosome-recycling factor, mitochondrial [Ornithorhynchus anatinus]",
+                  "taxid": 9258,
+                  "sciname": "Ornithorhynchus anatinus"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 6.83037e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKESLRKVRTNAMNKLKKSKDKVAEDTIRLIEKKIGQMADDMVAEMDKQLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAKE++RK  +  ++K+      +  D  +L+  ++ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|XP_049629458.1|",
+                  "accession": "XP_049629458",
+                  "title": "ribosome-recycling factor, mitochondrial-like isoform X1 [Suncus etruscus]",
+                  "taxid": 109475,
+                  "sciname": "Suncus etruscus"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 6.90007e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMMVKLAKQSTNKAKDSLRKVRTNATNKLKKSKDKVSEDTLRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREMM KLAKQ+ NKAK+++RK  +   +K+      ++ D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "gb|KGL83007.1|",
+                  "accession": "KGL83007",
+                  "title": "hypothetical protein N309_03652, partial [Tinamus guttatus]",
+                  "taxid": 94827,
+                  "sciname": "Tinamus guttatus"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.3882,
+                  "score": 150,
+                  "evalue": 6.96149e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 127,
+                  "hit_to": 210,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RIPIPKITREHRESLAKLAKQSTNKSKDALRKVRSKSVTQIKKSKNKVSEDTIWMLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   KITREHRE + KLAKQ+ NK+K+A+RK  S+ +++I  +   ++ D   ++  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|XP_014637606.1|",
+                  "accession": "XP_014637606",
+                  "title": "PREDICTED: ribosome-recycling factor, mitochondrial isoform X3 [Ceratotherium simum simum]",
+                  "taxid": 73337,
+                  "sciname": "Ceratotherium simum simum"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 6.97022e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 159,
+                  "hit_to": 242,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKASEDTIRLIEKQISQMADDTVAEMDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "ref|XP_014444093.1|",
+                  "accession": "XP_014444093",
+                  "title": "ribosome-recycling factor, mitochondrial [Tupaia chinensis]",
+                  "taxid": 246437,
+                  "sciname": "Tupaia chinensis"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 7.18607e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 179,
+                  "hit_to": 262,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHREMLVKLAKQNTNKAKDSLRKVRTNAMNKLKKSKDKASEDTIRLIEKQISQMADDTVAELDRHLAVKTKELLG",
+                  "midline": "R+   K+TREHREM+ KLAKQN NKAK+++RK  +  ++K+       + D  +L+  Q+ Q ADD  AE+D+  A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gb|NXL42130.1|",
+                  "accession": "NXL42130",
+                  "title": "RRFM protein [Podilymbus podiceps]",
+                  "taxid": 9252,
+                  "sciname": "Podilymbus podiceps"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 7.34078e-09,
+                  "identity": 36,
+                  "positive": 54,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 172,
+                  "hit_to": 255,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQSTNKSKEALRKVRNKSISQVKKFKNKVSEDTIWMLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  ++ +S++      ++ D   ++  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "ref|XP_067397846.1|",
+                  "accession": "XP_067397846",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Emydura macquarii macquarii]",
+                  "taxid": 1129001,
+                  "sciname": "Emydura macquarii macquarii"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 7.56025e-09,
+                  "identity": 36,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 111,
+                  "hit_from": 179,
+                  "hit_to": 260,
+                  "align_len": 82,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEF",
+                  "hseq": "RVPVPKVTREHRESLAKLAKQLTNKAKDSLRKVRSNAVNRVKKVKSTVSEDTIKLIEKQIQQMADDTAAEMDKLLAGKTKEL",
+                  "midline": "R+   K+TREHRE + KLAKQ  NKAK+++RK  S  ++++  +   ++ D  KL+  Q+ Q ADD  AE+D+L A  TKE "
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|XP_030363368.1|",
+                  "accession": "XP_030363368",
+                  "title": "ribosome-recycling factor, mitochondrial isoform X1 [Strigops habroptila]",
+                  "taxid": 2489341,
+                  "sciname": "Strigops habroptila"
+                }
+              ],
+              "len": 312,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 7.65137e-09,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 229,
+                  "hit_to": 312,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKI--NDMPITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSKSINQVKKSKNKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S+ ++++  +   ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gb|NWR74791.1|",
+                  "accession": "NWR74791",
+                  "title": "RRFM protein [Centropus unirufus]",
+                  "taxid": 1118519,
+                  "sciname": "Centropus unirufus"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 7.69068e-09,
+                  "identity": 37,
+                  "positive": 53,
+                  "query_from": 32,
+                  "query_to": 113,
+                  "hit_from": 175,
+                  "hit_to": 258,
+                  "align_len": 84,
+                  "gaps": 2,
+                  "qseq": "RLRKGKITREHREMMKKLAKQNANKAKEAVRKRLSELLSKINDM--PITNDQKKLMSNQVLQFADDAEAEIDQLAAKATKEFTG",
+                  "hseq": "RVPIPKVTREHRESLAKLAKQSTNKSKEALRKVRSRSVNQVKKFKSKVSEDTIWLLEKQIQQMADSAAAEMDKLLAAKTKELLG",
+                  "midline": "R+   K+TREHRE + KLAKQ+ NK+KEA+RK  S  ++++      ++ D   L+  Q+ Q AD A AE+D+L A  TKE  G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

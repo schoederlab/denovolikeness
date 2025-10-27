@@ -1,0 +1,703 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368881",
+          "query_title": "3he4_A,C,E,G",
+          "query_len": 56,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|3HE4|A",
+                  "accession": "3HE4_A",
+                  "title": "Chain A, SYNZIP6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 56,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.531,
+                  "score": 262,
+                  "evalue": 1.93858e-28,
+                  "identity": 56,
+                  "positive": 56,
+                  "query_from": 1,
+                  "query_to": 56,
+                  "hit_from": 1,
+                  "hit_to": 56,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "GSQKVAQLKNRVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVAR",
+                  "hseq": "GSQKVAQLKNRVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVAR",
+                  "midline": "GSQKVAQLKNRVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVAR"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|AVH85520.1|",
+                  "accession": "AVH85520",
+                  "title": "RNA polymerase [Escherichia phage T7]",
+                  "taxid": 10760,
+                  "sciname": "Escherichia phage T7"
+                }
+              ],
+              "len": 331,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8322,
+                  "score": 120,
+                  "evalue": 1.92414e-05,
+                  "identity": 26,
+                  "positive": 31,
+                  "query_from": 20,
+                  "query_to": 55,
+                  "hit_from": 5,
+                  "hit_to": 40,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "AKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "ATLENDLARLENENARLEKDIANLERDLAKLEREEA",
+                  "midline": "A LEN +ARLEN+NA LEKDIANLE+D+A LER+ A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0353397,
+                  "identity": 22,
+                  "positive": 26,
+                  "query_from": 24,
+                  "query_to": 56,
+                  "hit_from": 2,
+                  "hit_to": 34,
+                  "align_len": 33,
+                  "gaps": 0,
+                  "qseq": "NIVARLENDNANLEKDIANLEKDIANLERDVAR",
+                  "hseq": "SIAATLENDLARLENENARLEKDIANLERDLAK",
+                  "midline": "+I A LEND A LE + A LEKDIANLERD+A+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|MER1713939.1|",
+                  "accession": "MER1713939",
+                  "title": "hypothetical protein [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 74,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.000870199,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 17,
+                  "query_to": 56,
+                  "hit_from": 34,
+                  "hit_to": 73,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "KENAKLENIVARLENDNANLEKDIANLEKDIANLERDVAR",
+                  "hseq": "NDNANLENDNANLENDNINLENDNANLENDNANLENDNAN",
+                  "midline": " +NA LEN  A LENDN NLE D ANLE D ANLE D A "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gb|MBQ0411565.1|",
+                  "accession": "MBQ0411565",
+                  "title": "hypothetical protein [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.00386146,
+                  "identity": 27,
+                  "positive": 28,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 51,
+                  "hit_to": 88,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNANLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN  A LENDNANLE D ANLE D ANLE D A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.0226034,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 37,
+                  "hit_to": 74,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_088207214.1|",
+                  "accession": "WP_088207214",
+                  "title": "hypothetical protein [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.00592756,
+                  "identity": 31,
+                  "positive": 33,
+                  "query_from": 6,
+                  "query_to": 55,
+                  "hit_from": 226,
+                  "hit_to": 275,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "AQLKNRVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "ANLENDNANLENDNANLENDNANLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "A L+N  A    +NA LEN  A LENDNANLE D ANLE D ANLE D A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.00592756,
+                  "identity": 31,
+                  "positive": 33,
+                  "query_from": 6,
+                  "query_to": 55,
+                  "hit_from": 233,
+                  "hit_to": 282,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "AQLKNRVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "ANLENDNANLENDNANLENDNANLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "A L+N  A    +NA LEN  A LENDNANLE D ANLE D ANLE D A"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0075771,
+                  "identity": 27,
+                  "positive": 28,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 224,
+                  "hit_to": 261,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNANLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN  A LENDNANLE D ANLE D ANLE D A"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.038714,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 210,
+                  "hit_to": 247,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_210799378.1|",
+                  "accession": "WP_210799378",
+                  "title": "hypothetical protein, partial [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 358,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00700859,
+                  "identity": 27,
+                  "positive": 28,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 224,
+                  "hit_to": 261,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNANLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN  A LENDNANLE D ANLE D ANLE D A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0368722,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 210,
+                  "hit_to": 247,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|MBQ0422453.1|",
+                  "accession": "MBQ0422453",
+                  "title": "hypothetical protein [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 294,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00726113,
+                  "identity": 27,
+                  "positive": 28,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 224,
+                  "hit_to": 261,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNANLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN  A LENDNANLE D ANLE D ANLE D A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0383206,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 210,
+                  "hit_to": 247,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|XP_055349883.1|",
+                  "accession": "XP_055349883",
+                  "title": "paramyosin-like [Paramacrobiotus metropolitanus]",
+                  "taxid": 2943436,
+                  "sciname": "Paramacrobiotus metropolitanus"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00746892,
+                  "identity": 27,
+                  "positive": 31,
+                  "query_from": 6,
+                  "query_to": 55,
+                  "hit_from": 111,
+                  "hit_to": 160,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "AQLKNRVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "AKLETTVANLEASNAKLETTVANLEASNAKLEATVAKLETSNANLERDLA",
+                  "midline": "A+L+  VA     NAKLE  VA LE  NA LE  +A LE   ANLERD+A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.0282157,
+                  "identity": 27,
+                  "positive": 32,
+                  "query_from": 4,
+                  "query_to": 56,
+                  "hit_from": 95,
+                  "hit_to": 147,
+                  "align_len": 53,
+                  "gaps": 0,
+                  "qseq": "KVAQLKNRVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVAR",
+                  "hseq": "EVAKLETTVANLEASNAKLETTVANLEASNAKLETTVANLEASNAKLEATVAK",
+                  "midline": "+VA+L+  VA     NAKLE  VA LE  NA LE  +ANLE   A LE  VA+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_210798997.1|",
+                  "accession": "WP_210798997",
+                  "title": "hypothetical protein, partial [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00752354,
+                  "identity": 27,
+                  "positive": 28,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 133,
+                  "hit_to": 170,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNANLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN  A LENDNANLE D ANLE D ANLE D A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0380563,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 119,
+                  "hit_to": 156,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|KAI0222633.1|",
+                  "accession": "KAI0222633",
+                  "title": "UV-stimulated scaffold protein A [Lamellibrachia satsuma]",
+                  "taxid": 104711,
+                  "sciname": "Lamellibrachia satsuma"
+                }
+              ],
+              "len": 768,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00787051,
+                  "identity": 21,
+                  "positive": 34,
+                  "query_from": 11,
+                  "query_to": 56,
+                  "hit_from": 218,
+                  "hit_to": 263,
+                  "align_len": 46,
+                  "gaps": 0,
+                  "qseq": "RVAYKLKENAKLENIVARLENDNANLEKDIANLEKDIANLERDVAR",
+                  "hseq": "RPSHTVQGDSSLEKDSANVEKDSANVEKDSANVEKDSANVEKDSAK",
+                  "midline": "R ++ ++ ++ LE   A +E D+AN+EKD AN+EKD AN+E+D A+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gb|MFN6887731.1|",
+                  "accession": "MFN6887731",
+                  "title": "hypothetical protein [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 67,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.4318,
+                  "score": 93,
+                  "evalue": 0.0185343,
+                  "identity": 24,
+                  "positive": 25,
+                  "query_from": 17,
+                  "query_to": 52,
+                  "hit_from": 32,
+                  "hit_to": 67,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "KENAKLENIVARLENDNANLEKDIANLEKDIANLER",
+                  "hseq": "NDNANLENDNINLENDNANLENDNANLENDNANLEN",
+                  "midline": " +NA LEN    LENDNANLE D ANLE D ANLE "
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|RYH12634.1|",
+                  "accession": "RYH12634",
+                  "title": "hypothetical protein EVY58_19520, partial [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.0217937,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 130,
+                  "hit_to": 167,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|MCT0096382.1|",
+                  "accession": "MCT0096382",
+                  "title": "hypothetical protein [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0380333,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 210,
+                  "hit_to": 247,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|MEX0568861.1|",
+                  "accession": "MEX0568861",
+                  "title": "hypothetical protein [Candidatus Njordarchaeota archaeon]",
+                  "taxid": 3036966,
+                  "sciname": "Candidatus Njordarchaeota archaeon"
+                }
+              ],
+              "len": 263,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0396291,
+                  "identity": 21,
+                  "positive": 31,
+                  "query_from": 21,
+                  "query_to": 56,
+                  "hit_from": 89,
+                  "hit_to": 127,
+                  "align_len": 39,
+                  "gaps": 3,
+                  "qseq": "KLENI---VARLENDNANLEKDIANLEKDIANLERDVAR",
+                  "hseq": "KIDNIDKKVTKIENDVAELKRDVANLKDDVAELKRDVAR",
+                  "midline": "K++NI   V ++END A L++D+ANL+ D+A L+RDVAR"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "tpg|HEJ1043730.1|",
+                  "accession": "HEJ1043730",
+                  "title": "hypothetical protein [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 266,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.041318,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 210,
+                  "hit_to": 247,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_350419856.1|",
+                  "accession": "WP_350419856",
+                  "title": "hypothetical protein, partial [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0415074,
+                  "identity": 26,
+                  "positive": 27,
+                  "query_from": 18,
+                  "query_to": 55,
+                  "hit_from": 50,
+                  "hit_to": 87,
+                  "align_len": 38,
+                  "gaps": 0,
+                  "qseq": "ENAKLENIVARLENDNANLEKDIANLEKDIANLERDVA",
+                  "hseq": "DNANLENDNINLENDNANLENDNANLENDNANLENDNA",
+                  "midline": "+NA LEN    LENDNANLE D ANLE D ANLE D A"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

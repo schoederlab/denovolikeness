@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368836",
+          "query_title": "8t6n_E,F,G,H,I",
+          "query_len": 160,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8T6N|E",
+                  "accession": "8T6N_E",
+                  "title": "Chain E, T33-27.1 : A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 323.939,
+                  "score": 829,
+                  "evalue": 1.44139e-111,
+                  "identity": 160,
+                  "positive": 160,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "midline": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_011446406.1|",
+                  "accession": "WP_011446406",
+                  "title": "nuclear transport factor 2 family protein [Novosphingobium aromaticivorans]",
+                  "taxid": 48935,
+                  "sciname": "Novosphingobium aromaticivorans"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.87,
+                  "score": 712,
+                  "evalue": 9.15095e-94,
+                  "identity": 138,
+                  "positive": 146,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPEATIEIVDAVGGASRSISRLEGRDAIRVAVRQMMAPHGYRAWSQNVVNAPIIVIEGDHAVLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGQYRLTLRTVADGWVISAMRIEHRLPMAFG",
+                  "midline": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAP+A+I ++DAVGGAS+ IS L GRDAIRVAVRQMMAPHGYRAWSQNVVNAP+I I GD A LDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAG Y L LRTV DGWVI+ M I+HRLPMAFG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|3EJV|A",
+                  "accession": "3EJV_A",
+                  "title": "Chain A, Crystal structure of a cystatin-like protein (saro_2766) from novosphingobium aromaticivorans dsm at 1.40 A resolution [Novosphingobium aromaticivorans DSM 12444]",
+                  "taxid": 279238,
+                  "sciname": "Novosphingobium aromaticivorans DSM 12444"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.381,
+                  "score": 664,
+                  "evalue": 3.02839e-86,
+                  "identity": 130,
+                  "positive": 138,
+                  "query_from": 2,
+                  "query_to": 160,
+                  "hit_from": 21,
+                  "hit_to": 179,
+                  "align_len": 159,
+                  "gaps": 0,
+                  "qseq": "TMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "TXADETIILNVLGQYTRAHDRRDPDAXAALFAPEATIEIVDAVGGASRSISRLEGRDAIRVAVRQXXAPHGYRAWSQNVVNAPIIVIEGDHAVLDAQFXVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGQYRLTLRTVADGWVISAXRIEHRLPXAFG",
+                  "midline": "T ADETIILNVLGQYTRAHDRRDPDA AALFAP+A+I ++DAVGGAS+ IS L GRDAIRVAVRQ  APHGYRAWSQNVVNAP+I I GD A LDAQF VFSILAAEVPDGGWPTGTFGAQGRIVPIEAG Y L LRTV DGWVI+   I+HRLP AFG"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_147158334.1|",
+                  "accession": "WP_147158334",
+                  "title": "nuclear transport factor 2 family protein [Novosphingobium sediminis]",
+                  "taxid": 707214,
+                  "sciname": "Novosphingobium sediminis"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.032,
+                  "score": 593,
+                  "evalue": 1.05401e-75,
+                  "identity": 111,
+                  "positive": 131,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "MSLSDETLILNLLGRYTRAHDQRDPEAMTALFTPDAIIDIIDAVGGAQRSLGRLEGREAIGAAVRAMMAPHGERAWSQNVISAPIISIAGDEATIDAQFMVFSIMAAEVPQGGWPAGTFGAQGRIVPIEAGQYHPTMRRTADGWAIAAMRIEHRLPMAFG",
+                  "midline": "M+++DET+ILN+LG+YTRAHD+RDP+AM ALF PDA I ++DAVGGA + +  L GR+AI  AVR MMAPHG RAWSQNV++AP+I I GD A +DAQFMVFSI+AAEVP GGWP GTFGAQGRIVPIEAG Y   +R   DGW IA M I+HRLPMAFG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_197274411.1|",
+                  "accession": "WP_197274411",
+                  "title": "nuclear transport factor 2 family protein [Novosphingobium sp. AAP93]",
+                  "taxid": 1523427,
+                  "sciname": "Novosphingobium sp. AAP93"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.016,
+                  "score": 567,
+                  "evalue": 1.01361e-71,
+                  "identity": 107,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "MSLTDERALLNLLGHYTRAHDHRDPDAMAALFTPDATIEIIDAVGGAARLLGRLEGRAAIGEAVRQMMAPHEARAWSQNVISAPIIAIDGDHATIDAQFMVFSIVGAEVPDNGWPAGTFGAQGRIIPIEAGQYRPTMRRTAEGWAISAMRIEHRLPMAFG",
+                  "midline": "M++ DE  +LN+LG YTRAHD RDPDAMAALF PDA+I ++DAVGGA++ +  L GR AI  AVRQMMAPH  RAWSQNV++AP+I I GD A +DAQFMVFSI+ AEVPD GWP GTFGAQGRI+PIEAG Y   +R   +GW I+ M I+HRLPMAFG"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|MFM9937804.1|",
+                  "accession": "MFM9937804",
+                  "title": "nuclear transport factor 2 family protein [Novosphingobium sp.]",
+                  "taxid": 1874826,
+                  "sciname": "Novosphingobium sp."
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.016,
+                  "score": 567,
+                  "evalue": 1.15603e-71,
+                  "identity": 106,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "MSLTDETMLLNVLGRYARAHDQRNPAAMEALFTPEATIEIIDAVGDAQRPLGRLEGRESIADAVRQMMAPHNPRGWSQNVISAPIIAIDGDTAIIDAQFIVFSIMAAEVPDGGWPAGTFGAQGRIVPIEAGQYHKALHRTGDGWAISAMRIEHRLPMAFG",
+                  "midline": "M++ DET++LNVLG+Y RAHD+R+P AM ALF P+A+I ++DAVG A +P+  L GR++I  AVRQMMAPH  R WSQNV++AP+I I GDTA +DAQF+VFSI+AAEVPDGGWP GTFGAQGRIVPIEAG Y   L    DGW I+ M I+HRLPMAFG"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_298191257.1|",
+                  "accession": "WP_298191257",
+                  "title": "nuclear transport factor 2 family protein [Novosphingobium sp.]",
+                  "taxid": 1874826,
+                  "sciname": "Novosphingobium sp."
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 220.32,
+                  "score": 560,
+                  "evalue": 1.42068e-70,
+                  "identity": 108,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "MSQNDETALLNVLGSYTRAHDRRDPDAMAALFTSDATIEIIDAVGGAEHLLGRLEGRAAISEAVRQMMAPHEGRAWSQNVISAPIITIDGDTAEIDVQFMVFSIHAADVPKDGWPPSTFGAQGRIIPIEAGQYRPSMRRTADGWAISAMRIEHRLPMAFG",
+                  "midline": "M+  DET +LNVLG YTRAHDRRDPDAMAALF  DA+I ++DAVGGA   +  L GR AI  AVRQMMAPH  RAWSQNV++AP+I I GDTA +D QFMVFSI AA+VP  GWP  TFGAQGRI+PIEAG Y   +R   DGW I+ M I+HRLPMAFG"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_225007016.1|",
+                  "accession": "WP_225007016",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [Novosphingobium]",
+                  "taxid": 165696,
+                  "sciname": "Novosphingobium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 199.134,
+                  "score": 505,
+                  "evalue": 2.79657e-62,
+                  "identity": 101,
+                  "positive": 114,
+                  "query_from": 3,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAFG",
+                  "hseq": "MTDATDILNVLGRYARAHDYRDSEAMAALFADHATIEIFNARGSTMTPIGKLEGLPAIRDAVRQMMAPHGERAWSQNVISAPIIDVGGDEAVIDAQFMVFSIVAATEPENGWPAATFGAQGAIVPIEAGQYRAHLRRTARGWTIAAMRIEHRLPMVFG",
+                  "midline": "M D T ILNVLG+Y RAHD RD +AMAALFA  A+I + +A G    PI  L G  AIR AVRQMMAPHG RAWSQNV++AP+I + GD A +DAQFMVFSI+AA  P+ GWP  TFGAQG IVPIEAG Y   LR    GW IA M I+HRLPM FG"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_298174022.1|",
+                  "accession": "WP_298174022",
+                  "title": "nuclear transport factor 2 family protein [Novosphingobium sp.]",
+                  "taxid": 1874826,
+                  "sciname": "Novosphingobium sp."
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 154.836,
+                  "score": 390,
+                  "evalue": 7.80349e-45,
+                  "identity": 93,
+                  "positive": 107,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MDDTTLINNVLGLYARAHDARDADAMADLFAGDATIEIFNAAGDELTPIGTLQGRRAIHGAVGQMMLPHGHGEWSQNIISAPIITITGDVAIVDAQFMVFAIAATQEPADGWPQGTFGAQGTITPIEAGTYFPRLERREGRWLISAMRIVHRLPMAF",
+                  "midline": "M D T+I NVLG Y RAHD RD DAMA LFA DA+I + +A G    PI  L GR AI  AV QMM PHG+  WSQN+++AP+I I GD A +DAQFMVF+I A + P  GWP GTFGAQG I PIEAGTY   L      W+I+ M I HRLPMAF"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_024516459.1|",
+                  "accession": "WP_024516459",
+                  "title": "nuclear transport factor 2 family protein [Bradyrhizobium sp. Tv2a-2]",
+                  "taxid": 113395,
+                  "sciname": "Bradyrhizobium sp. Tv2a-2"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 153.295,
+                  "score": 386,
+                  "evalue": 4.16499e-44,
+                  "identity": 78,
+                  "positive": 96,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDALAVREVMARYVRAADRRDSDAMAALFTEDGRVEILYDKNGPEIMLGVLEGREAIAAAVRNMMAPHAPRAWSHHTTHDAIVEINGDRATLDAQFIVFSVRGEEKPVSGWPPGAQGAQGVITPIESGYYRPELKKSADGWRITRLRIHHDLPMAF",
+                  "midline": "M+D   +  V+ +Y RA DRRD DAMAALF  D  + +L    G    + VL GR+AI  AVR MMAPH  RAWS +  +  ++ I+GD A LDAQF+VFS+   E P  GWP G  GAQG I PIE+G Y   L+   DGW I  + I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_076401783.1|",
+                  "accession": "WP_076401783",
+                  "title": "nuclear transport factor 2 family protein [Insolitispirillum peregrinum]",
+                  "taxid": 80876,
+                  "sciname": "Insolitispirillum peregrinum"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.369,
+                  "score": 381,
+                  "evalue": 2.41294e-43,
+                  "identity": 74,
+                  "positive": 96,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDALAVREVMARYVRAADHRNPEAMAGLFTEEGRVEILYDKDGGETLLGVLEGREAITDAVRHMMAPHAPRAWSHHTTHDAIVEIDGERATLDAQFIVFSVQGAKEPSSGWPAGAFGAQGTITPIESGYYRPELRKTEEGWRITRLRILHDLPMAF",
+                  "midline": "M+D   +  V+ +Y RA D R+P+AMA LF  +  + +L    G    + VL GR+AI  AVR MMAPH  RAWS +  +  ++ I G+ A LDAQF+VFS+  A+ P  GWP G FGAQG I PIE+G Y   LR   +GW I  + I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_169595532.1|",
+                  "accession": "WP_169595532",
+                  "title": "nuclear transport factor 2 family protein [Rhizobium terricola]",
+                  "taxid": 2728849,
+                  "sciname": "Rhizobium terricola"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.517,
+                  "score": 371,
+                  "evalue": 7.24299e-42,
+                  "identity": 75,
+                  "positive": 97,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDRSDVIEVLSRYVRAADHRDPVAMAALFLPDAVVEIFHGIGGALTKLGELAGAETIGGAVRNMMAPHPARGWSHHTTFDHIVTINGDDASIDAQFIVYNTVGHRLPDAGWPAGVNGAQGSITPVESGYYRPVLGRVDGSWRIAHHVIVHDLPMAF",
+                  "midline": "M+D + ++ VL +Y RA D RDP AMAALF PDA + +   +GGA   +  L G + I  AVR MMAPH  R WS +     ++ I+GD A +DAQF+V++ +   +PD GWP G  GAQG I P+E+G Y   L  V   W IAH VI H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_299748896.1|",
+                  "accession": "WP_299748896",
+                  "title": "nuclear transport factor 2 family protein [Devosia sp.]",
+                  "taxid": 1871048,
+                  "sciname": "Devosia sp."
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 1.85061e-41,
+                  "identity": 74,
+                  "positive": 92,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDELAVQQVIAHYVRAHDRRDGAAMGALYTPQARVTIFYNNAGELEPLGELVGRDAIANGVVNLMKPHPPRGWSHNATDGLLVEIDGDRATVDAQFMVFNIVGAEKPDTGWPRGVSGAQGTITPIESGYYRQSLVRVDGAWLIEALRIIHNLPFAF",
+                  "midline": "M+DE  +  V+  Y RAHDRRD  AM AL+ P A + +     G  +P+  L GRDAI   V  +M PH  R WS N  +  ++ I GD A +DAQFMVF+I+ AE PD GWP G  GAQG I PIE+G Y   L  V   W+I  + I H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|MGA2742574.1|",
+                  "accession": "MGA2742574",
+                  "title": "nuclear transport factor 2 family protein [Bryobacteraceae bacterium]",
+                  "taxid": 2212468,
+                  "sciname": "Bryobacteraceae bacterium"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 3.71931e-41,
+                  "identity": 76,
+                  "positive": 92,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDELAVQQVLAHYVRAHDRRDGAAMAALFTPQASVEIFYNNAGELEPLGKLVGREAIGNAVVHMMTPHPPRGWSHNATDGLLIEIDGDRATIDALFMVFNILGAQKPAAGWPKDARGAQGTITPIESGYYRQNLVRANGTWLVESLRITHNLPMAF",
+                  "midline": "M+DE  +  VL  Y RAHDRRD  AMAALF P AS+ +     G  +P+  L GR+AI  AV  MM PH  R WS N  +  +I I GD A +DA FMVF+IL A+ P  GWP    GAQG I PIE+G Y   L      W++  + I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_183119919.1|",
+                  "accession": "WP_183119919",
+                  "title": "nuclear transport factor 2 family protein [Gluconacetobacter azotocaptans]",
+                  "taxid": 142834,
+                  "sciname": "Gluconacetobacter azotocaptans"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.206,
+                  "score": 365,
+                  "evalue": 5.6909e-41,
+                  "identity": 69,
+                  "positive": 95,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDEREIQQLMARYVRAADHRDGAAMAELFVPEGKVEIFYNNAGTPEPLGELIGSEAVGAAVATMMKPHPPRGWSHHTTHDPIIEVNGDTGMLDAQFVVFNVVGAEKPEGGWPEGAYGAQGTVTPIETGYYRPILKKIDGHWMITHHRIYLDLPMAF",
+                  "midline": "M+DE  I  ++ +Y RA D RD  AMA LF P+  + +     G  +P+  L G +A+  AV  MM PH  R WS +  + P+I ++GDT  LDAQF+VF+++ AE P+GGWP G +GAQG + PIE G Y   L+ +   W+I H  I   LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_028738467.1|",
+                  "accession": "WP_028738467",
+                  "title": "nuclear transport factor 2 family protein [Ciceribacter selenitireducens]",
+                  "taxid": 448181,
+                  "sciname": "Ciceribacter selenitireducens"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 1.62662e-40,
+                  "identity": 74,
+                  "positive": 95,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MTDRSDIIEVLARYVRAADNRDPRAMADLYLPDATVEIFYSNRGVLTKLGELSGAENIGDAVRSLMAPHPERGWSHHTTSDHIVTINGDDATIDAQFIVFNTVGQERPAGGWPDGASGAQGSITPIESGYYRPILRRVDGAWRIARQVIVHDLPMAF",
+                  "midline": "M D + I+ VL +Y RA D RDP AMA L+ PDA++ +  +  G    +  L G + I  AVR +MAPH  R WS +  +  ++ I+GD A +DAQF+VF+ +  E P GGWP G  GAQG I PIE+G Y   LR V   W IA  VI H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_397451345.1|",
+                  "accession": "WP_397451345",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas sp. NA-150]",
+                  "taxid": 3367525,
+                  "sciname": "Pseudomonas sp. NA-150"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.51,
+                  "score": 358,
+                  "evalue": 6.33473e-40,
+                  "identity": 76,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MTQELAVQQVLAHYVRAHDQRDGVAMAALFTPQGRVDILYNNAGKLEPMGELVGRETIANAVAHMMKPHPARGWSHNATDGLLIDIDGDHATVDAQFMVFNIVGAARPDTGWPQGATGAQGTITPIESGYYRQSLVRVNGQWLIEALRIIHNLPMAF",
+                  "midline": "M  E  +  VL  Y RAHD+RD  AMAALF P   + +L    G  +P+  L GR+ I  AV  MM PH  R WS N  +  +I I GD A +DAQFMVF+I+ A  PD GWP G  GAQG I PIE+G Y   L  V   W+I  + I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|MES1971813.1|",
+                  "accession": "MES1971813",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.739,
+                  "score": 356,
+                  "evalue": 1.04597e-39,
+                  "identity": 76,
+                  "positive": 96,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MLDELAVRQVLGRYVRAHDSRDGAAMAALFTADAQVEILYSNRGEMESLGGIEGREAIAAAVAAMMKPHPDRGWSQNLLSGVLVEIDDDRATVDAQFMVFDIVGDSKPDGGWPADALGAQGRITPIESGYYRPSLVRLDGRWLIQSLRIVHHLPMAF",
+                  "midline": "M DE  +  VLG+Y RAHD RD  AMAALF  DA + +L +  G  + +  + GR+AI  AV  MM PH  R WSQN+++  ++ I  D A +DAQFMVF I+    PDGGWP    GAQGRI PIE+G Y   L  +   W+I  + I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_062278312.1|",
+                  "accession": "WP_062278312",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [unclassified Rhizobium]",
+                  "taxid": 2613769,
+                  "sciname": "unclassified Rhizobium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.739,
+                  "score": 356,
+                  "evalue": 1.40808e-39,
+                  "identity": 73,
+                  "positive": 95,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSERSDVIEVLARYVRAADHRDPKAMADNFLPDATVEIFYSNRGAQTKLGELSGAETIGNAVREMMAPHPERGWSHHTTFDHIVTIDGDEATIDAQFIVYNTVGLERPAGGWPAGVSGAQGTITPIESGYYRPRLRRVNGSWRIARHVIVHDLPMAF",
+                  "midline": "M++ + ++ VL +Y RA D RDP AMA  F PDA++ +  +  GA   +  L G + I  AVR+MMAPH  R WS +     ++ I GD A +DAQF+V++ +  E P GGWP G  GAQG I PIE+G Y   LR V   W IA  VI H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_250622812.1|",
+                  "accession": "WP_250622812",
+                  "title": "nuclear transport factor 2 family protein [Pinirhizobacter soli]",
+                  "taxid": 2786953,
+                  "sciname": "Pinirhizobacter soli"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.969,
+                  "score": 354,
+                  "evalue": 2.4348e-39,
+                  "identity": 73,
+                  "positive": 95,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 159,
+                  "align_len": 159,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVL--DAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDELAVQQVIARYVRAHDKRDGDAMAALFTPEARVTIFYNNPPDGGSEMIGEIAGREAIGQAVTHLMKPHPPRGWSHNATDGLLVDIDGDRATVDAQFMVFSILGDAKPASGWPAGAAGAMGTITPIESGYYHQKLVRVDGQWLIQSLQVRHNLPFAF",
+                  "midline": "M+DE  +  V+ +Y RAHD+RD DAMAALF P+A + +   +   G S+ I  + GR+AI  AV  +M PH  R WS N  +  ++ I GD A +DAQFMVFSIL    P  GWP G  GA G I PIE+G Y   L  V   W+I  + ++H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_177085406.1|",
+                  "accession": "WP_177085406",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [unclassified Pseudomonas]",
+                  "taxid": 196821,
+                  "sciname": "unclassified Pseudomonas"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 4.40966e-39,
+                  "identity": 69,
+                  "positive": 93,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSEEREIQQVMARYVRAADYRDGTAMSSLFLPDAKVEVFYNNAGTPELFGEVAGSQAIGAAVTTMMKPHPPRGWSHHTTHDPLIEVNGDSGTLDVHFVVFNVVGMQKPEGGWPQGAFGAQGTITPIESGYYRPILEKVDGRWMIAHMRIYHDIPYAF",
+                  "midline": "M++E  I  V+ +Y RA D RD  AM++LF PDA + V     G  +    + G  AI  AV  MM PH  R WS +  + P+I ++GD+  LD  F+VF+++  + P+GGWP G FGAQG I PIE+G Y   L  V   W+IAHM I H +P AF"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_223434658.1|",
+                  "accession": "WP_223434658",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [unclassified Pseudomonas]",
+                  "taxid": 196821,
+                  "sciname": "unclassified Pseudomonas"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 6.04886e-39,
+                  "identity": 72,
+                  "positive": 94,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDERAIQEVLARYVRAADNRDGAAMSNIFLPEGKVEMFYNNAGTPELLGQLVGPEAIGAAVTTMMKPHPPRGWSHHTTHDPIIEVNGDAGTLDAQFVVFNVVGAEKPEGGWPEGASGAQGTIVPIETGYYRPILKRVDGHWMIAHHRIYLDLPMAF",
+                  "midline": "M+DE  I  VL +Y RA D RD  AM+ +F P+  + +     G  + +  L G +AI  AV  MM PH  R WS +  + P+I ++GD   LDAQF+VF+++ AE P+GGWP G  GAQG IVPIE G Y   L+ V   W+IAH  I   LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_424170791.1|",
+                  "accession": "WP_424170791",
+                  "title": "nuclear transport factor 2 family protein [Terracidiphilus sp.]",
+                  "taxid": 1964191,
+                  "sciname": "Terracidiphilus sp."
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 6.19865e-39,
+                  "identity": 73,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSEERAVQQVLAMYVRGTDARDGAAVAAVFTEDARVEISYNNSGKSEPLGELAGRDAIAAAVSQLMKPHPARGWSHHTTHDHIIDVHGDNATLDAQFVVFEVRGKERPATGWPEGASGAQGTVQPIEAGYYRPILRRVDGVWKIATLRIVHNLPFAF",
+                  "midline": "M++E  +  VL  Y R  D RD  A+AA+F  DA + +     G S+P+  L GRDAI  AV Q+M PH  R WS +  +  +I +HGD A LDAQF+VF +   E P  GWP G  GAQG + PIEAG Y   LR V   W IA + I H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_044592252.1|",
+                  "accession": "WP_044592252",
+                  "title": "nuclear transport factor 2 family protein [Bradyrhizobium sp. LTSPM299]",
+                  "taxid": 1619233,
+                  "sciname": "Bradyrhizobium sp. LTSPM299"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 1.99458e-38,
+                  "identity": 75,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 159,
+                  "align_len": 159,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKP--ISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDELAVQQVLAHYVRAHDQRDGAAMAALFKPQARVTIFYNNNPDGKPEMIGELTGREAIAHATAHMMKPHPPRGWSHNATDGLLVDIDGDRATVDAQFMVFSILGAAKPASGWPAGAAGAMGTITPIESGYYHQKLVRVDGQWLIESLQVRHNLPFAF",
+                  "midline": "M+DE  +  VL  Y RAHD+RD  AMAALF P A + +        KP  I  L GR+AI  A   MM PH  R WS N  +  ++ I GD A +DAQFMVFSIL A  P  GWP G  GA G I PIE+G Y   L  V   W+I  + ++H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_184671915.1|",
+                  "accession": "WP_184671915",
+                  "title": "nuclear transport factor 2 family protein [Rhodanobacter sp. A1T4]",
+                  "taxid": 2723087,
+                  "sciname": "Rhodanobacter sp. A1T4"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 2.81187e-38,
+                  "identity": 71,
+                  "positive": 92,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDERDIQEVQARYVRAADYRDGAAMSRIFLPDGKVEVFYNNAGTPELIGELVGAEAIGAAVTTMMKPHPPRGWSHHTTHDSIIEVKDDTATLDVHFVVFNVVGAERPEGGWPEGAFGAQGTITPIESGYYRPILKKVDGRWMMAHLRIYHDLPYAF",
+                  "midline": "M+DE  I  V  +Y RA D RD  AM+ +F PD  + V     G  + I  L G +AI  AV  MM PH  R WS +  +  +I +  DTA LD  F+VF+++ AE P+GGWP G FGAQG I PIE+G Y   L+ V   W++AH+ I H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_286162123.1|",
+                  "accession": "WP_286162123",
+                  "title": "nuclear transport factor 2 family protein [Burkholderia sp. WP9]",
+                  "taxid": 1500263,
+                  "sciname": "Burkholderia sp. WP9"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 5.81328e-38,
+                  "identity": 68,
+                  "positive": 97,
+                  "query_from": 2,
+                  "query_to": 159,
+                  "hit_from": 25,
+                  "hit_to": 182,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "TMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "SVSDQREIQEVLARYVRAADHRDGIAMSNLFLPEGRVDIFYNNAGIPEHLGELVGREAIAAAVTTVMKPHPLRGWSHHTTHDPIVEVQGDIGTLDAQFIVFNIVGAEKPEGGWPKGVYGAQGKITPIESGYYRPILKRVDGRWLMANHRIYLDLPMAF",
+                  "midline": "+++D+  I  VL +Y RA D RD  AM+ LF P+  + +     G  + +  L GR+AI  AV  +M PH  R WS +  + P++ + GD   LDAQF+VF+I+ AE P+GGWP G +GAQG+I PIE+G Y   L+ V   W++A+  I   LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|MBS1181238.1|",
+                  "accession": "MBS1181238",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.191,
+                  "score": 339,
+                  "evalue": 4.39935e-37,
+                  "identity": 74,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDYQHVSEVLAHYVRAADRRDGRAMSALFLPEAEVVINYVNAGMTERIGVLNGPDAIGDAVATMMKPHPPMGWSHHTTQDHLIYIDGDTATIDAQFVVFNTLGTPRPAGGWPPGILGLQGTVTPIEAGYYRTELRRVDGQWLIRRHQIDHDLPMAL",
+                  "midline": "M+D   +  VL  Y RA DRRD  AM+ALF P+A +V+     G ++ I VL+G DAI  AV  MM PH    WS +     +I+I GDTA +DAQF+VF+ L    P GGWP G  G QG + PIEAG Y   LR V   W+I    I H LPMA "
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|MDB5705059.1|",
+                  "accession": "MDB5705059",
+                  "title": "nuclear transport factor 2 family protein [Sphingomonas bacterium]",
+                  "taxid": 1895847,
+                  "sciname": "Sphingomonas bacterium"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.191,
+                  "score": 339,
+                  "evalue": 4.59522e-37,
+                  "identity": 71,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVL--DAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMA",
+                  "hseq": "MSDELAVQQVLAHYVRAHDRRDGPAMGALFTPEARVTIFYNNPPHGEPELLGELVGREAIAEATAHMMKPHPARGWSHNATGGLLVNIDGDRATVDALFMVFSVLGDAKPASGWPAGAAGAQGTITPIESGYYTQNLVRVDGKWLIESLQVRHNLPFA",
+                  "midline": "M+DE  +  VL  Y RAHDRRD  AM ALF P+A + +   +   G  + +  L GR+AI  A   MM PH  R WS N     +++I GD A +DA FMVFS+L    P  GWP G  GAQG I PIE+G YT  L  V   W+I  + ++H LP A"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_319944222.1|",
+                  "accession": "WP_319944222",
+                  "title": "nuclear transport factor 2 family protein [Mesorhizobium sp. AR10]",
+                  "taxid": 2865839,
+                  "sciname": "Mesorhizobium sp. AR10"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.191,
+                  "score": 339,
+                  "evalue": 6.9076e-37,
+                  "identity": 66,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 159,
+                  "hit_from": 14,
+                  "hit_to": 171,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "TMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "SMSDEREIQEVMARYVRAADYRDGAAMSKIFLPEGKTEIFYNNAGTAELLGELVGAKAIGDGVTNLMKPHPPRGWSHHITSDSIIEVKGDTATLDVHFVVFNVVGKEKPEGGWPAGAFGAQGTITPIESGYYRPILKKVDGRWMIAHNRIYHDIPYAF",
+                  "midline": "+M+DE  I  V+ +Y RA D RD  AM+ +F P+    +     G ++ +  L G  AI   V  +M PH  R WS ++ +  +I + GDTA LD  F+VF+++  E P+GGWP G FGAQG I PIE+G Y   L+ V   W+IAH  I H +P AF"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_421736409.1|",
+                  "accession": "WP_421736409",
+                  "title": "nuclear transport factor 2 family protein [Caulobacter sp.]",
+                  "taxid": 78,
+                  "sciname": "Caulobacter sp."
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 8.84544e-37,
+                  "identity": 72,
+                  "positive": 93,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MTDEIAVREVMARYVRAADQRNGAAMAALFVEGATVEIHYDKGGADQLLGVLDGREAIANAVSAMMRPHPPRGWSHHTTHDALVSIDGDVAELDTQFVVFNVLGAEEPAGGWPATASGAQGAITPIESGYYRPTLQKRDGAWLIQTHRIYHDLPMAF",
+                  "midline": "M DE  +  V+ +Y RA D+R+  AMAALF   A++ +    GGA + + VL GR+AI  AV  MM PH  R WS +  +  ++ I GD A LD QF+VF++L AE P GGWP    GAQG I PIE+G Y   L+     W+I    I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_162537991.1|",
+                  "accession": "WP_162537991",
+                  "title": "nuclear transport factor 2 family protein [Granulicella sp. WH15]",
+                  "taxid": 2602070,
+                  "sciname": "Granulicella sp. WH15"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.035,
+                  "score": 336,
+                  "evalue": 1.53901e-36,
+                  "identity": 67,
+                  "positive": 93,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MTDERAVQQVLAKYVRGSDARDGAAVAAQFAPNGRVEIFYSNSGKLEPLGELVGQDAIAGAVAHMMSPHPPRGWSHHTTHDPIIEINGDEAQMDAQFIVFSVIGKERPSTGWPEGATGAQGTVTPIESGYYRPTLRRIDGVWKFETLRIVLDMPVAF",
+                  "midline": "M DE  +  VL +Y R  D RD  A+AA FAP+  + +  +  G  +P+  L G+DAI  AV  MM+PH  R WS +  + P+I I+GD A++DAQF+VFS++  E P  GWP G  GAQG + PIE+G Y   LR +   W    + I   +P+AF"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gb|MGC1305072.1|",
+                  "accession": "MGC1305072",
+                  "title": "nuclear transport factor 2 family protein [Caulobacteraceae bacterium]",
+                  "taxid": 1978230,
+                  "sciname": "Caulobacteraceae bacterium"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 133.265,
+                  "score": 334,
+                  "evalue": 2.55549e-36,
+                  "identity": 75,
+                  "positive": 95,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDEREVQQVLARYVRAADHRDGAAMASLFLPEGTVELFYNEAGTPAPMGELVGAAAIGVAVATMMKPHPPRGWSHHTTHDPIIEVDGDTATLDAQFVVFNIVGAEKPEGGWPKGVSGAQGTIVPIETGYYRPTLKKVDGRWMMAQHRIYLDLPMVF",
+                  "midline": "M+DE  +  VL +Y RA D RD  AMA+LF P+ ++ +     G   P+  L G  AI VAV  MM PH  R WS +  + P+I + GDTA LDAQF+VF+I+ AE P+GGWP G  GAQG IVPIE G Y   L+ V   W++A   I   LPM F"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|MCU1307788.1|",
+                  "accession": "MCU1307788",
+                  "title": "nuclear transport factor 2 family protein [Acidobacteriaceae bacterium]",
+                  "taxid": 2052142,
+                  "sciname": "Acidobacteriaceae bacterium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.88,
+                  "score": 333,
+                  "evalue": 4.36271e-36,
+                  "identity": 69,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSEERAVQQVLARYVRGVDARDGAAVAAVFTEDGRVEISYNISGKLEPLGELVGREMIAGAVSQMMKPHSARGWSHHTTHDHLIDVNGDDATLDAQFVVFEVRGKERPATGWPEGASGAQGTVQPIEAGYYRPILRRVDGVWKITTLRITHSLPMAF",
+                  "midline": "M++E  +  VL +Y R  D RD  A+AA+F  D  + +   + G  +P+  L GR+ I  AV QMM PH  R WS +  +  +I ++GD A LDAQF+VF +   E P  GWP G  GAQG + PIEAG Y   LR V   W I  + I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_111489643.1|",
+                  "accession": "WP_111489643",
+                  "title": "nuclear transport factor 2 family protein [Peterkaempfera bronchialis]",
+                  "taxid": 2126346,
+                  "sciname": "Peterkaempfera bronchialis"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.109,
+                  "score": 331,
+                  "evalue": 8.02569e-36,
+                  "identity": 72,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MDDERAVAQVLARYVRAADHRDGAAMSALFVEDAVVEIYYSNGGTREKLAEITGAEAIGNAVAGMMVPHPPRGWSHHTTQDHLVEVDGDEAALDAQFVVFSIQGDERPADGWPAGAFGAQGTITPIESGYYQPRLRRVDGAWRIVHHTILLDQPMAF",
+                  "midline": "M DE  +  VL +Y RA D RD  AM+ALF  DA + +  + GG  + ++ + G +AI  AV  MM PH  R WS +     ++ + GD A LDAQF+VFSI   E P  GWP G FGAQG I PIE+G Y   LR V   W I H  I    PMAF"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gb|MDR3670257.1|",
+                  "accession": "MDR3670257",
+                  "title": "nuclear transport factor 2 family protein [Holophaga sp.]",
+                  "taxid": 2582906,
+                  "sciname": "Holophaga sp."
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 131.724,
+                  "score": 330,
+                  "evalue": 1.0992e-35,
+                  "identity": 73,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSEEREIQQVLARYVRATDHRDGAAMAALFLPDGKVEIYHPQAGAMALVGELAGPEAIGAAVSTMMRPHPPRGWSHHTTHDPIIEIDGDTATLDAQFVVFNVVGAEKPADGWPEGARGAQGTILPIETGYYRPVLKKAGGRWWIACQRIYLDLPFAI",
+                  "midline": "M++E  I  VL +Y RA D RD  AMAALF PD  + +     GA   +  L G +AI  AV  MM PH  R WS +  + P+I I GDTA LDAQF+VF+++ AE P  GWP G  GAQG I+PIE G Y   L+     W IA   I   LP A "
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_297543296.1|",
+                  "accession": "WP_297543296",
+                  "title": "nuclear transport factor 2 family protein [Amycolatopsis sp.]",
+                  "taxid": 37632,
+                  "sciname": "Amycolatopsis sp."
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 131.339,
+                  "score": 329,
+                  "evalue": 1.67202e-35,
+                  "identity": 65,
+                  "positive": 87,
+                  "query_from": 6,
+                  "query_to": 159,
+                  "hit_from": 11,
+                  "hit_to": 164,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "ETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "EREIDEVMARYVRAHDYRDAAAMSALFADDGVVEIFYCGNRENEHLGTLEGAATIGNAIAGMMKPHPPRGWSHNVTSSHIVHVDGDTATLEVQFIIFNAVGDEQPADGWPAGAFGSQGSITPIESGYYETTLHRSGDQWKITKHVIKHDIPYAL",
+                  "midline": "E  I  V+ +Y RAHD RD  AM+ALFA D  + +       ++ +  L G   I  A+  MM PH  R WS NV ++ ++H+ GDTA L+ QF++F+ +  E P  GWP G FG+QG I PIE+G Y   L    D W I   VIKH +P A "
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_263359953.1|",
+                  "accession": "WP_263359953",
+                  "title": "nuclear transport factor 2 family protein [Acidicapsa ligni]",
+                  "taxid": 542300,
+                  "sciname": "Acidicapsa ligni"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 4.24236e-35,
+                  "identity": 67,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDERTIQQVLAKYVRGADRRDGAAVAELFTDDGKVEIFYSNSGNPEPMGEIVGPGPIATAVSQMMRPHPPGGWSHHTTHDPIIEVIGDRATLDAQFIVFSVQAKEKPEGGWPADALGVQGSVTPIESGYYRPILHRVGGGWKIQTLRIVMDMPIAF",
+                  "midline": "M+DE  I  VL +Y R  DRRD  A+A LF  D  + +  +  G  +P+  + G   I  AV QMM PH    WS +  + P+I + GD A LDAQF+VFS+ A E P+GGWP    G QG + PIE+G Y   L  V  GW I  + I   +P+AF"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_408401870.1|",
+                  "accession": "WP_408401870",
+                  "title": "nuclear transport factor 2 family protein [Paraburkholderia aspalathi]",
+                  "taxid": 1324617,
+                  "sciname": "Paraburkholderia aspalathi"
+                }
+              ],
+              "len": 198,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 131.339,
+                  "score": 329,
+                  "evalue": 4.57233e-35,
+                  "identity": 68,
+                  "positive": 95,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 42,
+                  "hit_to": 198,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSVDYDIAKVLARYVRAADRRDGTAMAELFLTEGKVTMFYNDGGTPQPLGELVGREAIANAVTKMMKPHPPRGWSHHTTHDAIINVEGDTATLDAQFIVYNVVGDLKPEGGWPVGASGAQGTVKPIESGYYRPTLKQVDGRWMIETLQIILDLPVAF",
+                  "midline": "M+ +  I  VL +Y RA DRRD  AMA LF  +  + +    GG  +P+  L GR+AI  AV +MM PH  R WS +  +  +I++ GDTA LDAQF+V++++    P+GGWP G  GAQG + PIE+G Y   L+ V   W+I  + I   LP+AF"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_203016593.1|",
+                  "accession": "WP_203016593",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [unclassified Frankia]",
+                  "taxid": 2632575,
+                  "sciname": "unclassified Frankia"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 8.44878e-35,
+                  "identity": 66,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSPEREIEEVLARYVRAADHRDPTAMSKLFTDDAVVEIYYTGGGAAEPLGELHGAETIGQAVAGQMAAHPPLGWSHHTTLNPIVRVDGNTGTFDAQFVVYDVRGRERPATGWPAGSLGAQGSIVPIESGYLLATLLRTEGGWKLTRHIIRHDLPYAF",
+                  "midline": "M+ E  I  VL +Y RA D RDP AM+ LF  DA + +    GGA++P+  LHG + I  AV   MA H    WS +    P++ + G+T   DAQF+V+ +   E P  GWP G+ GAQG IVPIE+G     L     GW +   +I+H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_217553725.1|",
+                  "accession": "WP_217553725",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. GbtcB6]",
+                  "taxid": 2824751,
+                  "sciname": "Streptomyces sp. GbtcB6"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 8.60504e-35,
+                  "identity": 72,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MDDERAEALVMARYVRAADHRDGAAMAALFAEDAVAEIFYSNGGTREKLAELTGAETIGKAVAGLMAPHPPRGWSHHTTHDHIIEVDGDEATLDAQFVVFNTRGHERPADGWPEGTFGAQGTITPIESGYYQPRLRRIDGAWRIFHHTILLDQPMAF",
+                  "midline": "M DE     V+ +Y RA D RD  AMAALFA DA   +  + GG  + ++ L G + I  AV  +MAPH  R WS +  +  +I + GD A LDAQF+VF+    E P  GWP GTFGAQG I PIE+G Y   LR +   W I H  I    PMAF"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gb|XWD21501.1|",
+                  "accession": "XWD21501",
+                  "title": "nuclear transport factor 2 family protein [Actinoallomurus sp. CA-150967]",
+                  "taxid": 3239886,
+                  "sciname": "Actinoallomurus sp. CA-150967"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 1.32967e-34,
+                  "identity": 71,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MDDERAVAQVLARYVRATDHRDAAAMSALFAGDGVVEIYFHNGGAPEKLAEIVGAEAIGQAVAGLMAPHPPRGWSHHTTQDHIIEIDGDEATLDAQFIVYRSQGDERPPGGWPEGTFGAQGSVTPIESGYYRPRMRRVGGKWRIVHHTILMDQPMAI",
+                  "midline": "M DE  +  VL +Y RA D RD  AM+ALFA D  + +    GGA + ++ + G +AI  AV  +MAPH  R WS +     +I I GD A LDAQF+V+     E P GGWP GTFGAQG + PIE+G Y   +R V   W I H  I    PMA "
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_263356389.1|",
+                  "accession": "WP_263356389",
+                  "title": "nuclear transport factor 2 family protein [Acidicapsa ligni]",
+                  "taxid": 542300,
+                  "sciname": "Acidicapsa ligni"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 1.43489e-34,
+                  "identity": 65,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MTDERAVQQVLAKYVRGTDARNGAAVAAQFTPDGRVEIFYSNSGDLQPLGVLVGHDAIVGAVANMMRPHPPRGWSHHTTHDPIIEVNGDEAQMDAQFIVFNVVGKERPATGWPEGVTGAQGTVTPIESGYYRPTLRRIDGVWKFETLRIVLDIPLAF",
+                  "midline": "M DE  +  VL +Y R  D R+  A+AA F PD  + +  +  G  +P+ VL G DAI  AV  MM PH  R WS +  + P+I ++GD A++DAQF+VF+++  E P  GWP G  GAQG + PIE+G Y   LR +   W    + I   +P+AF"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_341315099.1|",
+                  "accession": "WP_341315099",
+                  "title": "nuclear transport factor 2 family protein [Paraburkholderia sp. IMGN_8]",
+                  "taxid": 3136564,
+                  "sciname": "Paraburkholderia sp. IMGN_8"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.257,
+                  "score": 321,
+                  "evalue": 2.34005e-34,
+                  "identity": 66,
+                  "positive": 90,
+                  "query_from": 9,
+                  "query_to": 159,
+                  "hit_from": 7,
+                  "hit_to": 157,
+                  "align_len": 151,
+                  "gaps": 0,
+                  "qseq": "ILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "IAKVLARYVRAADRRDGTAMAELFLTEGKVTMFYNDGGTPQSLGELVGREAIANAVTNMMKPHPPRGWSHHTTHDAIINVEGDTATLDAQFIVYNVVGDLKPEGGWPAGASGAQGTVKPIESGYYRPTLKQVDGRWMIETLQIILDLPVAF",
+                  "midline": "I  VL +Y RA DRRD  AMA LF  +  + +    GG  + +  L GR+AI  AV  MM PH  R WS +  +  +I++ GDTA LDAQF+V++++    P+GGWP G  GAQG + PIE+G Y   L+ V   W+I  + I   LP+AF"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_324109844.1|",
+                  "accession": "WP_324109844",
+                  "title": "nuclear transport factor 2 family protein [Caulobacter sp.]",
+                  "taxid": 78,
+                  "sciname": "Caulobacter sp."
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.257,
+                  "score": 321,
+                  "evalue": 2.34989e-34,
+                  "identity": 72,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MIDEIAIREVLARYVRAADHRNGAAMAELFVDGATVEIHYDKGGADQLLGVLEGREAIAHAVGAMMLPHPPRGWSHHTTHDAIVSIAGDFAELDAQFVVFSVLGAQQPADGWPETAVGAQGAVTPIESGYYRPTLRKIDGAWRIQTHRIYLDLPMAF",
+                  "midline": "M DE  I  VL +Y RA D R+  AMA LF   A++ +    GGA + + VL GR+AI  AV  MM PH  R WS +  +  ++ I GD A LDAQF+VFS+L A+ P  GWP    GAQG + PIE+G Y   LR +   W I    I   LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_075643607.1|",
+                  "accession": "WP_075643607",
+                  "title": "nuclear transport factor 2 family protein [Paraburkholderia ginsengiterrae]",
+                  "taxid": 1462993,
+                  "sciname": "Paraburkholderia ginsengiterrae"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.257,
+                  "score": 321,
+                  "evalue": 3.06172e-34,
+                  "identity": 67,
+                  "positive": 91,
+                  "query_from": 5,
+                  "query_to": 157,
+                  "hit_from": 2,
+                  "hit_to": 154,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "DETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPM",
+                  "hseq": "EEFAVLQVLARYVRAADRRDGSAMAELFTPGGRVQLLYNNAGVPELVGELVGREAIAAAVTHMMKPHPERGWSHHTTHDPIVTINGNRAEIDAQFIVYNVVGAERPAGGWPKGTSGAQGTVTPIESGYYLPRLIRVDGRWLIETHGIVLDLPI",
+                  "midline": "+E  +L VL +Y RA DRRD  AMA LF P   + +L    G  + +  L GR+AI  AV  MM PH  R WS +  + P++ I+G+ A +DAQF+V++++ AE P GGWP GT GAQG + PIE+G Y   L  V   W+I    I   LP+"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gb|MEA2655612.1|",
+                  "accession": "MEA2655612",
+                  "title": "hypothetical protein [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.872,
+                  "score": 320,
+                  "evalue": 3.50105e-34,
+                  "identity": 69,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 3,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDA-SIVVLDAVGGAS--KPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTENEIKQIVSLYTRAADRRDGAAMAALFATDGVSEIYLHGPGGLDDRELLGKLTGAEQIEAAMTRAMAPHPPRGWSHHTTCDHLVSIDGDEASIETQFITYNVVGAAKPEGGWPAGTFGAQGSITPIESGYYRFNLRRTDGTWKIRHQEIIHDIPYAF",
+                  "midline": "M+ E  I  ++  YTRA DRRD  AMAALFA D  S + L   GG    + +  L G + I  A+ + MAPH  R WS +     ++ I GD A ++ QF+ ++++ A  P+GGWP GTFGAQG I PIE+G Y   LR     W I H  I H +P AF"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_263379425.1|",
+                  "accession": "WP_263379425",
+                  "title": "nuclear transport factor 2 family protein [Granulicella paludicola]",
+                  "taxid": 474951,
+                  "sciname": "Granulicella paludicola"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.487,
+                  "score": 319,
+                  "evalue": 5.23564e-34,
+                  "identity": 68,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSEERAIQQVLAKYVRGTDKRDGAAVAALFTETGRVEISYNKLGKLEPVGELVGKDAITAAVSQMMKPHPAYGWSHHTTHDHIIEVDGEIATLDAQFVVFEVRGKERPVTGWPEGAFGAQGTVTPIEAGYYRPTLRRVDGVWKIDTLRIVMNLPLAF",
+                  "midline": "M++E  I  VL +Y R  D+RD  A+AALF     + +     G  +P+  L G+DAI  AV QMM PH    WS +  +  +I + G+ A LDAQF+VF +   E P  GWP G FGAQG + PIEAG Y   LR V   W I  + I   LP+AF"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_248839822.1|",
+                  "accession": "WP_248839822",
+                  "title": "nuclear transport factor 2 family protein [Frankia sp. AgKG'84/4]",
+                  "taxid": 573490,
+                  "sciname": "Frankia sp. AgKG'84/4"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.872,
+                  "score": 320,
+                  "evalue": 6.00139e-34,
+                  "identity": 67,
+                  "positive": 86,
+                  "query_from": 6,
+                  "query_to": 159,
+                  "hit_from": 22,
+                  "hit_to": 175,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "ETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "ERQVEEVVAAYVRAADRRDGSAMSGLFTEDAVVEIYYTGSGGRDPLGSVRGAAAIGQAVAGLMAPHPPRGWSHHTTFNPIIAVDGDTATIDVQFLVYNVVGRAEPAGGWPPGAVGAQGSITPIESGYNRSTLRRVNGKWLIAEHVISHDLPYAF",
+                  "midline": "E  +  V+  Y RA DRRD  AM+ LF  DA + +     G   P+  + G  AI  AV  +MAPH  R WS +    P+I + GDTA +D QF+V++++    P GGWP G  GAQG I PIE+G     LR V   W+IA  VI H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_396516996.1|",
+                  "accession": "WP_396516996",
+                  "title": "nuclear transport factor 2 family protein [Kutzneria sp. NPDC052558]",
+                  "taxid": 3364121,
+                  "sciname": "Kutzneria sp. NPDC052558"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.102,
+                  "score": 318,
+                  "evalue": 6.43743e-34,
+                  "identity": 68,
+                  "positive": 87,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MTDYQLVNEVLARYLRAADHRDPKSMAAVFWPDATVHVYYSGAGSDELLGAMEGADAIGAAVENGMVPHPDLGWSHHTTVNPIVTIDGDAAEYDAQFLVYSALGIARPADGWPEGTSGSQGSITPIESGYVTTSLRRRDGEWRIQRHVIKHDLLYVF",
+                  "midline": "M D  ++  VL +Y RA D RDP +MAA+F PDA++ V  +  G+ + +  + G DAI  AV   M PH    WS +    P++ I GD A  DAQF+V+S L    P  GWP GT G+QG I PIE+G  T  LR     W I   VIKH L   F"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_297538562.1|",
+                  "accession": "WP_297538562",
+                  "title": "nuclear transport factor 2 family protein [Amycolatopsis sp.]",
+                  "taxid": 37632,
+                  "sciname": "Amycolatopsis sp."
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.102,
+                  "score": 318,
+                  "evalue": 7.09815e-34,
+                  "identity": 65,
+                  "positive": 86,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTENEIRAIVSQYTRAADRRDGEALAKLYDPDAVVEVNYRGPEGMEPLGKLSGAAQIAEAMSTAMAPHPPLGWSHHTTYDHVVSIDGNEASIETQFITFDVVGVRKPEGGWPAGTFGAQGTIKPIESGYYHFFFRRTEGTWRIRHMDITHDIPYVF",
+                  "midline": "M+ E  I  ++ QYTRA DRRD +A+A L+ PDA + V        +P+  L G   I  A+   MAPH    WS +     V+ I G+ A ++ QF+ F ++    P+GGWP GTFGAQG I PIE+G Y  F R     W I HM I H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "dbj|GBQ30729.1|",
+                  "accession": "GBQ30729",
+                  "title": "hypothetical protein AA13594_1837 [Gluconacetobacter azotocaptans DSM 13594]",
+                  "taxid": 1307932,
+                  "sciname": "Gluconacetobacter azotocaptans DSM 13594"
+                }
+              ],
+              "len": 132,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.561,
+                  "score": 314,
+                  "evalue": 1.38546e-33,
+                  "identity": 58,
+                  "positive": 80,
+                  "query_from": 28,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 132,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "MAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MAELFVPEGKVEIFYNNAGTPEPLGELIGSEAVGAAVATMMKPHPPRGWSHHTTHDPIIEVNGDTGMLDAQFVVFNVVGAEKPEGGWPEGAYGAQGTVTPIETGYYRPILKKIDGHWMITHHRIYLDLPMAF",
+                  "midline": "MA LF P+  + +     G  +P+  L G +A+  AV  MM PH  R WS +  + P+I ++GDT  LDAQF+VF+++ AE P+GGWP G +GAQG + PIE G Y   L+ +   W+I H  I   LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_250642988.1|",
+                  "accession": "WP_250642988",
+                  "title": "nuclear transport factor 2 family protein [Frankia sp. AiPa1]",
+                  "taxid": 573492,
+                  "sciname": "Frankia sp. AiPa1"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.561,
+                  "score": 314,
+                  "evalue": 3.31069e-33,
+                  "identity": 70,
+                  "positive": 87,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 4,
+                  "hit_to": 158,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "TMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLP",
+                  "hseq": "TKSPEREISEVTARYVRAADHRDGDAMAALFTDDAVVDVYYAHDGVRAPLGSVRGAAAIGQAVAGLMAPHPPRGWSHHTTFNHLVDVDDDTATNDAQFLVYNVVGTAEPDGGWPAGVFGAQGTITPIESGYTRSRLRRVDGRWLITSMEISHDLP",
+                  "midline": "T + E  I  V  +Y RA D RD DAMAALF  DA + V  A  G   P+  + G  AI  AV  +MAPH  R WS +     ++ +  DTA  DAQF+V++++    PDGGWP G FGAQG I PIE+G     LR V   W+I  M I H LP"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "ref|WP_388544797.1|",
+                  "accession": "WP_388544797",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. NPDC002018]",
+                  "taxid": 3364629,
+                  "sciname": "Streptomyces sp. NPDC002018"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.405,
+                  "score": 311,
+                  "evalue": 9.33915e-33,
+                  "identity": 71,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDERDVQQVLARYVRAADHRDGQALAALFEAEGTVEIYYNNAGIPEKIAELIGAEAIGGAVVGMMAPHPPRGWSHHTTHDHLIEIDGDHATLDAQFVVFNTVGKERPDGGWPDGASGAQGTITPIESGYYRPRLRRTDGEWKIYLHRIVLDQPMAF",
+                  "midline": "M+DE  +  VL +Y RA D RD  A+AALF  + ++ +     G  + I+ L G +AI  AV  MMAPH  R WS +  +  +I I GD A LDAQF+VF+ +  E PDGGWP G  GAQG I PIE+G Y   LR     W I    I    PMAF"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "tpg|HEY2062361.1|",
+                  "accession": "HEY2062361",
+                  "title": "nuclear transport factor 2 family protein [Amycolatopsis sp.]",
+                  "taxid": 37632,
+                  "sciname": "Amycolatopsis sp."
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 1.91478e-32,
+                  "identity": 65,
+                  "positive": 86,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSAENEITQVVSRYTRAADRRDGEAMAMLYEADAVVEVRYRGPEGMEPLGKLSGAAQIADAMTTAMAPHPPLGWSHHTTYDHLVTLDGDDADIETQFITFDVVGAPKPEGGWPAGTFGAQGTIKPIESGYYHFFFRRTGGAWRIRHMDITHDIPYVF",
+                  "midline": "M+ E  I  V+ +YTRA DRRD +AMA L+  DA + V        +P+  L G   I  A+   MAPH    WS +     ++ + GD A ++ QF+ F ++ A  P+GGWP GTFGAQG I PIE+G Y  F R     W I HM I H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "tpg|HEY3712152.1|",
+                  "accession": "HEY3712152",
+                  "title": "nuclear transport factor 2 family protein [Amycolatopsis sp.]",
+                  "taxid": 37632,
+                  "sciname": "Amycolatopsis sp."
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 2.596e-32,
+                  "identity": 66,
+                  "positive": 84,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MTTETEIKEIVSRYTRAADRRDGEAMATLYETDAVVEVRYRGPEGMELLGKLSGAVQIAEAMSTAMAPHPPLGWSHHTTYDHLVTIDGDDADLETQFITFDVAGIRKPEGGWPTGTFGAQGTIKPIESGYYHFFFRRTGGAWRIRHMDITHDIPYVF",
+                  "midline": "M  ET I  ++ +YTRA DRRD +AMA L+  DA + V        + +  L G   I  A+   MAPH    WS +     ++ I GD A L+ QF+ F +     P+GGWPTGTFGAQG I PIE+G Y  F R     W I HM I H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|MDB5027658.1|",
+                  "accession": "MDB5027658",
+                  "title": "nuclear transport factor 2 family protein [Vulcanimicrobiota bacterium]",
+                  "taxid": 2052317,
+                  "sciname": "Vulcanimicrobiota bacterium"
+                }
+              ],
+              "len": 132,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 3.02275e-32,
+                  "identity": 62,
+                  "positive": 80,
+                  "query_from": 28,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 132,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "MAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSAIFLPDGKVEIFHNNTGTPELIGELVGQEAIGVAVATMMKPHPPRGGSHHTTHDPIIEVHGDTGTLDAQFVVFNVVGAEKPEGGWPQGAAGAQGTITPIETGYYRPILKKVDGRWMIAHHRIYLDLPMVF",
+                  "midline": "M+A+F PD  + +     G  + I  L G++AI VAV  MM PH  R  S +  + P+I +HGDT  LDAQF+VF+++ AE P+GGWP G  GAQG I PIE G Y   L+ V   W+IAH  I   LPM F"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|WP_211767028.1|",
+                  "accession": "WP_211767028",
+                  "title": "nuclear transport factor 2 family protein [Kutzneria sp. CA-103260]",
+                  "taxid": 2802641,
+                  "sciname": "Kutzneria sp. CA-103260"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 3.53701e-32,
+                  "identity": 66,
+                  "positive": 85,
+                  "query_from": 5,
+                  "query_to": 159,
+                  "hit_from": 7,
+                  "hit_to": 161,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "DHRLVAEVFARYLRAADHRDPKAMAAVFWPDATVHVYYSGAGRDELLGEMSGAGAIGDAVATGMVPHPELGWSHHTMVNPITAVDGDTAEYDAQFLVYSVRGLARPENGWPAGTVGAQGSITPIESGYVRAALRRQDGEWRIQRHVIKHDLPYVF",
+                  "midline": "D  ++  V  +Y RA D RDP AMAA+F PDA++ V  +  G  + +  + G  AI  AV   M PH    WS + +  P+  + GDTA  DAQF+V+S+     P+ GWP GT GAQG I PIE+G     LR     W I   VIKH LP  F"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "ref|WP_213763203.1|",
+                  "accession": "WP_213763203",
+                  "title": "nuclear transport factor 2 family protein [Caballeronia sp. dw_19]",
+                  "taxid": 2719791,
+                  "sciname": "Caballeronia sp. dw_19"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 4.05367e-32,
+                  "identity": 65,
+                  "positive": 89,
+                  "query_from": 9,
+                  "query_to": 159,
+                  "hit_from": 5,
+                  "hit_to": 157,
+                  "align_len": 153,
+                  "gaps": 2,
+                  "qseq": "ILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIH--GDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "IAKVLARYVRAADQRNGTAMAELFLPEGRVKIFYNDAGTPEPLGELFGREAIADAVTNMMKPHPPRGWSHHTTHDAIIDVDVDGDTATLDAQFIVYNVVGDLKPEGGWPQGASGAQGTVTPIESGYYRPTLKKVDGRWMIETLQIILDLPAAF",
+                  "midline": "I  VL +Y RA D+R+  AMA LF P+  + +     G  +P+  L GR+AI  AV  MM PH  R WS +  +  +I +   GDTA LDAQF+V++++    P+GGWP G  GAQG + PIE+G Y   L+ V   W+I  + I   LP AF"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_237259959.1|",
+                  "accession": "WP_237259959",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas petrae]",
+                  "taxid": 2912190,
+                  "sciname": "Pseudomonas petrae"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 4.43563e-32,
+                  "identity": 70,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 159,
+                  "gaps": 5,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISV--LHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDARDVQQVLAQYVRATDRRDATAMSALFMDDGRVEIFQ---GQLAPIALGALQGAETIGQATAGMMASHPARGWSHHTTHDPIIEVTGDEATLDAQFIVYNTVGFEQPAAGWPQGAVGAQGRVEPIEAGYYQSTLKRVNGRWKIAVHRITLDLPHAF",
+                  "midline": "M+D   +  VL QY RA DRRD  AM+ALF  D  + +     G   PI++  L G + I  A   MMA H  R WS +  + P+I + GD A LDAQF+V++ +  E P  GWP G  GAQGR+ PIEAG Y   L+ V   W IA   I   LP AF"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_398989685.1|",
+                  "accession": "WP_398989685",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. NPDC051217]",
+                  "taxid": 3365644,
+                  "sciname": "Streptomyces sp. NPDC051217"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 4.92535e-32,
+                  "identity": 65,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDERQVQQVLARYVRAADHRDGAAMSALFETDATAEIFYNRAGVPEKITELVGAEAIGGAIAGLMTPHPPRGWSHHTTHDHIIEVDRDSATIDAQFVVYNTVGDERPEGGWPPGAAGAQGTITPIESGYYRPALRRTDGAWKISHHRVILDQPMAF",
+                  "midline": "M+DE  +  VL +Y RA D RD  AM+ALF  DA+  +     G  + I+ L G +AI  A+  +M PH  R WS +  +  +I +  D+A +DAQF+V++ +  E P+GGWP G  GAQG I PIE+G Y   LR     W I+H  +    PMAF"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "ref|WP_233371322.1|",
+                  "accession": "WP_233371322",
+                  "title": "nuclear transport factor 2 family protein [Pelomonas cellulosilytica]",
+                  "taxid": 2906762,
+                  "sciname": "Pelomonas cellulosilytica"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 9.45265e-32,
+                  "identity": 68,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDGRQVEQVLARYVRAADRRSSVDVAALFAADAEVEILLNQDGISHPIGALVGADTIGHAVAGLMRPHPERGWSPHMTSNAIVEVRGDSATLEAQFVVFNTVGSPRPAGDWPDGAAGAQGVVQPIEAGYYASALQRVDGVWKITRHRITHDLPYAF",
+                  "midline": "M+D   +  VL +Y RA DRR    +AALFA DA + +L    G S PI  L G D I  AV  +M PH  R WS ++ +  ++ + GD+A L+AQF+VF+ + +  P G WP G  GAQG + PIEAG Y   L+ V   W I    I H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gb|MGA2851358.1|",
+                  "accession": "MGA2851358",
+                  "title": "nuclear transport factor 2 family protein [Terracidiphilus sp.]",
+                  "taxid": 1964191,
+                  "sciname": "Terracidiphilus sp."
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.41293e-31,
+                  "identity": 65,
+                  "positive": 86,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSEERAVQQVLAKYVRGSDARDGAAVAAQFTELGRVEISYNNSGRLEPIGELVGQEAIAAAVSQMMRPHPAHGWSHHTTHDHIIEVNGDIATIDAQFIVFEVRGKERPATGWPDGAFGVQGTVTPIEAGYYRPILRRVDGVWKIDTLRIVMNLPLAF",
+                  "midline": "M++E  +  VL +Y R  D RD  A+AA F     + +     G  +PI  L G++AI  AV QMM PH    WS +  +  +I ++GD A +DAQF+VF +   E P  GWP G FG QG + PIEAG Y   LR V   W I  + I   LP+AF"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|WP_365796653.1|",
+                  "accession": "WP_365796653",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. NPDC086519]",
+                  "taxid": 3154863,
+                  "sciname": "Streptomyces sp. NPDC086519"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.46367e-31,
+                  "identity": 68,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 159,
+                  "align_len": 159,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGAS-KPISV-LHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDERKVQEVLARYVRATDKRDGAAQGALFTPDATVQIYSKTGPDSYEPVGAPLIGGDAVRYAVENFMAPHPERGSSHHVTADHIIEVEGDRAHMNAQFIVFRILSDARPADGWPVGAFGAQGTVQPIESGYYDTELRNIGGEWKITRHHILLDMAMAL",
+                  "midline": "M+DE  +  VL +Y RA D+RD  A  ALF PDA++ +    G  S +P+   L G DA+R AV   MAPH  R  S +V    +I + GD A ++AQF+VF IL+   P  GWP G FGAQG + PIE+G Y   LR +   W I    I   + MA "
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gb|MDT5255618.1|",
+                  "accession": "MDT5255618",
+                  "title": "hypothetical protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 2.00026e-31,
+                  "identity": 66,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDRRDVQEVLARYVRAADHRDGGAMASLFVEDAVVEIYYNNAGVPEKIAELNGALAIGAAVAGLMKPHPPRGWSHHTTHDHIINVDGDQADIDAHFIVFNTVGDLRPDDGWPAGASGAQGTITPIESGYYRPRLQRVDGTWKIVHHEVVHDHPMAF",
+                  "midline": "M+D   +  VL +Y RA D RD  AMA+LF  DA + +     G  + I+ L+G  AI  AV  +M PH  R WS +  +  +I++ GD A +DA F+VF+ +    PD GWP G  GAQG I PIE+G Y   L+ V   W I H  + H  PMAF"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_163550376.1|",
+                  "accession": "WP_163550376",
+                  "title": "nuclear transport factor 2 family protein [Candidatus Frankia nodulisporulans]",
+                  "taxid": 2060052,
+                  "sciname": "Candidatus Frankia nodulisporulans"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 2.79018e-31,
+                  "identity": 67,
+                  "positive": 85,
+                  "query_from": 6,
+                  "query_to": 158,
+                  "hit_from": 22,
+                  "hit_to": 174,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "ETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMA",
+                  "hseq": "ERQVEEVVAAYVRAADHRDGPAMAALFTEDAVVEIYYTGGGARTPLGSVRTAARIGQAVAGMMAPHPPRGWSHHTTFNHIVDVDGDTATIDVQFLVHNVVGRAEPEGGWPPGTSGAQGTITPIESGYNRSTLRRVEGRWLIAEHVISHDLPYA",
+                  "midline": "E  +  V+  Y RA D RD  AMAALF  DA + +    GGA  P+  +     I  AV  MMAPH  R WS +     ++ + GDTA +D QF+V +++    P+GGWP GT GAQG I PIE+G     LR V   W+IA  VI H LP A"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|WP_408180786.1|",
+                  "accession": "WP_408180786",
+                  "title": "nuclear transport factor 2 family protein [Paraburkholderia dipogonis]",
+                  "taxid": 1211383,
+                  "sciname": "Paraburkholderia dipogonis"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 3.03474e-31,
+                  "identity": 77,
+                  "positive": 91,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 159,
+                  "align_len": 159,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKP--ISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDELAVQQVLAHYVRAHDRRDGAAMAALFTPQAHVTILYNHNPDGEPEVIGELAGREAIAEATAHMMKPHPPRGWSHNATDGLLIDIDGDRATVDAQFMVFSILGDAKPASGWPAGAAGAMGAITPIESGYYTQKLVRVDGQWLIESLQVRHNLPFAF",
+                  "midline": "M+DE  +  VL  Y RAHDRRD  AMAALF P A + +L       +P  I  L GR+AI  A   MM PH  R WS N  +  +I I GD A +DAQFMVFSIL    P  GWP G  GA G I PIE+G YT  L  V   W+I  + ++H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_103560824.1|",
+                  "accession": "WP_103560824",
+                  "title": "nuclear transport factor 2 family protein [Actinomadura rubteroloni]",
+                  "taxid": 1926885,
+                  "sciname": "Actinomadura rubteroloni"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 3.79768e-31,
+                  "identity": 66,
+                  "positive": 86,
+                  "query_from": 6,
+                  "query_to": 159,
+                  "hit_from": 14,
+                  "hit_to": 167,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "ETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "ERQIDEVVAAYVRAADHRDGRAMAALFTDEAVVEIYYTGDGEPRLLGSVRGAAAIGQAVAGMMAPHPPRGWSHHTTFDHIVRVEGDTATVDVQFLVYNVVGAAEPEGGWPPGASGAQGTITPIESGYNRTRLRRSGDRWLITEHVISHDLPYAF",
+                  "midline": "E  I  V+  Y RA D RD  AMAALF  +A + +     G  + +  + G  AI  AV  MMAPH  R WS +     ++ + GDTA +D QF+V++++ A  P+GGWP G  GAQG I PIE+G     LR   D W+I   VI H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_362577307.1|",
+                  "accession": "WP_362577307",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. NPDC048417]",
+                  "taxid": 3155387,
+                  "sciname": "Streptomyces sp. NPDC048417"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 4.69804e-31,
+                  "identity": 69,
+                  "positive": 85,
+                  "query_from": 3,
+                  "query_to": 157,
+                  "hit_from": 2,
+                  "hit_to": 156,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPM",
+                  "hseq": "MDDERAVAQVLARYVRAVDHRDGAAMSALFVADAVAESYYNNGGKREKLAELTGAEAIGKAVAGLMAPHPPRGWSHHTTHDHIIEVDGDEATLDAQFVVFTIQGHERPAEGWPAGASGAQGTITPIESGYYQPRLRRVGGAWRIFHHTILLDQPL",
+                  "midline": "M DE  +  VL +Y RA D RD  AM+ALF  DA        GG  + ++ L G +AI  AV  +MAPH  R WS +  +  +I + GD A LDAQF+VF+I   E P  GWP G  GAQG I PIE+G Y   LR V   W I H  I    P+"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_392889593.1|",
+                  "accession": "WP_392889593",
+                  "title": "nuclear transport factor 2 family protein [Pseudomonas migulae]",
+                  "taxid": 78543,
+                  "sciname": "Pseudomonas migulae"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 9.59625e-31,
+                  "identity": 67,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 159,
+                  "gaps": 5,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISV--LHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDARDVQQVLARYVRATDRRDASAMSALFMDEGRVEIFQ---GQSDPVALGALQGAETIGQATAGMMTPHPARGWSHHTTHDSIIEIEGDEASIDAQFIVYNTVGLEQPVNGWPQGSVGAQGRVNAIEAGYYHSTLRRVAGHWKIAVHRITLDLPHAF",
+                  "midline": "M+D   +  VL +Y RA DRRD  AM+ALF  +  + +     G S P+++  L G + I  A   MM PH  R WS +  +  +I I GD A +DAQF+V++ +  E P  GWP G+ GAQGR+  IEAG Y   LR V   W IA   I   LP AF"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|MGI4747016.1|",
+                  "accession": "MGI4747016",
+                  "title": "nuclear transport factor 2 family protein [Janthinobacterium lividum]",
+                  "taxid": 29581,
+                  "sciname": "Janthinobacterium lividum"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.48185e-30,
+                  "identity": 68,
+                  "positive": 85,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 1,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPT-GTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDEFQVQQVLARYVRAADARDGIAMGKLFMPDGRVDIGYSNGGIVTAIGQLQGSDAIAQAVSSMMRPHPPRGWSHHTTHDLLIEVDGDRATLDAQFVVFNTVGAEKPADGWSKDALFALQGTVTPIESGYYRPVLRRLDGQWRIETLQILHDLPMAM",
+                  "midline": "M+DE  +  VL +Y RA D RD  AM  LF PD  + +  + GG    I  L G DAI  AV  MM PH  R WS +  +  +I + GD A LDAQF+VF+ + AE P  GW     F  QG + PIE+G Y   LR +   W I  + I H LPMA "
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|WP_164603072.1|",
+                  "accession": "WP_164603072",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. SID13031]",
+                  "taxid": 2706046,
+                  "sciname": "Streptomyces sp. SID13031"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.66548e-30,
+                  "identity": 62,
+                  "positive": 82,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTENEIREIVSQYTRAADQRDGEAMAKLYETDAVVEVHYRGPDGMEPLGTLSGAAQIAAAVTTAMVPHPPLGWSHHTTYDHRVSVDGDEASIETQFITFDVVGTRKPEGGWPAGTFGAQGTIKPIESGYYTFDFRRTDGPWRIRRMGIVHDIPYVF",
+                  "midline": "M+ E  I  ++ QYTRA D+RD +AMA L+  DA + V        +P+  L G   I  AV   M PH    WS +      + + GD A ++ QF+ F ++    P+GGWP GTFGAQG I PIE+G YT   R     W I  M I H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "tpg|HEX8816875.1|",
+                  "accession": "HEX8816875",
+                  "title": "nuclear transport factor 2 family protein [Terriglobales bacterium]",
+                  "taxid": 2282142,
+                  "sciname": "Terriglobales bacterium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.7363e-30,
+                  "identity": 63,
+                  "positive": 84,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSEERAVQQVLAKYVRGADARDGAAVAALFTEAGRVEISYNNSGKLESVGELVGQEAIAAAVSQMMRPHPARGWSHHTTQDHIIEVNADDATIDAQFVVFEVRGKEQPVTGWPAGAFGAQGTVTPTESGYYRPILRRVHGIWKIDTLRIVMNLPFAF",
+                  "midline": "M++E  +  VL +Y R  D RD  A+AALF     + +     G  + +  L G++AI  AV QMM PH  R WS +     +I ++ D A +DAQF+VF +   E P  GWP G FGAQG + P E+G Y   LR V   W I  + I   LP AF"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|MGO8996724.1|",
+                  "accession": "MGO8996724",
+                  "title": "nuclear transport factor 2 family protein [Polyangiaceae bacterium]",
+                  "taxid": 2268199,
+                  "sciname": "Polyangiaceae bacterium"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.78996e-30,
+                  "identity": 65,
+                  "positive": 84,
+                  "query_from": 9,
+                  "query_to": 159,
+                  "hit_from": 8,
+                  "hit_to": 158,
+                  "align_len": 151,
+                  "gaps": 0,
+                  "qseq": "ILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "VREVQARYVRAVDSRDGAALARLFVPDAKVQIFYGHGETAELLGELLGRDAIAHAVVAMMEPHPEGGWSHHTTHDPIVTVDGDRATLDVQFVVFSVRAKARPRDGWPREARGAQGTIMPIESGYYRSTLARRDGRWLIVNYRIDHSLPMAF",
+                  "midline": "+  V  +Y RA D RD  A+A LF PDA + +    G  ++ +  L GRDAI  AV  MM PH    WS +  + P++ + GD A LD QF+VFS+ A   P  GWP    GAQG I+PIE+G Y   L      W+I +  I H LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|WP_047822336.1|",
+                  "accession": "WP_047822336",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [unclassified Massilia]",
+                  "taxid": 2609279,
+                  "sciname": "unclassified Massilia"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 1.86536e-30,
+                  "identity": 67,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 157,
+                  "gaps": 1,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDQRQVQEVLARYVRAADRRDGAAMSSLFIAEARVEIHEGQQ-APRQIGLIQGSGAIGAAVAGMMKPHPAGGWSHHTTHDPIIDIDGDVATIDAQFIVYDTIGATKPAAGWPGSAFGAQGRVVPIEAGYYRSRLVREDGQWKIDLHRIYLDLPMAF",
+                  "midline": "M+D+  +  VL +Y RA DRRD  AM++LF  +A + + +    A + I ++ G  AI  AV  MM PH    WS +  + P+I I GD A +DAQF+V+  + A  P  GWP   FGAQGR+VPIEAG Y   L      W I    I   LPMAF"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_378839639.1|",
+                  "accession": "WP_378839639",
+                  "title": "nuclear transport factor 2 family protein [Nocardia fluminea]",
+                  "taxid": 134984,
+                  "sciname": "Nocardia fluminea"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 2.66377e-30,
+                  "identity": 64,
+                  "positive": 84,
+                  "query_from": 5,
+                  "query_to": 159,
+                  "hit_from": 14,
+                  "hit_to": 168,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "DRRDIAEVLARYLRAADHRDPTTMAAVFWDDAEVQIYYSGAGQHELLGAIKGSEAIGAAVASGMAPHPDLGWSHHTTSDPIVTVDGDSAVFDAHFLVYRVQGLPRPAAGWPAGAVGAQGTIVPIESGYVLSTLQRRADQWRILSHVIKHDLPYAF",
+                  "midline": "D   I  VL +Y RA D RDP  MAA+F  DA + +  +  G  + +  + G +AI  AV   MAPH    WS +  + P++ + GD+A  DA F+V+ +     P  GWP G  GAQG IVPIE+G     L+   D W I   VIKH LP AF"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_378984893.1|",
+                  "accession": "WP_378984893",
+                  "title": "nuclear transport factor 2 family protein [Pedobacter lithocola]",
+                  "taxid": 1908239,
+                  "sciname": "Pedobacter lithocola"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 2.95478e-30,
+                  "identity": 64,
+                  "positive": 83,
+                  "query_from": 2,
+                  "query_to": 159,
+                  "hit_from": 12,
+                  "hit_to": 169,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "TMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "TGSDERQVQQVLAKYVRAADQLNGDAMKALFTKAGKVEVYYLNAGVEEPLFVLSNPDEIANAISNLMAPHPARGWSHHTTHDHIISVNGDTATLDAQFIRFDTLGDARPENGWPEGTVGLKGTVTATEAGYYRPTLEKVEGIWKIATHRILHDLPFIF",
+                  "midline": "T +DE  +  VL +Y RA D+ + DAM ALF     + V     G  +P+ VL   D I  A+  +MAPH  R WS +  +  +I ++GDTA LDAQF+ F  L    P+ GWP GT G +G +   EAG Y   L  V   W IA   I H LP  F"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|WP_019926807.1|",
+                  "accession": "WP_019926807",
+                  "title": "nuclear transport factor 2 family protein [Nocardia sp. BMG111209]",
+                  "taxid": 1160137,
+                  "sciname": "Nocardia sp. BMG111209"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 3.29893e-30,
+                  "identity": 61,
+                  "positive": 87,
+                  "query_from": 5,
+                  "query_to": 159,
+                  "hit_from": 10,
+                  "hit_to": 164,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "DHRLVAEVIARYVRAADHRDPVTMAAVFWDDAVVEIYYSGAGQHELLARLTGVETIAAAIATGMAPHPELGWSHHTSLNPIVTVDGDDAVYDSQFLVYNVLGRARPSAGWPAGSVGAQGTIVPVESGYLESTLRRRAGRWRIAKQIIKHDLPYAF",
+                  "midline": "D  ++  V+ +Y RA D RDP  MAA+F  DA + +  +  G  + ++ L G + I  A+   MAPH    WS +    P++ + GD A  D+QF+V+++L    P  GWP G+ GAQG IVP+E+G     LR     W IA  +IKH LP AF"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "tpg|HKC08424.1|",
+                  "accession": "HKC08424",
+                  "title": "nuclear transport factor 2 family protein [Candidatus Methylomirabilota bacterium]",
+                  "taxid": 2072417,
+                  "sciname": "Candidatus Methylomirabilota bacterium"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 6.42889e-30,
+                  "identity": 61,
+                  "positive": 87,
+                  "query_from": 3,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 1,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDG-WVIAHMVIKHRLPMA",
+                  "hseq": "MSDERDVQQVIAKYVRAVDRRDGVALAELFIPNGKVTIFYTNGGKEELIVELAGREVIGNAMSNLMKAHPARGWSHHTTFDTIIEVDGERATVDAQFIVYTVVGAEKPAEGWPESTLGIQGTITPIDSGYFRSTLGRNNDGSWRIAEHRIDHDMPFA",
+                  "midline": "M+DE  +  V+ +Y RA DRRD  A+A LF P+  + +    GG  + I  L GR+ I  A+  +M  H  R WS +     +I + G+ A +DAQF+V++++ AE P  GWP  T G QG I PI++G +   L    DG W IA   I H +P A"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|WP_143644953.1|",
+                  "accession": "WP_143644953",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. IB201691-2A2]",
+                  "taxid": 2561920,
+                  "sciname": "Streptomyces sp. IB201691-2A2"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 7.68186e-30,
+                  "identity": 65,
+                  "positive": 82,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MDDERAVAQVLARYVRAADHRDGAAMSVQFVEDAVAQIYYNNEGTREKLAELTGAEAIGKAVAGLMAPHPPRGWSHHTTHDHIIEVEGDEATLDAQFVVFNTQGHERPAEGWPAGASGAQGRITPTESGYYQSRLRRVDGAWRVFHHTILLDQPTAL",
+                  "midline": "M DE  +  VL +Y RA D RD  AM+  F  DA   +     G  + ++ L G +AI  AV  +MAPH  R WS +  +  +I + GD A LDAQF+VF+    E P  GWP G  GAQGRI P E+G Y   LR V   W + H  I    P A "
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gb|MGA9088157.1|",
+                  "accession": "MGA9088157",
+                  "title": "nuclear transport factor 2 family protein [Bradyrhizobium sp.]",
+                  "taxid": 376,
+                  "sciname": "Bradyrhizobium sp."
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 8.61441e-30,
+                  "identity": 62,
+                  "positive": 76,
+                  "query_from": 3,
+                  "query_to": 137,
+                  "hit_from": 1,
+                  "hit_to": 136,
+                  "align_len": 136,
+                  "gaps": 1,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIV-PIEAGTYTLFL",
+                  "hseq": "MSDELAVQQVLAHFVRAHDRRDGAAMARLFTPQGRVKIFYNNAGELEPLGELMGREAIANAVVHMMKPHAPRGWSHNATDGLLIEIDGDCAMVDAQFMVFNILGAEKPNTGCPKDVHGAQGSITRPSRATTARILF",
+                  "midline": "M+DE  +  VL  + RAHDRRD  AMA LF P   + +     G  +P+  L GR+AI  AV  MM PH  R WS N  +  +I I GD A +DAQFMVF+IL AE P+ G P    GAQG I  P  A T  +  "
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gb|MDX6216537.1|",
+                  "accession": "MDX6216537",
+                  "title": "hypothetical protein [Frankiales bacterium]",
+                  "taxid": 1909291,
+                  "sciname": "Frankiales bacterium"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 1.06162e-29,
+                  "identity": 60,
+                  "positive": 82,
+                  "query_from": 3,
+                  "query_to": 146,
+                  "hit_from": 1,
+                  "hit_to": 144,
+                  "align_len": 144,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVI",
+                  "hseq": "MSDERLVQEVLAKYARAVDARDAGAVAERYEPTGRERLSYNRSGTPEPIAEFEGAEAIRHAVATILPAHPHLGWAHHTTFDPIIVVDGDTAELDAQFVVYSVQGDERPVSGWPLGATGGQGRIRPVESGYYHLTLRRATDGWKI",
+                  "midline": "M+DE ++  VL +Y RA D RD  A+A  + P     +     G  +PI+   G +AIR AV  ++  H +  W+ +    P+I + GDTA LDAQF+V+S+   E P  GWP G  G QGRI P+E+G Y L LR   DGW I"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_401916908.1|",
+                  "accession": "WP_401916908",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 2.43278e-29,
+                  "identity": 58,
+                  "positive": 83,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTENEIREIVSRYTRAADWRDGETLSKLFEADAAVEIHYRGPDGTELLGTLSGGAQIATAMSTAMAPHAPLGWSHHTTYDHLVSVDGDEASIDTQFITFDVTATSEPEGGWPAGTFGAQGAIKPIESGYYRFAFRRTDGVWHIRHLDVLHDLPYVF",
+                  "midline": "M+ E  I  ++ +YTRA D RD + ++ LF  DA++ +       ++ +  L G   I  A+   MAPH    WS +     ++ + GD A +D QF+ F + A   P+GGWP GTFGAQG I PIE+G Y    R     W I H+ + H LP  F"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "ref|WP_054569502.1|",
+                  "accession": "WP_054569502",
+                  "title": "nuclear transport factor 2 family protein [Frankia sp. R43]",
+                  "taxid": 269536,
+                  "sciname": "Frankia sp. R43"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 2.56189e-29,
+                  "identity": 64,
+                  "positive": 83,
+                  "query_from": 3,
+                  "query_to": 157,
+                  "hit_from": 1,
+                  "hit_to": 155,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPM",
+                  "hseq": "MTDEREIDHVIARYVRATDHRDSAAMAALFTTDATVEILDRGPDGPRALDALHGAEAIGQAVAGMMAPHPPFGWTHHTTLNHIVAVDGDDATLDLHFVNYTVQGDAEPRSGWPAGAAGAQGSIRPFESGYVHSRLRRHSDGWKIRHHRIMHDLPF",
+                  "midline": "M DE  I +V+ +Y RA D RD  AMAALF  DA++ +LD      + +  LHG +AI  AV  MMAPH    W+ +     ++ + GD A LD  F+ +++     P  GWP G  GAQG I P E+G     LR   DGW I H  I H LP "
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_362496477.1|",
+                  "accession": "WP_362496477",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. NPDC048489]",
+                  "taxid": 3154504,
+                  "sciname": "Streptomyces sp. NPDC048489"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 2.95496e-29,
+                  "identity": 66,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGAS-KPISV-LHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMA",
+                  "hseq": "MSDERKIQEVLARYVRATDQRDGKTQGALFTDDAIVQIRTRTGTNSYEPFGEPLIGGAAVEYAVEHYMAPHPPGGFSHHTTSDHLIEVDGDRAHLNAQFIVFRVRAAERPDTGWPEGSFGAQGTVEPIESGYYDTELRRIDGTWMIVRHTVLLDMPMA",
+                  "midline": "M+DE  I  VL +Y RA D+RD     ALF  DA + +    G  S +P    L G  A+  AV   MAPH    +S +  +  +I + GD A L+AQF+VF + AAE PD GWP G+FGAQG + PIE+G Y   LR +   W+I    +   +PMA"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "ref|WP_425726330.1|",
+                  "accession": "WP_425726330",
+                  "title": "nuclear transport factor 2 family protein [Gordonia sp. DT219]",
+                  "taxid": 3416658,
+                  "sciname": "Gordonia sp. DT219"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 3.69258e-29,
+                  "identity": 65,
+                  "positive": 84,
+                  "query_from": 8,
+                  "query_to": 159,
+                  "hit_from": 18,
+                  "hit_to": 169,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "IILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "LIEEVFARYVRAADRRDPAAMAALFTDTATVAIHYRGGERPEVLAELTGAGTIGAAVTSGMAAHPPLGWSHHTLLNPIIDVAAGHGRFDAQFLVYAVRGLPQPDDGWPAGTVGAQGSIVPIESGYAHAELVLSGATWTIAHLVIEHDLPYAF",
+                  "midline": "+I  V  +Y RA DRRDP AMAALF   A++ +    G   + ++ L G   I  AV   MA H    WS + +  P+I +     R DAQF+V+++     PD GWP GT GAQG IVPIE+G     L      W IAH+VI+H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gb|MDX6463348.1|",
+                  "accession": "MDX6463348",
+                  "title": "hypothetical protein [Acidobacteriaceae bacterium]",
+                  "taxid": 2052142,
+                  "sciname": "Acidobacteriaceae bacterium"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 8.63868e-29,
+                  "identity": 57,
+                  "positive": 76,
+                  "query_from": 3,
+                  "query_to": 133,
+                  "hit_from": 1,
+                  "hit_to": 131,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTY",
+                  "hseq": "MSEERAVQQVLARYVRGVDARDGAAVAAVFTEDGRVEISYNDSGKREPLGELVGREAIAAAVSQMMKPHPSGGWSHHTTHDHITDVNGDDATLDAQFVVFEVRGKERPAAGWPEGAFGAQGTVQPIEAGYY",
+                  "midline": "M++E  +  VL +Y R  D RD  A+AA+F  D  + +     G  +P+  L GR+AI  AV QMM PH    WS +  +  +  ++GD A LDAQF+VF +   E P  GWP G FGAQG + PIEAG Y"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "ref|WP_309348736.1|",
+                  "accession": "WP_309348736",
+                  "title": "nuclear transport factor 2 family protein [Telmatospirillum sp.]",
+                  "taxid": 2079197,
+                  "sciname": "Telmatospirillum sp."
+                }
+              ],
+              "len": 135,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 1.19235e-28,
+                  "identity": 57,
+                  "positive": 76,
+                  "query_from": 3,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFG",
+                  "hseq": "MSDHQNVLEVLARYVRAADRRDGRAMSALFLPEAEVVINHVNGGTTELIGVLIGPDAIGKAVATMMNPHPPRGWSHHTTHDPLVEIDGDSATIDVQFIVFNTLGAQRPAGGWPAGSTG",
+                  "midline": "M+D   +L VL +Y RA DRRD  AM+ALF P+A +V+    GG ++ I VL G DAI  AV  MM PH  R WS +  + P++ I GD+A +D QF+VF+ L A+ P GGWP G+ G"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "ref|WP_067613740.1|",
+                  "accession": "WP_067613740",
+                  "title": "nuclear transport factor 2 family protein [Novosphingobium sp. FSW06-99]",
+                  "taxid": 1739113,
+                  "sciname": "Novosphingobium sp. FSW06-99"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.62,
+                  "score": 283,
+                  "evalue": 1.36787e-28,
+                  "identity": 65,
+                  "positive": 87,
+                  "query_from": 3,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMA",
+                  "hseq": "MSDEAAVSQVLARYVRATDRRDAEAMSALFVEQGTVEMAWFNSGDPQPLGRLVGREQIAWAVANMMAPHPARGFSHHTTMDHIVTIDGDEAVIDAQFIVYNTLGADRPAAGWPAQARGAQGTVTPIEAGYYRSRLIRVDGVWRIVEHRIDLDLPVA",
+                  "midline": "M+DE  +  VL +Y RA DRRD +AM+ALF    ++ +     G  +P+  L GR+ I  AV  MMAPH  R +S +     ++ I GD A +DAQF+V++ L A+ P  GWP    GAQG + PIEAG Y   L  V   W I    I   LP+A"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_410812587.1|",
+                  "accession": "WP_410812587",
+                  "title": "nuclear transport factor 2 family protein [Micromonospora sp. 067-2]",
+                  "taxid": 2789270,
+                  "sciname": "Micromonospora sp. 067-2"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.62,
+                  "score": 283,
+                  "evalue": 1.67528e-28,
+                  "identity": 67,
+                  "positive": 89,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 159,
+                  "align_len": 159,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGAS-KPI-SVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSDERSIEDVLARYVRATDRRDGAAQAALFTDDSTTQIYTRTGPAAWEPVGDPLLGPAAVRYAVDTFMSPHPPLGSSHHVTANHLVDTTGDTAHISAQFVVFEVRGAERPATGWPAGTLGAQGTVRPVESGYYETDLRRVDGAWKIFRHEVRMDLPMAL",
+                  "midline": "M+DE  I +VL +Y RA DRRD  A AALF  D++  +    G A+ +P+   L G  A+R AV   M+PH     S +V    ++   GDTA + AQF+VF +  AE P  GWP GT GAQG + P+E+G Y   LR V   W I    ++  LPMA "
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gb|MDQ1361295.1|",
+                  "accession": "MDQ1361295",
+                  "title": "hypothetical protein [Acidimicrobiaceae bacterium]",
+                  "taxid": 2024894,
+                  "sciname": "Acidimicrobiaceae bacterium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 1.86463e-28,
+                  "identity": 62,
+                  "positive": 82,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MNDERAIQEVLARYVRAVDARNADDVAELYANDGAEILSYNRAGTPERIAAFTGSRAIRDAVANILPPHPALGWAHHATFDPIVAIDTDIASLQAQFVVFEVRGAQRPAAGWPKGASGGQGTITPIESGYYKISLRRTPDGWKITENHTILDLPPAL",
+                  "midline": "M DE  I  VL +Y RA D R+ D +A L+A D + ++     G  + I+   G  AIR AV  ++ PH    W+ +    P++ I  D A L AQF+VF +  A+ P  GWP G  G QG I PIE+G Y + LR  PDGW I        LP A "
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|WP_329454551.1|",
+                  "accession": "WP_329454551",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces sp. NBC_01497]",
+                  "taxid": 2903885,
+                  "sciname": "Streptomyces sp. NBC_01497"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 1.91149e-28,
+                  "identity": 57,
+                  "positive": 83,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MNTENEVREIVSRYTRAADWRDGEALSQLFAADAVVEIHYRGPDGMELLGTLSGGTQIAGAMSTAMAPHPPLGWSHHTTYDPLVSVDGDEASIDTQFITFDVVGTRKPEGGWPAGTFGAQGTIKPIESGYYRFTLHRTDSAWRIHYLDVIHDIPYVF",
+                  "midline": "M  E  +  ++ +YTRA D RD +A++ LFA DA + +        + +  L G   I  A+   MAPH    WS +    P++ + GD A +D QF+ F ++    P+GGWP GTFGAQG I PIE+G Y   L      W I ++ + H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_317772539.1|",
+                  "accession": "WP_317772539",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces prunicolor]",
+                  "taxid": 67348,
+                  "sciname": "Streptomyces prunicolor"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 2.36356e-28,
+                  "identity": 59,
+                  "positive": 86,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 1,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVG-GASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTETEIRQIVSRYTRAADQRDGEALAQLYEADAVVEVHYHRGPDGTELLGKLSGGAQIAAAMSTAMAPHPPLGWSHHTTYDHLVSVDGDEASIDTQFITFDVVGLRKPEGGWPAGTFGAQGTIKPIESGYYRFSFRRTDGVWRISHQDVIHDIPYVY",
+                  "midline": "M+ ET I  ++ +YTRA D+RD +A+A L+  DA + V    G   ++ +  L G   I  A+   MAPH    WS +     ++ + GD A +D QF+ F ++    P+GGWP GTFGAQG I PIE+G Y    R     W I+H  + H +P  +"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_328603407.1|",
+                  "accession": "WP_328603407",
+                  "title": "nuclear transport factor 2 family protein [Amycolatopsis sp. NBC_00345]",
+                  "taxid": 2975955,
+                  "sciname": "Amycolatopsis sp. NBC_00345"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 2.38141e-28,
+                  "identity": 59,
+                  "positive": 83,
+                  "query_from": 1,
+                  "query_to": 159,
+                  "hit_from": 3,
+                  "hit_to": 161,
+                  "align_len": 159,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "ITTSTEPELKEIIARYTRAADQRDGAAMAKLYEADAVIEVYYRGPDGMEALGKLSGAAQIEASMTTAMAPHPPLGWSHHTTYDHLVTIDGDEADIETQFITYDVVGTRKPEGGWPAGTFGAQGTIKPIESGYYHYFFRRTDGVWRIRRMNITHDIPYVF",
+                  "midline": "+T + E  +  ++ +YTRA D+RD  AMA L+  DA I V        + +  L G   I  ++   MAPH    WS +     ++ I GD A ++ QF+ + ++    P+GGWP GTFGAQG I PIE+G Y  F R     W I  M I H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "gb|MDT7666607.1|",
+                  "accession": "MDT7666607",
+                  "title": "hypothetical protein [Pseudonocardiales bacterium]",
+                  "taxid": 2201155,
+                  "sciname": "Pseudonocardiales bacterium"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 2.54997e-28,
+                  "identity": 58,
+                  "positive": 85,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 1,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVG-GASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTESEIRGIVSRYTRAADRRDGEALSKLFEADAVVEVHYHRGPDGDELLGTLSGGAQIAAAMSTAMAPHPPLGWSHHTTYDHLVSVDGDEASIETQFITFDVVGTPKPEGGWPVGTFGAQGTITPIESGYYRFAFRRTDGVWRVRHLGVIHDIPYVF",
+                  "midline": "M+ E+ I  ++ +YTRA DRRD +A++ LF  DA + V    G    + +  L G   I  A+   MAPH    WS +     ++ + GD A ++ QF+ F ++    P+GGWP GTFGAQG I PIE+G Y    R     W + H+ + H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_359902421.1|",
+                  "accession": "WP_359902421",
+                  "title": "nuclear transport factor 2 family protein [Streptomyces parvulus]",
+                  "taxid": 146923,
+                  "sciname": "Streptomyces parvulus"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 2.6129e-28,
+                  "identity": 61,
+                  "positive": 82,
+                  "query_from": 3,
+                  "query_to": 157,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVL--DAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPM",
+                  "hseq": "MSDRDDIIEILARYVRANDTRDGSGLGELFTKDVLIEIFQHDGRGGRTELAPPTTGRDTLIGIYDSLMPAHEPGNWSHHVTSDHIVHIDGDRATLSAQFMMFRVRSTPKPDGGWPAGTFGAQGTITPEESGYYETDLVRDAGAWRIAHHRVLHDMPF",
+                  "midline": "M+D   I+ +L +Y RA+D RD   +  LF  D  I +   D  GG ++      GRD +      +M  H    WS +V +  ++HI GD A L AQFM+F + +   PDGGWP GTFGAQG I P E+G Y   L      W IAH  + H +P "
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|MCW2597851.1|",
+                  "accession": "MCW2597851",
+                  "title": "nuclear transport factor 2 family protein [Jatrophihabitans sp.]",
+                  "taxid": 1932789,
+                  "sciname": "Jatrophihabitans sp."
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 2.63804e-28,
+                  "identity": 62,
+                  "positive": 87,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 164,
+                  "gaps": 11,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVV-------LDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTENEIKQLVSLYTRAADRRDGAAMAALYEADAVVEVSYHGPNGLDD----GEPLGKLTGSEQIEQAMTVAMAPHPPLGWSHHTTYDHLVSIDGDEASIETQFITYNVVGIKRPEGGWAAGTFGAQGSIKPIESGYYRFSFRRTDGTWRISHQEVIHDIPYVF",
+                  "midline": "M+ E  I  ++  YTRA DRRD  AMAAL+  DA + V       LD      +P+  L G + I  A+   MAPH    WS +     ++ I GD A ++ QF+ ++++  + P+GGW  GTFGAQG I PIE+G Y    R     W I+H  + H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_354361698.1|",
+                  "accession": "WP_354361698",
+                  "title": "nuclear transport factor 2 family protein [Pedobacter sp. UYP30]",
+                  "taxid": 1756400,
+                  "sciname": "Pedobacter sp. UYP30"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 2.92299e-28,
+                  "identity": 61,
+                  "positive": 81,
+                  "query_from": 2,
+                  "query_to": 157,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "TMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPM",
+                  "hseq": "TGSDERQVQQVLAKYVRAADNLDGEAMKELFTKDGKVEVFYVNSGIAERLFVLNGPDEIANAISNLMAPHPAGGWSHHTTNDHIIEVNGDVADIDAQFIRFDTLGAIRPQGGWPAGTVGLMGSVTATEAGYYRPTLKKEDGIWKLATHRIFHDLPF",
+                  "midline": "T +DE  +  VL +Y RA D  D +AM  LF  D  + V     G ++ + VL+G D I  A+  +MAPH    WS +  N  +I ++GD A +DAQF+ F  L A  P GGWP GT G  G +   EAG Y   L+     W +A   I H LP "
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "gb|MCW2905891.1|",
+                  "accession": "MCW2905891",
+                  "title": "nuclear transport factor 2 family protein [Actinomycetes bacterium]",
+                  "taxid": 1883427,
+                  "sciname": "Actinomycetes bacterium"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 3.35273e-28,
+                  "identity": 61,
+                  "positive": 87,
+                  "query_from": 3,
+                  "query_to": 159,
+                  "hit_from": 1,
+                  "hit_to": 162,
+                  "align_len": 162,
+                  "gaps": 5,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVG-GASKPISVLHGRDAIRVAV----RQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "MSTENEITQIVSRYTRAADQRDGEAMAKLYEADAVVEIHYHRGPDGMELLGTLSGQPQIEAAMSTPPKGAMAPHPPLGWSHHTTYDHLVTVDGDEATIETQFITFDVAGARKPEGGWPAGTFGAQGTIKPIESGYYRFALRRTDAGWRIRHQDVIHDIPYVF",
+                  "midline": "M+ E  I  ++ +YTRA D+RD +AMA L+  DA + +    G    + +  L G+  I  A+    +  MAPH    WS +     ++ + GD A ++ QF+ F +  A  P+GGWP GTFGAQG I PIE+G Y   LR    GW I H  + H +P  F"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_254189081.1|",
+                  "accession": "WP_254189081",
+                  "title": "nuclear transport factor 2 family protein [Nocardia noduli]",
+                  "taxid": 2815722,
+                  "sciname": "Nocardia noduli"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 4.17838e-28,
+                  "identity": 64,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 159,
+                  "hit_from": 11,
+                  "hit_to": 169,
+                  "align_len": 159,
+                  "gaps": 0,
+                  "qseq": "MTMADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVGGASKPISVLHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMAF",
+                  "hseq": "LTPTSHRLVSEVFARYVRAADHRDPDAMESVFWESATVAVYYRGEGQSQLLAELTGAATIATAVTTAMAPHPVRSWSHHTTMNPLVSVAGEQARFDAQFIVYNAAGAARPDSGWPADALGAQGVITPIECGYLKADLRFRDREWRISHLRIEHDLPYAF",
+                  "midline": "+T     ++  V  +Y RA D RDPDAM ++F   A++ V     G S+ ++ L G   I  AV   MAPH  R+WS +    P++ + G+ AR DAQF+V++   A  PD GWP    GAQG I PIE G     LR     W I+H+ I+H LP AF"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_361957146.1|",
+                  "accession": "WP_361957146",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [unclassified Streptomyces]",
+                  "taxid": 2593676,
+                  "sciname": "unclassified Streptomyces"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.464,
+                  "score": 280,
+                  "evalue": 4.59104e-28,
+                  "identity": 67,
+                  "positive": 85,
+                  "query_from": 3,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 2,
+                  "qseq": "MADETIILNVLGQYTRAHDRRDPDAMAALFAPDASIVVLDAVG-GASKPISV-LHGRDAIRVAVRQMMAPHGYRAWSQNVVNAPVIHIHGDTARLDAQFMVFSILAAEVPDGGWPTGTFGAQGRIVPIEAGTYTLFLRTVPDGWVIAHMVIKHRLPMA",
+                  "hseq": "MSDERRVQEVLARYVRATDRRDGKAQGALFTDDAVVQIHIKTGPGTHEPFGEPLIGGAAVEYAVDHYMAPHPEGGSSHHTTSDHIIEVDGDRAHLNAQFIVFRVQAARRPGTGWPEGTFGAQGTVEPIESGYYDTELRRVDGEWKIVRHDVLMDMPMA",
+                  "midline": "M+DE  +  VL +Y RA DRRD  A  ALF  DA + +    G G  +P    L G  A+  AV   MAPH     S +  +  +I + GD A L+AQF+VF + AA  P  GWP GTFGAQG + PIE+G Y   LR V   W I    +   +PMA"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

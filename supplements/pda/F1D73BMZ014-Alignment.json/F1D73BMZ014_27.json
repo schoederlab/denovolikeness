@@ -1,0 +1,471 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368672",
+          "query_title": "6nx2_A,B,C",
+          "query_len": 98,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6NZ3|A",
+                  "accession": "6NZ3_A",
+                  "title": "Chain A, Design construct XAA_GGHN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 164.851,
+                  "score": 416,
+                  "evalue": 1.26646e-50,
+                  "identity": 91,
+                  "positive": 91,
+                  "query_from": 1,
+                  "query_to": 98,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 98,
+                  "gaps": 2,
+                  "qseq": "GSHMGTEDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKKQLKDLKRSLERG",
+                  "hseq": "GSHMG--DLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKDLKRSLERG",
+                  "midline": "GSHMG  DLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIE  EAIGG  K LEEMKKQLKDLKRSLERG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|KAK3873268.1|",
+                  "accession": "KAK3873268",
+                  "title": "hypothetical protein Pcinc_021717 [Petrolisthes cinctipes]",
+                  "taxid": 88211,
+                  "sciname": "Petrolisthes cinctipes"
+                }
+              ],
+              "len": 567,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.00403809,
+                  "identity": 26,
+                  "positive": 43,
+                  "query_from": 14,
+                  "query_to": 86,
+                  "hit_from": 29,
+                  "hit_to": 95,
+                  "align_len": 73,
+                  "gaps": 6,
+                  "qseq": "ERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKK",
+                  "hseq": "EKLNEKGHKVENNP---RLVENNPRLVENNPRLAENNPGLVENNLKLVENNPGLVENDTS---GNANVDERDK",
+                  "midline": "E+L E   ++E NP   ++VE    +VENN ++ E    +VENN ++VENN  ++EN+ +   G   ++E  K"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|MBI3080828.1|",
+                  "accession": "MBI3080828",
+                  "title": "hypothetical protein [Candidatus Methylomirabilota bacterium]",
+                  "taxid": 2072417,
+                  "sciname": "Candidatus Methylomirabilota bacterium"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.00994632,
+                  "identity": 33,
+                  "positive": 42,
+                  "query_from": 13,
+                  "query_to": 75,
+                  "hit_from": 27,
+                  "hit_to": 95,
+                  "align_len": 69,
+                  "gaps": 6,
+                  "qseq": "LERLREI----LERLEENPSE--KQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIG",
+                  "hseq": "IERLAEVTEAGLTRLELSIAENHREITENNRQITENNRQITENNRQLVENNRLIAENHRQLIENNRLIA",
+                  "midline": "+ERL E+    L RLE + +E  ++I E  R I ENN QI E  R +VENN  I EN+R +IENN  I "
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "emb|CAD8105803.1|",
+                  "accession": "CAD8105803",
+                  "title": "unnamed protein product [Paramecium sonneborni]",
+                  "taxid": 65129,
+                  "sciname": "Paramecium sonneborni"
+                }
+              ],
+              "len": 2871,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0110064,
+                  "identity": 21,
+                  "positive": 45,
+                  "query_from": 28,
+                  "query_to": 96,
+                  "hit_from": 2802,
+                  "hit_to": 2870,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "SEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKKQLKDLKRSLE",
+                  "hseq": "NEQAIIQNQQAIIENQQAIIENQQAVIQNKQTIIENEQAIIQNQQAIIENEQAIIENKQAIIENQKRIQ",
+                  "midline": "+E+ I++  +AI+EN   I+E  +A+++N   I+EN +AII+N +AI    + + E K+ + + ++ ++"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|MEN9519268.1|",
+                  "accession": "MEN9519268",
+                  "title": "hypothetical protein [Cyanobacteriota bacterium]",
+                  "taxid": 2847862,
+                  "sciname": "Cyanobacteriota bacterium"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0133958,
+                  "identity": 27,
+                  "positive": 31,
+                  "query_from": 32,
+                  "query_to": 74,
+                  "hit_from": 18,
+                  "hit_to": 61,
+                  "align_len": 44,
+                  "gaps": 1,
+                  "qseq": "IVEA-IRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAI",
+                  "hseq": "LVEANSRAITENNRAIAENSRAIAENNRAIAENSRAIAENNQAV",
+                  "midline": "+VEA  RAI ENN  I E  RAI ENN  I EN+RAI ENN+A+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|8GLT|0",
+                  "accession": "8GLT_0",
+                  "title": "Chain 0, C3-comp_O32-15, polyalanine model [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 338,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0246924,
+                  "identity": 33,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 74,
+                  "hit_from": 279,
+                  "hit_to": 334,
+                  "align_len": 70,
+                  "gaps": 14,
+                  "qseq": "GTEDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAI",
+                  "hseq": "STAELKRATASLRAITEELKKNPSED-------ALVEHN-------RAIVEHNAIIVENNRIIAMVLEAI",
+                  "midline": " T +LK +   LR I E L++NPSE        A+VE+N       RAIVE+NA IVENNR I    EAI"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|6MSQ|A",
+                  "accession": "6MSQ_A",
+                  "title": "Chain A, pRO-2.3 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 76,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.0253997,
+                  "identity": 24,
+                  "positive": 30,
+                  "query_from": 5,
+                  "query_to": 48,
+                  "hit_from": 16,
+                  "hit_to": 59,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "GTEDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVE",
+                  "hseq": "STAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVE",
+                  "midline": " T +LK +   LR I E L++NPSE  +VE  RAIVE+NA IVE"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|XP_057337790.1|",
+                  "accession": "XP_057337790",
+                  "title": "uncharacterized protein LOC130675907 [Microplitis mediator]",
+                  "taxid": 375433,
+                  "sciname": "Microplitis mediator"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0270407,
+                  "identity": 23,
+                  "positive": 30,
+                  "query_from": 38,
+                  "query_to": 86,
+                  "hit_from": 361,
+                  "hit_to": 409,
+                  "align_len": 49,
+                  "gaps": 0,
+                  "qseq": "AIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKK",
+                  "hseq": "AITEIHAAVTENLAAITENNAAITENNAAITENNAAITENNAAINELRE",
+                  "midline": "AI E +A + E + AI ENNA I ENN AI ENN AI      + E+++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0407204,
+                  "identity": 28,
+                  "positive": 34,
+                  "query_from": 12,
+                  "query_to": 74,
+                  "hit_from": 344,
+                  "hit_to": 404,
+                  "align_len": 63,
+                  "gaps": 2,
+                  "qseq": "SLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAI",
+                  "hseq": "SINKFNQLGADVENN--HAAITEIHAAVTENLAAITENNAAITENNAAITENNAAITENNAAI",
+                  "midline": "S+ +  ++   +E N     I E   A+ EN A I E   AI ENNA I ENN AI ENN AI"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gb|MCC5636036.1|",
+                  "accession": "MCC5636036",
+                  "title": "AAA-like domain-containing protein [Nostoc sp. CHAB 5844]",
+                  "taxid": 2780405,
+                  "sciname": "Nostoc sp. CHAB 5844"
+                }
+              ],
+              "len": 1429,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.03845,
+                  "identity": 28,
+                  "positive": 39,
+                  "query_from": 25,
+                  "query_to": 97,
+                  "hit_from": 410,
+                  "hit_to": 485,
+                  "align_len": 80,
+                  "gaps": 11,
+                  "qseq": "ENPSEKQIVEAIRAIVENNA-------QIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKKQLKDLKRSLER",
+                  "hseq": "EADQQRQIAEQLRVIAENNATTANEQRQIAEQLRVIAENNATTANEQRQIADKQRAIA----QQQKIKAQLAQQQEAKQR",
+                  "midline": "E   ++QI E +R I ENNA       QI E +R I ENNA      R I +   AI     Q +++K QL   + + +R"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_099688047.1|",
+                  "accession": "WP_099688047",
+                  "title": "hypothetical protein [Sporosarcina sp. P13]",
+                  "taxid": 2048263,
+                  "sciname": "Sporosarcina sp. P13"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.0400596,
+                  "identity": 21,
+                  "positive": 34,
+                  "query_from": 28,
+                  "query_to": 88,
+                  "hit_from": 32,
+                  "hit_to": 92,
+                  "align_len": 61,
+                  "gaps": 0,
+                  "qseq": "SEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKKQL",
+                  "hseq": "TPLALIELTRAIIETPLALIELTRAIIETPLALIEHNRAIIETPLALIEHTRSIIETPLTL",
+                  "midline": "+   ++E  RAI+E    ++E  RAI+E    ++E+NRAIIE   A+   T+ + E    L"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|8UB3|4",
+                  "accession": "8UB3_4",
+                  "title": "Chain 4, DpHF7 filament [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 245,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.1282,
+                  "score": 100,
+                  "evalue": 0.04098,
+                  "identity": 35,
+                  "positive": 45,
+                  "query_from": 5,
+                  "query_to": 94,
+                  "hit_from": 17,
+                  "hit_to": 92,
+                  "align_len": 90,
+                  "gaps": 14,
+                  "qseq": "GTEDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKKQLKDLKRS",
+                  "hseq": "STAELKRATASLRAITEELKKNPSEDALVEHNRAIVEH--------------NAIIVENNRIIAAVLMLIVVAVGMTQEIKKALEELVAS",
+                  "midline": " T +LK +   LR I E L++NPSE  +VE  RAIVE+              NA IVENNR I      I       +E+KK L++L  S"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|9DRL|B",
+                  "accession": "9DRL_B",
+                  "title": "Chain B, T33-549_A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 400,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0411856,
+                  "identity": 33,
+                  "positive": 48,
+                  "query_from": 5,
+                  "query_to": 88,
+                  "hit_from": 17,
+                  "hit_to": 103,
+                  "align_len": 87,
+                  "gaps": 3,
+                  "qseq": "GTEDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIV---ENNRAIIENNEAIGGGTKQLEEMKKQL",
+                  "hseq": "STAELKRATASLRAITEELKKNPSEDALVEHNRAIVEHNAIIVENNRIIATVLLAIVAAIATNEATLAADKAKEAGASEVAKLAKKV",
+                  "midline": " T +LK +   LR I E L++NPSE  +VE  RAIVE+NA IVE  R I      IV     N A +  ++A   G  ++ ++ K++"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "emb|VWU48863.1|",
+                  "accession": "VWU48863",
+                  "title": "conserved protein, unknown function [Hepatocystis sp. ex Piliocolobus tephrosceles]",
+                  "taxid": 2600580,
+                  "sciname": "Hepatocystis sp. ex Piliocolobus tephrosceles"
+                }
+              ],
+              "len": 3233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0448698,
+                  "identity": 22,
+                  "positive": 39,
+                  "query_from": 31,
+                  "query_to": 90,
+                  "hit_from": 2067,
+                  "hit_to": 2126,
+                  "align_len": 60,
+                  "gaps": 0,
+                  "qseq": "QIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIENNEAIGGGTKQLEEMKKQLKD",
+                  "hseq": "QVVDNNIQVVDNNIQVVDNNIQVVDNNIQVVDNNIQVVDNNIQVVDNTKQIIDNTKQIID",
+                  "midline": "Q+V+    +V+NN Q+V+    +V+NN Q+V+NN  +++NN  +   TKQ+ +  KQ+ D"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

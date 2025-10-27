@@ -1,0 +1,70 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368659",
+          "query_title": "8ga9_A,C,E,G",
+          "query_len": 165,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8GA9|A",
+                  "accession": "8GA9_A",
+                  "title": "Chain A, C4HR1_4r [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 305.064,
+                  "score": 780,
+                  "evalue": 5.47243e-104,
+                  "identity": 165,
+                  "positive": 165,
+                  "query_from": 1,
+                  "query_to": 165,
+                  "hit_from": 1,
+                  "hit_to": 165,
+                  "align_len": 165,
+                  "gaps": 0,
+                  "qseq": "MKKELYEFYFMPPLKQIEFLEELVNNPEKFKEFFKRLKEEPGAMELFLRNLYLMHPMVQIYFLELLVENPELFKLFFEYLEECPGAMEQFLLNLYLLHPMVQIEFLKLLVENPELFRLFFEYLKRCPGALELFKEIIELLDPIIQKYLKKLLEENPELKALVKEV",
+                  "hseq": "MKKELYEFYFMPPLKQIEFLEELVNNPEKFKEFFKRLKEEPGAMELFLRNLYLMHPMVQIYFLELLVENPELFKLFFEYLEECPGAMEQFLLNLYLLHPMVQIEFLKLLVENPELFRLFFEYLKRCPGALELFKEIIELLDPIIQKYLKKLLEENPELKALVKEV",
+                  "midline": "MKKELYEFYFMPPLKQIEFLEELVNNPEKFKEFFKRLKEEPGAMELFLRNLYLMHPMVQIYFLELLVENPELFKLFFEYLEECPGAMEQFLLNLYLLHPMVQIEFLKLLVENPELFRLFFEYLKRCPGALELFKEIIELLDPIIQKYLKKLLEENPELKALVKEV"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

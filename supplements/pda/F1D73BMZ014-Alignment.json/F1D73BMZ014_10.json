@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368655",
+          "query_title": "8evm_A,C",
+          "query_len": 241,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8EVM|A",
+                  "accession": "8EVM_A",
+                  "title": "Chain A, Chlorophyll dimer protein designs, Special Pair 3 (SP3x) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 241,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 442.58,
+                  "score": 1137,
+                  "evalue": 6.88813e-156,
+                  "identity": 241,
+                  "positive": 241,
+                  "query_from": 1,
+                  "query_to": 241,
+                  "hit_from": 1,
+                  "hit_to": 241,
+                  "align_len": 241,
+                  "gaps": 0,
+                  "qseq": "SGSSEELARESAEAAWRLAQASTRATLAMIRGDLKELAEALIELARAVQELARVAKEYGNDELAKTAALLAAHVAMLAIWVLIRAIKEGDDEVRELAKTAIKLASTAAKIVLDALPTAEEVRQITLLAKLAEEAADKKNEDSALAVGIAAIAVIIALWALEAAQKAGIEEAEKGARLLLKLAMDAARKKNPEEALAVLNAALDVSIALQLLQSAKRAGSEETRKLAEEMLRQALERARKKN",
+                  "hseq": "SGSSEELARESAEAAWRLAQASTRATLAMIRGDLKELAEALIELARAVQELARVAKEYGNDELAKTAALLAAHVAMLAIWVLIRAIKEGDDEVRELAKTAIKLASTAAKIVLDALPTAEEVRQITLLAKLAEEAADKKNEDSALAVGIAAIAVIIALWALEAAQKAGIEEAEKGARLLLKLAMDAARKKNPEEALAVLNAALDVSIALQLLQSAKRAGSEETRKLAEEMLRQALERARKKN",
+                  "midline": "SGSSEELARESAEAAWRLAQASTRATLAMIRGDLKELAEALIELARAVQELARVAKEYGNDELAKTAALLAAHVAMLAIWVLIRAIKEGDDEVRELAKTAIKLASTAAKIVLDALPTAEEVRQITLLAKLAEEAADKKNEDSALAVGIAAIAVIIALWALEAAQKAGIEEAEKGARLLLKLAMDAARKKNPEEALAVLNAALDVSIALQLLQSAKRAGSEETRKLAEEMLRQALERARKKN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5CWQ|A",
+                  "accession": "5CWQ_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 66.2402,
+                  "score": 160,
+                  "evalue": 6.20479e-09,
+                  "identity": 42,
+                  "positive": 48,
+                  "query_from": 20,
+                  "query_to": 92,
+                  "hit_from": 19,
+                  "hit_to": 91,
+                  "align_len": 73,
+                  "gaps": 0,
+                  "qseq": "QASTRATLAMIRGDLKELAEALIELARAVQELARVAKEYGNDELAKTAALLAAHVAMLAIWVLIRAIKEGDDE",
+                  "hseq": "EARKRSEEARERGDLKELAEALIEEARAVQELARVACERGNSEEAERASEKAQRVLEEARKVSEEAREQGDDE",
+                  "midline": "+A  R+  A  RGDLKELAEALIE ARAVQELARVA E GN E A+ A+  A  V   A  V   A ++GDDE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

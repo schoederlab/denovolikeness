@@ -1,0 +1,3391 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368876",
+          "query_title": "7b4w_A,C",
+          "query_len": 161,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7ZYU|B",
+                  "accession": "7ZYU_B",
+                  "title": "Chain B, Designed Ankyrin repeat protein F10 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.485,
+                  "score": 711,
+                  "evalue": 1.548e-93,
+                  "identity": 144,
+                  "positive": 147,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 2,
+                  "hit_to": 162,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNANDRNGVTPLHLAADKGHLEIVEVLLKTGADVNAIDIMGATPLHLAAAHGHLEIVEVLLKAGADVNAMDHKGFTPLHLAAWRGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLKTGADVNA+D +G TPLHLAAA GHLEIVEVLLK GADVNA D +G TPLHLAAW GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7B4T|A",
+                  "accession": "7B4T_A",
+                  "title": "Chain A, Broadly neutralizing DARPin bnD.1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.485,
+                  "score": 711,
+                  "evalue": 1.5692e-93,
+                  "identity": 144,
+                  "positive": 149,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 4,
+                  "hit_to": 164,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNADDNTGETPLHLAAYEGHLEIVEVLLKTGADVNAEDMMGFTPLHLAAAWGHLEIVEVLLKHGADVNAQDNQGVTPLHLAAYEGHLEFVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA+ GHLEIVEVLLKTGADVNA D +G+TPLHLAAA GHLEIVEVLLK GADVNAQD QG+TPLHLAA+ GHLE VEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6FP7|B",
+                  "accession": "6FP7_B",
+                  "title": "Chain B, DARPin1238_E11 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 277.33,
+                  "score": 708,
+                  "evalue": 4.39975e-93,
+                  "identity": 145,
+                  "positive": 146,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 4,
+                  "hit_to": 164,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNATDWVGMTPLHLAAWKGHLEIVEVLLKTGADVNAHDVFGTTPLHLAAHRGHLEIVEVLLKAGADVNAQDMVGKTPLHLAAYYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAAW GHLEIVEVLLKTGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNAQD  G TPLHLAA+YGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|9GTK|B",
+                  "accession": "9GTK_B",
+                  "title": "Chain B, DARPin 784_F5 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.944,
+                  "score": 707,
+                  "evalue": 7.9303e-93,
+                  "identity": 145,
+                  "positive": 151,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 2,
+                  "hit_to": 162,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAEDTWGSTPLHLAAKTGHLEIVEVLLKTGADVNASDAVGHTPLHLAAHKGHLEIVEVLLKTGADVNALDLMGWTPLHLAARKGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA+D +G+TPLHLAA TGHLEIVEVLLKTGADVNA D+VG+TPLHLAA +GHLEIVEVLLKTGADVNA D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|7Z7C|A",
+                  "accession": "7Z7C_A",
+                  "title": "Chain A, Broadly neutralizing DARPin bnD.8 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 269.626,
+                  "score": 688,
+                  "evalue": 4.39598e-90,
+                  "identity": 142,
+                  "positive": 145,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 2,
+                  "hit_to": 162,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAAVDGQDDEVRILMANGADVNAADWWGLTPLHLAAWHGHLEIVEVLLKTGADVNASDNNGITPLHLAAARGHLEIVEVLLKAGADVNARDTSGDTPLHLAAMQGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAA  GQDDEVRILMANGADVNA D +G TPLHLAAW GHLEIVEVLLKTGADVNA D+ G TPLHLAAA GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|UVF58853.1|",
+                  "accession": "UVF58853",
+                  "title": "ankyrin repeat protein E2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 270.011,
+                  "score": 689,
+                  "evalue": 6.75501e-90,
+                  "identity": 142,
+                  "positive": 145,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 14,
+                  "hit_to": 174,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAMDHWGWTPLHLAAIEGHQEIVEVLLKTGADVNALDRQGATPLHLADWSGHLEIVEVLLKTGADVNAQDLFGNTPLHMAAWNGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA  GH EIVEVLLKTGADVNA+D  G TPLHLA   GHLEIVEVLLKTGADVNAQD  G TPLH+AAW GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|6S9S|F",
+                  "accession": "6S9S_F",
+                  "title": "Chain F, Darpin 10 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 198,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 270.396,
+                  "score": 690,
+                  "evalue": 8.56655e-90,
+                  "identity": 143,
+                  "positive": 144,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 38,
+                  "hit_to": 198,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAHDKRGHTPLHLAATNGHLEIVEVLLKTGADVNAYDRTGVTPLHLAAMWGHLEIVEVLLKAGADVNALDMVGYTPLHLAAWDGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D+ G TPLHLAA  GHLEIVEVLLKTGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAAW GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gb|UVF58852.1|",
+                  "accession": "UVF58852",
+                  "title": "ankyrin repeat protein E2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.929,
+                  "score": 681,
+                  "evalue": 9.48383e-89,
+                  "identity": 141,
+                  "positive": 145,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 14,
+                  "hit_to": 174,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAQDIWGWTPLHLAAYAGHLEIVKVLLKTGADVNAYDDWGSTPLHLAAWIGHLEIVEVLLKAGADVNAWDVHGFTPLHLAAIRGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA+D +G TPLHLAA+ GHLEIV+VLLKTGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|4K5B|A",
+                  "accession": "4K5B_A",
+                  "title": "Chain A, Apoptosis regulator BCL-W [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 266.159,
+                  "score": 679,
+                  "evalue": 1.46476e-88,
+                  "identity": 139,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 12,
+                  "hit_to": 169,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDRFGWTPLHLAAMEGHLEIVEVLLKTGADVNAWADLGTTPLHLAAMKGHLEIVEVLLKAGADVNAEAIVGYTPLHLAAWEGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKD +G TPLHLAA  GHLEIVEVLLKTGADVNA   +G TPLHLAA +GHLEIVEVLLK GADVNA+   G TPLHLAAW GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "pdb|9GNB|B",
+                  "accession": "9GNB_B",
+                  "title": "Chain B, Darpin B9 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 265.003,
+                  "score": 676,
+                  "evalue": 3.26442e-88,
+                  "identity": 140,
+                  "positive": 144,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 2,
+                  "hit_to": 160,
+                  "align_len": 159,
+                  "gaps": 1,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQG-ITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNALDSWGFTPLHLAAFFGHLEIVEVLLKTGADVNAVDNAGTTPLHLAAHAGHLEIVEVLLKAGADVNAHDQHGTVTPLHLAAHMGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA+ GHLEIVEVLLKTGADVNAVD+ G TPLHLAA  GHLEIVEVLLK GADVNA D  G +TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|7Z7E|B",
+                  "accession": "7Z7E_B",
+                  "title": "Chain B, DARPIN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 264.233,
+                  "score": 674,
+                  "evalue": 6.02616e-88,
+                  "identity": 140,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 2,
+                  "hit_to": 159,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAADHSGDTPLHLAAMEGHLEIVEVLLKTGADVNAHDLEGYTPLHLAAYHGHLEIVEVLLKAGADVNAWDSYGYTPLHLAAMTGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLKTGADVNA D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|5OP1|A",
+                  "accession": "5OP1_A",
+                  "title": "Chain A, DARPin A4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 264.233,
+                  "score": 674,
+                  "evalue": 8.0933e-88,
+                  "identity": 135,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNANDEYGSTPLHLAALMGHLEIVEVLLKNGADVNAEDTVGDTPLHLAASLGHLEIVEVLLKNGADVNAQDFVGATPLHLAANLGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA DEYG+TPLHLAA  GHLEIVEVLLK GADVNA D+VG TPLHLAA+ GHLEIVEVLLK GADVNAQD  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|4HRM|B",
+                  "accession": "4HRM_B",
+                  "title": "Chain B, Designed Ankyrin Repeat Protein 9_26 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.462,
+                  "score": 672,
+                  "evalue": 1.87028e-87,
+                  "identity": 142,
+                  "positive": 145,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 12,
+                  "hit_to": 172,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDFYGITPLHLAAAYGHLEIVEVLLKHGADVNAHDWNGWTPLHLAAKYGHLEIVEVLLKHGADVNAIDNAGKTPLHLAAAHGHLEIVEVLLKYGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKD YG TPLHLAA  GHLEIVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|UVF58859.1|",
+                  "accession": "UVF58859",
+                  "title": "ankyrin repeat protein E2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 263.848,
+                  "score": 673,
+                  "evalue": 1.97535e-87,
+                  "identity": 141,
+                  "positive": 144,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 14,
+                  "hit_to": 174,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAATFGQDDEVRILMANGADVNAMDEWGYTPLHLAANHGHLEIVEVLLKTGADVNAWDHYGFTPLHLAAQFGHLEIVEVLLKAGADVNAVDQAGDTPLHLAAAWGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAA  GQDDEVRILMANGADVNA DE+G TPLHLAA  GHLEIVEVLLKTGADVNA D  G+TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA +GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "pdb|6GCU|C",
+                  "accession": "6GCU_C",
+                  "title": "Chain C, DARPin A3A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.922,
+                  "score": 668,
+                  "evalue": 6.67841e-87,
+                  "identity": 141,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 12,
+                  "hit_to": 173,
+                  "align_len": 162,
+                  "gaps": 1,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDS-VGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAADHYGETPLHRAANKGHLEIVEVLLKTGADVNAKDDWSGDTPLHLAASHGHLEIVEVLLKAGADVNAMANDGQTPLHLAASRGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D YG TPLH AA  GHLEIVEVLLKTGADVNA D   G TPLHLAA+ GHLEIVEVLLK GADVNA    G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "pdb|7Z72|B",
+                  "accession": "7Z72_B",
+                  "title": "Chain B, Darpin A5 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.766,
+                  "score": 665,
+                  "evalue": 1.51426e-86,
+                  "identity": 137,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 2,
+                  "hit_to": 159,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAQDQYGWTPLHLAAARGHLEIVEVLLKTGADVNAVDKHGNTPLPLAASVGHLEIVEVLLKAGADVNAQDQFGRTPLHLAAMWGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDIVEVLQKAA",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA+D+YG TPLHLAA  GHLEIVEVLLKTGADVNAVD  G TPL LAA+ GHLEIVEVLLK GADVNAQD  G TPLHLAA +GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNEDI EVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "pdb|4K5A|B",
+                  "accession": "4K5A_B",
+                  "title": "Chain B, Designed Ankyrin Repeat Protein 013_D12 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.996,
+                  "score": 663,
+                  "evalue": 3.88516e-86,
+                  "identity": 138,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 12,
+                  "hit_to": 169,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAANVGQHDEVRILMANGADVNAADKYGDTPLHLAAMNGHLEIVEVLLKTGADVNAVDFMGRTPLHLAADNGHLEIVEVLLKHGADVNAQAFWGKTPLHLAAQQGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAA  GQ DEVRILMANGADVNA D+YG TPLHLAA  GHLEIVEVLLKTGADVNAVD +G TPLHLAA  GHLEIVEVLLK GADVNAQ   G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|UVF58862.1|",
+                  "accession": "UVF58862",
+                  "title": "124nc, partial [Vector pAB904]",
+                  "taxid": 2973599,
+                  "sciname": "Vector pAB904"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.84,
+                  "score": 660,
+                  "evalue": 7.171e-86,
+                  "identity": 137,
+                  "positive": 140,
+                  "query_from": 2,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAADDVGVTPLHLAAQRGHLEIVEVLLKYGADVNAADLWGQTPLHLAATAGHLEIVEVLLKNGADVNARDNIGHTPLHLAAWAGHLEIVEVLLKYGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAAW GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|AFI09261.1|",
+                  "accession": "AFI09261",
+                  "title": "LmrCD-specific DARPin, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.84,
+                  "score": 660,
+                  "evalue": 1.12525e-85,
+                  "identity": 132,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDSWGFTPLHLAASEGHMEIVEVLLKHGADVNAVDSFGFTPLHLAAYDGHLEIVEVLLKNGADVNANDNSGKTPLHLAANNGHLEIVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKD +G TPLHLAA  GH+EIVEVLLK GADVNAVDS G+TPLHLAA +GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "pdb|3ZU7|B",
+                  "accession": "3ZU7_B",
+                  "title": "Chain B, DESIGNED ANKYRIN REPEAT PROTEIN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.84,
+                  "score": 660,
+                  "evalue": 1.20175e-85,
+                  "identity": 133,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAHDDQGSTPLHLAAWIGHPEIVEVLLKHGADVNARDTDGWTPLHLAADNGHLEIVEVLLKYGADVNAQDAYGLTPLHLAADRGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D+ G+TPLHLAAW GH EIVEVLLK GADVNA D+ G+TPLHLAA  GHLEIVEVLLK GADVNAQDA G+TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "pdb|7Z71|B",
+                  "accession": "7Z71_B",
+                  "title": "Chain B, Darpin C14 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 257.684,
+                  "score": 657,
+                  "evalue": 1.88581e-85,
+                  "identity": 136,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 2,
+                  "hit_to": 159,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAAQIGQLDEVRILMANGADVNASDTDGLTPLHLAAASGHLEIVEVLLKTGADVNATDKWGDTPLHLAASQGHLEIVEVLLKAGADVNATDFTGNTPLHLAAYIGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAA+ GQ DEVRILMANGADVNA D  G TPLHLAA +GHLEIVEVLLKTGADVNA D  G TPLHLAA++GHLEIVEVLLK GADVNA D  G TPLHLAA+ GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "pdb|8AED|A",
+                  "accession": "8AED_A",
+                  "title": "Chain A, Broadly neutralizing DARPin bnD.9 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 257.299,
+                  "score": 656,
+                  "evalue": 3.06399e-85,
+                  "identity": 137,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 2,
+                  "hit_to": 162,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAAYYGQLDEVRILMANGADVNAVDVHGITPLHLAAYFGHLEIVEVLLKTGADVNARDNRGITPLHLAAAMGHLEIVEVLLKAGADVNAFDEAGDTPLHLAALKGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAA  GQ DEVRILMANGADVNA D +G TPLHLAA+ GHLEIVEVLLKTGADVNA D+ G TPLHLAAA GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "pdb|2XEH|A",
+                  "accession": "2XEH_A",
+                  "title": "Chain A, NI3C MUT6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 257.299,
+                  "score": 656,
+                  "evalue": 3.11688e-85,
+                  "identity": 136,
+                  "positive": 139,
+                  "query_from": 2,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDKDGYTPLHLAAREGHLEIVEVLLKAGADVNAKDKDGYTPLHLAAREGHLEIVEVLLKAGADVNAKDKDGYTPLHLAAREGHLEIVEVLLKAGADVNAQDKFGKTPFDLAIREGHEDIAEVLQKAA",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNAKD+ G TPLHLAA  GHLEIVEVLLK GADVNA D  GYTPLHLAA EGHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLK GADVNAQDKFGKTPFDLAI  G+EDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "pdb|4HRL|A",
+                  "accession": "4HRL_A",
+                  "title": "Chain A, Designed Ankyrin Repeat Protein 9_29 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 257.299,
+                  "score": 656,
+                  "evalue": 5.17469e-85,
+                  "identity": 140,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 12,
+                  "hit_to": 171,
+                  "align_len": 161,
+                  "gaps": 1,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAHDFYGITPLHLAANFGHLEIVEVLLKHGADVNAFD-YDNTPLHLAADAGHLEIVEVLLKYGADVNASDRDGHTPLHLAAREGHLEIVEVLLKNGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D YG TPLHLAA  GHLEIVEVLLK GADVNA D    TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "emb|CAQ52950.1|",
+                  "accession": "CAQ52950",
+                  "title": "CD4-specific ankyrin repeat protein D4.1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 256.914,
+                  "score": 655,
+                  "evalue": 7.25484e-85,
+                  "identity": 130,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNANDTWGNTPLHLAAFDGHLEIVEVLLKYGADVNASDNFGYTPLHLAATDGHLEIVEVLLKNGADVNALDNDGVTPLHLAAHNGHLEIVEVLLKYGADVNAQDKFGKSAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA+ GHLEIVEVLLK GADVNA D+ GYTPLHLAA +GHLEIVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGK+ FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "pdb|9G8I|A",
+                  "accession": "9G8I_A",
+                  "title": "Chain A, DARPin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.373,
+                  "score": 651,
+                  "evalue": 1.84151e-84,
+                  "identity": 136,
+                  "positive": 143,
+                  "query_from": 2,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAEDLRGFTPLHLAANSGHLEIVEVLLKTGADVNAQDNYGWTPLHLAAVIGHLEIVEVLLKHGADVNAKDNFGSTPLHLAARLGHLEIVEVLLKHGADVNAQDKWGETPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA+D  G TPLHLAA +GHLEIVEVLLKTGADVNA D+ G+TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDK+G+TPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "pdb|3NOG|D",
+                  "accession": "3NOG_D",
+                  "title": "Chain D, Designed ankyrin repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 254.988,
+                  "score": 650,
+                  "evalue": 3.18674e-84,
+                  "identity": 131,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNASDHVGWTPLHLAAYFGHLEIVEVLLKNGADVNADDSLGVTPLHLAADRGHLEVVEVLLKNGADVNANDHNGFTPLHLAANIGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA+ GHLEIVEVLLK GADVNA DS+G TPLHLAA  GHLE+VEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "pdb|5OYJ|A",
+                  "accession": "5OYJ_A",
+                  "title": "Chain A, DARPin D4b [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 254.988,
+                  "score": 650,
+                  "evalue": 3.67483e-84,
+                  "identity": 130,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAHDQNGFTPLHLAAWYGHLEIVGVLLKNGADVNAFDKYGFTPLHLAAEEGHLEVVEVLLKYGADVNAKDEHGSTPLHLAADIGHLEIVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D+ G TPLHLAAW GHLEIV VLLK GADVNA D  G+TPLHLAA EGHLE+VEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "pdb|5MA4|A",
+                  "accession": "5MA4_A",
+                  "title": "Chain A, K7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 298,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.61,
+                  "score": 662,
+                  "evalue": 3.74759e-84,
+                  "identity": 138,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 4,
+                  "hit_to": 161,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAADDVGVTPLHLAAQRGHLEIVEVLLKYGADVNAADLWGQTPLHLAATAGHLEIVEVLLKNGADVNARDNIGHTPLHLAAWAGHLEIVEVLLKYGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAAW GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 203.756,
+                  "score": 517,
+                  "evalue": 3.30126e-62,
+                  "identity": 110,
+                  "positive": 112,
+                  "query_from": 28,
+                  "query_to": 158,
+                  "hit_from": 169,
+                  "hit_to": 298,
+                  "align_len": 131,
+                  "gaps": 1,
+                  "qseq": "DVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "DVNAYDEVGWTPLHKAAW-GHLEKVEDLLKNGADVNAADIDGYTPLHLAAFSGHLEIVEVLLKYGADVNADDQAGFTPLHLAAIFGHLEIVEVLLKNGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "DVNA DE G TPLH AAW GHLE VE LLK GADVNA D  GYTPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "pdb|7TXD|J",
+                  "accession": "7TXD_J",
+                  "title": "Chain J, Broadly neutralizing darpin bnd.9 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 196,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.373,
+                  "score": 651,
+                  "evalue": 5.83433e-84,
+                  "identity": 137,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 20,
+                  "hit_to": 180,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLEAAYYGQLDEVRILMANGADVNAVDVHGITPLHLAAYFGHLEIVEVLLKTGADVNARDNRGITPLHLAAAMGHLEIVEVLLKAGADVNAFDEAGDTPLHLAALKGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLLEAA  GQ DEVRILMANGADVNA D +G TPLHLAA+ GHLEIVEVLLKTGADVNA D+ G TPLHLAAA GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "pdb|5KNG|A",
+                  "accession": "5KNG_A",
+                  "title": "Chain A, DARPIN 6G9 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.832,
+                  "score": 647,
+                  "evalue": 9.74857e-84,
+                  "identity": 132,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLDKKLLEAARAGQDDEVRILMANGADVNARDSYGSTPLHLAAREGHLEIVEVLLKYGADVNAADFIGDTPLHLAAYRGHLEIVEVLLKYGADVNASDITGETPLHLAAQIGHLEIVEVLLKHGADVNAQDKFGKTPADIAADNGHEDIAEVLQK",
+                  "midline": "SDL KKLLEAARAGQDDEVRILMANGADVNA+D YG+TPLHLAA  GHLEIVEVLLK GADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKTP D+A DNG+EDIAEVLQK"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gb|AAO25689.1|",
+                  "accession": "AAO25689",
+                  "title": "ankyrin repeat protein E3_5, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.447,
+                  "score": 646,
+                  "evalue": 1.17135e-83,
+                  "identity": 132,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 12,
+                  "hit_to": 166,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNATDNDGYTPLHLAASNGHLEIVEVLLKNGADVNASDLTGITPLHLAAATGHLEIVEVLLKHGADVNAYDNDGHTPLHLAAKYGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQ",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAAA GHLEIVEVLLK GADVNA D  G TPLHLAA YGHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "pdb|5MAD|A",
+                  "accession": "5MAD_A",
+                  "title": "Chain A, 3G61 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.447,
+                  "score": 646,
+                  "evalue": 1.27181e-83,
+                  "identity": 133,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 4,
+                  "hit_to": 158,
+                  "align_len": 156,
+                  "gaps": 1,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNALDEVGWTPLHLAAW-GHLEIVEVLLKNGADVNAADIDGYTPLHLAAFSGHLEIVEVLLKYGADVNADDQAGFTPLHLAAIFGHLEIVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA DE G TPLHLAAW GHLEIVEVLLK GADVNA D  GYTPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "pdb|8P9C|C",
+                  "accession": "8P9C_C",
+                  "title": "Chain C, Darpin 1810 F11 [Lama glama]",
+                  "taxid": 9844,
+                  "sciname": "Lama glama"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.062,
+                  "score": 645,
+                  "evalue": 1.6898e-83,
+                  "identity": 134,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 2,
+                  "hit_to": 159,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAAQTGQDDEVRILMANGADVNAMDMVGMTPLHLAAVNGHLEIVEVLLKTSADVNAQDYQGETPLHLAAIWGHLEIVEVLLKAGADVNANDLVGHTPLHLAAWSGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAA+ GQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLKT ADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAAW GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "pdb|4ATZ|D",
+                  "accession": "4ATZ_D",
+                  "title": "Chain D, DESIGNED ANKYRIN REPEAT PROTEIN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 252.292,
+                  "score": 643,
+                  "evalue": 2.31228e-83,
+                  "identity": 128,
+                  "positive": 140,
+                  "query_from": 2,
+                  "query_to": 155,
+                  "hit_from": 1,
+                  "hit_to": 154,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADANAYDHYGRTPLHMAAAVGHLEIVEVLLRNGADVNAVDTNGTTPLHLAASLGHLEIVEVLLKYGADVNAKDATGITPLYLAAYWGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDIGNEDLAEILQ",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGAD NA D YG TPLH+AA  GHLEIVEVLL+ GADVNAVD+ G TPLHLAA+ GHLEIVEVLLK GADVNA+DA GITPL+LAA++GHLEIVEVLLKHGADVNAQDKFGKT FD++ID GNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|AAO25690.1|",
+                  "accession": "AAO25690",
+                  "title": "ankyrin repeat protein E3_19, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 252.292,
+                  "score": 643,
+                  "evalue": 3.39228e-83,
+                  "identity": 130,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 12,
+                  "hit_to": 166,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAEDTYGDTPLHLAARVGHLEIVEVLLKNGADVNALDFSGSTPLHLAAKRGHLEIVEVLLKYGADVNADDTIGSTPLHLAADTGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQ",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA+D YG TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "pdb|4F6R|D",
+                  "accession": "4F6R_D",
+                  "title": "Chain D, Designed ankyrin repeat protein (DARPIN) D2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.906,
+                  "score": 642,
+                  "evalue": 5.94885e-83,
+                  "identity": 130,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAEDDSGKTPLHLAAIKGHLEIVEVLLKHGADVNAADKMGDTPLHLAALYGHLEIVEVLLKNGADVNATDTYGFTPLHLAADAGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA+D+ G TPLHLAA  GHLEIVEVLLK GADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "pdb|5MLB|B",
+                  "accession": "5MLB_B",
+                  "title": "Chain B, DARPin K27 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 252.292,
+                  "score": 643,
+                  "evalue": 6.12841e-83,
+                  "identity": 130,
+                  "positive": 137,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 23,
+                  "hit_to": 177,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAHDTFGFTPLHLAALYGHLEIVEVLLKNGADVNADDSYGRTPLHLAAMRGHLEIVEVLLKYGADVNAADEEGRTPLHLAAKRGHLEIVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA DS G TPLHLAA  GHLEIVEVLLK GADVNA D +G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gb|AFI09259.1|",
+                  "accession": "AFI09259",
+                  "title": "LmrCD-specific DARPin, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.521,
+                  "score": 641,
+                  "evalue": 7.32624e-83,
+                  "identity": 131,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNADDNWGQTPLHLAARTGHLEIVEVLLKHGADVNAMDWLGSTPLHLAAQYGHLEIVEVLLKHGADVNAQDNLGFTPLHLAANIGHLEIVEVLLKYGADVNVQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA TGHLEIVEVLLK GADVNA+D +G TPLHLAA  GHLEIVEVLLK GADVNAQD  G TPLHLAA  GHLEIVEVLLK+GADVN QDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "pdb|2Y1L|E",
+                  "accession": "2Y1L_E",
+                  "title": "Chain E, DARPIN-8.4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.521,
+                  "score": 641,
+                  "evalue": 7.82427e-83,
+                  "identity": 129,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGRDDEVRILMANGADVNAEDASGWTPLHLAAFNGHLEIVEVLLKNGADVNAVDHAGMTPLRLAALFGHLEIVEVLLKNGADVNANDMEGHTPLHLAAMFGHLEIVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAG+DDEVRILMANGADVNA+D  G TPLHLAA+ GHLEIVEVLLK GADVNAVD  G TPL LAA  GHLEIVEVLLK GADVNA D +G TPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "pdb|6H46|B",
+                  "accession": "6H46_B",
+                  "title": "Chain B, darpin K13 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 156,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 250.366,
+                  "score": 638,
+                  "evalue": 1.66683e-82,
+                  "identity": 130,
+                  "positive": 137,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 2,
+                  "hit_to": 156,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNASDRWGWTPLHLAAWWGHLEIVEVLLKHGADVNAADLHGQTPLHLAAMVGHLEIVEVLLKYGADVNAKDTMGATPLHLAAQSGHLEIVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAAW GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "pdb|7DNF|A",
+                  "accession": "7DNF_A",
+                  "title": "Chain A, DARPin 63_B7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 250.751,
+                  "score": 639,
+                  "evalue": 1.90123e-82,
+                  "identity": 129,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNANDVYGITPLHLAAYMGHLEIVEVLLKYGVDVNASDQFGNTPLHLAADDGHLEIVEVLLKHGTDVNATDTWGSTPLHLAAHRGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D YG TPLHLAA+ GHLEIVEVLLK G DVNA D  G TPLHLAA +GHLEIVEVLLK G DVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "pdb|2P2C|P",
+                  "accession": "2P2C_P",
+                  "title": "Chain P, Caspase-2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 250.366,
+                  "score": 638,
+                  "evalue": 2.05284e-82,
+                  "identity": 131,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNATDWLGHTPLHLAAKTGHLEIVEVLLKYGADVNAWDNYGATPLHLAADNGHLEIVEVLLKHGADVNAKDYEGFTPLHLAAYDGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA TGHLEIVEVLLK GADVNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA+D +G TPLHLAA+ GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "pdb|8VE7|A",
+                  "accession": "8VE7_A",
+                  "title": "Chain A, DARPin protein scaffold [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 294,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 254.988,
+                  "score": 650,
+                  "evalue": 2.63079e-82,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 2,
+                  "query_to": 155,
+                  "hit_from": 141,
+                  "hit_to": 294,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "ELGKKLLEAARAGQDDEVRILMANGADVNAHDDQGSTPLHLAAWIGHPEIVEVLLKHGADVNARDTDGWTPLHLAADNGHLEIVEVLLKYGADVNAQDAYGLTPLHLAADRGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQ",
+                  "midline": "+LGKKLLEAARAGQDDEVRILMANGADVNA D+ G+TPLHLAAW GH EIVEVLLK GADVNA D+ G+TPLHLAA  GHLEIVEVLLK GADVNAQDA G+TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "pdb|8DW3|A",
+                  "accession": "8DW3_A",
+                  "title": "Chain A, Anti-SARS-CoV-2 DARPin SR16m [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.595,
+                  "score": 636,
+                  "evalue": 3.48901e-82,
+                  "identity": 128,
+                  "positive": 138,
+                  "query_from": 4,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "GKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKL",
+                  "hseq": "GKKLLEAARAGQDDEVRILMANGADVNALDLFGVTPLHLAAERGHLEIVEVLLKNGADVNAGDAFGRTPLHLAALGGHLEIVEVLLKNGADVNACDLYGVTPLHLAAGLGHLEIVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQSSSKL",
+                  "midline": "GKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQ ++KL"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "pdb|5AQB|A",
+                  "accession": "5AQB_A",
+                  "title": "Chain A, 3G61_DB15V4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 428,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 258.455,
+                  "score": 659,
+                  "evalue": 5.44889e-82,
+                  "identity": 137,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 12,
+                  "hit_to": 170,
+                  "align_len": 160,
+                  "gaps": 1,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKL",
+                  "hseq": "SDLGKKLLEAARAGQDDECRILMANGADVNALDEVGWTPLHLAAW-GHLEIVECLLKNGADVNAADIDGYTPLHLAAFSGHLEIVEVLLKYGADVNADDQAGFTPLHLAAIFGHLEIVEVLLKNGADVNAQDKFGKTPRDLAIDNGNEDIAEVLGKAATL",
+                  "midline": "SDLGKKLLEAARAGQDDE RILMANGADVNA DE G TPLHLAAW GHLEIVE LLK GADVNA D  GYTPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKTP DLAIDNGNEDIAEVL KAA L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 2.88559e-17,
+                  "identity": 56,
+                  "positive": 67,
+                  "query_from": 10,
+                  "query_to": 117,
+                  "hit_from": 86,
+                  "hit_to": 189,
+                  "align_len": 108,
+                  "gaps": 4,
+                  "qseq": "AARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEI",
+                  "hseq": "AAFSGHLEIVEVLLKYGADVNADDQAGFTPLHLAAIFGHLEIVEVLLKNGADVNAQDKFGKTPRDLAIDNGNEDIAEVLGKAATLVKVKDAAD----QLGARVGYIEL",
+                  "midline": "AA +G  + V +L+  GADVNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA D  G TP  LA   G+ +I EVL K    V  +DA       L A  G++E+"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "pdb|7MXI|C",
+                  "accession": "7MXI_C",
+                  "title": "Chain C, DARPin E3_53 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.21,
+                  "score": 635,
+                  "evalue": 8.94624e-82,
+                  "identity": 127,
+                  "positive": 136,
+                  "query_from": 3,
+                  "query_to": 155,
+                  "hit_from": 21,
+                  "hit_to": 173,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "LGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "LGKKLLEAARAGQDDEVRILMANGADVNAIDHNGTTPLHLAAYAGHLEIVEVLLKHGADVNARDLRGFTPLHLAAIDGHLEIVEVLLKYGADVNADDDYGTTPLHLAAQYGHMEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQ",
+                  "midline": "LGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA+ GHLEIVEVLLK GADVNA D  G+TPLHLAA +GHLEIVEVLLK GADVNA D  G TPLHLAA YGH+EIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "pdb|4YDW|A",
+                  "accession": "4YDW_A",
+                  "title": "Chain A, DARPIN 44C12V5 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.825,
+                  "score": 634,
+                  "evalue": 9.21521e-82,
+                  "identity": 131,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNALDDSGYTPLHLAAEDGHLEIVEVLLKHGADVNAADRLGDTPLHLAAFVGHLEIVEVLLKAGADVNAVDLAGVTPLHVAAFYGHLEIVEVLLKAGADVNAQDKFGKTPADIAADNGHEDIAEVLQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G+TPLH+AA+YGHLEIVEVLLK GADVNAQDKFGKTP D+A DNG+EDIAEVLQK"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "pdb|4DUI|A",
+                  "accession": "4DUI_A",
+                  "title": "Chain A, DESIGNED ANKYRIN REPEAT PROTEIN (DARPIN) D1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.44,
+                  "score": 633,
+                  "evalue": 1.59408e-81,
+                  "identity": 131,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNATDASGLTPLHLAATYGHLEIVEVLLKHGADVNAIDIXGSTPLHLAALIGHLEIVEVLLKHGADVNAVDTWGDTPLHLAAIMGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "pdb|6MOE|A",
+                  "accession": "6MOE_A",
+                  "title": "Chain A, E2 DARPin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 247.284,
+                  "score": 630,
+                  "evalue": 3.66376e-81,
+                  "identity": 129,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 3,
+                  "hit_to": 160,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLKAARAGQDDEVRILMANGADVNATDIWDATPLHLAALIGHLEIVEVLLKNGADVNASDITGTTPLHLAATMGHLEIVEVLLKYGADVNAYDLNGATPLHLAARMGHVEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQAAA",
+                  "midline": "SDLGKKLL+AARAGQDDEVRILMANGADVNA D + ATPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GH+EIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQ AA"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "pdb|9IVP|A",
+                  "accession": "9IVP_A",
+                  "title": "Chain A, DARPin,Ferritin heavy chain, N-terminally processed [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 370,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 254.218,
+                  "score": 648,
+                  "evalue": 4.31011e-81,
+                  "identity": 129,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 35,
+                  "hit_to": 195,
+                  "align_len": 161,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SELGKELLEAARAGQDDEVRILMARGAEVNAADNTGTTPLHLAAYSGHLEIVEVLLKYGAEVNAADVFGYTPLHLAAYWGHLEIVEVLLKNGADVNARDSDGMTPLHLAAKWGHLEIVEVLLRYGADVEAQDKFGKTPFDLAIDNGNEDIAEVLQALLAIN",
+                  "midline": "S+LGK+LLEAARAGQDDEVRILMA GA+VNA D  G TPLHLAA++GHLEIVEVLLK GA+VNA D  GYTPLHLAA  GHLEIVEVLLK GADVNA+D+ G+TPLHLAA +GHLEIVEVLL++GADV AQDKFGKTPFDLAIDNGNEDIAEVLQ    +N"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "pdb|2BKK|B",
+                  "accession": "2BKK_B",
+                  "title": "Chain B, DESIGNED ANKYRIN REPEAT INHIBITOR AR_3A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.899,
+                  "score": 629,
+                  "evalue": 5.03857e-81,
+                  "identity": 127,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNANDWFGITPLHLVVNNGHLEIIEVLLKYAADVNASDKSGWTPLHLAAYRGHLEIVEVLLKYGADVNAMDYQGYTPLHLAAEDGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHL    GHLEI+EVLLK  ADVNA D  G+TPLHLAA  GHLEIVEVLLK GADVNA D QG TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.0184516,
+                  "identity": 25,
+                  "positive": 33,
+                  "query_from": 109,
+                  "query_to": 158,
+                  "hit_from": 21,
+                  "hit_to": 70,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "AAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "AARAGQDDEVRILMANGADVNANDWFGITPLHLVVNNGHLEIIEVLLKYA",
+                  "midline": "AA  G  + V +L+ +GADVNA D FG TP  L ++NG+ +I EVL K A"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gb|AFI09265.1|",
+                  "accession": "AFI09265",
+                  "title": "LmrCD-specific DARPin, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.899,
+                  "score": 629,
+                  "evalue": 5.38105e-81,
+                  "identity": 128,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARVGRDDEVRILMANGADVNAKDIFGDTPLHLAAWIGHLEIVEVLLKNGADVNAADIWGNTPLHLAADAGHLEIVEVLLKHGADVNAIDWMGDTPLHLTALWGHLEIVEVLLKNGVDVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAAR G+DDEVRILMANGADVNAKD +G TPLHLAAW GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHL A +GHLEIVEVLLK+G DVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "pdb|5MBM|C",
+                  "accession": "5MBM_C",
+                  "title": "Chain C, DARPin 8h6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.899,
+                  "score": 629,
+                  "evalue": 5.56956e-81,
+                  "identity": 130,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 12,
+                  "hit_to": 171,
+                  "align_len": 161,
+                  "gaps": 1,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "hseq": "SDLGKKLLDAASAGQDDEVRILIANGADVNASDTYGRTPLHAAAW-GHLEIVDVLLAYGADVNASDKWGYTPLHLAANEGHLEIVEVLLANGADVNASSQRGQTPLHVAATWGHLEIVDVLLANGADVNANDRQGKTPFDLAIDNGNEDIAEVLQKAAKLN",
+                  "midline": "SDLGKKLL+AA AGQDDEVRIL+ANGADVNA D YG TPLH AAW GHLEIV+VLL  GADVNA D  GYTPLHLAA EGHLEIVEVLL  GADVNA   +G TPLH+AA +GHLEIV+VLL +GADVNA D+ GKTPFDLAIDNGNEDIAEVLQKAAKLN"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "pdb|9DB5|A",
+                  "accession": "9DB5_A",
+                  "title": "Chain A, Transcription factor ETV6,DARPin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.21,
+                  "score": 635,
+                  "evalue": 6.28029e-81,
+                  "identity": 131,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 78,
+                  "hit_to": 233,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "ADLGKKLLEAARAGQDDEVRILMANGADVNATDNDGYTPLHLAASNGHLEIVEVLLKNGADVNASDLTGITPLHAAAATGHLEIVEVLLKHGADVNAYDNDGHTPLHLAAKYGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "+DLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLH AAA GHLEIVEVLLK GADVNA D  G TPLHLAA YGHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "pdb|9F22|B",
+                  "accession": "9F22_B",
+                  "title": "Chain B, DARPin DP1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 156,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.128,
+                  "score": 627,
+                  "evalue": 7.00688e-81,
+                  "identity": 129,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 2,
+                  "hit_to": 156,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNANDVHGSTPLHLAALIGHLEIVEVLLKYGADVNATDIWGNTPLHLAARDGHLEIVEVLLKYGADVNADDTWGSTPLHLAAMDGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQ",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G+TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA +GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "pdb|5LEL|A",
+                  "accession": "5LEL_A",
+                  "title": "Chain A, DD_Off7_10_3G124 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.906,
+                  "score": 642,
+                  "evalue": 9.12285e-81,
+                  "identity": 130,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 12,
+                  "hit_to": 169,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAADNTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGYTPLHLAAYWGHLEIVEVLLKNGADVNAMDSDGMTPLHLAAKWGYLEIVEVLLKHGADVNAQDKFGKTPYDLATDNGNQWIAELLKRAA",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA++GHLEIVEVLLK GADV+A D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G+TPLHLAA +G+LEIVEVLLKHGADVNAQDKFGKTP+DLA DNGN+ IAE+L++AA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 242.276,
+                  "score": 617,
+                  "evalue": 5.05775e-77,
+                  "identity": 129,
+                  "positive": 133,
+                  "query_from": 3,
+                  "query_to": 158,
+                  "hit_from": 170,
+                  "hit_to": 325,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "LGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "LRRKLLEAARAGHRDEVEDLIKNGADVNAADDVGVTPLHLAAQRGHLEIVEVLLKCGADVNAADLWGQTPLHLAATAGHLEIVEVLLKNGADVNARDNIGHTPLHLAAWAGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "L +KLLEAARAG  DEV  L+ NGADVNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAAW GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gb|AFI09266.1|",
+                  "accession": "AFI09266",
+                  "title": "LmrCD-specific DARPin, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.128,
+                  "score": 627,
+                  "evalue": 1.00503e-80,
+                  "identity": 128,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVHILMANGADVNAADYAGMTPLHLSANSGHLEIVEVLLKYGADVNAGDTFGWTPLHLAANRGHLEIVEVLLKYGADVNADDWLGDTPLHLAALFGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEV ILMANGADVNA D  G TPLHL+A +GHLEIVEVLLK GADVNA D+ G+TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "emb|CAQ52948.1|",
+                  "accession": "CAQ52948",
+                  "title": "CD4-specific ankyrin repeat protein D2.1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.128,
+                  "score": 627,
+                  "evalue": 1.01611e-80,
+                  "identity": 130,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAFDANGITSLHLAAMGGHLEIVEVLLKYGADVNAWDSWGYTPLHLAAAYGHLEIVEVLLKNGADVNASDIDGWTPLHLAASNGHLEIVEVLLKHSADVNTQDKFGKTAFDISIDNGNKDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G T LHLAA  GHLEIVEVLLK GADVNA DS GYTPLHLAAA GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLKH ADVN QDKFGKT FD++IDNGN+D+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gb|AFI09262.1|",
+                  "accession": "AFI09262",
+                  "title": "LmrCD-specific DARPin, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 246.128,
+                  "score": 627,
+                  "evalue": 1.03862e-80,
+                  "identity": 129,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNATDYTGYTPLHLAAKWGHLEIVEVLLKYGADVNADDVFGNTPLHLAANHGHLEIVEVLLKYGADVNATDSNGTTPLHLAALHGRLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D+ G TPLHLAA +G LEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "emb|CAQ52958.1|",
+                  "accession": "CAQ52958",
+                  "title": "CD4-specific ankyrin repeat protein D57.2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 245.743,
+                  "score": 626,
+                  "evalue": 1.38106e-80,
+                  "identity": 128,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAMDHFGFTPLHLAAKVGHLEIVEVLLKYGADVNADDMDGETPLHLAAAIGHLEIVEVLLKNGADVNAHDTWGFTPLHLAASYGHLEIVEVLRKYGADVNAXDKFGETTFDISIDNGNEDLXEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAAA GHLEIVEVLLK GADVNA D  G TPLHLAA YGHLEIVEVL K+GADVNA DKFG+T FD++IDNGNED+ E+LQK"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "pdb|6OB5|C",
+                  "accession": "6OB5_C",
+                  "title": "Chain C, Ankyrin Repeat Domain (AR), S3-2D variant [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 245.743,
+                  "score": 626,
+                  "evalue": 1.43968e-80,
+                  "identity": 130,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 9,
+                  "hit_to": 166,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGRKLLEAARAGQDDEVRILMANGADVNAADNTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGFTPLGLAALWGHLEIVEVLLKHGEDVNAMGSDGWTPLHAAAKFGYLEIVEVLLKHGADVNAQDKRGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLG+KLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA++GHLEIVEVLLK GADV+A D  G+TPL LAA  GHLEIVEVLLK G DVNA  + G TPLH AA +G+LEIVEVLLKHGADVNAQDK GKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "pdb|9O9T|B",
+                  "accession": "9O9T_B",
+                  "title": "Chain B, Mitochondrial pyruvate carrier 2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 281,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.21,
+                  "score": 635,
+                  "evalue": 2.72985e-80,
+                  "identity": 126,
+                  "positive": 139,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 125,
+                  "hit_to": 279,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGRKLLEAARAGQLDEVRILLANGADVNAADNTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGYTPLHLAAYWGHLEIVEVLLKNGADVNAMDSDGMTPLHLAAKWGYLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "DLG+KLLEAARAGQ DEVRIL+ANGADVNA D  G TPLHLAA++GHLEIVEVLLK GADV+A D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G+TPLHLAA +G+LEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "pdb|4K5C|A",
+                  "accession": "4K5C_A",
+                  "title": "Chain A, Loop Designed Ankyrin Repeat Protein Nran1_G06_C [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 245.358,
+                  "score": 625,
+                  "evalue": 3.27962e-80,
+                  "identity": 136,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 12,
+                  "hit_to": 183,
+                  "align_len": 172,
+                  "gaps": 14,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNA--------------VDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAAWQGQDDEVRILMANGADVNAQDKFGTTPLHLAADMGHLEIVEVLLKTGADVNAAATGHYFQPYFSHSVSYFGETPLHLAAEMGHLEIVEVLLKAGADVNAFADLGHTPLHLAAQWGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "SDLGKKLLEAA  GQDDEVRILMANGADVNA+D++G TPLHLAA  GHLEIVEVLLKTGADVNA              V   G TPLHLAA  GHLEIVEVLLK GADVNA    G TPLHLAA +GHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "emb|CAQ52955.1|",
+                  "accession": "CAQ52955",
+                  "title": "CD4-specific ankyrin repeat protein D27.2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.817,
+                  "score": 621,
+                  "evalue": 9.40056e-80,
+                  "identity": 128,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKRLLEAARAGQDDEVRILMANGADVNAKDDEGRTSLHLAAREGHLEIVEVLLKHGADVNAQDWYGSTPLHLAAAWGHLEIVEVLLKNVADVNAMDGDGSTPLHLAAHYAHLEVVEVLLKNGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGK+LLEAARAGQDDEVRILMANGADVNAKD+ G T LHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAAA GHLEIVEVLLK  ADVNA D  G TPLHLAA Y HLE+VEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "pdb|6H47|B",
+                  "accession": "6H47_B",
+                  "title": "Chain B, darpin K19 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.432,
+                  "score": 620,
+                  "evalue": 2.10506e-79,
+                  "identity": 125,
+                  "positive": 135,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 23,
+                  "hit_to": 177,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNASDRWGWTPLHLAAWWGHLEIVEVLLKRGADVSAADLHGQSPLHLAAMVGHLEIVEVLLKYGADVNAKDTMGATPLHLAARSGHLEIVEELLKNGADMNAQDKFGKTTFDISTDNGNEDLAEILQK",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAAW GHLEIVEVLLK GADV+A D  G +PLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVE LLK+GAD+NAQDKFGKT FD++ DNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "pdb|7DNE|A",
+                  "accession": "7DNE_A",
+                  "title": "Chain A, DARPin 5m3_D12 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.891,
+                  "score": 616,
+                  "evalue": 3.66875e-79,
+                  "identity": 125,
+                  "positive": 133,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 155,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILLANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADVNIQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "DLGKKLLEAARAGQDDEVRIL+ANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GADVN QDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gb|AAQ93811.1|",
+                  "accession": "AAQ93811",
+                  "title": "ankyrin repeat protein mbp3_5 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 242.276,
+                  "score": 617,
+                  "evalue": 3.82263e-79,
+                  "identity": 129,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNADDTEGNTPLHLVAVHGHLEIVEVLLKYGADVNAHDVWGQTPLHLAAYYDHLEIVEVLLKYGADVNADDDTGITPLHLAARWGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHL A  GHLEIVEVLLK GADVNA D  G TPLHLAA   HLEIVEVLLK GADVNA D  GITPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "pdb|4LSZ|E",
+                  "accession": "4LSZ_E",
+                  "title": "Chain E, DARPin D7.18 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.891,
+                  "score": 616,
+                  "evalue": 4.86483e-79,
+                  "identity": 128,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNADDAWGQTPLHLAAQNGHLEIVEVLLKHDADVNATDWVGMTPLHLAADDGHLEIVEALLKYGADVNAYDQLGNTPLNLAATDGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA  GHLEIVEVLLK  ADVNA D VG TPLHLAA +GHLEIVE LLK GADVNA D  G TPL+LAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "pdb|5H76|A",
+                  "accession": "5H76_A",
+                  "title": "Chain A, DARPin,Immunoglobulin G-binding protein A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 201,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.891,
+                  "score": 616,
+                  "evalue": 1.80447e-78,
+                  "identity": 124,
+                  "positive": 137,
+                  "query_from": 2,
+                  "query_to": 154,
+                  "hit_from": 5,
+                  "hit_to": 156,
+                  "align_len": 153,
+                  "gaps": 1,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVL",
+                  "hseq": "DLGRKLLEAARAGQDDEVRILMANGADVNAADNTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGYTPLHLAAYWGHLEIVEVLLKNGADVNAMDSDGMTPLHLAAKWGYLEIVEVLLKHGA-VNAQDKFGKTAFDISIDNGNEDLAQIL",
+                  "midline": "DLG+KLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA++GHLEIVEVLLK GADV+A D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G+TPLHLAA +G+LEIVEVLLKHGA VNAQDKFGKT FD++IDNGNED+A++L"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|AAO25692.1|",
+                  "accession": "AAO25692",
+                  "title": "ankyrin repeat protein E4_8, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 199,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.506,
+                  "score": 615,
+                  "evalue": 2.05613e-78,
+                  "identity": 131,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 12,
+                  "hit_to": 199,
+                  "align_len": 189,
+                  "gaps": 35,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAA----------------------------------WTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNARDRDGNTPLHLAADMGHLEIVEVLLKNGADVNADDVTGFTPLHLAAVW-GHLEIVEVLLKNGADVNAIDTIGYTPLHLAANNGHLEIVEVLLKNGADVNAHDTNGVTPLHLAAHEGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQ",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA+D  G TPLHLAA                                  W GHLEIVEVLLK GADVNA+D++GYTPLHLAA  GHLEIVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "pdb|9E4Q|A",
+                  "accession": "9E4Q_A",
+                  "title": "Chain A, Transcription factor ETV6,DARPin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 406,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.44,
+                  "score": 633,
+                  "evalue": 2.80146e-78,
+                  "identity": 131,
+                  "positive": 135,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 250,
+                  "hit_to": 404,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNATDNDGYTPLHLAASNGHLEIVEVLLKNGADVNASDLTGITPLHAAAATGHLEIVEVLLKHGADVNAYDNDGHTPLHLAAKYGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLH AAA GHLEIVEVLLK GADVNA D  G TPLHLAA YGHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "pdb|7B6W|AAA",
+                  "accession": "7B6W_AAA",
+                  "title": "Chain AAA, Alpha-1B adrenergic receptor,alpha1B adrenergic receptor,Alpha-1B adrenergic receptor,alpha1B adrenergic receptor,Alpha-1B adrenergic receptor,alpha1B adrenergic receptor,Alpha-1B adrenergic receptor,alpha1B adrenergic receptor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 459,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.595,
+                  "score": 636,
+                  "evalue": 3.42918e-78,
+                  "identity": 128,
+                  "positive": 133,
+                  "query_from": 4,
+                  "query_to": 158,
+                  "hit_from": 296,
+                  "hit_to": 450,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "GKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "ARKLLEAARKGQDDEVRILLANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": " +KLLEAAR GQDDEVRIL+ANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|AAO25691.1|",
+                  "accession": "AAO25691",
+                  "title": "ankyrin repeat protein E4_2, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 199,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.736,
+                  "score": 613,
+                  "evalue": 4.93718e-78,
+                  "identity": 130,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 12,
+                  "hit_to": 199,
+                  "align_len": 188,
+                  "gaps": 33,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEY---------------------------------GATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNADDQHGNTPLHLAASKGHLEIVEVLLKHGADVNANDTNGTTPLHLAAQAGHLEIVEVLLKHGADVNASDELGSTPLHLAATHGHLEIVEVLLKYGADVNADDTVGITPLHLAAFFGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQ",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D++                                 G TPLHLAA  GHLEIVEVLLK GADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  GITPLHLAA++GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "pdb|6MWQ|A",
+                  "accession": "6MWQ_A",
+                  "title": "Chain A, DARPin, Muscle-type aldolase chimeric fusion [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 493,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.595,
+                  "score": 636,
+                  "evalue": 7.74515e-78,
+                  "identity": 130,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 3,
+                  "hit_to": 158,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNALDRFGLTPLHLAAQRGHLEIVEVLLKCGADVNAADLWGQTPLHLAATAGHLEIVEVLLKYGADVNALDLIGKTPLHLTAIDGHLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHL A  GHLEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "pdb|7TYZ|B",
+                  "accession": "7TYZ_B",
+                  "title": "Chain B, DARPin FSR22 [Escherichia phage EcSzw-2]",
+                  "taxid": 2419741,
+                  "sciname": "Escherichia phage EcSzw-2"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.736,
+                  "score": 613,
+                  "evalue": 1.0919e-77,
+                  "identity": 127,
+                  "positive": 135,
+                  "query_from": 2,
+                  "query_to": 158,
+                  "hit_from": 69,
+                  "hit_to": 225,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNACDPSGITPLHLAADKGHLEIVEVLLKYGADVNAMDVWGRTPLHLAAFTGHLEIVEVLLKYGADVNACDLNGYTPLHLAAGRGHLEIVEVLLKNGAGVNAQDKFGKTAFDISIDNGNEDLAEILQSSS",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GA VNAQDKFGKT FD++IDNGNED+AE+LQ ++"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "pdb|2V5Q|C",
+                  "accession": "2V5Q_C",
+                  "title": "Chain C, DESIGN ANKYRIN REPEAT PROTEIN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.424,
+                  "score": 607,
+                  "evalue": 1.10379e-77,
+                  "identity": 124,
+                  "positive": 134,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 12,
+                  "hit_to": 166,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILIANGADVNAVDNTGLTPLHLAAVSGHLEIVEVLLKHGADVDAADVYGFTPLHLAAMTGHLEIVEVLLKYGADVNAFDMTGSTPLHLAADEGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAKSCR",
+                  "midline": "SDLGKKLLEAARAGQDDEVRIL+ANGADVNA D  G TPLHLAA +GHLEIVEVLLK GADV+A D  G+TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+A+  +"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "pdb|6F5E|A",
+                  "accession": "6F5E_A",
+                  "title": "Chain A, DD_D12_10_47 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 325,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.817,
+                  "score": 621,
+                  "evalue": 1.46066e-77,
+                  "identity": 127,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 12,
+                  "hit_to": 169,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILLANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADVNAQDKFGKTPYDLATDNGNQWIAELLKRAA",
+                  "midline": "SDLGKKLLEAARAGQDDEVRIL+ANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GADVNAQDKFGKTP+DLA DNGN+ IAE+L++AA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 221.476,
+                  "score": 563,
+                  "evalue": 7.54238e-69,
+                  "identity": 119,
+                  "positive": 126,
+                  "query_from": 3,
+                  "query_to": 156,
+                  "hit_from": 170,
+                  "hit_to": 323,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "LGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "LRRKLLEAARAGHRDEVEDLIKNGADVNAIDAMGLTPLHLAAMRGHLEIVEVLLKYGADVNAEDYYGTTPLRLAAYIGHLEIVEVLLKYGADVNAYDISGTTPLHLAAVLGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "L +KLLEAARAG  DEV  L+ NGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPL LAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "pdb|6YVR|AAA",
+                  "accession": "6YVR_AAA",
+                  "title": "Chain AAA, Neurotensin receptor type 1,Neurotensin receptor type 1,DARPin crystallisation chaperone [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 482,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.825,
+                  "score": 634,
+                  "evalue": 1.49121e-77,
+                  "identity": 128,
+                  "positive": 133,
+                  "query_from": 5,
+                  "query_to": 158,
+                  "hit_from": 320,
+                  "hit_to": 473,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "KKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "RKLLEAARKGQDDEVRILLANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "+KLLEAAR GQDDEVRIL+ANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "pdb|8DW2|A",
+                  "accession": "8DW2_A",
+                  "title": "Chain A, SR22 [Escherichia phage EcSzw-2]",
+                  "taxid": 2419741,
+                  "sciname": "Escherichia phage EcSzw-2"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 237.269,
+                  "score": 604,
+                  "evalue": 2.38619e-77,
+                  "identity": 125,
+                  "positive": 133,
+                  "query_from": 4,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 155,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "GKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "GKKLLEAARAGQDDEVRILMANGADVNACDPSGITPLHLAADKGHLEIVEVLLKYGADVNAMDVWGRTPLHLAAFTGHLEIVEVLLKYGADVNACDLNGYTPLHLAAGRGHLEIVEVLLKNGAGVNAQDKFGKTAFDISIDNGNEDLAEILQSSS",
+                  "midline": "GKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA+D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GA VNAQDKFGKT FD++IDNGNED+AE+LQ ++"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "pdb|8G4E|A",
+                  "accession": "8G4E_A",
+                  "title": "Chain A, RCG-10 - Cryo-EM imaging scaffold subunit B fused to DARPin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 322,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.891,
+                  "score": 616,
+                  "evalue": 7.87263e-77,
+                  "identity": 126,
+                  "positive": 135,
+                  "query_from": 2,
+                  "query_to": 158,
+                  "hit_from": 166,
+                  "hit_to": 322,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "ELDKKLLEAARAGYDDQVAALLAKGADVNAADDVGVTPLHLAAQRGHLEIVEVLLKRGADINAADLWGQTPLHLAATAGHLEIVELLLRWGADVNARDNIGHTPLHLAAWAGHLEIVEVLLKYGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "+L KKLLEAARAG DD+V  L+A GADVNA D+ G TPLHLAA  GHLEIVEVLLK GAD+NA D  G TPLHLAA  GHLEIVE+LL+ GADVNA+D  G TPLHLAAW GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "pdb|6AR6|B",
+                  "accession": "6AR6_B",
+                  "title": "Chain B, DLD-4 darpin [Drosophila melanogaster]",
+                  "taxid": 7227,
+                  "sciname": "Drosophila melanogaster"
+                }
+              ],
+              "len": 328,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.891,
+                  "score": 616,
+                  "evalue": 8.85046e-77,
+                  "identity": 127,
+                  "positive": 133,
+                  "query_from": 2,
+                  "query_to": 154,
+                  "hit_from": 176,
+                  "hit_to": 328,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVL",
+                  "hseq": "DLGKKLLEAARAGQDDEVRILMANGADVNATDHLGVTPLHLAAVLGHLEIVEVLLKHGADVNAYDILGRTPLHLAAWRGHLEIVEVLLKYGADVNADDTSGTTPLHLAAGEGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDNGNEDLAEIL",
+                  "midline": "DLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDNGNED+AE+L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 1.03773e-73,
+                  "identity": 126,
+                  "positive": 133,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 1,
+                  "hit_to": 153,
+                  "align_len": 155,
+                  "gaps": 2,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNADDRIGMTPLHLAAIGGHLEIVEVLLKNGADVNADDVHGRTPLHLAAGRGHLEIVEVL--HGADVNAPDRWGRTPLHLAAHHGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDSGNEDLAEILQ",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVL   GADVNA D  G TPLHLAA +GHLEIVEVLLK+GADVNAQDKFGKT FD++ID+GNED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "pdb|5AAO|A",
+                  "accession": "5AAO_A",
+                  "title": "Chain A, FAD3210 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 235.343,
+                  "score": 599,
+                  "evalue": 2.50975e-76,
+                  "identity": 123,
+                  "positive": 134,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDSRGKTPLHLAADYGYLEVAEVLLKHGADVNAHDVYGDTPLHLTATWGHLEIVEVLLKNGADANAIDFFGWTPLHLAAYFGHLEIVEVLLKYGADVNAQDKFGKTVFDISVYNGDEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKD  G TPLHLAA  G+LE+ EVLLK GADVNA D  G TPLHL A  GHLEIVEVLLK GAD NA D  G TPLHLAA++GHLEIVEVLLK+GADVNAQDKFGKT FD+++ NG+ED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "pdb|9F07|D",
+                  "accession": "9F07_D",
+                  "title": "Chain D, D2-R3 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.417,
+                  "score": 594,
+                  "evalue": 2.58294e-75,
+                  "identity": 121,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 145,
+                  "hit_from": 12,
+                  "hit_to": 156,
+                  "align_len": 145,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDN",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAEDDSGKTPLHLAAIKGHLEIVEVLLKHGADVNAADKMGDTPLHLAALYGHLEIVEVLLKNGADVNATDTYGFTPLHLAADAGHLEIVEVLLKYGADVNAQDKFGKTAFDISIDN",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA+D+ G TPLHLAA  GHLEIVEVLLK GADVNA D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLLK+GADVNAQDKFGKT FD++IDN"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gb|AFI09260.1|",
+                  "accession": "AFI09260",
+                  "title": "LmrCD-specific DARPin, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.261,
+                  "score": 591,
+                  "evalue": 3.92598e-75,
+                  "identity": 122,
+                  "positive": 135,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 12,
+                  "hit_to": 167,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNANDFTGFTPLHLAAVHGHLEIVKVLLKYGADVNAKDVFGKTPLHLAAWYGHLEIIEVLVKYGADVNALEKGGNSPLHLAAMIGHLEIVEVLLKYGADVSAQDEFGKTIFDISIDDGNEDLAEILQK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRILMANGADVNA D  G TPLHLAA  GHLEIV+VLLK GADVNA D  G TPLHLAA  GHLEI+EVL+K GADVNA +  G +PLHLAA  GHLEIVEVLLK+GADV+AQD+FGKT FD++ID+GNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "pdb|7P3I|B",
+                  "accession": "7P3I_B",
+                  "title": "Chain B, Darpin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.491,
+                  "score": 589,
+                  "evalue": 4.5058e-75,
+                  "identity": 123,
+                  "positive": 134,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 2,
+                  "hit_to": 159,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLQAARAGQLDEVRELLKAGADVNAKDTWGFTPLHIAAESGHLEIVEVLLKAGADVNAKDVQGRTPLHIAAHSGHLEIVEVLLKAGADVNAKDFRGWTPLHLAAWSGHLEIVEILLKAGADVNAQDKSGKTPADLAARAGHQDIAEVLQKAA",
+                  "midline": "SDLGKKLL+AARAGQ DEVR L+  GADVNAKD +G TPLH+AA +GHLEIVEVLLK GADVNA D  G TPLH+AA  GHLEIVEVLLK GADVNA+D +G TPLHLAAW GHLEIVE+LLK GADVNAQDK GKTP DLA   G++DIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "pdb|9EPA|A",
+                  "accession": "9EPA_A",
+                  "title": "Chain A, DARPin NY_1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 2.01341e-74,
+                  "identity": 123,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 18,
+                  "hit_to": 175,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "SDLGKKLLQAARAGQLDEVRELLKAGADVNAKDLIGVTPLHLAAFSGHLEIVEVLLKASADVNAKDVSGRTPLHVAAKHGHLEIVEVLLKAGADVNAKDLIGFTPLHLAAQFGHLEIVEVLLKAGADVNAQDKSGKTPADLAARAGHQDIAEVLQKAA",
+                  "midline": "SDLGKKLL+AARAGQ DEVR L+  GADVNAKD  G TPLHLAA++GHLEIVEVLLK  ADVNA D  G TPLH+AA  GHLEIVEVLLK GADVNA+D  G TPLHLAA +GHLEIVEVLLK GADVNAQDK GKTP DLA   G++DIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "pdb|4JB8|P",
+                  "accession": "4JB8_P",
+                  "title": "Chain P, DARPin C7_16 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 4.62172e-74,
+                  "identity": 124,
+                  "positive": 133,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 12,
+                  "hit_to": 171,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKL",
+                  "hseq": "SDLGKKLLDAASAGQDDEVRILMANGADVNASNQQGWTPLHATAEYGHLEIVDVLLAYGADVNASDSYGSTPLHSAAWAGHLEIVDVLLAHGADVNASDNYGWTPLHLAAHTGHLEIVDVLLANGADVNANNWWGKTPFDLAIDNGNEDIAEVLQKAAKL",
+                  "midline": "SDLGKKLL+AA AGQDDEVRILMANGADVNA ++ G TPLH  A  GHLEIV+VLL  GADVNA DS G TPLH AA  GHLEIV+VLL  GADVNA D  G TPLHLAA  GHLEIV+VLL +GADVNA + +GKTPFDLAIDNGNEDIAEVLQKAAKL"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "pdb|4ZFH|A",
+                  "accession": "4ZFH_A",
+                  "title": "Chain A, Artificial ankyrin repeat protein_Ank(GAG)1D4 mutant -Y56A [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.024,
+                  "score": 580,
+                  "evalue": 1.10504e-73,
+                  "identity": 116,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "ADLGKKLLEAARAGQDDEVRLLLEHGADVNARDSIGSTPLHLAAAYGHLEIVRLLLEHGADVNARDSTGTTPLHYAARLGHLEIVRLLLEHGADVNARDAMGWTPLHLAAKKGHLEIVRLLLKHGADVNANDHFGKTAFDISIDNGNEDLAEILQS",
+                  "midline": "+DLGKKLLEAARAGQDDEVR+L+ +GADVNA+D  G+TPLHLAA  GHLEIV +LL+ GADVNA DS G TPLH AA  GHLEIV +LL+ GADVNA+DA G TPLHLAA  GHLEIV +LLKHGADVNA D FGKT FD++IDNGNED+AE+LQ "
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "pdb|8QZN|A",
+                  "accession": "8QZN_A",
+                  "title": "Chain A, DARPin-Armadillo fusion protein with Tyrosin pocket and linked target peptide [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 347,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 1.4507e-73,
+                  "identity": 121,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 153,
+                  "hit_from": 4,
+                  "hit_to": 156,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEV",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILLANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADAHARDKFGKTPKDLAEDNGNEDVARL",
+                  "midline": "SDLGKKLLEAARAGQDDEVRIL+ANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GAD +A+DKFGKTP DLA DNGNED+A +"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "pdb|9BOI|A",
+                  "accession": "9BOI_A",
+                  "title": "Chain A, mVenus,Maltose/maltodextrin-binding periplasmic protein,Protein spinster homolog 1,Designed ankyrin repeat protein (DARPin) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 1275,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.98,
+                  "score": 637,
+                  "evalue": 2.2091e-73,
+                  "identity": 126,
+                  "positive": 139,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 1108,
+                  "hit_to": 1262,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGRKLLEAARAGQLDEVRILLANGADVNAADNTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGYTPLHLAAYWGHLEIVEVLLKNGADVNAMDSDGMTPLHLAAKWGYLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "DLG+KLLEAARAGQ DEVRIL+ANGADVNA D  G TPLHLAA++GHLEIVEVLLK GADV+A D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G+TPLHLAA +G+LEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "pdb|3Q9N|C",
+                  "accession": "3Q9N_C",
+                  "title": "Chain C, consensus ankyrin repeat [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 2.25178e-73,
+                  "identity": 121,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 4,
+                  "hit_to": 158,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQ",
+                  "hseq": "QDLGKKLLEAAAAGQDDEVRILMANGADVNATDDNGLTPLHLAAANGQLEIVEVLLKNGADVNASDSAGITPLHLAAYDGHLEIVEVLLKHGADVNAYDRAGWTPLHLAALSGQLEIVEVLLKHGADVNAQDALGLTAFDISINQGQEDLAEILQ",
+                  "midline": " DLGKKLLEAA AGQDDEVRILMANGADVNA D+ G TPLHLAA  G LEIVEVLLK GADVNA DS G TPLHLAA +GHLEIVEVLLK GADVNA D  G TPLHLAA  G LEIVEVLLKHGADVNAQD  G T FD++I+ G ED+AE+LQ"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "pdb|7TBO|A",
+                  "accession": "7TBO_A",
+                  "title": "Chain A, D12 LOV2-DARPin fusion [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 344,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.032,
+                  "score": 593,
+                  "evalue": 4.79241e-73,
+                  "identity": 121,
+                  "positive": 131,
+                  "query_from": 7,
+                  "query_to": 158,
+                  "hit_from": 193,
+                  "hit_to": 344,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "LLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "LLEAAKKGQIEEVRRLLELGADANGADGTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGYTPLHLAAYWGHLEIVEVLLKNGADVNAMDSDGMTPLHLAAKWGYLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "LLEAA+ GQ +EVR L+  GAD N  D  G TPLHLAA++GHLEIVEVLLK GADV+A D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G+TPLHLAA +G+LEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "pdb|6QFO|A",
+                  "accession": "6QFO_A",
+                  "title": "Chain A, PEGA domain-containing protein,PEGA domain-containing protein,EngBF DARPin fusion 9b 3G124 [Bifidobacterium longum]",
+                  "taxid": 216816,
+                  "sciname": "Bifidobacterium longum"
+                }
+              ],
+              "len": 1362,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 248.44,
+                  "score": 633,
+                  "evalue": 7.1846e-73,
+                  "identity": 128,
+                  "positive": 136,
+                  "query_from": 2,
+                  "query_to": 160,
+                  "hit_from": 1196,
+                  "hit_to": 1354,
+                  "align_len": 159,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAAKL",
+                  "hseq": "DLDRKLLEAARAGQDDEVRILMANGACVNAADDVGVTPLHLAAQRGHLEIVEVLLKCGADVNAADLWGQTPLHLAATAGHLEIVEVLLCNGADVNARDNIGHTPLHLAAWAGHLEIVEVLLKYGADVCAQDKFGKTAFDISIDNGNEDLAEILQKACKL",
+                  "midline": "DL +KLLEAARAGQDDEVRILMANGA VNA D+ G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPLHLAA  GHLEIVEVLL  GADVNA+D  G TPLHLAAW GHLEIVEVLLK+GADV AQDKFGKT FD++IDNGNED+AE+LQKA KL"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "pdb|7QNL|AAA",
+                  "accession": "7QNL_AAA",
+                  "title": "Chain AAA, DARPIN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.409,
+                  "score": 581,
+                  "evalue": 1.35336e-72,
+                  "identity": 119,
+                  "positive": 128,
+                  "query_from": 10,
+                  "query_to": 158,
+                  "hit_from": 92,
+                  "hit_to": 240,
+                  "align_len": 149,
+                  "gaps": 0,
+                  "qseq": "AARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "AATSGQLTIVEILLRQGADVNAADNTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGYTPLHLAAYWGHLEIVEVLLKNGADVNAMDSDGMTPLHLAAKWGYLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "AA +GQ   V IL+  GADVNA D  G TPLHLAA++GHLEIVEVLLK GADV+A D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G+TPLHLAA +G+LEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "pdb|8ZMR|A",
+                  "accession": "8ZMR_A",
+                  "title": "Chain A, Maltose/maltodextrin-binding periplasmic protein,Vesicular acetylcholine transporter,DARPinoff7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 1047,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 244.588,
+                  "score": 623,
+                  "evalue": 5.86169e-72,
+                  "identity": 123,
+                  "positive": 136,
+                  "query_from": 5,
+                  "query_to": 156,
+                  "hit_from": 883,
+                  "hit_to": 1034,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "KKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "RKLLEAARAGQLDEVRILLANGADVNAADNTGTTPLHLAAYSGHLEIVEVLLKHGADVDASDVFGYTPLHLAAYWGHLEIVEVLLKNGADVNAMDSDGMTPLHLAAKWGYLEIVEVLLKHGADVNAQDKFGKTAFDISIDNGNEDLAEILQK",
+                  "midline": "+KLLEAARAGQ DEVRIL+ANGADVNA D  G TPLHLAA++GHLEIVEVLLK GADV+A D  GYTPLHLAA  GHLEIVEVLLK GADVNA D+ G+TPLHLAA +G+LEIVEVLLKHGADVNAQDKFGKT FD++IDNGNED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "pdb|5MIO|C",
+                  "accession": "5MIO_C",
+                  "title": "Chain C, Kinesin-like protein KIF2C,KIF2C FUSED TO A DARPIN,KIF2C FUSED TO A DARPIN [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 573,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 236.498,
+                  "score": 602,
+                  "evalue": 6.23931e-72,
+                  "identity": 123,
+                  "positive": 132,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 409,
+                  "hit_to": 563,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "DLGKKLLEAARAGQDDEVRVLMANGADVNATDASGLTPLHLAATYGHLEIVEVLLKHGADVSASDLMGSTPLHLAALIGHLEIVEVLLKHGADVNAVDTWGDTPLRLAAVMGHLKIVEALLKHGADVNAQDKFGKTAYDTSIDNGSEDLAEILQK",
+                  "midline": "DLGKKLLEAARAGQDDEVR+LMANGADVNA D  G TPLHLAA  GHLEIVEVLLK GADV+A D +G TPLHLAA  GHLEIVEVLLK GADVNA D  G TPL LAA  GHL+IVE LLKHGADVNAQDKFGKT +D +IDNG+ED+AE+LQK"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "pdb|9IRV|A",
+                  "accession": "9IRV_A",
+                  "title": "Chain A, DARPin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 394,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.491,
+                  "score": 589,
+                  "evalue": 6.6669e-72,
+                  "identity": 120,
+                  "positive": 130,
+                  "query_from": 2,
+                  "query_to": 156,
+                  "hit_from": 52,
+                  "hit_to": 206,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "DLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQK",
+                  "hseq": "ELGKELLEAARAGQDDEVAVLMARGAEVNAADDVGVTPLHLAAQRGHLAIVSVLLAFGASVNAADLWGQTPLHLAATAGHLEIVEVLLRSGASVNARDNIGHTPLHLAAWAGHLEIVEVLLAYGADVFAQDKFGKTPFDLAIDNGNEDIAEVLQR",
+                  "midline": "+LGK+LLEAARAGQDDEV +LMA GA+VNA D+ G TPLHLAA  GHL IV VLL  GA VNA D  G TPLHLAA  GHLEIVEVLL++GA VNA+D  G TPLHLAAW GHLEIVEVLL +GADV AQDKFGKTPFDLAIDNGNEDIAEVLQ+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 75.8702,
+                  "score": 185,
+                  "evalue": 1.09936e-12,
+                  "identity": 44,
+                  "positive": 54,
+                  "query_from": 76,
+                  "query_to": 157,
+                  "hit_from": 60,
+                  "hit_to": 141,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "AAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKA",
+                  "hseq": "AARAGQDDEVAVLMARGAEVNAADDVGVTPLHLAAQRGHLAIVSVLLAFGASVNAADLWGQTPLHLAATAGHLEIVEVLLRS",
+                  "midline": "AA  G  + V VL+  GA+VNA D  G+TPLHLAA  GHL IV VLL  GA VNA D +G+TP  LA   G+ +I EVL ++"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "pdb|6SA7|A",
+                  "accession": "6SA7_A",
+                  "title": "Chain A, DARPin-Armadillo fusion C8long83 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 510,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.572,
+                  "score": 597,
+                  "evalue": 1.02283e-71,
+                  "identity": 121,
+                  "positive": 130,
+                  "query_from": 1,
+                  "query_to": 154,
+                  "hit_from": 4,
+                  "hit_to": 157,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVL",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILLANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADPKAQDKFGKTPKDLAKDNGHEDVAKLI",
+                  "midline": "SDLGKKLLEAARAGQDDEVRIL+ANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GAD  AQDKFGKTP DLA DNG+ED+A+++"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "pdb|5LEB|A",
+                  "accession": "5LEB_A",
+                  "title": "Chain A, DDD_D12_06_D12_06_D12 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 473,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.417,
+                  "score": 594,
+                  "evalue": 1.11002e-71,
+                  "identity": 124,
+                  "positive": 129,
+                  "query_from": 1,
+                  "query_to": 152,
+                  "hit_from": 12,
+                  "hit_to": 163,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "SDLGKKLLEAARAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAE",
+                  "hseq": "SDLGKKLLEAARAGQDDEVRILLANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADVFAQDKFGKTPFDLARDNGNEWIAK",
+                  "midline": "SDLGKKLLEAARAGQDDEVRIL+ANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GADV AQDKFGKTPFDLA DNGNE IA+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 225.713,
+                  "score": 574,
+                  "evalue": 1.13959e-68,
+                  "identity": 119,
+                  "positive": 122,
+                  "query_from": 12,
+                  "query_to": 158,
+                  "hit_from": 327,
+                  "hit_to": 473,
+                  "align_len": 147,
+                  "gaps": 0,
+                  "qseq": "RAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "hseq": "RQGQRDRVEKLMANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA",
+                  "midline": "R GQ D V  LMANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GADVNAQDKFGKTPFDLAIDNGNEDIAEVLQKAA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 204.527,
+                  "score": 519,
+                  "evalue": 1.60844e-60,
+                  "identity": 109,
+                  "positive": 113,
+                  "query_from": 12,
+                  "query_to": 152,
+                  "hit_from": 175,
+                  "hit_to": 315,
+                  "align_len": 141,
+                  "gaps": 0,
+                  "qseq": "RAGQDDEVRILMANGADVNAKDEYGATPLHLAAWTGHLEIVEVLLKTGADVNAVDSVGYTPLHLAAAEGHLEIVEVLLKTGADVNAQDAQGITPLHLAAWYGHLEIVEVLLKHGADVNAQDKFGKTPFDLAIDNGNEDIAE",
+                  "hseq": "RQGQRDRVEKLMANGADVNTADETGFTPLHLAAWEGHLGIVEVLLKNGADVNANDERGHTPLHLAAYTGHLEIVEVLLKNGAGVNATDVIGTAPLHLAAMWGHLEIVEVLLKNGADVFAQDKFGKTPFDLARDNGNEWIAK",
+                  "midline": "R GQ D V  LMANGADVN  DE G TPLHLAAW GHL IVEVLLK GADVNA D  G+TPLHLAA  GHLEIVEVLLK GA VNA D  G  PLHLAA +GHLEIVEVLLK+GADV AQDKFGKTPFDLA DNGNE IA+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368730",
+          "query_title": "5ien_A,B",
+          "query_len": 137,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5IEP|A",
+                  "accession": "5IEP_A",
+                  "title": "Chain A, CDL2.3b [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 249.98,
+                  "score": 637,
+                  "evalue": 3.97679e-83,
+                  "identity": 124,
+                  "positive": 126,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 2,
+                  "hit_to": 132,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAKLEH",
+                  "hseq": "QSAKEAIEAALADFVKVYNSKDAAGVASKYMDDAAIFPLDMAPVDGRQNIQKLWQGLMDMGVSEPKFTTLNVQKSGDFAFESGSFSLKGPGKDSKLVDIAGIYVEVWRKGQDGGWKLYRTIANLDPAKLEH",
+                  "midline": "QSAKEAIEAALADFVK YNSKDAAGVASKYMDDAAIFPLDMA VDGRQNIQKLWQGLMDMGVSEPK TTL+VQ+SGDFAFESGS SLKGPGKDSKLVDIAG YVEVWRKGQDGGWKLYRTIANLDPAKLEH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|3HX8|A",
+                  "accession": "3HX8_A",
+                  "title": "Chain A, putative ketosteroid isomerase [Mesorhizobium loti]",
+                  "taxid": 381,
+                  "sciname": "Mesorhizobium loti"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 219.935,
+                  "score": 559,
+                  "evalue": 2.7155e-71,
+                  "identity": 112,
+                  "positive": 113,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 129,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "GQSAKEAIEAANADFVKAYNSKDAAGVASKYXDDAAAFPPDXARVDGRQNIQKLWQGAXDXGISELKLTTLDVQESGDFAFESGSFSLKAPGKDSKLVDAAGKYVVVWRKGQDGGWKLYRDIWNSDPAK",
+                  "midline": "GQSAKEAIEAA ADFVKAYNSKDAAGVASKY DDAA FP D ARVDGRQNIQKLWQG  D G+SE KLTTLDVQESGDFAFESGS SLK PGKDSKLVD AGKYV VWRKGQDGGWKLYR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_095793875.1|",
+                  "accession": "WP_095793875",
+                  "title": "MULTISPECIES: YybH family protein [unclassified Mesorhizobium]",
+                  "taxid": 325217,
+                  "sciname": "unclassified Mesorhizobium"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 219.935,
+                  "score": 559,
+                  "evalue": 5.99445e-71,
+                  "identity": 110,
+                  "positive": 112,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 23,
+                  "hit_to": 150,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QPAKEAIEAANAEFVKAYNSKDAAGVASKYTDDAAAFPPDMARVDGRQNIQKLWQGAMDMGISELTLTTLDVQESGDFAFESGSFSLKAPGKDSKLVDAAGKYVVVWRKGQDGGWKLYRDIWNSDPGK",
+                  "midline": "Q AKEAIEAA A+FVKAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG MDMG+SE  LTTLDVQESGDFAFESGS SLK PGKDSKLVD AGKYV VWRKGQDGGWKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_292322934.1|",
+                  "accession": "WP_292322934",
+                  "title": "YybH family protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.608,
+                  "score": 527,
+                  "evalue": 3.81341e-66,
+                  "identity": 103,
+                  "positive": 110,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 23,
+                  "hit_to": 150,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAKEAIEAANAEFVKAYNSKDAAGVASKYADDAAAFPPDMARVDGLQNIQKLWQGAIDMGISELTLTTLEVQESGDFAYESGTFSLKAPGKDSKLVDAVGKYVVVWKKGQDGNWKLYRDIWNSDPGK",
+                  "midline": "QSAKEAIEAA A+FVKAYNSKDAAGVASKY DDAA FP DMARVDG QNIQKLWQG +DMG+SE  LTTL+VQESGDFA+ESG+ SLK PGKDSKLVD  GKYV VW+KGQDG WKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|RWB57172.1|",
+                  "accession": "RWB57172",
+                  "title": "MAG: DUF4440 domain-containing protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 272,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 211.846,
+                  "score": 538,
+                  "evalue": 4.95848e-66,
+                  "identity": 105,
+                  "positive": 111,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 145,
+                  "hit_to": 272,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAKEAIEAANAEFVKAYNSKDAAGVASKYADDAAAFPPDMARVDGRQNIQKLWQGAIDMGISELTLTTLEVQESGDFAFESGTFSLKAPGKDSKLVDAAGKYVVVWKKGQDGSWKLYRDIWNSDSGK",
+                  "midline": "QSAKEAIEAA A+FVKAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG +DMG+SE  LTTL+VQESGDFAFESG+ SLK PGKDSKLVD AGKYV VW+KGQDG WKLYR I N D  K"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|RWE37990.1|",
+                  "accession": "RWE37990",
+                  "title": "MAG: DUF4440 domain-containing protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.068,
+                  "score": 523,
+                  "evalue": 1.53395e-65,
+                  "identity": 102,
+                  "positive": 112,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 23,
+                  "hit_to": 150,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAKEAIEAANAEFVKAYNSKNAAGVASKYAEDAAAFPPDMARVDGRQNIQKLWQGAVDMGISELKLTTLEVQESGDFAYESGTFFLKAPGKDAKLVDQAGKYVVVWKKGQDGGWKLYRDIWNSDSGK",
+                  "midline": "QSAKEAIEAA A+FVKAYNSK+AAGVASKY +DAA FP DMARVDGRQNIQKLWQG +DMG+SE KLTTL+VQESGDFA+ESG+  LK PGKD+KLVD AGKYV VW+KGQDGGWKLYR I N D  K"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_337093856.1|",
+                  "accession": "WP_337093856",
+                  "title": "YybH family protein [Mesorhizobium argentiipisi]",
+                  "taxid": 3015175,
+                  "sciname": "Mesorhizobium argentiipisi"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 203.371,
+                  "score": 516,
+                  "evalue": 2.22399e-64,
+                  "identity": 101,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 22,
+                  "hit_to": 150,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AQSAKEAIEAANAEFVKAYNSKDAAGVASKYADDAAAFPPDMARVDGRQNIQKLWQGAIDMGISDLALTTLEVQESGDLAYESGAFSLKAPGKDSKLVETTGKYVVVWKKGQDGDWKLYRDIWNSDSAK",
+                  "midline": " QSAKEAIEAA A+FVKAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG +DMG+S+  LTTL+VQESGD A+ESG+ SLK PGKDSKLV+  GKYV VW+KGQDG WKLYR I N D AK"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_352735061.1|",
+                  "accession": "WP_352735061",
+                  "title": "MULTISPECIES: YybH family protein [unclassified Mesorhizobium]",
+                  "taxid": 325217,
+                  "sciname": "unclassified Mesorhizobium"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 201.83,
+                  "score": 512,
+                  "evalue": 6.58105e-64,
+                  "identity": 99,
+                  "positive": 108,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 23,
+                  "hit_to": 150,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSVKQAIEAANAEFVKAYNSKDAAGVASKYADDAAAFPPDMARVDGRQNIQKLWQGAIDMGISELALTTLEVQECRNLAYESGTFSLKAPGKDSKLVDAAGKYVVVWKKGPDGGWKLYRDIWNFDPGK",
+                  "midline": "QS K+AIEAA A+FVKAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG +DMG+SE  LTTL+VQE  + A+ESG+ SLK PGKDSKLVD AGKYV VW+KG DGGWKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_367142419.1|",
+                  "accession": "WP_367142419",
+                  "title": "YybH family protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 196.052,
+                  "score": 497,
+                  "evalue": 3.67874e-61,
+                  "identity": 98,
+                  "positive": 107,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 59,
+                  "hit_to": 183,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "KEAIEAANAEFVKAYNSKNAAGVASKYAEDAAAFPPDMARVDGRQNIQKLWQGAVDMGISELKLTTREVQESGDFAYEPGTFFLKAPGKDSKLVDQAGKYVVVWKKGQDGGWKLYRDIWNSDSGK",
+                  "midline": "KEAIEAA A+FVKAYNSK+AAGVASKY +DAA FP DMARVDGRQNIQKLWQG +DMG+SE KLTT +VQESGDFA+E G+  LK PGKDSKLVD AGKYV VW+KGQDGGWKLYR I N D  K"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_320315746.1|",
+                  "accession": "WP_320315746",
+                  "title": "YybH family protein [Mesorhizobium dulcispinae]",
+                  "taxid": 3072316,
+                  "sciname": "Mesorhizobium dulcispinae"
+                }
+              ],
+              "len": 152,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 189.504,
+                  "score": 480,
+                  "evalue": 5.71103e-59,
+                  "identity": 93,
+                  "positive": 101,
+                  "query_from": 2,
+                  "query_to": 113,
+                  "hit_from": 23,
+                  "hit_to": 134,
+                  "align_len": 112,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQD",
+                  "hseq": "QSAKEAIEAANAEFVKAYNSKDAAGVASKYADDAAAFPPDMARVDGRQNIQKLWQGAIDMGISELTLTTLEVQESGNFAYESGSFSLKAPGKDSKLVDAAGKYVVVWKKGQE",
+                  "midline": "QSAKEAIEAA A+FVKAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG +DMG+SE  LTTL+VQESG+FA+ESGS SLK PGKDSKLVD AGKYV VW+KGQ+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_176477783.1|",
+                  "accession": "WP_176477783",
+                  "title": "YybH family protein [Mesorhizobium sp. WSM3866]",
+                  "taxid": 422271,
+                  "sciname": "Mesorhizobium sp. WSM3866"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 188.734,
+                  "score": 478,
+                  "evalue": 1.21748e-58,
+                  "identity": 100,
+                  "positive": 110,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 23,
+                  "hit_to": 150,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QPAKEAIEAANAEFVKAYNSKDAAGVAAKYADDAAALPPDMARVDGRQNIQKLWQGVIDMGISDLALTTLEVQESGDFAYESGTFSLKAPGKDSKLADAAGKYVVVWKKGQDGSWKLYRDIWNFDPGK",
+                  "midline": "Q AKEAIEAA A+FVKAYNSKDAAGVA+KY DDAA  P DMARVDGRQNIQKLWQG++DMG+S+  LTTL+VQESGDFA+ESG+ SLK PGKDSKL D AGKYV VW+KGQDG WKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|PBB40190.1|",
+                  "accession": "PBB40190",
+                  "title": "DUF4440 domain-containing protein [Mesorhizobium sp. WSM3866]",
+                  "taxid": 422271,
+                  "sciname": "Mesorhizobium sp. WSM3866"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 188.734,
+                  "score": 478,
+                  "evalue": 2.82099e-58,
+                  "identity": 100,
+                  "positive": 110,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 55,
+                  "hit_to": 182,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QPAKEAIEAANAEFVKAYNSKDAAGVAAKYADDAAALPPDMARVDGRQNIQKLWQGVIDMGISDLALTTLEVQESGDFAYESGTFSLKAPGKDSKLADAAGKYVVVWKKGQDGSWKLYRDIWNFDPGK",
+                  "midline": "Q AKEAIEAA A+FVKAYNSKDAAGVA+KY DDAA  P DMARVDGRQNIQKLWQG++DMG+S+  LTTL+VQESGDFA+ESG+ SLK PGKDSKL D AGKYV VW+KGQDG WKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|RWP86634.1|",
+                  "accession": "RWP86634",
+                  "title": "MAG: DUF4440 domain-containing protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 187.193,
+                  "score": 474,
+                  "evalue": 1.25393e-57,
+                  "identity": 94,
+                  "positive": 98,
+                  "query_from": 2,
+                  "query_to": 113,
+                  "hit_from": 23,
+                  "hit_to": 134,
+                  "align_len": 112,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQD",
+                  "hseq": "QSAKEAIGAANAEFVKAYNSKDAAGVASKYADDAAAFPPDMARVDGRQNIQKLWQGAMDMGISGLTLSTLDVQESGDFAFESGSFSLKAPGKDSKLVDATGKYVVVWKKGQD",
+                  "midline": "QSAKEAI AA A+FVKAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG MDMG+S   L+TLDVQESGDFAFESGS SLK PGKDSKLVD  GKYV VW+KGQD"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_352487110.1|",
+                  "accession": "WP_352487110",
+                  "title": "MULTISPECIES: YybH family protein [unclassified Mesorhizobium]",
+                  "taxid": 325217,
+                  "sciname": "unclassified Mesorhizobium"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 182.185,
+                  "score": 461,
+                  "evalue": 1.3187e-56,
+                  "identity": 89,
+                  "positive": 96,
+                  "query_from": 16,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 114,
+                  "align_len": 114,
+                  "gaps": 0,
+                  "qseq": "VKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "MKAYNSKDAAGVASKYADDAAAFPPDMARVDGRQNIQKLWQGAIDMGISELALTTLEVQECRDLAYESGTFSLKAPGKDSKLVDAAGKYVVVWKKGPDGGWKLYRDIWNFDPGK",
+                  "midline": "+KAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG +DMG+SE  LTTL+VQE  D A+ESG+ SLK PGKDSKLVD AGKYV VW+KG DGGWKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_208696004.1|",
+                  "accession": "WP_208696004",
+                  "title": "YybH family protein [Mesorhizobium sp. M8A.F.Ca.ET.057.01.1.1]",
+                  "taxid": 2493679,
+                  "sciname": "Mesorhizobium sp. M8A.F.Ca.ET.057.01.1.1"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 179.104,
+                  "score": 453,
+                  "evalue": 2.38226e-55,
+                  "identity": 88,
+                  "positive": 97,
+                  "query_from": 16,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 114,
+                  "align_len": 114,
+                  "gaps": 0,
+                  "qseq": "VKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "MKAYNSKNAAGVASKYAEDAAAFPPDMARVDGRQNIQKLWQGAVDMGISELKLTTREVQESGDFAYEPGTFFLKAPGKDSKLVDQAGKYVVVWKKGQDGGWKLYRDIWNSDSGK",
+                  "midline": "+KAYNSK+AAGVASKY +DAA FP DMARVDGRQNIQKLWQG +DMG+SE KLTT +VQESGDFA+E G+  LK PGKDSKLVD AGKYV VW+KGQDGGWKLYR I N D  K"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_292342097.1|",
+                  "accession": "WP_292342097",
+                  "title": "YybH family protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 178.718,
+                  "score": 452,
+                  "evalue": 9.9909e-55,
+                  "identity": 86,
+                  "positive": 103,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 22,
+                  "hit_to": 150,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AQTAKESIERANAEFMKSLNSKDATGVASHYADDAAVFPPDMKRVDGRENIQKFWQGAIDYGVSDLKLTTVEVEESGDLAFESGAFTFKMPGKDSKPVDAAGKSIVVWKKAQDGNWQLYRDIWNSDPAK",
+                  "midline": " Q+AKE+IE A A+F+K+ NSKDA GVAS Y DDAA+FP DM RVDGR+NIQK WQG +D GVS+ KLTT++V+ESGD AFESG+ + K PGKDSK VD AGK + VW+K QDG W+LYR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_192249501.1|",
+                  "accession": "WP_192249501",
+                  "title": "YybH family protein [Mesorhizobium silamurunense]",
+                  "taxid": 499528,
+                  "sciname": "Mesorhizobium silamurunense"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 175.252,
+                  "score": 443,
+                  "evalue": 2.60887e-53,
+                  "identity": 85,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 22,
+                  "hit_to": 150,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AQSAKDAIEASNAEYMKSLNSKDAAGVASHYAEDAVIFPPDMKRVDGRENIQKFWQGAIEYGVSDLKLTTVEVEESGDFAFESGAFSFKMPGKDSKPVDGTGKSIVVWKKAQDGNWQIYRDIWNSDPAK",
+                  "midline": " QSAK+AIEA+ A+++K+ NSKDAAGVAS Y +DA IFP DM RVDGR+NIQK WQG ++ GVS+ KLTT++V+ESGDFAFESG+ S K PGKDSK VD  GK + VW+K QDG W++YR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_023762441.1|",
+                  "accession": "WP_023762441",
+                  "title": "YybH family protein [Mesorhizobium sp. LNHC252B00]",
+                  "taxid": 1287252,
+                  "sciname": "Mesorhizobium sp. LNHC252B00"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 169.088,
+                  "score": 427,
+                  "evalue": 4.43506e-51,
+                  "identity": 91,
+                  "positive": 98,
+                  "query_from": 16,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 139,
+                  "align_len": 139,
+                  "gaps": 25,
+                  "qseq": "VKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQ-------ESG------------------DFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "MKAYNSKDAAGVASKYADDAAAFPPDMARVDGRQNIQKLWQGAIDMGISELALTTLEVQECRDLAYESGTFSLKAPGKDSKLVDXCRDLAYESGTFSLKAPGKDSKLVDAAGKYVVVWKKGPDGGWKLYRDIWNFDPGK",
+                  "midline": "+KAYNSKDAAGVASKY DDAA FP DMARVDGRQNIQKLWQG +DMG+SE  LTTL+VQ       ESG                  D A+ESG+ SLK PGKDSKLVD AGKYV VW+KG DGGWKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_352945588.1|",
+                  "accession": "WP_352945588",
+                  "title": "YybH family protein [Mesorhizobium sp. M1050]",
+                  "taxid": 2957051,
+                  "sciname": "Mesorhizobium sp. M1050"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 165.236,
+                  "score": 417,
+                  "evalue": 1.97159e-49,
+                  "identity": 81,
+                  "positive": 100,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 22,
+                  "hit_to": 150,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AQSAKDAIEASNAAFAKSLNSKDAAGVASHYAEDAMVLPPNAMRVDGRNNIQKFWQGVIDYGVSDLKITTVEVVESGDFAFEQGAVSFKMPGKDSKQVDGAGKSIVVWKKAQNGNWELYRDIWNDNPAK",
+                  "midline": " QSAK+AIEA+ A F K+ NSKDAAGVAS Y +DA + P +  RVDGR NIQK WQG++D GVS+ K+TT++V ESGDFAFE G++S K PGKDSK VD AGK + VW+K Q+G W+LYR I N +PAK"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_337140386.1|",
+                  "accession": "WP_337140386",
+                  "title": "MULTISPECIES: YybH family protein [unclassified Mesorhizobium]",
+                  "taxid": 325217,
+                  "sciname": "unclassified Mesorhizobium"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 162.925,
+                  "score": 411,
+                  "evalue": 1.59336e-48,
+                  "identity": 81,
+                  "positive": 100,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 23,
+                  "hit_to": 150,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAKDAIEASNAEFMKSLNSKDAAGVASHYAEDARVLPPNGMRADGRENIRKFWQGIIDYGVSDLKLTTVEVVESGDFAFEQGAFTYKMPGKDSKTVDGAGKSIVVWKKAQDGNWLLYRDIWNDDPAK",
+                  "midline": "QSAK+AIEA+ A+F+K+ NSKDAAGVAS Y +DA + P +  R DGR+NI+K WQG++D GVS+ KLTT++V ESGDFAFE G+ + K PGKDSK VD AGK + VW+K QDG W LYR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_292320646.1|",
+                  "accession": "WP_292320646",
+                  "title": "YybH family protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 161.77,
+                  "score": 408,
+                  "evalue": 4.85527e-48,
+                  "identity": 78,
+                  "positive": 101,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 23,
+                  "hit_to": 150,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAKDAIEASNAEFMKSLNGKDAAGVASHYTEDAAVLPPNGMRVDGRENIQKFWQGIIEYGVSDLKLTTVEVEERGDLAFELGSFTYKAPGKDSKPMDASGKAIVVWKKAQNGSWQLYRDIWNDDPAK",
+                  "midline": "QSAK+AIEA+ A+F+K+ N KDAAGVAS Y +DAA+ P +  RVDGR+NIQK WQG+++ GVS+ KLTT++V+E GD AFE GS + K PGKDSK +D +GK + VW+K Q+G W+LYR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_140746340.1|",
+                  "accession": "WP_140746340",
+                  "title": "MULTISPECIES: YybH family protein [unclassified Mesorhizobium]",
+                  "taxid": 325217,
+                  "sciname": "unclassified Mesorhizobium"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 161.384,
+                  "score": 407,
+                  "evalue": 7.45011e-48,
+                  "identity": 80,
+                  "positive": 99,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 22,
+                  "hit_to": 150,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AQSAKDGIEASNAKFMKSINSKDAAGVASLYTEDASALPPDMKRVDGRENIQKIWQGAIEYGVSDLKLTTVEVQEVGDFAFETSAFSYKMPGKDSKPVDGVGKAMVVWKKAPDGKWQIYRDIWNSDPAK",
+                  "midline": " QSAK+ IEA+ A F+K+ NSKDAAGVAS Y +DA+  P DM RVDGR+NIQK+WQG ++ GVS+ KLTT++VQE GDFAFE+ + S K PGKDSK VD  GK + VW+K  DG W++YR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_352659634.1|",
+                  "accession": "WP_352659634",
+                  "title": "YybH family protein [Mesorhizobium sp. M0621]",
+                  "taxid": 2956974,
+                  "sciname": "Mesorhizobium sp. M0621"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.91,
+                  "score": 385,
+                  "evalue": 1.69737e-44,
+                  "identity": 73,
+                  "positive": 97,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 22,
+                  "hit_to": 150,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AQSAKDAIEASNAEFMKSMNSKNAAGIASSYAEDAVALPPNGMRVDRRENIQKFWQGIIDYGVSDLKLNTVEVEERGDLAFELSSFTYKVPGKDSKPVDASGKAIVIWKKAQNGNWQIYRDIWNDDPAK",
+                  "midline": " QSAK+AIEA+ A+F+K+ NSK+AAG+AS Y +DA   P +  RVD R+NIQK WQG++D GVS+ KL T++V+E GD AFE  S + K PGKDSK VD +GK + +W+K Q+G W++YR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_083265465.1|",
+                  "accession": "WP_083265465",
+                  "title": "YybH family protein [Sinorhizobium alkalisoli]",
+                  "taxid": 1752398,
+                  "sciname": "Sinorhizobium alkalisoli"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.747,
+                  "score": 369,
+                  "evalue": 4.04412e-42,
+                  "identity": 77,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 24,
+                  "hit_to": 151,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSARSDIEAALVTFTKAFNTKDAAAVAAHYAEDAAILPPDSPRVDGRDKIQQFWQGAIDGGVSDLALEAVEISESGDFAFEVGKFSLKAPGKDANSVDQAGKYIVIWKKGADGAWHLYRDIWNADPAK",
+                  "midline": "QSA+  IEAAL  F KA+N+KDAA VA+ Y +DAAI P D  RVDGR  IQ+ WQG +D GVS+  L  +++ ESGDFAFE G  SLK PGKD+  VD AGKY+ +W+KG DG W LYR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_051441028.1|",
+                  "accession": "WP_051441028",
+                  "title": "YybH family protein [Ensifer sp. WSM1721]",
+                  "taxid": 1041159,
+                  "sciname": "Ensifer sp. WSM1721"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 6.74197e-41,
+                  "identity": 76,
+                  "positive": 92,
+                  "query_from": 2,
+                  "query_to": 128,
+                  "hit_from": 24,
+                  "hit_to": 150,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "QSARSDIEAALVTFTKAFNAKDAAAVAAHYTEDAAILPPDSRRVDGRDKIQQFWQGAIDEGLSDLALEAVEVSESGDFAFEVGKFSLKAPGKDANPVDQAGKYIVIWKKGTDGAWQLYRDIWNADPA",
+                  "midline": "QSA+  IEAAL  F KA+N+KDAA VA+ Y +DAAI P D  RVDGR  IQ+ WQG +D G+S+  L  ++V ESGDFAFE G  SLK PGKD+  VD AGKY+ +W+KG DG W+LYR I N DPA"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gb|ODR88528.1|",
+                  "accession": "ODR88528",
+                  "title": "hypothetical protein A8M32_25545 [Sinorhizobium alkalisoli]",
+                  "taxid": 1752398,
+                  "sciname": "Sinorhizobium alkalisoli"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 6.44406e-40,
+                  "identity": 73,
+                  "positive": 88,
+                  "query_from": 8,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "IEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "MEAALVTFTKAFNTKDAAAVAAHYAEDAAILPPDSPRVDGRDKIQQFWQGAIDGGVSDLALEAVEISESGDFAFEVGKFSLKAPGKDANSVDQAGKYIVIWKKGADGAWHLYRDIWNADPAK",
+                  "midline": "+EAAL  F KA+N+KDAA VA+ Y +DAAI P D  RVDGR  IQ+ WQG +D GVS+  L  +++ ESGDFAFE G  SLK PGKD+  VD AGKY+ +W+KG DG W LYR I N DPAK"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "tpg|HEX9770333.1|",
+                  "accession": "HEX9770333",
+                  "title": "SgcJ/EcaC family oxidoreductase [Kiloniellales bacterium]",
+                  "taxid": 2478489,
+                  "sciname": "Kiloniellales bacterium"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.109,
+                  "score": 331,
+                  "evalue": 2.80966e-36,
+                  "identity": 64,
+                  "positive": 84,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 26,
+                  "hit_to": 150,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REDIEAALKTFAAAYNAGDGATVAQLYAEDAALLPPGEARVDGRAAIQAYWQGAIDGGITDLTLEAVEVEESGDLAMEVGAFSLAVPGENDAKVTVAGKYIVVWKKGADGAWRLYRDIWNANPAQ",
+                  "midline": "+E IEAAL  F  AYN+ D A VA  Y +DAA+ P   ARVDGR  IQ  WQG +D G+++  L  ++V+ESGD A E G+ SL  PG++   V +AGKY+ VW+KG DG W+LYR I N +PA+"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|MDX1421887.1|",
+                  "accession": "MDX1421887",
+                  "title": "SgcJ/EcaC family oxidoreductase [Kiloniellales bacterium]",
+                  "taxid": 2478489,
+                  "sciname": "Kiloniellales bacterium"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 1.3412e-35,
+                  "identity": 61,
+                  "positive": 82,
+                  "query_from": 8,
+                  "query_to": 129,
+                  "hit_from": 29,
+                  "hit_to": 150,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "IEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "IEAALASFAEAFNGGDGAGVAALYTEDAVLLPPGEARVDGREAIQAFWQGAIDAGLSAITLEAVEVEEAGDLAFEVGKFTLQAPGEGDQKTTVFGKYIVVWKKGDDGVWRLYRDIWNTSPAE",
+                  "midline": "IEAALA F +A+N  D AGVA+ Y +DA + P   ARVDGR+ IQ  WQG +D G+S   L  ++V+E+GD AFE G  +L+ PG+  +   + GKY+ VW+KG DG W+LYR I N  PA+"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_192245044.1|",
+                  "accession": "WP_192245044",
+                  "title": "YybH family protein [Mesorhizobium silamurunense]",
+                  "taxid": 499528,
+                  "sciname": "Mesorhizobium silamurunense"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.872,
+                  "score": 320,
+                  "evalue": 1.36999e-34,
+                  "identity": 60,
+                  "positive": 87,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 25,
+                  "hit_to": 152,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QTAQSSIEANNADFVAKFAAKDATGLAQHYTEDAVAFPPNEERVAGRESVQKMWQSWIDAGLTDLTLKAAQVEESGNLAYEEGNYSIKIPGSDGKTSEEIGKYIVVWKKGADGEWRLHRDIWNANPAK",
+                  "midline": "Q+A+ +IEA  ADFV  + +KDA G+A  Y +DA  FP +  RV GR+++QK+WQ  +D G+++  L    V+ESG+ A+E G+ S+K PG D K  +  GKY+ VW+KG DG W+L+R I N +PAK"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_274629962.1|",
+                  "accession": "WP_274629962",
+                  "title": "YybH family protein [Arvimicrobium flavum]",
+                  "taxid": 3393320,
+                  "sciname": "Arvimicrobium flavum"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.331,
+                  "score": 316,
+                  "evalue": 2.50498e-34,
+                  "identity": 60,
+                  "positive": 80,
+                  "query_from": 8,
+                  "query_to": 124,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "IEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "MEEANKQLMESFNNKDAAAVAAHYTDDGAMLPPNEERIQGRENIQKLWQGWIDAGVTGLTLKALEVVEGGDIAFEEGAYTLKAPGADGKLMEDVGKYVVVWKKGPGGAWQLYRDIWN",
+                  "midline": "+E A    ++++N+KDAA VA+ Y DD A+ P +  R+ GR+NIQKLWQG +D GV+   L  L+V E GD AFE G+ +LK PG D KL++  GKYV VW+KG  G W+LYR I N"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "tpg|HUF45186.1|",
+                  "accession": "HUF45186",
+                  "title": "SgcJ/EcaC family oxidoreductase [Aestuariivirgaceae bacterium]",
+                  "taxid": 2731404,
+                  "sciname": "Aestuariivirgaceae bacterium"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.946,
+                  "score": 315,
+                  "evalue": 7.55588e-34,
+                  "identity": 56,
+                  "positive": 85,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 24,
+                  "hit_to": 151,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAKAEIEAVIADFETAFNGQDAVAVAGFYTEDGAIFPPEGPRIDGKEGIGNYWRGLIDAGLSDLALNAVEIEDNGDFAYEVGTFSLKAPAEGGASTDVKGQYIVIWTKDADGNWRLHRDIWNTGPSQ",
+                  "midline": "QSAK  IEA +ADF  A+N +DA  VA  Y +D AIFP +  R+DG++ I   W+GL+D G+S+  L  ++++++GDFA+E G+ SLK P +     D+ G+Y+ +W K  DG W+L+R I N  P++"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_145719893.1|",
+                  "accession": "WP_145719893",
+                  "title": "YybH family protein [Mesorhizobium tianshanense]",
+                  "taxid": 39844,
+                  "sciname": "Mesorhizobium tianshanense"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.716,
+                  "score": 317,
+                  "evalue": 9.40199e-34,
+                  "identity": 61,
+                  "positive": 84,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 54,
+                  "hit_to": 181,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAREDIEAALTKFTDAFNSGNAAAVGQLYTEDAAVLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKALEVEESANLAYEVGAFTLDVPSKDGALSTVAGKYIVVWKKGDDGTWRLHRDIWNLGAAQ",
+                  "midline": "QSA+E IEAAL  F  A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  L+V+ES + A+E G+ +L  P KD  L  +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_368359532.1|",
+                  "accession": "WP_368359532",
+                  "title": "YybH family protein [Rhizobium mongolense]",
+                  "taxid": 57676,
+                  "sciname": "Rhizobium mongolense"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.561,
+                  "score": 314,
+                  "evalue": 1.16855e-33,
+                  "identity": 59,
+                  "positive": 86,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 24,
+                  "hit_to": 151,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QTAQSSIEANNADFVDKFAAKDAKGLGQHYTEDAVAFPPNENRVAGRESVQKMWQTWIDAGLTDLTLKAAQVEESGNLAYEEGTYSIKIPGKDGKTSEEIGKYIVVWKKGDDGEWRLHRDIWNTNPPK",
+                  "midline": "Q+A+ +IEA  ADFV  + +KDA G+   Y +DA  FP +  RV GR+++QK+WQ  +D G+++  L    V+ESG+ A+E G+ S+K PGKD K  +  GKY+ VW+KG DG W+L+R I N +P K"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_128628195.1|",
+                  "accession": "WP_128628195",
+                  "title": "YybH family protein [Borborobacter arsenicus]",
+                  "taxid": 1851146,
+                  "sciname": "Borborobacter arsenicus"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.79,
+                  "score": 312,
+                  "evalue": 2.27208e-33,
+                  "identity": 57,
+                  "positive": 88,
+                  "query_from": 2,
+                  "query_to": 128,
+                  "hit_from": 24,
+                  "hit_to": 150,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "QTAQSGVEAANKEVMDSFKNKDAAGVAAHYTENGAMLPPNQERIEGRENIQKLWQNWLDGGVTDLTLKAIEVEESGDMAVEEGAYSIKAPGADGKTMEEIGKYIVVWKKAADGKWQLHRDIWNANQA",
+                  "midline": "Q+A+  +EAA  + + ++ +KDAAGVA+ Y ++ A+ P +  R++GR+NIQKLWQ  +D GV++  L  ++V+ESGD A E G+ S+K PG D K ++  GKY+ VW+K  DG W+L+R I N + A"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gb|RWM87910.1|",
+                  "accession": "RWM87910",
+                  "title": "MAG: DUF4440 domain-containing protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 280,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.946,
+                  "score": 315,
+                  "evalue": 2.2047e-32,
+                  "identity": 61,
+                  "positive": 84,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 153,
+                  "hit_to": 280,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSAREDIEAALPKFTDAFNSGNAAAVGQLYTEDAALLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKALEVEESANLAYEVGAFTLDVPSKDGALSTVAGKYIVVWKKGDDGTWRLHRDIWNLGAAQ",
+                  "midline": "QSA+E IEAAL  F  A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  L+V+ES + A+E G+ +L  P KD  L  +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|MDJ0948261.1|",
+                  "accession": "MDJ0948261",
+                  "title": "SgcJ/EcaC family oxidoreductase [Alphaproteobacteria bacterium]",
+                  "taxid": 1913988,
+                  "sciname": "Alphaproteobacteria bacterium"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 2.55081e-32,
+                  "identity": 58,
+                  "positive": 82,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 2,
+                  "hit_to": 125,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "TARSAIEVVGAAFCELYNSGNAAGLAGLYTEDAALMPPDAPRLEGREAIQQYWQGLIDAGVGDVSLNTFEVEEAGDSAVEMGALTATVPGEGDVRVTVAGKYVVLWRHDGDGSWRLHRDIWNFD",
+                  "midline": "+A+ AIE   A F + YNS +AAG+A  Y +DAA+ P D  R++GR+ IQ+ WQGL+D GV +  L T +V+E+GD A E G+++   PG+    V +AGKYV +WR   DG W+L+R I N D"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_320275965.1|",
+                  "accession": "WP_320275965",
+                  "title": "YybH family protein [Mesorhizobium captivum]",
+                  "taxid": 3072319,
+                  "sciname": "Mesorhizobium captivum"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 2.71889e-32,
+                  "identity": 59,
+                  "positive": 83,
+                  "query_from": 2,
+                  "query_to": 129,
+                  "hit_from": 55,
+                  "hit_to": 182,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "QSARKEIEAALTKFTDAFNSGNAAAVGQMYTEDAAVLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKALEVEESANLAYEVGAFTLDVPSKAGALSTVAGKYIVVWKKGDDGTWRLHRDIWNLGAAQ",
+                  "midline": "QSA++ IEAAL  F  A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  L+V+ES + A+E G+ +L  P K   L  +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|MGH6894574.1|",
+                  "accession": "MGH6894574",
+                  "title": "YybH family protein [Dongiaceae bacterium]",
+                  "taxid": 3069224,
+                  "sciname": "Dongiaceae bacterium"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 4.04685e-32,
+                  "identity": 59,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 128,
+                  "hit_from": 24,
+                  "hit_to": 150,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "ESPRDEIEAALFTFAEAFNQGDAAAVAAHYTEDAAVFPPEAARVDGRAGIQTFWKGAMDSGLADLTLKAVEVHGSDELAFEVGEVSFSTPDGSGGRSASTGKYIVVWKKDGDGGWRLYRDIWNANPA",
+                  "midline": "+S ++ IEAAL  F +A+N  DAA VA+ Y +DAA+FP + ARVDGR  IQ  W+G MD G+++  L  ++V  S + AFE G +S   P          GKY+ VW+K  DGGW+LYR I N +PA"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gb|TKD17992.1|",
+                  "accession": "TKD17992",
+                  "title": "MAG: SgcJ/EcaC family oxidoreductase, partial [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 2.50206e-31,
+                  "identity": 56,
+                  "positive": 79,
+                  "query_from": 8,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "IEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "IEAALTKFTDAFNSGNAAAVGQMYTEDAAVLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKAVEVEESANLAYEVGAFTLDVPSKDGALSTVAGKYIVVWKKGGDGTWRLHRDIWNLGAAQ",
+                  "midline": "IEAAL  F  A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  ++V+ES + A+E G+ +L  P KD  L  +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "tpg|HKX09211.1|",
+                  "accession": "HKX09211",
+                  "title": "SgcJ/EcaC family oxidoreductase [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 1.18725e-30,
+                  "identity": 60,
+                  "positive": 82,
+                  "query_from": 4,
+                  "query_to": 129,
+                  "hit_from": 20,
+                  "hit_to": 144,
+                  "align_len": 126,
+                  "gaps": 1,
+                  "qseq": "AKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "ARQAIDKVNQAWLAAYAAHDSAKVASLYAPDASVFPPSMERANGREAIRKVWQGFMDAGATNVSLHTTDVDAHGSMAIESGDVALDVPGKDGKLGHWTGKYVVVWKQGK-GGWQLYRDIWNDNPAR",
+                  "midline": "A++AI+     ++ AY + D+A VAS Y  DA++FP  M R +GR+ I+K+WQG MD G +   L T DV   G  A ESG ++L  PGKD KL    GKYV VW++G+ GGW+LYR I N +PA+"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_352596050.1|",
+                  "accession": "WP_352596050",
+                  "title": "MULTISPECIES: YybH family protein [unclassified Mesorhizobium]",
+                  "taxid": 325217,
+                  "sciname": "unclassified Mesorhizobium"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.90523e-30,
+                  "identity": 57,
+                  "positive": 81,
+                  "query_from": 3,
+                  "query_to": 129,
+                  "hit_from": 25,
+                  "hit_to": 151,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "SAREDIEAALVKFMDAFNSGNAAAVGQMYTDDAALLPPDGKRIDDRKGVEEFWQGAIKAGMKNLTLKALEVEGSGNLAYEVGAFTLSVPSKGGAPSTVAGKYIVVWKKGDDGTWRLHRDIWNLGAAE",
+                  "midline": "SA+E IEAAL  F+ A+NS +AA V   Y DDAA+ P D  R+D R+ +++ WQG +  G+    L  L+V+ SG+ A+E G+ +L  P K      +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gb|TIP30215.1|",
+                  "accession": "TIP30215",
+                  "title": "MAG: SgcJ/EcaC family oxidoreductase [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 2.26198e-30,
+                  "identity": 58,
+                  "positive": 82,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 116,
+                  "hit_to": 240,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REDIEAALPKFMDAFNSGNAAAVGQLYTEDAALLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKALEVEESANLAYEVGAFALDVPSKDGALSTLAGKYIVVWKKGDDGTWRLHRDIWNLGAAQ",
+                  "midline": "+E IEAAL  F+ A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  L+V+ES + A+E G+ +L  P KD  L  +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gb|MDH3742192.1|",
+                  "accession": "MDH3742192",
+                  "title": "SgcJ/EcaC family oxidoreductase [Hyphomicrobiales bacterium]",
+                  "taxid": 1909294,
+                  "sciname": "Hyphomicrobiales bacterium"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 2.27746e-30,
+                  "identity": 55,
+                  "positive": 79,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "TVRDSIEATIKTLVECLNGGDAAGVAAHYTNDAALLPPDAARIDGREGIQGVWQGLIDAHVRDVAMTTQEVDVFGNVANEVGTITATAPSKGGGRAQLAGKYVAVWKCGAEGNWQLHRDIWNFD",
+                  "midline": "+ +++IEA +   V+  N  DAAGVA+ Y +DAA+ P D AR+DGR+ IQ +WQGL+D  V +  +TT +V   G+ A E G+I+   P K      +AGKYV VW+ G +G W+L+R I N D"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_352531706.1|",
+                  "accession": "WP_352531706",
+                  "title": "YybH family protein [Mesorhizobium sp. M0060]",
+                  "taxid": 2956866,
+                  "sciname": "Mesorhizobium sp. M0060"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 2.65375e-30,
+                  "identity": 56,
+                  "positive": 80,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 36,
+                  "hit_to": 160,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REDIEAALTKFTDAFNSGNAAAVGQMYTEDAAVLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKSLEVEERANLAYEVGAFTLDVPSKGGALSTVAGKYLVVWKKGDDGTWRLHRDIWNLGAAQ",
+                  "midline": "+E IEAAL  F  A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L +L+V+E  + A+E G+ +L  P K   L  +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_352678380.1|",
+                  "accession": "WP_352678380",
+                  "title": "YybH family protein [Mesorhizobium sp. M0184]",
+                  "taxid": 2956906,
+                  "sciname": "Mesorhizobium sp. M0184"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 6.86255e-30,
+                  "identity": 59,
+                  "positive": 81,
+                  "query_from": 3,
+                  "query_to": 129,
+                  "hit_from": 51,
+                  "hit_to": 177,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "SAREDIEAALVKFMDAFNSGNAAAVGQMYTDDAALLLPDGKRVDDRKGVEEFWQGAIKAGVKNLTLKALEVEGSGNLAYEVGAFTLGVPSKGGALSTVAGKYLVVWKKGDDGTWRLHRDIWNLGAAE",
+                  "midline": "SA+E IEAAL  F+ A+NS +AA V   Y DDAA+   D  RVD R+ +++ WQG +  GV    L  L+V+ SG+ A+E G+ +L  P K   L  +AGKY+ VW+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gb|MGH1478828.1|",
+                  "accession": "MGH1478828",
+                  "title": "YybH family protein [Geminicoccales bacterium]",
+                  "taxid": 3121800,
+                  "sciname": "Geminicoccales bacterium"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.775,
+                  "score": 286,
+                  "evalue": 9.71314e-30,
+                  "identity": 53,
+                  "positive": 78,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 3,
+                  "hit_to": 126,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "TVRDSIEVTIKIFLESLNGGDAAGVAAHYTDDAVLLPPNTPRIEGREGIQGVWQGLIDADVRNVALTTQEVDVFGDVANEVGTISATAPSEDGRRAPLTGKYVAVWKRGGDGTWRMRRDIWNFD",
+                  "midline": "+ +++IE  +  F+++ N  DAAGVA+ Y DDA + P +  R++GR+ IQ +WQGL+D  V    LTT +V   GD A E G+IS   P +D +   + GKYV VW++G DG W++ R I N D"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "dbj|GMQ76513.1|",
+                  "accession": "GMQ76513",
+                  "title": "MAG: hypothetical protein BMS9Abin01_1793 [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.39,
+                  "score": 285,
+                  "evalue": 1.07539e-29,
+                  "identity": 53,
+                  "positive": 82,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 2,
+                  "hit_to": 125,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "TARDSIESGLAAFCEAFNGGDAAGVAAQYTSDAQILPPGASRIDGRQGIQEFWQGFVDANVADLTLRSDEIEDFGSQAVEVGTVSASAPGEADARVQLAGKYVVLWTKDANGAWQIHRDIWNWD",
+                  "midline": "+A+++IE+ LA F +A+N  DAAGVA++Y  DA I P   +R+DGRQ IQ+ WQG +D  V++  L + ++++ G  A E G++S   PG+    V +AGKYV +W K  +G W+++R I N D"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|TIS55869.1|",
+                  "accession": "TIS55869",
+                  "title": "MAG: hypothetical protein E5W93_13875, partial [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 1.52537e-29,
+                  "identity": 55,
+                  "positive": 59,
+                  "query_from": 1,
+                  "query_to": 65,
+                  "hit_from": 22,
+                  "hit_to": 86,
+                  "align_len": 65,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSE",
+                  "hseq": "AQSAKEAIEAANAEFVKAYNSKDAAGVASKYAEDAAAFPPDMARVDGRQNIQKLWQGAIDMGISE",
+                  "midline": " QSAKEAIEAA A+FVKAYNSKDAAGVASKY +DAA FP DMARVDGRQNIQKLWQG +DMG+SE"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_214473586.1|",
+                  "accession": "WP_214473586",
+                  "title": "YybH family protein [Mesorhizobium sp. dw_380]",
+                  "taxid": 2812001,
+                  "sciname": "Mesorhizobium sp. dw_380"
+                }
+              ],
+              "len": 69,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.694,
+                  "score": 278,
+                  "evalue": 3.0285e-29,
+                  "identity": 53,
+                  "positive": 59,
+                  "query_from": 61,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 69,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "MGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "MGISQLALTTLEVQESGDFAYESGTFSLKAPGKDSKLVDAAGKYVVVWKKGQDGGWKLYRDIWNSDPGK",
+                  "midline": "MG+S+  LTTL+VQESGDFA+ESG+ SLK PGKDSKLVD AGKYV VW+KGQDGGWKLYR I N DP K"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "tpg|HKF71113.1|",
+                  "accession": "HKF71113",
+                  "title": "SgcJ/EcaC family oxidoreductase [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.694,
+                  "score": 278,
+                  "evalue": 3.02433e-28,
+                  "identity": 56,
+                  "positive": 77,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 31,
+                  "hit_to": 154,
+                  "align_len": 125,
+                  "gaps": 1,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "RTVVDRANQAWLAAYAAHDSGKVAMLYAPDAAVFPPGMERASGRDAIRKVWQGFMDAGVTNVTLHTIDVTANGGFAAETGEFALDVPGKDGKLAHVTGKYVVVWKHGKS-GWQLYRDIWNENPPR",
+                  "midline": "+  ++ A   ++ AY + D+  VA  Y  DAA+FP  M R  GR  I+K+WQG MD GV+   L T+DV  +G FA E+G  +L  PGKD KL  + GKYV VW+ G+  GW+LYR I N +P +"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gb|MEE8453686.1|",
+                  "accession": "MEE8453686",
+                  "title": "SgcJ/EcaC family oxidoreductase [Limibaculum sp.]",
+                  "taxid": 2036012,
+                  "sciname": "Limibaculum sp."
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 110.923,
+                  "score": 276,
+                  "evalue": 3.1227e-28,
+                  "identity": 55,
+                  "positive": 75,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 2,
+                  "hit_to": 125,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "TTRESIEAVGKTMCERLNAGNAAGVAQLYTEDAVLMPPGAARLDGRDAIQQYWQGLMDAGVGDISLATQEVEDAGDSAVEVGLISATAPGDGDARVSLTGKYIVVWRRDGGGNWRLHRDIWNFD",
+                  "midline": "+ +E+IEA      +  N+ +AAGVA  Y +DA + P   AR+DGR  IQ+ WQGLMD GV +  L T +V+++GD A E G IS   PG     V + GKY+ VWR+   G W+L+R I N D"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gb|RWK61173.1|",
+                  "accession": "RWK61173",
+                  "title": "MAG: DUF4440 domain-containing protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.694,
+                  "score": 278,
+                  "evalue": 5.34254e-28,
+                  "identity": 55,
+                  "positive": 79,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 58,
+                  "hit_to": 180,
+                  "align_len": 125,
+                  "gaps": 2,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REDIEAALTKFTDAFNSGNAVG--QLYTEDAAVLPPDGKRVDGRKAVEEFWQGAIKGGMKNLTLKALEVEESANLAYEVGAFTLDVPSKDGAVSAVAGKYIVVWKKGDDGTWRLHRDIWNFGAAQ",
+                  "midline": "+E IEAAL  F  A+NS +A G    Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  L+V+ES + A+E G+ +L  P KD  +  +AGKY+ VW+KG DG W+L+R I N   A+"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gb|MEE8455647.1|",
+                  "accession": "MEE8455647",
+                  "title": "SgcJ/EcaC family oxidoreductase [Limibaculum sp.]",
+                  "taxid": 2036012,
+                  "sciname": "Limibaculum sp."
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 110.153,
+                  "score": 274,
+                  "evalue": 1.2258e-27,
+                  "identity": 54,
+                  "positive": 78,
+                  "query_from": 8,
+                  "query_to": 128,
+                  "hit_from": 29,
+                  "hit_to": 149,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "IEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "IAATVTVFEAAFNSGDAAGLAAIYTEDAALLPPDMAQIDGREGIQALWQSFIDGGVSDIDLNTVELEVHGASASEVGTFTLTAPDGEGGRVTAGGKYIILWQLGEDGVWRLHRDIWNGTPA",
+                  "midline": "I A +  F  A+NS DAAG+A+ Y +DAA+ P DMA++DGR+ IQ LWQ  +D GVS+  L T++++  G  A E G+ +L  P  +   V   GKY+ +W+ G+DG W+L+R I N  PA"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|MDX2314305.1|",
+                  "accession": "MDX2314305",
+                  "title": "DUF4440 domain-containing protein [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.227,
+                  "score": 269,
+                  "evalue": 2.76033e-27,
+                  "identity": 52,
+                  "positive": 79,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 2,
+                  "hit_to": 125,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "TAKESIESASATFCESFNGGDAAGVAALYTSDAQIMPPGASRIDGRQAIQDFWQGFVDANVGDLILRSDEIEDFGNQAVDVGTVSASAPGEADSRVQLTGKYVVLWTQDANGAWQLHRDIWNWD",
+                  "midline": "+AKE+IE+A A F +++N  DAAGVA+ Y  DA I P   +R+DGRQ IQ  WQG +D  V +  L + ++++ G+ A + G++S   PG+    V + GKYV +W +  +G W+L+R I N D"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "tpg|HEV3175412.1|",
+                  "accession": "HEV3175412",
+                  "title": "DUF4440 domain-containing protein [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 108.227,
+                  "score": 269,
+                  "evalue": 7.26564e-27,
+                  "identity": 58,
+                  "positive": 81,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 32,
+                  "hit_to": 155,
+                  "align_len": 125,
+                  "gaps": 1,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REAVERGNRAFLAAYVAHDSGKIAALYAADAAAFPPGAERANGREAIRKVWQGFMDAGVTNVGIRTVEVEARGDLAYESGEFALDAPGKDGKLGHVIGKYVVVWKRGK-GGWQLYRDIWNETPPK",
+                  "midline": "+EA+E     F+ AY + D+  +A+ Y  DAA FP    R +GR+ I+K+WQG MD GV+   + T++V+  GD A+ESG  +L  PGKD KL  + GKYV VW++G+ GGW+LYR I N  P K"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_287158855.1|",
+                  "accession": "WP_287158855",
+                  "title": "YybH family protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 107.457,
+                  "score": 267,
+                  "evalue": 1.59626e-26,
+                  "identity": 50,
+                  "positive": 73,
+                  "query_from": 2,
+                  "query_to": 112,
+                  "hit_from": 24,
+                  "hit_to": 134,
+                  "align_len": 111,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQ",
+                  "hseq": "QSAREDIEAALTKFTDAFNSGNAAAVGQMYTEDAAVLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKAVEVEESANLAYEVGAFTLDVPSKNGALSTVAGKYIVVWKKGR",
+                  "midline": "QSA+E IEAAL  F  A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  ++V+ES + A+E G+ +L  P K+  L  +AGKY+ VW+KG+"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gb|NKB54500.1|",
+                  "accession": "NKB54500",
+                  "title": "SgcJ/EcaC family oxidoreductase [Rhizobiaceae bacterium]",
+                  "taxid": 1913961,
+                  "sciname": "Rhizobiaceae bacterium"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.916,
+                  "score": 263,
+                  "evalue": 3.66273e-26,
+                  "identity": 52,
+                  "positive": 72,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 18,
+                  "hit_to": 141,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "NVRERIEATIVMLVDSLNGGDAAGVAAHYTDDAALLPPDSGRIDGRDGIQNVWQRFIDAGIRDVSMITQEVDVFGDVANEVGTINATAPDENGGRAQIFGKYVAVWKCKDDDTWRLHRDIWNFD",
+                  "midline": "+ +E IEA +   V + N  DAAGVA+ Y DDAA+ P D  R+DGR  IQ +WQ  +D G+ +  + T +V   GD A E G+I+   P ++     I GKYV VW+   D  W+L+R I N D"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gb|MEE9586639.1|",
+                  "accession": "MEE9586639",
+                  "title": "SgcJ/EcaC family oxidoreductase [Hyphomicrobiaceae bacterium]",
+                  "taxid": 2015799,
+                  "sciname": "Hyphomicrobiaceae bacterium"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 104.375,
+                  "score": 259,
+                  "evalue": 1.61871e-25,
+                  "identity": 55,
+                  "positive": 76,
+                  "query_from": 3,
+                  "query_to": 129,
+                  "hit_from": 22,
+                  "hit_to": 147,
+                  "align_len": 127,
+                  "gaps": 1,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "SAKSDIDAALKVFAASFNKGDAAGVAALYTPNGSLFPPGAKRVDGRKNIEAFWKGAIDGGLKNLALQAVSVEEMGDTAVELGQFSLDAPGEGGAMTKAMGKYIVVWKK-EGGKWHLHYDIWNANPAK",
+                  "midline": "SAK  I+AAL  F  ++N  DAAGVA+ Y  + ++FP    RVDGR+NI+  W+G +D G+    L  + V+E GD A E G  SL  PG+   +    GKY+ VW+K + G W L+  I N +PAK"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gb|TIX41084.1|",
+                  "accession": "TIX41084",
+                  "title": "MAG: DUF4440 domain-containing protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.219,
+                  "score": 256,
+                  "evalue": 1.94454e-25,
+                  "identity": 48,
+                  "positive": 70,
+                  "query_from": 18,
+                  "query_to": 129,
+                  "hit_from": 3,
+                  "hit_to": 114,
+                  "align_len": 112,
+                  "gaps": 0,
+                  "qseq": "AYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AFNSGNAAAVGKMYTDDAALLPPDGKRIDGRKGVEEFWQGAIKAGMKNLTLKALEVDGSGNLAYEVGAFTLGVPSKSGDPSTVAGKYIVIWKKGDDGTWRLHRDIWNLGAAR",
+                  "midline": "A+NS +AA V   Y DDAA+ P D  R+DGR+ +++ WQG +  G+    L  L+V  SG+ A+E G+ +L  P K      +AGKY+ +W+KG DG W+L+R I NL  A+"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "tpg|HTS94638.1|",
+                  "accession": "HTS94638",
+                  "title": "DUF4440 domain-containing protein [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.99,
+                  "score": 258,
+                  "evalue": 2.72926e-25,
+                  "identity": 53,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 127,
+                  "hit_from": 27,
+                  "hit_to": 152,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDP",
+                  "hseq": "EKVRSAIDAGNRAFLEAYAKGDSAKVASLYATDAMVMPPGAPQAKGRAGIQKFWQGAMDAGIGNVTLKTIEVGSSGALAYEQGEFGLDVKGKDGKTAHVAGKYIVVWKRTAKGQWQLYRDIWNETP",
+                  "midline": "+  + AI+A    F++AY   D+A VAS Y  DA + P    +  GR  IQK WQG MD G+    L T++V  SG  A+E G   L   GKD K   +AGKY+ VW++   G W+LYR I N  P"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "ref|WP_376705186.1|",
+                  "accession": "WP_376705186",
+                  "title": "YybH family protein [Mesorhizobium sp. ISC25]",
+                  "taxid": 3077335,
+                  "sciname": "Mesorhizobium sp. ISC25"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.99,
+                  "score": 258,
+                  "evalue": 2.86205e-25,
+                  "identity": 50,
+                  "positive": 69,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 24,
+                  "hit_to": 136,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDG",
+                  "hseq": "QSARQDIEAALTKFTDAYNSGNTKAVGQMYTDDAALLPPDGKRVDGRKGVEEFWQGAIKAGMKNLTLKALEVEGSGNLAYEVGAFTLGVPSKGGALSTMAGKYIVVWKKATTG",
+                  "midline": "QSA++ IEAAL  F  AYNS +   V   Y DDAA+ P D  RVDGR+ +++ WQG +  G+    L  L+V+ SG+ A+E G+ +L  P K   L  +AGKY+ VW+K   G"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "tpg|HXA72551.1|",
+                  "accession": "HXA72551",
+                  "title": "DUF4440 domain-containing protein [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.99,
+                  "score": 258,
+                  "evalue": 2.97682e-25,
+                  "identity": 57,
+                  "positive": 81,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 30,
+                  "hit_to": 153,
+                  "align_len": 125,
+                  "gaps": 1,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REAVDRGDRAWLAAYAAHDSGKIAALYAPNAAAFPPGAARADGREAIRKVWQGYMDAGVTNVTLRTVEVEVRSDLAYESGEYALDAPGKDGKLGHSVGKYVVVWKRGK-GGWQLYRDIWNDTPAR",
+                  "midline": "+EA++     ++ AY + D+  +A+ Y  +AA FP   AR DGR+ I+K+WQG MD GV+   L T++V+   D A+ESG  +L  PGKD KL    GKYV VW++G+ GGW+LYR I N  PA+"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "tpg|HUN47442.1|",
+                  "accession": "HUN47442",
+                  "title": "SgcJ/EcaC family oxidoreductase [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 154,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.605,
+                  "score": 257,
+                  "evalue": 5.09369e-25,
+                  "identity": 58,
+                  "positive": 77,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 31,
+                  "hit_to": 154,
+                  "align_len": 125,
+                  "gaps": 1,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REAVERANHAFIAAYAAHDSAKIAALYAPDAAAFPPGAERAQGRDAIRKVWQGFMDAGVANVTVKTIDVVSSGTLASETGEFTLDAPGKDGKAVHVTGKYVVVWKR-NGGVWQLYRDIWNDTPAR",
+                  "midline": "+EA+E A   F+ AY + D+A +A+ Y  DAA FP    R  GR  I+K+WQG MD GV+   + T+DV  SG  A E+G  +L  PGKD K V + GKYV VW++   G W+LYR I N  PA+"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "tpg|HVM77765.1|",
+                  "accession": "HVM77765",
+                  "title": "DUF4440 domain-containing protein [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.834,
+                  "score": 255,
+                  "evalue": 1.02563e-24,
+                  "identity": 54,
+                  "positive": 67,
+                  "query_from": 5,
+                  "query_to": 127,
+                  "hit_from": 30,
+                  "hit_to": 152,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDP",
+                  "hseq": "RAAIDTGNRTFLEAYAKGDAATVASVYATDAVVMPPGAPPAKGRAAIQKFWQGAMDSGVGNVSLHTVQVGSSGTLAYEQGEFALDVRGKDGKTKHVAGKYIVVWKRTPQGQWQLYRDIWNESP",
+                  "midline": "+ AI+     F++AY   DAA VAS Y  DA + P       GR  IQK WQG MD GV    L T+ V  SG  A+E G  +L   GKD K   +AGKY+ VW++   G W+LYR I N  P"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_135505903.1|",
+                  "accession": "WP_135505903",
+                  "title": "YybH family protein [Roseovarius aestuariivivens]",
+                  "taxid": 1888910,
+                  "sciname": "Roseovarius aestuariivivens"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 101.679,
+                  "score": 252,
+                  "evalue": 1.92474e-24,
+                  "identity": 52,
+                  "positive": 72,
+                  "query_from": 8,
+                  "query_to": 127,
+                  "hit_from": 28,
+                  "hit_to": 147,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "IEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDP",
+                  "hseq": "IAARSATFEAAFNSGDAAGVAAHYTEDAVILAPDTDRIDGREAIAGLWQAFIDAGVVDLDLVTTEIEAMGETANEIGAYTLKAPDGNGGMVEAAGKYIVIWRRGADDQWYLDWDIWNSNP",
+                  "midline": "I A  A F  A+NS DAAGVA+ Y +DA I   D  R+DGR+ I  LWQ  +D GV +  L T +++  G+ A E G+ +LK P  +  +V+ AGKY+ +WR+G D  W L   I N +P"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gb|MCI0693058.1|",
+                  "accession": "MCI0693058",
+                  "title": "SgcJ/EcaC family oxidoreductase [Candidatus Zhuqueibacterota bacterium]",
+                  "taxid": 2172550,
+                  "sciname": "Candidatus Zhuqueibacterota bacterium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 2.08222e-24,
+                  "identity": 56,
+                  "positive": 77,
+                  "query_from": 3,
+                  "query_to": 124,
+                  "hit_from": 31,
+                  "hit_to": 152,
+                  "align_len": 123,
+                  "gaps": 2,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLK-GPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "AVRKAIEAGNAKWVEAFNRGDAAGVAALYTDNAALLPPNSEMIQGRQGIQNFWNGGFQMGLKDAALTTVDVGGNGDTAFEIGKYTLKIQPAGQEGMSD-SGKYVVVWKRQVDGTWKLHADIWN",
+                  "midline": "+ ++AIEA  A +V+A+N  DAAGVA+ Y D+AA+ P +   + GRQ IQ  W G   MG+ +  LTT+DV  +GD AFE G  +LK  P     + D +GKYV VW++  DG WKL+  I N"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "gb|MFQ5771774.1|",
+                  "accession": "MFQ5771774",
+                  "title": "YybH family protein [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 2.49334e-24,
+                  "identity": 52,
+                  "positive": 70,
+                  "query_from": 5,
+                  "query_to": 124,
+                  "hit_from": 34,
+                  "hit_to": 153,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "QQAIEDANAKFAEAFNSGDAAAVAALYTDDATLLPPNSTMIQGNEGVQNFWNGAMAMGIKDVALTTVDVSGGGDLAYEIGKYSLTIQAEGQAAIKDEGKYVVVWKKTTEGGWKLQADIWN",
+                  "midline": "++AIE A A F +A+NS DAA VA+ Y DDA + P +   + G + +Q  W G M MG+ +  LTT+DV   GD A+E G  SL    +    +   GKYV VW+K  +GGWKL   I N"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_213889067.1|",
+                  "accession": "WP_213889067",
+                  "title": "MULTISPECIES: YybH family protein [Pseudohalocynthiibacter]",
+                  "taxid": 1759417,
+                  "sciname": "Pseudohalocynthiibacter"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.908,
+                  "score": 250,
+                  "evalue": 4.73798e-24,
+                  "identity": 53,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 127,
+                  "hit_from": 26,
+                  "hit_to": 147,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "EAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDP",
+                  "hseq": "EDIAARVETFEAAFNSGDAAAVASHYTTDSALLAPDTARIDGREAIQGLWQAYVDAGVVDLKLTTVDLDDLGGIANEIGTYTLTAPDGNGGMVQAGGKYIVVWKADDSGVWHLHWDIWNSTP",
+                  "midline": "E I A +  F  A+NS DAA VAS Y  D+A+   D AR+DGR+ IQ LWQ  +D GV + KLTT+D+ + G  A E G+ +L  P  +  +V   GKY+ VW+    G W L+  I N  P"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gb|MGH6921160.1|",
+                  "accession": "MGH6921160",
+                  "title": "YybH family protein [Geminicoccaceae bacterium]",
+                  "taxid": 2448052,
+                  "sciname": "Geminicoccaceae bacterium"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.523,
+                  "score": 249,
+                  "evalue": 5.13944e-24,
+                  "identity": 51,
+                  "positive": 74,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 25,
+                  "hit_to": 148,
+                  "align_len": 125,
+                  "gaps": 1,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "REAIEQVNAQFVEAFKAGDAATIASLYTDTAKLLPPDATEVAGHDAIQNLWQSWIDDGLKDLTLEAMEVESSGDLAYEIGQFSLQAPAENNAMATATGNYVVVWKR-EDGNWRLHVDTWNDAPAK",
+                  "midline": "+EAIE   A FV+A+ + DAA +AS Y D A + P D   V G   IQ LWQ  +D G+ +  L  ++V+ SGD A+E G  SL+ P +++ +    G YV VW++ +DG W+L+    N  PAK"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|MEE8110226.1|",
+                  "accession": "MEE8110226",
+                  "title": "DUF4440 domain-containing protein [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.523,
+                  "score": 249,
+                  "evalue": 6.94062e-24,
+                  "identity": 53,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 124,
+                  "hit_from": 31,
+                  "hit_to": 150,
+                  "align_len": 124,
+                  "gaps": 4,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "GRNLRAAVEAGVKQFMAAFNRADAAGLAAMYTANAQVFPPNSDIVTGREAIQKLWQGVMDSGIKGLTIATLEVQGSGDMGYEVGKYTLMGEG--GKVLD-TGKYFIIFKR-ENGQWKLHRDIWN",
+                  "midline": "G++ + A+EA +  F+ A+N  DAAG+A+ Y  +A +FP +   V GR+ IQKLWQG+MD G+    + TL+VQ SGD  +E G  +L G G   K++D  GKY  ++++ ++G WKL+R I N"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|NIR48358.1|",
+                  "accession": "NIR48358",
+                  "title": "SgcJ/EcaC family oxidoreductase [Candidatus Zhuqueibacterota bacterium]",
+                  "taxid": 2172550,
+                  "sciname": "Candidatus Zhuqueibacterota bacterium"
+                }
+              ],
+              "len": 135,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.7525,
+                  "score": 247,
+                  "evalue": 7.96114e-24,
+                  "identity": 53,
+                  "positive": 74,
+                  "query_from": 3,
+                  "query_to": 124,
+                  "hit_from": 5,
+                  "hit_to": 126,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "AVREAIEAEDAKFVEAFNQGDAAGVAALYTDDATLLPPNSEMIQGKQGVQEFWNEGFQMGLKEVSLTTVDVGGSGDTAYEIGKYRIKIQPTGQEGMSDSGKYVVVWKQQADGTWKLHVDIWN",
+                  "midline": "+ +EAIEA  A FV+A+N  DAAGVA+ Y DDA + P +   + G+Q +Q+ W     MG+ E  LTT+DV  SGD A+E G   +K      + +  +GKYV VW++  DG WKL+  I N"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gb|MCH6583343.1|",
+                  "accession": "MCH6583343",
+                  "title": "DUF4440 domain-containing protein [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.138,
+                  "score": 248,
+                  "evalue": 8.98469e-24,
+                  "identity": 54,
+                  "positive": 72,
+                  "query_from": 5,
+                  "query_to": 128,
+                  "hit_from": 26,
+                  "hit_to": 147,
+                  "align_len": 124,
+                  "gaps": 2,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "REHIDETLVRFVSAFNEGDAATVASFYTEDAALLPPDAQPVNGRDAIQAFWQGAIDAGMKIGMLRATEVDARGDLAYEVGGFKLLVPG-ESGTTEVVGKYIVVWKRG-DHTWRLHRDIWNTTPA",
+                  "midline": "+E I+  L  FV A+N  DAA VAS Y +DAA+ P D   V+GR  IQ  WQG +D G+    L   +V   GD A+E G   L  PG +S   ++ GKY+ VW++G D  W+L+R I N  PA"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|MFN2453055.1|",
+                  "accession": "MFN2453055",
+                  "title": "SgcJ/EcaC family oxidoreductase [Pyrinomonadaceae bacterium]",
+                  "taxid": 2283092,
+                  "sciname": "Pyrinomonadaceae bacterium"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.5969,
+                  "score": 244,
+                  "evalue": 1.80263e-23,
+                  "identity": 51,
+                  "positive": 74,
+                  "query_from": 5,
+                  "query_to": 126,
+                  "hit_from": 5,
+                  "hit_to": 125,
+                  "align_len": 122,
+                  "gaps": 1,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "REAITSANQNFMDAFKRGDAAGIAALYTDEATLLPPDNPMMSGREAIQSFWQGAMNMGIKEAKLETVEVEVEGNLASEVGSFALTVRPESGEGTTLTGKYVVVW-KNQGGTWKLHVDIWNTN",
+                  "midline": "+EAI +A  +F+ A+   DAAG+A+ Y D+A + P D   + GR+ IQ  WQG M+MG+ E KL T++V+  G+ A E GS +L    +  +   + GKYV VW K Q G WKL+  I N +"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|MFQ5823866.1|",
+                  "accession": "MFQ5823866",
+                  "title": "YybH family protein [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 2.22912e-23,
+                  "identity": 47,
+                  "positive": 73,
+                  "query_from": 5,
+                  "query_to": 124,
+                  "hit_from": 35,
+                  "hit_to": 154,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "RKAIEETNAKFVEAFNQGDAAAVVALYTEDASILPPNNEMIQGREGVQQFWNGAMQMGIKNVALTTVDLNGSGNLVYEIGRYSLTIQPEGQEVMKDSGKYIVVWKHQEDGTWKLHTDIWN",
+                  "midline": "++AIE   A FV+A+N  DAA V + Y +DA+I P +   + GR+ +Q+ W G M MG+    LTT+D+  SG+  +E G  SL    +  +++  +GKY+ VW+  +DG WKL+  I N"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gb|MGI9387473.1|",
+                  "accession": "MGI9387473",
+                  "title": "YybH family protein [Methyloligellaceae bacterium]",
+                  "taxid": 3121867,
+                  "sciname": "Methyloligellaceae bacterium"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.4413,
+                  "score": 241,
+                  "evalue": 2.31867e-23,
+                  "identity": 48,
+                  "positive": 61,
+                  "query_from": 31,
+                  "query_to": 126,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "YMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "YTDDAALLPPDSARIDGREGIQGAWQALIDADVRDVVLTTQEVDVFGDIANEVGTIRATAPGENGGRVQWAGKYVSVWKRGGDGTWRLHRDIWNFD",
+                  "midline": "Y DDAA+ P D AR+DGR+ IQ  WQ L+D  V +  LTT +V   GD A E G+I    PG++   V  AGKYV VW++G DG W+L+R I N D"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gb|TGZ36908.1|",
+                  "accession": "TGZ36908",
+                  "title": "hypothetical protein EN805_34935, partial [bacterium M00.F.Ca.ET.162.01.1.1]",
+                  "taxid": 2563905,
+                  "sciname": "bacterium M00.F.Ca.ET.162.01.1.1"
+                }
+              ],
+              "len": 80,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 3.72151e-23,
+                  "identity": 48,
+                  "positive": 50,
+                  "query_from": 1,
+                  "query_to": 59,
+                  "hit_from": 22,
+                  "hit_to": 80,
+                  "align_len": 59,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLM",
+                  "hseq": "AQSAKEAIEAANAEFVKAYNSNDAARVASNYADDAAAFPPDMARVDGRQNIQKLWQGAI",
+                  "midline": " QSAKEAIEAA A+FVKAYNS DAA VAS Y DDAA FP DMARVDGRQNIQKLWQG +"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|WP_263335879.1|",
+                  "accession": "WP_263335879",
+                  "title": "MULTISPECIES: YybH family protein [Albidovulum]",
+                  "taxid": 205889,
+                  "sciname": "Albidovulum"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.2117,
+                  "score": 243,
+                  "evalue": 4.4723e-23,
+                  "identity": 47,
+                  "positive": 71,
+                  "query_from": 13,
+                  "query_to": 128,
+                  "hit_from": 33,
+                  "hit_to": 148,
+                  "align_len": 116,
+                  "gaps": 0,
+                  "qseq": "ADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "AAFEAAFNGGDAAGVAALYSADAVLMPPDMAMVNGREGAEALWAGFIEAGATDLDLTTVTLDLAGDMANEIGTFTLSVPDGNGGMQSVAGKYIVIWKRDEAGAWNLHWDIWNADPA",
+                  "midline": "A F  A+N  DAAGVA+ Y  DA + P DMA V+GR+  + LW G ++ G ++  LTT+ +  +GD A E G+ +L  P  +  +  +AGKY+ +W++ + G W L+  I N DPA"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "gb|MCK5361357.1|",
+                  "accession": "MCK5361357",
+                  "title": "DUF4440 domain-containing protein [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.4413,
+                  "score": 241,
+                  "evalue": 5.00271e-23,
+                  "identity": 45,
+                  "positive": 73,
+                  "query_from": 7,
+                  "query_to": 126,
+                  "hit_from": 6,
+                  "hit_to": 125,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "AIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "SIESGSRAFCDAFNGGNAAGVAEQYTADARILPPGASTIDGRQGIQEFWQGFIDAKVGDLTLRSDEIEDFGSQALEIGTLTASAPGEAGARVQLAGKYIVLWKQDANGAWRMHRDIWNWD",
+                  "midline": "+IE+    F  A+N  +AAGVA +Y  DA I P   + +DGRQ IQ+ WQG +D  V +  L + ++++ G  A E G+++   PG+    V +AGKY+ +W++  +G W+++R I N D"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gb|MFN2502293.1|",
+                  "accession": "MFN2502293",
+                  "title": "SgcJ/EcaC family oxidoreductase [Pyrinomonadaceae bacterium]",
+                  "taxid": 2283092,
+                  "sciname": "Pyrinomonadaceae bacterium"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.0561,
+                  "score": 240,
+                  "evalue": 7.53667e-23,
+                  "identity": 50,
+                  "positive": 73,
+                  "query_from": 5,
+                  "query_to": 126,
+                  "hit_from": 5,
+                  "hit_to": 119,
+                  "align_len": 122,
+                  "gaps": 7,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "RDSISAANDRFMQAFQAQDAAGIAALYTNDATLLPPGSTMITGKEAIHAFWQSVMDMGIREAKLSITDVQSSGPLAYEVSRFELSGSD-----VALSGKYVVVWKN--DGGWKLHVDIWNTD",
+                  "midline": "+++I AA   F++A+ ++DAAG+A+ Y +DA + P     + G++ I   WQ +MDMG+ E KL+  DVQ SG  A+E     L G       V ++GKYV VW+   DGGWKL+  I N D"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gb|MFQ5946580.1|",
+                  "accession": "MFQ5946580",
+                  "title": "YybH family protein [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.0561,
+                  "score": 240,
+                  "evalue": 1.42066e-22,
+                  "identity": 50,
+                  "positive": 73,
+                  "query_from": 2,
+                  "query_to": 124,
+                  "hit_from": 25,
+                  "hit_to": 147,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "EDVRQAIEAASTEFAEAFNRGDAAAVAALYTEDAKVLPPNSEMVDGKQAIQEFWSGAMEMGIRDFALKTVDVGFNDDLAYEMGTYTLNIQPEGGQATTDTGKYVVVWTRQGDGSWKLAVDIWN",
+                  "midline": "+  ++AIEAA  +F +A+N  DAA VA+ Y +DA + P +   VDG+Q IQ+ W G M+MG+ +  L T+DV  + D A+E G+ +L    +  +     GKYV VW +  DG WKL   I N"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "tpg|HMC76434.1|",
+                  "accession": "HMC76434",
+                  "title": "DUF4440 domain-containing protein [Vicinamibacterales bacterium]",
+                  "taxid": 2910147,
+                  "sciname": "Vicinamibacterales bacterium"
+                }
+              ],
+              "len": 153,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.6709,
+                  "score": 239,
+                  "evalue": 2.41899e-22,
+                  "identity": 58,
+                  "positive": 74,
+                  "query_from": 2,
+                  "query_to": 124,
+                  "hit_from": 23,
+                  "hit_to": 141,
+                  "align_len": 123,
+                  "gaps": 4,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "QDTRAAIEAANKGFIAAYAKQDAAGVAGFYSTTAEAFPPGADVVKGRDAIQKMWQGVMDSGIAAGELKTTEVHAEGNFAYEVGTYVMK--LKDGKVAD-RGKYVVVWLK-EGGQWKLHRDIWN",
+                  "midline": "Q  + AIEAA   F+ AY  +DAAGVA  Y   A  FP     V GR  IQK+WQG+MD G++  +L T +V   G+FA+E G+  +K   KD K+ D  GKYV VW K + G WKL+R I N"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "tpg|HSA80848.1|",
+                  "accession": "HSA80848",
+                  "title": "SgcJ/EcaC family oxidoreductase [Geminicoccaceae bacterium]",
+                  "taxid": 2448052,
+                  "sciname": "Geminicoccaceae bacterium"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 2.57612e-22,
+                  "identity": 49,
+                  "positive": 77,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 21,
+                  "hit_to": 148,
+                  "align_len": 129,
+                  "gaps": 1,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "AQDARQAIEQVNARFVEAFKAGDAATIASLYTETAKVLPPDATEVAGREAIQNLWQSWIDDGLKDLTLEAVEVEASGDFAYEIGLFTIQVPAENNAMATAGGNYVVVWKRDA-GDWRLHVDTWNDAPAQ",
+                  "midline": " Q A++AIE   A FV+A+ + DAA +AS Y + A + P D   V GR+ IQ LWQ  +D G+ +  L  ++V+ SGDFA+E G  +++ P +++ +    G YV VW++   G W+L+    N  PA+"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gb|MCA1625447.1|",
+                  "accession": "MCA1625447",
+                  "title": "SgcJ/EcaC family oxidoreductase [Acidobacteriota bacterium]",
+                  "taxid": 1978231,
+                  "sciname": "Acidobacteriota bacterium"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.7449,
+                  "score": 234,
+                  "evalue": 6.25777e-22,
+                  "identity": 47,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 128,
+                  "hit_from": 2,
+                  "hit_to": 127,
+                  "align_len": 127,
+                  "gaps": 1,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "ENVRNLIASANQNFMHAFSQADAAGLAALYTEDAKVLPPGSSMMAGKEAIQSFLQGAIDMGIKEAKLETIEVESQGNLAYEIGRFAFSGEQQSGESILMTGKYVVVW-KNQDGTWKLHVDIWNADAS",
+                  "midline": "++ +  I +A  +F+ A++  DAAG+A+ Y +DA + P   + + G++ IQ   QG +DMG+ E KL T++V+  G+ A+E G  +  G  +  + + + GKYV VW K QDG WKL+  I N D +"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_282370629.1|",
+                  "accession": "WP_282370629",
+                  "title": "YybH family protein [Albidovulum aestuarii]",
+                  "taxid": 1130726,
+                  "sciname": "Albidovulum aestuarii"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.5153,
+                  "score": 236,
+                  "evalue": 6.33166e-22,
+                  "identity": 51,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 128,
+                  "hit_from": 20,
+                  "hit_to": 147,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "GQSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "GLADEAAIAERVASFEAAFNARDAAGVAAHYSADAVIMPPDIATIHGRDGAEALWTGFIDAGATDLDLTTVMLEVSGDHAHEMGTFSINVPDGNGGTMTAMGKYVIIWTQDDAGIWHLNWDIWNNDPA",
+                  "midline": "G + + AI   +A F  A+N++DAAGVA+ Y  DA I P D+A + GR   + LW G +D G ++  LTT+ ++ SGD A E G+ S+  P  +   +   GKYV +W +   G W L   I N DPA"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gb|MGB0748116.1|",
+                  "accession": "MGB0748116",
+                  "title": "YybH family protein [Magnetospiraceae bacterium]",
+                  "taxid": 3107469,
+                  "sciname": "Magnetospiraceae bacterium"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.7449,
+                  "score": 234,
+                  "evalue": 6.35922e-22,
+                  "identity": 47,
+                  "positive": 71,
+                  "query_from": 3,
+                  "query_to": 126,
+                  "hit_from": 2,
+                  "hit_to": 125,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "TVRDAVQAGDQKMVDAINDGNAAAIAPLYTLDAAILPPGTPRQDGREAIQAYWQGAIDMGLTVDSLTSHEVDQAGDLAIAIGVFNGSVPDGSGGRAPVAGKFIVIWRQDADGAWRLHRDIWNMD",
+                  "midline": "+ ++A++A     V A N  +AA +A  Y  DAAI P    R DGR+ IQ  WQG +DMG++   LT+ +V ++GD A   G  +   P        +AGK++ +WR+  DG W+L+R I N+D"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gb|MCP4431448.1|",
+                  "accession": "MCP4431448",
+                  "title": "DUF4440 domain-containing protein [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.7449,
+                  "score": 234,
+                  "evalue": 9.22849e-22,
+                  "identity": 51,
+                  "positive": 70,
+                  "query_from": 8,
+                  "query_to": 124,
+                  "hit_from": 27,
+                  "hit_to": 141,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "IEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "IDETMVKFVAAFNAGDGATVASFYSEDAALFPPGAERIDGRSAIQTFWQGGIDSGMKIDKLHSVEVDSGGDFAGEVGVFVLSVPG-DSGVTKVAGKYIVTWKRSGH-TWQLHRDIWN",
+                  "midline": "I+  +  FV A+N+ D A VAS Y +DAA+FP    R+DGR  IQ  WQG +D G+   KL +++V   GDFA E G   L  PG DS +  +AGKY+  W++     W+L+R I N"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|MEX1146847.1|",
+                  "accession": "MEX1146847",
+                  "title": "DUF4440 domain-containing protein [Sphingomonadales bacterium]",
+                  "taxid": 1978525,
+                  "sciname": "Sphingomonadales bacterium"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.7449,
+                  "score": 234,
+                  "evalue": 1.06248e-21,
+                  "identity": 52,
+                  "positive": 73,
+                  "query_from": 5,
+                  "query_to": 126,
+                  "hit_from": 24,
+                  "hit_to": 143,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "RQHIDEILIRFVAAFNAGDGATVAGFYAEDAALLPPDGARVDGRASIQAFWQGAIDSGMKIDELHAIEVDARQDLAGEVGVFTLSVPG-ESGVTKVAGKYVVIWKR-TGHTWQLYRDIWNTD",
+                  "midline": "++ I+  L  FV A+N+ D A VA  Y +DAA+ P D ARVDGR +IQ  WQG +D G+   +L  ++V    D A E G  +L  PG +S +  +AGKYV +W++     W+LYR I N D"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gb|OGQ11936.1|",
+                  "accession": "OGQ11936",
+                  "title": "MAG: hypothetical protein A2026_07665 [Deltaproteobacteria bacterium RBG_19FT_COMBO_46_12]",
+                  "taxid": 1797850,
+                  "sciname": "Deltaproteobacteria bacterium RBG_19FT_COMBO_46_12"
+                }
+              ],
+              "len": 133,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 1.0772e-21,
+                  "identity": 49,
+                  "positive": 70,
+                  "query_from": 5,
+                  "query_to": 128,
+                  "hit_from": 5,
+                  "hit_to": 128,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "RQAIEEENAKFGEAVRQADGAAIAGLYTEDATLLPPDSDLIKGRGGIEAFWKGGLQMGIKEAVLTTVDLSGGGDLAYEIGKFALKIQPEGQEPIEQKGKYVVVWKKAPDAGWKLHVDIWNSGPA",
+                  "midline": "++AIE   A F +A    D A +A  Y +DA + P D   + GR  I+  W+G + MG+ E  LTT+D+   GD A+E G  +LK   +  + ++  GKYV VW+K  D GWKL+  I N  PA"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gb|PYS96529.1|",
+                  "accession": "PYS96529",
+                  "title": "MAG: DUF4440 domain-containing protein, partial [Acidobacteriota bacterium]",
+                  "taxid": 1978231,
+                  "sciname": "Acidobacteriota bacterium"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.9745,
+                  "score": 232,
+                  "evalue": 1.42074e-21,
+                  "identity": 50,
+                  "positive": 71,
+                  "query_from": 4,
+                  "query_to": 126,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 123,
+                  "gaps": 1,
+                  "qseq": "AKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "ARAAIEAANRKFIEAFNRGDAAAVAALYVDDAKLLPPNSQMLEGRRNVQTFWQGVINAGVKADNLETLQVEAGGDIAAEVGRYALTARPAGGQAATDNGKYVVVWKR-QRGAWKIAVDTWNTD",
+                  "midline": "A+ AIEAA   F++A+N  DAA VA+ Y+DDA + P +   ++GR+N+Q  WQG+++ GV    L TL V+  GD A E G  +L       +     GKYV VW++ Q G WK+     N D"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gb|MCJ7486259.1|",
+                  "accession": "MCJ7486259",
+                  "title": "SgcJ/EcaC family oxidoreductase [Candidatus Aminicenantes bacterium]",
+                  "taxid": 2052149,
+                  "sciname": "Candidatus Aminicenantes bacterium"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.9745,
+                  "score": 232,
+                  "evalue": 1.48337e-21,
+                  "identity": 48,
+                  "positive": 70,
+                  "query_from": 5,
+                  "query_to": 127,
+                  "hit_from": 7,
+                  "hit_to": 129,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDP",
+                  "hseq": "RKAIEEGNVKFGNAVRKGDGAAIAALYTEDATLLPPDSDMVKGRAGIEAFWKGGLHMGIKEAVLTTVDVSAAGDLAYEIGTFALKIQPEGKGVMESKGKYVVVWKKGPDAAWRLHVDIWNSGP",
+                  "midline": "++AIE     F  A    D A +A+ Y +DA + P D   V GR  I+  W+G + MG+ E  LTT+DV  +GD A+E G+ +LK   +   +++  GKYV VW+KG D  W+L+  I N  P"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gb|MEM7120174.1|",
+                  "accession": "MEM7120174",
+                  "title": "SgcJ/EcaC family oxidoreductase [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 1.83519e-21,
+                  "identity": 52,
+                  "positive": 79,
+                  "query_from": 5,
+                  "query_to": 129,
+                  "hit_from": 27,
+                  "hit_to": 151,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPAK",
+                  "hseq": "EDEIRAASIQFQESFAAADAASVASYYTTDAALLPAGGPRVEGRQAIQDYWQAAMDAGIADLQLNTLEIEDDDDLAYESGTYSLSTPMEDGTLGTVTGHYLVVWEEGDDDLWRMHRDIWNIDAAQ",
+                  "midline": "++ I AA   F +++ + DAA VAS Y  DAA+ P    RV+GRQ IQ  WQ  MD G+++ +L TL++++  D A+ESG+ SL  P +D  L  + G Y+ VW +G D  W+++R I N+D A+"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gb|KJS44351.1|",
+                  "accession": "KJS44351",
+                  "title": "MAG: hypothetical protein VR71_06765 [Roseovarius sp. BRH_c41]",
+                  "taxid": 1629709,
+                  "sciname": "Roseovarius sp. BRH_c41"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 2.04377e-21,
+                  "identity": 49,
+                  "positive": 75,
+                  "query_from": 3,
+                  "query_to": 125,
+                  "hit_from": 4,
+                  "hit_to": 125,
+                  "align_len": 123,
+                  "gaps": 1,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANL",
+                  "hseq": "SVTDAIEARSLEFEAAFNAGDSAAVATLYAPDAAILPPGVTRIDGREKIAAFWAGAIESGLADLDLIAAEVIATGDSALDVGTLTLSAPGENGERVVVAAKYVVHWIQ-IDGIWHLHRDIWNL",
+                  "midline": "S  +AIEA   +F  A+N+ D+A VA+ Y  DAAI P  + R+DGR+ I   W G ++ G+++  L   +V  +GD A + G+++L  PG++ + V +A KYV  W +  DG W L+R I NL"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_287064706.1|",
+                  "accession": "WP_287064706",
+                  "title": "YybH family protein [Mesorhizobium sp.]",
+                  "taxid": 1871066,
+                  "sciname": "Mesorhizobium sp."
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 2.06619e-21,
+                  "identity": 45,
+                  "positive": 64,
+                  "query_from": 5,
+                  "query_to": 107,
+                  "hit_from": 27,
+                  "hit_to": 129,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEV",
+                  "hseq": "REDIEAALPKFTDAFNSGNAAAVGQLYTEDAALLPPDGKRVDGRKGVEEFWQGAIKGGMKNLTLKALEVEESANLAYEVGAFTLDAPSKDGALSTLVGKYIVV",
+                  "midline": "+E IEAAL  F  A+NS +AA V   Y +DAA+ P D  RVDGR+ +++ WQG +  G+    L  L+V+ES + A+E G+ +L  P KD  L  + GKY+ V"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_172886570.1|",
+                  "accession": "WP_172886570",
+                  "title": "YybH family protein [Hongsoonwoonella zoysiae]",
+                  "taxid": 2821844,
+                  "sciname": "Hongsoonwoonella zoysiae"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.8189,
+                  "score": 229,
+                  "evalue": 2.90555e-21,
+                  "identity": 51,
+                  "positive": 70,
+                  "query_from": 14,
+                  "query_to": 126,
+                  "hit_from": 13,
+                  "hit_to": 119,
+                  "align_len": 113,
+                  "gaps": 6,
+                  "qseq": "DFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLD",
+                  "hseq": "EFTTALNSKNAGGVAALYTSDCAVMAPGAPRVDGRSGVQEVWQAAIDAGLANVALNTVEVQDFGDTATEVGTLS--GSLGDTEL---QGKYVVIWRK-TDEGWKLHRDIWNFD",
+                  "midline": "+F  A NSK+A GVA+ Y  D A+      RVDGR  +Q++WQ  +D G++   L T++VQ+ GD A E G++S  G   D++L    GKYV +WRK  D GWKL+R I N D"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_296429993.1|",
+                  "accession": "WP_296429993",
+                  "title": "YybH family protein [Roseovarius sp. BRH_c41]",
+                  "taxid": 1629709,
+                  "sciname": "Roseovarius sp. BRH_c41"
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 3.36668e-21,
+                  "identity": 49,
+                  "positive": 75,
+                  "query_from": 3,
+                  "query_to": 125,
+                  "hit_from": 21,
+                  "hit_to": 142,
+                  "align_len": 123,
+                  "gaps": 1,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANL",
+                  "hseq": "SVTDAIEARSLEFEAAFNAGDSAAVATLYAPDAAILPPGVTRIDGREKIAAFWAGAIESGLADLDLIAAEVIATGDSALDVGTLTLSAPGENGERVVVAAKYVVHWIQ-IDGIWHLHRDIWNL",
+                  "midline": "S  +AIEA   +F  A+N+ D+A VA+ Y  DAAI P  + R+DGR+ I   W G ++ G+++  L   +V  +GD A + G+++L  PG++ + V +A KYV  W +  DG W L+R I NL"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "tpg|HUK09359.1|",
+                  "accession": "HUK09359",
+                  "title": "DUF4440 domain-containing protein [Stellaceae bacterium]",
+                  "taxid": 2910174,
+                  "sciname": "Stellaceae bacterium"
+                }
+              ],
+              "len": 152,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 3.56683e-21,
+                  "identity": 57,
+                  "positive": 76,
+                  "query_from": 3,
+                  "query_to": 128,
+                  "hit_from": 27,
+                  "hit_to": 151,
+                  "align_len": 126,
+                  "gaps": 1,
+                  "qseq": "SAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "SVADAIARANQAWLAAYSAHDSAKLAALYASDAAALPPGADMASGRAAIQKFWQGAMDAGLTNVMLHTLDVTSSGNLASETGQFSLDAPGKDGKLTTVSGKYVVVWKRVK-GTWQLFRDIWNETPA",
+                  "midline": "S  +AI  A   ++ AY++ D+A +A+ Y  DAA  P       GR  IQK WQG MD G++   L TLDV  SG+ A E+G  SL  PGKD KL  ++GKYV VW++ + G W+L+R I N  PA"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gb|OGD28016.1|",
+                  "accession": "OGD28016",
+                  "title": "MAG: hypothetical protein A2028_02210 [Candidatus Aminicenantes bacterium RBG_19FT_COMBO_59_29]",
+                  "taxid": 1797276,
+                  "sciname": "Candidatus Aminicenantes bacterium RBG_19FT_COMBO_59_29"
+                }
+              ],
+              "len": 135,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 3.66839e-21,
+                  "identity": 49,
+                  "positive": 72,
+                  "query_from": 5,
+                  "query_to": 128,
+                  "hit_from": 7,
+                  "hit_to": 130,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIANLDPA",
+                  "hseq": "RRAIEDGNAKFGEAVRKGDGAAIAALYTEDATLLPPDSDMLKGRAGIESFWKGGLQMGIKEAVLTTVDVSGAGDLAYEIGRFALKIQPEGNEVIEQKGKYVVVWKKAPEGVWKLQVDIWNSGPA",
+                  "midline": "+ AIE   A F +A    D A +A+ Y +DA + P D   + GR  I+  W+G + MG+ E  LTT+DV  +GD A+E G  +LK   + +++++  GKYV VW+K  +G WKL   I N  PA"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "tpg|HRW06930.1|",
+                  "accession": "HRW06930",
+                  "title": "DUF4440 domain-containing protein [Caldilineaceae bacterium]",
+                  "taxid": 2614250,
+                  "sciname": "Caldilineaceae bacterium"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.4337,
+                  "score": 228,
+                  "evalue": 5.14123e-21,
+                  "identity": 53,
+                  "positive": 76,
+                  "query_from": 2,
+                  "query_to": 124,
+                  "hit_from": 5,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 4,
+                  "qseq": "QSAKEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGGWKLYRTIAN",
+                  "hseq": "QSTRSQIDATNAAFMAAFQRGDSAGLAAVYTEDAQIFPPNAAAMSGKPAIQTFWQGALDMGVAEALLETVDVEAHGDTAWEVGKGVLK--TKDGGVIDEV-KYIVLWKREQ-GEWKWHRDIWN",
+                  "midline": "QS +  I+A  A F+ A+   D+AG+A+ Y +DA IFP + A + G+  IQ  WQG +DMGV+E  L T+DV+  GD A+E G   LK   KD  ++D   KY+ +W++ Q G WK +R I N"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "tpg|HEV2706700.1|",
+                  "accession": "HEV2706700",
+                  "title": "SgcJ/EcaC family oxidoreductase [Pyrinomonadaceae bacterium]",
+                  "taxid": 2283092,
+                  "sciname": "Pyrinomonadaceae bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 5.63343e-21,
+                  "identity": 49,
+                  "positive": 73,
+                  "query_from": 5,
+                  "query_to": 128,
+                  "hit_from": 47,
+                  "hit_to": 169,
+                  "align_len": 125,
+                  "gaps": 3,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWRKGQDGG-WKLYRTIANLDPA",
+                  "hseq": "RDAIAAAIKTFADAFGRGDAEAIAAWYSTDATLLPPDQRMLKGREAIQAFWQGAMNMGITEAGLETLEVEVRDDLAYEVGRFRMTVQPQGGEAAKVAGKYVVVWK--QEGGRWRMHVDIWNADPA",
+                  "midline": "++AI AA+  F  A+   DA  +A+ Y  DA + P D   + GR+ IQ  WQG M+MG++E  L TL+V+   D A+E G   +    +  +   +AGKYV VW+  Q+GG W+++  I N DPA"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_084641548.1|",
+                  "accession": "WP_084641548",
+                  "title": "MULTISPECIES: YybH family protein [unclassified Mesorhizobium]",
+                  "taxid": 325217,
+                  "sciname": "unclassified Mesorhizobium"
+                }
+              ],
+              "len": 216,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.7449,
+                  "score": 234,
+                  "evalue": 6.31904e-21,
+                  "identity": 46,
+                  "positive": 66,
+                  "query_from": 5,
+                  "query_to": 109,
+                  "hit_from": 27,
+                  "hit_to": 131,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "KEAIEAALADFVKAYNSKDAAGVASKYMDDAAIFPLDMARVDGRQNIQKLWQGLMDMGVSEPKLTTLDVQESGDFAFESGSISLKGPGKDSKLVDIAGKYVEVWR",
+                  "hseq": "REDIEAALVKFMDAFNSGNAAAVGQMYTDDAALLPPDGKRVDDRKGVEEFWQGAIKAGMKNLTLRALEVEGSGNLAYEVGAFTLGVPSKGGALSTVAGKYLVVWK",
+                  "midline": "+E IEAAL  F+ A+NS +AA V   Y DDAA+ P D  RVD R+ +++ WQG +  G+    L  L+V+ SG+ A+E G+ +L  P K   L  +AGKY+ VW+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

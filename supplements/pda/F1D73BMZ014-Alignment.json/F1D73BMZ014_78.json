@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368723",
+          "query_title": "5j0l_A,B,C,D,E,F",
+          "query_len": 141,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5J0L|A",
+                  "accession": "5J0L_A",
+                  "title": "Chain A, designed protein 3L6HC2_2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 260.381,
+                  "score": 664,
+                  "evalue": 5.09176e-87,
+                  "identity": 141,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 141,
+                  "hit_from": 1,
+                  "hit_to": 141,
+                  "align_len": 141,
+                  "gaps": 0,
+                  "qseq": "SLMEKAARAAKELSRESARAAKELADSNAKAAEDLMREIARSSSSERLLELMAEAIRELQKQAAESIADSQRLVVEAIIRLAEAVKQGASEKEIDEIVEEAKKRLEELAERSRQENKKIIDRAKYEMDEESGSLEHHHHHH",
+                  "hseq": "SLMEKAARAAKELSRESARAAKELADSNAKAAEDLMREIARSSSSERLLELMAEAIRELQKQAAESIADSQRLVVEAIIRLAEAVKQGASEKEIDEIVEEAKKRLEELAERSRQENKKIIDRAKYEMDEESGSLEHHHHHH",
+                  "midline": "SLMEKAARAAKELSRESARAAKELADSNAKAAEDLMREIARSSSSERLLELMAEAIRELQKQAAESIADSQRLVVEAIIRLAEAVKQGASEKEIDEIVEEAKKRLEELAERSRQENKKIIDRAKYEMDEESGSLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_224996759.1|",
+                  "accession": "WP_224996759",
+                  "title": "tetratricopeptide repeat protein [Cesiribacter sp. SM1]",
+                  "taxid": 2861196,
+                  "sciname": "Cesiribacter sp. SM1"
+                }
+              ],
+              "len": 1000,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.00230391,
+                  "identity": 37,
+                  "positive": 57,
+                  "query_from": 1,
+                  "query_to": 113,
+                  "hit_from": 865,
+                  "hit_to": 979,
+                  "align_len": 115,
+                  "gaps": 2,
+                  "qseq": "SLMEKAARAAKELSRESARAAKELADSNAKAAEDLMREIARSSSSERLLELMAEAIRELQKQAAESIADSQR--LVVEAIIRLAEAVKQGASEKEIDEIVEEAKKRLEELAERSR",
+                  "hseq": "SIARQQNGEAPTLHQLQLRASRELADGNATAALQLLREVTEATPFEEGAILQAVHLLNAQKQTEEAYAILRRALLLNSYSVTLLEAYALQSLNIGLDEYADETVERLQELSAPDR",
+                  "midline": "S+  +    A  L +   RA++ELAD NA AA  L+RE+  ++  E    L A  +   QKQ  E+ A  +R  L+    + L EA    +    +DE  +E  +RL+EL+   R"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

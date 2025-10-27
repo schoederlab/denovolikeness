@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368834",
+          "query_title": "8dt0_A,B",
+          "query_len": 140,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8DT0|A",
+                  "accession": "8DT0_A",
+                  "title": "Chain A, Scaffolding protein functional sites [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 236.113,
+                  "score": 601,
+                  "evalue": 1.56499e-77,
+                  "identity": 140,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 140,
+                  "hit_from": 1,
+                  "hit_to": 140,
+                  "align_len": 140,
+                  "gaps": 0,
+                  "qseq": "EEEELEELAKELEKILRDEEGHLRKLKEALAEGLGDAEEAAELFRAESIDEMKHAEELAKLLKKGGLDPELRELLEELAELELVAINQYREAAEAAAEAAENGSEEARAAAREALEEALALELDGAKLARAALEAVEKLL",
+                  "hseq": "EEEELEELAKELEKILRDEEGHLRKLKEALAEGLGDAEEAAELFRAESIDEMKHAEELAKLLKKGGLDPELRELLEELAELELVAINQYREAAEAAAEAAENGSEEARAAAREALEEALALELDGAKLARAALEAVEKLL",
+                  "midline": "EEEELEELAKELEKILRDEEGHLRKLKEALAEGLGDAEEAAELFRAESIDEMKHAEELAKLLKKGGLDPELRELLEELAELELVAINQYREAAEAAAEAAENGSEEARAAAREALEEALALELDGAKLARAALEAVEKLL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "tpg|HXJ18249.1|",
+                  "accession": "HXJ18249",
+                  "title": "bacterioferritin [Candidatus Polarisedimenticolia bacterium]",
+                  "taxid": 3069555,
+                  "sciname": "Candidatus Polarisedimenticolia bacterium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.00145626,
+                  "identity": 37,
+                  "positive": 59,
+                  "query_from": 11,
+                  "query_to": 110,
+                  "hit_from": 10,
+                  "hit_to": 121,
+                  "align_len": 113,
+                  "gaps": 14,
+                  "qseq": "ELEKILRDEEGHLRK--LKEALAEGLGDAEEAAELFRAESIDEMKHAEELA-KLLKKGG----------LDPELRELLEELAELELVAINQYREAAEAAAEAAENGSEEARAA",
+                  "hseq": "ELNKALREELTAINQYFLHAEMCENWG-YHKLSEYIKKQSIDEMKHAEKLIERILFLDGSPSMEPLKLTVGPSVRQVFESDLKLELSAVSQYNDAVRIATEERDNGTRDLFVA",
+                  "midline": "EL K LR+E   + +  L   + E  G   + +E  + +SIDEMKHAE+L  ++L   G          + P +R++ E   +LEL A++QY +A   A E  +NG+ +   A"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

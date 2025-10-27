@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368847",
+          "query_title": "8oyx_A,B",
+          "query_len": 242,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8OYX|A",
+                  "accession": "8OYX_A",
+                  "title": "Chain A, De novo designed soluble GPCR-like protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 454.521,
+                  "score": 1168,
+                  "evalue": 1.26832e-160,
+                  "identity": 242,
+                  "positive": 242,
+                  "query_from": 1,
+                  "query_to": 242,
+                  "hit_from": 1,
+                  "hit_to": 242,
+                  "align_len": 242,
+                  "gaps": 0,
+                  "qseq": "MGREEEILERARELRERAEEAIRFLDENADEPWAAGPLGQMLRDIAEAIIRIAEAVELLLEPPTEERVERALELIAEAWALALAAILELLLVKKVEVKRKQNGDDSPPTQEEIEAAREEAEKMREEFEKLLEEVKKEGPLTEVEHVLKLLEKFLKYLDKIIELAEELASIDPDNELAKNILEAAKKLKELFEKLIEELKKSPEWLLVLAETVLEAAETLYDLIVKPALEAYKAGSGHHHHHH",
+                  "hseq": "MGREEEILERARELRERAEEAIRFLDENADEPWAAGPLGQMLRDIAEAIIRIAEAVELLLEPPTEERVERALELIAEAWALALAAILELLLVKKVEVKRKQNGDDSPPTQEEIEAAREEAEKMREEFEKLLEEVKKEGPLTEVEHVLKLLEKFLKYLDKIIELAEELASIDPDNELAKNILEAAKKLKELFEKLIEELKKSPEWLLVLAETVLEAAETLYDLIVKPALEAYKAGSGHHHHHH",
+                  "midline": "MGREEEILERARELRERAEEAIRFLDENADEPWAAGPLGQMLRDIAEAIIRIAEAVELLLEPPTEERVERALELIAEAWALALAAILELLLVKKVEVKRKQNGDDSPPTQEEIEAAREEAEKMREEFEKLLEEVKKEGPLTEVEHVLKLLEKFLKYLDKIIELAEELASIDPDNELAKNILEAAKKLKELFEKLIEELKKSPEWLLVLAETVLEAAETLYDLIVKPALEAYKAGSGHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8OYY|A",
+                  "accession": "8OYY_A",
+                  "title": "Chain A, De novo designed soluble GPCR-like protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 3.17028e-26,
+                  "identity": 90,
+                  "positive": 149,
+                  "query_from": 1,
+                  "query_to": 237,
+                  "hit_from": 1,
+                  "hit_to": 237,
+                  "align_len": 237,
+                  "gaps": 0,
+                  "qseq": "MGREEEILERARELRERAEEAIRFLDENADEPWAAGPLGQMLRDIAEAIIRIAEAVELLLEPPTEERVERALELIAEAWALALAAILELLLVKKVEVKRKQNGDDSPPTQEEIEAAREEAEKMREEFEKLLEEVKKEGPLTEVEHVLKLLEKFLKYLDKIIELAEELASIDPDNELAKNILEAAKKLKELFEKLIEELKKSPEWLLVLAETVLEAAETLYDLIVKPALEAYKAGSGH",
+                  "hseq": "MGKMEELVKRAEELAKEAKEMLEILKKAHEEGKIDSFLYEALKEMLESIKELAEALKELLEHPTGEKHLEALIKLLKSMVGILASMYEIARYRYLVGQQKQQDPNAPVDPRLPEEAREEAEKYVKEFEELVKKLKDSGKLREVEGLRELLEFLRELAEKTLEAAEEYAKLDPDDELAKGLLEAARRILEALERALRAMEETDEWDLAIAEAAVEIAEAAIELVIKPVVEKLKEGSGH",
+                  "midline": "MG+ EE+++RA EL + A+E +  L +  +E      L + L+++ E+I  +AEA++ LLE PT E+   AL  + ++    LA++ E+   + +  ++KQ   ++P      E AREEAEK  +EFE+L++++K  G L EVE + +LLE   +  +K +E AEE A +DPD+ELAK +LEAA+++ E  E+ +  ++++ EW L +AE  +E AE   +L++KP +E  K GSGH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "emb|CAK1546590.1|",
+                  "accession": "CAK1546590",
+                  "title": "unnamed protein product [Leptosia nina]",
+                  "taxid": 320188,
+                  "sciname": "Leptosia nina"
+                }
+              ],
+              "len": 3293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.023089,
+                  "identity": 33,
+                  "positive": 65,
+                  "query_from": 87,
+                  "query_to": 196,
+                  "hit_from": 2378,
+                  "hit_to": 2483,
+                  "align_len": 112,
+                  "gaps": 8,
+                  "qseq": "LELLLVKKVEVKRKQNGDDSPPTQEEIEAAREEAEKM-REEFEKLLEEVKKEGPLTEV-EHVLKLLEKFLKYLDKIIELAEELASIDPDNELAKNILEAAKKLKELFEKLIE",
+                  "hseq": "LDTLLVKFKEINDKTS-DEMKQTLKRIEPKAKELEQMYREDFQKLMQEITNDKTIKELSEAAHDLIQIIAKMIDEVVTVTKPLV-----DKFIEAVTDVSKKICEMYEKQIE",
+                  "midline": "L+ LLVK  E+  K + D+   T + IE   +E E+M RE+F+KL++E+  +  + E+ E    L++   K +D+++ + + L      ++  + + + +KK+ E++EK IE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

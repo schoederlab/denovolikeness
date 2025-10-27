@@ -1,0 +1,236 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368793",
+          "query_title": "8eoz_B",
+          "query_len": 240,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8EOZ|B",
+                  "accession": "8EOZ_B",
+                  "title": "Chain B, C3HR3_4r [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 443.351,
+                  "score": 1139,
+                  "evalue": 3.64699e-156,
+                  "identity": 240,
+                  "positive": 240,
+                  "query_from": 1,
+                  "query_to": 240,
+                  "hit_from": 1,
+                  "hit_to": 240,
+                  "align_len": 240,
+                  "gaps": 0,
+                  "qseq": "MEEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELEEKLGSWLEHHHHHH",
+                  "hseq": "MEEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELEEKLGSWLEHHHHHH",
+                  "midline": "MEEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELEEKLGSWLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8G8I|A",
+                  "accession": "8G8I_A",
+                  "title": "Chain A, C3HR3_9r_shift4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 475,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.736,
+                  "score": 613,
+                  "evalue": 3.51973e-73,
+                  "identity": 140,
+                  "positive": 178,
+                  "query_from": 2,
+                  "query_to": 229,
+                  "hit_from": 225,
+                  "hit_to": 452,
+                  "align_len": 228,
+                  "gaps": 0,
+                  "qseq": "EEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELEEKL",
+                  "hseq": "EDVVKKLFDVIKYAVERGGDNEKFYELLKLLLSNPEIFKILLEWVEINKEDVVKKFFDVIKWAVEEGGDNPVFYRLLKLILSNPEIFKILLEWVDINNEDVVKKLFSVIKQAVEDGGNNMVFIDLLELILSNPEIFEILLLWVHINREDVVKKLFDVIKWAVEDGGNNMVFIHLLRKLLSNPEIFEILLLWVDIGREEVVKKFFEKVLEAVKEGGNDMIEIKKLEEIL",
+                  "midline": "E+V KKL +V K A E  GDNEKF ELL+L+L NPEI +IL  +V INKEDVV+K FDVIK AVE+ GDN  F  LLK +LSNPEIF+ILLE+V I  EDVV+KLF VIKQAVED G+N VF+ LL+ ++SNPEIFEILL +V+I +E+VVKK F+VIK AVED GNN +F+ LL K++ +PE F+ LL  V++G EE VK  F+++ +AV+E GND I++K+LEE L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 236.498,
+                  "score": 602,
+                  "evalue": 1.60256e-71,
+                  "identity": 142,
+                  "positive": 173,
+                  "query_from": 2,
+                  "query_to": 231,
+                  "hit_from": 176,
+                  "hit_to": 405,
+                  "align_len": 230,
+                  "gaps": 0,
+                  "qseq": "EEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELEEKLGS",
+                  "hseq": "EEVVKKLFDVLLYAVKEGGDNEKFLELLKEILSNPEIFEILLEWVEENKEDVVKKLFDVIKYAVERGGDNEKFYELLKLLLSNPEIFKILLEWVEINKEDVVKKFFDVIKWAVEEGGDNPVFYRLLKLILSNPEIFKILLEWVDINNEDVVKKLFSVIKQAVEDGGNNMVFIDLLELILSNPEIFEILLLWVHINREDVVKKLFDVIKWAVEDGGNNMVFIHLLRKLLSN",
+                  "midline": "EEV KKL +V   A ++ GDNEKFLELL+ IL NPEI EIL  +V  NKEDVV+KLFDVIK AVE  GDNEKF ELLK +LSNPEIF+ILLE+V I KEDVV+K F+VIK AVE+ GDNPVF +LLK ++SNPEIF+ILLE+V I  E+VVKK F VIKQAVED GNN +F+ LLE I+ +PE F+ LL  V +  E+ VK  F  IK AVE+ GN+ + +  L + L +"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 236.113,
+                  "score": 601,
+                  "evalue": 2.0302e-71,
+                  "identity": 138,
+                  "positive": 176,
+                  "query_from": 2,
+                  "query_to": 226,
+                  "hit_from": 127,
+                  "hit_to": 351,
+                  "align_len": 225,
+                  "gaps": 0,
+                  "qseq": "EEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELE",
+                  "hseq": "EDVVKKFFDVIKWAVERGGNNPKFLSLLKLILSNPEIFKILLLWVYENKEEVVKKLFDVLLYAVKEGGDNEKFLELLKEILSNPEIFEILLEWVEENKEDVVKKLFDVIKYAVERGGDNEKFYELLKLLLSNPEIFKILLEWVEINKEDVVKKFFDVIKWAVEEGGDNPVFYRLLKLILSNPEIFKILLEWVDINNEDVVKKLFSVIKQAVEDGGNNMVFIDLLE",
+                  "midline": "E+V KK  +V K A E  G+N KFL LL+LIL NPEI +IL L+V+ NKE+VV+KLFDV+  AV++ GDNEKFLELLKE+LSNPEIFEILLE+V   KEDVV+KLF+VIK AVE  GDN  F +LLK ++SNPEIF+ILLE+V I KE+VVKKFF+VIK AVE+ G+NP+F +LL+ I+ +PE FK LLE V++  E+ VK  F  IK+AVE+ GN+ + +  LE"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 216.468,
+                  "score": 550,
+                  "evalue": 7.99298e-64,
+                  "identity": 130,
+                  "positive": 167,
+                  "query_from": 2,
+                  "query_to": 220,
+                  "hit_from": 78,
+                  "hit_to": 296,
+                  "align_len": 219,
+                  "gaps": 0,
+                  "qseq": "EEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPI",
+                  "hseq": "EDVVKKLFSVIKQAVEDGGNNMVFLSLLKELLSNPEIFEILLLWVEINREDVVKKFFDVIKWAVERGGNNPKFLSLLKLILSNPEIFKILLLWVYENKEEVVKKLFDVLLYAVKEGGDNEKFLELLKEILSNPEIFEILLEWVEENKEDVVKKLFDVIKYAVERGGDNEKFYELLKLLLSNPEIFKILLEWVEINKEDVVKKFFDVIKWAVEEGGDNPV",
+                  "midline": "E+V KKL  V K+A ED G+N  FL LL+ +L NPEI EIL L+V IN+EDVV+K FDVIK AVE  G+N KFL LLK +LSNPEIF+ILL +VY  KE+VV+KLF+V+  AV++ GDN  FL+LLK+++SNPEIFEILLE+V   KE+VVKK F+VIK AVE  G+N  F +LL+ ++ +PE FK LLE VE+ +E+ VK  F  IK AVEE G++P+"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 209.92,
+                  "score": 533,
+                  "evalue": 3.26049e-61,
+                  "identity": 126,
+                  "positive": 156,
+                  "query_from": 30,
+                  "query_to": 231,
+                  "hit_from": 8,
+                  "hit_to": 209,
+                  "align_len": 202,
+                  "gaps": 0,
+                  "qseq": "ELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELEEKLGS",
+                  "hseq": "ELIEENPEIQEILELWKFIGREDVVEKLFEVIKWAVEEGGNNMVFISLLKEILSNPEIFEILLKWVDIGREDVVKKLFSVIKQAVEDGGNNMVFLSLLKELLSNPEIFEILLLWVEINREDVVKKFFDVIKWAVERGGNNPKFLSLLKLILSNPEIFKILLLWVYENKEEVVKKLFDVLLYAVKEGGDNEKFLELLKEILSN",
+                  "midline": "ELI ENPEI EILEL+ FI +EDVVEKLF+VIK AVE+ G+N  F+ LLKE+LSNPEIFEILL++V I +EDVV+KLF VIKQAVED G+N VFL LLK+++SNPEIFEILL +V I +E+VVKKFF+VIK AVE  GNNP FL LL+ I+ +PE FK LL  V   +EE VK  F  +  AV+E G++   L+ L+E L +"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 209.534,
+                  "score": 532,
+                  "evalue": 3.36671e-61,
+                  "identity": 127,
+                  "positive": 163,
+                  "query_from": 2,
+                  "query_to": 218,
+                  "hit_from": 29,
+                  "hit_to": 245,
+                  "align_len": 217,
+                  "gaps": 0,
+                  "qseq": "EEVKKKLEEVWKKAKEDAGDNEKFLELLELILENPEILEILELYVFINKEDVVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGND",
+                  "hseq": "EDVVEKLFEVIKWAVEEGGNNMVFISLLKEILSNPEIFEILLKWVDIGREDVVKKLFSVIKQAVEDGGNNMVFLSLLKELLSNPEIFEILLLWVEINREDVVKKFFDVIKWAVERGGNNPKFLSLLKLILSNPEIFKILLLWVYENKEEVVKKLFDVLLYAVKEGGDNEKFLELLKEILSNPEIFEILLEWVEENKEDVVKKLFDVIKYAVERGGDN",
+                  "midline": "E+V +KL EV K A E+ G+N  F+ LL+ IL NPEI EIL  +V I +EDVV+KLF VIK+AVED G+N  FL LLKE+LSNPEIFEILL +V I +EDVV+K F+VIK AVE  G+NP FL LLK ++SNPEIF+ILL +VY  KEEVVKK F+V+  AV++ G+N  FL+LL++I+ +PE F+ LLE VE  +E+ VK  F  IK AVE  G++"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 2.65979e-16,
+                  "identity": 53,
+                  "positive": 78,
+                  "query_from": 127,
+                  "query_to": 231,
+                  "hit_from": 6,
+                  "hit_to": 111,
+                  "align_len": 106,
+                  "gaps": 1,
+                  "qseq": "LKKMIS-NPEIFEILLEYVYIGKEEVVKKFFEVIKQAVEDAGNNPIFLKLLEKIILDPERFKKLLEKVEVGEEEEVKAEFKEIKKAVEEAGNDPIKLKELEEKLGS",
+                  "hseq": "LKELIEENPEIQEILELWKFIGREDVVEKLFEVIKWAVEEGGNNMVFISLLKEILSNPEIFEILLKWVDIGREDVVKKLFSVIKQAVEDGGNNMVFLSLLKELLSN",
+                  "midline": "LK++I  NPEI EIL  + +IG+E+VV+K FEVIK AVE+ GNN +F+ LL++I+ +PE F+ LL+ V++G E+ VK  F  IK+AVE+ GN+ + L  L+E L +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|MDR2812494.1|",
+                  "accession": "MDR2812494",
+                  "title": "hypothetical protein [Puniceicoccales bacterium]",
+                  "taxid": 2478473,
+                  "sciname": "Puniceicoccales bacterium"
+                }
+              ],
+              "len": 530,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.6026,
+                  "score": 122,
+                  "evalue": 0.00156573,
+                  "identity": 32,
+                  "positive": 53,
+                  "query_from": 47,
+                  "query_to": 145,
+                  "hit_from": 183,
+                  "hit_to": 285,
+                  "align_len": 103,
+                  "gaps": 4,
+                  "qseq": "FINKED----VVEKLFDVIKKAVEDAGDNEKFLELLKEMLSNPEIFEILLEYVYIKKEDVVEKLFEVIKQAVEDAGDNPVFLKLLKKMISNPEIFEILLEYVY",
+                  "hseq": "FIERENPIQTIADGLFDAIKNSSLSKEEREKAGELLAKMYNNPEITKTTRNHICEQIQTVANGLFEAVKDPNSSEADREKAGELLAKMYNNPQIPEATRKHIH",
+                  "midline": "FI +E+    + + LFD IK +     + EK  ELL +M +NPEI +    ++  + + V   LFE +K       D     +LL KM +NP+I E   ++++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

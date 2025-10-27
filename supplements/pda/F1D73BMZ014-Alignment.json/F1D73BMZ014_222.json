@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368867",
+          "query_title": "4kyb_A,B",
+          "query_len": 167,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|4KYB|A",
+                  "accession": "4KYB_A",
+                  "title": "Chain A, Designed Protein OR342 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 335.495,
+                  "score": 859,
+                  "evalue": 6.16823e-116,
+                  "identity": 167,
+                  "positive": 167,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 167,
+                  "align_len": 167,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARLEHHHHHH",
+                  "hseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARLEHHHHHH",
+                  "midline": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_428720410.1|",
+                  "accession": "WP_428720410",
+                  "title": "macro domain-containing protein [Thermus sp.]",
+                  "taxid": 275,
+                  "sciname": "Thermus sp."
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 253.062,
+                  "score": 645,
+                  "evalue": 1.74301e-83,
+                  "identity": 133,
+                  "positive": 140,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIRVAQGDITEFRGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGRIPVGEAAVTGAGSLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLRTLAFPLLGTGVGGLPVEAVARAMLEEIKKAPDTLEVTLYGYREEDAEAIRRA",
+                  "midline": "MARIR  QGDITEF+GDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIG+I VGEAAVTGAG+LPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGL+T+AF + G  VGGLP EAV R M EEIKKAPDTLEVT     E+ AEA RRA"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_243091188.1|",
+                  "accession": "WP_243091188",
+                  "title": "MULTISPECIES: macro domain-containing protein [Thermus]",
+                  "taxid": 270,
+                  "sciname": "Thermus"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 242.276,
+                  "score": 617,
+                  "evalue": 3.74334e-79,
+                  "identity": 128,
+                  "positive": 139,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIRVEEGDITEFRGDAIVNAANNHLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLGVRYVIHAAVLGDEPASLESVRQATRSALEKAVELGLRTVAFPLLGTGVGGLPVDGVARVMLEEIKKAPDTLEVTLYGYRREDAEAIRKA",
+                  "midline": "MARIR  +GDITEF+GDAIVNAANN+LKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNL VRYVIHAAVLGDEPASLE+VR+AT+SALEKAVELGL+TVAF + G  VGGLP + V RVM EEIKKAPDTLEVT      + AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_038062860.1|",
+                  "accession": "WP_038062860",
+                  "title": "macro domain-containing protein [Thermus filiformis]",
+                  "taxid": 276,
+                  "sciname": "Thermus filiformis"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 239.58,
+                  "score": 610,
+                  "evalue": 4.03736e-78,
+                  "identity": 124,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARLKIAQGDITEFEGDAIVNAANNHLKLGAGVAGAILRKGGPSIQEECDRIGRIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLDTVRRATRNALEKAVELGLKTVAFPLLGTGVGGLPVREVARVMLEEFRKAPDTLEVTLYGYRPEDVEAIRSA",
+                  "midline": "MAR++  QGDITEF+GDAIVNAANN+LKLGAGVAGAILRKGGPSIQEECDRIG+IRVGEAAVTGAGNLPVRYVIHAAVLGDEPASL+TVR+AT++ALEKAVELGLKTVAF + G  VGGLP   V RVM EE +KAPDTLEVT      +  EA R A"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_413217329.1|",
+                  "accession": "WP_413217329",
+                  "title": "macro domain-containing protein [Thermus oshimai]",
+                  "taxid": 56957,
+                  "sciname": "Thermus oshimai"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.039,
+                  "score": 606,
+                  "evalue": 1.87244e-77,
+                  "identity": 125,
+                  "positive": 138,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIRVAEGDITEFEGEAIVNAANNWLKLGAGVAGAILRKGGPSIQEECDRIGPIRVGEAAVTGAGNLKARYVIHAAVLGDEPASLDTVRRATQSALEKAVALGLKTVAFPLLGTGVGGLPVEAVARVMVEEIREAPDTLEVTLYGYRKEDAEAIRKA",
+                  "midline": "MARIR  +GDITEF+G+AIVNAANN+LKLGAGVAGAILRKGGPSIQEECDRIG IRVGEAAVTGAGNL  RYVIHAAVLGDEPASL+TVR+AT+SALEKAV LGLKTVAF + G  VGGLP EAV RVM EEI++APDTLEVT     ++ AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_014516247.1|",
+                  "accession": "WP_014516247",
+                  "title": "macro domain-containing protein [Thermus sp. CCB_US3_UF1]",
+                  "taxid": 1111069,
+                  "sciname": "Thermus sp. CCB_US3_UF1"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.958,
+                  "score": 598,
+                  "evalue": 2.48627e-76,
+                  "identity": 125,
+                  "positive": 134,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIRVAEGDITEFQGDAIVNAANNWLKLGSGVAGAILRKGGASIQEACDRIGPIRVGEAAVTEAGRLPVRYVIHAAVLGDMPASLETVRQATRSALAKAVELGLKTLAFPLLGTGVGGLPVEAVARVMLEEIKQAPDTLEVTLYGYRREDAEAIRRA",
+                  "midline": "MARIR  +GDITEFQGDAIVNAANN+LKLG+GVAGAILRKGG SIQE CDRIG IRVGEAAVT AG LPVRYVIHAAVLGD PASLETVR+AT+SAL KAVELGLKT+AF + G  VGGLP EAV RVM EEIK+APDTLEVT      + AEA RRA"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|MGQ9735746.1|",
+                  "accession": "MGQ9735746",
+                  "title": "macro domain-containing protein [Thermaceae bacterium]",
+                  "taxid": 2614257,
+                  "sciname": "Thermaceae bacterium"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.646,
+                  "score": 592,
+                  "evalue": 2.10622e-75,
+                  "identity": 123,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARLRIAQGDITEFEGDAIVNAANNHLKLGAGVAGAILRKGGAEIQEECDRIGKIRVGETAVTGAGRLKARYVLHAAVLGDEPASLETVRRATKSALEKAIELGLKTVAFPLLGTGVGGLPVKDVVRVMLEEIKKAPDTLEVTLYGYRPEDVEAIRSA",
+                  "midline": "MAR+R  QGDITEF+GDAIVNAANN+LKLGAGVAGAILRKGG  IQEECDRIGKIRVGE AVTGAG L  RYV+HAAVLGDEPASLETVR+ATKSALEKA+ELGLKTVAF + G  VGGLP + V RVM EEIKKAPDTLEVT      +  EA R A"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_013704823.1|",
+                  "accession": "WP_013704823",
+                  "title": "macro domain-containing protein [Marinithermus hydrothermalis]",
+                  "taxid": 186192,
+                  "sciname": "Marinithermus hydrothermalis"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.787,
+                  "score": 569,
+                  "evalue": 6.26359e-72,
+                  "identity": 117,
+                  "positive": 131,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIKVAQGDITTYEGDAIVNAANNYLKLGAGVAGAIARRGGPSIQAECDRIGRIEVGEAALTGAGNLPVRYVIHAAVLGDQPASLETVRAATRAALELAQRHGIRTLAFPLLGTGVGGLEVEAVARVMLEEIKAAPDTLEVTLYGYTEADAEAIRKA",
+                  "midline": "MARI+  QGDIT ++GDAIVNAANNYLKLGAGVAGAI R+GGPSIQ ECDRIG+I VGEAA+TGAGNLPVRYVIHAAVLGD+PASLETVR AT++ALE A   G++T+AF + G  VGGL  EAV RVM EEIK APDTLEVT    TE  AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "tpg|HFB38806.1|",
+                  "accession": "HFB38806",
+                  "title": "Appr-1-p processing protein [Oceanithermus sp.]",
+                  "taxid": 2268145,
+                  "sciname": "Oceanithermus sp."
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 218.394,
+                  "score": 555,
+                  "evalue": 1.05451e-69,
+                  "identity": 117,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIRIAQGDITEFAGDAIVNAANNWLKLGAGVAGAIRKKGGPEIQAECDRIGPIRVGEAAITTAGKLPARYVIHAAVMGDEPASYESVRRATKSALELAVAKGLKTVAFPLLGTGVGGLDKERVARIMLEEIKAAPDTLEVTLYGYTPEDAEILRRA",
+                  "midline": "MARIR  QGDITEF GDAIVNAANN+LKLGAGVAGAI +KGGP IQ ECDRIG IRVGEAA+T AG LP RYVIHAAV+GDEPAS E+VR+ATKSALE AV  GLKTVAF + G  VGGL  E V R+M EEIK APDTLEVT    T + AE  RRA"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_276954862.1|",
+                  "accession": "WP_276954862",
+                  "title": "macro domain-containing protein [Allomeiothermus silvanus]",
+                  "taxid": 52022,
+                  "sciname": "Allomeiothermus silvanus"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 216.853,
+                  "score": 551,
+                  "evalue": 4.33131e-69,
+                  "identity": 113,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MALIKIAQGDLTEFTGDAIVNAANNYLQLGAGVAGAIRRKGGPQIQEECDRIGKIKVGEAAVTGAGNLPVRYIIHAAVLGDEPATLETVRQATRSALLLAQAKGIETLAFPLLGTGVGGLPVAVVAQVMLEEIKAAPDTLTVTLYGFRPEDAEAIRQA",
+                  "midline": "MA I+  QGD+TEF GDAIVNAANNYL+LGAGVAGAI RKGGP IQEECDRIGKI+VGEAAVTGAGNLPVRY+IHAAVLGDEPA+LETVR+AT+SAL  A   G++T+AF + G  VGGLP   V +VM EEIK APDTL VT      + AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "tpg|HEU4743555.1|",
+                  "accession": "HEU4743555",
+                  "title": "macro domain-containing protein [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 212.616,
+                  "score": 540,
+                  "evalue": 1.58963e-67,
+                  "identity": 111,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MALIKVAQGDLTEFAGDALVNAANNYLQLGSGVAGAIRRKGGPQIQEQCDRIGKIEVGEAALTGGGNLPVRYVIHAAVLGDEPATLETVRQATRSSLVLAQVKGIETLAFPLLGTGVGGLPALAVARVMLEEIKAAPDTLTVTLYGFRPEDVEAIRRA",
+                  "midline": "MA I+  QGD+TEF GDA+VNAANNYL+LG+GVAGAI RKGGP IQE+CDRIGKI VGEAA+TG GNLPVRYVIHAAVLGDEPA+LETVR+AT+S+L  A   G++T+AF + G  VGGLPA AV RVM EEIK APDTL VT      +  EA RRA"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|MER3481014.1|",
+                  "accession": "MER3481014",
+                  "title": "Appr-1-p processing protein [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.149,
+                  "score": 531,
+                  "evalue": 4.43481e-66,
+                  "identity": 108,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MALIKVAQGDLTEFAGEAIVNAANNHLQLGSGVAGAIRRRGGPQVQEECDRIGQIKVGEAALTGAGNLPAKYVIHAAVLGDEPATLETVRRATRSALVLAQAKGIKTLAFPLLGTGVGGLPVEAVAQVMLEEIKAAPDTLTVTLYGFRPEDVEAVRRA",
+                  "midline": "MA I+  QGD+TEF G+AIVNAANN+L+LG+GVAGAI R+GGP +QEECDRIG+I+VGEAA+TGAGNLP +YVIHAAVLGDEPA+LETVR+AT+SAL  A   G+KT+AF + G  VGGLP EAV +VM EEIK APDTL VT      +  EA RRA"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "gb|MER3425767.1|",
+                  "accession": "MER3425767",
+                  "title": "Appr-1-p processing protein [Thermoleophilia bacterium]",
+                  "taxid": 2026888,
+                  "sciname": "Thermoleophilia bacterium"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.608,
+                  "score": 527,
+                  "evalue": 9.44987e-66,
+                  "identity": 113,
+                  "positive": 119,
+                  "query_from": 17,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 142,
+                  "align_len": 142,
+                  "gaps": 0,
+                  "qseq": "DAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "DAIVNAANNHLKLGAGVAGAILRKGGAVIQEECDRIGKIRVGEAAVTGAGRLKVRYVIHAAVLGDEPASLDTVRKATRSALEKAVELGLKTVAFPLLGTGVGGLPVEEVARVMLEEIKRAPDTLEATLYGYRPEDVEAIRAA",
+                  "midline": "DAIVNAANN+LKLGAGVAGAILRKGG  IQEECDRIGKIRVGEAAVTGAG L VRYVIHAAVLGDEPASL+TVRKAT+SALEKAVELGLKTVAF + G  VGGLP E V RVM EEIK+APDTLE T      +  EA R A"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|MER3554883.1|",
+                  "accession": "MER3554883",
+                  "title": "Appr-1-p processing protein [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.453,
+                  "score": 524,
+                  "evalue": 4.77118e-65,
+                  "identity": 111,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MALIRIAKGDITEFTGQALVNAANNYLQLGSGVAGAIARKGGPSIQEACDTIGKIRVGESAITGAGNLKVRYVIHAAVLGDEPASLGTVRAATKSALELAQAQDIRTLAFPLLGTGVGGLDVDAVVRTMLEEIKVFPDTLEVTLYGHTEADEAAIRRA",
+                  "midline": "MA IR  +GDITEF G A+VNAANNYL+LG+GVAGAI RKGGPSIQE CD IGKIRVGE+A+TGAGNL VRYVIHAAVLGDEPASL TVR ATKSALE A    ++T+AF + G  VGGL  +AV R M EEIK  PDTLEVT    TE    A RRA"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_013458586.1|",
+                  "accession": "WP_013458586",
+                  "title": "macro domain-containing protein [Oceanithermus profundus]",
+                  "taxid": 187137,
+                  "sciname": "Oceanithermus profundus"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 203.371,
+                  "score": 516,
+                  "evalue": 6.97225e-64,
+                  "identity": 108,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MALIRIAKGDITTFEGDAVVNAANDRLILGSGVAGAIRKKGGPEIQEECDRHGPIRVGEAAVTGAGRLPVRYVIHAAVLGSEPASYDSVRRATQAALAKARELGLRTVAFPLLGTGVGGLDAQEVARIMTEEFKNAPDDLEVTLYGYTDADVEAIRRA",
+                  "midline": "MA IR  +GDIT F+GDA+VNAAN+ L LG+GVAGAI +KGGP IQEECDR G IRVGEAAVTGAG LPVRYVIHAAVLG EPAS ++VR+AT++AL KA ELGL+TVAF + G  VGGL A+ V R+M EE K APD LEVT    T+   EA RRA"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_119357463.1|",
+                  "accession": "WP_119357463",
+                  "title": "macro domain-containing protein [Meiothermus granaticius]",
+                  "taxid": 863370,
+                  "sciname": "Meiothermus granaticius"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 201.445,
+                  "score": 511,
+                  "evalue": 5.22428e-63,
+                  "identity": 109,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 160,
+                  "hit_from": 1,
+                  "hit_to": 159,
+                  "align_len": 160,
+                  "gaps": 1,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARL",
+                  "hseq": "MALIRVAQGDITEFEGQAIVNAANNHLQLGAGVAGAIARKGGPSIQQACDTIGPIRVGEAAITGAGQLKVRYVIHAAVLGDQPASLETVRAATRSALKLAQDQDIHLLAFPLLGTGVGGLEVEAVAQVMLEEIKVAPDTLEVT-LYGFTRADEAAIRRAL",
+                  "midline": "MA IR  QGDITEF+G AIVNAANN+L+LGAGVAGAI RKGGPSIQ+ CD IG IRVGEAA+TGAG L VRYVIHAAVLGD+PASLETVR AT+SAL+ A +  +  +AF + G  VGGL  EAV +VM EEIK APDTLEVT ++G  ++ EA  R  L"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "dbj|BGR19568.1|",
+                  "accession": "BGR19568",
+                  "title": "macro domain-containing protein [Vulcanithermus mediatlanticus]",
+                  "taxid": 206045,
+                  "sciname": "Vulcanithermus mediatlanticus"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 201.06,
+                  "score": 510,
+                  "evalue": 6.36188e-63,
+                  "identity": 107,
+                  "positive": 120,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIRIAGGDITEFSGDAIVNAANNYLKLGAGVAGAIRKKGGPEIQEACDRIGPIRVGEAALTGAGSLPARYVIHAAVMGDAPASYETVRQATKSALDLALSHHLTKIAFPLLGTGVGGLDKAKVAKIMLEEIKAAPDRLEVTLYGYTDDDVEIIRQA",
+                  "midline": "MARIR   GDITEF GDAIVNAANNYLKLGAGVAGAI +KGGP IQE CDRIG IRVGEAA+TGAG+LP RYVIHAAV+GD PAS ETVR+ATKSAL+ A+   L  +AF + G  VGGL    V ++M EEIK APD LEVT    T+   E  R+A"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|RDI94764.1|",
+                  "accession": "RDI94764",
+                  "title": "Appr-1-p processing protein [Meiothermus sp. QL-1]",
+                  "taxid": 2058095,
+                  "sciname": "Meiothermus sp. QL-1"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 200.675,
+                  "score": 509,
+                  "evalue": 1.84157e-62,
+                  "identity": 109,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPR",
+                  "hseq": "MARIRVAQGDITEFVGDAIVNAANNRLVLGSGVAGAIRRKGGPSIQEACDRHGPIRVGEAALTEAGRLPVRCVIHAAVLGDEPASLETVRRATRAALGLALEKGLRTLAFPLLGTGVGGLPVEEVVAVMLDELLQAPEALEITLYGYTERDAEAIR",
+                  "midline": "MARIR  QGDITEF GDAIVNAANN L LG+GVAGAI RKGGPSIQE CDR G IRVGEAA+T AG LPVR VIHAAVLGDEPASLETVR+AT++AL  A+E GL+T+AF + G  VGGLP E V  VM +E+ +AP+ LE+T    TE+ AEA R"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "dbj|BHA22524.1|",
+                  "accession": "BHA22524",
+                  "title": "macro domain-containing protein [Rhabdothermus arcticus]",
+                  "taxid": 874266,
+                  "sciname": "Rhabdothermus arcticus"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 198.749,
+                  "score": 504,
+                  "evalue": 4.97916e-62,
+                  "identity": 107,
+                  "positive": 119,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARLRIAQGDITAFAGDAIVNAANNWLKLGSGVAGAIRAKGGPEIQAACDRIGPIRVGEAVATTAGRLPARYVIHAAVMGDAPASYESVRQATRSALKLARELGLKTVAFPLLGTGVGGLDKDRVIRIMLEEIKAAPDDLEVTLYGYTPEDVERIRRA",
+                  "midline": "MAR+R  QGDIT F GDAIVNAANN+LKLG+GVAGAI  KGGP IQ  CDRIG IRVGEA  T AG LP RYVIHAAV+GD PAS E+VR+AT+SAL+ A ELGLKTVAF + G  VGGL  + V R+M EEIK APD LEVT    T +  E  RRA"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_297854435.1|",
+                  "accession": "WP_297854435",
+                  "title": "macro domain-containing protein [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 195.282,
+                  "score": 495,
+                  "evalue": 1.5256e-60,
+                  "identity": 104,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 164,
+                  "hit_from": 1,
+                  "hit_to": 163,
+                  "align_len": 164,
+                  "gaps": 1,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARLEHHH",
+                  "hseq": "MARIQVAQGDITEFVGDAIVNAANNHLILGSGVAGAIRRKGGPSIQEECNRHGPIQVGEAALTGAGQLPVRYVIHAAAMGDQPASLETVRRATQAALRLALEKNLQKVAFPLLGTGVAGLPVKEVAEVMLAELLAAPEALEVTLYGFTESDAQVVRQV-LDHFN",
+                  "midline": "MARI+  QGDITEF GDAIVNAANN+L LG+GVAGAI RKGGPSIQEEC+R G I+VGEAA+TGAG LPVRYVIHAA +GD+PASLETVR+AT++AL  A+E  L+ VAF + G  V GLP + V  VM  E+  AP+ LEVT    TE  A+  R+  L+H +"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_208014762.1|",
+                  "accession": "WP_208014762",
+                  "title": "macro domain-containing protein [Meiothermus sp. CFH 77666]",
+                  "taxid": 2817942,
+                  "sciname": "Meiothermus sp. CFH 77666"
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.897,
+                  "score": 494,
+                  "evalue": 2.18888e-60,
+                  "identity": 105,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 162,
+                  "hit_from": 1,
+                  "hit_to": 161,
+                  "align_len": 162,
+                  "gaps": 1,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARLEH",
+                  "hseq": "MAQVHIAQGDITEFVGDAIVNAANNHLILGAGVAGAIRRKGGPSIQEECNRHGPIRVGEAALTGAGQLPVRYVIHAAAMGDEPASLETVRQATQAALRLALEKNLHRVAFPLLGTGVAGLPVQEVAEVMLAELLAAPNSLEVTLYGFTESDVQTLRQV-LEH",
+                  "midline": "MA++   QGDITEF GDAIVNAANN+L LGAGVAGAI RKGGPSIQEEC+R G IRVGEAA+TGAG LPVRYVIHAA +GDEPASLETVR+AT++AL  A+E  L  VAF + G  V GLP + V  VM  E+  AP++LEVT    TE   +  R+  LEH"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_119339664.1|",
+                  "accession": "WP_119339664",
+                  "title": "macro domain-containing protein [Meiothermus hypogaeus]",
+                  "taxid": 884155,
+                  "sciname": "Meiothermus hypogaeus"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.512,
+                  "score": 493,
+                  "evalue": 2.61016e-60,
+                  "identity": 104,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIHIAQGDITEFVGDAIVNAANNHLILGAGVAGAIRRKGGPRIQEECDRHGPIRVGEAALTGAGALPVRFVIHAAVLGDQPASLQTVRSATRAAVRLALEHNLRRVAFPLLGTGVGGLALNEVIEAMLDELQDAPDTLEITLFGYSPSDAEALRQA",
+                  "midline": "MARI   QGDITEF GDAIVNAANN+L LGAGVAGAI RKGGP IQEECDR G IRVGEAA+TGAG LPVR+VIHAAVLGD+PASL+TVR AT++A+  A+E  L+ VAF + G  VGGL    V   M +E++ APDTLE+T    +   AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gb|MBF6595164.1|",
+                  "accession": "MBF6595164",
+                  "title": "macro domain-containing protein [Thermaceae bacterium]",
+                  "taxid": 2614257,
+                  "sciname": "Thermaceae bacterium"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.126,
+                  "score": 492,
+                  "evalue": 4.00691e-60,
+                  "identity": 109,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MALIRVAQGDITEFEGQAIVNAANSYLQLGSGVAGAIARKGGPSIQEACDTIGKIRVGESAITGAGTLKVRYIIHAAVLGDEPASLKTVRAATQSALQLAHAQEIRTLAFPLLGTGVGGLGVDEVVRVMLEEIKAAPDTLEVTLYGFTEADQAAIRRA",
+                  "midline": "MA IR  QGDITEF+G AIVNAAN+YL+LG+GVAGAI RKGGPSIQE CD IGKIRVGE+A+TGAG L VRY+IHAAVLGDEPASL+TVR AT+SAL+ A    ++T+AF + G  VGGL  + V RVM EEIK APDTLEVT    TE    A RRA"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_119315439.1|",
+                  "accession": "WP_119315439",
+                  "title": "macro domain-containing protein [Calidithermus terrae]",
+                  "taxid": 1408545,
+                  "sciname": "Calidithermus terrae"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 189.119,
+                  "score": 479,
+                  "evalue": 3.3652e-58,
+                  "identity": 99,
+                  "positive": 120,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPR",
+                  "hseq": "MARVHVAQGGITDFTGDAIVNAANNHLVLGSGVAGAIARKGGPEIQEECHRHGKIRVGEAAITGAGRLRARHVIHAAAMGDEPATLQTVRSATRHALRLALEHGLKTLAFPLLGTGVAGLPRDGVIRVMLEELRSAPESLEVTLYGYSQPDADAIR",
+                  "midline": "MAR+   QG IT+F GDAIVNAANN+L LG+GVAGAI RKGGP IQEEC R GKIRVGEAA+TGAG L  R+VIHAA +GDEPA+L+TVR AT+ AL  A+E GLKT+AF + G  V GLP + V RVM EE++ AP++LEVT    ++  A+A R"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_027882473.1|",
+                  "accession": "WP_027882473",
+                  "title": "macro domain-containing protein [Meiothermus rufus]",
+                  "taxid": 604332,
+                  "sciname": "Meiothermus rufus"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 188.348,
+                  "score": 477,
+                  "evalue": 6.98914e-58,
+                  "identity": 103,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARLQVAQGDITEFVGDAIVNAANNHLVLGAGVAGAIRRKGGPSIQEECDRHGPIQVGQAALTGAGQLAVRHVIHAAVLGDQPATLQSVQSATKAALALALQHNLRRVAFPLLGTGVGGLPVGAVLEVMLAELRKAPDTLEITLYGYSPADAEAIRQA",
+                  "midline": "MAR++  QGDITEF GDAIVNAANN+L LGAGVAGAI RKGGPSIQEECDR G I+VG+AA+TGAG L VR+VIHAAVLGD+PA+L++V+ ATK+AL  A++  L+ VAF + G  VGGLP  AV  VM  E++KAPDTLE+T    +   AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_119359763.1|",
+                  "accession": "WP_119359763",
+                  "title": "macro domain-containing protein [Meiothermus luteus]",
+                  "taxid": 2026184,
+                  "sciname": "Meiothermus luteus"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 188.348,
+                  "score": 477,
+                  "evalue": 8.11079e-58,
+                  "identity": 109,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIQVAQGDITEFVGDAIVNAANNHLVLGSGVAGAIRRKGGPSIQEECDRHGPIQVGEAALTGAGQLPVRYVIHAAVLGDAPASLETVRRATRAALRLALEKGLHKVAFPLLGTGVGGLGVSMVVETMLDELLAAPDPLEVTLYGYTEADAEAIRQA",
+                  "midline": "MARI+  QGDITEF GDAIVNAANN+L LG+GVAGAI RKGGPSIQEECDR G I+VGEAA+TGAG LPVRYVIHAAVLGD PASLETVR+AT++AL  A+E GL  VAF + G  VGGL    V   M +E+  APD LEVT    TE  AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_297563575.1|",
+                  "accession": "WP_297563575",
+                  "title": "macro domain-containing protein [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 187.578,
+                  "score": 475,
+                  "evalue": 1.46925e-57,
+                  "identity": 103,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 163,
+                  "hit_from": 1,
+                  "hit_to": 163,
+                  "align_len": 163,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARLEHH",
+                  "hseq": "MARIQVAQGDITEFAGDAIVNAANNHLILGSGVAGAIRRRGGLSIQEECDRHGPIRVGEAALTGAGQLPVRKVIHAAVLGDQPATLDTVRSATQAALRLALEHRLYRLAFPLLGTGVGGLDVPQVAEVMLEELEAAPDPLEITLYGYSPADAEAIRQALARRH",
+                  "midline": "MARI+  QGDITEF GDAIVNAANN+L LG+GVAGAI R+GG SIQEECDR G IRVGEAA+TGAG LPVR VIHAAVLGD+PA+L+TVR AT++AL  A+E  L  +AF + G  VGGL    V  VM EE++ APD LE+T    +   AEA R+A    H"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|MDX2004098.1|",
+                  "accession": "MDX2004098",
+                  "title": "macro domain-containing protein [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 181.8,
+                  "score": 460,
+                  "evalue": 3.49995e-55,
+                  "identity": 96,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 143,
+                  "hit_from": 1,
+                  "hit_to": 143,
+                  "align_len": 143,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVT",
+                  "hseq": "MATIKVAQGDITEFRGDAIVNAANNGLILGSGVAGAIHRKGGPEIQEECRRHGKIRVGQAALTGAGRLPVRYVIHAAAMGDEPATLETVRSSTRDALRLALEKNLKTIAFPLLGTGVARLPLEPVAAAMIEEFNRVGDDLEVT",
+                  "midline": "MA I+  QGDITEF+GDAIVNAANN L LG+GVAGAI RKGGP IQEEC R GKIRVG+AA+TGAG LPVRYVIHAA +GDEPA+LETVR +T+ AL  A+E  LKT+AF + G  V  LP E V   M EE  +  D LEVT"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|KPK83155.1|",
+                  "accession": "KPK83155",
+                  "title": "MAG: Appr-1-p processing protein [Gemmatimonas sp. SM23_52]",
+                  "taxid": 1703359,
+                  "sciname": "Gemmatimonas sp. SM23_52"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 166.392,
+                  "score": 420,
+                  "evalue": 5.04737e-49,
+                  "identity": 84,
+                  "positive": 100,
+                  "query_from": 3,
+                  "query_to": 134,
+                  "hit_from": 6,
+                  "hit_to": 137,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "RIRVAEGDITEFRGDAIVNAANNRLKLGAGVAGAIARKGGPSIQRECDEHGPIRVGEAAITGGGNLAARYVIHAAAMGDEPASRASIEGSTRHSLELADQCGIKTVAFPILASGVAGFPLDEATRIMAETIR",
+                  "midline": "RIR  +GDITEF+GDAIVNAANN LKLGAGVAGAI RKGGPSIQ ECD  G IRVGEAA+TG GNL  RYVIHAA +GDEPAS  ++  +T+ +LE A + G+KTVAF +  + V G P +   R+M E I+"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gb|NIM48916.1|",
+                  "accession": "NIM48916",
+                  "title": "Appr-1-p processing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 166.007,
+                  "score": 419,
+                  "evalue": 5.83878e-49,
+                  "identity": 82,
+                  "positive": 105,
+                  "query_from": 3,
+                  "query_to": 138,
+                  "hit_from": 4,
+                  "hit_to": 139,
+                  "align_len": 136,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "RISVRQGDITTYEGDAITNAANNYLQLGAGVAGAIRRAGGPTIQEECDRHGPIRVGEAAITSAGNMAVRWVIHAAAMGDEPVSERSIRESTLASLQLAAENGVKRIAFPVLGSGVGGFGFERAATLMRDAIRESPD",
+                  "midline": "RI   QGDIT ++GDAI NAANNYL+LGAGVAGAI R GGP+IQEECDR G IRVGEAA+T AGN+ VR+VIHAA +GDEP S  ++R++T ++L+ A E G+K +AF V G+ VGG   E    +MR+ I+++PD"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_295387047.1|",
+                  "accession": "WP_295387047",
+                  "title": "macro domain-containing protein [Meiothermus sp.]",
+                  "taxid": 1955249,
+                  "sciname": "Meiothermus sp."
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 166.007,
+                  "score": 419,
+                  "evalue": 7.28478e-49,
+                  "identity": 104,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 158,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "MARIRVAQGDITEFVGDAIVNAANNQLVLGSGVAGAIRRKGGPSIQEECNRHGPIRVGEAALTGAGQLPVRYVIHAAVLGDTPASLHTVRSAARAALRLASEKGLRRVAFPLLGTGVGGLGVPEVIETLLDELADTPEDLEVTLYGYTEADAKAIRQA",
+                  "midline": "MARIR  QGDITEF GDAIVNAANN L LG+GVAGAI RKGGPSIQEEC+R G IRVGEAA+TGAG LPVRYVIHAAVLGD PASL TVR A ++AL  A E GL+ VAF + G  VGGL    V   + +E+   P+ LEVT    TE  A+A R+A"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gb|MEE9155294.1|",
+                  "accession": "MEE9155294",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 163.31,
+                  "score": 412,
+                  "evalue": 7.80869e-48,
+                  "identity": 89,
+                  "positive": 115,
+                  "query_from": 3,
+                  "query_to": 157,
+                  "hit_from": 5,
+                  "hit_to": 164,
+                  "align_len": 160,
+                  "gaps": 5,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEI---KKAPDT-LEVTGVHG-TEKSAEAPRR",
+                  "hseq": "KIRVTQGDITHFEGDAIVNAANNHLRLGAGVAGAIARRGGPSIQRECDEHGPIRVGEAAITGAGDLPVRHVIHAAAMGDEPASEASIERSTRSSLALADANDIKTIAFPVLASGVAGFPLAEATRIMVDTITDYKASADSRIEVVTLYGYSAADAEQIRR",
+                  "midline": "+IR  QGDIT F+GDAIVNAANN+L+LGAGVAGAI R+GGPSIQ ECD  G IRVGEAA+TGAG+LPVR+VIHAA +GDEPAS  ++ ++T+S+L  A    +KT+AF V  + V G P     R+M + I   K + D+ +EV  ++G +   AE  RR"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|MGD8868612.1|",
+                  "accession": "MGD8868612",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 162.54,
+                  "score": 410,
+                  "evalue": 8.85425e-48,
+                  "identity": 83,
+                  "positive": 100,
+                  "query_from": 3,
+                  "query_to": 134,
+                  "hit_from": 6,
+                  "hit_to": 137,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "KVRVAEGDITEFAGDAIVNAANNRLVLGAGVAGAIARKGGPSIQQECHEHGPIRVGEAAITGAGDLPVRYVIHAAAMGDEPASRRSIENATRHSLQLADEAGVKTIAFPVLASGVAGFGLEEAARIMLESIR",
+                  "midline": "++R  +GDITEF GDAIVNAANN L LGAGVAGAI RKGGPSIQ+EC   G IRVGEAA+TGAG+LPVRYVIHAA +GDEPAS  ++  AT+ +L+ A E G+KT+AF V  + V G   E   R+M E I+"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gb|UCC48284.1|",
+                  "accession": "UCC48284",
+                  "title": "MAG: macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 163.31,
+                  "score": 412,
+                  "evalue": 9.09906e-48,
+                  "identity": 82,
+                  "positive": 98,
+                  "query_from": 3,
+                  "query_to": 134,
+                  "hit_from": 6,
+                  "hit_to": 137,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "KIRVAQGDITEFQGDAIVNAANNRLKLGAGVAGAIARKGGPSIQRECDEHGPIRVGEAAITGGGNLAARYVIHAAAMGDEPASRASIEGSTRHSLELADRHGIKTIALPILASGVAGFPLDDAARIMAQAIR",
+                  "midline": "+IR  QGDITEFQGDAIVNAANN LKLGAGVAGAI RKGGPSIQ ECD  G IRVGEAA+TG GNL  RYVIHAA +GDEPAS  ++  +T+ +LE A   G+KT+A  +  + V G P +   R+M + I+"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "dbj|BAW01650.1|",
+                  "accession": "BAW01650",
+                  "title": "Appr-1-p processing protein [Thermus thermophilus]",
+                  "taxid": 274,
+                  "sciname": "Thermus thermophilus"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 1.8688e-47,
+                  "identity": 80,
+                  "positive": 84,
+                  "query_from": 1,
+                  "query_to": 99,
+                  "hit_from": 1,
+                  "hit_to": 99,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEK",
+                  "hseq": "MARIRVVQGDITGFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGTSPRAWRRCARPRKAPWRR",
+                  "midline": "MARIR VQGDIT FQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLG  P +     +  K+   +"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|KPK06414.1|",
+                  "accession": "KPK06414",
+                  "title": "MAG: Appr-1-p processing protein [Gemmatimonas sp. SG8_28]",
+                  "taxid": 1703357,
+                  "sciname": "Gemmatimonas sp. SG8_28"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 1.23719e-46,
+                  "identity": 80,
+                  "positive": 101,
+                  "query_from": 8,
+                  "query_to": 140,
+                  "hit_from": 5,
+                  "hit_to": 137,
+                  "align_len": 133,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTL",
+                  "hseq": "QGDITTFEGDAVVNAANNHLVLGAGVAGAIRRAGGESIQEECDRHGPIRVGHAAITGAGNLRVRWVIHAAAMGDEPVSARSIRESTLASLALAVEYGVRRIAFPVLGSGIGGFPFTEAAGIMRDAIVGSPEAL",
+                  "midline": "QGDIT F+GDA+VNAANN+L LGAGVAGAI R GG SIQEECDR G IRVG AA+TGAGNL VR+VIHAA +GDEP S  ++R++T ++L  AVE G++ +AF V G+ +GG P      +MR+ I  +P+ L"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|NIN73141.1|",
+                  "accession": "NIN73141",
+                  "title": "Appr-1-p processing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 1.54198e-46,
+                  "identity": 85,
+                  "positive": 112,
+                  "query_from": 4,
+                  "query_to": 161,
+                  "hit_from": 2,
+                  "hit_to": 163,
+                  "align_len": 162,
+                  "gaps": 4,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVM----REEIKKAPDTLEVTGVHGTEKSAEAPRRARLE",
+                  "hseq": "IRVEKGDITEFQGDAIVNAANNHLILGAGVAGAIARKGGPSIQQECDEHGPIRVGEAAITGAGDLAARYVIHAAAMGDEPASRTSIEGSTRHSLQLAAQAGIKTIAFPILASGVAGFPLDEAAKIMIAAIRGYLAEAETEIEEVVLYGYSEADAGTVRYALE",
+                  "midline": "IR  +GDITEFQGDAIVNAANN+L LGAGVAGAI RKGGPSIQ+ECD  G IRVGEAA+TGAG+L  RYVIHAA +GDEPAS  ++  +T+ +L+ A + G+KT+AF +  + V G P +   ++M    R  + +A   +E   ++G  ++     R  LE"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|MBI1722991.1|",
+                  "accession": "MBI1722991",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 1.61374e-46,
+                  "identity": 87,
+                  "positive": 111,
+                  "query_from": 4,
+                  "query_to": 157,
+                  "hit_from": 2,
+                  "hit_to": 158,
+                  "align_len": 157,
+                  "gaps": 3,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK--APDTLEVTGVHG-TEKSAEAPRR",
+                  "hseq": "IRVVQGDVTSYAGSAIVNAANNHLILGAGVAGAIARKGGPSIQAECSRHGPIRVGEAALTGAGDLPCRWVIHAAAMGDEPASEHSIRDATRASMRLAAAHGIRDVAFPILGSGVAGFPLRRAAEVMVEAIRESSAPDAVQEIVLYGFTAGDAETIRQ",
+                  "midline": "IR VQGD+T + G AIVNAANN+L LGAGVAGAI RKGGPSIQ EC R G IRVGEAA+TGAG+LP R+VIHAA +GDEPAS  ++R AT++++  A   G++ VAF + G+ V G P      VM E I++  APD ++   ++G T   AE  R+"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gb|MGD0991097.1|",
+                  "accession": "MGD0991097",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 158.688,
+                  "score": 400,
+                  "evalue": 3.78004e-46,
+                  "identity": 80,
+                  "positive": 94,
+                  "query_from": 4,
+                  "query_to": 129,
+                  "hit_from": 2,
+                  "hit_to": 127,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVM",
+                  "hseq": "IRTALGDVTTYAGSAIVNAANNHLQLGAGVAGAIARRGGPSIQEECDRHGAIRVGEAAVTGAGHLPCRYVIHAAAMGDEPVSERSIRDATSAGLARAAELHLTDVAFPILGSGIGGFPFRRAVEVM",
+                  "midline": "IR   GD+T + G AIVNAANN+L+LGAGVAGAI R+GGPSIQEECDR G IRVGEAAVTGAG+LP RYVIHAA +GDEP S  ++R AT + L +A EL L  VAF + G+ +GG P      VM"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gb|UCF19472.1|",
+                  "accession": "UCF19472",
+                  "title": "MAG: macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 158.688,
+                  "score": 400,
+                  "evalue": 4.64742e-46,
+                  "identity": 88,
+                  "positive": 109,
+                  "query_from": 8,
+                  "query_to": 160,
+                  "hit_from": 11,
+                  "hit_to": 168,
+                  "align_len": 158,
+                  "gaps": 5,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMR---EEIKKAPDTL--EVTGVHGTEKSAEAPRRARL",
+                  "hseq": "QGDITEFEGDAIVNAANNHLVLGAGVAGAIARKGGPSIQRECDEHGPIKVGEAAITGAGALAARFVIHAAAMGDEPASRESIADSTRSSLELADEHGVKTIAFPILASGVAGFALDEAARIMVGVIREYSAAVDTMIEEITLYGYSASDAETVRQVVL",
+                  "midline": "QGDITEF+GDAIVNAANN+L LGAGVAGAI RKGGPSIQ ECD  G I+VGEAA+TGAG L  R+VIHAA +GDEPAS E++  +T+S+LE A E G+KT+AF +  + V G   +   R+M     E   A DT+  E+T    +   AE  R+  L"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "tpg|HVO35100.1|",
+                  "accession": "HVO35100",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 158.303,
+                  "score": 399,
+                  "evalue": 4.86752e-46,
+                  "identity": 80,
+                  "positive": 95,
+                  "query_from": 9,
+                  "query_to": 139,
+                  "hit_from": 7,
+                  "hit_to": 137,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "GDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDT",
+                  "hseq": "GDITTYAGSAIVNAANNHLLLGAGVAGAIARRGGPSIQEECDRHGPIRVGEAAVTGAGTLACRYVIHAAAMGDEPVSERSIRNATSASLARVAELHLADVAFPILGSGIGGFPFRRAVEIMVEAIRAAPAS",
+                  "midline": "GDIT + G AIVNAANN+L LGAGVAGAI R+GGPSIQEECDR G IRVGEAAVTGAG L  RYVIHAA +GDEP S  ++R AT ++L +  EL L  VAF + G+ +GG P      +M E I+ AP +"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gb|NIR46395.1|",
+                  "accession": "NIR46395",
+                  "title": "Appr-1-p processing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 158.688,
+                  "score": 400,
+                  "evalue": 5.02622e-46,
+                  "identity": 81,
+                  "positive": 99,
+                  "query_from": 3,
+                  "query_to": 141,
+                  "hit_from": 5,
+                  "hit_to": 143,
+                  "align_len": 139,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLE",
+                  "hseq": "KISVAQGDITEFQGDAIVNAANNHLILGAGVAGAIRKKGGPSIQRECDEHGPIRVGEAAITGAGDLPARYVIHAAAMGDEPASRDSIEASTRHALQLADENGVDTIAFPILASGVAGFDLADAARIMMTAIHNYLENYE",
+                  "midline": "+I   QGDITEFQGDAIVNAANN+L LGAGVAGAI +KGGPSIQ ECD  G IRVGEAA+TGAG+LP RYVIHAA +GDEPAS +++  +T+ AL+ A E G+ T+AF +  + V G       R+M   I    +  E"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gb|UCD23262.1|",
+                  "accession": "UCD23262",
+                  "title": "MAG: macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.532,
+                  "score": 397,
+                  "evalue": 1.24171e-45,
+                  "identity": 78,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 137,
+                  "hit_from": 1,
+                  "hit_to": 137,
+                  "align_len": 137,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAP",
+                  "hseq": "MAVLSVRQGDITTYDGDAIVNAANNHLQLGAGVAGAIRRSGGPSIQAECDRHGPIKVGEAAITGAGNLRVRWIIHAAAMGDEPVSERSIRLSTVASLKLAADTGIKRIALPVLGSGVGGFDFKQAAQIMRDAIRESP",
+                  "midline": "MA +   QGDIT + GDAIVNAANN+L+LGAGVAGAI R GGPSIQ ECDR G I+VGEAA+TGAGNL VR++IHAA +GDEP S  ++R +T ++L+ A + G+K +A  V G+ VGG   +   ++MR+ I+++P"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gb|MFQ6044728.1|",
+                  "accession": "MFQ6044728",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.532,
+                  "score": 397,
+                  "evalue": 1.29458e-45,
+                  "identity": 76,
+                  "positive": 99,
+                  "query_from": 8,
+                  "query_to": 138,
+                  "hit_from": 9,
+                  "hit_to": 139,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "EGDITAYDGDAIVNAANNHLQLGAGVAGAIRRAGGPTIQQECNRHGPIRVGEAAITGAGELAARYVIHAAAMGDEPVSARSIRESTQASLRLAAEYGVKRIAFPILGTGVGGFDFEEAARLMRDAVGDSAD",
+                  "midline": "+GDIT + GDAIVNAANN+L+LGAGVAGAI R GGP+IQ+EC+R G IRVGEAA+TGAG L  RYVIHAA +GDEP S  ++R++T+++L  A E G+K +AF + G  VGG   E   R+MR+ +  + D"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|UCF40079.1|",
+                  "accession": "UCF40079",
+                  "title": "MAG: macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.147,
+                  "score": 396,
+                  "evalue": 1.92111e-45,
+                  "identity": 78,
+                  "positive": 106,
+                  "query_from": 8,
+                  "query_to": 147,
+                  "hit_from": 9,
+                  "hit_to": 150,
+                  "align_len": 142,
+                  "gaps": 2,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAP--DTLEVTGVHG",
+                  "hseq": "QGDITSYEGDAVVNAANNHLQLGAGVAGAIRRAGGPAIQQECDRRGSIRVGQAAITGAGGMAARYVIHAAVMGDEPVSERSIRESTEASLELAARHLVRRIAFPVLGSGVGGFDFERAATIMRDTVRASSHADTLEEIVFYG",
+                  "midline": "QGDIT ++GDA+VNAANN+L+LGAGVAGAI R GGP+IQ+ECDR G IRVG+AA+TGAG +  RYVIHAAV+GDEP S  ++R++T+++LE A    ++ +AF V G+ VGG   E    +MR+ ++ +   DTLE    +G"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "dbj|GIW52956.1|",
+                  "accession": "GIW52956",
+                  "title": "MAG: hypothetical protein KatS3mg081_2311 [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 156.762,
+                  "score": 395,
+                  "evalue": 2.324e-45,
+                  "identity": 78,
+                  "positive": 104,
+                  "query_from": 3,
+                  "query_to": 142,
+                  "hit_from": 4,
+                  "hit_to": 143,
+                  "align_len": 140,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEV",
+                  "hseq": "RILVKQGDITSYKGDAIVNAANNRLKLGAGVAGAIRKAGGPSIQEECDRHGPIKVGEAAITGAGRLPVKFVIHAAAMGDEPVSERSIREATLASLRLAAKHGVKRIAFPILGSGVAGFDFKRAAEIMLEAVRSSPEAQQL",
+                  "midline": "RI   QGDIT ++GDAIVNAANN LKLGAGVAGAI + GGPSIQEECDR G I+VGEAA+TGAG LPV++VIHAA +GDEP S  ++R+AT ++L  A + G+K +AF + G+ V G   +    +M E ++ +P+  ++"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gb|MGD8726641.1|",
+                  "accession": "MGD8726641",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 155.992,
+                  "score": 393,
+                  "evalue": 4.3069e-45,
+                  "identity": 76,
+                  "positive": 101,
+                  "query_from": 8,
+                  "query_to": 139,
+                  "hit_from": 9,
+                  "hit_to": 140,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDT",
+                  "hseq": "QGDITTYEGDAIVNAANNRLQLGAGVAGAIRKAGGPSIQEECDRHGPIRVGQAAITGGGNLPVRWVIHAAAMGDAPVSTRSIRESTEASLALAVEHGIERLAFPVLGSGIGGFGFREAATIMRDTVRDSKYT",
+                  "midline": "QGDIT ++GDAIVNAANN L+LGAGVAGAI + GGPSIQEECDR G IRVG+AA+TG GNLPVR+VIHAA +GD P S  ++R++T+++L  AVE G++ +AF V G+ +GG        +MR+ ++ +  T"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|MGD2154177.1|",
+                  "accession": "MGD2154177",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 154.066,
+                  "score": 388,
+                  "evalue": 2.02158e-44,
+                  "identity": 79,
+                  "positive": 97,
+                  "query_from": 3,
+                  "query_to": 134,
+                  "hit_from": 6,
+                  "hit_to": 137,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "KIRVEKGDITEFRGDAIVNAANNRLLLGTGVAGAIARKGGPSIQQQCDEHGPIRVGEAAITGAGDLAARYVIHAAAMGDEPASRVSIEGATRDSLRLADENGIKTIAFPILAAGVAGFPVDEAAAIMVAAIR",
+                  "midline": "+IR  +GDITEF+GDAIVNAANN L LG GVAGAI RKGGPSIQ++CD  G IRVGEAA+TGAG+L  RYVIHAA +GDEPAS  ++  AT+ +L  A E G+KT+AF +  A V G P +    +M   I+"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "tpg|HKI95100.1|",
+                  "accession": "HKI95100",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 154.451,
+                  "score": 389,
+                  "evalue": 2.0718e-44,
+                  "identity": 83,
+                  "positive": 100,
+                  "query_from": 3,
+                  "query_to": 145,
+                  "hit_from": 4,
+                  "hit_to": 146,
+                  "align_len": 143,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGV",
+                  "hseq": "RIRVRQGDITTFEGDAIVNAANNRLVLGAGVAGAIRRAGGPTIQEECDRHDPIDVGEAALTGAGKLGVKYVIHAAAMGDRPASEETIHDATTASLRLAAQHGIATIAFPVLGSGVAGFPFRRAAEVMLDAIRASRDADDIETV",
+                  "midline": "RIR  QGDIT F+GDAIVNAANN L LGAGVAGAI R GGP+IQEECDR   I VGEAA+TGAG L V+YVIHAA +GD PAS ET+  AT ++L  A + G+ T+AF V G+ V G P      VM + I+ + D  ++  V"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gb|MGD8700104.1|",
+                  "accession": "MGD8700104",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 154.451,
+                  "score": 389,
+                  "evalue": 2.67405e-44,
+                  "identity": 83,
+                  "positive": 107,
+                  "query_from": 3,
+                  "query_to": 160,
+                  "hit_from": 6,
+                  "hit_to": 162,
+                  "align_len": 158,
+                  "gaps": 1,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRARL",
+                  "hseq": "KISVAQGDITEFQGDAIVNAANNRLILGAGVAGAIARKGGPTIQEECNKHGPIRVGQAAITGGGELAARYVIHAAAMGDEPASRLSIEGSTRHSLKLADEVGAKTIAFPILASGVAGFALEEATRIMLASVRAYLATVD-TGIEEITLYGYSPADAEL",
+                  "midline": "+I   QGDITEFQGDAIVNAANN L LGAGVAGAI RKGGP+IQEEC++ G IRVG+AA+TG G L  RYVIHAA +GDEPAS  ++  +T+ +L+ A E+G KT+AF +  + V G   E   R+M   ++    T++ TG+        +P  A L"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gb|MBI4882300.1|",
+                  "accession": "MBI4882300",
+                  "title": "macro domain-containing protein [Planctomycetota bacterium]",
+                  "taxid": 2026780,
+                  "sciname": "Planctomycetota bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 153.68,
+                  "score": 387,
+                  "evalue": 4.065e-44,
+                  "identity": 84,
+                  "positive": 102,
+                  "query_from": 3,
+                  "query_to": 141,
+                  "hit_from": 4,
+                  "hit_to": 146,
+                  "align_len": 143,
+                  "gaps": 4,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEI----KKAPDTLE",
+                  "hseq": "RIHLHQGDLTDFRGDAIVNAANNRLILGSGVAGAIRRKGGPAIQEECDAIGRIEVGEAAITGAGKLPCRRVIHAAAMGDEPVSEDTLRAATRNSLLRAEENGCRTLAFPAIGTGVGGYSVRRCAEVMLAEVSAYLKKARGVVE",
+                  "midline": "RI   QGD+T+F+GDAIVNAANN L LG+GVAGAI RKGGP+IQEECD IG+I VGEAA+TGAG LP R VIHAA +GDEP S +T+R AT+++L +A E G +T+AF   G  VGG        VM  E+    KKA   +E"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gb|MGD2134924.1|",
+                  "accession": "MGD2134924",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 153.68,
+                  "score": 387,
+                  "evalue": 4.11873e-44,
+                  "identity": 78,
+                  "positive": 96,
+                  "query_from": 8,
+                  "query_to": 139,
+                  "hit_from": 9,
+                  "hit_to": 140,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDT",
+                  "hseq": "QGDITSYDGDAIVNAANNHLQLGAGVAGAIRRAGGPTIQEECDRHGPIRVGQAAITDAGDLAVRWVIHAAAMGDEPVSERSIRDSTSHSLTLAAEHGATRIAFPVLGTGVGGFDFQRAAALMREAIEASDDT",
+                  "midline": "QGDIT + GDAIVNAANN+L+LGAGVAGAI R GGP+IQEECDR G IRVG+AA+T AG+L VR+VIHAA +GDEP S  ++R +T  +L  A E G   +AF V G  VGG   +    +MRE I+ + DT"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "tpg|HEY8484023.1|",
+                  "accession": "HEY8484023",
+                  "title": "macro domain-containing protein [Longimicrobiales bacterium]",
+                  "taxid": 2910168,
+                  "sciname": "Longimicrobiales bacterium"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 153.68,
+                  "score": 387,
+                  "evalue": 4.39475e-44,
+                  "identity": 83,
+                  "positive": 99,
+                  "query_from": 4,
+                  "query_to": 135,
+                  "hit_from": 2,
+                  "hit_to": 137,
+                  "align_len": 136,
+                  "gaps": 4,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK",
+                  "hseq": "VRVEQGDITGFTGDAIVNAANNHLQLGAGVAGAIRRRGGPSIQAECDAYIREHGPIRVGEAVATGAGELGVRWVIHAAAMGDEPASERSIREATASALRVARELGVRSIAFPILGAGVGGFPFRRSAEIMLEAIAE",
+                  "midline": "+R  QGDIT F GDAIVNAANN+L+LGAGVAGAI R+GGPSIQ ECD      G IRVGEA  TGAG L VR+VIHAA +GDEPAS  ++R+AT SAL  A ELG++++AF + GA VGG P      +M E I +"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|MEJ2237259.1|",
+                  "accession": "MEJ2237259",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 153.68,
+                  "score": 387,
+                  "evalue": 4.49423e-44,
+                  "identity": 75,
+                  "positive": 103,
+                  "query_from": 1,
+                  "query_to": 137,
+                  "hit_from": 1,
+                  "hit_to": 137,
+                  "align_len": 137,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAP",
+                  "hseq": "MAVLRVRQGDITEYDGDAMVNAANNHLQLGTGVAGAIRRAGGKAVQEECDRHGPIRVGEAAITGAGDLSVRWIIHAAAMGDEPVSERSIRLSTLASLKLAAERGMKRIAFPVLGSGVGSFDFKHAAEIMHDAVRESP",
+                  "midline": "MA +R  QGDITE+ GDA+VNAANN+L+LG GVAGAI R GG ++QEECDR G IRVGEAA+TGAG+L VR++IHAA +GDEP S  ++R +T ++L+ A E G+K +AF V G+ VG    +    +M + ++++P"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gb|UCG88647.1|",
+                  "accession": "UCG88647",
+                  "title": "MAG: macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 153.295,
+                  "score": 386,
+                  "evalue": 4.88287e-44,
+                  "identity": 75,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 136,
+                  "hit_from": 1,
+                  "hit_to": 136,
+                  "align_len": 136,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKA",
+                  "hseq": "MARLSVRQGDITTYDGDAIVNAANNHLQLGAGVAGAIRRSGGPAIQEECDRHGPIRVGEAALTGAGKLAVSWVVHAAAMGDEAVSERSIRESTMASLSLAAEHGIRRIAFPVLGSGIGGFEFKVAAEIMRDAVRQS",
+                  "midline": "MAR+   QGDIT + GDAIVNAANN+L+LGAGVAGAI R GGP+IQEECDR G IRVGEAA+TGAG L V +V+HAA +GDE  S  ++R++T ++L  A E G++ +AF V G+ +GG   +    +MR+ ++++"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|KPJ84626.1|",
+                  "accession": "KPJ84626",
+                  "title": "MAG: Appr-1-p processing protein [Gemmatimonas sp. SG8_17]",
+                  "taxid": 1703355,
+                  "sciname": "Gemmatimonas sp. SG8_17"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.525,
+                  "score": 384,
+                  "evalue": 9.23108e-44,
+                  "identity": 84,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 143,
+                  "hit_from": 1,
+                  "hit_to": 146,
+                  "align_len": 146,
+                  "gaps": 3,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK---KAPDTLEVT",
+                  "hseq": "MAALSVRQGDITTYDGDAIVNAANNHLQLGAGVAGAIRRAGGPAIQEECDRHGPIRVGQAAITGAGSLAVKWVIHAAAMGDEPVSELSIRDSTLASLALAVEHGARRVAFPVLGAGVGGFDLRHAAETMRDAIRGSAQAPMLDEVV",
+                  "midline": "MA +   QGDIT + GDAIVNAANN+L+LGAGVAGAI R GGP+IQEECDR G IRVG+AA+TGAG+L V++VIHAA +GDEP S  ++R +T ++L  AVE G + VAF V GA VGG         MR+ I+   +AP   EV "
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gb|MDH3290273.1|",
+                  "accession": "MDH3290273",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.754,
+                  "score": 382,
+                  "evalue": 1.819e-43,
+                  "identity": 80,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 160,
+                  "align_len": 160,
+                  "gaps": 4,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGV----HGTEKSAEAPR",
+                  "hseq": "MPRILVRQGDITSYGGDAIVNAANNHLQLGAGVAGAIRRAGGSTIQEECDRLGPIRVGAAAITGAGTLSARWVIHAAAMGDEPVSERSIRESTLASLDLAAQHGAQRIAFLVLGSGIGGFDFVRAATIMRDAVIESPAVAALQEIVFYGYGAEAAAELSR",
+                  "midline": "M RI   QGDIT + GDAIVNAANN+L+LGAGVAGAI R GG +IQEECDR+G IRVG AA+TGAG L  R+VIHAA +GDEP S  ++R++T ++L+ A + G + +AF V G+ +GG        +MR+ + ++P    +  +    +G E +AE  R"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gb|MEE8133499.1|",
+                  "accession": "MEE8133499",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.754,
+                  "score": 382,
+                  "evalue": 2.57288e-43,
+                  "identity": 78,
+                  "positive": 97,
+                  "query_from": 8,
+                  "query_to": 138,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "QGDITSYTGDAIVNAANNHLVLGSGVAGAIRAAGGPSIQAECTRHGRIKVGEAAITGAGNLRVRYVIHAATMGDEPASARSIQEATAASLVLAVGHDVKRIAFPVLGAGVAGFPFAESATIMRDTILGSPN",
+                  "midline": "QGDIT + GDAIVNAANN+L LG+GVAGAI   GGPSIQ EC R G+I+VGEAA+TGAGNL VRYVIHAA +GDEPAS  ++++AT ++L  AV   +K +AF V GA V G P      +MR+ I  +P+"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gb|MCH7874280.1|",
+                  "accession": "MCH7874280",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.599,
+                  "score": 379,
+                  "evalue": 5.23837e-43,
+                  "identity": 82,
+                  "positive": 101,
+                  "query_from": 1,
+                  "query_to": 142,
+                  "hit_from": 1,
+                  "hit_to": 142,
+                  "align_len": 142,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEV",
+                  "hseq": "MLRITVRQGDITTFQGDAVVNAANNHLVLGAGVAGAIRRAGGPSIQEECDRHGPIAVGEAAITGAGDLAVRHVIHAAAMGDEPVSSDTIRNSTAASLALAAAHELKRIAMPVLGSGVGGFDLRESAQIMLAAIRESPHAAEL",
+                  "midline": "M RI   QGDIT FQGDA+VNAANN+L LGAGVAGAI R GGPSIQEECDR G I VGEAA+TGAG+L VR+VIHAA +GDEP S +T+R +T ++L  A    LK +A  V G+ VGG       ++M   I+++P   E+"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gb|RJP14550.1|",
+                  "accession": "RJP14550",
+                  "title": "MAG: Appr-1-p processing protein [Candidatus Abyssobacteria bacterium SURF_5]",
+                  "taxid": 2093360,
+                  "sciname": "Candidatus Abyssobacteria bacterium SURF_5"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.984,
+                  "score": 380,
+                  "evalue": 6.51845e-43,
+                  "identity": 74,
+                  "positive": 103,
+                  "query_from": 4,
+                  "query_to": 141,
+                  "hit_from": 8,
+                  "hit_to": 149,
+                  "align_len": 142,
+                  "gaps": 4,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVM----REEIKKAPDTLE",
+                  "hseq": "ISIVRGDITELEVDAIVNAANNHLILGAGVAGAIRSKGGPTIQEECDKIGRIEIGEAAITGAGRLPAKYVIHAASMGDEPVSERSLRDSVRNSLLRGEEAGVRSIAFPAIGTGIGGFPIERCAEIMIGLARQHLQQNDSTIQ",
+                  "midline": "I  V+GDITE + DAIVNAANN+L LGAGVAGAI  KGGP+IQEECD+IG+I +GEAA+TGAG LP +YVIHAA +GDEP S  ++R + +++L +  E G++++AF   G  +GG P E    +M    R+ +++   T++"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gb|MDH3456924.1|",
+                  "accession": "MDH3456924",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.984,
+                  "score": 380,
+                  "evalue": 7.17735e-43,
+                  "identity": 78,
+                  "positive": 97,
+                  "query_from": 8,
+                  "query_to": 143,
+                  "hit_from": 22,
+                  "hit_to": 157,
+                  "align_len": 136,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVT",
+                  "hseq": "QGDITTYDGDAIVNAANNHLQLGAGVAGAVRRAGGPAIQEECDRHGSIRVGQAALTGAGRLRVRRIIHAAAMGDEPVSERSIRDCTLASLALAAQHDLQRVAFPVLGSGVGGFDFERAATVMRDAIHACKDAPQLT",
+                  "midline": "QGDIT + GDAIVNAANN+L+LGAGVAGA+ R GGP+IQEECDR G IRVG+AA+TGAG L VR +IHAA +GDEP S  ++R  T ++L  A +  L+ VAF V G+ VGG   E    VMR+ I    D  ++T"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "tpg|HSR40909.1|",
+                  "accession": "HSR40909",
+                  "title": "macro domain-containing protein [Longimicrobiales bacterium]",
+                  "taxid": 2910168,
+                  "sciname": "Longimicrobiales bacterium"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.599,
+                  "score": 379,
+                  "evalue": 7.51935e-43,
+                  "identity": 81,
+                  "positive": 95,
+                  "query_from": 4,
+                  "query_to": 134,
+                  "hit_from": 5,
+                  "hit_to": 139,
+                  "align_len": 135,
+                  "gaps": 4,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "IRVEQGDISAFAGDAVVNAANNHLVLGTGVAGAIARRGGPSIQAECDEIIRRRGPLEVGGAAVTGAGNLPARLVIHAATMGDRPASVESIRSATEESLRLATRESATTVAFPVLGSGVGGVPFEESARTMIEVIR",
+                  "midline": "IR  QGDI+ F GDA+VNAANN+L LG GVAGAI R+GGPSIQ ECD I    G + VG AAVTGAGNLP R VIHAA +GD PAS+E++R AT+ +L  A      TVAF V G+ VGG+P E   R M E I+"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gb|MBX6363095.1|",
+                  "accession": "MBX6363095",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.599,
+                  "score": 379,
+                  "evalue": 7.68508e-43,
+                  "identity": 81,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 125,
+                  "align_len": 125,
+                  "gaps": 4,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECD----RIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLP",
+                  "hseq": "MARVRVATGDLTGFDGDAVVNAANNHLVLGAGVARAIRRRGGPRIQEECDAYVRRHGPIRVGEAVATTAGELPARWVIHAAAMGDEPASARTIRDATASALRVASELGVRRVAFPVLGSGVGGVP",
+                  "midline": "MAR+R   GD+T F GDA+VNAANN+L LGAGVA AI R+GGP IQEECD    R G IRVGEA  T AG LP R+VIHAA +GDEPAS  T+R AT SAL  A ELG++ VAF V G+ VGG+P"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gb|KPK65248.1|",
+                  "accession": "KPK65248",
+                  "title": "MAG: Appr-1-p processing protein [Gemmatimonas sp. SG8_38_2]",
+                  "taxid": 1703358,
+                  "sciname": "Gemmatimonas sp. SG8_38_2"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.214,
+                  "score": 378,
+                  "evalue": 1.18696e-42,
+                  "identity": 76,
+                  "positive": 96,
+                  "query_from": 4,
+                  "query_to": 134,
+                  "hit_from": 7,
+                  "hit_to": 137,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "IRVERGDITEFTGDAIVNAANNQLRLGSGVAGAIRRKGGPSIQQECYAHGPIHVGEAAITRAGDLPARFVIHAAAMGDEPASLASIEGSTRQSLELAEDHDVRTIAFPILASGVAGFPLEEATRTMLRVIR",
+                  "midline": "IR  +GDITEF GDAIVNAANN L+LG+GVAGAI RKGGPSIQ+EC   G I VGEAA+T AG+LP R+VIHAA +GDEPASL ++  +T+ +LE A +  ++T+AF +  + V G P E   R M   I+"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "tpg|HET9983833.1|",
+                  "accession": "HET9983833",
+                  "title": "macro domain-containing protein [Longimicrobiales bacterium]",
+                  "taxid": 2910168,
+                  "sciname": "Longimicrobiales bacterium"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.058,
+                  "score": 375,
+                  "evalue": 3.20444e-42,
+                  "identity": 80,
+                  "positive": 94,
+                  "query_from": 1,
+                  "query_to": 134,
+                  "hit_from": 1,
+                  "hit_to": 138,
+                  "align_len": 138,
+                  "gaps": 4,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "MGAVRIVTGDITGFDGDAVVNAANNHLVLGAGVAGAIRRRGGPRVQEECDAYVRQHGPIRVGAAVATTAGELPARWVIHAAAMGDEPASERTIRDATASALQVASELGARRVAFPVLGSGVAGFPLRQAAQAMLEAVR",
+                  "midline": "M  +R V GDIT F GDA+VNAANN+L LGAGVAGAI R+GGP +QEECD      G IRVG A  T AG LP R+VIHAA +GDEPAS  T+R AT SAL+ A ELG + VAF V G+ V G P     + M E ++"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "tpg|HXY19524.1|",
+                  "accession": "HXY19524",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.673,
+                  "score": 374,
+                  "evalue": 3.44582e-42,
+                  "identity": 75,
+                  "positive": 97,
+                  "query_from": 4,
+                  "query_to": 136,
+                  "hit_from": 2,
+                  "hit_to": 134,
+                  "align_len": 133,
+                  "gaps": 0,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKA",
+                  "hseq": "IRAARGDITTYAGCAIVNAANNHLRLGAGVAGAIARRGGPAIQAECDRHGPIRVGEAALTGAGDLPCRYVIHAAAMGDEPVSERSIRRSTFASLRLAGDHGIADLAFPILGTGVGGFPFRRAVEIMVAAARQA",
+                  "midline": "IR  +GDIT + G AIVNAANN+L+LGAGVAGAI R+GGP+IQ ECDR G IRVGEAA+TGAG+LP RYVIHAA +GDEP S  ++R++T ++L  A + G+  +AF + G  VGG P      +M    ++A"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "tpg|HSG82537.1|",
+                  "accession": "HSG82537",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.673,
+                  "score": 374,
+                  "evalue": 3.53841e-42,
+                  "identity": 77,
+                  "positive": 92,
+                  "query_from": 9,
+                  "query_to": 134,
+                  "hit_from": 1,
+                  "hit_to": 126,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "GDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "GDITEFAGDAIVNAANNRLILGAGVAGAIRDKGGPSIQRECDEHGPIRVGEAAITGAGALTTRHVIHAAAMGDEPASRTSIQDATRNSLRLADEHGIKTLAFPILASGVAGFPLAEATRIMMTAIR",
+                  "midline": "GDITEF GDAIVNAANN L LGAGVAGAI  KGGPSIQ ECD  G IRVGEAA+TGAG L  R+VIHAA +GDEPAS  +++ AT+++L  A E G+KT+AF +  + V G P     R+M   I+"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gb|MDH4043409.1|",
+                  "accession": "MDH4043409",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.902,
+                  "score": 372,
+                  "evalue": 6.29064e-42,
+                  "identity": 81,
+                  "positive": 102,
+                  "query_from": 3,
+                  "query_to": 147,
+                  "hit_from": 4,
+                  "hit_to": 150,
+                  "align_len": 147,
+                  "gaps": 2,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD--TLEVTGVHG",
+                  "hseq": "RIRVRQGDLTTFEGDAIVNAANDRLILGAGVAGAIRQAGGPTIQAECDRHGPIRMGEAMVTGAGKLPVRHVIHAAIMGDEPTDLTTIARATAAVLRLAAELGVARLAMPILGSGVGRIPLLDAAGAMIETIHASADAESIEVIVLFG",
+                  "midline": "RIR  QGD+T F+GDAIVNAAN+ L LGAGVAGAI + GGP+IQ ECDR G IR+GEA VTGAG LPVR+VIHAA++GDEP  L T+ +AT + L  A ELG+  +A  + G+ VG +P       M E I  + D  ++EV  + G"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gb|MEK6768275.1|",
+                  "accession": "MEK6768275",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.902,
+                  "score": 372,
+                  "evalue": 7.23083e-42,
+                  "identity": 80,
+                  "positive": 104,
+                  "query_from": 4,
+                  "query_to": 152,
+                  "hit_from": 2,
+                  "hit_to": 152,
+                  "align_len": 151,
+                  "gaps": 2,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK--APDTLEVTGVHGTEKSA",
+                  "hseq": "IRVAQGDITGYAGSAIVNAANNRLILGAGVAGAIARQGGPGIQDECSQHGPIKVGEAALTGAGDLPCRFVIHAAAMGDEPASERSIRAATRSSMLLAAGHGIRDVAFPILGTGVAGFPFRRAVELMVEAIRETSAPGGVDDVVLYGFTSSA",
+                  "midline": "IR  QGDIT + G AIVNAANN L LGAGVAGAI R+GGP IQ+EC + G I+VGEAA+TGAG+LP R+VIHAA +GDEPAS  ++R AT+S++  A   G++ VAF + G  V G P      +M E I++  AP  ++   ++G   SA"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|MFQ5538037.1|",
+                  "accession": "MFQ5538037",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.902,
+                  "score": 372,
+                  "evalue": 8.95825e-42,
+                  "identity": 82,
+                  "positive": 99,
+                  "query_from": 1,
+                  "query_to": 135,
+                  "hit_from": 1,
+                  "hit_to": 139,
+                  "align_len": 139,
+                  "gaps": 4,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECD----RIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK",
+                  "hseq": "MVEIEVRQGDITSFDGDAVVNAANNRLILGAGVAGAIRARGGPSIQEECNEYVRRRGPLRVGQAAVTGAGALPARWVIHAAAMGDVPPSGSTIAEATRSALELARDHGMKSVAFPVLGSGVGGFEFRTAAGVMLDEIRR",
+                  "midline": "M  I   QGDIT F GDA+VNAANN L LGAGVAGAI  +GGPSIQEEC+    R G +RVG+AAVTGAG LP R+VIHAA +GD P S  T+ +AT+SALE A + G+K+VAF V G+ VGG        VM +EI++"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|MEE8193530.1|",
+                  "accession": "MEE8193530",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 1.33123e-41,
+                  "identity": 77,
+                  "positive": 96,
+                  "query_from": 1,
+                  "query_to": 138,
+                  "hit_from": 2,
+                  "hit_to": 139,
+                  "align_len": 138,
+                  "gaps": 0,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "MPSISVRQGDITTFEGDAVVNAANNHLKLGSGVAGAIRRAGGPSIQGECDRHGPIAVGEAAVTGAGNMRARWVIHAAAMGDEPVSERSIRDSTIASLELAAAQGAKSIAFPVLGSGIAGFDFDRAAAIMLDAIGGCAD",
+                  "midline": "M  I   QGDIT F+GDA+VNAANN+LKLG+GVAGAI R GGPSIQ ECDR G I VGEAAVTGAGN+  R+VIHAA +GDEP S  ++R +T ++LE A   G K++AF V G+ + G   +    +M + I    D"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gb|MGD8319179.1|",
+                  "accession": "MGD8319179",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 1.91475e-41,
+                  "identity": 76,
+                  "positive": 98,
+                  "query_from": 4,
+                  "query_to": 134,
+                  "hit_from": 5,
+                  "hit_to": 139,
+                  "align_len": 135,
+                  "gaps": 4,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "VRVEQGDIATFDGDAVVNAANNHLVLGAGVAGAIQRRGGPSIQAECDDYVRSNGPLQVGEAVVTGAGDLPCRWVIHAASMGDVPPSSESIRSSTRHSLRLAMEKGMESVAFPVLGSGIGGFAFHEAGRIMLEEIR",
+                  "midline": "+R  QGDI  F GDA+VNAANN+L LGAGVAGAI R+GGPSIQ ECD      G ++VGEA VTGAG+LP R+VIHAA +GD P S E++R +T+ +L  A+E G+++VAF V G+ +GG       R+M EEI+"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|MGD2120243.1|",
+                  "accession": "MGD2120243",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 3.07495e-41,
+                  "identity": 81,
+                  "positive": 106,
+                  "query_from": 2,
+                  "query_to": 157,
+                  "hit_from": 3,
+                  "hit_to": 166,
+                  "align_len": 164,
+                  "gaps": 8,
+                  "qseq": "ARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKA----PDTLEVTGVHGTEKSAEAPRR",
+                  "hseq": "AIVRVVDGDISTFEGDAVVNAANNHLRLGTGVAGALARRGGGAIQEECDEILRRDGPIEVGGAAITGAGKLRARFVIHAAAMGDLPVTPESIRNATRSALELAEQHGARSIAFPVLGTGVGGFPFSEAARIMVDEVRDFVSTDPDMESIIFYGYTPDQAATLRR",
+                  "midline": "A +R V GDI+ F+GDA+VNAANN+L+LG GVAGA+ R+GG +IQEECD I    G I VG AA+TGAG L  R+VIHAA +GD P + E++R AT+SALE A + G +++AF V G  VGG P     R+M +E++      PD   +     T   A   RR"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|MFH1765527.1|",
+                  "accession": "MFH1765527",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 3.82348e-41,
+                  "identity": 76,
+                  "positive": 99,
+                  "query_from": 2,
+                  "query_to": 139,
+                  "hit_from": 3,
+                  "hit_to": 144,
+                  "align_len": 142,
+                  "gaps": 4,
+                  "qseq": "ARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDT",
+                  "hseq": "AIVRVVEGDISTFEGDAVVNAANNHLRMGSGVAGALARSGGGVIQEECDEILRRDGPLEVGGAAITGGGKLRARFVIHAAAMGDLPVTPESIRNATRSSLELAEENGLLSIAFPILGTGVGGFPFSEAARIMVEEIKDFIST",
+                  "midline": "A +R V+GDI+ F+GDA+VNAANN+L++G+GVAGA+ R GG  IQEECD I    G + VG AA+TG G L  R+VIHAA +GD P + E++R AT+S+LE A E GL ++AF + G  VGG P     R+M EEIK    T"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gb|MCG6989270.1|",
+                  "accession": "MCG6989270",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 4.25217e-41,
+                  "identity": 80,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 152,
+                  "hit_from": 1,
+                  "hit_to": 162,
+                  "align_len": 162,
+                  "gaps": 10,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVM----RE--EIKKAPDTLEVTGVHGTEKSA",
+                  "hseq": "MSRIRVEQGDISGFGGDGVVNAANNHLRMGAGVAGALNRRGGHLIQQECDEYVRAHGPLRVGEAAVTGGGNLPARWVIHAAAMGDTPPSATSIESSTRHSLRLAEEHGMKSVAFPVLGSGIGGFPFAEAARIMVGVIREHGEAHELPEDVVLYGYNETDAAA",
+                  "midline": "M+RIR  QGDI+ F GD +VNAANN+L++GAGVAGA+ R+GG  IQ+ECD      G +RVGEAAVTG GNLP R+VIHAA +GD P S  ++  +T+ +L  A E G+K+VAF V G+ +GG P     R+M    RE  E  + P+ + + G + T+ +A"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gb|MDH5758023.1|",
+                  "accession": "MDH5758023",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 168,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 7.36995e-41,
+                  "identity": 83,
+                  "positive": 109,
+                  "query_from": 4,
+                  "query_to": 157,
+                  "hit_from": 5,
+                  "hit_to": 166,
+                  "align_len": 164,
+                  "gaps": 12,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK------APDTLEVTGVHGTEKSAEAPRR",
+                  "hseq": "IRVEQGDITSFEGDGVVNAANNHLQLGAGVAGAIREKGGHQIQEECDLYVRTHGPLRLGEAAVTGAGNLRARWVIHAAAMGDERPSEDSIRRSARRALFLAAEHQMNSIAFPVLGSGVGGFPFESAARYIIEEIREHSREHPLPEIVVLYGY--TETDAQTLRR",
+                  "midline": "IR  QGDIT F+GD +VNAANN+L+LGAGVAGAI  KGG  IQEECD      G +R+GEAAVTGAGNL  R+VIHAA +GDE  S +++R++ + AL  A E  + ++AF V G+ VGG P E+  R + EEI++       P+ + + G   TE  A+  RR"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "dbj|GAB4333119.1|",
+                  "accession": "GAB4333119",
+                  "title": "MAG: hypothetical protein Kow0099_04970 [Candidatus Abyssubacteria bacterium]",
+                  "taxid": 2093359,
+                  "sciname": "Candidatus Abyssubacteria bacterium"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 9.67326e-41,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 4,
+                  "query_to": 131,
+                  "hit_from": 25,
+                  "hit_to": 152,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMRE",
+                  "hseq": "IEILQADITSLEVDAIVNAANNHLVLGAGVAGAIRKKGGPSIQEECNRIGPIKVGEAAITGAGNLPAKYVIHAASMGDEPVSERSLRDSVKNSLLRGEEAKISSIAFPAIGTGVGGFSMKRCAEIMLE",
+                  "midline": "I  +Q DIT  + DAIVNAANN+L LGAGVAGAI +KGGPSIQEEC+RIG I+VGEAA+TGAGNLP +YVIHAA +GDEP S  ++R + K++L +  E  + ++AF   G  VGG   +    +M E"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "tpg|HEX9886631.1|",
+                  "accession": "HEX9886631",
+                  "title": "macro domain-containing protein [Longimicrobiales bacterium]",
+                  "taxid": 2910168,
+                  "sciname": "Longimicrobiales bacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.206,
+                  "score": 365,
+                  "evalue": 1.01074e-40,
+                  "identity": 79,
+                  "positive": 114,
+                  "query_from": 4,
+                  "query_to": 157,
+                  "hit_from": 5,
+                  "hit_to": 166,
+                  "align_len": 162,
+                  "gaps": 8,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEEC-DRI---GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTG---VHG-TEKSAEAPRR",
+                  "hseq": "IRVEEGDISSFDGDAVVNAANNHLIMGSGVAGALGRRGGPTIQADCQERVHSKGPLELGEAAVTGSGDLPCGIVIHAAAMGDQPPTAETIRTATRNALRLALEQGVQSIAFPVLGSGVGGFPFDQAARLMLEEINDHGATFTMPASVVIYGFTPEQAQALRR",
+                  "midline": "IR  +GDI+ F GDA+VNAANN+L +G+GVAGA+ R+GGP+IQ +C +R+   G + +GEAAVTG+G+LP   VIHAA +GD+P + ET+R AT++AL  A+E G++++AF V G+ VGG P +   R+M EEI     T  +     ++G T + A+A RR"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gb|MDH5589486.1|",
+                  "accession": "MDH5589486",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 149,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.436,
+                  "score": 363,
+                  "evalue": 1.14328e-40,
+                  "identity": 76,
+                  "positive": 98,
+                  "query_from": 4,
+                  "query_to": 135,
+                  "hit_from": 5,
+                  "hit_to": 140,
+                  "align_len": 136,
+                  "gaps": 4,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK",
+                  "hseq": "IRVEQGDITSFEGDGVVNAANNHLQLGAGVAGAIREKGGHQIQEECDLYVRTHGPLRLGEAAVTGAGNLRARWVIHAAAMGDERPSEDSIRRSARRALFLAAEHQMNSIAFPVLGSGVGGFPFESAARYIIEEIRE",
+                  "midline": "IR  QGDIT F+GD +VNAANN+L+LGAGVAGAI  KGG  IQEECD      G +R+GEAAVTGAGNL  R+VIHAA +GDE  S +++R++ + AL  A E  + ++AF V G+ VGG P E+  R + EEI++"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gb|MCX5655092.1|",
+                  "accession": "MCX5655092",
+                  "title": "macro domain-containing protein [Planctomycetota bacterium]",
+                  "taxid": 2026780,
+                  "sciname": "Planctomycetota bacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 1.25668e-40,
+                  "identity": 80,
+                  "positive": 99,
+                  "query_from": 2,
+                  "query_to": 141,
+                  "hit_from": 5,
+                  "hit_to": 148,
+                  "align_len": 144,
+                  "gaps": 4,
+                  "qseq": "ARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLG-DEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK---KAPDTLE",
+                  "hseq": "SKIRIVQGDLTEQDADAIVNAANNNLQLGGGVAGAIRRKGGPAIQQECDRIGPIPLGEAAITTGGNLKARYVIHAASMALGEMTSEKNLRLATRNSLLRAREKGLKSIAFPAIGTGIAGFPMRRCAEVMLEEVAAHLKGPTTLE",
+                  "midline": "++IR VQGD+TE   DAIVNAANN L+LG GVAGAI RKGGP+IQ+ECDRIG I +GEAA+T  GNL  RYVIHAA +   E  S + +R AT+++L +A E GLK++AF   G  + G P      VM EE+    K P TLE"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gb|MCG6957927.1|",
+                  "accession": "MCG6957927",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 1.30564e-40,
+                  "identity": 72,
+                  "positive": 98,
+                  "query_from": 1,
+                  "query_to": 138,
+                  "hit_from": 1,
+                  "hit_to": 142,
+                  "align_len": 142,
+                  "gaps": 4,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRI----GKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "MIRIRVERGDISSFRGDGVVNAANNHLRMGGGVAGALLRAGGPLIQQECDDYVRAHGPLEVGGAALTGGGNLPARWVIHAAAMGDTPPTPDSIRSSTRHALRIASEAGMRTLAFPILGTGIGGFPFGDAARLMVAEIRAHAD",
+                  "midline": "M RIR  +GDI+ F+GD +VNAANN+L++G GVAGA+LR GGP IQ+ECD      G + VG AA+TG GNLP R+VIHAA +GD P + +++R +T+ AL  A E G++T+AF + G  +GG P     R+M  EI+   D"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gb|MDH3495296.1|",
+                  "accession": "MDH3495296",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.436,
+                  "score": 363,
+                  "evalue": 1.72324e-40,
+                  "identity": 86,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 160,
+                  "hit_from": 4,
+                  "hit_to": 163,
+                  "align_len": 160,
+                  "gaps": 2,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAP--DTLEVTGVHGTEKSAEAPRRARL",
+                  "hseq": "RIRVRQGDITTFEGDAIVNAANNHLLLGVGVAGAIRQAGGPAIQEECDRHGPILVGDAAITGAGKLPVRYVIHAAVMGDEPVSPAAIQAATAAALKLASEHGVARLGMPILGSGVGRIPIQEAASLMLEAIRRSPHADAVEVIVLFGYREADAAAVEALL",
+                  "midline": "RIR  QGDIT F+GDAIVNAANN+L LG GVAGAI + GGP+IQEECDR G I VG+AA+TGAG LPVRYVIHAAV+GDEP S   ++ AT +AL+ A E G+  +   + G+ VG +P +    +M E I+++P  D +EV  + G  ++  A   A L"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "tpg|HLB35519.1|",
+                  "accession": "HLB35519",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 2.90702e-40,
+                  "identity": 71,
+                  "positive": 95,
+                  "query_from": 8,
+                  "query_to": 138,
+                  "hit_from": 9,
+                  "hit_to": 139,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "QGDITTYDGNALVNAANNHLVLGAGVAGAIRRAGGPAIQAECDRLGPIRVGEAAITGAGRLGVRWVIHAAAMGDQPASERSIHASTAASVRLAAQHGARRIAFPILGSGIGGFDLRRAAAVMLEAIRTTPE",
+                  "midline": "QGDIT + G+A+VNAANN+L LGAGVAGAI R GGP+IQ ECDR+G IRVGEAA+TGAG L VR+VIHAA +GD+PAS  ++  +T +++  A + G + +AF + G+ +GG        VM E I+  P+"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gb|RMH17068.1|",
+                  "accession": "RMH17068",
+                  "title": "MAG: Appr-1-p processing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 4.04958e-40,
+                  "identity": 76,
+                  "positive": 97,
+                  "query_from": 8,
+                  "query_to": 138,
+                  "hit_from": 9,
+                  "hit_to": 143,
+                  "align_len": 135,
+                  "gaps": 4,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECD----RIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "EGDLTTFDGDAVVNAANNHLVLGAGVAGAIARRGGPAVQRACDAHVREHGPIRVGEAVLTPAGDLPARWVIHAAAMGDEPASARSIREATRSALELARAHGLESVAFPVLGTGVAGFDFDEAASIMLVEIRRALD",
+                  "midline": "+GD+T F GDA+VNAANN+L LGAGVAGAI R+GGP++Q  CD      G IRVGEA +T AG+LP R+VIHAA +GDEPAS  ++R+AT+SALE A   GL++VAF V G  V G   +    +M  EI++A D"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "tpg|HTT67207.1|",
+                  "accession": "HTT67207",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.28,
+                  "score": 360,
+                  "evalue": 5.06669e-40,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 4,
+                  "query_to": 138,
+                  "hit_from": 2,
+                  "hit_to": 136,
+                  "align_len": 135,
+                  "gaps": 0,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPD",
+                  "hseq": "IRAARGDITTYAGGAIVNAANNHLRLGAGVAGAIARRGGPAIQAECDRHGAIRVGEAALTGAGDLACRFVIHAATMGDEPVSERSIGAATLASLRLAASRGIADLAFPILGTGIGGFPFRRAVEIMVAAARDAED",
+                  "midline": "IR  +GDIT + G AIVNAANN+L+LGAGVAGAI R+GGP+IQ ECDR G IRVGEAA+TGAG+L  R+VIHAA +GDEP S  ++  AT ++L  A   G+  +AF + G  +GG P      +M    + A D"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "tpg|HVM42003.1|",
+                  "accession": "HVM42003",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 6.09741e-40,
+                  "identity": 75,
+                  "positive": 92,
+                  "query_from": 4,
+                  "query_to": 134,
+                  "hit_from": 2,
+                  "hit_to": 132,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "IRAARGDLTTYAGGAIVNAANNHLVLGAGVAGAIRRHGGPSIQAECDRHGPIRVGEAAITGAGSLPCAHVIHAAAMGDERVSERSIRDATRASLRLAAAHGIHDVAFPVLGTGVGGFPFRRAVEIMVEAVR",
+                  "midline": "IR  +GD+T + G AIVNAANN+L LGAGVAGAI R GGPSIQ ECDR G IRVGEAA+TGAG+LP  +VIHAA +GDE  S  ++R AT+++L  A   G+  VAF V G  VGG P      +M E ++"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|MBI3981978.1|",
+                  "accession": "MBI3981978",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.51,
+                  "score": 358,
+                  "evalue": 9.32465e-40,
+                  "identity": 73,
+                  "positive": 93,
+                  "query_from": 8,
+                  "query_to": 139,
+                  "hit_from": 7,
+                  "hit_to": 138,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDT",
+                  "hseq": "QGDITSFDGNAIVNAANNHLQLGAGVAGAIRRAGGQSIQDECDRHGPIRVGEAAITGGGQLRARWVIHAAAMGDEPVSERSIRESTAASVRLAAAHGITRVAFPVLGTGVGGFDFRRAAGIMRDAIRATAES",
+                  "midline": "QGDIT F G+AIVNAANN+L+LGAGVAGAI R GG SIQ+ECDR G IRVGEAA+TG G L  R+VIHAA +GDEP S  ++R++T +++  A   G+  VAF V G  VGG        +MR+ I+   ++"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gb|MEK6814298.1|",
+                  "accession": "MEK6814298",
+                  "title": "macro domain-containing protein [Nitrospirota bacterium]",
+                  "taxid": 2026887,
+                  "sciname": "Nitrospirota bacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.51,
+                  "score": 358,
+                  "evalue": 1.00546e-39,
+                  "identity": 77,
+                  "positive": 96,
+                  "query_from": 1,
+                  "query_to": 135,
+                  "hit_from": 1,
+                  "hit_to": 136,
+                  "align_len": 136,
+                  "gaps": 1,
+                  "qseq": "MARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLG-DEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK",
+                  "hseq": "MPDIRIVQGDITEMGVDAVVNAANNDLILGSGVAGAIRRRGGPAIQEECHKIGRIAVGEAAVTGGGSLAARYVIHAASMGFSHPTTDESLRASVRNSLLRAEELGIRTVAFPALGTGVSGFPLERCAEIMIGEISD",
+                  "midline": "M  IR VQGDITE   DA+VNAANN L LG+GVAGAI R+GGP+IQEEC +IG+I VGEAAVTG G+L  RYVIHAA +G   P + E++R + +++L +A ELG++TVAF   G  V G P E    +M  EI  "
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gb|MEJ2009684.1|",
+                  "accession": "MEJ2009684",
+                  "title": "macro domain-containing protein [Acidobacteriota bacterium]",
+                  "taxid": 1978231,
+                  "sciname": "Acidobacteriota bacterium"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 1.16403e-39,
+                  "identity": 78,
+                  "positive": 95,
+                  "query_from": 2,
+                  "query_to": 133,
+                  "hit_from": 3,
+                  "hit_to": 135,
+                  "align_len": 134,
+                  "gaps": 3,
+                  "qseq": "ARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAV--LGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEI",
+                  "hseq": "AKIYFMKGDITNMEVDAIVNAANNELKLGAGVAGAIRRKGGPRIQEECDRIGTIRLGEAAVTTAGNLMAYYVVHAASMQLGGKTTA-ETLRSSTRSSLLRAEEKGFKTIAFPAIGTGIAGFPMEECAEIMISEL",
+                  "midline": "A+I  ++GDIT  + DAIVNAANN LKLGAGVAGAI RKGGP IQEECDRIG IR+GEAAVT AGNL   YV+HAA   LG +  + ET+R +T+S+L +A E G KT+AF   G  + G P E    +M  E+"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gb|MBI2073880.1|",
+                  "accession": "MBI2073880",
+                  "title": "macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.739,
+                  "score": 356,
+                  "evalue": 1.60745e-39,
+                  "identity": 76,
+                  "positive": 93,
+                  "query_from": 8,
+                  "query_to": 141,
+                  "hit_from": 9,
+                  "hit_to": 139,
+                  "align_len": 134,
+                  "gaps": 3,
+                  "qseq": "QGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLE",
+                  "hseq": "QGDITTYDGDAIVNAANNHLMLGAGVAGAIRRAGGPTIQEECHRHGPIRVGEAAITGAGRLPIRWVIHAAAMGDEPVSKRSIRDSTAASVRLAARHGARRLAVPMLGTGVGGFDFRRAAEVMLEAIR---DTRE",
+                  "midline": "QGDIT + GDAIVNAANN+L LGAGVAGAI R GGP+IQEEC R G IRVGEAA+TGAG LP+R+VIHAA +GDEP S  ++R +T +++  A   G + +A  + G  VGG        VM E I+   DT E"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "tpg|HKT12223.1|",
+                  "accession": "HKT12223",
+                  "title": "macro domain-containing protein [Terriglobia bacterium]",
+                  "taxid": 2081523,
+                  "sciname": "Terriglobia bacterium"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.124,
+                  "score": 357,
+                  "evalue": 2.33232e-39,
+                  "identity": 80,
+                  "positive": 95,
+                  "query_from": 2,
+                  "query_to": 133,
+                  "hit_from": 3,
+                  "hit_to": 135,
+                  "align_len": 134,
+                  "gaps": 3,
+                  "qseq": "ARIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAV--LGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEI",
+                  "hseq": "ARIDFLKGDITELEVDAIVNAANNDLVLGSGVAGAIRSKGGPRIQEECERIGPIRLGEAAVTTAGNLKAYYVIHAASMQLGGKTTS-ESLRNATRNSLLRAEEKGFKTIAFPAIGTGVAGLPMETCANVMVSEV",
+                  "midline": "ARI  ++GDITE + DAIVNAANN L LG+GVAGAI  KGGP IQEEC+RIG IR+GEAAVT AGNL   YVIHAA   LG +  S E++R AT+++L +A E G KT+AF   G  V GLP E    VM  E+"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gb|MDP6380002.1|",
+                  "accession": "MDP6380002",
+                  "title": "macro domain-containing protein [Phycisphaerae bacterium]",
+                  "taxid": 2026778,
+                  "sciname": "Phycisphaerae bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.354,
+                  "score": 355,
+                  "evalue": 3.73454e-39,
+                  "identity": 74,
+                  "positive": 92,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 4,
+                  "hit_to": 134,
+                  "align_len": 131,
+                  "gaps": 1,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLG-DEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREE",
+                  "hseq": "KIRLIQGDITEMECDAIVNAANNDLQLGGGVAGAIRRKGGPEIQAECDRIGPIPLGEAAITGGGQLKARYVIHAASMRLGRPASADGVRDSTRNSLRRANEKGLKSIAFPAIGTGIAGFPVRLCAQIMFAE",
+                  "midline": "+IR +QGDITE + DAIVNAANN L+LG GVAGAI RKGGP IQ ECDRIG I +GEAA+TG G L  RYVIHAA +    PAS + VR +T+++L +A E GLK++AF   G  + G P     ++M  E"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "tpg|HKD71789.1|",
+                  "accession": "HKD71789",
+                  "title": "macro domain-containing protein [Candidatus Acidiferrum sp.]",
+                  "taxid": 3069120,
+                  "sciname": "Candidatus Acidiferrum sp."
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.969,
+                  "score": 354,
+                  "evalue": 7.34649e-39,
+                  "identity": 80,
+                  "positive": 90,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 138,
+                  "align_len": 132,
+                  "gaps": 2,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAV--LGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREE",
+                  "hseq": "RILIQQGDITEMDVDAIVNAANNDLVLGAGVAGAILRKGGVSIQEECDEIGSIPVGYAAITGAGKLKARYVIHAASMGLGDLPTTPKTLRTSTAHSLRLAAERGLKTIAFPAVGTGVSGFPMDECAQIMLGE",
+                  "midline": "RI   QGDITE   DAIVNAANN L LGAGVAGAILRKGG SIQEECD IG I VG AA+TGAG L  RYVIHAA   LGD P + +T+R +T  +L  A E GLKT+AF   G  V G P +   ++M  E"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "gb|UCC72492.1|",
+                  "accession": "UCC72492",
+                  "title": "MAG: macro domain-containing protein [Gemmatimonadota bacterium]",
+                  "taxid": 2026742,
+                  "sciname": "Gemmatimonadota bacterium"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 9.40555e-39,
+                  "identity": 80,
+                  "positive": 98,
+                  "query_from": 3,
+                  "query_to": 134,
+                  "hit_from": 6,
+                  "hit_to": 137,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIK",
+                  "hseq": "KIRVEQGDITEFQGDAIVNAANNQLILGAGVAGAIARKGGPTIQQECNEHGPIRVGEAAITGAGNLAARAVIHAAAMGDEPASRASIEGSTRHSLELADQNGIKTIAFPVLASGVAGFRVDEAARIMVSTIR",
+                  "midline": "+IR  QGDITEFQGDAIVNAANN L LGAGVAGAI RKGGP+IQ+EC+  G IRVGEAA+TGAGNL  R VIHAA +GDEPAS  ++  +T+ +LE A + G+KT+AF V  + V G   +   R+M   I+"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "tpg|HXY68198.1|",
+                  "accession": "HXY68198",
+                  "title": "macro domain-containing protein [Gemmatimonadales bacterium]",
+                  "taxid": 2448054,
+                  "sciname": "Gemmatimonadales bacterium"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.04608e-38,
+                  "identity": 75,
+                  "positive": 89,
+                  "query_from": 4,
+                  "query_to": 121,
+                  "hit_from": 2,
+                  "hit_to": 119,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLP",
+                  "hseq": "LRAARGDITTYAGSAIVNAANNHLILGAGVAGAIARRGGPSIQDECDRHGPIRVGEAALTGAGDLPCRYVIHAAAMGDEPVSERSIRDATLAALRLAARHRIADVAFPILGTGVGGFP",
+                  "midline": "+R  +GDIT + G AIVNAANN+L LGAGVAGAI R+GGPSIQ+ECDR G IRVGEAA+TGAG+LP RYVIHAA +GDEP S  ++R AT +AL  A    +  VAF + G  VGG P"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|UCD59317.1|",
+                  "accession": "UCD59317",
+                  "title": "MAG: macro domain-containing protein [Candidatus Hydrogenedentota bacterium]",
+                  "taxid": 2030809,
+                  "sciname": "Candidatus Hydrogenedentota bacterium"
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.31099e-38,
+                  "identity": 68,
+                  "positive": 89,
+                  "query_from": 7,
+                  "query_to": 131,
+                  "hit_from": 1,
+                  "hit_to": 125,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "VQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMRE",
+                  "hseq": "MQADITSIEVDAVVNAANNHLILGSGVAGAIRTKGGPSIQEECNRIGPIKVGEAAITGAGKLPAKYVIHAASMGDEPVSERSLRDSVRNSFLKGEDAKIGSIAFPAIGTGVGGFPVRHCAEIMLE",
+                  "midline": "+Q DIT  + DA+VNAANN+L LG+GVAGAI  KGGPSIQEEC+RIG I+VGEAA+TGAG LP +YVIHAA +GDEP S  ++R + +++  K  +  + ++AF   G  VGG P      +M E"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_172958094.1|",
+                  "accession": "WP_172958094",
+                  "title": "macro domain-containing protein, partial [Thermus scotoductus]",
+                  "taxid": 37636,
+                  "sciname": "Thermus scotoductus"
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 1.32818e-38,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 62,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 97,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "VTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKKAPDTLEVTGVHGTEKSAEAPRRA",
+                  "hseq": "VTGAGNLNVRYVIHAAVLGDEPASLETVRKATRSALEKAVELGLKTVAFPLLGTGVGGLPVEEVARVMLSEIKKAPDTLEVTLYGYRKEDAEAIRKA",
+                  "midline": "VTGAGNL VRYVIHAAVLGDEPASLETVRKAT+SALEKAVELGLKTVAF + G  VGGLP E V RVM  EIKKAPDTLEVT     ++ AEA R+A"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "tpg|HDH58044.1|",
+                  "accession": "HDH58044",
+                  "title": "macro domain-containing protein [Bacteroidota bacterium]",
+                  "taxid": 1898104,
+                  "sciname": "Bacteroidota bacterium"
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 1.684e-38,
+                  "identity": 72,
+                  "positive": 89,
+                  "query_from": 4,
+                  "query_to": 129,
+                  "hit_from": 2,
+                  "hit_to": 128,
+                  "align_len": 127,
+                  "gaps": 1,
+                  "qseq": "IRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLG-DEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVM",
+                  "hseq": "IEIIQGDVTESDCQAIVNAANNQLKLGAGVAGAIRRKGGPFIQEECDRIGPIQVGEAAITGGGNLKAKYVIHAASMGFSHPTTAQTLRSSTEHSLRICTEKKIESVAFPALGTGVSGFPVDECARIM",
+                  "midline": "I  +QGD+TE    AIVNAANN LKLGAGVAGAI RKGGP IQEECDRIG I+VGEAA+TG GNL  +YVIHAA +G   P + +T+R +T+ +L    E  +++VAF   G  V G P +   R+M"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "gb|NQU08006.1|",
+                  "accession": "NQU08006",
+                  "title": "macro domain-containing protein [Candidatus Abyssubacteria bacterium]",
+                  "taxid": 2093359,
+                  "sciname": "Candidatus Abyssubacteria bacterium"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 1.848e-38,
+                  "identity": 68,
+                  "positive": 89,
+                  "query_from": 7,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "VQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLGDEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVM",
+                  "hseq": "MQADITSLTVDAIVNAANNHLILGSGVAGAIRTKGGPSIQDECNRVGSIKVGEAAITGAGRLPAKFVIHAASMGDEPVSERSLRDSVQNSLLKAEEAKISSIAFPAIGTGVGGFAVERCAEIM",
+                  "midline": "+Q DIT    DAIVNAANN+L LG+GVAGAI  KGGPSIQ+EC+R+G I+VGEAA+TGAG LP ++VIHAA +GDEP S  ++R + +++L KA E  + ++AF   G  VGG   E    +M"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "tpg|HDO71400.1|",
+                  "accession": "HDO71400",
+                  "title": "macro domain-containing protein [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 1.85235e-38,
+                  "identity": 77,
+                  "positive": 94,
+                  "query_from": 3,
+                  "query_to": 135,
+                  "hit_from": 10,
+                  "hit_to": 143,
+                  "align_len": 134,
+                  "gaps": 1,
+                  "qseq": "RIRDVQGDITEFQGDAIVNAANNYLKLGAGVAGAILRKGGPSIQEECDRIGKIRVGEAAVTGAGNLPVRYVIHAAVLG-DEPASLETVRKATKSALEKAVELGLKTVAFTVGGAWVGGLPAEAVCRVMREEIKK",
+                  "hseq": "KVRLIKGDITTFTGDAIVNAANNRLFMGGGVAGAIKRKGGKVIEEEAVSKGPIPIGSAIETGAGDLAVKYVIHAAVMGLDFKTDEEKIRRATRSALEKAKELGLKSVAFPALGTGVGRFPLEKSAEIMWEEVKQ",
+                  "midline": "++R ++GDIT F GDAIVNAANN L +G GVAGAI RKGG  I+EE    G I +G A  TGAG+L V+YVIHAAV+G D     E +R+AT+SALEKA ELGLK+VAF   G  VG  P E    +M EE+K+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

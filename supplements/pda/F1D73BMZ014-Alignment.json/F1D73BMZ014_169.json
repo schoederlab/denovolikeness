@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368814",
+          "query_title": "8cuw_A",
+          "query_len": 185,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "dbj|GGP47553.1|",
+                  "accession": "GGP47553",
+                  "title": "molybdopterin adenylyltransferase [Shewanella saliphila]",
+                  "taxid": 2282698,
+                  "sciname": "Shewanella saliphila"
+                }
+              ],
+              "len": 220,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 310.842,
+                  "score": 795,
+                  "evalue": 4.0506e-105,
+                  "identity": 150,
+                  "positive": 161,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 44,
+                  "hit_to": 220,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKAKIGIVTVSDRASAGVYEDLSGKAIIDVLNEYLTSEWEPVYKVIPDEQDVIEATLIDLADNQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKFVPTAILSRQTAGLRDDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPFLECDEAVIKPFRPKAK",
+                  "midline": "MSKAKIGIVTVSDRASAG+  D+SGKAII  LN YLTSEWEP+Y+VIPDEQ VIE TL+ +AD QDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLR DSLIVNLPG P SI +CL AVFPAIPYCIDLM+GP+LEC+EA+IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_248939310.1|",
+                  "accession": "WP_248939310",
+                  "title": "molybdopterin adenylyltransferase [Shewanella surugensis]",
+                  "taxid": 212020,
+                  "sciname": "Shewanella surugensis"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 309.301,
+                  "score": 791,
+                  "evalue": 4.37141e-105,
+                  "identity": 149,
+                  "positive": 161,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSIAKIGVVTVSDRASAGIYEDLSGKAIIDVLNEYLVSEWEPVYQVIPDEKEVIEETLIRLADDQDCCLIVTTGGTGPAKRDVTPEATEAVCDRLMPGFGELMRAESLKFVPTAILSRQTAGLRGDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECNETIIKPFRPKVK",
+                  "midline": "MS AKIG+VTVSDRASAGI  D+SGKAII  LN YL SEWEP+YQVIPDE++VIE TL+++AD QDCCLIVTTGGTGPAKRDVTPEATEAVCDR+MPGFGELMRAESLK VPTAILSRQTAGLRGDSLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_012157385.1|",
+                  "accession": "WP_012157385",
+                  "title": "molybdopterin adenylyltransferase [Shewanella pealeana]",
+                  "taxid": 70864,
+                  "sciname": "Shewanella pealeana"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 308.916,
+                  "score": 790,
+                  "evalue": 5.75029e-105,
+                  "identity": 150,
+                  "positive": 162,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKARIGIVTVSDRASAGIYEDLSGKAIIDVLNEYLTSEWEPVYEVIPDEQDVISATLIKMADEQNCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPFLECDESVIKPFRPKAK",
+                  "midline": "MSKA+IGIVTVSDRASAGI  D+SGKAII  LN YLTSEWEP+Y+VIPDEQ VI  TL+KMAD Q+C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRGDSLIVNLPG P SI +CL AVFPAIPYCIDLM+GP+LEC+E++IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gb|MFT6132483.1|",
+                  "accession": "MFT6132483",
+                  "title": "molybdopterin adenylyltransferase [Shewanella sp.]",
+                  "taxid": 50422,
+                  "sciname": "Shewanella sp."
+                }
+              ],
+              "len": 203,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 307.375,
+                  "score": 786,
+                  "evalue": 5.34085e-104,
+                  "identity": 150,
+                  "positive": 161,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 27,
+                  "hit_to": 203,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKAKIGIVTVSDRASAGIYEDLSGKAIIDVLNEYLTSEWEPVYKVIPDERDVIEATLIDLADNQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRADSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPFLVCDEAVIKPFRPKAK",
+                  "midline": "MSKAKIGIVTVSDRASAGI  D+SGKAII  LN YLTSEWEP+Y+VIPDE+ VIE TL+ +AD QDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR DSLIVNLPG P SI +CL AVFPAIPYCIDLM+GP+L C+EA+IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_144211816.1|",
+                  "accession": "WP_144211816",
+                  "title": "molybdopterin adenylyltransferase [Shewanella donghaensis]",
+                  "taxid": 238836,
+                  "sciname": "Shewanella donghaensis"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 303.523,
+                  "score": 776,
+                  "evalue": 7.82145e-103,
+                  "identity": 146,
+                  "positive": 161,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MTKAKIGIVTVSDRASAGVYEDLSGKAIIDVLNEYLTSDWEPVYKVIPDETDVIEATLIDMADVQNCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPFLVCDESVIKPFRPKAK",
+                  "midline": "M+KAKIGIVTVSDRASAG+  D+SGKAII  LN YLTS+WEP+Y+VIPDE  VIE TL+ MAD+Q+C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRGDSLIVNLPG P SI +CL AVFPAIPYCIDLM+GP+L C+E++IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_344796506.1|",
+                  "accession": "WP_344796506",
+                  "title": "molybdopterin adenylyltransferase [Litoribacillus peritrichatus]",
+                  "taxid": 718191,
+                  "sciname": "Litoribacillus peritrichatus"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 302.753,
+                  "score": 774,
+                  "evalue": 1.63064e-102,
+                  "identity": 147,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MKELRIGIVTVSDRASAGIYEDVSGKAIIATLNDYLTSAWEPVYVVIPDEQEVIEETLKDMTDIQGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFMECDEAVIKPFRPKAK",
+                  "midline": "M + +IGIVTVSDRASAGI  D+SGKAII  LN YLTS WEP+Y VIPDEQ+VIE TL  M DIQ CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRGDSLIVNLPG P SI +CL AVFPAIPYCIDLMEGP++EC+EA+IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_039034577.1|",
+                  "accession": "WP_039034577",
+                  "title": "MULTISPECIES: molybdopterin adenylyltransferase [Shewanella]",
+                  "taxid": 22,
+                  "sciname": "Shewanella"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 301.212,
+                  "score": 770,
+                  "evalue": 6.9337e-102,
+                  "identity": 146,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MAKAKIGIVTVSDRASAGVYEDISGKAIIETLNAYLTSEWESVYEVIPDERTVIEATLKRMADEDGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRDDTLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDETVIKPFRPKAK",
+                  "midline": "M+KAKIGIVTVSDRASAG+  DISGKAII  LN YLTSEWE +Y+VIPDE+ VIE TL +MAD   CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR D+LIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+E +IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_413282898.1|",
+                  "accession": "WP_413282898",
+                  "title": "molybdopterin adenylyltransferase [Vibrio sp. MA40-2]",
+                  "taxid": 3391828,
+                  "sciname": "Vibrio sp. MA40-2"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 301.212,
+                  "score": 770,
+                  "evalue": 7.16558e-102,
+                  "identity": 145,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MTKAKIGIVTVSDRASAGVYDDLSGQAIIDTLNMYLVSDWEPIYQVIPDEQDIIEATLINMADEQNCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRADTLIVNLPGKPKSIRECLGAVFPAIPYCIDLMEGPFLVCNEDVIKPFRPKQK",
+                  "midline": "M+KAKIGIVTVSDRASAG+  D+SG+AII  LN+YL S+WEPIYQVIPDEQ +IE TL+ MAD Q+C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR D+LIVNLPG P SI +CL AVFPAIPYCIDLMEGP+L CNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_235059752.1|",
+                  "accession": "WP_235059752",
+                  "title": "molybdopterin adenylyltransferase [Vibrio sp. SS-MA-C1-2]",
+                  "taxid": 2908646,
+                  "sciname": "Vibrio sp. SS-MA-C1-2"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 300.827,
+                  "score": 769,
+                  "evalue": 8.44661e-102,
+                  "identity": 146,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSVAKIGIVTVSDRASVGIYDDISGPAIIETLNAYLTSEWEPVYQVIPDEQDVIEATLIKMAEEDNCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKFVPTAILSRQTAGLRGDSLIINLPGKPKSIRECLDAVFPAVPYCIDLMDGPFLECDESVIKPFRPKAK",
+                  "midline": "MS AKIGIVTVSDRAS GI  DISG AII  LN YLTSEWEP+YQVIPDEQ VIE TL+KMA+  +C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRGDSLI+NLPG P SI +CL AVFPA+PYCIDLM+GP+LEC+E++IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_075342072.1|",
+                  "accession": "WP_075342072",
+                  "title": "molybdopterin adenylyltransferase [Tenacibaculum agarivorans]",
+                  "taxid": 1908389,
+                  "sciname": "Tenacibaculum agarivorans"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 300.827,
+                  "score": 769,
+                  "evalue": 9.32269e-102,
+                  "identity": 146,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSIAKIGIVTVSDRASAGVYEDKSGKAIIDTLHEYLTSEWEEIYQVIPDEQKVIEETIINMVDNENCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDIMEGPYLECNEEFIKPFRPKKK",
+                  "midline": "MS AKIGIVTVSDRASAG+  D SGKAII  L+ YLTSEWE IYQVIPDEQKVIE T++ M D ++CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCID+MEGPYLECNE  IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_076720256.1|",
+                  "accession": "WP_076720256",
+                  "title": "molybdopterin adenylyltransferase [Motiliproteus sp. MSK22-1]",
+                  "taxid": 1897630,
+                  "sciname": "Motiliproteus sp. MSK22-1"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 300.442,
+                  "score": 768,
+                  "evalue": 1.38114e-101,
+                  "identity": 144,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MTTAKIGIVTVSDRASAGVYDDVSGKAIIETLNEYLTSPWEPVYEVIPDEQAVIESTLIKMTDEQQCSLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVATAILSRQTAGLRGDSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPYLECNEEVIKPFRPK",
+                  "midline": "M+ AKIGIVTVSDRASAG+  D+SGKAII  LN YLTS WEP+Y+VIPDEQ VIE+TL+KM D Q C L+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK V TAILSRQTAGLRGDSLI+NLPG P SI +CL AVFPA+PYCIDLMEGPYLECNE +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_044583654.1|",
+                  "accession": "WP_044583654",
+                  "title": "molybdopterin adenylyltransferase [Aliivibrio salmonicida]",
+                  "taxid": 40269,
+                  "sciname": "Aliivibrio salmonicida"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 298.516,
+                  "score": 763,
+                  "evalue": 6.85842e-101,
+                  "identity": 144,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MAKAKIGIVTVSDRASVGIYDDISGPAIIETLNDYLTSEWEPVYVVIPDEQDIIEKTLIELTDNENCCLVVTTGGTGPSKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRKDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECNQDVIKPFRPKAK",
+                  "midline": "M+KAKIGIVTVSDRAS GI  DISG AII  LN YLTSEWEP+Y VIPDEQ +IE TL+++ D ++CCL+VTTGGTGP+KRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR DSLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LECN+ +IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_190338794.1|",
+                  "accession": "WP_190338794",
+                  "title": "molybdopterin adenylyltransferase [Vibrio sp. S11_S32]",
+                  "taxid": 2720225,
+                  "sciname": "Vibrio sp. S11_S32"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 296.975,
+                  "score": 759,
+                  "evalue": 2.916e-100,
+                  "identity": 142,
+                  "positive": 157,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKAKIGIVTVSDRASQGVYEDLSGKAIIETLNDYLTSDWGPVYQIIPDEQDQIEALLIKMVDEEGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRSESLKFVPTAILSRQTAGLRGSSLLVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDESVIKPFRPKAK",
+                  "midline": "MSKAKIGIVTVSDRAS G+  D+SGKAII  LN YLTS+W P+YQ+IPDEQ  IE  L+KM D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR+ESLK VPTAILSRQTAGLRG SL+VNLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+E++IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_109618324.1|",
+                  "accession": "WP_109618324",
+                  "title": "molybdopterin adenylyltransferase [Sediminitomix flava]",
+                  "taxid": 379075,
+                  "sciname": "Sediminitomix flava"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 296.975,
+                  "score": 759,
+                  "evalue": 3.43727e-100,
+                  "identity": 141,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSIAKIGIITVSDRASAGVYEDLSGKAIIDTLNEYLTSDWEEVYEVIPDEQAIIESTIIDMVDNQDCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRASSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPYLVCNEEVIKPFRPKKK",
+                  "midline": "MS AKIGI+TVSDRASAG+  D+SGKAII  LN YLTS+WE +Y+VIPDEQ +IE+T++ M D QDCCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR  SLI+NLPG P SI +CL AVFPA+PYCIDLMEGPYL CNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_033129980.1|",
+                  "accession": "WP_033129980",
+                  "title": "molybdopterin adenylyltransferase [Aeromonas aquatica]",
+                  "taxid": 558964,
+                  "sciname": "Aeromonas aquatica"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 295.819,
+                  "score": 756,
+                  "evalue": 7.72452e-100,
+                  "identity": 143,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MSKARIGIVTVSDRASAGIYEDLSGKAIIDTLSTYLTSEWEPVYRLIPDEQAQIEATLIQLADEEGCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPYLECDESVIKPFRPK",
+                  "midline": "MSKA+IGIVTVSDRASAGI  D+SGKAII  L+ YLTSEWEP+Y++IPDEQ  IE TL+++AD + C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLM+GPYLEC+E++IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_202028761.1|",
+                  "accession": "WP_202028761",
+                  "title": "molybdopterin adenylyltransferase [Galbibacter mesophilus]",
+                  "taxid": 379069,
+                  "sciname": "Galbibacter mesophilus"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 295.434,
+                  "score": 755,
+                  "evalue": 1.49619e-99,
+                  "identity": 142,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKIKIGILTVSDRASAGVYEDISGKAIIDTLNDYLISEWEEVYEVIPDEQQEIEKSIIKMVDDENCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRMESLKYVPTAILSRQTAGLRNGSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECNEAVIKPFRPKKK",
+                  "midline": "MSK KIGI+TVSDRASAG+  DISGKAII  LN YL SEWE +Y+VIPDEQ+ IE +++KM D ++CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLR  SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LECNEA+IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|MDH5358665.1|",
+                  "accession": "MDH5358665",
+                  "title": "molybdopterin adenylyltransferase [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 294.278,
+                  "score": 752,
+                  "evalue": 3.54607e-99,
+                  "identity": 142,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MTAAKIGIVAVSDRASMGVYEDISGKAIIETLNDYLISPWEPVYEVIPDEQDVIADTLIRMADEEGCCLIVTTGGTGPAKRDVTPEATEVVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGNSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPYLECNEAVIKPFRPK",
+                  "midline": "M+ AKIGIV VSDRAS G+  DISGKAII  LN YL S WEP+Y+VIPDEQ VI  TL++MAD + CCLIVTTGGTGPAKRDVTPEATE VCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG+SLI+NLPG P SI +CL AVFPA+PYCIDLMEGPYLECNEA+IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_428197132.1|",
+                  "accession": "WP_428197132",
+                  "title": "molybdopterin adenylyltransferase [Aliivibrio kagoshimensis]",
+                  "taxid": 2910230,
+                  "sciname": "Aliivibrio kagoshimensis"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 293.893,
+                  "score": 751,
+                  "evalue": 4.82802e-99,
+                  "identity": 144,
+                  "positive": 159,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKAKIGIITVSDRASAGIYEDISGKAIIETLSDYLTSEWIPVYEVIPDEQDVIEAALIRLAEEENCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPFLECHLDVIKPFRPKAK",
+                  "midline": "MSKAKIGI+TVSDRASAGI  DISGKAII  L+ YLTSEW P+Y+VIPDEQ VIE  L+++A+ ++C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRGDSLIVNLPG P SI +CL AVFPAIPYCIDLM+GP+LEC+  +IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|RKZ86995.1|",
+                  "accession": "RKZ86995",
+                  "title": "MAG: molybdopterin adenylyltransferase [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 293.508,
+                  "score": 750,
+                  "evalue": 7.98186e-99,
+                  "identity": 142,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MTIAKIGIVTVSDRASKGIYDDISGKAIIETLNEYLTSSWEPIYEVVPDEQDIIETTLIRMADELQCSLIVTTGGTGPAKRDVTPEATESVCDRMMPGFGELMRTESLKFVPTAILSRQTAGLRGDSLIINLPGKPKSIRECLDAVFPAVPYCIDLMGGPYLECDETVIKPFRPK",
+                  "midline": "M+ AKIGIVTVSDRAS GI  DISGKAII  LN YLTS WEPIY+V+PDEQ +IETTL++MAD   C LIVTTGGTGPAKRDVTPEATE+VCDRMMPGFGELMR ESLK VPTAILSRQTAGLRGDSLI+NLPG P SI +CL AVFPA+PYCIDLM GPYLEC+E +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_212594868.1|",
+                  "accession": "WP_212594868",
+                  "title": "MULTISPECIES: molybdopterin adenylyltransferase [Shewanella]",
+                  "taxid": 22,
+                  "sciname": "Shewanella"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 293.508,
+                  "score": 750,
+                  "evalue": 8.15882e-99,
+                  "identity": 142,
+                  "positive": 155,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MGKAKIGIVTVSDRASAGIYEDLSGKAIIDTLNQYLISEWEPVYEVIPDEQDLIEATLIRLADEDNCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRQVSLQYVPTAILSRQTAGLRADTLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLECDEAVIKPFRPK",
+                  "midline": "M KAKIGIVTVSDRASAGI  D+SGKAII  LN YL SEWEP+Y+VIPDEQ +IE TL+++AD  +C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR  SL+ VPTAILSRQTAGLR D+LIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLEC+EA+IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_036755763.1|",
+                  "accession": "WP_036755763",
+                  "title": "molybdopterin adenylyltransferase [Photobacterium galatheae]",
+                  "taxid": 1654360,
+                  "sciname": "Photobacterium galatheae"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 293.123,
+                  "score": 749,
+                  "evalue": 8.8237e-99,
+                  "identity": 143,
+                  "positive": 157,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MTTAKIGIVTVSDRASAGVYEDISGQAIIETLNDYLTSPWEPVYEVIPDERDVIEATLIRMADEEECCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRDDTLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLENNESVIHVFRPKQK",
+                  "midline": "M+ AKIGIVTVSDRASAG+  DISG+AII  LN YLTS WEP+Y+VIPDE+ VIE TL++MAD ++CCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR D+LIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLE NE++I  FRPK K"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gb|MEA3383098.1|",
+                  "accession": "MEA3383098",
+                  "title": "molybdopterin adenylyltransferase [Campylobacterota bacterium]",
+                  "taxid": 2026809,
+                  "sciname": "Campylobacterota bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 292.738,
+                  "score": 748,
+                  "evalue": 1.30937e-98,
+                  "identity": 139,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MNMARIGIITVSDRASAGVYEDISGKAIIDTLNDYLISKWEPIYKVIPDEQEVIEKTIINMIDNTNCCLVVTTGGTGPAKRDVTPEATQNVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLVVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDETVIKPFRPKVK",
+                  "midline": "M+ A+IGI+TVSDRASAG+  DISGKAII  LN YL S+WEPIY+VIPDEQ+VIE T++ M D  +CCL+VTTGGTGPAKRDVTPEAT+ VCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SL+VNLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+E +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gb|MCH2233351.1|",
+                  "accession": "MCH2233351",
+                  "title": "molybdopterin adenylyltransferase [Crocinitomicaceae bacterium]",
+                  "taxid": 2026728,
+                  "sciname": "Crocinitomicaceae bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 292.738,
+                  "score": 748,
+                  "evalue": 1.63817e-98,
+                  "identity": 142,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MSIVKIGIVTVSDRASAGVYEDLSGKAIKDTLNEYLTSEWEEFYEVVPDEHEVIEQTIIDMIDHHDCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLECNEDVIKPFRPK",
+                  "midline": "MS  KIGIVTVSDRASAG+  D+SGKAI   LN YLTSEWE  Y+V+PDE +VIE T++ M D  DCCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLECNE +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_132721914.1|",
+                  "accession": "WP_132721914",
+                  "title": "molybdopterin adenylyltransferase [Tenacibaculum sp. M341]",
+                  "taxid": 2530339,
+                  "sciname": "Tenacibaculum sp. M341"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 292.352,
+                  "score": 747,
+                  "evalue": 2.18536e-98,
+                  "identity": 138,
+                  "positive": 155,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 7,
+                  "hit_to": 180,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "AQIGIITVSDRASAGVYEDLSGKAIIDTLNDYLTSDWEANYKVIPDEQKVIEETIIRMVDEENCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRNESLIVNLPGKPKSIRECLDAVFPAIPYCIDLMNGPFLECNEEVIKPFRPKKK",
+                  "midline": "A+IGI+TVSDRASAG+  D+SGKAII  LN YLTS+WE  Y+VIPDEQKVIE T+++M D ++CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR +SLIVNLPG P SI +CL AVFPAIPYCIDLM GP+LECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|PHS23949.1|",
+                  "accession": "PHS23949",
+                  "title": "MAG: molybdopterin adenylyltransferase [Methylophaga sp.]",
+                  "taxid": 2024840,
+                  "sciname": "Methylophaga sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 291.197,
+                  "score": 744,
+                  "evalue": 5.50555e-98,
+                  "identity": 140,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MTVAKIGIVAISDRASKGIYEDISGKAIIETLNDYLTSFWQPVYEVIPDEQAEIEAILIKMVDEDHCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGNSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPYLECDETVIKPFRPKSK",
+                  "midline": "M+ AKIGIV +SDRAS GI  DISGKAII  LN YLTS W+P+Y+VIPDEQ  IE  L+KM D   CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG+SLI+NLPG P SI +CL AVFPA+PYCIDLMEGPYLEC+E +IKPFRPK+K"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_133405368.1|",
+                  "accession": "WP_133405368",
+                  "title": "molybdopterin adenylyltransferase [Parashewanella tropica]",
+                  "taxid": 2547970,
+                  "sciname": "Parashewanella tropica"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 291.197,
+                  "score": 744,
+                  "evalue": 5.6276e-98,
+                  "identity": 143,
+                  "positive": 151,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MTTAKIGIVTVSDRASRGEYEDISGHGIINTLKEYLTSSWQPVYQVIPDEQDQIEATLKKMVDEQGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDEQVIKPFRPKAK",
+                  "midline": "M+ AKIGIVTVSDRAS G   DISG  II  L  YLTS W+P+YQVIPDEQ  IE TL KM D Q CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+E +IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_299549715.1|",
+                  "accession": "WP_299549715",
+                  "title": "molybdopterin adenylyltransferase [Seonamhaeicola sp.]",
+                  "taxid": 1912245,
+                  "sciname": "Seonamhaeicola sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.812,
+                  "score": 743,
+                  "evalue": 7.08451e-98,
+                  "identity": 137,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSTIKIGIITVSDRASAGVYEDISGKAIIDTLNDYLISEWKDVYKIVPDEQDIIEKTIIDMVDNETCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKYVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPYLECNEEVIKPFRPKKK",
+                  "midline": "MS  KIGI+TVSDRASAG+  DISGKAII  LN YL SEW+ +Y+++PDEQ +IE T++ M D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLMEGPYLECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_101449052.1|",
+                  "accession": "WP_101449052",
+                  "title": "molybdopterin adenylyltransferase [Aquimarina sp. MAR_2010_214]",
+                  "taxid": 1250026,
+                  "sciname": "Aquimarina sp. MAR_2010_214"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.426,
+                  "score": 742,
+                  "evalue": 1.06286e-97,
+                  "identity": 136,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MLAVKIGIITVSDRASAGVYEDISGKAIIDTLNEYLISTWEKIYEVVPDEQEVIEKTIINMVDNQNCCLVITTGGTGPAKRDVTPEATEAVCDRLMPGFGELMRAESLKYVPTAILSRQTAGLRKNSLIINLPGKPKSIKECLDAVFPAVPYCIDLMEGPFLECNEDVVKPFRPKKK",
+                  "midline": "M   KIGI+TVSDRASAG+  DISGKAII  LN YL S WE IY+V+PDEQ+VIE T++ M D Q+CCL++TTGGTGPAKRDVTPEATEAVCDR+MPGFGELMRAESLK VPTAILSRQTAGLR +SLI+NLPG P SI +CL AVFPA+PYCIDLMEGP+LECNE ++KPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|MCD4759181.1|",
+                  "accession": "MCD4759181",
+                  "title": "molybdopterin adenylyltransferase [Arcobacteraceae bacterium]",
+                  "taxid": 2808971,
+                  "sciname": "Arcobacteraceae bacterium"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.812,
+                  "score": 743,
+                  "evalue": 1.06617e-97,
+                  "identity": 139,
+                  "positive": 152,
+                  "query_from": 3,
+                  "query_to": 177,
+                  "hit_from": 5,
+                  "hit_to": 179,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "KAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KAKIGIITVSDRASAGVYEDISGKAIIDTLNEYLTSSWEEVYKVIPDEQNIIEDTIKEMVDNNGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRQESLKFVPTAILSRQTAGLRGSSLVVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDENIIKPFRPKNK",
+                  "midline": "KAKIGI+TVSDRASAG+  DISGKAII  LN YLTS WE +Y+VIPDEQ +IE T+ +M D   CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SL+VNLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+E +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_291184858.1|",
+                  "accession": "WP_291184858",
+                  "title": "molybdopterin adenylyltransferase [Gilvibacter sp.]",
+                  "taxid": 2729997,
+                  "sciname": "Gilvibacter sp."
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.041,
+                  "score": 741,
+                  "evalue": 1.49074e-97,
+                  "identity": 138,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MSTAKIGIITVSDRASQGLYEDISGNAIIATLNEYLTSDWEQSYEIIPDEKEVIESTIKKMVDQQNCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRMESLKYVPTAILSRQTAGLRGTSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPYLECDENVIKPFRPK",
+                  "midline": "MS AKIGI+TVSDRAS G+  DISG AII  LN YLTS+WE  Y++IPDE++VIE+T+ KM D Q+CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLM+GPYLEC+E +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_299189395.1|",
+                  "accession": "WP_299189395",
+                  "title": "molybdopterin adenylyltransferase [uncultured Aquimarina sp.]",
+                  "taxid": 575652,
+                  "sciname": "uncultured Aquimarina sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.041,
+                  "score": 741,
+                  "evalue": 1.61214e-97,
+                  "identity": 137,
+                  "positive": 155,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSIAKIGIVTVSDRANAGIYEDISGKAIINTLNDYLTSQWEEVYKIVPDEQEVIEQALIELVDQEKCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRSSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMHGPFLECNEDVIKPFRPKKK",
+                  "midline": "MS AKIGIVTVSDRA+AGI  DISGKAII  LN YLTS+WE +Y+++PDEQ+VIE  L+++ D + CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR  SLI+NLPG P SI +CL AVFPA+PYCIDLM GP+LECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gb|MGB2078767.1|",
+                  "accession": "MGB2078767",
+                  "title": "molybdopterin adenylyltransferase [Vibrio sp.]",
+                  "taxid": 678,
+                  "sciname": "Vibrio sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 290.041,
+                  "score": 741,
+                  "evalue": 1.96383e-97,
+                  "identity": 138,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MKQAKIGILTVSDRASQGVYEDLSGKAIEATLNEYLTSEWTPVYRIIPDEQPEIEAEMARMVDEEGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPYLECDESVIKPFRPKAK",
+                  "midline": "M +AKIGI+TVSDRAS G+  D+SGKAI   LN YLTSEW P+Y++IPDEQ  IE  + +M D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLM+GPYLEC+E++IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_044633382.1|",
+                  "accession": "WP_044633382",
+                  "title": "molybdopterin adenylyltransferase [Neotamlana sedimentorum]",
+                  "taxid": 1435349,
+                  "sciname": "Neotamlana sedimentorum"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 289.271,
+                  "score": 739,
+                  "evalue": 3.36046e-97,
+                  "identity": 135,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MQSIKIGIITVSDRASNGVYEDLSGKAIINTLNDYLTSNWQAIYKIIPDEQDVIEQTIIDMVDNENCCLVVTTGGTGPAKRDVTPEATEAVCNRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLIQGPYLECNENVIKPFRPKNK",
+                  "midline": "M   KIGI+TVSDRAS G+  D+SGKAII  LN YLTS W+ IY++IPDEQ VIE T++ M D ++CCL+VTTGGTGPAKRDVTPEATEAVC+RMMPGFGELMRAESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDL++GPYLECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gb|MEA1914793.1|",
+                  "accession": "MEA1914793",
+                  "title": "molybdopterin adenylyltransferase [Campylobacterota bacterium]",
+                  "taxid": 2026809,
+                  "sciname": "Campylobacterota bacterium"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 289.271,
+                  "score": 739,
+                  "evalue": 3.92994e-97,
+                  "identity": 141,
+                  "positive": 153,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 6,
+                  "hit_to": 179,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "AKIGIITVSDRASAGIYEDISGKAIIDTLNDYLTSPWEEVYEVIPDEQDIIEKTMIKMADEQGCCLVVTTGGTGPAKRDVTPEATEVVCHRMMPGFGELMRAESLKFVPTAILSRQTAGLRDDTLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLVCDEKVIKPFRPKAK",
+                  "midline": "AKIGI+TVSDRASAGI  DISGKAII  LN YLTS WE +Y+VIPDEQ +IE T++KMAD Q CCL+VTTGGTGPAKRDVTPEATE VC RMMPGFGELMRAESLK VPTAILSRQTAGLR D+LIVNLPG P SI +CL AVFPAIPYCIDLMEGP+L C+E +IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_248723168.1|",
+                  "accession": "WP_248723168",
+                  "title": "molybdopterin adenylyltransferase [Seonamhaeicola sp. ML3]",
+                  "taxid": 2937786,
+                  "sciname": "Seonamhaeicola sp. ML3"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 288.886,
+                  "score": 738,
+                  "evalue": 4.46877e-97,
+                  "identity": 135,
+                  "positive": 155,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MTDIKIGIITVSDRANAGIYEDLSGKAIINTLNDYLTSKWKEVYTIIPDEQDVIENTIINMVDNENCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRMESLKYVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPFLECDESVIKPFRPKKK",
+                  "midline": "M+  KIGI+TVSDRA+AGI  D+SGKAII  LN YLTS+W+ +Y +IPDEQ VIE T++ M D ++CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLMEGP+LEC+E++IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_299836468.1|",
+                  "accession": "WP_299836468",
+                  "title": "molybdopterin adenylyltransferase [uncultured Tenacibaculum sp.]",
+                  "taxid": 174713,
+                  "sciname": "uncultured Tenacibaculum sp."
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.73,
+                  "score": 735,
+                  "evalue": 1.14373e-96,
+                  "identity": 136,
+                  "positive": 150,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 2,
+                  "hit_to": 175,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "AKIGIITVSDRASAGVYEDLSGKAIIATLNDYLVSDWTEVYQIIPDEQDVIENTMIDMVDNQGCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRNESLILNLPGKPKSIRECLDAVFPAIPYCIDLMNGPYLECNHEVIKPFRPKKK",
+                  "midline": "AKIGI+TVSDRASAG+  D+SGKAII  LN YL S+W  +YQ+IPDEQ VIE T++ M D Q CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR +SLI+NLPG P SI +CL AVFPAIPYCIDLM GPYLECN  +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_299311683.1|",
+                  "accession": "WP_299311683",
+                  "title": "molybdopterin adenylyltransferase [uncultured Aquimarina sp.]",
+                  "taxid": 575652,
+                  "sciname": "uncultured Aquimarina sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.73,
+                  "score": 735,
+                  "evalue": 1.18555e-96,
+                  "identity": 134,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MAIVKIGIITVSDRAHAGVYEDISGKSIINTLNDYLVSEWEEVYKIVPDEQEVIEKKIIQMVDNDKCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKFVPTAILSRQTAGLRGSSLVINLPGKPKSIRECLDAVFPAVPYCIDLMNGPYLECNEAIIKPFRPKKK",
+                  "midline": "M+  KIGI+TVSDRA AG+  DISGK+II  LN YL SEWE +Y+++PDEQ+VIE  +++M D   CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SL++NLPG P SI +CL AVFPA+PYCIDLM GPYLECNEA+IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_234236388.1|",
+                  "accession": "WP_234236388",
+                  "title": "molybdopterin adenylyltransferase [Shewanella sp. AS16]",
+                  "taxid": 2907625,
+                  "sciname": "Shewanella sp. AS16"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.73,
+                  "score": 735,
+                  "evalue": 1.21183e-96,
+                  "identity": 139,
+                  "positive": 157,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MDKAKIGIVTVSDRASAGVYEDLSGQAILDTLKAYLTSEWEPVYKVIPDERQLIENTLIELADDVGCCLIVTTGGTGPAKRDVTPEATEAVCERMMPGFGELMRAESLKFVPTAILSRQTAGLRGHSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDPEVIQAFRPKAK",
+                  "midline": "M KAKIGIVTVSDRASAG+  D+SG+AI+  L  YLTSEWEP+Y+VIPDE+++IE TL+++AD   CCLIVTTGGTGPAKRDVTPEATEAVC+RMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+  +I+ FRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_128997133.1|",
+                  "accession": "WP_128997133",
+                  "title": "molybdopterin adenylyltransferase [Candidatus Marinarcus aquaticus]",
+                  "taxid": 2044504,
+                  "sciname": "Candidatus Marinarcus aquaticus"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.73,
+                  "score": 735,
+                  "evalue": 1.21183e-96,
+                  "identity": 139,
+                  "positive": 149,
+                  "query_from": 3,
+                  "query_to": 175,
+                  "hit_from": 4,
+                  "hit_to": 176,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "KAKIGIVTTSDRASKGIYEDLSGQAIIDTLNEYLTSAWEPVYKVIEDDQITIEETLIDLVDKQKCCLVVTTGGTGPAKRDVTPEATENVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLECNEEVIKPFRPK",
+                  "midline": "KAKIGIVT SDRAS GI  D+SG+AII  LN YLTS WEP+Y+VI D+Q  IE TL+ + D Q CCL+VTTGGTGPAKRDVTPEATE VCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLECNE +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_309938056.1|",
+                  "accession": "WP_309938056",
+                  "title": "molybdopterin adenylyltransferase [Aureibacter tunicatorum]",
+                  "taxid": 866807,
+                  "sciname": "Aureibacter tunicatorum"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 288.115,
+                  "score": 736,
+                  "evalue": 1.25805e-96,
+                  "identity": 138,
+                  "positive": 152,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 7,
+                  "hit_to": 180,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "AKIGIITVSDRASAGIYEDKSGKAIIDTLNEYLNSEWTECYEIIPDEQTVIEKTIIDMVDKQNCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGESLILNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDEDVIKPFRPKQK",
+                  "midline": "AKIGI+TVSDRASAGI  D SGKAII  LN YL SEW   Y++IPDEQ VIE T++ M D Q+CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG+SLI+NLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+E +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_143916054.1|",
+                  "accession": "WP_143916054",
+                  "title": "molybdopterin adenylyltransferase [Aquimarina algiphila]",
+                  "taxid": 2047982,
+                  "sciname": "Aquimarina algiphila"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.73,
+                  "score": 735,
+                  "evalue": 1.29031e-96,
+                  "identity": 134,
+                  "positive": 151,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 3,
+                  "hit_to": 175,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KIGIITVSDRASAGIYKDVSGKAIINTLNDYLISEWEEVYQIIPDEQEIIEKTIINMVDNDNCCLVITTGGTGPAKRDVTPEATTAVCDRMMPGFGELMRAESMKFVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAIPYCIDLMNGPFLKCNENVIKPFRPKKK",
+                  "midline": "KIGI+TVSDRASAGI  D+SGKAII  LN YL SEWE +YQ+IPDEQ++IE T++ M D  +CCL++TTGGTGPAKRDVTPEAT AVCDRMMPGFGELMRAES+K VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPAIPYCIDLM GP+L+CNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gb|MEM7658159.1|",
+                  "accession": "MEM7658159",
+                  "title": "molybdopterin adenylyltransferase [Bacteroidota bacterium]",
+                  "taxid": 1898104,
+                  "sciname": "Bacteroidota bacterium"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.73,
+                  "score": 735,
+                  "evalue": 1.36921e-96,
+                  "identity": 136,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSTANIGIITVSDRASAGVYEDLSGKAITATLKEYLTSSWQEVYQVIPDEQALIEQTIIEMVDKQACCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPYLACDEAVIQVFRPKKK",
+                  "midline": "MS A IGI+TVSDRASAG+  D+SGKAI   L  YLTS W+ +YQVIPDEQ +IE T+++M D Q CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLMEGPYL C+EA+I+ FRPK K"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_147133576.1|",
+                  "accession": "WP_147133576",
+                  "title": "molybdopterin adenylyltransferase [Seonamhaeicola algicola]",
+                  "taxid": 1719036,
+                  "sciname": "Seonamhaeicola algicola"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 287.345,
+                  "score": 734,
+                  "evalue": 1.66286e-96,
+                  "identity": 136,
+                  "positive": 150,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MSAIKIGIITVSDRASAGLYEDLSGKAIINTLNNYLKSPWNEVYSIIPDEQTIIEETIINMVDNEQCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLQCNEQVIKPFRPK",
+                  "midline": "MS  KIGI+TVSDRASAG+  D+SGKAII  LN YL S W  +Y +IPDEQ +IE T++ M D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+L+CNE +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "emb|VVV06205.1|",
+                  "accession": "VVV06205",
+                  "title": "Molybdopterin adenylyltransferase [Aliivibrio wodanis]",
+                  "taxid": 80852,
+                  "sciname": "Aliivibrio wodanis"
+                }
+              ],
+              "len": 204,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 288.5,
+                  "score": 737,
+                  "evalue": 1.81095e-96,
+                  "identity": 141,
+                  "positive": 153,
+                  "query_from": 2,
+                  "query_to": 177,
+                  "hit_from": 29,
+                  "hit_to": 204,
+                  "align_len": 176,
+                  "gaps": 0,
+                  "qseq": "SKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "TKAKIGIVTVSDRASVGIYEDISGPAIIATLNDYLKSEWEPEYVVIPDEQDIIEKTLIELTDEKGCSLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRKDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMDGPFLECDEAVIKPFRPKTK",
+                  "midline": "+KAKIGIVTVSDRAS GI  DISG AII  LN YL SEWEP Y VIPDEQ +IE TL+++ D + C L+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR DSLIVNLPG P SI +CL AVFPAIPYCIDLM+GP+LEC+EA+IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|MBT3279962.1|",
+                  "accession": "MBT3279962",
+                  "title": "molybdopterin adenylyltransferase [Campylobacteraceae bacterium]",
+                  "taxid": 2268179,
+                  "sciname": "Campylobacteraceae bacterium"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 2.13332e-96,
+                  "identity": 137,
+                  "positive": 152,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 2,
+                  "hit_to": 174,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "RIGIITVSDRASAGIYEDLSGKAIIDTMNEYLTSSWEEVYEVIPDEQDIIEATMIKMADEQNCSLIVTTGGTGPSKRDVTPEATENVCDRMMPGFGELMRQESLKFVPTAILSRQTAGLRKDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFMECNEDVIKVFRPKAK",
+                  "midline": "+IGI+TVSDRASAGI  D+SGKAII  +N YLTS WE +Y+VIPDEQ +IE T++KMAD Q+C LIVTTGGTGP+KRDVTPEATE VCDRMMPGFGELMR ESLK VPTAILSRQTAGLR DSLIVNLPG P SI +CL AVFPAIPYCIDLMEGP++ECNE +IK FRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_300323089.1|",
+                  "accession": "WP_300323089",
+                  "title": "molybdopterin adenylyltransferase [Flavicella sp.]",
+                  "taxid": 2957742,
+                  "sciname": "Flavicella sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 2.58195e-96,
+                  "identity": 130,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKAKIGIINVSDRASAGIYEDLSGKAVVETLNSYLTSPWEPVYKVLPDEQDVLEKNMIEMVDNENCCLVITTGGTGPSKRDVTPEATEAICDRMMPGFGELMRMESLKYVPTAILSRQTAGLRGSSLILNLPGKPKSIKECLDAVFPAVPYCIDLMDGPFLECNTEVMNPFRPKVK",
+                  "midline": "MSKAKIGI+ VSDRASAGI  D+SGKA++  LN YLTS WEP+Y+V+PDEQ V+E  +++M D ++CCL++TTGGTGP+KRDVTPEATEA+CDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLM+GP+LECN  ++ PFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_121853798.1|",
+                  "accession": "WP_121853798",
+                  "title": "molybdopterin adenylyltransferase [Parashewanella spongiae]",
+                  "taxid": 342950,
+                  "sciname": "Parashewanella spongiae"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 2.69769e-96,
+                  "identity": 141,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSVAKIGIVTVSDRASRGEYEDLSGQAIIDTLNDYLKSEWEPVYQVIPDEQDMIEATLMDMVDNEYCALVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGTSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMNGPFLECDASVIKPFRPKAK",
+                  "midline": "MS AKIGIVTVSDRAS G   D+SG+AII  LN YL SEWEP+YQVIPDEQ +IE TL+ M D + C L+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLM GP+LEC+ ++IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|PHS33615.1|",
+                  "accession": "PHS33615",
+                  "title": "MAG: molybdopterin adenylyltransferase [Methylophaga sp.]",
+                  "taxid": 2024840,
+                  "sciname": "Methylophaga sp."
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 3.07236e-96,
+                  "identity": 142,
+                  "positive": 150,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MKLAKIGIVAVSDRASAGVYDDISGKAIIETLNEYLTSEWQPVYEVIPDEQFVIEATLIKMADEQQCSLIVTTGGTGPAKRDVTPEATEAVCDRMMLGFGELMRAESLKFVATAILSRQTAGLRGSSLIVNLPGKPKSIRECLDVVFSAIPYCIDLMDGPYLVCNENVIKPFRPK",
+                  "midline": "M  AKIGIV VSDRASAG+  DISGKAII  LN YLTSEW+P+Y+VIPDEQ VIE TL+KMAD Q C LIVTTGGTGPAKRDVTPEATEAVCDRMM GFGELMRAESLK V TAILSRQTAGLRG SLIVNLPG P SI +CL  VF AIPYCIDLM+GPYL CNE +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gb|PHS69576.1|",
+                  "accession": "PHS69576",
+                  "title": "MAG: molybdopterin adenylyltransferase [Methylophaga sp.]",
+                  "taxid": 2024840,
+                  "sciname": "Methylophaga sp."
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.96,
+                  "score": 733,
+                  "evalue": 3.29107e-96,
+                  "identity": 138,
+                  "positive": 152,
+                  "query_from": 4,
+                  "query_to": 175,
+                  "hit_from": 6,
+                  "hit_to": 177,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "AKIGIVTVSDRASVGAYEDISGKAIIATLNDYLSSLWEPIYEVIPDDQPLIEATLVKMADELKCCLIVTTGGTGPAKRDVTPEATEAICDRMMPGFGELMRAESLKFVPSAILSRQTAGLRATTLIINLPGKPKSIRECLDAVFPAVPYCIDLMDGPYLQCNEAIIKPFRPQ",
+                  "midline": "AKIGIVTVSDRAS G   DISGKAII  LN YL+S WEPIY+VIPD+Q +IE TLVKMAD   CCLIVTTGGTGPAKRDVTPEATEA+CDRMMPGFGELMRAESLK VP+AILSRQTAGLR  +LI+NLPG P SI +CL AVFPA+PYCIDLM+GPYL+CNEA+IKPFRP+"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_289998099.1|",
+                  "accession": "WP_289998099",
+                  "title": "molybdopterin adenylyltransferase [Algoriphagus sediminis]",
+                  "taxid": 3057113,
+                  "sciname": "Algoriphagus sediminis"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.574,
+                  "score": 732,
+                  "evalue": 3.66688e-96,
+                  "identity": 137,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MTKAKIGIVTVSDRASAGVYEDVSGRAIIDTLNDYLKSEWEECYRVIPDEQALIEKVLIEMVDQEGCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRMESLKFVPTAILSRQTAGLRNNSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMGGPFLECNEEVMKPFRPKKK",
+                  "midline": "M+KAKIGIVTVSDRASAG+  D+SG+AII  LN YL SEWE  Y+VIPDEQ +IE  L++M D + CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLR +SLIVNLPG P SI +CL AVFPAIPYCIDLM GP+LECNE ++KPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "ref|WP_126791897.1|",
+                  "accession": "WP_126791897",
+                  "title": "molybdopterin adenylyltransferase [Aliidiomarina haloalkalitolerans]",
+                  "taxid": 859059,
+                  "sciname": "Aliidiomarina haloalkalitolerans"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.574,
+                  "score": 732,
+                  "evalue": 3.75938e-96,
+                  "identity": 137,
+                  "positive": 152,
+                  "query_from": 3,
+                  "query_to": 177,
+                  "hit_from": 5,
+                  "hit_to": 179,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "KAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KARIGIVTVSDRASAGVYEDISGKAIIATLHDYLTSAWEPVYEVIPDEQPEIEAMLKRMVDEDGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKYVPTAILSRQTAGLRGSSLLINLPGKPKAIRQCLDAVFPAVPYCIDLMEGPYLECDESVIQPFRPKAK",
+                  "midline": "KA+IGIVTVSDRASAG+  DISGKAII  L+ YLTS WEP+Y+VIPDEQ  IE  L +M D   CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SL++NLPG P +I  CL AVFPA+PYCIDLMEGPYLEC+E++I+PFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_203257096.1|",
+                  "accession": "WP_203257096",
+                  "title": "molybdopterin adenylyltransferase [Hyunsoonleella ulvae]",
+                  "taxid": 2799948,
+                  "sciname": "Hyunsoonleella ulvae"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.574,
+                  "score": 732,
+                  "evalue": 4.56577e-96,
+                  "identity": 133,
+                  "positive": 154,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKINIGIITVSDRASAGVYEDLSGKAIIATLQEYLISKWERVYKIVPDEQETIENTIIDMVDNEHCCLVVTTGGTGPAKRDVTPEATEAVCDRMIPGFGELMRAESLKYVPTAILSRQTAGLRGNSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPFLECDEKVIKPFRPKKK",
+                  "midline": "MSK  IGI+TVSDRASAG+  D+SGKAII  L  YL S+WE +Y+++PDEQ+ IE T++ M D + CCL+VTTGGTGPAKRDVTPEATEAVCDRM+PGFGELMRAESLK VPTAILSRQTAGLRG+SLI+NLPG P SI +CL AVFPA+PYCIDLMEGP+LEC+E +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gb|NQY06724.1|",
+                  "accession": "NQY06724",
+                  "title": "molybdopterin adenylyltransferase [Flavobacteriaceae bacterium]",
+                  "taxid": 1871037,
+                  "sciname": "Flavobacteriaceae bacterium"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.189,
+                  "score": 731,
+                  "evalue": 7.78484e-96,
+                  "identity": 133,
+                  "positive": 158,
+                  "query_from": 1,
+                  "query_to": 181,
+                  "hit_from": 1,
+                  "hit_to": 181,
+                  "align_len": 181,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAKLEHH",
+                  "hseq": "MSIARIGIITVSDRANEGIYEDISGKAIINTLHDYLTSEWKEFYKIVPDEQELIEKTIVNMVDNQKCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRLESLKFVPTAILSRQTAGLRGNSLIINLPGKPKSIRECLDAVFPAVPYCIDLMNGPFLECDKSIIRPFRPKDKLKAN",
+                  "midline": "MS A+IGI+TVSDRA+ GI  DISGKAII  L+ YLTSEW+  Y+++PDEQ++IE T+V M D Q CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG+SLI+NLPG P SI +CL AVFPA+PYCIDLM GP+LEC++++I+PFRPK KL+ +"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "ref|WP_348742567.1|",
+                  "accession": "WP_348742567",
+                  "title": "molybdopterin adenylyltransferase [Tenacibaculum platacis]",
+                  "taxid": 3137852,
+                  "sciname": "Tenacibaculum platacis"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.804,
+                  "score": 730,
+                  "evalue": 9.81427e-96,
+                  "identity": 134,
+                  "positive": 152,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 10,
+                  "hit_to": 183,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "AKIGIVTVSDRASAGVYEDLSGKAIINTLNDYLISEWTEVYEVIPDEQDVIEKTIINMVDKENCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRNNSLVLNLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLDCDTEVIQPFRPKKK",
+                  "midline": "AKIGIVTVSDRASAG+  D+SGKAII  LN YL SEW  +Y+VIPDEQ VIE T++ M D ++CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR +SL++NLPG P SI +CL AVFPAIPYCIDLMEGPYL+C+  +I+PFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "ref|WP_231389079.1|",
+                  "accession": "WP_231389079",
+                  "title": "MULTISPECIES: molybdopterin adenylyltransferase [unclassified Aquimarina]",
+                  "taxid": 2627091,
+                  "sciname": "unclassified Aquimarina"
+                }
+              ],
+              "len": 195,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.189,
+                  "score": 731,
+                  "evalue": 1.07839e-95,
+                  "identity": 134,
+                  "positive": 155,
+                  "query_from": 1,
+                  "query_to": 181,
+                  "hit_from": 14,
+                  "hit_to": 194,
+                  "align_len": 181,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAKLEHH",
+                  "hseq": "MLKTKIGIITVSDRASAGIYEDESGKAIIDTLNEYLNSEWTDLHEIIPDEQDLIEKTIINMVDNQNCCLVITTGGTGPSKRDVTPEATEAVCDRMMPGFGELMRSESLKYVPTAILSRQTAGLRKSSLIINLPGKPKSIRECLSAVFPAIPYCIDLMDGPFLECNEDVIKPFRPKNKIKTN",
+                  "midline": "M K KIGI+TVSDRASAGI  D SGKAII  LN YL SEW  ++++IPDEQ +IE T++ M D Q+CCL++TTGGTGP+KRDVTPEATEAVCDRMMPGFGELMR+ESLK VPTAILSRQTAGLR  SLI+NLPG P SI +CL AVFPAIPYCIDLM+GP+LECNE +IKPFRPK K++ +"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_100294142.1|",
+                  "accession": "WP_100294142",
+                  "title": "molybdopterin adenylyltransferase [Aeromonas cavernicola]",
+                  "taxid": 1006623,
+                  "sciname": "Aeromonas cavernicola"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.419,
+                  "score": 729,
+                  "evalue": 1.12011e-95,
+                  "identity": 140,
+                  "positive": 151,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MNKAKIGIVTVSDRASAGIYEDLSGKAIIDTLNAYLTSPWEPTYRVIADEQHHIESTLIQLADDEQCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSTLIVNLPGKPKSIRECLDAVFPAIPYCIDLMNGPYLECNSTVINVFRPK",
+                  "midline": "M+KAKIGIVTVSDRASAGI  D+SGKAII  LN YLTS WEP Y+VI DEQ  IE+TL+++AD + C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG +LIVNLPG P SI +CL AVFPAIPYCIDLM GPYLECN  +I  FRPK"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gb|MFI3244946.1|",
+                  "accession": "MFI3244946",
+                  "title": "molybdopterin adenylyltransferase [Ferrimonas sp.]",
+                  "taxid": 2080861,
+                  "sciname": "Ferrimonas sp."
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.034,
+                  "score": 728,
+                  "evalue": 1.37948e-95,
+                  "identity": 140,
+                  "positive": 151,
+                  "query_from": 3,
+                  "query_to": 177,
+                  "hit_from": 2,
+                  "hit_to": 176,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "KAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KAKIGIVTVSDRASAGIYEDLSGQAIIATLTEYLSSPWEPVYVVIPDEQAEIEATLIDLTDRQGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRDDSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMAGPYLECDPAVMVPFRPKAK",
+                  "midline": "KAKIGIVTVSDRASAGI  D+SG+AII  L  YL+S WEP+Y VIPDEQ  IE TL+ + D Q CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR DSLIVNLPG P SI +CL AVFPAIPYCIDLM GPYLEC+ A++ PFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "ref|WP_005893786.1|",
+                  "accession": "WP_005893786",
+                  "title": "molybdopterin adenylyltransferase [Aeromonas molluscorum]",
+                  "taxid": 271417,
+                  "sciname": "Aeromonas molluscorum"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.034,
+                  "score": 728,
+                  "evalue": 1.4895e-95,
+                  "identity": 139,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MNKAKIGIVTVSDRASAGIYEDLSGKAIMDTLGCYLSCEWEAVYRLIPDEQPQIEACLTQLADDAQCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSTLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLECDENVIKPFRPK",
+                  "midline": "M+KAKIGIVTVSDRASAGI  D+SGKAI+  L  YL+ EWE +Y++IPDEQ  IE  L ++AD   CCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG +LIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLEC+E +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_200822872.1|",
+                  "accession": "WP_200822872",
+                  "title": "molybdopterin adenylyltransferase [Aquimarina sp. AU58]",
+                  "taxid": 1874112,
+                  "sciname": "Aquimarina sp. AU58"
+                }
+              ],
+              "len": 217,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 286.574,
+                  "score": 732,
+                  "evalue": 1.52672e-95,
+                  "identity": 133,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 181,
+                  "hit_from": 36,
+                  "hit_to": 216,
+                  "align_len": 181,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAKLEHH",
+                  "hseq": "MLKTKIGIITVSDRASAGVYEDESGKAIIDTLNEYLSSEWTDLHEIIPDEQDLIEKTIIDMVDNQNCCLVITTGGTGPSKRDVTPEATEAVCDRMMPGFGELMRSESLKYVPTAILSRQTAGLRKSSLIINLPGKPKSIRECLSAVFPAIPYCIDLMDGPFLECNEDIIKPFRPKNKIKTN",
+                  "midline": "M K KIGI+TVSDRASAG+  D SGKAII  LN YL+SEW  ++++IPDEQ +IE T++ M D Q+CCL++TTGGTGP+KRDVTPEATEAVCDRMMPGFGELMR+ESLK VPTAILSRQTAGLR  SLI+NLPG P SI +CL AVFPAIPYCIDLM+GP+LECNE +IKPFRPK K++ +"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "dbj|GAB1856882.1|",
+                  "accession": "GAB1856882",
+                  "title": "molybdopterin adenylyltransferase [Flavobacteriaceae bacterium MHTCC 0001]",
+                  "taxid": 3389945,
+                  "sciname": "Flavobacteriaceae bacterium MHTCC 0001"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.034,
+                  "score": 728,
+                  "evalue": 1.62842e-95,
+                  "identity": 134,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSIAKIGIITVSDRASAGVYEDISGKAIIDTLNDYLVSTWKEVYKVVPDEQEAIEKSIIDMVDHQNCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRMESLKYVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCLDLMDGPYLVCNEDIIKPFRPKKK",
+                  "midline": "MS AKIGI+TVSDRASAG+  DISGKAII  LN YL S W+ +Y+V+PDEQ+ IE +++ M D Q+CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYC+DLM+GPYL CNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "tpg|HLV48268.1|",
+                  "accession": "HLV48268",
+                  "title": "molybdopterin adenylyltransferase [Aliidiomarina sp.]",
+                  "taxid": 1872439,
+                  "sciname": "Aliidiomarina sp."
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 285.034,
+                  "score": 728,
+                  "evalue": 1.83849e-95,
+                  "identity": 137,
+                  "positive": 151,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 12,
+                  "hit_to": 185,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "ARIGIVTVSDRASAGAYEDISGPAIIDTLTDYLSSPWEPVYRVIPDEQDLIEAALIDLADSENCCLIVTTGGTGPAKRDVTPEATEAVCERMMPGFGELMRMESLKYVPTAILSRQTAGLRKQSLIINLPGKPKAIRQCLDAVFPAVPYCIDLMEGPYLECNEAVIKPFRPKAK",
+                  "midline": "A+IGIVTVSDRASAG   DISG AII  L  YL+S WEP+Y+VIPDEQ +IE  L+ +AD ++CCLIVTTGGTGPAKRDVTPEATEAVC+RMMPGFGELMR ESLK VPTAILSRQTAGLR  SLI+NLPG P +I  CL AVFPA+PYCIDLMEGPYLECNEA+IKPFRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_041660154.1|",
+                  "accession": "WP_041660154",
+                  "title": "molybdopterin adenylyltransferase [Arcobacter nitrofigilis]",
+                  "taxid": 28199,
+                  "sciname": "Arcobacter nitrofigilis"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.648,
+                  "score": 727,
+                  "evalue": 2.26249e-95,
+                  "identity": 137,
+                  "positive": 150,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MMIAKIGIVTASDRASNGVYEDLSGKAIIDTLNEYLTSKWEPVYKCIEDNQETIENTLKDLVDNENCCLVVTTGGTGPAKRDVTPEATENVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECNEEVIKPFRPKQK",
+                  "midline": "M  AKIGIVT SDRAS G+  D+SGKAII  LN YLTS+WEP+Y+ I D Q+ IE TL  + D ++CCL+VTTGGTGPAKRDVTPEATE VCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|WP_167919024.1|",
+                  "accession": "WP_167919024",
+                  "title": "molybdopterin adenylyltransferase [Tamlana crocina]",
+                  "taxid": 393006,
+                  "sciname": "Tamlana crocina"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.648,
+                  "score": 727,
+                  "evalue": 2.38647e-95,
+                  "identity": 133,
+                  "positive": 150,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MDIIKIGIITVSDRANAGIYEDISGKAIINTLNEYLISSWNEVYRIVPDEQKIIENTLIDFVDNENCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKYVPTAILSRQTAGLRGKSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLKCNESIIKPFRPN",
+                  "midline": "M   KIGI+TVSDRA+AGI  DISGKAII  LN YL S W  +Y+++PDEQK+IE TL+   D ++CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+L+CNE++IKPFRP "
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "ref|WP_207321498.1|",
+                  "accession": "WP_207321498",
+                  "title": "molybdopterin adenylyltransferase [Shewanella cyperi]",
+                  "taxid": 2814292,
+                  "sciname": "Shewanella cyperi"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.648,
+                  "score": 727,
+                  "evalue": 2.63392e-95,
+                  "identity": 139,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MATARIGIVTVSDRASAGVYEDLSGKAIIDTLGQYLTSPWEPVYRLIPDEQVEIERTLIELADNEACCLIVTTGGTGPAKRDVTPEATEAVCHRMMPGFGELMRAESLKFVPTAILSRQTAGLRDDTLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLECNEDVIKAFRPK",
+                  "midline": "M+ A+IGIVTVSDRASAG+  D+SGKAII  L  YLTS WEP+Y++IPDEQ  IE TL+++AD + CCLIVTTGGTGPAKRDVTPEATEAVC RMMPGFGELMRAESLK VPTAILSRQTAGLR D+LIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLECNE +IK FRPK"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_130936547.1|",
+                  "accession": "WP_130936547",
+                  "title": "molybdopterin adenylyltransferase [Hyunsoonleella pacifica]",
+                  "taxid": 1080224,
+                  "sciname": "Hyunsoonleella pacifica"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.263,
+                  "score": 726,
+                  "evalue": 2.80889e-95,
+                  "identity": 133,
+                  "positive": 153,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 3,
+                  "hit_to": 175,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KIGIVTVSDRASAGIYEDLSGKAIIDTLNEYLTSVWKEVYKIVPDEQDLIEKTIINMVDNENCCLVVTTGGTGPAKRDVTPEATETVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGNCLIINLPGKPKSIRECLDAVFPAIPYCIDLMDGPFLECNKAVIQPFRPKKK",
+                  "midline": "KIGIVTVSDRASAGI  D+SGKAII  LN YLTS W+ +Y+++PDEQ +IE T++ M D ++CCL+VTTGGTGPAKRDVTPEATE VCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG+ LI+NLPG P SI +CL AVFPAIPYCIDLM+GP+LECN+A+I+PFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|WP_372938868.1|",
+                  "accession": "WP_372938868",
+                  "title": "molybdopterin adenylyltransferase [Seonamhaeicola sp.]",
+                  "taxid": 1912245,
+                  "sciname": "Seonamhaeicola sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.263,
+                  "score": 726,
+                  "evalue": 3.07529e-95,
+                  "identity": 131,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MPIAKIGVITVSDRANTGIYKDICGKTIINTINDYLISEWQSVYKIVPDEQDLIEKTMIDLVDNENCCLVISTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTSILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAIPYCIDLMEGPYLECNEAVIKPFRPKKK",
+                  "midline": "M  AKIG++TVSDRA+ GI  DI GK II  +N YL SEW+ +Y+++PDEQ +IE T++ + D ++CCL+++TGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPT+ILSRQTAGLRG SLI+NLPG P SI +CL AVFPAIPYCIDLMEGPYLECNEA+IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_167182493.1|",
+                  "accession": "WP_167182493",
+                  "title": "molybdopterin adenylyltransferase [Wenyingzhuangia heitensis]",
+                  "taxid": 1487859,
+                  "sciname": "Wenyingzhuangia heitensis"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.263,
+                  "score": 726,
+                  "evalue": 3.24855e-95,
+                  "identity": 136,
+                  "positive": 151,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSAIKIGIITVSDRASAGVYEDISGKAIIDTLQEYLESTWEKVYHVIPDEQDKIEETIVDLVDHQNCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLILNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFIKCNQEVIKPFRPKKK",
+                  "midline": "MS  KIGI+TVSDRASAG+  DISGKAII  L  YL S WE +Y VIPDEQ  IE T+V + D Q+CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPAIPYCIDLMEGP+++CN+ +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gb|MCH1436522.1|",
+                  "accession": "MCH1436522",
+                  "title": "molybdopterin adenylyltransferase [Flavobacteriales bacterium]",
+                  "taxid": 2021391,
+                  "sciname": "Flavobacteriales bacterium"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.263,
+                  "score": 726,
+                  "evalue": 3.57736e-95,
+                  "identity": 134,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 183,
+                  "hit_from": 1,
+                  "hit_to": 183,
+                  "align_len": 183,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAKLEHHHH",
+                  "hseq": "MLSTKIGIITVSDRASAGVYEDLSGKAIKATLDEYLSSEWTEVYEIIPDEQELIEDTMIDMVDRQGCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKVVPTAILSRQTAGLRKSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECDEEVIKPFRPKAKSQSKDS",
+                  "midline": "M   KIGI+TVSDRASAG+  D+SGKAI   L+ YL+SEW  +Y++IPDEQ++IE T++ M D Q CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLR  SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LEC+E +IKPFRPKAK +    "
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gb|MEA3353685.1|",
+                  "accession": "MEA3353685",
+                  "title": "molybdopterin adenylyltransferase [Campylobacterota bacterium]",
+                  "taxid": 2026809,
+                  "sciname": "Campylobacterota bacterium"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 284.263,
+                  "score": 726,
+                  "evalue": 3.58017e-95,
+                  "identity": 138,
+                  "positive": 151,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MQKAKIGIITVSDRASAGVYEDISGQAIIDTLKEYLTSPWEDLYKVIPDEQDIIEQTIIDMIDDGGCSLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGASLVVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECNEEVIKPFRPK",
+                  "midline": "M KAKIGI+TVSDRASAG+  DISG+AII  L  YLTS WE +Y+VIPDEQ +IE T++ M D   C L+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SL+VNLPG P SI +CL AVFPAIPYCIDLMEGP+LECNE +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|WP_298535658.1|",
+                  "accession": "WP_298535658",
+                  "title": "molybdopterin adenylyltransferase [uncultured Algibacter sp.]",
+                  "taxid": 298659,
+                  "sciname": "uncultured Algibacter sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 283.878,
+                  "score": 725,
+                  "evalue": 5.32007e-95,
+                  "identity": 133,
+                  "positive": 150,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "METINIGIITVSDRASAGVYEDLSGQAIIATLNEYLISNWNEVYKIVPDEQDDIEKTIMDMVDNQDCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGCSLIINLPGKPKSIRECLDAIFPAVPYCIDLMEGPFLECNEQIIKPFRPKKK",
+                  "midline": "M    IGI+TVSDRASAG+  D+SG+AII  LN YL S W  +Y+++PDEQ  IE T++ M D QDCCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL A+FPA+PYCIDLMEGP+LECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|WP_313909709.1|",
+                  "accession": "WP_313909709",
+                  "title": "molybdopterin adenylyltransferase [Rheinheimera sp. MMS21-TC3]",
+                  "taxid": 3072790,
+                  "sciname": "Rheinheimera sp. MMS21-TC3"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 283.108,
+                  "score": 723,
+                  "evalue": 1.08637e-94,
+                  "identity": 137,
+                  "positive": 153,
+                  "query_from": 4,
+                  "query_to": 176,
+                  "hit_from": 6,
+                  "hit_to": 178,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKA",
+                  "hseq": "AKIGIVTVSDRASAGEYEDISGQAIIDTLNDYLTSEWLPVYRLIPDEKNLIELTLTELADDENCSLIVTTGGTGPAKRDLTPEATEAVCDRMMPGFGELMRAESLKYVATAILSRQTAGLRGDSLIINLPGKPKAIRQCLDAVFPAVPYCIDLMEGPYLVCNEAVIKPFRPKS",
+                  "midline": "AKIGIVTVSDRASAG   DISG+AII  LN YLTSEW P+Y++IPDE+ +IE TL ++AD ++C LIVTTGGTGPAKRD+TPEATEAVCDRMMPGFGELMRAESLK V TAILSRQTAGLRGDSLI+NLPG P +I  CL AVFPA+PYCIDLMEGPYL CNEA+IKPFRPK+"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|WP_344786593.1|",
+                  "accession": "WP_344786593",
+                  "title": "molybdopterin adenylyltransferase [Postechiella marina]",
+                  "taxid": 943941,
+                  "sciname": "Postechiella marina"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 282.722,
+                  "score": 722,
+                  "evalue": 1.21048e-94,
+                  "identity": 134,
+                  "positive": 153,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MLKIKIGIITVSDRASAGIYEDLSGKAIIDTLNSYLISTWQKVYKVIPDEQTLIEDTIIDFVDNQNCCLVITTGGTGPAKRDVTPDATEAVCDKLMPGFGELMRAESLKFVPTAILSRQTAGLRKKSLILNLPGKPKSIKECLDAVFPAIPYCIDLIEGPYLECNKAVIKPFRPKIK",
+                  "midline": "M K KIGI+TVSDRASAGI  D+SGKAII  LN YL S W+ +Y+VIPDEQ +IE T++   D Q+CCL++TTGGTGPAKRDVTP+ATEAVCD++MPGFGELMRAESLK VPTAILSRQTAGLR  SLI+NLPG P SI +CL AVFPAIPYCIDL+EGPYLECN+A+IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "ref|WP_345368836.1|",
+                  "accession": "WP_345368836",
+                  "title": "molybdopterin adenylyltransferase [Algivirga pacifica]",
+                  "taxid": 1162670,
+                  "sciname": "Algivirga pacifica"
+                }
+              ],
+              "len": 184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 283.108,
+                  "score": 723,
+                  "evalue": 1.4099e-94,
+                  "identity": 137,
+                  "positive": 149,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 11,
+                  "hit_to": 184,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "AKIGIVTVSDRASAGVYEDMSGKAIIDTLYEYLTSQWRACYEVIPDEQATIEKTLIDLVDKQHCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRKGSLILNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECNEEVIKPFRPKQK",
+                  "midline": "AKIGIVTVSDRASAG+  D+SGKAII  L  YLTS+W   Y+VIPDEQ  IE TL+ + D Q CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR  SLI+NLPG P SI +CL AVFPAIPYCIDLMEGP+LECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|MDC3133072.1|",
+                  "accession": "MDC3133072",
+                  "title": "molybdopterin adenylyltransferase [Flavobacteriaceae bacterium]",
+                  "taxid": 1871037,
+                  "sciname": "Flavobacteriaceae bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 282.722,
+                  "score": 722,
+                  "evalue": 1.41126e-94,
+                  "identity": 133,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 1,
+                  "hit_to": 175,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "MSIVKIGIITVSDRVNAGIYEDISGKAIINTLNDYLISEWEQLYKVVPDEQELIEKSIVNMVDHEKCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRSESLKFVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMDGPFLECNENIIQTFRPK",
+                  "midline": "MS  KIGI+TVSDR +AGI  DISGKAII  LN YL SEWE +Y+V+PDEQ++IE ++V M D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR+ESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLM+GP+LECNE +I+ FRPK"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_318935703.1|",
+                  "accession": "WP_318935703",
+                  "title": "molybdopterin adenylyltransferase [Pseudidiomarina sp.]",
+                  "taxid": 2081707,
+                  "sciname": "Pseudidiomarina sp."
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 282.337,
+                  "score": 721,
+                  "evalue": 2.19412e-94,
+                  "identity": 133,
+                  "positive": 151,
+                  "query_from": 4,
+                  "query_to": 175,
+                  "hit_from": 7,
+                  "hit_to": 178,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "AKIGIVTVSDRASAGVYEDLSGKAIEATLNDYLVSEWQPVYRLIPDEQPEIELTLASLADDEGCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRSESLKYVPTAILSRQTAGLRGQTLIINLPGKPKAIRQCLDAVFPAVPYCIDLMDGPYLECDESVVKPFRPK",
+                  "midline": "AKIGIVTVSDRASAG+  D+SGKAI   LN YL SEW+P+Y++IPDEQ  IE TL  +AD + CCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR+ESLK VPTAILSRQTAGLRG +LI+NLPG P +I  CL AVFPA+PYCIDLM+GPYLEC+E+++KPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gb|MBG16579.1|",
+                  "accession": "MBG16579",
+                  "title": "molybdopterin adenylyltransferase [Crocinitomicaceae bacterium]",
+                  "taxid": 2026728,
+                  "sciname": "Crocinitomicaceae bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 281.952,
+                  "score": 720,
+                  "evalue": 2.55077e-94,
+                  "identity": 132,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MLNIKIGIVTVSDRASAGIYEDLSGKAIIDTLNQYLISEWEKFYEIIPDEREHVEKTIIDLVDNKQCCLVITTGGTGPAKRDITPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRNSSLILNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFMECNQEVIKPFRPKSK",
+                  "midline": "M   KIGIVTVSDRASAGI  D+SGKAII  LN YL SEWE  Y++IPDE++ +E T++ + D + CCL++TTGGTGPAKRD+TPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR  SLI+NLPG P SI +CL AVFPAIPYCIDLMEGP++ECN+ +IKPFRPK+K"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|WP_417333878.1|",
+                  "accession": "WP_417333878",
+                  "title": "MULTISPECIES: molybdopterin adenylyltransferase [Halarcobacter]",
+                  "taxid": 2321115,
+                  "sciname": "Halarcobacter"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.796,
+                  "score": 717,
+                  "evalue": 7.73902e-94,
+                  "identity": 136,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 179,
+                  "align_len": 179,
+                  "gaps": 2,
+                  "qseq": "MSK--AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKEIAKIGIITTSDRASKGIYEDISGKAIEETMNDYLTSPWEPVYRCIEDDQTTIENTLKELVDDENCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPFLECNEEVMKPFRPKKK",
+                  "midline": "MSK  AKIGI+T SDRAS GI  DISGKAI   +N YLTS WEP+Y+ I D+Q  IE TL ++ D ++CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLMEGP+LECNE ++KPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "gb|MEP5341387.1|",
+                  "accession": "MEP5341387",
+                  "title": "molybdopterin adenylyltransferase [Algibacter sp.]",
+                  "taxid": 1872428,
+                  "sciname": "Algibacter sp."
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.026,
+                  "score": 715,
+                  "evalue": 1.3646e-93,
+                  "identity": 133,
+                  "positive": 148,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSKIKIGIITVSDRCYKGIYEDISGKAIISTLNDYLVSEWEEIYKIVPDEQELIEQAIIDMVDNKKCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKFVPTAILSRQTAGLRKDCLIINLPGKPKSIKECLDAVFPAVPYCIDLMDGPYLECNTEAIKSFRPKSK",
+                  "midline": "MSK KIGI+TVSDR   GI  DISGKAII  LN YL SEWE IY+++PDEQ++IE  ++ M D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLR D LI+NLPG P SI +CL AVFPA+PYCIDLM+GPYLECN   IK FRPK+K"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|WP_014705694.1|",
+                  "accession": "WP_014705694",
+                  "title": "molybdopterin adenylyltransferase [Methylophaga nitratireducenticrescens]",
+                  "taxid": 754476,
+                  "sciname": "Methylophaga nitratireducenticrescens"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.026,
+                  "score": 715,
+                  "evalue": 1.42774e-93,
+                  "identity": 135,
+                  "positive": 152,
+                  "query_from": 1,
+                  "query_to": 175,
+                  "hit_from": 3,
+                  "hit_to": 177,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "IKKAKIGIVTVSDRASKGVYDDLSGQVIMATLDEFLTSPWQPVYEVIPDEKDVICATLIKMADELGCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVATAILSRQTAGLRGSSLIVNLPGKPKAIRECLDAVFPAVPYCIDLMEGPYLECDETVIKPFRPK",
+                  "midline": "+ KAKIGIVTVSDRAS G+  D+SG+ I+  L+ +LTS W+P+Y+VIPDE+ VI  TL+KMAD   CCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK V TAILSRQTAGLRG SLIVNLPG P +I +CL AVFPA+PYCIDLMEGPYLEC+E +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|WP_100690980.1|",
+                  "accession": "WP_100690980",
+                  "title": "molybdopterin adenylyltransferase [Idiomarina sp. X4]",
+                  "taxid": 2055892,
+                  "sciname": "Idiomarina sp. X4"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.026,
+                  "score": 715,
+                  "evalue": 1.46141e-93,
+                  "identity": 134,
+                  "positive": 149,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 6,
+                  "hit_to": 179,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "ARIGIVTVSDRASRGQYEDISGPAIEATLNDYLTSSWQPVYRVIEDEQALIEQTIKDLVDKEDCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRQESLKYVPTAILSRQTAGLRGSSLIINLPGKPKAIRQCLDAVFPAVPYCIDLMEGPYLECDEAVIKPFRPKSK",
+                  "midline": "A+IGIVTVSDRAS G   DISG AI   LN YLTS W+P+Y+VI DEQ +IE T+  + D +DCCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLI+NLPG P +I  CL AVFPA+PYCIDLMEGPYLEC+EA+IKPFRPK+K"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|WP_428018915.1|",
+                  "accession": "WP_428018915",
+                  "title": "molybdopterin adenylyltransferase [Arcobacter sp.]",
+                  "taxid": 1872629,
+                  "sciname": "Arcobacter sp."
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.026,
+                  "score": 715,
+                  "evalue": 1.47547e-93,
+                  "identity": 135,
+                  "positive": 146,
+                  "query_from": 4,
+                  "query_to": 175,
+                  "hit_from": 6,
+                  "hit_to": 177,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "AKIGIITASDRASAGIYEDLSGKAIIDTLNSYLISSWESVYRCIADDQKTIEDTMKDLVDNEKCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIKECLDAVFPAIPYCIDLMEGPYLECNEEVIKAFRPK",
+                  "midline": "AKIGI+T SDRASAGI  D+SGKAII  LN YL S WE +Y+ I D+QK IE T+  + D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLECNE +IK FRPK"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_025345042.1|",
+                  "accession": "WP_025345042",
+                  "title": "molybdopterin adenylyltransferase [Sulfurospirillum multivorans]",
+                  "taxid": 66821,
+                  "sciname": "Sulfurospirillum multivorans"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 279.641,
+                  "score": 714,
+                  "evalue": 1.75101e-93,
+                  "identity": 134,
+                  "positive": 151,
+                  "query_from": 3,
+                  "query_to": 176,
+                  "hit_from": 2,
+                  "hit_to": 175,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "KAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKA",
+                  "hseq": "KAKIGILTVSDRASAGVYEDLSGKAIIATLSEYLSSEWESVYEVIPDEQSLIEEALKDMADEQGCCLIVTTGGTGPALRDVTPEATEAVCEKMMPGFGELMRQVSLKYVPTAILSRQTAGIRGRSLIINLPGKPKSIRECLDAVFPAVPYCIDLLEGPFLTCNEAVIKPFRPKA",
+                  "midline": "KAKIGI+TVSDRASAG+  D+SGKAII  L+ YL+SEWE +Y+VIPDEQ +IE  L  MAD Q CCLIVTTGGTGPA RDVTPEATEAVC++MMPGFGELMR  SLK VPTAILSRQTAG+RG SLI+NLPG P SI +CL AVFPA+PYCIDL+EGP+L CNEA+IKPFRPKA"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "tpg|HEX5792489.1|",
+                  "accession": "HEX5792489",
+                  "title": "molybdopterin adenylyltransferase [Rheinheimera sp.]",
+                  "taxid": 1869214,
+                  "sciname": "Rheinheimera sp."
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 280.026,
+                  "score": 715,
+                  "evalue": 1.86249e-93,
+                  "identity": 133,
+                  "positive": 154,
+                  "query_from": 2,
+                  "query_to": 177,
+                  "hit_from": 4,
+                  "hit_to": 179,
+                  "align_len": 176,
+                  "gaps": 0,
+                  "qseq": "SKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "TAARIGIVTVSDRASAGIYEDLSGKAIINALKDYLTSDWQPEYRLVPDEQPLIEQTLRQLADEQGCCLIVTTGGTGPAKRDVTPEATAAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGNCLIINLPGKPRAIRQCLDAVFPAVPYCIELMDGPYLQCNEEVIKPFRPGSQ",
+                  "midline": "+ A+IGIVTVSDRASAGI  D+SGKAII AL  YLTS+W+P Y+++PDEQ +IE TL ++AD Q CCLIVTTGGTGPAKRDVTPEAT AVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG+ LI+NLPG P +I  CL AVFPA+PYCI+LM+GPYL+CNE +IKPFRP ++"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_419769920.1|",
+                  "accession": "WP_419769920",
+                  "title": "molybdopterin adenylyltransferase [Candidatus Marinarcus sp.]",
+                  "taxid": 3100987,
+                  "sciname": "Candidatus Marinarcus sp."
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 279.641,
+                  "score": 714,
+                  "evalue": 2.44622e-93,
+                  "identity": 135,
+                  "positive": 148,
+                  "query_from": 4,
+                  "query_to": 175,
+                  "hit_from": 6,
+                  "hit_to": 177,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "AKIGIVTCSDRASAGLYEDLSGKAIIEVLTSYLTSPWEAVYKVIEDDKITIEEALIELVDKQKCCLVVTTGGTGPAKRDVTPEATENVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGDSLIVNLPGKPKSIKECLDAVFPAIPYCIDLMEGPFLTCNEAVIKPFRPK",
+                  "midline": "AKIGIVT SDRASAG+  D+SGKAII  L  YLTS WE +Y+VI D++  IE  L+++ D Q CCL+VTTGGTGPAKRDVTPEATE VCDRMMPGFGELMRAESLK VPTAILSRQTAGLRGDSLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+L CNEA+IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "ref|WP_025744113.1|",
+                  "accession": "WP_025744113",
+                  "title": "molybdopterin adenylyltransferase [Aquimarina pacifica]",
+                  "taxid": 1296415,
+                  "sciname": "Aquimarina pacifica"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 279.641,
+                  "score": 714,
+                  "evalue": 2.60531e-93,
+                  "identity": 134,
+                  "positive": 149,
+                  "query_from": 1,
+                  "query_to": 177,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 177,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "MSIAKIGIITVSDRCHKGVYEDISGKAIINTLNDYLISEWEKIYTIVPDEQKDIEKTIINLVDNEKCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRKNSLIINLPGKPKSIRECLDAVFPAVPYCIDLMDGPYLVCNEEIIIPFRPKNK",
+                  "midline": "MS AKIGI+TVSDR   G+  DISGKAII  LN YL SEWE IY ++PDEQK IE T++ + D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLR +SLI+NLPG P SI +CL AVFPA+PYCIDLM+GPYL CNE +I PFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gb|MCG8573559.1|",
+                  "accession": "MCG8573559",
+                  "title": "molybdopterin adenylyltransferase [Flavobacteriales bacterium]",
+                  "taxid": 2021391,
+                  "sciname": "Flavobacteriales bacterium"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.485,
+                  "score": 711,
+                  "evalue": 6.04237e-93,
+                  "identity": 131,
+                  "positive": 149,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 3,
+                  "hit_to": 175,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "RIGIITVSDRASIGAYEDLSGKAISNTLNDYLISEWEEVYKIVPDEQDEIEKTIIDMADHQNCCLVITTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMDGPYLECNDEVIKVFRPKNK",
+                  "midline": "+IGI+TVSDRAS G   D+SGKAI   LN YL SEWE +Y+++PDEQ  IE T++ MAD Q+CCL++TTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLM+GPYLECN+ +IK FRPK K"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|MFK5882618.1|",
+                  "accession": "MFK5882618",
+                  "title": "molybdopterin adenylyltransferase [Sulfurospirillum sp.]",
+                  "taxid": 2053622,
+                  "sciname": "Sulfurospirillum sp."
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.1,
+                  "score": 710,
+                  "evalue": 7.95798e-93,
+                  "identity": 131,
+                  "positive": 150,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 4,
+                  "hit_to": 176,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KIGILTMSDRASAGVYKDLSGKAIIDTMNDYLVSEWESVYAVIPDDQELIEEALKDMADDQECCLIVTTGGTGPAKRDITPEATEAVCDKMMPGFGELMRQVSLKYVPTAILSRQTAGIRGKSLIINLPGKPKSIRECLDAVFPAVPYCIDLIEGPYIECNEEVIKPFRPKQK",
+                  "midline": "KIGI+T+SDRASAG+  D+SGKAII  +N YL SEWE +Y VIPD+Q++IE  L  MAD Q+CCLIVTTGGTGPAKRD+TPEATEAVCD+MMPGFGELMR  SLK VPTAILSRQTAG+RG SLI+NLPG P SI +CL AVFPA+PYCIDL+EGPY+ECNE +IKPFRPK K"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gb|MCH2231710.1|",
+                  "accession": "MCH2231710",
+                  "title": "molybdopterin adenylyltransferase [Crocinitomicaceae bacterium]",
+                  "taxid": 2026728,
+                  "sciname": "Crocinitomicaceae bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.1,
+                  "score": 710,
+                  "evalue": 9.74622e-93,
+                  "identity": 130,
+                  "positive": 146,
+                  "query_from": 5,
+                  "query_to": 175,
+                  "hit_from": 9,
+                  "hit_to": 179,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "NIGIITVSDRASKGVYEDKSGVAIIETLNEYLNSDWKEFYKIVPDEQEQIEKTIIDMIDNQDCCLVVTTGGTGPAKRDVTPEATSAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGNSLIINLPGKPKSIRECLNAVFPAVPYCIDLMNGPYLECNEDIIKPFRPK",
+                  "midline": " IGI+TVSDRAS G+  D SG AII  LN YL S+W+  Y+++PDEQ+ IE T++ M D QDCCL+VTTGGTGPAKRDVTPEAT AVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG+SLI+NLPG P SI +CL AVFPA+PYCIDLM GPYLECNE +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_126834597.1|",
+                  "accession": "WP_126834597",
+                  "title": "molybdopterin adenylyltransferase [Pseudidiomarina aquimaris]",
+                  "taxid": 641841,
+                  "sciname": "Pseudidiomarina aquimaris"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 278.1,
+                  "score": 710,
+                  "evalue": 1.12235e-92,
+                  "identity": 134,
+                  "positive": 149,
+                  "query_from": 2,
+                  "query_to": 175,
+                  "hit_from": 5,
+                  "hit_to": 178,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "SKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "TTARIGIVTVSDRASAGVYDDISGKAIEATLNDYLTSSWQAYYRLIPDEKDVIEATLRELVDDEHCCLVVTTGGTGPAERDVTPEATEAVCDRMMPGFGELMRTESLKYVPTAILSRQTAGLRGSSLIVNLPGKPKAIRQCLDAVFPAIPYCIDLMNGPYLECDEAVIKPFRPK",
+                  "midline": "+ A+IGIVTVSDRASAG+  DISGKAI   LN YLTS W+  Y++IPDE+ VIE TL ++ D + CCL+VTTGGTGPA+RDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLIVNLPG P +I  CL AVFPAIPYCIDLM GPYLEC+EA+IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gb|MEA3315294.1|",
+                  "accession": "MEA3315294",
+                  "title": "molybdopterin adenylyltransferase [Campylobacterota bacterium]",
+                  "taxid": 2026809,
+                  "sciname": "Campylobacterota bacterium"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.944,
+                  "score": 707,
+                  "evalue": 2.45432e-92,
+                  "identity": 130,
+                  "positive": 148,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 2,
+                  "hit_to": 174,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KIGIVTVSDRASAGVYEDISGKAIISTLNEYLISPWSEVYKVIPDEQDIIERTIIDMIDNQNCSLVVTTGGTGPAKRDVTPEATENICDRMMPGFGELMRQESLKFVPTAILSRQTAGLRGSSLVINLPGKPKAIRECLDAVFPAIPYCLDLMEQPFMECNEDVIKPFRPKSK",
+                  "midline": "KIGIVTVSDRASAG+  DISGKAII  LN YL S W  +Y+VIPDEQ +IE T++ M D Q+C L+VTTGGTGPAKRDVTPEATE +CDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SL++NLPG P +I +CL AVFPAIPYC+DLME P++ECNE +IKPFRPK+K"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|WP_166841046.1|",
+                  "accession": "WP_166841046",
+                  "title": "molybdopterin adenylyltransferase [Rheinheimera pleomorphica]",
+                  "taxid": 2703963,
+                  "sciname": "Rheinheimera pleomorphica"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.944,
+                  "score": 707,
+                  "evalue": 2.88051e-92,
+                  "identity": 134,
+                  "positive": 149,
+                  "query_from": 4,
+                  "query_to": 175,
+                  "hit_from": 6,
+                  "hit_to": 177,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "AKIGIVTVSDRASAGVYEDLSGKAIIDTLKDYLTSDWQPEYRLIPDEQPLIEQTLRELADEQGCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFAELMRTESLKYVPTAILSRQTAGLRGCSLIINLPGKPKAIRQCLDAVFPAVPYCIDLMDGPYLQCNEAVITAFRPK",
+                  "midline": "AKIGIVTVSDRASAG+  D+SGKAII  L  YLTS+W+P Y++IPDEQ +IE TL ++AD Q CCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGF ELMR ESLK VPTAILSRQTAGLRG SLI+NLPG P +I  CL AVFPA+PYCIDLM+GPYL+CNEA+I  FRPK"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "tpg|HIP12983.1|",
+                  "accession": "HIP12983",
+                  "title": "molybdopterin adenylyltransferase [Arcobacter sp.]",
+                  "taxid": 1872629,
+                  "sciname": "Arcobacter sp."
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.559,
+                  "score": 706,
+                  "evalue": 2.98961e-92,
+                  "identity": 133,
+                  "positive": 150,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 2,
+                  "hit_to": 174,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KIGIITVSDRASQGIYEDLSGKAIIDTLNGYLTSPWEEVYVVIPDEQDIIEATMIKMADKQDCSLIVTTGGTGPSKRDVTPEATEAVCNRMMPGFGELMRQESLKFVPTAILSRQTAGLRNETLIVNLPGKPKSIRECLDAVFPAIPYCLDLMERPFMKCDEKVIKVFRPKAK",
+                  "midline": "KIGI+TVSDRAS GI  D+SGKAII  LN YLTS WE +Y VIPDEQ +IE T++KMAD QDC LIVTTGGTGP+KRDVTPEATEAVC+RMMPGFGELMR ESLK VPTAILSRQTAGLR ++LIVNLPG P SI +CL AVFPAIPYC+DLME P+++C+E +IK FRPKAK"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "gb|MEC8603875.1|",
+                  "accession": "MEC8603875",
+                  "title": "molybdopterin adenylyltransferase [Bacteroidota bacterium]",
+                  "taxid": 1898104,
+                  "sciname": "Bacteroidota bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.559,
+                  "score": 706,
+                  "evalue": 3.51336e-92,
+                  "identity": 129,
+                  "positive": 150,
+                  "query_from": 1,
+                  "query_to": 180,
+                  "hit_from": 1,
+                  "hit_to": 180,
+                  "align_len": 180,
+                  "gaps": 0,
+                  "qseq": "MSKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAKLEH",
+                  "hseq": "MKKINIGIVTVSDRASAGVYEDLSGIAIIDTLNEYLISDWHKFYKIIPDEQKLIEQTMIDLVDNQKCCLVISTGGTGPAKRDVTPDATESVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRNSSLIINLPGKPKSIRECMDAVFPAIPYCIDLMEGPYMECDSTVIQPFRPKQKPLH",
+                  "midline": "M K  IGIVTVSDRASAG+  D+SG AII  LN YL S+W   Y++IPDEQK+IE T++ + D Q CCL+++TGGTGPAKRDVTP+ATE+VCDRMMPGFGELMRAESLK VPTAILSRQTAGLR  SLI+NLPG P SI +C+ AVFPAIPYCIDLMEGPY+EC+  +I+PFRPK K  H"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_428017122.1|",
+                  "accession": "WP_428017122",
+                  "title": "molybdopterin adenylyltransferase [Arcobacter sp.]",
+                  "taxid": 1872629,
+                  "sciname": "Arcobacter sp."
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.559,
+                  "score": 706,
+                  "evalue": 3.54265e-92,
+                  "identity": 134,
+                  "positive": 145,
+                  "query_from": 4,
+                  "query_to": 175,
+                  "hit_from": 6,
+                  "hit_to": 177,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "AKIGIITASDRASAGIYEDLSGKAIIDTLNSYLISSWEPVYRCIADDQKTIEDTMKDLVDNEKCCLVVTTGGTGPAARDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIKECLDAVFPAIPYCIDLMEGPYLEVNEEVIKAFRPK",
+                  "midline": "AKIGI+T SDRASAGI  D+SGKAII  LN YL S WEP+Y+ I D+QK IE T+  + D + CCL+VTTGGTGPA RDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGPYLE NE +IK FRPK"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_115718546.1|",
+                  "accession": "WP_115718546",
+                  "title": "molybdopterin adenylyltransferase [Gallaecimonas mangrovi]",
+                  "taxid": 2291597,
+                  "sciname": "Gallaecimonas mangrovi"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.559,
+                  "score": 706,
+                  "evalue": 4.13015e-92,
+                  "identity": 134,
+                  "positive": 150,
+                  "query_from": 2,
+                  "query_to": 175,
+                  "hit_from": 4,
+                  "hit_to": 177,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "SKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "SKARIGIVTVSDRASAGVYEDLSGQAIIDTLNDYLTSDWQSEYLVIPDEQPLIENTLKTLADDNGCSLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRSESLKYVPTAILSRQTAGLRGSCLIINLPGKPKAIRQCLDAVFPAVPYCIDLMDGPFLECDEAVIKPFRPK",
+                  "midline": "SKA+IGIVTVSDRASAG+  D+SG+AII  LN YLTS+W+  Y VIPDEQ +IE TL  +AD   C LIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR+ESLK VPTAILSRQTAGLRG  LI+NLPG P +I  CL AVFPA+PYCIDLM+GP+LEC+EA+IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|MEM6347306.1|",
+                  "accession": "MEM6347306",
+                  "title": "molybdopterin adenylyltransferase [Bacteroidota bacterium]",
+                  "taxid": 1898104,
+                  "sciname": "Bacteroidota bacterium"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.174,
+                  "score": 705,
+                  "evalue": 4.96286e-92,
+                  "identity": 130,
+                  "positive": 150,
+                  "query_from": 5,
+                  "query_to": 177,
+                  "hit_from": 4,
+                  "hit_to": 176,
+                  "align_len": 173,
+                  "gaps": 0,
+                  "qseq": "KIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "KIGILTVSDRANAGVYEDISGKAIISTLDDYLISKWEKVYKIVPDEQEIIEQALIEMIDQEKCCLAVTTGGTGPAKRDVTPEATMAVCDRMMPGFGELMRAESLKYVPTAILSRQTAGLRGSSLIINLPGKPKSIRECLDAVFPAVPYCIDLMEGPFLECDEQVIKVFRPKKK",
+                  "midline": "KIGI+TVSDRA+AG+  DISGKAII  L+ YL S+WE +Y+++PDEQ++IE  L++M D + CCL VTTGGTGPAKRDVTPEAT AVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG SLI+NLPG P SI +CL AVFPA+PYCIDLMEGP+LEC+E +IK FRPK K"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_290612717.1|",
+                  "accession": "WP_290612717",
+                  "title": "molybdopterin adenylyltransferase [Arsukibacterium sp. UBA3155]",
+                  "taxid": 1946058,
+                  "sciname": "Arsukibacterium sp. UBA3155"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.174,
+                  "score": 705,
+                  "evalue": 5.61357e-92,
+                  "identity": 132,
+                  "positive": 148,
+                  "query_from": 2,
+                  "query_to": 175,
+                  "hit_from": 4,
+                  "hit_to": 177,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "SKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPK",
+                  "hseq": "SSAKIGIVTVSDRASAGVYEDLSGKAIIDTLKEYLNSNWQAEYRLIPDEQTVIEQTLRELCDEQGCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRTESLKYVPTAILSRQTAGLRGSSLIINLPGKPKAIRQCLDAVFPAVPYCIDLMDGPFLQCDEDVIKPFRPK",
+                  "midline": "S AKIGIVTVSDRASAG+  D+SGKAII  L  YL S W+  Y++IPDEQ VIE TL ++ D Q CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLI+NLPG P +I  CL AVFPA+PYCIDLM+GP+L+C+E +IKPFRPK"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "ref|WP_065954700.1|",
+                  "accession": "WP_065954700",
+                  "title": "molybdopterin adenylyltransferase [Alishewanella sp. HH-ZS]",
+                  "taxid": 1856684,
+                  "sciname": "Alishewanella sp. HH-ZS"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 276.174,
+                  "score": 705,
+                  "evalue": 6.26378e-92,
+                  "identity": 130,
+                  "positive": 153,
+                  "query_from": 2,
+                  "query_to": 176,
+                  "hit_from": 4,
+                  "hit_to": 178,
+                  "align_len": 175,
+                  "gaps": 0,
+                  "qseq": "SKAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKA",
+                  "hseq": "QQAKIGIVTVSDRASAGIYEDLSGKAIIDTLTEYLSSDWQAEYRLIPDEQLLIEQTLIELAEQQGCCLIVTTGGTGPAKRDVTPEATEAVCDRLMPGFGELMRQESLKYVPTAILSRQTAGLRGNCLIINLPGKPKAIRQCLDAVFPAVPYCIDLMDGPYLQCNEAVMQAFRPKS",
+                  "midline": " +AKIGIVTVSDRASAGI  D+SGKAII  L  YL+S+W+  Y++IPDEQ +IE TL+++A+ Q CCLIVTTGGTGPAKRDVTPEATEAVCDR+MPGFGELMR ESLK VPTAILSRQTAGLRG+ LI+NLPG P +I  CL AVFPA+PYCIDLM+GPYL+CNEA+++ FRPK+"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_031569124.1|",
+                  "accession": "WP_031569124",
+                  "title": "molybdopterin adenylyltransferase [Rheinheimera texasensis]",
+                  "taxid": 306205,
+                  "sciname": "Rheinheimera texasensis"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 275.789,
+                  "score": 704,
+                  "evalue": 8.60734e-92,
+                  "identity": 134,
+                  "positive": 148,
+                  "query_from": 3,
+                  "query_to": 176,
+                  "hit_from": 5,
+                  "hit_to": 178,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "KAKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKA",
+                  "hseq": "KIRIGILTVSDRASQGIYDDISGKAIEQTLAEYLTCSWEKVYRLIPDEQALIEQTLIELTDEEQCCLVVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKFVPTAILSRQTAGLRGQRLIVNLPGKPSAIRQCLDAVFPAIPYCIDLMEGPYLECNPAIIKVFRPKA",
+                  "midline": "K +IGI+TVSDRAS GI  DISGKAI   L  YLT  WE +Y++IPDEQ +IE TL+++ D + CCL+VTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLK VPTAILSRQTAGLRG  LIVNLPG P++I  CL AVFPAIPYCIDLMEGPYLECN A+IK FRPKA"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gb|MGB3751799.1|",
+                  "accession": "MGB3751799",
+                  "title": "molybdopterin adenylyltransferase [Arcobacteraceae bacterium]",
+                  "taxid": 2808971,
+                  "sciname": "Arcobacteraceae bacterium"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 275.789,
+                  "score": 704,
+                  "evalue": 9.30585e-92,
+                  "identity": 132,
+                  "positive": 147,
+                  "query_from": 4,
+                  "query_to": 177,
+                  "hit_from": 6,
+                  "hit_to": 179,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "AKIGIVTVSDRASAGITADISGKAIILALNLYLTSEWEPIYQVIPDEQKVIETTLVKMADIQDCCLIVTTGGTGPAKRDVTPEATEAVCDRMMPGFGELMRAESLKEVPTAILSRQTAGLRGDSLIVNLPGDPASISDCLLAVFPAIPYCIDLMEGPYLECNEAMIKPFRPKAK",
+                  "hseq": "AKIGIVTASDRASKGIYEDISGKAIEDTMNDYLSSPWEAVYRCIEDDQQTIENTLKDLVDNEECCLVVTTGGTGPAKRDVTPEATESVCDRMMPGFGELMRTESLKFVPTAILSRQTAGLRGSSLIVNLPGKPKSIRECLDAVFPAIPYCIDLMEGPFLECNEKVIQPFRPKKK",
+                  "midline": "AKIGIVT SDRAS GI  DISGKAI   +N YL+S WE +Y+ I D+Q+ IE TL  + D ++CCL+VTTGGTGPAKRDVTPEATE+VCDRMMPGFGELMR ESLK VPTAILSRQTAGLRG SLIVNLPG P SI +CL AVFPAIPYCIDLMEGP+LECNE +I+PFRPK K"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

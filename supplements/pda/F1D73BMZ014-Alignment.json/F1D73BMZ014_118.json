@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368763",
+          "query_title": "6c9k_E,F,G,H,M,N,O,P,U,V,W,X",
+          "query_len": 131,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|3E6Q|A",
+                  "accession": "3E6Q_A",
+                  "title": "Chain A, putative 5-carboxymethyl-2-hydroxymuconate isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 196.052,
+                  "score": 497,
+                  "evalue": 9.14345e-62,
+                  "identity": 113,
+                  "positive": 113,
+                  "query_from": 2,
+                  "query_to": 123,
+                  "hit_from": 23,
+                  "hit_to": 144,
+                  "align_len": 122,
+                  "gaps": 0,
+                  "qseq": "PHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "PHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQALGESLCEVLAGAVAGGGEEGVQVSVEVREXERASYAKRVVARQR",
+                  "midline": "PHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  LG SLC VLA AVAGGGEEGVQVSVEVRE ER SYAKRVVARQR"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_169879193.1|",
+                  "accession": "WP_169879193",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.126,
+                  "score": 492,
+                  "evalue": 3.12238e-61,
+                  "identity": 110,
+                  "positive": 112,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAVLFASGQFGEADIKSRFVILEAYRQGTAAVERAYLHACLAILDGRDATTRQALGEALCEVLAGAVAGGGEEGVQVSVEVREMERASYAKRVVARQR",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN  LFASGQFGEADIKSRFV LEAYRQGTAAVERAYLHACL+ILDGRD  TR  LG +LC VLA AVAGGGEEGVQVSVEVREMER SYAKRVVARQR"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_109390338.1|",
+                  "accession": "WP_109390338",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 187.193,
+                  "score": 474,
+                  "evalue": 1.35171e-58,
+                  "identity": 107,
+                  "positive": 107,
+                  "query_from": 1,
+                  "query_to": 115,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 115,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYA",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQALGESLCEVLAGAVAGGGEEGVQVSVEVREMERASYA",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  LG SLC VLA AVAGGGEEGVQVSVEVREMER SYA"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_121382717.1|",
+                  "accession": "WP_121382717",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 183.726,
+                  "score": 465,
+                  "evalue": 4.85947e-57,
+                  "identity": 108,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 131,
+                  "align_len": 134,
+                  "gaps": 14,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-----------EGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQALGEALGEALGEAL---GEVLAGAVAGGGVEGVQVSVEVREMERASYAKRVVARQR",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  LG +L   L EA+   GE           EGVQVSVEVREMER SYAKRVVARQR"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_121348208.1|",
+                  "accession": "WP_121348208",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 174.096,
+                  "score": 440,
+                  "evalue": 1.3486e-53,
+                  "identity": 87,
+                  "positive": 89,
+                  "query_from": 1,
+                  "query_to": 97,
+                  "hit_from": 1,
+                  "hit_to": 97,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLAILDGRDATTRQALGEALCEVLAGAVAGGGE",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACL+ILDGRD  TR  LG +LC VLA AVAGGGE"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_219789776.1|",
+                  "accession": "WP_219789776",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 170.244,
+                  "score": 430,
+                  "evalue": 4.2434e-52,
+                  "identity": 86,
+                  "positive": 86,
+                  "query_from": 1,
+                  "query_to": 93,
+                  "hit_from": 1,
+                  "hit_to": 93,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVA",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQALGESLCEVLAGAVA",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  LG SLC VLA AVA"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_192515256.1|",
+                  "accession": "WP_192515256",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 90,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 3.50735e-48,
+                  "identity": 81,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 89,
+                  "hit_from": 1,
+                  "hit_to": 89,
+                  "align_len": 89,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLA",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQALGEVLGEVLA",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  LG  L  VLA"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_208582098.1|",
+                  "accession": "WP_208582098",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus gilardii]",
+                  "taxid": 82541,
+                  "sciname": "Cupriavidus gilardii"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 9.6478e-48,
+                  "identity": 81,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIEITENARLNCSPEELLDQANAALLASGQFQEPDIKSRCITLQTYRQGTEPVERAFVHGRLSILDGRDVATRQALGQAVCEVIAEAVRSGANNTPVQVSVEVREMERASYAKQVI",
+                  "midline": "MPHLVIE T N RL  SP ELL+QAN AL ASGQF E DIKSR +TL+ YRQGT  VERA++H  LSILDGRD+ATR  LG ++C V+AEAV +G     VQVSVEVREMER SYAK+V+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_042878331.1|",
+                  "accession": "WP_042878331",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus necator]",
+                  "taxid": 106590,
+                  "sciname": "Cupriavidus necator"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.458,
+                  "score": 402,
+                  "evalue": 1.46281e-47,
+                  "identity": 82,
+                  "positive": 94,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGG--GEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIELTENTRLNCSPDELLDEANAALLASGQFQEADIKSRFITLQTYRQGVDAVERAFVHARLSILDGRDTAVRQALAQSVCDVIAEAVRTGADGRQNVQVSVEVCEMERATFAKQVVA",
+                  "midline": "MPHLVIE T N RL  SP ELL++AN AL ASGQF EADIKSRF+TL+ YRQG  AVERA++HA LSILDGRD A R  L  S+C V+AEAV  G  G + VQVSVEV EMER ++AK+VVA"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_038832843.1|",
+                  "accession": "WP_038832843",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 89,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.918,
+                  "score": 398,
+                  "evalue": 1.98804e-47,
+                  "identity": 80,
+                  "positive": 81,
+                  "query_from": 18,
+                  "query_to": 106,
+                  "hit_from": 1,
+                  "hit_to": 89,
+                  "align_len": 89,
+                  "gaps": 0,
+                  "qseq": "PGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEV",
+                  "hseq": "PGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAAERAYLHACLSILDGRDAATRQALGESLCEVLAGAVAGGGEKGVQVSVEV",
+                  "midline": "PGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAA ERAYLHACLSILDGRD ATR  LG SLC VLA AVAGGGE+GVQVSVEV"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "dbj|GAA0799628.1|",
+                  "accession": "GAA0799628",
+                  "title": "hypothetical protein GCM10009078_27990 [Cupriavidus gilardii]",
+                  "taxid": 82541,
+                  "sciname": "Cupriavidus gilardii"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 159.844,
+                  "score": 403,
+                  "evalue": 5.93824e-47,
+                  "identity": 81,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 62,
+                  "hit_to": 181,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIEITENARLNCSPEELLDQANAALLASGQFQEPDIKSRCITLQTYRQGTEPVERAFVHGRLSILDGRDLATRQALGQAVCEVLAEAVRSGANNTPVQISVEVREMERASYAKQVI",
+                  "midline": "MPHLVIE T N RL  SP ELL+QAN AL ASGQF E DIKSR +TL+ YRQGT  VERA++H  LSILDGRD+ATR  LG ++C VLAEAV +G     VQ+SVEVREMER SYAK+V+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "tpg|HCF2130316.1|",
+                  "accession": "HCF2130316",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 88,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 155.992,
+                  "score": 393,
+                  "evalue": 1.15187e-46,
+                  "identity": 85,
+                  "positive": 85,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 88,
+                  "align_len": 123,
+                  "gaps": 35,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAAERAYLHACLSILDG-----------------------------------REMERASYAKRVVARQR",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAA ERAYLHACLSILDG                                   REMER SYAKRVVARQR"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_285315103.1|",
+                  "accession": "WP_285315103",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 80,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 155.221,
+                  "score": 391,
+                  "evalue": 2.06604e-46,
+                  "identity": 76,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 80,
+                  "hit_from": 1,
+                  "hit_to": 80,
+                  "align_len": 80,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLL",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQAL",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  L"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_017230865.1|",
+                  "accession": "WP_017230865",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus basilensis]",
+                  "taxid": 68895,
+                  "sciname": "Cupriavidus basilensis"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 155.992,
+                  "score": 393,
+                  "evalue": 3.30593e-46,
+                  "identity": 81,
+                  "positive": 97,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 124,
+                  "align_len": 124,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "MPHLTIEITENTRLACSQEELLDEANAALLASGQFGEADIKSRCITLTSFRQGTEARERAFVHARLSILDGRELAVRQALGKAICEVIAEAVRPGGAEDNVQVSVEVVEMERASYAKQIVSGQR",
+                  "midline": "MPHL IE T N RL  S  ELL++AN AL ASGQFGEADIKSR +TL ++RQGT A ERA++HA LSILDGR++A R  LG ++C V+AEAV  GG E+ VQVSVEV EMER SYAK++V+ QR"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_121199934.1|",
+                  "accession": "WP_121199934",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 83,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.525,
+                  "score": 384,
+                  "evalue": 2.23207e-45,
+                  "identity": 74,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 81,
+                  "hit_from": 1,
+                  "hit_to": 81,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLG",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQVNAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLAILDGRDATTRQALG",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQ N ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACL+ILDGRD  TR  LG"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_050400068.1|",
+                  "accession": "WP_050400068",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 152.91,
+                  "score": 385,
+                  "evalue": 2.87858e-45,
+                  "identity": 92,
+                  "positive": 93,
+                  "query_from": 21,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "LLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "MLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQALGEVLGEVLAGAVAGGGEEGVQVSVEVREMERASYAKRVVARQR",
+                  "midline": "+LEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  LG  L  VLA AVAGGGEEGVQVSVEVREMER SYAKRVVARQR"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_222240119.1|",
+                  "accession": "WP_222240119",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus sp. AU9028]",
+                  "taxid": 2871157,
+                  "sciname": "Cupriavidus sp. AU9028"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.828,
+                  "score": 377,
+                  "evalue": 1.00685e-43,
+                  "identity": 79,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-EGVQVSVEVREMERLSYAKRVVAR",
+                  "hseq": "MPHLVIEFTENVRLACSAEELLEQANATLLASGQFNEPDIKSRCIKLDIYRQGVEAVERAFVHARLSILDGRDLATRKALGEAVSEVLAEAVRPGGEGSQVQVTVEVLEMERATFAKKIVSR",
+                  "midline": "MPHLVIE T N+RL  S  ELLEQAN  L ASGQF E DIKSR + L+ YRQG  AVERA++HA LSILDGRD+ATR  LG ++  VLAEAV  GGE   VQV+VEV EMER ++AK++V+R"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_224079483.1|",
+                  "accession": "WP_224079483",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus laharis]",
+                  "taxid": 151654,
+                  "sciname": "Cupriavidus laharis"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.747,
+                  "score": 369,
+                  "evalue": 1.45231e-42,
+                  "identity": 76,
+                  "positive": 91,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEG--VQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIEITENTRLNCSPEELLDEANAALLASGEFGEADIKSRCIMLSTFRQGVQAAERAFVHARLSILDGRELAVRRALGQAVCDVIAEAVRPAAAEGQSVQISVEVCEMERASYAKQIV",
+                  "midline": "MPHLVIE T N RL  SP ELL++AN AL ASG+FGEADIKSR + L  +RQG  A ERA++HA LSILDGR++A R  LG ++C V+AEAV     EG  VQ+SVEV EMER SYAK++V"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_010809405.1|",
+                  "accession": "WP_010809405",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus]",
+                  "taxid": 106589,
+                  "sciname": "Cupriavidus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 146.362,
+                  "score": 368,
+                  "evalue": 1.87183e-42,
+                  "identity": 80,
+                  "positive": 89,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEG--VQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIELTENTRLNCSQEELLDEANAALLASGQFQEADIKSRCVTLSTYRQGVDAVERAFVHARLSILDGRDTAVRQALAQAVCDVIAEAVRAGSGTGQDVQVSVEVCEMARATYAKQVVA",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL ASGQF EADIKSR VTL  YRQG  AVERA++HA LSILDGRD A R  L  ++C V+AEAV  G   G  VQVSVEV EM R +YAK+VVA"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "emb|SOY73726.1|",
+                  "accession": "SOY73726",
+                  "title": "putative isomerase, similar to 5-carboxymethyl-2-hydroxymuconate isomerase [Cupriavidus taiwanensis]",
+                  "taxid": 164546,
+                  "sciname": "Cupriavidus taiwanensis"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 1.91392e-42,
+                  "identity": 80,
+                  "positive": 90,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 17,
+                  "hit_to": 138,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEG--VQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIELTENTRLNCSQEELLDEANAALLASGQFQEADIKSRCITLSTYRQGIDAVERAFVHARLSILDGRDTAVRQALAQSVCDVIAEAVRSGGGAGQNVQVSVEVCEMARATYAKQLVA",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL ASGQF EADIKSR +TL  YRQG  AVERA++HA LSILDGRD A R  L  S+C V+AEAV  GG  G  VQVSVEV EM R +YAK++VA"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|TWG87060.1|",
+                  "accession": "TWG87060",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Cupriavidus gilardii J11]",
+                  "taxid": 936133,
+                  "sciname": "Cupriavidus gilardii J11"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.436,
+                  "score": 363,
+                  "evalue": 1.24327e-41,
+                  "identity": 73,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-EGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPQLIIEITENARLNCSPEELLDQANAVLLASGQFQEPDIKSRCISLDTYRQGTEPADRAFIHARLGILDGRDLETRRALGQSVCDVIAEAVRTGTDGPAVQVSVEVFEMERASYAKKLI",
+                  "midline": "MP L+IE T N RL  SP ELL+QAN  L ASGQF E DIKSR ++L+ YRQGT   +RA++HA L ILDGRD+ TR  LG S+C V+AEAV  G +   VQVSVEV EMER SYAK+++"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_400320665.1|",
+                  "accession": "WP_400320665",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus sp. NPDC089707]",
+                  "taxid": 3363963,
+                  "sciname": "Cupriavidus sp. NPDC089707"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 2.10232e-41,
+                  "identity": 76,
+                  "positive": 90,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEG--VQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIELTENTRLNCSQEELLDEANAALLASGQFQEADIKSRCITLSTYRQGVDAADRAFVFARLSILDGRDTAVRQALGQAVCDVIADAVRTGAEGGQSVQVSVEVCEMQRATYAKQVIA",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL ASGQF EADIKSR +TL  YRQG  A +RA++ A LSILDGRD A R  LG ++C V+A+AV  G E G  VQVSVEV EM+R +YAK+V+A"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "dbj|BDB27171.1|",
+                  "accession": "BDB27171",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus sp. P-10]",
+                  "taxid": 2027911,
+                  "sciname": "Cupriavidus sp. P-10"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 2.79533e-41,
+                  "identity": 75,
+                  "positive": 91,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 21,
+                  "hit_to": 142,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGG--GEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIELTENTRLNCSQEELLDEANAALLASGQFQEADIKSRCITLSTYRQGVDAADRAFVHARLSILDGRDTAVRQALGQAVCDVIADAVRTGVDGGQSVQVSVEVCEMQRATFAKQVIA",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL ASGQF EADIKSR +TL  YRQG  A +RA++HA LSILDGRD A R  LG ++C V+A+AV  G  G + VQVSVEV EM+R ++AK+V+A"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_059411614.1|",
+                  "accession": "WP_059411614",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus basilensis]",
+                  "taxid": 68895,
+                  "sciname": "Cupriavidus basilensis"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.739,
+                  "score": 356,
+                  "evalue": 1.54037e-40,
+                  "identity": 75,
+                  "positive": 88,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLIIELTENTRLACSQEELMDQANAALLASGQFNEPDIKSRCVTLTAYRQGTEARERAFVHATLRILDGRELAVRQALGKAVCEAIAEQVRPGQAGESVQVSVDVVEMERASFAKQVV",
+                  "midline": "MPHL+IE T N RL  S  EL++QAN AL ASGQF E DIKSR VTL AYRQGT A ERA++HA L ILDGR++A R  LG ++C  +AE V  G   E VQVSV+V EMER S+AK+VV"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_071020691.1|",
+                  "accession": "WP_071020691",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus]",
+                  "taxid": 106589,
+                  "sciname": "Cupriavidus"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.969,
+                  "score": 354,
+                  "evalue": 3.06208e-40,
+                  "identity": 77,
+                  "positive": 90,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 121,
+                  "gaps": 4,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV--AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHVTIELTENTRLNRSQEELLDEVNAALLASGQFQEADIKSRCITLPVYRQGTEARERAFVHARLCILDGRELATRRALGQAVCDVIAEAVRPLAGGE--VQVSVEVAEMERASYAKQVI",
+                  "midline": "MPH+ IE T N RL  S  ELL++ N AL ASGQF EADIKSR +TL  YRQGT A ERA++HA L ILDGR++ATR  LG ++C V+AEAV    GGE  VQVSVEV EMER SYAK+V+"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_039008000.1|",
+                  "accession": "WP_039008000",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus sp. IDO]",
+                  "taxid": 1539142,
+                  "sciname": "Cupriavidus sp. IDO"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.584,
+                  "score": 353,
+                  "evalue": 4.89038e-40,
+                  "identity": 72,
+                  "positive": 90,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-EGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIEITENTRLNCSQEELLDEANAALLASGEFQEPDIKSRCITLPIFRQGVENEERAFVHARLSILDGRELAVRQALGRAVCDVIAEAVRPSADGQSVQISVEVREMERASYAKQIIA",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL ASG+F E DIKSR +TL  +RQG    ERA++HA LSILDGR++A R  LG ++C V+AEAV    + + VQ+SVEVREMER SYAK+++A"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_092140250.1|",
+                  "accession": "WP_092140250",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [unclassified Cupriavidus]",
+                  "taxid": 2640874,
+                  "sciname": "unclassified Cupriavidus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 3.51993e-39,
+                  "identity": 71,
+                  "positive": 85,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIELTENTRLTCSQEELLDEANAALLASGQFQEPDIKSRCVTLSTYRQGTENVDRAFVHATLSILDGRDQAVRKQLAEIVCNAITEAVRPGAAGQNVQVTVTVREMERATFAKQII",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL ASGQF E DIKSR VTL  YRQGT  V+RA++HA LSILDGRD A R  L   +C  + EAV  G   + VQV+V VREMER ++AK+++"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_441615237.1|",
+                  "accession": "WP_441615237",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [unclassified Cupriavidus]",
+                  "taxid": 2640874,
+                  "sciname": "unclassified Cupriavidus"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 8.06385e-39,
+                  "identity": 72,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-EGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLTIEITENTRLACSQEELMDQANAALLDSGQFGEADIKSRCIVLTSFRQGTEARERAFVHATLRILDGRELAVRQALAKAICEVIAEQVRRDQSGEGVQVSVDVVEMERASFAKQVV",
+                  "midline": "MPHL IE T N RL  S  EL++QAN AL  SGQFGEADIKSR + L ++RQGT A ERA++HA L ILDGR++A R  L  ++C V+AE V      EGVQVSV+V EMER S+AK+VV"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_109583150.1|",
+                  "accession": "WP_109583150",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus plantarum]",
+                  "taxid": 942865,
+                  "sciname": "Cupriavidus plantarum"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 1.00843e-38,
+                  "identity": 71,
+                  "positive": 83,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 119,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIELTENTRLNCSQEELLDEANAALLASGQFQEPDIKSRCITLGVFRQGTDVADRAFVHATLSVLDGRDQPTRRQLGQIVCDALAEAVRAGEGQSVQISVNVVEMERAIYAKTVI",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL ASGQF E DIKSR +TL  +RQGT   +RA++HA LS+LDGRD  TR  LG  +C  LAEAV  G  + VQ+SV V EMER  YAK V+"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gb|ELT4663221.1|",
+                  "accession": "ELT4663221",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 64,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 2.01968e-36,
+                  "identity": 63,
+                  "positive": 63,
+                  "query_from": 1,
+                  "query_to": 64,
+                  "hit_from": 1,
+                  "hit_to": 64,
+                  "align_len": 64,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHA",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHA",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHA"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_211942635.1|",
+                  "accession": "WP_211942635",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus campinensis]",
+                  "taxid": 151783,
+                  "sciname": "Cupriavidus campinensis"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 4.53084e-36,
+                  "identity": 65,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 118,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRV",
+                  "hseq": "MPQLIIEITENTRLTCSQDELLDEANAALLATGQFGEPDIKSRCVTLTTYRQGTENRDRAFVHATVWILDGREQAVRKQIAQAVCGVLTDAVRPGAGQSVQVSVNVQEMERAVFTKHV",
+                  "midline": "MP L+IE T N RL  S  ELL++AN AL A+GQFGE DIKSR VTL  YRQGT   +RA++HA + ILDGR+ A R  +  ++C VL +AV  G  + VQVSV V+EMER  + K V"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_006160038.1|",
+                  "accession": "WP_006160038",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus basilensis]",
+                  "taxid": 68895,
+                  "sciname": "Cupriavidus basilensis"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.331,
+                  "score": 316,
+                  "evalue": 1.68301e-34,
+                  "identity": 71,
+                  "positive": 90,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLIIEITENTRLTCSQEELLDEANAALLASGQFGEPDIKSRCITLTSYRQGTEARERAFVHARLHILDGRDLAVRQALSQAICEIIADAVRPANSEDSVQVSVEVVQMERASFTKQIVS",
+                  "midline": "MPHL+IE T N RL  S  ELL++AN AL ASGQFGE DIKSR +TL +YRQGT A ERA++HA L ILDGRD+A R  L  ++C ++A+AV     E+ VQVSVEV +MER S+ K++V+"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_423198570.1|",
+                  "accession": "WP_423198570",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus sp. H19C3]",
+                  "taxid": 3241603,
+                  "sciname": "Cupriavidus sp. H19C3"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.331,
+                  "score": 316,
+                  "evalue": 1.68654e-34,
+                  "identity": 74,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 124,
+                  "hit_from": 1,
+                  "hit_to": 124,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQRL",
+                  "hseq": "MPHLVIEITENTRLNCSQEELLDEANAALLATGQFEEADIKSRCVTLGVWRQGTDAADRAFVHGTLSILGGRDQATRRQLGQVVCEALSEAVRAGAGQSVQVSVNVVEMERATYAKEVIGAGRI",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL A+GQF EADIKSR VTL  +RQGT A +RA++H  LSIL GRD ATR  LG  +C  L+EAV  G  + VQVSV V EMER +YAK V+   R+"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_222205396.1|",
+                  "accession": "WP_222205396",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus respiraculi]",
+                  "taxid": 195930,
+                  "sciname": "Cupriavidus respiraculi"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.946,
+                  "score": 315,
+                  "evalue": 2.73005e-34,
+                  "identity": 74,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIEITENVRLTRSHDELLDEANAALLASGQFQEPAIKSRCVTLNAYRVGVEPGERAFVHATLSILDGRDLAVRKALGDAVCEVIAEAVRPGADGGTVDVTVDVVEMERASFAKKVVA",
+                  "midline": "MPHLVIE T N+RL  S  ELL++AN AL ASGQF E  IKSR VTL AYR G    ERA++HA LSILDGRD+A R  LG ++C V+AEAV  G     V V+V+V EMER S+AK+VVA"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_035861282.1|",
+                  "accession": "WP_035861282",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus]",
+                  "taxid": 106589,
+                  "sciname": "Cupriavidus"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.561,
+                  "score": 314,
+                  "evalue": 3.57697e-34,
+                  "identity": 74,
+                  "positive": 92,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 124,
+                  "align_len": 124,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "MPHLIIEITENTRLTCSQEELLDEANAALLASGQFSEPDIKSRCITLTSFRQGTEARERAFVHARLHILDGRELAVRQALSKAVCDVIAEAVRPGSPEDSVQVSVEVVEMERASFAKQIVSGSR",
+                  "midline": "MPHL+IE T N RL  S  ELL++AN AL ASGQF E DIKSR +TL ++RQGT A ERA++HA L ILDGR++A R  L  ++C V+AEAV  G  E+ VQVSVEV EMER S+AK++V+  R"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|MDO2346658.1|",
+                  "accession": "MDO2346658",
+                  "title": "hypothetical protein [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 92,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 1.38907e-33,
+                  "identity": 81,
+                  "positive": 83,
+                  "query_from": 21,
+                  "query_to": 111,
+                  "hit_from": 1,
+                  "hit_to": 91,
+                  "align_len": 91,
+                  "gaps": 0,
+                  "qseq": "LLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMER",
+                  "hseq": "LLEQANAALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDVATRQALGEALGEVLAGAVAGGGVEGVQVSVEVREMER",
+                  "midline": "LLEQAN ALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRD+ATR  LG +L  VLA AVAGGG EGVQVSVEVREMER"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_061956682.1|",
+                  "accession": "WP_061956682",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus pauculus]",
+                  "taxid": 82633,
+                  "sciname": "Cupriavidus pauculus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 3.76952e-33,
+                  "identity": 64,
+                  "positive": 80,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIEITENTRLTCSQEELLDECNAALLSSGQFQEPDIKSRCVTLTTYRQGTEQAERAFVHATLQILDGREQGVRKQLGQLVVNAIAEMVRPGAADQTVQITANVVEMERATFAKQVI",
+                  "midline": "MPHLVIE T N RL  S  ELL++ N AL +SGQF E DIKSR VTL  YRQGT   ERA++HA L ILDGR+   R  LG  +   +AE V  G  ++ VQ++  V EMER ++AK+V+"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_103181215.1|",
+                  "accession": "WP_103181215",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Vibrio vulnificus]",
+                  "taxid": 672,
+                  "sciname": "Vibrio vulnificus"
+                }
+              ],
+              "len": 81,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 3.98975e-32,
+                  "identity": 74,
+                  "positive": 74,
+                  "query_from": 43,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 81,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "RFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "RFVTLEAYRQGTAAVERAYLHACLSILDGRDAATRQALGESLCEVLAGAVAGGGEEGVQVSVEVREMERASYAKRVVARQR",
+                  "midline": "RFVTLEAYRQGTAAVERAYLHACLSILDGRD ATR  LG SLC VLA AVAGGGEEGVQVSVEVREMER SYAKRVVARQR"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_160473927.1|",
+                  "accession": "WP_160473927",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [unclassified Cupriavidus]",
+                  "taxid": 2640874,
+                  "sciname": "unclassified Cupriavidus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 5.78361e-32,
+                  "identity": 62,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-EGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLIVEITENTRLARSKEELLDECNAALLASGQFDEPSIKSRVIMLDTYRRGTEQGDRGFVHATLQILDGRDQAIRKDLGERVASAIAECVRPGTEGQSVQVTVNVVEMERATFAKQVIG",
+                  "midline": "MPHL++E T N RL  S  ELL++ N AL ASGQF E  IKSR + L+ YR+GT   +R ++HA L ILDGRD A R  LG  + + +AE V  G E + VQV+V V EMER ++AK+V+ "
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_029309905.1|",
+                  "accession": "WP_029309905",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus metallidurans]",
+                  "taxid": 119219,
+                  "sciname": "Cupriavidus metallidurans"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 2.418e-31,
+                  "identity": 68,
+                  "positive": 84,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIELTENTRLTCSQEELLDEANAALLSSGQFQEPDIKSRCVTLSTYRQGTENVDRAFVHATLQILDGREQAVRKELGQLVCNAISEMVRPGASAQSVQVSVNVVEMERATYSKQII",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL +SGQF E DIKSR VTL  YRQGT  V+RA++HA L ILDGR+ A R  LG  +C  ++E V  G   + VQVSV V EMER +Y+K+++"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gb|MFX5697165.1|",
+                  "accession": "MFX5697165",
+                  "title": "hypothetical protein [Acinetobacter baumannii]",
+                  "taxid": 470,
+                  "sciname": "Acinetobacter baumannii"
+                }
+              ],
+              "len": 81,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 5.69725e-31,
+                  "identity": 57,
+                  "positive": 63,
+                  "query_from": 1,
+                  "query_to": 81,
+                  "hit_from": 1,
+                  "hit_to": 81,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLG",
+                  "hseq": "MPHLVIEITENARLNCSPEELLDQANAALLASGQFQEPDIKSRCLTLQTYRQGTEPVERAFIHGRLSILDGRDLATRQALG",
+                  "midline": "MPHLVIE T N RL  SP ELL+QAN AL ASGQF E DIKSR +TL+ YRQGT  VERA++H  LSILDGRD+ATR  LG"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "tpg|HBO5835274.1|",
+                  "accession": "HBO5835274",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 90,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 6.06204e-31,
+                  "identity": 79,
+                  "positive": 80,
+                  "query_from": 34,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 90,
+                  "align_len": 90,
+                  "gaps": 0,
+                  "qseq": "QFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQR",
+                  "hseq": "QFGEADIKSRFVTLVAYRQGTAAVERAYLHACLSILDGRDAATRQALGEALGEVLAGAVAGGGVEGVQVSVEVREMERASYAKRVVARQR",
+                  "midline": "QFGEADIKSRFVTL AYRQGTAAVERAYLHACLSILDGRD ATR  LG +L  VLA AVAGGG EGVQVSVEVREMER SYAKRVVARQR"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "gb|ABF11595.1|",
+                  "accession": "ABF11595",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Cupriavidus metallidurans CH34]",
+                  "taxid": 266264,
+                  "sciname": "Cupriavidus metallidurans CH34"
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 1.08658e-30,
+                  "identity": 68,
+                  "positive": 84,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 23,
+                  "hit_to": 143,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLVIELTENTRLTCSQEELLDEANAALLSSGQFQEPDIKSRCVTLSTYRQGTENVDRAFVHATLQILDGREQAVRKELGQLVCNAISEMVRPGASAQSVQVSVNVVEMERATYSKQIIG",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL +SGQF E DIKSR VTL  YRQGT  V+RA++HA L ILDGR+ A R  LG  +C  ++E V  G   + VQVSV V EMER +Y+K+++ "
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_124686480.1|",
+                  "accession": "WP_124686480",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus pauculus]",
+                  "taxid": 82633,
+                  "sciname": "Cupriavidus pauculus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.161,
+                  "score": 287,
+                  "evalue": 4.36348e-30,
+                  "identity": 67,
+                  "positive": 83,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVIEITENTRLTCSQEELLDEANAALLSSGQFQEPDIKSRCVTLGTFRQGTEQADRAFVHATLQILDGRDPAVRKQLGELVAGAIAEMVRPGAADQTVQVTVNVVEMERATFAKQIV",
+                  "midline": "MPHLVIE T N RL  S  ELL++AN AL +SGQF E DIKSR VTL  +RQGT   +RA++HA L ILDGRD A R  LG  +   +AE V  G  ++ VQV+V V EMER ++AK++V"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|MGH6782957.1|",
+                  "accession": "MGH6782957",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Sphingomonadaceae bacterium]",
+                  "taxid": 1930536,
+                  "sciname": "Sphingomonadaceae bacterium"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.005,
+                  "score": 284,
+                  "evalue": 6.68921e-30,
+                  "identity": 62,
+                  "positive": 73,
+                  "query_from": 23,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 100,
+                  "align_len": 100,
+                  "gaps": 2,
+                  "qseq": "EQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEG--VQVSVEVREMERLSYAKRVVA",
+                  "hseq": "DEANAALLASGPLQEADIKSRYITLSTYRQGVDAVERAFVHARLSILDGRDSAVRQALAQAVCDVIAEAVRAGSGTGQAVQVSVEVCEMARATYAKQVVA",
+                  "midline": "++AN AL ASG   EADIKSR++TL  YRQG  AVERA++HA LSILDGRD A R  L  ++C V+AEAV  G   G  VQVSVEV EM R +YAK+VVA"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_130393406.1|",
+                  "accession": "WP_130393406",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus agavae]",
+                  "taxid": 1001822,
+                  "sciname": "Cupriavidus agavae"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.62,
+                  "score": 283,
+                  "evalue": 1.53071e-29,
+                  "identity": 63,
+                  "positive": 77,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-EGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVVEITENTRLTRSKEELLDECNAALLASGHFDEPAIKSRCVTLTTFRQGTGEAERAFVHATLQILDGRDQAIRKQVGQIVVDTIAEMVRPGTPGQVVHVTANVVEMERATFAKQVV",
+                  "midline": "MPHLV+E T N RL  S  ELL++ N AL ASG F E  IKSR VTL  +RQGT   ERA++HA L ILDGRD A R  +G  +   +AE V  G   + V V+  V EMER ++AK+VV"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_101682350.1|",
+                  "accession": "WP_101682350",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Cupriavidus pauculus]",
+                  "taxid": 82633,
+                  "sciname": "Cupriavidus pauculus"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 109.383,
+                  "score": 272,
+                  "evalue": 7.12189e-28,
+                  "identity": 63,
+                  "positive": 82,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGE-EGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLIVEITENTRLTCSFEELLDEANAALLSSGQFQEPDIKSRCVTLSTFRQGTEPADRAFVHATLQILDGRDQAVRKQLSELVVNAISEMVRPGAPGQTVQVTVNVVEMERATFSKQIVA",
+                  "midline": "MPHL++E T N RL  S  ELL++AN AL +SGQF E DIKSR VTL  +RQGT   +RA++HA L ILDGRD A R  L   +   ++E V  G   + VQV+V V EMER +++K++VA"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|MCR3857698.1|",
+                  "accession": "MCR3857698",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 50,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.449,
+                  "score": 254,
+                  "evalue": 6.5375e-26,
+                  "identity": 49,
+                  "positive": 49,
+                  "query_from": 1,
+                  "query_to": 50,
+                  "hit_from": 1,
+                  "hit_to": 50,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAY",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADIKSRFVTLEAY",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADIKSRFVTLEAY"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_400395893.1|",
+                  "accession": "WP_400395893",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase, partial [Cupriavidus sp. CER94]",
+                  "taxid": 3377036,
+                  "sciname": "Cupriavidus sp. CER94"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 3.63879e-25,
+                  "identity": 51,
+                  "positive": 63,
+                  "query_from": 1,
+                  "query_to": 95,
+                  "hit_from": 1,
+                  "hit_to": 95,
+                  "align_len": 95,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGG",
+                  "hseq": "MPHLIVEITENTRLTCSFEELLDEANAALLSSGQFQEPDIKSRCVTLSTFRQGTEPADRAFVHATLQILDGRDQGVRKQLGELVVNAISEMVRPG",
+                  "midline": "MPHL++E T N RL  S  ELL++AN AL +SGQF E DIKSR VTL  +RQGT   +RA++HA L ILDGRD   R  LG  +   ++E V  G"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gb|MBW6932399.1|",
+                  "accession": "MBW6932399",
+                  "title": "hypothetical protein [Salmonella enterica subsp. enterica serovar Weltevreden]",
+                  "taxid": 57743,
+                  "sciname": "Salmonella enterica subsp. enterica serovar Weltevreden"
+                }
+              ],
+              "len": 77,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 2.93902e-23,
+                  "identity": 49,
+                  "positive": 59,
+                  "query_from": 46,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 75,
+                  "align_len": 75,
+                  "gaps": 1,
+                  "qseq": "TLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "TLQTYRQGTEPVERAFVHGRLSILDGRDLATRQALGQAVCEVLAEAVRSGANNTPVQISVEVREMERASYAKQVI",
+                  "midline": "TL+ YRQGT  VERA++H  LSILDGRD+ATR  LG ++C VLAEAV +G     VQ+SVEVREMER SYAK+V+"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "ref|WP_124735685.1|",
+                  "accession": "WP_124735685",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Craterilacuibacter sinensis]",
+                  "taxid": 2686017,
+                  "sciname": "Craterilacuibacter sinensis"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 1.65515e-22,
+                  "identity": 61,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 120,
+                  "gaps": 4,
+                  "qseq": "MPHLVIEATANLR-LETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLNIEYSDNLSALDT--GALLLAMNQALLACGQFEERDIKSRAQKMDAFLIGVSLAQRAFVHAKLSILDGRTPAIRQDLAACLLQVLQQQCWPGGIE-VQLCVEVLEIERASYAKACI",
+                  "midline": "MPHL IE + NL  L+T  G LL   N+AL A GQF E DIKSR   ++A+  G +  +RA++HA LSILDGR  A R  L A L  VL +    GG E VQ+ VEV E+ER SYAK  +"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_155440303.1|",
+                  "accession": "WP_155440303",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudoduganella ginsengisoli]",
+                  "taxid": 1462440,
+                  "sciname": "Pseudoduganella ginsengisoli"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.5153,
+                  "score": 236,
+                  "evalue": 2.29802e-22,
+                  "identity": 55,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLTIEYTSNLP-QFNANEAMLVLNQALVASGHFEEIDIKSRAVPIDAFLVGTSLDGRAFVHVKLAILSGRSVQAKQELSATLLHVLKEACAWPPDTHVQLCVEVQEIERESYAKSSIS",
+                  "midline": "MPHL IE T+NL  + +  E +   N+AL ASG F E DIKSR V ++A+  GT+   RA++H  L+IL GR +  +  L A+L  VL EA A   +  VQ+ VEV+E+ER SYAK  ++"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "ref|WP_370649166.1|",
+                  "accession": "WP_370649166",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Cupriavidus sp. EM10]",
+                  "taxid": 2839983,
+                  "sciname": "Cupriavidus sp. EM10"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 1.90362e-21,
+                  "identity": 53,
+                  "positive": 71,
+                  "query_from": 18,
+                  "query_to": 119,
+                  "hit_from": 30,
+                  "hit_to": 132,
+                  "align_len": 103,
+                  "gaps": 1,
+                  "qseq": "PGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAV-AGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "PEELLDEANAALLSSGQFQEPDIKSRCVTLSTFRQGTEPADRAFVHATLQILDGRDQAVRKQLGELVVNAISEMVRPGAAGQTVQVTVNVVEMERATFSKQII",
+                  "midline": "P ELL++AN AL +SGQF E DIKSR VTL  +RQGT   +RA++HA L ILDGRD A R  LG  +   ++E V  G   + VQV+V V EMER +++K+++"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "ref|WP_310387675.1|",
+                  "accession": "WP_310387675",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Roseateles sp.]",
+                  "taxid": 1971397,
+                  "sciname": "Roseateles sp."
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.0485,
+                  "score": 227,
+                  "evalue": 8.23151e-21,
+                  "identity": 53,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 120,
+                  "gaps": 5,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAV----ERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHITLEYTSNLPLFKAADTLL-GINKVLLASGEFEELDIKSRAIRLETYLVGTQVSNHPDNQAFVHAKLALLSGRSVQTKQALSASLMQVLEQSCAWPKAQSVQLCVEVQDIERASYSK",
+                  "midline": "MPH+ +E T+NL L  +   LL   NK L ASG+F E DIKSR + LE Y  GT        +A++HA L++L GR + T+  L ASL  VL ++ A    + VQ+ VEV+++ER SY+K"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "ref|WP_166569361.1|",
+                  "accession": "WP_166569361",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas sp. R5(2019)]",
+                  "taxid": 2697566,
+                  "sciname": "Pseudomonas sp. R5(2019)"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.5077,
+                  "score": 223,
+                  "evalue": 2.0341e-20,
+                  "identity": 54,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLHLEYTDNLP-QLNADSILQRLNHALVASGQFGNEADIKSRAVKLECFRVGTRPEERAFIHVKLAILSGRSPEVKKQVSESLLAVLTESLQWPEALEIQLCVEVLDIDRDSYTK",
+                  "midline": "MPHL +E T NL  + +   +L++ N AL ASGQFG EADIKSR V LE +R GT   ERA++H  L+IL GR    +  +  SL AVL E++       +Q+ VEV +++R SY K"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_374421498.1|",
+                  "accession": "WP_374421498",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Chromobacterium sp.]",
+                  "taxid": 306190,
+                  "sciname": "Chromobacterium sp."
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.1225,
+                  "score": 222,
+                  "evalue": 2.31804e-20,
+                  "identity": 51,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVAR",
+                  "hseq": "MPHLTLEYSKNLDTFSASAALLD-INRALLASGQFEEADIKSRAIALDCCQIGVQDLPRAFIHAKLAILSGRSPEEKQRLSELSLQALADSAALPPDVEVQLCVEIQEIDRASYGKRFIAR",
+                  "midline": "MPHL +E + NL   ++   LL+  N+AL ASGQF EADIKSR + L+  + G   + RA++HA L+IL GR    +  L       LA++ A   +  VQ+ VE++E++R SY KR +AR"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gb|RIX42451.1|",
+                  "accession": "RIX42451",
+                  "title": "MAG: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Rhodocyclales bacterium GT-UBC]",
+                  "taxid": 2316108,
+                  "sciname": "Rhodocyclales bacterium GT-UBC"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 5.61774e-20,
+                  "identity": 48,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLTLEYTRNL-TGFNPSKALNAINEAMFDSGLFSEPDIKSRAIGLDVFRVGVKPAMRAFIHVRIALLAGRNDEERKQLADAVLAALGSVVDRSGREEIQLSVETADLHRPSYAKEVI",
+                  "midline": "MPHL +E T NL    +P + L   N+A+F SG F E DIKSR + L+ +R G     RA++H  +++L GR+   R  L  ++ A L   V   G E +Q+SVE  ++ R SYAK V+"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "ref|WP_186948147.1|",
+                  "accession": "WP_186948147",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Undibacterium hunanense]",
+                  "taxid": 2762292,
+                  "sciname": "Undibacterium hunanense"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 5.99599e-20,
+                  "identity": 51,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 114,
+                  "align_len": 116,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTVEYSANLPIQTR--ELLLEINTALVATNHFKEIDIKSRAIRFDTYVIGTANAERAFLHAKLVILTGRTIEVKRELSELVLAIISKHGPRPAGLDVQFCVEIQELERETYAK",
+                  "midline": "MPHL +E +ANL ++T   ELL + N AL A+  F E DIKSR +  + Y  GTA  ERA+LHA L IL GR I  +  L   + A++++         VQ  VE++E+ER +YAK"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_191949570.1|",
+                  "accession": "WP_191949570",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas fluorescens]",
+                  "taxid": 294,
+                  "sciname": "Pseudomonas fluorescens"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 6.63369e-20,
+                  "identity": 60,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 125,
+                  "hit_from": 1,
+                  "hit_to": 125,
+                  "align_len": 129,
+                  "gaps": 8,
+                  "qseq": "MPHLVIEATANL-RLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQV--SVEVREMERLSYAKRVVARQRLE",
+                  "hseq": "MPHLHLEYTANLAQLDTD--KALLRLNHALVASGQFGAEFDIKSRAVKVESFRVGTGLNERGFVAVRLALLSGRSPQVKQQLSQSLLAVLQD--LGPWPEGVQVQLSVELRDMDRDAYSKQAVGSDTLQ",
+                  "midline": "MPHL +E TANL +L+T   + L + N AL ASGQFG E DIKSR V +E++R GT   ER ++   L++L GR    +  L  SL AVL +   G   EGVQV  SVE+R+M+R +Y+K+ V    L+"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_144929135.1|",
+                  "accession": "WP_144929135",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [unclassified Pseudomonas]",
+                  "taxid": 196821,
+                  "sciname": "unclassified Pseudomonas"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 8.17245e-20,
+                  "identity": 54,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLHLEYTANLP-ELNADVALLRLNNALVASGQFAETDIKSRAVKVEHFRVGTGLGERAFVHVQLALLSGRSPEIKKQLGESLLTVIQELSPWPTGLSVQLSVETVDMDRGCYAKAIL",
+                  "midline": "MPHL +E TANL  E +    L + N AL ASGQF E DIKSR V +E +R GT   ERA++H  L++L GR    +  LG SL  V+ E         VQ+SVE  +M+R  YAK ++"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "ref|WP_124642539.1|",
+                  "accession": "WP_124642539",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Aquitalea sp. FJL05]",
+                  "taxid": 2153366,
+                  "sciname": "Aquitalea sp. FJL05"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 1.59491e-19,
+                  "identity": 49,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 119,
+                  "gaps": 4,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPQIIMQYSKGLQLDV-PATLLA-INQTLLASGQFQAVDIKSRAIPLDCWLTGTEPGAHPFVHLQLHILTGRDLATRQQLSSSLLPVLQQQVS--GPSGTQLCVEICQMEKESYSKLVL",
+                  "midline": "MP ++++ +  L+L+  P  LL   N+ L ASGQF   DIKSR + L+ +  GT      ++H  L IL GRD+ATR  L +SL  VL + V+  G  G Q+ VE+ +ME+ SY+K V+"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_196168873.1|",
+                  "accession": "WP_196168873",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas guariconensis]",
+                  "taxid": 1288410,
+                  "sciname": "Pseudomonas guariconensis"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 2.00992e-19,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 122,
+                  "align_len": 123,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQ",
+                  "hseq": "MPHLNLEYSDNLA-DLNVDLLLMRLNHTLVGSGQFADELDIKSRAQAFSHYRVGTAPVERAFAHVRLAILSGRSPEVKKQLSASLLAVLQEAIAAREGLDIQLCVEVLDIDRESYAKRRLCAQ",
+                  "midline": "MPHL +E + NL  + +   LL + N  L  SGQF  E DIKSR      YR GTA VERA+ H  L+IL GR    +  L ASL AVL EA+A      +Q+ VEV +++R SYAKR +  Q"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|WP_438514794.1|",
+                  "accession": "WP_438514794",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Craterilacuibacter sp.]",
+                  "taxid": 2870909,
+                  "sciname": "Craterilacuibacter sp."
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 2.30581e-19,
+                  "identity": 58,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 119,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLNIEYSDNLPALDA-GALLLAMNQALLASGQFDECDIKSRAQKMDAFRIGVSLSPRAFVHGRLSILDGRPHAIRQALSACLLQVLQQQCWPAGLE-LQLSVEVLEIERTAYAKACI",
+                  "midline": "MPHL IE + NL    + G LL   N+AL ASGQF E DIKSR   ++A+R G +   RA++H  LSILDGR  A R  L A L  VL +     G E +Q+SVEV E+ER +YAK  +"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "ref|WP_024301181.1|",
+                  "accession": "WP_024301181",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudogulbenkiania sp. MAI-1]",
+                  "taxid": 990370,
+                  "sciname": "Pseudogulbenkiania sp. MAI-1"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 2.36862e-19,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLTLEYSRNLT-SLDADRMLLALNRQLAESGHFAENDIKSRAIALDHYRTGIEPVARAFVHVTLAILSGRTPEAKQALSAGLLAVLQQAGLGLPGAEVQLSVEIRDLDRASYSKAVL",
+                  "midline": "MPHL +E + NL        +L   N+ L  SG F E DIKSR + L+ YR G   V RA++H  L+IL GR    +  L A L AVL +A  G     VQ+SVE+R+++R SY+K V+"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_053120082.1|",
+                  "accession": "WP_053120082",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas thivervalensis]",
+                  "taxid": 86265,
+                  "sciname": "Pseudomonas thivervalensis"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 2.7416e-19,
+                  "identity": 53,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVAR",
+                  "hseq": "MPHLHMEYTANLS-ELNADVALMRLNNALVGSGQFGAELDIKSRAVKLETFRVGTALAERGFVHVKLALLSGRSPQIKKQLADSLLAVIQDLGPWPTEVSVQLCVEILDIDREPYAKALIGQ",
+                  "midline": "MPHL +E TANL  E +    L + N AL  SGQFG E DIKSR V LE +R GTA  ER ++H  L++L GR    +  L  SL AV+ +      E  VQ+ VE+ +++R  YAK ++ +"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|WP_423038471.1|",
+                  "accession": "WP_423038471",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Undibacterium sp. Di26W]",
+                  "taxid": 3413035,
+                  "sciname": "Undibacterium sp. Di26W"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 3.29933e-19,
+                  "identity": 51,
+                  "positive": 66,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 114,
+                  "align_len": 116,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHFTIEYSANLPIQAR--ELLLDINTALVATNHFKEIDIKSRAIRFDTYVVGTANAERAFLHAKLVILKGRTTEVKRDLSERVLTVINQAGPWPPGLDVQLCVEVQELERETYAK",
+                  "midline": "MPH  IE +ANL ++    ELL   N AL A+  F E DIKSR +  + Y  GTA  ERA+LHA L IL GR    +  L   +  V+ +A        VQ+ VEV+E+ER +YAK"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "emb|CAJ0821784.1|",
+                  "accession": "CAJ0821784",
+                  "title": "hypothetical protein LMG19087_04553 [Ralstonia wenshanensis]",
+                  "taxid": 2842456,
+                  "sciname": "Ralstonia wenshanensis"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 3.94114e-19,
+                  "identity": 54,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 49,
+                  "hit_to": 163,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYSANLNTFDAKATLL-AVNTALAATGHFVEADIKSRSHRCDTFAVGTASAPRAFVHADLAILSGRPLETRRELSASVLAVLQSQCSAPAGVHLQLSVQVLEIERDSYAK",
+                  "midline": "MPHL +E +ANL    +   LL   N AL A+G F EADIKSR    + +  GTA+  RA++HA L+IL GR + TR  L AS+ AVL    +      +Q+SV+V E+ER SYAK"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "tpg|HVK93358.1|",
+                  "accession": "HVK93358",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Noviherbaspirillum sp.]",
+                  "taxid": 1926288,
+                  "sciname": "Noviherbaspirillum sp."
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 3.96528e-19,
+                  "identity": 51,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 122,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVARQ",
+                  "hseq": "MPHLTLEYTNNLT-AFDARQVLRACNQALAATGHFDEADIKSRALSLDTYLVGIATEERAFIHARLAILSGRPPEIKSQLSAALLPLLHTACKDIRNCKLQLSIEVVDLDRASYAKEASCRN",
+                  "midline": "MPHL +E T NL       ++L   N+AL A+G F EADIKSR ++L+ Y  G A  ERA++HA L+IL GR    ++ L A+L  +L  A        +Q+S+EV +++R SYAK    R "
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_260772290.1|",
+                  "accession": "WP_260772290",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Ralstonia mojiangensis]",
+                  "taxid": 2953895,
+                  "sciname": "Ralstonia mojiangensis"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 4.07269e-19,
+                  "identity": 53,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYSANLNTFDAKATLL-AVNTALAATGHFVEADIKSRSHRCDTFAVGTSSAPRAFVHADLAILSGRTLETRRELSASVLAVLQAQCSAPAGVHLQLSVQVLEIERDSYAK",
+                  "midline": "MPHL +E +ANL    +   LL   N AL A+G F EADIKSR    + +  GT++  RA++HA L+IL GR + TR  L AS+ AVL    +      +Q+SV+V E+ER SYAK"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|WP_422942177.1|",
+                  "accession": "WP_422942177",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Undibacterium sp. TJN19]",
+                  "taxid": 3413055,
+                  "sciname": "Undibacterium sp. TJN19"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 4.47133e-19,
+                  "identity": 53,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 114,
+                  "align_len": 116,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYTANLPI--AAKELLLKINAALVASSHFQEVDIKSRALRFEDFAIGTADNGRAFVHAKLAILKGRTTEVKRALSESVLAVIQDAGAWPAGLDVQLCVEILELERETYAK",
+                  "midline": "MPHL +E TANL +  +  ELL + N AL AS  F E DIKSR +  E +  GTA   RA++HA L+IL GR    +  L  S+ AV+ +A A      VQ+ VE+ E+ER +YAK"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|WP_322017107.1|",
+                  "accession": "WP_322017107",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Ralstonia wenshanensis]",
+                  "taxid": 2842456,
+                  "sciname": "Ralstonia wenshanensis"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 5.11468e-19,
+                  "identity": 54,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 20,
+                  "hit_to": 134,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYSANLNTFDAKATLLA-INTALAATGHFVEADIKSRSHRCDTFAVGTARAPRAFVHADLAILSGRPLDTRRELSASVLAVLQAQCSAPAGVHLQLSVQVLEIERDSYAK",
+                  "midline": "MPHL +E +ANL    +   LL   N AL A+G F EADIKSR    + +  GTA   RA++HA L+IL GR + TR  L AS+ AVL    +      +Q+SV+V E+ER SYAK"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|WP_202675518.1|",
+                  "accession": "WP_202675518",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [unclassified Pseudomonas]",
+                  "taxid": 196821,
+                  "sciname": "unclassified Pseudomonas"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 5.20123e-19,
+                  "identity": 55,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLNLEYSDNLR-ELNVDTLLLRLNHALVGSGQFADERDIKSRAQAFAHYRVGTAPGERAFAHVRLAILDGRSPQVKAQLSASLLEVLRDAIPQHPGLDLQLCVEVLDIERVPYAK",
+                  "midline": "MPHL +E + NLR E +   LL + N AL  SGQF  E DIKSR      YR GTA  ERA+ H  L+ILDGR    +  L ASL  VL +A+       +Q+ VEV ++ER+ YAK"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "ref|WP_194936960.1|",
+                  "accession": "WP_194936960",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas pisciculturae]",
+                  "taxid": 2730413,
+                  "sciname": "Pseudomonas pisciculturae"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 5.28871e-19,
+                  "identity": 58,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 120,
+                  "gaps": 8,
+                  "qseq": "MPHLVIEATANL-RLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQV--SVEVREMERLSYAK",
+                  "hseq": "MPHLHLEYTANLTQLDTDKA--LLRLNHALVASGQFGAEFDIKSRALQVESFRVGTGLNERGFVAVRLALLSGRSAQIKKQLSESLLAVLQD--IGDWPEGVQVQLSVEVRDMDRDTYSK",
+                  "midline": "MPHL +E TANL +L+T     L + N AL ASGQFG E DIKSR + +E++R GT   ER ++   L++L GR    +  L  SL AVL +   G   EGVQV  SVEVR+M+R +Y+K"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|WP_216743668.1|",
+                  "accession": "WP_216743668",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas sp. CVAP#3]",
+                  "taxid": 2849095,
+                  "sciname": "Pseudomonas sp. CVAP#3"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 5.95934e-19,
+                  "identity": 53,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLHMEYTANLPNLNADVALL-RLNNALVASGQFEEFDIKSRAVQVGAFRVGTELGERAFVHVKLALLSGRSPAIKKQLSESLLAVVQDLCEWPASVDVQLCVEILDIDRDSYAKTAIS",
+                  "midline": "MPHL +E TANL    +   LL + N AL ASGQF E DIKSR V + A+R GT   ERA++H  L++L GR  A +  L  SL AV+ +         VQ+ VE+ +++R SYAK  ++"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_170022158.1|",
+                  "accession": "WP_170022158",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Uliginosibacterium aquaticum]",
+                  "taxid": 2731212,
+                  "sciname": "Uliginosibacterium aquaticum"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 6.15656e-19,
+                  "identity": 48,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLVLEYTANLLPDFEPAQALHRMNTVLLASGEFVPDHIKSRAIRLDDFLVGDAA-PGSFLHARLHLLSGRDAATKQAITEGLVAALCSCVINNQAQPVQITAEALDMDRATYSKAIV",
+                  "midline": "MPHLV+E TANL  +  P + L + N  L ASG+F    IKSR + L+ +  G AA   ++LHA L +L GRD AT+  +   L A L   V     + VQ++ E  +M+R +Y+K +V"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_258446419.1|",
+                  "accession": "WP_258446419",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas sp. LS1212]",
+                  "taxid": 2972478,
+                  "sciname": "Pseudomonas sp. LS1212"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 7.47781e-19,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQF-GEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLHLEYTQNLP-ELDADKVLLRLNHVLLASGQFSNEVDIKSRAIELGVFRVGTAMAERGFVHVKLAILSGRSPEVKKQVSESLLAALREAVQWPADVDVQLCVEILDIDRDSYSK",
+                  "midline": "MPHL +E T NL  E    ++L + N  L ASGQF  E DIKSR + L  +R GTA  ER ++H  L+IL GR    +  +  SL A L EAV    +  VQ+ VE+ +++R SY+K"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|WP_217999653.1|",
+                  "accession": "WP_217999653",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Thauera butanivorans]",
+                  "taxid": 86174,
+                  "sciname": "Thauera butanivorans"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 7.64602e-19,
+                  "identity": 50,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 22,
+                  "hit_to": 136,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYTDSLP-QFNAGETLAALNKSLVASGHFDEIDIKSRAIRLTTYLVGTSTDSHAFIHAKLAILSGRSIQIRQALSESLLHALQASSSKYTDTHLQICVEVQEIERETYSK",
+                  "midline": "MPHL +E T +L  + + GE L   NK+L ASG F E DIKSR + L  Y  GT+    A++HA L+IL GR I  R  L  SL   L  + +   +  +Q+ VEV+E+ER +Y+K"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|WP_008955850.1|",
+                  "accession": "WP_008955850",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudogulbenkiania]",
+                  "taxid": 568394,
+                  "sciname": "Pseudogulbenkiania"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 8.90393e-19,
+                  "identity": 56,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 121,
+                  "gaps": 5,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEA--VAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLTLDYSSNLTTLDADRTLL-ALNRQLVESGQFAENDIKSRACRLEHYRIGIEPAPRAFAHVTLALLSGRTPECKQGLSASLLAVLQRAGLTLPGAE--VQLSVEVRDMERASYSKAVI",
+                  "midline": "MPHL ++ ++NL    +   LL   N+ L  SGQF E DIKSR   LE YR G     RA+ H  L++L GR    +  L ASL AVL  A     G E  VQ+SVEVR+MER SY+K V+"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|WP_274104809.1|",
+                  "accession": "WP_274104809",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas putida]",
+                  "taxid": 303,
+                  "sciname": "Pseudomonas putida"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.8853,
+                  "score": 211,
+                  "evalue": 1.18644e-18,
+                  "identity": 53,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLLVEYTPNLP-ELDADKALLRLNHALVASGQFAAEFDIKSRALRMDAFRVGTGLGERAFVHVKLALLSGRSPEIKRQLSESLLAVLKDLCAWPAGVQVQLSVEVVDLDRDAYAK",
+                  "midline": "MPHL++E T NL  E    + L + N AL ASGQF  E DIKSR + ++A+R GT   ERA++H  L++L GR    +  L  SL AVL +  A      VQ+SVEV +++R +YAK"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|WP_209866803.1|",
+                  "accession": "WP_209866803",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas sp. BP8]",
+                  "taxid": 2817864,
+                  "sciname": "Pseudomonas sp. BP8"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.8853,
+                  "score": 211,
+                  "evalue": 1.3224e-18,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEA-DIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHMNLEYSDNLP-ELNVDVLLLRLNHALFASGQFGEERDIKSRAQAFAKYRVGTSPAERAFAHVRLAILSGRSAEVKQQLSSRLLEVLQEAIPAQAGLDIQLAVEILDIDRAPYAK",
+                  "midline": "MPH+ +E + NL  E +   LL + N ALFASGQFGE  DIKSR      YR GT+  ERA+ H  L+IL GR    +  L + L  VL EA+       +Q++VE+ +++R  YAK"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gb|UUZ62303.1|",
+                  "accession": "UUZ62303",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Polaromonas sp. P1-6]",
+                  "taxid": 2895564,
+                  "sciname": "Polaromonas sp. P1-6"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 1.65264e-18,
+                  "identity": 57,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTIEYTDNLPQFSVDNALLA-LNKALVASGQFEEVDIKSRAVKFATFCVGTSPNDRAFVHAKLAILSGRSIQTKHELSESLLLVLKQVCEWPARTHVQLCVEVQEIERESYAK",
+                  "midline": "MPHL IE T NL   +    LL   NKAL ASGQF E DIKSR V    +  GT+  +RA++HA L+IL GR I T+  L  SL  VL +         VQ+ VEV+E+ER SYAK"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_311232226.1|",
+                  "accession": "WP_311232226",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Acidovorax sp. PRC11]",
+                  "taxid": 2962592,
+                  "sciname": "Acidovorax sp. PRC11"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 2.02102e-18,
+                  "identity": 52,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQF-GEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLVIEYTDNLR-PFPEAEVLEAVNASLTASPEIQDEADLKSRFITADRYAIGTRTANRGFVHAQLRLLSGRSPETKKELAGRVGAVLREHTPKPEGVMVQISVEIVDMDRASYVK",
+                  "midline": "MPHLVIE T NLR      E+LE  N +L AS +   EAD+KSRF+T + Y  GT    R ++HA L +L GR   T+  L   + AVL E         VQ+SVE+ +M+R SY K"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "ref|WP_202056862.1|",
+                  "accession": "WP_202056862",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Microvirga aerilata]",
+                  "taxid": 670292,
+                  "sciname": "Microvirga aerilata"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 2.11849e-18,
+                  "identity": 48,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 120,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVA",
+                  "hseq": "MPHLLLEYTKNLNL-LDEQEVLLRLNKALFGSGQFDEIDIKARAVALDDFVIGVTPAGRAFVHAKLSLSSGRSPEVKRDLSSALLQELRSIFSGPSNHHIQLCAEIIDIDRDSYAKDMIA",
+                  "midline": "MPHL++E T NL L     E+L + NKALF SGQF E DIK+R V L+ +  G     RA++HA LS+  GR    +  L ++L   L    +G     +Q+  E+ +++R SYAK ++A"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gb|MGH8807978.1|",
+                  "accession": "MGH8807978",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Noviherbaspirillum sp.]",
+                  "taxid": 1926288,
+                  "sciname": "Noviherbaspirillum sp."
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 2.27463e-18,
+                  "identity": 50,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYTNNLT-DFDARRVLPALNQALAASGHFNEIDIKSRAIALDTYQIGTAAEERAFVYVKLAILSGRSDQTKRELSNALLDLLRSSCKGITHCSLQLCVEVVDIDRSSYAK",
+                  "midline": "MPHL +E T NL  +     +L   N+AL ASG F E DIKSR + L+ Y+ GTAA ERA+++  L+IL GR   T+  L  +L  +L  +  G     +Q+ VEV +++R SYAK"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gb|MBV8681191.1|",
+                  "accession": "MBV8681191",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Aquitalea sp.]",
+                  "taxid": 1872623,
+                  "sciname": "Aquitalea sp."
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 2.30625e-18,
+                  "identity": 48,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 112,
+                  "align_len": 116,
+                  "gaps": 4,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPQIIMQYSSTLQLDVP--ATLQAINQALLASGQFQAEDIKSRAIPLQDWLTGTTFGSAPFVHLQLHILTGRDLATRQQLSDSMLPVLQQQVQ--GPPGTQLCVEVCQMERDSYRK",
+                  "midline": "MP ++++ ++ L+L+      L+  N+AL ASGQF   DIKSR + L+ +  GT      ++H  L IL GRD+ATR  L  S+  VL + V   G  G Q+ VEV +MER SY K"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|WP_305488910.1|",
+                  "accession": "WP_305488910",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas sp. FP2300]",
+                  "taxid": 2954090,
+                  "sciname": "Pseudomonas sp. FP2300"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 2.37549e-18,
+                  "identity": 53,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 122,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVAR",
+                  "hseq": "MPHLHLEYTANLP-ELNAEVALMRLNNALVLSGQFGAELDIKSRAVKHETFRVGTSLGERGFVHVKLALLSGRSPEIKKQLSASLLAVIKDLGPWPAEVSVQLCVEILDIDRESYAKALIGQ",
+                  "midline": "MPHL +E TANL  E +    L + N AL  SGQFG E DIKSR V  E +R GT+  ER ++H  L++L GR    +  L ASL AV+ +      E  VQ+ VE+ +++R SYAK ++ +"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "ref|WP_275711622.1|",
+                  "accession": "WP_275711622",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Dechloromonas hankyongensis]",
+                  "taxid": 2908002,
+                  "sciname": "Dechloromonas hankyongensis"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 2.41588e-18,
+                  "identity": 49,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 119,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLTLEYTRSL-VDFDPARALSALNEAMFDSGLFGEADIKSRALGLDCYQVGVRDTPRGFLHVNVAMLSGRSDEERKALADSLLDALMPLLIGKAVGEVQLSVETSDLHRPTYAKAVV",
+                  "midline": "MPHL +E T +L ++  P   L   N+A+F SG FGEADIKSR + L+ Y+ G     R +LH  +++L GR    R  L  SL   L   + G     VQ+SVE  ++ R +YAK VV"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "ref|WP_413411950.1|",
+                  "accession": "WP_413411950",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Ralstonia sp. Ralssp135]",
+                  "taxid": 3243016,
+                  "sciname": "Ralstonia sp. Ralssp135"
+                }
+              ],
+              "len": 184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 2.6253e-18,
+                  "identity": 54,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 63,
+                  "hit_to": 177,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYSANLNTFDAKATLLA-INTALAATGHFVEADIKSRSHRCDTFAVGTASEPRAFVHADLAILSGRSLDTRRELSASVLAVLQAQCSAPAGVHLQLSVQVLEIERDSYAK",
+                  "midline": "MPHL +E +ANL    +   LL   N AL A+G F EADIKSR    + +  GTA+  RA++HA L+IL GR + TR  L AS+ AVL    +      +Q+SV+V E+ER SYAK"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_387528692.1|",
+                  "accession": "WP_387528692",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas sp. NPDC012596]",
+                  "taxid": 3364419,
+                  "sciname": "Pseudomonas sp. NPDC012596"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 2.74829e-18,
+                  "identity": 56,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLNLEYSDNLRALNVDVLLLLRLNHALFGSGQFADEADIKSRAQVFSHYRVGTGLGERAFAHVRLAILSGRSPEVKQQLSASLLAVLREALAEQQGLDLQLCVEVQDIDREPYAK",
+                  "midline": "MPHL +E + NLR       LL + N ALF SGQF  EADIKSR      YR GT   ERA+ H  L+IL GR    +  L ASL AVL EA+A      +Q+ VEV++++R  YAK"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "ref|WP_044461712.1|",
+                  "accession": "WP_044461712",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas]",
+                  "taxid": 286,
+                  "sciname": "Pseudomonas"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.7297,
+                  "score": 208,
+                  "evalue": 3.27323e-18,
+                  "identity": 51,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 116,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLHMEYTANLPQLDADKALL-RFNHALVASGQFSEFDIKSRALKVETFRVGTGLGERGFVHVKLALLSGRSPEIKKQLSQSLLAVLQELCEWPASVELQLAVEIVDIDRESYAK",
+                  "midline": "MPHL +E TANL    +   LL + N AL ASGQF E DIKSR + +E +R GT   ER ++H  L++L GR    +  L  SL AVL E         +Q++VE+ +++R SYAK"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gb|MBT9493622.1|",
+                  "accession": "MBT9493622",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Roseateles sp.]",
+                  "taxid": 1971397,
+                  "sciname": "Roseateles sp."
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.7297,
+                  "score": 208,
+                  "evalue": 3.67765e-18,
+                  "identity": 54,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 120,
+                  "gaps": 5,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAV----ERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLTLEYTSNLPLFKAADTLLAM-NKALLASAEFGELDIKSRAIRLDTYLVGTHVSNHPDNQAFVHAKLALLSGRSAQSKQALLAALLAVLEQACAWPKTQSVQLCVELQDIERASYAK",
+                  "midline": "MPHL +E T+NL L  +   LL   NKAL AS +FGE DIKSR + L+ Y  GT        +A++HA L++L GR   ++  L A+L AVL +A A    + VQ+ VE++++ER SYAK"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_059286371.1|",
+                  "accession": "WP_059286371",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Aquitalea magnusonii]",
+                  "taxid": 332411,
+                  "sciname": "Aquitalea magnusonii"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.7297,
+                  "score": 208,
+                  "evalue": 3.67782e-18,
+                  "identity": 48,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 119,
+                  "gaps": 4,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPQVTMQYSSGLQLDV-PATLLA-INQALLASGQFQAEDIKSRAIRLDQWLTGTEPAMHPFVHLQLHILSGRDLATRQQLSSALLPVLQQYVS--GPPGTQLCVEICQIEKESYSKLVL",
+                  "midline": "MP + ++ ++ L+L+  P  LL   N+AL ASGQF   DIKSR + L+ +  GT      ++H  L IL GRD+ATR  L ++L  VL + V+  G  G Q+ VE+ ++E+ SY+K V+"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_189536046.1|",
+                  "accession": "WP_189536046",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Paludibacterium paludis]",
+                  "taxid": 1225769,
+                  "sciname": "Paludibacterium paludis"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.7297,
+                  "score": 208,
+                  "evalue": 3.85151e-18,
+                  "identity": 54,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 120,
+                  "gaps": 3,
+                  "qseq": "MPHLVIEATANL-RLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLTLEYSANLERFDAALA--LEHINRDLAASGHFEEADIKSRARKTDTFAIGTRRAGRAFVHAKLAILTGRDIETRRALSACVLNALQSRVPAHPGLDIQVCAEIVDIERDSYAKTVV",
+                  "midline": "MPHL +E +ANL R + +    LE  N+ L ASG F EADIKSR    + +  GT    RA++HA L+IL GRDI TR  L A +   L   V       +QV  E+ ++ER SYAK VV"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_062790225.1|",
+                  "accession": "WP_062790225",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Aquitalea pelogenes]",
+                  "taxid": 1293573,
+                  "sciname": "Aquitalea pelogenes"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 3.92527e-18,
+                  "identity": 49,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 112,
+                  "align_len": 116,
+                  "gaps": 4,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPQVIMQYSSGLQLDV-PATLLA-INQALLASGQFQAEDIKSRAILLQDWLTGTTPGSAPFVHLQLHILSGRDLPTRQQLSDSLLPVLQQQIQ--GPTGTQLCVEVCQMERDSYRK",
+                  "midline": "MP ++++ ++ L+L+  P  LL   N+AL ASGQF   DIKSR + L+ +  GT      ++H  L IL GRD+ TR  L  SL  VL + +   G  G Q+ VEV +MER SY K"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_007898675.1|",
+                  "accession": "WP_007898675",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas sp. GM102]",
+                  "taxid": 1144321,
+                  "sciname": "Pseudomonas sp. GM102"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 4.85961e-18,
+                  "identity": 53,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 119,
+                  "hit_from": 1,
+                  "hit_to": 119,
+                  "align_len": 120,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVV",
+                  "hseq": "MPHLHMEYTANLP-ELNADLALMRLNNALVASGQFGAEFDIKSRAVKVETFRVGTALGERAFVHVKLALLSGRSAEIKKQLSQSLLAVLQDLCEWPANVEVQLCAEILDIDRESYTKTAI",
+                  "midline": "MPHL +E TANL  E +    L + N AL ASGQFG E DIKSR V +E +R GTA  ERA++H  L++L GR    +  L  SL AVL +         VQ+  E+ +++R SY K  +"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "ref|WP_310339590.1|",
+                  "accession": "WP_310339590",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Rhodoferax saidenbachensis]",
+                  "taxid": 1484693,
+                  "sciname": "Rhodoferax saidenbachensis"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 5.84325e-18,
+                  "identity": 47,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 118,
+                  "hit_from": 1,
+                  "hit_to": 118,
+                  "align_len": 118,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRV",
+                  "hseq": "MPHLTIEISANLESRVASGDLLSVAHQALLLSGVFDGPDVKSRVVPRNQFRIGASGVSEGFVHASLELLAGRTEVVRQQLSQAVVAALMAGLPRGMGFPVQISCDVREMSRECYSKAI",
+                  "midline": "MPHL IE +ANL    + G+LL  A++AL  SG F   D+KSR V    +R G + V   ++HA L +L GR    R  L  ++ A L   +  G    VQ+S +VREM R  Y+K +"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_166454095.1|",
+                  "accession": "WP_166454095",
+                  "title": "5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Chromobacterium fluminis]",
+                  "taxid": 3044269,
+                  "sciname": "Chromobacterium fluminis"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.9593,
+                  "score": 206,
+                  "evalue": 6.27437e-18,
+                  "identity": 52,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 121,
+                  "gaps": 1,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAKRVVAR",
+                  "hseq": "MPHLTLEYSGNLAGFAAADALLD-INRALLASGHFEEADIKSRAVALDACRIGVHDLPRGFVHAKLAILSGRSPEEKQQLSELSLQALADSAALPPGMEVQLCVEIQEIDRASYRKRLIAR",
+                  "midline": "MPHL +E + NL    +   LL+  N+AL ASG F EADIKSR V L+A R G   + R ++HA L+IL GR    +  L       LA++ A      VQ+ VE++E++R SY KR++AR"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "gb|MCR3852693.1|",
+                  "accession": "MCR3852693",
+                  "title": "5-carboxymethyl-2-hydroxymuconate isomerase [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 40,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.6481,
+                  "score": 200,
+                  "evalue": 6.73321e-18,
+                  "identity": 39,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 40,
+                  "hit_from": 1,
+                  "hit_to": 40,
+                  "align_len": 40,
+                  "gaps": 0,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFGEADI",
+                  "hseq": "MPHLVIEATANLRLETSPGELLEQANAALFASGQFGEADI",
+                  "midline": "MPHLVIEATANLRLETSPGELLEQAN ALFASGQFGEADI"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_058541519.1|",
+                  "accession": "WP_058541519",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas]",
+                  "taxid": 286,
+                  "sciname": "Pseudomonas"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.9593,
+                  "score": 206,
+                  "evalue": 7.41727e-18,
+                  "identity": 54,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQFG-EADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLHLEYSANLR-ELEVDKVLLRLNHALVGSGQFAQELDIKSRARAFEHFRVGVAPVERAFVCVRLSLLSGRSPEVKKQLSGSLLEVLKDAVVEVSGRELQLSVELVDMDRDSYAK",
+                  "midline": "MPHL +E +ANLR E    ++L + N AL  SGQF  E DIKSR    E +R G A VERA++   LS+L GR    +  L  SL  VL +AV       +Q+SVE+ +M+R SYAK"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_226503301.1|",
+                  "accession": "WP_226503301",
+                  "title": "MULTISPECIES: 5-carboxymethyl-2-hydroxymuconate Delta-isomerase [Pseudomonas]",
+                  "taxid": 286,
+                  "sciname": "Pseudomonas"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.9593,
+                  "score": 206,
+                  "evalue": 7.66248e-18,
+                  "identity": 53,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 116,
+                  "align_len": 117,
+                  "gaps": 2,
+                  "qseq": "MPHLVIEATANLRLETSPGELLEQANKALFASGQF-GEADIKSRFVTLEAYRQGTAAVERAYLHACLSILDGRDIATRTLLGASLCAVLAEAVAGGGEEGVQVSVEVREMERLSYAK",
+                  "hseq": "MPHLHLEYTRNLPLPDVDA-LLLRLNHALMATGQIANEADIKSRALELQTFRVGTAPGERGFLYAKLALLAGRSPETKKHLSDALIAVLKEAAVWPKGVDIQFGVEIVDMQRESYGK",
+                  "midline": "MPHL +E T NL L      LL + N AL A+GQ   EADIKSR + L+ +R GTA  ER +L+A L++L GR   T+  L  +L AVL EA        +Q  VE+ +M+R SY K"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

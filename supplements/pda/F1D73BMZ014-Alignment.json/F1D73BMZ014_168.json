@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_7368813",
+          "query_title": "3vb8_A,B",
+          "query_len": 161,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "ref|YP_003730.1|",
+                  "accession": "YP_003730",
+                  "title": "hypothetical protein AFV1_ORF157 [Captovirus AFV1]",
+                  "taxid": 235266,
+                  "sciname": "Captovirus AFV1"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 293.893,
+                  "score": 751,
+                  "evalue": 9.31954e-100,
+                  "identity": 143,
+                  "positive": 146,
+                  "query_from": 5,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MSEMSVVDYVVTSFNSTSQMSHELLFSVKKRWFVKPFEHSRRYGLLAYMLLPGNYIKFGLYVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEFEKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD",
+                  "hseq": "MSEMSVVEYEVVSKNLTSKMSHELLFSVKKRWFVKPFRHDRQLGKLHYKLLPGNYIKFGLYVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEFHKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD",
+                  "midline": "MSEMSVV+Y V S N TS+MSHELLFSVKKRWFVKPF H R+ G L Y LLPGNYIKFGLYVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEF KTAWVEESNYSIAEDDIQMVESIKRYLERKIASD"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|NP_963945.1|",
+                  "accession": "NP_963945",
+                  "title": "ORF A158 [Sulfolobus virus Ragged Hills]",
+                  "taxid": 256994,
+                  "sciname": "Sulfolobus virus Ragged Hills"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 4.23635e-40,
+                  "identity": 68,
+                  "positive": 101,
+                  "query_from": 10,
+                  "query_to": 160,
+                  "hit_from": 7,
+                  "hit_to": 157,
+                  "align_len": 151,
+                  "gaps": 0,
+                  "qseq": "VVDYVVTSFNSTSQMSHELLFSVKKRWFVKPFEHSRRYGLLAYMLLPGNYIKFGLYVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEFEKTAWVEESNYSIAEDDIQMVESIKRYLERKIAS",
+                  "hseq": "TVEYVCFSKHLTSKVEHELLFSFKQRKFLKPYKPDKYDGKLYYRLLPGNYLKFSLHALKKSDYARFSLVHVYISPNGEVEEKEVYSVELSYSKFREIAIEFDVPYQLKEFVRMEPEYHRVAKVDESNYPAVEDTLTIANNIMKYLERKVTS",
+                  "midline": " V+YV  S + TS++ HELLFS K+R F+KP++  +  G L Y LLPGNY+KF L+ LK  DYARF +  V++  +G++EE+ VYS+E  +  F +I  + + PY L +F+ M PE+ + A V+ESNY   ED + +  +I +YLERK+ S"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_152943267.1|",
+                  "accession": "WP_152943267",
+                  "title": "DUF3258 domain-containing protein [Acidianus ambivalens]",
+                  "taxid": 2283,
+                  "sciname": "Acidianus ambivalens"
+                }
+              ],
+              "len": 150,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 3.65425e-21,
+                  "identity": 55,
+                  "positive": 86,
+                  "query_from": 8,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 150,
+                  "align_len": 154,
+                  "gaps": 4,
+                  "qseq": "MSVVDYVVTSFNSTSQMSHELLFSVKKRWFVKPFEHSRRYGLLAYMLLPGNYIKFGLYVLKNQDYARFEIAWVHVDKDGKIEERTVYSIETYWHIFIDIENDLNCPYVLAKFIEMRPEFEKTAWVEESNYSIAEDDIQMVESIKRYLERKIASD",
+                  "hseq": "MNAIDYAVTSKHLTSTVVHELLFSTKQMRFIKPIRSDKGLGKLYYKLLDGHYLKFCLYGNKND--VTLKIKLVDIE-NGEPNENTVFEITADWSIIDQILSDQNAPRILTDFLNMMPAFHGVSRVADTKYEY-KNSYEIVWTIRDYIQAKVVQE",
+                  "midline": "M+ +DY VTS + TS + HELLFS K+  F+KP    +  G L Y LL G+Y+KF LY  KN      +I  V ++ +G+  E TV+ I   W I   I +D N P +L  F+ M P F   + V ++ Y   ++  ++V +I+ Y++ K+  +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
