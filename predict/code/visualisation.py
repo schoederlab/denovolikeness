@@ -12,7 +12,7 @@ my_colors = ["#3d348b","#7678ed","#f7b801","#f18701","#f35b04"]
 # PAL=[my_colors[1],my_colors[3],my_colors[2],my_colors[0]]
 PAL = my_colors
 
-def plot_cm(labels, predictions, cmap, threshold=0.5, title='', xlabel='', ylabel='', ax=None, grid=False, my_col='0.2'):
+def plot_cm(labels, predictions, cmap, threshold=0.5, title='', xlabel='', ylabel='', ax=None, grid=False, my_col='0.2', normalize=None):
     cm = confusion_matrix(labels, predictions > threshold)
     class_names = ['natural', 'de novo']
 
@@ -23,7 +23,7 @@ def plot_cm(labels, predictions, cmap, threshold=0.5, title='', xlabel='', ylabe
                                       y_pred=predictions>threshold,
                                       display_labels=class_names,
                                       cmap=cmap,
-                                      normalize=None,
+                                      normalize=normalize,
                                       ax=ax,
                                       text_kw={"fontsize":30,
                                       "fontname":"Arial",
@@ -45,9 +45,13 @@ def plot_cm(labels, predictions, cmap, threshold=0.5, title='', xlabel='', ylabe
     # Add a colorbar associated with cm_display
     # kwargs_cbar={'fontsize':40,'fontname':'Arial', 'weight':'bold', 'color':'0.2'}
     cbar = plt.colorbar(mappable=cm_display.im_, ax=ax)
-    
-    
-    cbar.set_ticklabels(np.arange(0,1751,250), fontsize=30, fontname='Arial', weight='bold', color=my_col)
+        
+    for label in cbar.ax.get_yticklabels():  # or get_xticklabels() if horizontal
+        label.set_fontsize(30)
+        label.set_fontname('Arial')
+        label.set_weight('bold')
+        label.set_color(my_col)
+
     
 
     

@@ -92,7 +92,7 @@ class PredictionPipeline:
 
         try:
             #model_path = MODEL_DIR / 'model_1'
-            model_path = MODEL_DIR / 'model_0.keras'
+            model_path = MODEL_DIR / 'model_3.keras'
             return models.load_model(str(model_path))
         except Exception as e:
             logger.error(f"Error loading model: {str(e)}")

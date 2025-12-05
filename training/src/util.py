@@ -12,6 +12,7 @@ print(tf.__version__)
 # import matplotlib as mpl
 # import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import joblib
 
 import sklearn
@@ -20,7 +21,7 @@ from sklearn.model_selection import train_test_split, StratifiedKFold
 from sklearn.metrics import (
     accuracy_score, balanced_accuracy_score, roc_auc_score,
     average_precision_score, matthews_corrcoef, precision_score,
-    recall_score, confusion_matrix
+    recall_score, confusion_matrix,fbeta_score
 )
 
 from imblearn.over_sampling import SMOTE
@@ -170,7 +171,9 @@ def eval_models(df, model_list, datasplit_list):
     METRICS = [
         'Accuracy', 'Balanced Accuracy', 'ROC_AUC',
         'Average Precision', 'Matthews Correlation',
-        'Precision', 'Recall'
+        'Precision', 'Recall',
+        'FP_Rate', 'FN_Rate',
+        'Fbeta_Score'
     ]
     
     train_scores = []
@@ -204,7 +207,8 @@ def eval_models(df, model_list, datasplit_list):
             precision_score(train_y, train_pred >= threshold),
             recall_score(train_y, train_pred >= threshold),
             fp_rate,
-            fn_rate
+            fn_rate,
+            fbeta_score(train_y, train_pred >= threshold, beta=2)
         ]
         
         # Validation scores
@@ -217,17 +221,31 @@ def eval_models(df, model_list, datasplit_list):
             precision_score(val_y, val_pred >= threshold),
             recall_score(val_y, val_pred >= threshold),
             fp_rate,
-            fn_rate
+            fn_rate,
+            fbeta_score(val_y, val_pred >= threshold, beta=2)
         ]
         
         train_scores.append(train_metrics)
         val_scores.append(val_metrics)
     
-    # Calculate and print average scores
+    # Calculate, save and print average scores
     train_avg = np.array(train_scores).mean(axis=0).round(2)
     val_avg = np.array(val_scores).mean(axis=0).round(2)
     train_std = np.array(train_scores).std(axis=0).round(2)
     val_std = np.array(val_scores).std(axis=0).round(2)
+    
+    results = {
+        'Metric': METRICS,
+        'Training_Mean': train_avg,
+        'Training_Std': train_std,
+        'Validation_Mean': val_avg,
+        'Validation_Std': val_std
+    }
+
+    df = pd.DataFrame(results)
+
+    # Save to CSV
+    df.to_csv('metrics_results.csv', index=False)    
     
     for i, metric in enumerate(METRICS):
         print(f"\n{metric}:")
