@@ -1,0 +1,215 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236407",
+          "query_title": "7mcc_A",
+          "query_len": 190,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7MCC|A",
+                  "accession": "7MCC_A",
+                  "title": "Chain A, AI-designed TIM-barrel F2C [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.607,
+                  "score": 919,
+                  "evalue": 2.27505e-124,
+                  "identity": 190,
+                  "positive": 190,
+                  "query_from": 1,
+                  "query_to": 190,
+                  "hit_from": 1,
+                  "hit_to": 190,
+                  "align_len": 190,
+                  "gaps": 0,
+                  "qseq": "MDIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGHHHHHH",
+                  "hseq": "MDIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGHHHHHH",
+                  "midline": "MDIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7MCD|A",
+                  "accession": "7MCD_A",
+                  "title": "Chain A, AI-designed TIM-barrel F15C [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 192.586,
+                  "score": 488,
+                  "evalue": 8.44213e-59,
+                  "identity": 104,
+                  "positive": 148,
+                  "query_from": 1,
+                  "query_to": 184,
+                  "hit_from": 1,
+                  "hit_to": 184,
+                  "align_len": 184,
+                  "gaps": 0,
+                  "qseq": "MDIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAG",
+                  "hseq": "MDILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAG",
+                  "midline": "MDI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAGADI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAGADI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAGADI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|XP_071116387.1|",
+                  "accession": "XP_071116387",
+                  "title": "ankyrin repeat domain-containing protein 17-like [Haliotis cracherodii]",
+                  "taxid": 6455,
+                  "sciname": "Haliotis cracherodii"
+                }
+              ],
+              "len": 2158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.1434,
+                  "score": 126,
+                  "evalue": 0.000233326,
+                  "identity": 64,
+                  "positive": 87,
+                  "query_from": 9,
+                  "query_to": 184,
+                  "hit_from": 1753,
+                  "hit_to": 1920,
+                  "align_len": 198,
+                  "gaps": 52,
+                  "qseq": "DNPADAIQQVKDLRKYGAKLI--AYKSKSSEELKLALKAGADIAIVDADNPAD--------AIQQVKDLRKYGAKL------------IAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAG",
+                  "hseq": "DNRADVFTQDKD----GATPLHLAVNSRSSETVKLLLDKGADVSAQDKDGATPLHLAVNRRSSETVKLLLDKGADVSTQDKDGATPLHLAVNSRSSETVKLLLDKGADVSTQDKDG-ATPLH------------LAVDSRSSETVKLLLDKGADVSTQDKDG-ATPLH------------LAVDSRSSETVKLLLDKG",
+                  "midline": "DN AD   Q KD    GA  +  A  S+SSE +KL L  GAD++  D D            + + VK L   GA +            +A  S+SSE +KL L  GAD++  D D  A  +             +A  S+SSE +KL L  GAD++  D D  A  +             +A  S+SSE +KL L  G"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|XP_048250671.1|",
+                  "accession": "XP_048250671",
+                  "title": "serine/threonine-protein phosphatase 6 regulatory ankyrin repeat subunit C-like [Haliotis rufescens]",
+                  "taxid": 6454,
+                  "sciname": "Haliotis rufescens"
+                }
+              ],
+              "len": 817,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.0072801,
+                  "identity": 56,
+                  "positive": 73,
+                  "query_from": 23,
+                  "query_to": 184,
+                  "hit_from": 191,
+                  "hit_to": 315,
+                  "align_len": 168,
+                  "gaps": 49,
+                  "qseq": "KYGAKLI--AYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKL--IAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLI--AYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAG",
+                  "hseq": "KYGATPLHLAVNSRSSETVKLLLDKGADVSTQD---------------KHGTTPLHLAVNSRSSETVKLLLDKGADVSAQD---------------KYGATPLHMAARDGSSETLKLLLDKVADISTRDQDGKT----PLHTAARYG---------SSETVKLLLDKG",
+                  "midline": "KYGA  +  A  S+SSE +KL L  GAD++  D               K+G     +A  S+SSE +KL L  GAD++  D               KYGA  +  A +  SSE LKL L   ADI+  D D        +    +YG         SSE +KL L  G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.0205923,
+                  "identity": 66,
+                  "positive": 90,
+                  "query_from": 29,
+                  "query_to": 184,
+                  "hit_from": 1,
+                  "hit_to": 216,
+                  "align_len": 216,
+                  "gaps": 60,
+                  "qseq": "IAYKSKSSEELKLALKAGADIAIVDADNPA--------DAIQQVKDLRKYGAKL------------IAYKSKSSEELKLALKAGADIAIVDAD--NP------ADAIQQVKDLRKYGAKL------------IAYKSKSSEELKLALKAGADIAIVDADNPA------------------DAIQQVKDLRKYGAKL--IAYKSKSSEELKLALKAG",
+                  "hseq": "MAAMSKSSETVKLLLDKGADVSIQDIDRATPLHLAAQIGSSETVKLLLDKGADVSTQDRNGATPLHLAVKDESYETVKLLLDKGADVSIQDEDGKTPLHLAVISGSSETVKLLLDKGADVSTQDRNGDTPLHLAAQIGSSETVKLLLDKGADVSAQDKDGATPLHLAVNSRSSETVKLLLDKGADVSTQEKYGATPLHLAVNSRSSETVKLLLDKG",
+                  "midline": "+A  SKSSE +KL L  GAD++I D D            + + VK L   GA +            +A K +S E +KL L  GAD++I D D   P      + + + VK L   GA +            +A +  SSE +KL L  GAD++  D D                     D    V    KYGA    +A  S+SSE +KL L  G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_139353085.1|",
+                  "accession": "WP_139353085",
+                  "title": "hypothetical protein [Pseudomonas sp. A25(2017)]",
+                  "taxid": 1945865,
+                  "sciname": "Pseudomonas sp. A25(2017)"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.0184638,
+                  "identity": 38,
+                  "positive": 59,
+                  "query_from": 24,
+                  "query_to": 149,
+                  "hit_from": 119,
+                  "hit_to": 242,
+                  "align_len": 130,
+                  "gaps": 10,
+                  "qseq": "YGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRK--YGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRK--YGAKLIAYKSKSSEELKLALKAGADIAIVDADNP",
+                  "hseq": "YGERLICERSKTSVGAELARDDGGTSNIIGTGRP---LSRASSLPQGIYGERLICERSKTSVGAELARDDGGTSNIIGTGRP---LSRASSLPQGIYGERLICERSKTSVGAELARDDGGTSNIIGTGTP",
+                  "midline": "YG +LI  +SK+S   +LA   G    I+    P   + +   L +  YG +LI  +SK+S   +LA   G    I+    P   + +   L +  YG +LI  +SK+S   +LA   G    I+    P"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

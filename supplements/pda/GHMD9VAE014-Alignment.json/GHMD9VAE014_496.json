@@ -1,0 +1,198 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236615",
+          "query_title": "6nz3_A",
+          "query_len": 96,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6NZ3|A",
+                  "accession": "6NZ3_A",
+                  "title": "Chain A, Design construct XAA_GGHN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 183.341,
+                  "score": 464,
+                  "evalue": 5.19403e-58,
+                  "identity": 96,
+                  "positive": 96,
+                  "query_from": 1,
+                  "query_to": 96,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "GSHMGDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKDLKRSLERG",
+                  "hseq": "GSHMGDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKDLKRSLERG",
+                  "midline": "GSHMGDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKDLKRSLERG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|MCC5636036.1|",
+                  "accession": "MCC5636036",
+                  "title": "AAA-like domain-containing protein [Nostoc sp. CHAB 5844]",
+                  "taxid": 2780405,
+                  "sciname": "Nostoc sp. CHAB 5844"
+                }
+              ],
+              "len": 1429,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00657839,
+                  "identity": 27,
+                  "positive": 38,
+                  "query_from": 23,
+                  "query_to": 93,
+                  "hit_from": 410,
+                  "hit_to": 487,
+                  "align_len": 78,
+                  "gaps": 7,
+                  "qseq": "ENPSEKQIVEAIRAIVENNA-------QIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKDLKRSL",
+                  "hseq": "EADQQRQIAEQLRVIAENNATTANEQRQIAEQLRVIAENNATTANEQRQIADKQRAIAQQQKIKAQLAQQQEAKQRRI",
+                  "midline": "E   ++QI E +R I ENNA       QI E +R I ENNA      R I +   AI    KI  ++ +Q +  +R +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|XP_057337790.1|",
+                  "accession": "XP_057337790",
+                  "title": "uncharacterized protein LOC130675907 [Microplitis mediator]",
+                  "taxid": 375433,
+                  "sciname": "Microplitis mediator"
+                }
+              ],
+              "len": 744,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0203906,
+                  "identity": 28,
+                  "positive": 34,
+                  "query_from": 30,
+                  "query_to": 88,
+                  "hit_from": 369,
+                  "hit_to": 424,
+                  "align_len": 59,
+                  "gaps": 3,
+                  "qseq": "IVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKD",
+                  "hseq": "VTENLAAITENNAAITENNAAITENNAAITENNAAINELREL---HDADLDILKVQYQD",
+                  "midline": "+ E + AI ENNA I E   AI ENNA I ENN AI E  E    H+  L+ +K Q +D"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gb|MCQ2507624.1|",
+                  "accession": "MCQ2507624",
+                  "title": "hypothetical protein [Dorea sp.]",
+                  "taxid": 2040332,
+                  "sciname": "Dorea sp."
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.0364238,
+                  "identity": 27,
+                  "positive": 38,
+                  "query_from": 12,
+                  "query_to": 67,
+                  "hit_from": 33,
+                  "hit_to": 86,
+                  "align_len": 56,
+                  "gaps": 2,
+                  "qseq": "ERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIE",
+                  "hseq": "EQLKDMQEQLEQTTA--RIVEKDAQIVEKNAQIVEKDAQIVEKDAQIVEKDAQIVE",
+                  "midline": "E+L+++ E+LE+  +  +IVE    IVE NAQIVE    IVE +AQIVE +  I+E"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|8UB3|4",
+                  "accession": "8UB3_4",
+                  "title": "Chain 4, DpHF7 filament [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 245,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.1282,
+                  "score": 100,
+                  "evalue": 0.0437753,
+                  "identity": 35,
+                  "positive": 46,
+                  "query_from": 5,
+                  "query_to": 92,
+                  "hit_from": 19,
+                  "hit_to": 92,
+                  "align_len": 88,
+                  "gaps": 14,
+                  "qseq": "GDLKYSLERLREILERLEENPSEKQIVEAIRAIVENNAQIVEAIRAIVENNAQIVENNRAIIEALEAIGGHNKILEEMKKQLKDLKRS",
+                  "hseq": "AELKRATASLRAITEELKKNPSEDALVEHNRAIVEH--------------NAIIVENNRIIAAVLMLIVVAVGMTQEIKKALEELVAS",
+                  "midline": " +LK +   LR I E L++NPSE  +VE  RAIVE+              NA IVENNR I   L  I     + +E+KK L++L  S"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

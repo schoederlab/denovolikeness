@@ -1,0 +1,633 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236429",
+          "query_title": "8jvp_A",
+          "query_len": 48,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8JVP|A",
+                  "accession": "8JVP_A",
+                  "title": "Chain A, Ph1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 1.92864e-21,
+                  "identity": 48,
+                  "positive": 48,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7DXX|A",
+                  "accession": "7DXX_A",
+                  "title": "Chain A, mk2h_deltaMILPS protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 2.64229e-15,
+                  "identity": 40,
+                  "positive": 42,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVAEAYAEDVGKRVVRVDKYERAKVGVKVGDYVEVKKV",
+                  "midline": "GPMPGKK VARVAEA AEDVGKRVV + K ERAKVG+KVGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|8JVR|A",
+                  "accession": "8JVR_A",
+                  "title": "Chain A, Ph1_GG [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 44,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.2478,
+                  "score": 173,
+                  "evalue": 4.1551e-15,
+                  "identity": 43,
+                  "positive": 43,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 44,
+                  "align_len": 48,
+                  "gaps": 4,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVAEAG----GKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARVAEA     GKRVVIIPKAERAKVGIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|8JVW|A",
+                  "accession": "8JVW_A",
+                  "title": "Chain A, tkoL2_v1.2_Z [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 42,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 2.64064e-14,
+                  "identity": 41,
+                  "positive": 41,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 42,
+                  "align_len": 48,
+                  "gaps": 6,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVEEARAEDVGKRVVIIPK------GIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARV EARAEDVGKRVVIIPK      GIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|7DXR|A",
+                  "accession": "7DXR_A",
+                  "title": "Chain A, mk2h protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 7.01105e-13,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKSVVARVAEAYPEDVGKRIVRMDKYERAKLGVSVGDYVEVKKV",
+                  "midline": "GPMPGK  VARVAEA  EDVGKR+V + K ERAK+G+ VGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|7DXY|A",
+                  "accession": "7DXY_A",
+                  "title": "Chain A, mk2h_deltaMILPS [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 43,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 1.21749e-10,
+                  "identity": 35,
+                  "positive": 37,
+                  "query_from": 6,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 43,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "KKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "KKVVARVAEAYAEDVGKRVVRVDKYERAKVGVKVGDYVEVKKV",
+                  "midline": "KK VARVAEA AEDVGKRVV + K ERAKVG+KVGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|7DVH|A",
+                  "accession": "7DVH_A",
+                  "title": "Chain A, reDPBB_sym4 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 56.6102,
+                  "score": 135,
+                  "evalue": 8.04895e-09,
+                  "identity": 30,
+                  "positive": 34,
+                  "query_from": 1,
+                  "query_to": 47,
+                  "hit_from": 1,
+                  "hit_to": 47,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKK",
+                  "hseq": "GPMPGKSVVARVAPAHPEDVGKGIVRMDKYERQNLGVSVGDYVEVKK",
+                  "midline": "GPMPGK  VARVA A  EDVGK +V + K ER  +G+ VGD VEVKK"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.000442654,
+                  "identity": 25,
+                  "positive": 29,
+                  "query_from": 6,
+                  "query_to": 47,
+                  "hit_from": 49,
+                  "hit_to": 90,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "KKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKK",
+                  "hseq": "KSVVARVAPAHPEDVGKGIVRMDKYERQNLGVSVGDYVEVKK",
+                  "midline": "K  VARVA A  EDVGK +V + K ER  +G+ VGD VEVKK"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|7DXS|A",
+                  "accession": "7DXS_A",
+                  "title": "Chain A, ap1h protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 49,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 1.86402e-06,
+                  "identity": 27,
+                  "positive": 32,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMANSSVELRVAEAYPEDVGRGIVRMDKQTRAKLGVSVGDYVEVKKV",
+                  "midline": "GPM       RVAEA  EDVG+ +V + K  RAK+G+ VGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|7DI1|A",
+                  "accession": "7DI1_A",
+                  "title": "Chain A, mkDPBB_sym_86 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 92,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 2.02955e-06,
+                  "identity": 26,
+                  "positive": 30,
+                  "query_from": 1,
+                  "query_to": 41,
+                  "hit_from": 1,
+                  "hit_to": 41,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGD",
+                  "hseq": "GPMPGLSVKLRVAEAYPEDVGKRIVRMDKASRAKLGVSVGD",
+                  "midline": "GPMPG     RVAEA  EDVGKR+V + KA RAK+G+ VGD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.00111195,
+                  "identity": 24,
+                  "positive": 28,
+                  "query_from": 13,
+                  "query_to": 48,
+                  "hit_from": 56,
+                  "hit_to": 91,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "AEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "AEAYPEDVGKGIVRMDKYERAKLGVSVGDYVEVKKV",
+                  "midline": "AEA  EDVGK +V + K ERAK+G+ VGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "pdb|8JVU|A",
+                  "accession": "8JVU_A",
+                  "title": "Chain A, tkoL2_v1.2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 2.10189e-06,
+                  "identity": 36,
+                  "positive": 37,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 61,
+                  "gaps": 19,
+                  "qseq": "GPMPGKKFVARVAE-------------ARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVEEILHDPGRTAPVARVKFEDGTKRVVIIPK------GIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARV E              + ED  KRVVIIPK      GIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|7DI0|A",
+                  "accession": "7DI0_A",
+                  "title": "Chain A, apDPBB_sym_79 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 93,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 2.665e-06,
+                  "identity": 26,
+                  "positive": 33,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMANSSVELRVLEARPEDVGRKIVRMDKQTRARLGVSVGDYVEVKKV",
+                  "midline": "GPM       RV EAR EDVG+++V + K  RA++G+ VGD VEVKKV"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 41.5874,
+                  "score": 96,
+                  "evalue": 0.00772066,
+                  "identity": 24,
+                  "positive": 30,
+                  "query_from": 6,
+                  "query_to": 48,
+                  "hit_from": 50,
+                  "hit_to": 92,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "KKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "RSVVARVLPARPEDVGRGIVRMDKYLRAALGVSVGDYVEVKKV",
+                  "midline": "+  VARV  AR EDVG+ +V + K  RA +G+ VGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|7DG7|A",
+                  "accession": "7DG7_A",
+                  "title": "Chain A, ATPase of the AAA+ class [Methanopyrus kandleri AV19]",
+                  "taxid": 190192,
+                  "sciname": "Methanopyrus kandleri AV19"
+                }
+              ],
+              "len": 92,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.1282,
+                  "score": 100,
+                  "evalue": 0.0016432,
+                  "identity": 22,
+                  "positive": 30,
+                  "query_from": 1,
+                  "query_to": 45,
+                  "hit_from": 1,
+                  "hit_to": 45,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEV",
+                  "hseq": "GPMPGLPIKLRVEKAYPEDVGKRAVRMDKASRDRIGVSEGDLVKI",
+                  "midline": "GPMPG     RV +A  EDVGKR V + KA R ++G+  GD+V++"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|8JVY|A",
+                  "accession": "8JVY_A",
+                  "title": "Chain A, tkoL2_v1_turn [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 49,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.00175679,
+                  "identity": 29,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 49,
+                  "align_len": 55,
+                  "gaps": 13,
+                  "qseq": "GPMPGKKFVARVAE-------ARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLIIAPE------GVKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARV E        + ED  K+++I P+      G+KVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "pdb|8JVT|A",
+                  "accession": "8JVT_A",
+                  "title": "Chain A, mkaL2_v1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.9726,
+                  "score": 97,
+                  "evalue": 0.00206008,
+                  "identity": 29,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 61,
+                  "gaps": 19,
+                  "qseq": "GPMPGKKFVARVAE-------------ARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVVELLHDPARNAPVARVRFEDGEERLILVPE------GVKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARV E              R ED  +R++++P+      G+KVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "pdb|8JVS|A",
+                  "accession": "8JVS_A",
+                  "title": "Chain A, tkoL2_v1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 39.6614,
+                  "score": 91,
+                  "evalue": 0.0161697,
+                  "identity": 29,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 61,
+                  "gaps": 19,
+                  "qseq": "GPMPGKKFVARVAE-------------ARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVEEILHDPGRTAPVARVKFEDGTKKLIIAPE------GVKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARV E              + ED  K+++I P+      G+KVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_342765578.1|",
+                  "accession": "WP_342765578",
+                  "title": "AAA family ATPase, partial [Thermofilum sp.]",
+                  "taxid": 1961369,
+                  "sciname": "Thermofilum sp."
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 41.2022,
+                  "score": 95,
+                  "evalue": 0.0326263,
+                  "identity": 22,
+                  "positive": 32,
+                  "query_from": 6,
+                  "query_to": 46,
+                  "hit_from": 6,
+                  "hit_to": 46,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "KKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVK",
+                  "hseq": "KEVVLRVAEARSRDVGRGIVRIDRAAMSKLGIEPGDVVEIE",
+                  "midline": "K+ V RVAEAR+ DVG+ +V I +A  +K+GI+ GDVVE++"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "pdb|7DG9|A",
+                  "accession": "7DG9_A",
+                  "title": "Chain A, Cell division control protein 48, AAA family [Aeropyrum pernix K1]",
+                  "taxid": 272557,
+                  "sciname": "Aeropyrum pernix K1"
+                }
+              ],
+              "len": 93,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 39.6614,
+                  "score": 91,
+                  "evalue": 0.0374618,
+                  "identity": 20,
+                  "positive": 30,
+                  "query_from": 1,
+                  "query_to": 47,
+                  "hit_from": 1,
+                  "hit_to": 47,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKK",
+                  "hseq": "GPMANSSVELRVSEAYPRDVGRKIVRIDRQTAARLGVEVGDFVKVSK",
+                  "midline": "GPM       RV+EA   DVG+++V I +   A++G++VGD V+V K"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236312",
+          "query_title": "7n3t_C",
+          "query_len": 81,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7N3T|C",
+                  "accession": "7N3T_C",
+                  "title": "Chain C, Designed TrkA-binding miniprotein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 81,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 162.155,
+                  "score": 409,
+                  "evalue": 3.81541e-50,
+                  "identity": 81,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 81,
+                  "hit_from": 1,
+                  "hit_to": 81,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "MSHHHHHHHHSENLYFQSGGGRDEIKERIFKAVVRAIVTGNPEQLKEAKKLLEKLKKLGRLDQDAKKFEKAIRQVEKRLRS",
+                  "hseq": "MSHHHHHHHHSENLYFQSGGGRDEIKERIFKAVVRAIVTGNPEQLKEAKKLLEKLKKLGRLDQDAKKFEKAIRQVEKRLRS",
+                  "midline": "MSHHHHHHHHSENLYFQSGGGRDEIKERIFKAVVRAIVTGNPEQLKEAKKLLEKLKKLGRLDQDAKKFEKAIRQVEKRLRS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|9DT9|A",
+                  "accession": "9DT9_A",
+                  "title": "Chain A, 231_C2_TrkA [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.8626,
+                  "score": 172,
+                  "evalue": 1.36229e-13,
+                  "identity": 39,
+                  "positive": 48,
+                  "query_from": 20,
+                  "query_to": 79,
+                  "hit_from": 2,
+                  "hit_to": 61,
+                  "align_len": 60,
+                  "gaps": 0,
+                  "qseq": "GGRDEIKERIFKAVVRAIVTGNPEQLKEAKKLLEKLKKLGRLDQDAKKFEKAIRQVEKRL",
+                  "hseq": "SGKEEIKEAIKKAVVRARVTGDPKYLEEAKALLEKLKELDEEDKDVEKFEKAIKQVEAEL",
+                  "midline": " G++EIKE I KAVVRA VTG+P+ L+EAK LLEKLK+L   D+D +KFEKAI+QVE  L"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

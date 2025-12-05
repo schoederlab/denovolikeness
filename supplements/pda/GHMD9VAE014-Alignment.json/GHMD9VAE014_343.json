@@ -1,0 +1,153 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236462",
+          "query_title": "7udj_H",
+          "query_len": 192,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7UDJ|H",
+                  "accession": "7UDJ_H",
+                  "title": "Chain H, De novo designed helical repeat protein RPB_PEW3_R4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 192,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 343.584,
+                  "score": 880,
+                  "evalue": 2.33524e-118,
+                  "identity": 192,
+                  "positive": 192,
+                  "query_from": 1,
+                  "query_to": 192,
+                  "hit_from": 1,
+                  "hit_to": 192,
+                  "align_len": 192,
+                  "gaps": 0,
+                  "qseq": "KKEAEEVAAHVEQIAFIAKEQGNEEVAKLAKRLAETIKRLNEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKELLERAEEAAHVLQHAFIATEQGNEEDAKEALRKAEEILRRNA",
+                  "hseq": "KKEAEEVAAHVEQIAFIAKEQGNEEVAKLAKRLAETIKRLNEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKELLERAEEAAHVLQHAFIATEQGNEEDAKEALRKAEEILRRNA",
+                  "midline": "KKEAEEVAAHVEQIAFIAKEQGNEEVAKLAKRLAETIKRLNEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKELLERAEEAAHVLQHAFIATEQGNEEDAKEALRKAEEILRRNA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7UDL|A",
+                  "accession": "7UDL_A",
+                  "title": "Chain A, Designed helical repeat protein (DHR) RPB_PLP1_R6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 282,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.2781,
+                  "score": 225,
+                  "evalue": 2.64107e-18,
+                  "identity": 84,
+                  "positive": 99,
+                  "query_from": 11,
+                  "query_to": 189,
+                  "hit_from": 13,
+                  "hit_to": 182,
+                  "align_len": 179,
+                  "gaps": 9,
+                  "qseq": "VEQIAFIAKEQGNEEVAKLAKRLAETIKRLNEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKELLERAEEAAHVLQHAFIATEQGNEEDAKEALRKAEEILR",
+                  "hseq": "VEQIAKDAHRNGQEELAKLAERTAEEAKKATERGEEETLRIVY---VIVVVLQIALEAHRNGQEELAKLALRTAEEAIKATERGEEETLRIV---YVIVVVLQIALEAHRNGQEELAKLALRTAEEAIKATERGEEET---LRIVYVIVVVLQIALEAHRNGQEELAKLALRTAEEAIK",
+                  "midline": "VEQIA  A   G EE+AKLA+R AE  K+  E  EEE  R++    V   VLQIA  AH  G EE+AKLAL  AE  ++  E  EEE  R++    V   VLQIA  AH  G EE+AKLAL  AE  ++  E  EEE    L        VLQ A  A   G EE AK ALR AEE ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 4.74687e-16,
+                  "identity": 81,
+                  "positive": 95,
+                  "query_from": 13,
+                  "query_to": 189,
+                  "hit_from": 62,
+                  "hit_to": 229,
+                  "align_len": 177,
+                  "gaps": 9,
+                  "qseq": "QIAFIAKEQGNEEVAKLAKRLAETIKRLNEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKELLERAEEAAHVLQHAFIATEQGNEEDAKEALRKAEEILR",
+                  "hseq": "QIALEAHRNGQEELAKLALRTAEEAIKATERGEEETLRIVY---VIVVVLQIALEAHRNGQEELAKLALRTAEEAIKATERGEEETLRIVY---VIVVVLQIALEAHRNGQEELAKLALRTAEEAIKATERGEEET---LRIVYVIVVVLQIALEAHRNGQEELAKLALRTAEEAIK",
+                  "midline": "QIA  A   G EE+AKLA R AE   +  E  EEE  R++    V   VLQIA  AH  G EE+AKLAL  AE  ++  E  EEE  R++    V   VLQIA  AH  G EE+AKLAL  AE  ++  E  EEE    L        VLQ A  A   G EE AK ALR AEE ++"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 76.6406,
+                  "score": 187,
+                  "evalue": 5.2997e-13,
+                  "identity": 77,
+                  "positive": 95,
+                  "query_from": 13,
+                  "query_to": 184,
+                  "hit_from": 109,
+                  "hit_to": 271,
+                  "align_len": 172,
+                  "gaps": 9,
+                  "qseq": "QIAFIAKEQGNEEVAKLAKRLAETIKRLNEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKELLERAEEAAHVLQHAFIATEQGNEEDAKEALRKA",
+                  "hseq": "QIALEAHRNGQEELAKLALRTAEEAIKATERGEEETLRIVY---VIVVVLQIALEAHRNGQEELAKLALRTAEEAIKATERGEEETLRIV---YVIVVVLQIALEAHRNGQEELAKLALRTAEEAIKATERGEEETERIV---YDIVVVLQEALEAHRNGEEERAKKALDEA",
+                  "midline": "QIA  A   G EE+AKLA R AE   +  E  EEE  R++    V   VLQIA  AH  G EE+AKLAL  AE  ++  E  EEE  R++    V   VLQIA  AH  G EE+AKLAL  AE  ++  E  EEE + ++    +   VLQ A  A   G EE AK+AL +A"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 54.299,
+                  "score": 129,
+                  "evalue": 6.55513e-05,
+                  "identity": 62,
+                  "positive": 73,
+                  "query_from": 13,
+                  "query_to": 145,
+                  "hit_from": 156,
+                  "hit_to": 279,
+                  "align_len": 133,
+                  "gaps": 9,
+                  "qseq": "QIAFIAKEQGNEEVAKLAKRLAETIKRLNEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTEEEVKRLLEAAEVAAHVLQIAFIAHEQGNEEVAKLALELAESILRLIEGTE",
+                  "hseq": "QIALEAHRNGQEELAKLALRTAEEAIKATERGEEETLRIVY---VIVVVLQIALEAHRNGQEELAKLALRTAEEAIKATERGEEETERIVYDIVV---VLQEALEAHRNGEEERAKKALDEAR---RRIEATE",
+                  "midline": "QIA  A   G EE+AKLA R AE   +  E  EEE  R++    V   VLQIA  AH  G EE+AKLAL  AE  ++  E  EEE +R++    V   VLQ A  AH  G EE AK AL+ A    R IE TE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236234",
+          "query_title": "6o35_A",
+          "query_len": 102,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6O35|A",
+                  "accession": "6O35_A",
+                  "title": "Chain A, de novo designed WSHC8 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 189.504,
+                  "score": 480,
+                  "evalue": 3.39356e-60,
+                  "identity": 102,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "GSSAEELLRRSREYLKKVKEEQERKAKEFQELLKELSERSEELIRELEEKGAASEAELARMKQQHMTAYLEAQLTAWEIESKSKIALLELQQNQLNLELRHI",
+                  "hseq": "GSSAEELLRRSREYLKKVKEEQERKAKEFQELLKELSERSEELIRELEEKGAASEAELARMKQQHMTAYLEAQLTAWEIESKSKIALLELQQNQLNLELRHI",
+                  "midline": "GSSAEELLRRSREYLKKVKEEQERKAKEFQELLKELSERSEELIRELEEKGAASEAELARMKQQHMTAYLEAQLTAWEIESKSKIALLELQQNQLNLELRHI"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|6M6Z|A",
+                  "accession": "6M6Z_A",
+                  "title": "Chain A, TMH4C4 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 203,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 110.153,
+                  "score": 274,
+                  "evalue": 1.36199e-27,
+                  "identity": 67,
+                  "positive": 68,
+                  "query_from": 3,
+                  "query_to": 86,
+                  "hit_from": 1,
+                  "hit_to": 84,
+                  "align_len": 84,
+                  "gaps": 0,
+                  "qseq": "SAEELLRRSREYLKKVKEEQERKAKEFQELLKELSERSEELIRELEEKGAASEAELARMKQQHMTAYLEAQLTAWEIESKSKIA",
+                  "hseq": "SAEELLRRSREYLKKVALIQLVIAFVFLILLILLSWRSEELIRELEEKGAASEAELARMKQQHMTAYLQAALTAWEIISKSVIA",
+                  "midline": "SAEELLRRSREYLKKV   Q   A  F  LL  LS RSEELIRELEEKGAASEAELARMKQQHMTAYL+A LTAWEI SKS IA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 108.227,
+                  "score": 269,
+                  "evalue": 5.93643e-27,
+                  "identity": 66,
+                  "positive": 67,
+                  "query_from": 4,
+                  "query_to": 86,
+                  "hit_from": 106,
+                  "hit_to": 188,
+                  "align_len": 83,
+                  "gaps": 0,
+                  "qseq": "AEELLRRSREYLKKVKEEQERKAKEFQELLKELSERSEELIRELEEKGAASEAELARMKQQHMTAYLEAQLTAWEIESKSKIA",
+                  "hseq": "AEELLRRSREYLKKVALIQLVIAFVFLILLILLSWRSEELIRELEEKGAASEAELARMKQQHMTAYLQAALTAWEIISKSVIA",
+                  "midline": "AEELLRRSREYLKKV   Q   A  F  LL  LS RSEELIRELEEKGAASEAELARMKQQHMTAYL+A LTAWEI SKS IA"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6U1S|A",
+                  "accession": "6U1S_A",
+                  "title": "Chain A, de novo designed 16-helix transmembrane nanopore, TMHC8_R [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 1.44307e-23,
+                  "identity": 76,
+                  "positive": 78,
+                  "query_from": 7,
+                  "query_to": 101,
+                  "hit_from": 216,
+                  "hit_to": 310,
+                  "align_len": 95,
+                  "gaps": 0,
+                  "qseq": "LLRRSREYLKKVKEEQERKAKEFQELLKELSERSEELIRELEEKGAASEAELARMKQQHMTAYLEAQLTAWEIESKSKIALLELQQNQLNLELRH",
+                  "hseq": "LLKRSREYLKKVALIQLVIAFVFLILLILLSWRSEELIRELEEKGAASEAELARMKQQHMTAYLQAALTAWEIISKSVIALLLLQQNQLNLELRH",
+                  "midline": "LL+RSREYLKKV   Q   A  F  LL  LS RSEELIRELEEKGAASEAELARMKQQHMTAYL+A LTAWEI SKS IALL LQQNQLNLELRH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236267",
+          "query_title": "8g9k_A",
+          "query_len": 204,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8G9K|A",
+                  "accession": "8G9K_A",
+                  "title": "Chain A, THR2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 204,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 350.517,
+                  "score": 898,
+                  "evalue": 1.27113e-120,
+                  "identity": 204,
+                  "positive": 204,
+                  "query_from": 1,
+                  "query_to": 204,
+                  "hit_from": 1,
+                  "hit_to": 204,
+                  "align_len": 204,
+                  "gaps": 0,
+                  "qseq": "PKKIVKDAKEKLEKLLEDAKDGGEELALDIAEELAREAEKALKELLREGASPELIVDLAETALRALLEIAKDGGEELALDIARILAKLAEVALEVLLKDGASPKLIVDLAKTALRALLEIAEDGGEELALDIAEILAELAEVALRVLLKDGASPKLIEDLAKTALDALEEIARDGGEELAEDIDRILRKLEKVARDVLRKDGAS",
+                  "hseq": "PKKIVKDAKEKLEKLLEDAKDGGEELALDIAEELAREAEKALKELLREGASPELIVDLAETALRALLEIAKDGGEELALDIARILAKLAEVALEVLLKDGASPKLIVDLAKTALRALLEIAEDGGEELALDIAEILAELAEVALRVLLKDGASPKLIEDLAKTALDALEEIARDGGEELAEDIDRILRKLEKVARDVLRKDGAS",
+                  "midline": "PKKIVKDAKEKLEKLLEDAKDGGEELALDIAEELAREAEKALKELLREGASPELIVDLAETALRALLEIAKDGGEELALDIARILAKLAEVALEVLLKDGASPKLIVDLAKTALRALLEIAEDGGEELALDIAEILAELAEVALRVLLKDGASPKLIEDLAKTALDALEEIARDGGEELAEDIDRILRKLEKVARDVLRKDGAS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8G9J|A",
+                  "accession": "8G9J_A",
+                  "title": "Chain A, THR1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 223,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 195.282,
+                  "score": 495,
+                  "evalue": 4.5869e-59,
+                  "identity": 136,
+                  "positive": 172,
+                  "query_from": 1,
+                  "query_to": 204,
+                  "hit_from": 20,
+                  "hit_to": 223,
+                  "align_len": 204,
+                  "gaps": 0,
+                  "qseq": "PKKIVKDAKEKLEKLLEDAKDGGEELALDIAEELAREAEKALKELLREGASPELIVDLAETALRALLEIAKDGGEELALDIARILAKLAEVALEVLLKDGASPKLIVDLAKTALRALLEIAEDGGEELALDIAEILAELAEVALRVLLKDGASPKLIEDLAKTALDALEEIARDGGEELAEDIDRILRKLEKVARDVLRKDGAS",
+                  "hseq": "SEEIVEEAETALKALLEEAEKGGKEDALEIAEKLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPELIVRLAETALEALLAIARLGGEELALEIARILAELAEVALEVLLELGASPELIKKLAETAEEALEAIAKLGGEELAEEIAKILAELAEVAKEVQKELGAS",
+                  "midline": " ++IV++A+  L+ LLE+A+ GG+E AL+IAE+LA  A++AL+ LL  GASPELIV LAETAL+ALL IA+ GGEELAL+IARILA+LAEVALEVLL+ GASP+LIV LA+TAL ALL IA  GGEELAL+IA ILAELAEVAL VLL+ GASP+LI+ LA+TA +ALE IA+ GGEELAE+I +IL +L +VA++V ++ GAS"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 155.606,
+                  "score": 392,
+                  "evalue": 1.34805e-43,
+                  "identity": 106,
+                  "positive": 129,
+                  "query_from": 45,
+                  "query_to": 204,
+                  "hit_from": 13,
+                  "hit_to": 172,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "LLREGASPELIVDLAETALRALLEIAKDGGEELALDIARILAKLAEVALEVLLKDGASPKLIVDLAKTALRALLEIAEDGGEELALDIAEILAELAEVALRVLLKDGASPKLIEDLAKTALDALEEIARDGGEELAEDIDRILRKLEKVARDVLRKDGAS",
+                  "hseq": "LYFQGSGSEEIVEEAETALKALLEEAEKGGKEDALEIAEKLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPELIVRLAETALEALLAIARLGGEELALEIARILAELAEVALEVLLELGAS",
+                  "midline": "L  +G+  E IV+ AETAL+ALLE A+ GG+E AL+IA  LA+LA+ ALEVLL+ GASP+LIV LA+TAL+ALL IAE GGEELAL+IA ILAELAEVAL VLL+ GASP+LI  LA+TAL+AL  IAR GGEELA +I RIL +L +VA +VL + GAS"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236454",
+          "query_title": "6jcc_A",
+          "query_len": 97,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6JCC|A",
+                  "accession": "6JCC_A",
+                  "title": "Chain A, Computational designed protein based on evolution [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 188.348,
+                  "score": 477,
+                  "evalue": 6.76508e-60,
+                  "identity": 97,
+                  "positive": 97,
+                  "query_from": 1,
+                  "query_to": 97,
+                  "hit_from": 1,
+                  "hit_to": 97,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "HHHMTPEQREFLLEILAEIIANLDPTKILEEPLRRGLLTPAELQEVLDLKTPEEQAKKLIDFILKLSPAEAQALIDALRAHGYQALADKLKKYLPLE",
+                  "hseq": "HHHMTPEQREFLLEILAEIIANLDPTKILEEPLRRGLLTPAELQEVLDLKTPEEQAKKLIDFILKLSPAEAQALIDALRAHGYQALADKLKKYLPLE",
+                  "midline": "HHHMTPEQREFLLEILAEIIANLDPTKILEEPLRRGLLTPAELQEVLDLKTPEEQAKKLIDFILKLSPAEAQALIDALRAHGYQALADKLKKYLPLE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|XP_076840128.1|",
+                  "accession": "XP_076840128",
+                  "title": "caspase-9 isoform X2 [Brachyhypopomus gauderio]",
+                  "taxid": 698409,
+                  "sciname": "Brachyhypopomus gauderio"
+                }
+              ],
+              "len": 431,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1358,
+                  "score": 113,
+                  "evalue": 0.000854689,
+                  "identity": 26,
+                  "positive": 44,
+                  "query_from": 19,
+                  "query_to": 96,
+                  "hit_from": 16,
+                  "hit_to": 93,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "IIANLDPTKILEEPLRRGLLTPAELQEVLDLKTPEEQAKKLIDFILKLSPAEAQALIDALRAHGYQALADKLKKYLPL",
+                  "hseq": "IVRDLDPSKVYDGLLSRGIFTEDMVEEIKCAGTRRDQARKLVKDLQMRGRAAFPAFVECLRESGHQTLADLLESRGPI",
+                  "midline": "I+ +LDP+K+ +  L RG+ T   ++E+    T  +QA+KL+  +     A   A ++ LR  G+Q LAD L+   P+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|XP_028849218.1|",
+                  "accession": "XP_028849218",
+                  "title": "caspase-9 isoform X2 [Denticeps clupeoides]",
+                  "taxid": 299321,
+                  "sciname": "Denticeps clupeoides"
+                }
+              ],
+              "len": 436,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.595,
+                  "score": 109,
+                  "evalue": 0.00328642,
+                  "identity": 29,
+                  "positive": 45,
+                  "query_from": 4,
+                  "query_to": 92,
+                  "hit_from": 1,
+                  "hit_to": 89,
+                  "align_len": 89,
+                  "gaps": 0,
+                  "qseq": "MTPEQREFLLEILAEIIANLDPTKILEEPLRRGLLTPAELQEVLDLKTPEEQAKKLIDFILKLSPAEAQALIDALRAHGYQALADKLKK",
+                  "hseq": "MDPRHKKILQYNRINIVKVLDPSKISGELLKRGIFSQDMMDEITKSGTRRDQARQLIRDLETRGAKAFPAFLECLSGCGYQDLADLLQK",
+                  "midline": "M P  ++ L      I+  LDP+KI  E L+RG+ +   + E+    T  +QA++LI  +         A ++ L   GYQ LAD L+K"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

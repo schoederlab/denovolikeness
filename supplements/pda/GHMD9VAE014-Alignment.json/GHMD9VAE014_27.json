@@ -1,0 +1,1190 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236146",
+          "query_title": "6c2u_A",
+          "query_len": 115,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6C2U|A",
+                  "accession": "6C2U_A",
+                  "title": "Chain A, phosphate-loop protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.861,
+                  "score": 564,
+                  "evalue": 1.03724e-72,
+                  "identity": 115,
+                  "positive": 115,
+                  "query_from": 1,
+                  "query_to": 115,
+                  "hit_from": 1,
+                  "hit_to": 115,
+                  "align_len": 115,
+                  "gaps": 0,
+                  "qseq": "MRVIVVIVGPSGAGKTTLDELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAKARGSWSLEHHHHHH",
+                  "hseq": "MRVIVVIVGPSGAGKTTLDELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAKARGSWSLEHHHHHH",
+                  "midline": "MRVIVVIVGPSGAGKTTLDELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAKARGSWSLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|UOO37208.1|",
+                  "accession": "UOO37208",
+                  "title": "ATP-binding cassette domain-containing protein [Oscillospiraceae bacterium JHJ]",
+                  "taxid": 2789326,
+                  "sciname": "Oscillospiraceae bacterium JHJ"
+                }
+              ],
+              "len": 218,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1358,
+                  "score": 113,
+                  "evalue": 0.001272,
+                  "identity": 26,
+                  "positive": 44,
+                  "query_from": 29,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 82,
+                  "align_len": 82,
+                  "gaps": 8,
+                  "qseq": "VPDAEIRTVTTKEDAKRVAEEAERR--NADIVVIVGPSGSGKSTLAKIVKKIIARAG------AKTIEVTTEEELRKAVAKA",
+                  "hseq": "MPLLELKNVSYESDGKTILDNISLRIDAGDCVSIMGPSGSGKSTLLRLCSHLISPTGGVIVYNGKSLEAYNPIQLRRSIAYC",
+                  "midline": "+P  E++ V+ + D K + +    R    D V I+GPSGSGKSTL ++   +I+  G       K++E     +LR+++A  "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|NLC65446.1|",
+                  "accession": "NLC65446",
+                  "title": "ABC transporter ATP-binding protein [Clostridium sp.]",
+                  "taxid": 1506,
+                  "sciname": "Clostridium sp."
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.00178358,
+                  "identity": 27,
+                  "positive": 40,
+                  "query_from": 53,
+                  "query_to": 113,
+                  "hit_from": 25,
+                  "hit_to": 91,
+                  "align_len": 68,
+                  "gaps": 8,
+                  "qseq": "RNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTE-------EELRKAVAKARGSWSLEHHHH",
+                  "hseq": "KKSEFLVVLGPSGCGKSTLLRLINKMISRDGGK-IEVEGENIDSLKGEELRKTIGYVIQSIGLFPHMN",
+                  "midline": "+ ++ +V++GPSG GKSTL +++ K+I+R G K IEV  E       EELRK +     S  L  H +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_182764451.1|",
+                  "accession": "WP_182764451",
+                  "title": "amino acid ABC transporter ATP-binding protein [Tessaracoccus sp. MC1865]",
+                  "taxid": 2760310,
+                  "sciname": "Tessaracoccus sp. MC1865"
+                }
+              ],
+              "len": 257,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.00210114,
+                  "identity": 27,
+                  "positive": 41,
+                  "query_from": 53,
+                  "query_to": 111,
+                  "hit_from": 40,
+                  "hit_to": 106,
+                  "align_len": 67,
+                  "gaps": 8,
+                  "qseq": "RNADIVVIVGPSGSGKSTLAKIVKKI-IARAGAKTIEVTTEEELRKAVAKARG-------SWSLEHH",
+                  "hseq": "REGEVVVVIGPSGSGKSTLCRTINRLETFESGSITIEGTELPEEGKALAQLRADVGMVFQSFNLFHH",
+                  "midline": "R  ++VV++GPSGSGKSTL + + ++    +G+ TIE T   E  KA+A+ R        S++L HH"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|NLB22645.1|",
+                  "accession": "NLB22645",
+                  "title": "ABC transporter ATP-binding protein [Clostridium sp.]",
+                  "taxid": 1506,
+                  "sciname": "Clostridium sp."
+                }
+              ],
+              "len": 309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.00326525,
+                  "identity": 25,
+                  "positive": 37,
+                  "query_from": 55,
+                  "query_to": 113,
+                  "hit_from": 27,
+                  "hit_to": 91,
+                  "align_len": 65,
+                  "gaps": 6,
+                  "qseq": "ADIVVIVGPSGSGKSTLAKIVKKIIARAGAK------TIEVTTEEELRKAVAKARGSWSLEHHHH",
+                  "hseq": "AEFLVLLGPSGSGKSTLLRLINKMIPRDGGEIEVEGDNIDDLKGEELRKTIGYVIQSIGLFPHMN",
+                  "midline": "A+ +V++GPSGSGKSTL +++ K+I R G +       I+    EELRK +     S  L  H +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|NLC03198.1|",
+                  "accession": "NLC03198",
+                  "title": "ABC transporter ATP-binding protein [Tissierellia bacterium]",
+                  "taxid": 2049431,
+                  "sciname": "Tissierellia bacterium"
+                }
+              ],
+              "len": 309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.595,
+                  "score": 109,
+                  "evalue": 0.00536272,
+                  "identity": 25,
+                  "positive": 36,
+                  "query_from": 55,
+                  "query_to": 113,
+                  "hit_from": 27,
+                  "hit_to": 91,
+                  "align_len": 65,
+                  "gaps": 6,
+                  "qseq": "ADIVVIVGPSGSGKSTLAKIVKKIIARAG------AKTIEVTTEEELRKAVAKARGSWSLEHHHH",
+                  "hseq": "SEFLVILGPSGCGKSTLLRLINKMITRDGGEIEVEGKNIDGLKGEELRKTIGYVIQSIGLFPHMN",
+                  "midline": "++ +VI+GPSG GKSTL +++ K+I R G       K I+    EELRK +     S  L  H +"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|RPH42246.1|",
+                  "accession": "RPH42246",
+                  "title": "MAG: ABC transporter ATP-binding protein [Burkholderiales bacterium]",
+                  "taxid": 1891238,
+                  "sciname": "Burkholderiales bacterium"
+                }
+              ],
+              "len": 228,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.00542913,
+                  "identity": 27,
+                  "positive": 38,
+                  "query_from": 53,
+                  "query_to": 112,
+                  "hit_from": 16,
+                  "hit_to": 80,
+                  "align_len": 66,
+                  "gaps": 7,
+                  "qseq": "RNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEEL---RKAVAKARG---SWSLEHHH",
+                  "hseq": "RSGEFCAVVGPSGSGKSTLLNIV-GLLDRATAGTVEVCGEQTTVLDDGALTRLRGHGIGFVFQHHH",
+                  "midline": "R+ +   +VGPSGSGKSTL  IV  ++ RA A T+EV  E+       A+ + RG    +  +HHH"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gb|OYT34708.1|",
+                  "accession": "OYT34708",
+                  "title": "MAG: iron ABC transporter ATP-binding protein [Archaeoglobales archaeon ex4484_92]",
+                  "taxid": 2012529,
+                  "sciname": "Archaeoglobales archaeon ex4484_92"
+                }
+              ],
+              "len": 268,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.595,
+                  "score": 109,
+                  "evalue": 0.00544308,
+                  "identity": 30,
+                  "positive": 49,
+                  "query_from": 33,
+                  "query_to": 108,
+                  "hit_from": 3,
+                  "hit_to": 87,
+                  "align_len": 85,
+                  "gaps": 9,
+                  "qseq": "EIRTVTTKEDAKRVAEE--AERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGA-----KTIEVTTEEELRKAVAKA--RGSWSL",
+                  "hseq": "KVRSITFGYNSKKVLDEINLEIRRGEIVVLLGPNGSGKTTLLKCIAGILKPEGAVYVDGKSITSVSRKELAKVIGYVPQRGDVSF",
+                  "midline": "++R++T   ++K+V +E   E R  +IVV++GP+GSGK+TL K +  I+   GA     K+I   + +EL K +     RG  S "
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_108033858.1|",
+                  "accession": "WP_108033858",
+                  "title": "ABC transporter ATP-binding protein [Trichococcus patagoniensis]",
+                  "taxid": 382641,
+                  "sciname": "Trichococcus patagoniensis"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.00669991,
+                  "identity": 28,
+                  "positive": 37,
+                  "query_from": 55,
+                  "query_to": 111,
+                  "hit_from": 27,
+                  "hit_to": 89,
+                  "align_len": 64,
+                  "gaps": 8,
+                  "qseq": "ADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTE-------EELRKAVAKARGSWSLEHH",
+                  "hseq": "AEFLVILGPSGCGKSTLLRLINKMIARDSGE-IEVNGEDIDDLKGEELRKTIGYVIQSIGLFPH",
+                  "midline": "A+ +VI+GPSG GKSTL +++ K+IAR   + IEV  E       EELRK +     S  L  H"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|MBP8640616.1|",
+                  "accession": "MBP8640616",
+                  "title": "adenylyl-sulfate kinase [Oscillospiraceae bacterium]",
+                  "taxid": 2485925,
+                  "sciname": "Oscillospiraceae bacterium"
+                }
+              ],
+              "len": 311,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00832286,
+                  "identity": 30,
+                  "positive": 48,
+                  "query_from": 18,
+                  "query_to": 96,
+                  "hit_from": 5,
+                  "hit_to": 86,
+                  "align_len": 83,
+                  "gaps": 5,
+                  "qseq": "LDELARKAKEEVPDAEIRTVTTKEDAK--RVAE--EAERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELR",
+                  "hseq": "LDEINQRAKND-PAAFIRECDAEFDAKVRHVADMIEKNREKSPVVLMSGPSGSGKTTTSKKIEEELLRRGINTYALPMDNYFR",
+                  "midline": "LDE+ ++AK + P A IR    + DAK   VA+  E  R  + +V++ GPSGSGK+T +K +++ + R G  T  +  +   R"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "tpg|HZK10533.1|",
+                  "accession": "HZK10533",
+                  "title": "ABC transporter ATP-binding protein [Clostridia bacterium]",
+                  "taxid": 2044939,
+                  "sciname": "Clostridia bacterium"
+                }
+              ],
+              "len": 309,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00846942,
+                  "identity": 29,
+                  "positive": 43,
+                  "query_from": 34,
+                  "query_to": 111,
+                  "hit_from": 4,
+                  "hit_to": 89,
+                  "align_len": 86,
+                  "gaps": 8,
+                  "qseq": "IRTVTTKEDAKRVAEEAER--RNADIVVIVGPSGSGKSTLAKIVKKIIARAG------AKTIEVTTEEELRKAVAKARGSWSLEHH",
+                  "hseq": "IKNVTKKYDDFTAVKDLSLTVNQSEFLVVLGPSGCGKSTLLRLINKMIPRDGGEIEVKGKNIDEIKGEELRKTIGYVIQSIGLFPH",
+                  "midline": "I+ VT K D     ++       ++ +V++GPSG GKSTL +++ K+I R G       K I+    EELRK +     S  L  H"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|NLE97112.1|",
+                  "accession": "NLE97112",
+                  "title": "amino acid ABC transporter ATP-binding protein [Propionibacterium sp.]",
+                  "taxid": 1977903,
+                  "sciname": "Propionibacterium sp."
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00861298,
+                  "identity": 26,
+                  "positive": 40,
+                  "query_from": 53,
+                  "query_to": 111,
+                  "hit_from": 25,
+                  "hit_to": 91,
+                  "align_len": 67,
+                  "gaps": 8,
+                  "qseq": "RNADIVVIVGPSGSGKSTLAKIVKKI-IARAGAKTIEVTTEEELRKAVAKARG-------SWSLEHH",
+                  "hseq": "REGEVVVVIGPSGSGKSTLCRTINRLETYESGAISIDGVQLPEEGKALAKLRADVGMVFQSFNLFHH",
+                  "midline": "R  ++VV++GPSGSGKSTL + + ++    +GA +I+     E  KA+AK R        S++L HH"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|XP_048349680.1|",
+                  "accession": "XP_048349680",
+                  "title": "LOW QUALITY PROTEIN: cytoplasmic dynein 2 heavy chain 1 [Sphaerodactylus townsendi]",
+                  "taxid": 933632,
+                  "sciname": "Sphaerodactylus townsendi"
+                }
+              ],
+              "len": 4312,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.00957323,
+                  "identity": 26,
+                  "positive": 49,
+                  "query_from": 19,
+                  "query_to": 105,
+                  "hit_from": 1940,
+                  "hit_to": 2025,
+                  "align_len": 88,
+                  "gaps": 3,
+                  "qseq": "DELARKAKEEVPDAEIRTVTTK-EDAKRVAEEAERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAKARGS",
+                  "hseq": "DELCRALQDVFEEANLEIISAQIKKGLELYEQLRQRMG--VVIVGPSGAGKSTLWRMLRAALGKVGKVXVEIMYASESQKAMPACQAS",
+                  "midline": "DEL R  ++   +A +  ++ + +    + E+  +R    VVIVGPSG+GKSTL ++++  + + G   +E+    E +KA+   + S"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "tpg|HET6175214.1|",
+                  "accession": "HET6175214",
+                  "title": "phosphate ABC transporter ATP-binding protein [Gaiellales bacterium]",
+                  "taxid": 2093372,
+                  "sciname": "Gaiellales bacterium"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00957427,
+                  "identity": 31,
+                  "positive": 47,
+                  "query_from": 7,
+                  "query_to": 83,
+                  "hit_from": 42,
+                  "hit_to": 139,
+                  "align_len": 98,
+                  "gaps": 21,
+                  "qseq": "IVGPSGAGKTTLDELARKAKEEVPDAEI--RTVTTKEDAKRVAEEAERRNADIVV----------------IVGPSGS---GKSTLAKIVKKIIARAG",
+                  "hseq": "IVGPSGCGKTTLLRVVNRLVETTPSAQVSGRVLLAGDDVRELTAQALRRRVGMVFQRPNPFPMTIFDNVAYALRPQGSRRPGRRALADAVQRVLARAG",
+                  "midline": "IVGPSG GKTTL  +  +  E  P A++  R +   +D + +  +A RR   +V                  + P GS   G+  LA  V++++ARAG"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_062470425.1|",
+                  "accession": "WP_062470425",
+                  "title": "ABC transporter ATP-binding protein [Jeotgalibaca dankookensis]",
+                  "taxid": 708126,
+                  "sciname": "Jeotgalibaca dankookensis"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.0113478,
+                  "identity": 27,
+                  "positive": 37,
+                  "query_from": 55,
+                  "query_to": 111,
+                  "hit_from": 27,
+                  "hit_to": 89,
+                  "align_len": 64,
+                  "gaps": 8,
+                  "qseq": "ADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTE-------EELRKAVAKARGSWSLEHH",
+                  "hseq": "AEFLVILGPSGCGKSTLLRLINKMIDRNGGE-IQVNGEDIDTVKGEELRKKIGYVIQSTGLFPH",
+                  "midline": "A+ +VI+GPSG GKSTL +++ K+I R G + I+V  E       EELRK +     S  L  H"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_271833254.1|",
+                  "accession": "WP_271833254",
+                  "title": "thiol reductant ABC exporter subunit CydC [Commensalibacter communis]",
+                  "taxid": 2972786,
+                  "sciname": "Commensalibacter communis"
+                }
+              ],
+              "len": 560,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.0129441,
+                  "identity": 24,
+                  "positive": 33,
+                  "query_from": 58,
+                  "query_to": 100,
+                  "hit_from": 373,
+                  "hit_to": 421,
+                  "align_len": 49,
+                  "gaps": 6,
+                  "qseq": "VVIVGPSGSGKSTLAKIVKKIIA------RAGAKTIEVTTEEELRKAVA",
+                  "hseq": "VAIIGPSGAGKSTLAALLLKVIAPQEGKITLGSKDLAVLTEESVRKKIA",
+                  "midline": "V I+GPSG+GKSTLA ++ K+IA        G+K + V TEE +RK +A"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_304651014.1|",
+                  "accession": "WP_304651014",
+                  "title": "amino acid ABC transporter ATP-binding protein [Thalassobius sp. Cn5-15]",
+                  "taxid": 2917763,
+                  "sciname": "Thalassobius sp. Cn5-15"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0136884,
+                  "identity": 23,
+                  "positive": 36,
+                  "query_from": 58,
+                  "query_to": 114,
+                  "hit_from": 27,
+                  "hit_to": 84,
+                  "align_len": 58,
+                  "gaps": 1,
+                  "qseq": "VVIVGPSGSGKSTLAKIVKKIIA-RAGAKTIEVTTEEELRKAVAKARGSWSLEHHHHH",
+                  "hseq": "VVVCGPSGSGKSTLIRCINQLEAHEAGEITVEGTTLDDSRTSLDQIRGSVGMVFQQFN",
+                  "midline": "VV+ GPSGSGKSTL + + ++ A  AG  T+E TT ++ R ++ + RGS  +     +"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|MBQ8890288.1|",
+                  "accession": "MBQ8890288",
+                  "title": "nucleoside kinase [Clostridia bacterium]",
+                  "taxid": 2044939,
+                  "sciname": "Clostridia bacterium"
+                }
+              ],
+              "len": 311,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0150552,
+                  "identity": 30,
+                  "positive": 44,
+                  "query_from": 24,
+                  "query_to": 98,
+                  "hit_from": 8,
+                  "hit_to": 88,
+                  "align_len": 81,
+                  "gaps": 6,
+                  "qseq": "KAKEEVPDAEIRTVTTKEDAK--RVAEEA----ERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKA",
+                  "hseq": "RLNDMVCDDPLGTVQGAEDEYHTRVANIADYVVERGNVRVLLIAGPSGSGKTTSANLIKDAICARGKRTIVVSLDDFYRDS",
+                  "midline": "+  + V D  + TV   ED    RVA  A    ER N  +++I GPSGSGK+T A ++K  I   G +TI V+ ++  R +"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_221628246.1|",
+                  "accession": "WP_221628246",
+                  "title": "cytochrome c biogenesis heme-transporting ATPase CcmA [Teredinibacter franksiae]",
+                  "taxid": 2761453,
+                  "sciname": "Teredinibacter franksiae"
+                }
+              ],
+              "len": 226,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0166804,
+                  "identity": 27,
+                  "positive": 40,
+                  "query_from": 34,
+                  "query_to": 94,
+                  "hit_from": 7,
+                  "hit_to": 77,
+                  "align_len": 71,
+                  "gaps": 10,
+                  "qseq": "IRTVTTKEDAKRVAE--EAERRNADIVVIVGPSGSGKSTLAKIVKKIIA--------RAGAKTIEVTTEEE",
+                  "hseq": "IINISCERDERLLFEGVNAEFRSGDIVQLAGPNGSGKTTLAKIIIGIVPHSSGSIEWRASSATVECPTLRE",
+                  "midline": "I  ++ + D + + E   AE R+ DIV + GP+GSGK+TLAKI+  I+         RA + T+E  T  E"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|MEL6337915.1|",
+                  "accession": "MEL6337915",
+                  "title": "ATP-binding cassette domain-containing protein [Pseudomonadota bacterium]",
+                  "taxid": 1977087,
+                  "sciname": "Pseudomonadota bacterium"
+                }
+              ],
+              "len": 287,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0169571,
+                  "identity": 34,
+                  "positive": 48,
+                  "query_from": 7,
+                  "query_to": 78,
+                  "hit_from": 2,
+                  "hit_to": 93,
+                  "align_len": 96,
+                  "gaps": 28,
+                  "qseq": "IVGPSGAGKTTLDELARK-------AKEEVPDAEIRTVTTKEDAKRVAEEAER----------RNADIVV-------IVGPSGSGKSTLAKIVKKI",
+                  "hseq": "IVGPSGAGKSTIARLLFRFYDVTESGMQDAPDARILAVREG----RVAFEGVRFGYGPRREVLKGVDVIVPGGRSLAIVGPSGAGKSTIARLLFRF",
+                  "midline": "IVGPSGAGK+T+  L  +         ++ PDA I  V       RVA E  R          +  D++V       IVGPSG+GKST+A+++ + "
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_007729940.1|",
+                  "accession": "WP_007729940",
+                  "title": "MULTISPECIES: metal ABC transporter ATP-binding protein [Brevibacillus]",
+                  "taxid": 55080,
+                  "sciname": "Brevibacillus"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.0191126,
+                  "identity": 23,
+                  "positive": 36,
+                  "query_from": 26,
+                  "query_to": 79,
+                  "hit_from": 5,
+                  "hit_to": 60,
+                  "align_len": 56,
+                  "gaps": 2,
+                  "qseq": "KEEVPDAEIRTVTTKEDAKRVAEEAER--RNADIVVIVGPSGSGKSTLAKIVKKII",
+                  "hseq": "KQEVPVIKLTGVSFQYEDKQVLDEVEFTLERGDFVGIVGPNGSGKSTLMKLILGLL",
+                  "midline": "K+EVP  ++  V+ + + K+V +E E      D V IVGP+GSGKSTL K++  ++"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "tpg|HEY8351929.1|",
+                  "accession": "HEY8351929",
+                  "title": "YifB family Mg chelatase-like AAA ATPase [Sphingomonadales bacterium]",
+                  "taxid": 1978525,
+                  "sciname": "Sphingomonadales bacterium"
+                }
+              ],
+              "len": 511,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.020583,
+                  "identity": 35,
+                  "positive": 50,
+                  "query_from": 22,
+                  "query_to": 115,
+                  "hit_from": 177,
+                  "hit_to": 270,
+                  "align_len": 97,
+                  "gaps": 6,
+                  "qseq": "ARKAKEE--VPDAEIRTVTTKEDAKRVAEEAERRNADIVVIVGPSGSGKSTLAKIVKKIIAR-AGAKTIEVTTEEELRKAVAKARGSWSLEHHHHHH",
+                  "hseq": "ARPASDEGNVPD--LRDIKGQESAKRALELAAAGGHNLLMI-GPPGSGKSMLAARLPGILPRLTPAEALEVSMIASLAGQLADGRLSLRRPFRNPHH",
+                  "midline": "AR A +E  VPD  +R +  +E AKR  E A     ++++I GP GSGKS LA  +  I+ R   A+ +EV+    L   +A  R S      + HH"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_239235249.1|",
+                  "accession": "WP_239235249",
+                  "title": "bifunctional sulfate adenylyltransferase/adenylylsulfate kinase [Candidatus Nitrotoga sp. BS]",
+                  "taxid": 2890408,
+                  "sciname": "Candidatus Nitrotoga sp. BS"
+                }
+              ],
+              "len": 574,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0206698,
+                  "identity": 32,
+                  "positive": 51,
+                  "query_from": 10,
+                  "query_to": 110,
+                  "hit_from": 352,
+                  "hit_to": 453,
+                  "align_len": 103,
+                  "gaps": 3,
+                  "qseq": "PSGAGKTTLD--ELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAKARGSWSLEH",
+                  "hseq": "PEGAHSTSLTDTELKRRLTEGLPVPEWFSYPEVLNELRVAYPARDKQGLTIFFTGLSGAGKSTLAKVLMTKLLEMGGRQVTLLDGDIMRKHLSSELG-FSREH",
+                  "midline": "P GA  T+L   EL R+  E +P  E  +     +  RVA  A  +    +   G SG+GKSTLAK++   +   G + + +   + +RK ++   G +S EH"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|XP_035222415.1|",
+                  "accession": "XP_035222415",
+                  "title": "LOW QUALITY PROTEIN: cytoplasmic dynein 2 heavy chain 1-like [Stegodyphus dumicola]",
+                  "taxid": 202533,
+                  "sciname": "Stegodyphus dumicola"
+                }
+              ],
+              "len": 2368,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0239966,
+                  "identity": 28,
+                  "positive": 44,
+                  "query_from": 19,
+                  "query_to": 85,
+                  "hit_from": 1925,
+                  "hit_to": 1990,
+                  "align_len": 68,
+                  "gaps": 3,
+                  "qseq": "DELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERRNADI-VVIVGPSGSGKSTLAKIVKKIIARAGAK",
+                  "hseq": "EKLAQAAKEVM--SQMKLVQSENQIKKVLELQEQLQQRMGVVIVGPSGSGKSTLWKILMKSLLHLGQQ",
+                  "midline": "++LA+ AKE +  ++++ V ++   K+V E  E+    + VVIVGPSGSGKSTL KI+ K +   G +"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|MFQ7774577.1|",
+                  "accession": "MFQ7774577",
+                  "title": "ATP-binding cassette domain-containing protein [Anaerotignum faecicola]",
+                  "taxid": 2358141,
+                  "sciname": "Anaerotignum faecicola"
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.743,
+                  "score": 99,
+                  "evalue": 0.0266814,
+                  "identity": 19,
+                  "positive": 32,
+                  "query_from": 33,
+                  "query_to": 79,
+                  "hit_from": 3,
+                  "hit_to": 51,
+                  "align_len": 49,
+                  "gaps": 2,
+                  "qseq": "EIRTVTTKEDAKRVAEEAERR--NADIVVIVGPSGSGKSTLAKIVKKII",
+                  "hseq": "ELKNICFSADGKQILKDINLRIDDAKFIVITGPNGSGKSTLARIISGIL",
+                  "midline": "E++ +    D K++ ++   R  +A  +VI GP+GSGKSTLA+I+  I+"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_305806707.1|",
+                  "accession": "WP_305806707",
+                  "title": "ATP-binding cassette domain-containing protein, partial [Stenotrophomonas sp. YIM B06876]",
+                  "taxid": 3060211,
+                  "sciname": "Stenotrophomonas sp. YIM B06876"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0280777,
+                  "identity": 27,
+                  "positive": 38,
+                  "query_from": 2,
+                  "query_to": 75,
+                  "hit_from": 33,
+                  "hit_to": 88,
+                  "align_len": 74,
+                  "gaps": 18,
+                  "qseq": "RVIVVIVGPSGAGKTTLDELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERRNADIVVIVGPSGSGKSTLAKIV",
+                  "hseq": "REFIVIVGPSGCGKSTLLRMI-AGLEEISGGDICX-----------------DREFIVIVGPSGCGKSTLLRMI",
+                  "midline": "R  +VIVGPSG GK+TL  +     EE+   +I                   + + +VIVGPSG GKSTL +++"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|KAJ8968294.1|",
+                  "accession": "KAJ8968294",
+                  "title": "hypothetical protein NQ317_000254 [Molorchus minor]",
+                  "taxid": 1323400,
+                  "sciname": "Molorchus minor"
+                }
+              ],
+              "len": 713,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.0285215,
+                  "identity": 22,
+                  "positive": 38,
+                  "query_from": 26,
+                  "query_to": 89,
+                  "hit_from": 129,
+                  "hit_to": 194,
+                  "align_len": 66,
+                  "gaps": 2,
+                  "qseq": "KEEVPDAEIRTVTTKEDAKRVAE--EAERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEV",
+                  "hseq": "RAEVAVGEIRAVEQNPERKRILHGVSGQFKSGELSVIMGPSGAGKSTLLNILAGFVTRGSSGTVKL",
+                  "midline": "+ EV   EIR V    + KR+      + ++ ++ VI+GPSG+GKSTL  I+   + R  + T+++"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "tpg|HON07094.1|",
+                  "accession": "HON07094",
+                  "title": "metal ABC transporter ATP-binding protein [Verrucomicrobiota bacterium]",
+                  "taxid": 2026799,
+                  "sciname": "Verrucomicrobiota bacterium"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0334977,
+                  "identity": 24,
+                  "positive": 41,
+                  "query_from": 33,
+                  "query_to": 101,
+                  "hit_from": 16,
+                  "hit_to": 85,
+                  "align_len": 71,
+                  "gaps": 3,
+                  "qseq": "EIRTVTTKEDAKRVAEEAERR--NADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAK",
+                  "hseq": "EIENLTVKYGNKDILKNINLKIKYGDFLAIIGPNGSGKTTLLKTILRII-KPDSGTIKIFGEEDINKIITK",
+                  "midline": "EI  +T K   K + +    +    D + I+GP+GSGK+TL K + +II +  + TI++  EE++ K + K"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_026986087.1|",
+                  "accession": "WP_026986087",
+                  "title": "ABC transporter ATP-binding protein [Fodinicurvata fenggangensis]",
+                  "taxid": 1121830,
+                  "sciname": "Fodinicurvata fenggangensis"
+                }
+              ],
+              "len": 359,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0351653,
+                  "identity": 29,
+                  "positive": 41,
+                  "query_from": 33,
+                  "query_to": 111,
+                  "hit_from": 3,
+                  "hit_to": 89,
+                  "align_len": 87,
+                  "gaps": 8,
+                  "qseq": "EIRTVTTKEDAKRVAEEAERR--NADIVVIVGPSGSGKSTLAKIVKKIIARAG------AKTIEVTTEEELRKAVAKARGSWSLEHH",
+                  "hseq": "ELDQVTKTYDGKNVVDSVTLSVDKGDFCVLIGPSGSGKSTTLKMINRLIPLSGGTIRIEGQDIASVRAEELRRRIGYAIQSIGLFPH",
+                  "midline": "E+  VT   D K V +         D  V++GPSGSGKST  K++ ++I  +G       + I     EELR+ +  A  S  L  H"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_133509982.1|",
+                  "accession": "WP_133509982",
+                  "title": "VirB4 family type IV secretion system protein [Mycoplasma testudineum]",
+                  "taxid": 244584,
+                  "sciname": "Mycoplasma testudineum"
+                }
+              ],
+              "len": 392,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0353933,
+                  "identity": 25,
+                  "positive": 34,
+                  "query_from": 52,
+                  "query_to": 106,
+                  "hit_from": 45,
+                  "hit_to": 98,
+                  "align_len": 55,
+                  "gaps": 1,
+                  "qseq": "RRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAKARGSW",
+                  "hseq": "RKNSN-VVILGTSGSGKSTLAKKLISYQLKAGNKIIVIDPENEYKKFSEYHNGNW",
+                  "midline": "R+N++ VVI+G SGSGKSTLAK +     +AG K I +  E E +K      G+W"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gb|MDN6195353.1|",
+                  "accession": "MDN6195353",
+                  "title": "ABC transporter ATP-binding protein [Atopostipes suicloacalis]",
+                  "taxid": 180295,
+                  "sciname": "Atopostipes suicloacalis"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0400355,
+                  "identity": 24,
+                  "positive": 37,
+                  "query_from": 53,
+                  "query_to": 111,
+                  "hit_from": 25,
+                  "hit_to": 89,
+                  "align_len": 65,
+                  "gaps": 6,
+                  "qseq": "RNADIVVIVGPSGSGKSTLAKIVKKIIARAG------AKTIEVTTEEELRKAVAKARGSWSLEHH",
+                  "hseq": "KEAEFLVVLGPSGSGKSTLLRLINKMIERDSGEISVEGQNIDEFKVEELRKSIGYVIQSIGLFPH",
+                  "midline": "+ A+ +V++GPSGSGKSTL +++ K+I R         + I+    EELRK++     S  L  H"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "tpg|HET7404200.1|",
+                  "accession": "HET7404200",
+                  "title": "ATP-binding cassette domain-containing protein [Usitatibacter sp.]",
+                  "taxid": 2803847,
+                  "sciname": "Usitatibacter sp."
+                }
+              ],
+              "len": 636,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0411742,
+                  "identity": 28,
+                  "positive": 43,
+                  "query_from": 32,
+                  "query_to": 99,
+                  "hit_from": 326,
+                  "hit_to": 400,
+                  "align_len": 76,
+                  "gaps": 9,
+                  "qseq": "AEIRTVTTKEDAKRVAEEAERR--NADIVVIVGPSGSGKSTLAKIVKKIIA------RAGAKTIEVTTEEELRKAV",
+                  "hseq": "AELENVTKRYGGKRVVEDFSTRIMRGDKVGLIGPNGSGKSTLLKLILGVVPPDSGRVRLGAR-VEVAYFDQFRSAL",
+                  "midline": "AE+  VT +   KRV E+   R    D V ++GP+GSGKSTL K++  ++       R GA+ +EV   ++ R A+"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|MBT4804532.1|",
+                  "accession": "MBT4804532",
+                  "title": "ABC transporter ATP-binding protein [Legionellales bacterium]",
+                  "taxid": 2026754,
+                  "sciname": "Legionellales bacterium"
+                }
+              ],
+              "len": 274,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0419835,
+                  "identity": 20,
+                  "positive": 34,
+                  "query_from": 23,
+                  "query_to": 79,
+                  "hit_from": 5,
+                  "hit_to": 63,
+                  "align_len": 59,
+                  "gaps": 2,
+                  "qseq": "RKAKEEVPDAEIRTVTTKEDAKRVAEEAERR--NADIVVIVGPSGSGKSTLAKIVKKII",
+                  "hseq": "KKDSESVPLLEVKNVTFKRDGRYILKNVSFSLHKGNIVAVMGPSGTGKTTLLSLINALI",
+                  "midline": "+K  E VP  E++ VT K D + + +         +IV ++GPSG+GK+TL  ++  +I"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "gb|NLH01380.1|",
+                  "accession": "NLH01380",
+                  "title": "nucleoside kinase [Clostridiales bacterium]",
+                  "taxid": 1898207,
+                  "sciname": "Clostridiales bacterium"
+                }
+              ],
+              "len": 310,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0455002,
+                  "identity": 31,
+                  "positive": 47,
+                  "query_from": 17,
+                  "query_to": 96,
+                  "hit_from": 4,
+                  "hit_to": 86,
+                  "align_len": 84,
+                  "gaps": 5,
+                  "qseq": "TLDELARKAKEEVPDAEIRTVTTKEDAK-RVAEEA---ERRNADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELR",
+                  "hseq": "CLDEINRRASSD-PAKFIRECDAEYDAKIRHAADMIIQNRKNSPIVLISGPSGSGKTTTSKKIEEELRRRGIMTHALAMDSYFR",
+                  "midline": " LDE+ R+A  + P   IR    + DAK R A +     R+N+ IV+I GPSGSGK+T +K +++ + R G  T  +  +   R"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_090041843.1|",
+                  "accession": "WP_090041843",
+                  "title": "MULTISPECIES: ABC transporter ATP-binding protein [unclassified Leifsonia]",
+                  "taxid": 2663824,
+                  "sciname": "unclassified Leifsonia"
+                }
+              ],
+              "len": 608,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0464866,
+                  "identity": 33,
+                  "positive": 50,
+                  "query_from": 9,
+                  "query_to": 115,
+                  "hit_from": 328,
+                  "hit_to": 428,
+                  "align_len": 109,
+                  "gaps": 10,
+                  "qseq": "GPSGAGKTTLDELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERR--NADIVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAKARGSWSLEHHHHHH",
+                  "hseq": "GPSGAGP------GRDA-EVRPAISVTGLTVKRGGRRILNEVSLRVPRGDFLAVVGPNGAGKSTLVQSLAGVL-RVPRGTVEVLGLEPARASASALRETIGFVFQNPEH",
+                  "midline": "GPSGAG        R A E  P   +  +T K   +R+  E   R    D + +VGP+G+GKSTL + +  ++ R    T+EV   E  R + +  R +      +  H"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|MBE6810532.1|",
+                  "accession": "MBE6810532",
+                  "title": "nucleoside kinase [Oscillospiraceae bacterium]",
+                  "taxid": 2485925,
+                  "sciname": "Oscillospiraceae bacterium"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0490876,
+                  "identity": 37,
+                  "positive": 55,
+                  "query_from": 16,
+                  "query_to": 112,
+                  "hit_from": 3,
+                  "hit_to": 104,
+                  "align_len": 105,
+                  "gaps": 11,
+                  "qseq": "TTLDELARKAKEEVPDAEIRTVTTKEDAKRVAEEAERRNAD----IVVIVGPSGSGKSTLAKIVKKIIARAGAKTIEVTTEEELRKAVAK----ARGSWSLEHHH",
+                  "hseq": "NTLNEINKKALE-CP-KEFIELCNNEYLENIASIAKRVEADDDIKIVAIAGPSGSGKTTTAHILQEKLKSLG-ETVEVVSLDDFYLPVNKLPILPDGSTDIESVH",
+                  "midline": " TL+E+ +KA E  P  E   +   E  + +A  A+R  AD    IV I GPSGSGK+T A I+++ +   G +T+EV + ++    V K      GS  +E  H"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236327",
+          "query_title": "2kpo_A",
+          "query_len": 110,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|2KPO|A",
+                  "accession": "2KPO_A",
+                  "title": "Chain A, rossmann 2x2 fold protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 218.009,
+                  "score": 554,
+                  "evalue": 2.59784e-71,
+                  "identity": 110,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 110,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 0,
+                  "qseq": "MLLYVLIISNDKKLIEEARKMAEKANLELRTVKTEDELKKYLEEFRKESQNIKVLILVSNDEELDKAKELAQKMEIDVRTRKVTSPDEAKRWIKEFSEEGGSLEHHHHHH",
+                  "hseq": "MLLYVLIISNDKKLIEEARKMAEKANLELRTVKTEDELKKYLEEFRKESQNIKVLILVSNDEELDKAKELAQKMEIDVRTRKVTSPDEAKRWIKEFSEEGGSLEHHHHHH",
+                  "midline": "MLLYVLIISNDKKLIEEARKMAEKANLELRTVKTEDELKKYLEEFRKESQNIKVLILVSNDEELDKAKELAQKMEIDVRTRKVTSPDEAKRWIKEFSEEGGSLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|6VG7|A",
+                  "accession": "6VG7_A",
+                  "title": "Chain A, De novo designed protein RO2_25 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.908,
+                  "score": 250,
+                  "evalue": 9.8851e-25,
+                  "identity": 59,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 99,
+                  "hit_from": 21,
+                  "hit_to": 124,
+                  "align_len": 104,
+                  "gaps": 5,
+                  "qseq": "MLLYVLIISNDKKLIEEARKMAEKANLELRTVKTEDELKKYLEEF-----RKESQNIKVLILVSNDEELDKAKELAQKMEIDVRTRKVTSPDEAKRWIKEFSEE",
+                  "hseq": "MTLFVLILSNDKKLIEEARKMAEKANLILITVGDEEELKKAIKKADDIAKKQNSSEAKILILLEKPVSPEYEKKLQKYADAEVRVRTVTSPDEAKRWIKEFSEE",
+                  "midline": "M L+VLI+SNDKKLIEEARKMAEKANL L TV  E+ELKK +++      ++ S   K+LIL+      +  K+L +  + +VR R VTSPDEAKRWIKEFSEE"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6VGA|A",
+                  "accession": "6VGA_A",
+                  "title": "Chain A, De novo designed protein RO2_1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 3.3376e-24,
+                  "identity": 60,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 99,
+                  "hit_from": 21,
+                  "hit_to": 125,
+                  "align_len": 105,
+                  "gaps": 6,
+                  "qseq": "MLLYVLIISNDKKLIEEARKMAEKANLELRTVK--TEDELKKYLEEFRKESQNIKVLILVSNDEELD---KAKELAQKM-EIDVRTRKVTSPDEAKRWIKEFSEE",
+                  "hseq": "MRLVVLIVSNDKKLIEEARKMAEKANLELITVPGSPEEAIRLAQEIAEKAPGPVKVLVLITGSADPDEKTKAKKAAEEARKWNVRVRTVTSPDEAKRWIKEFSEE",
+                  "midline": "M L VLI+SNDKKLIEEARKMAEKANLEL TV    E+ ++   E   K    +KVL+L++   + D   KAK+ A++  + +VR R VTSPDEAKRWIKEFSEE"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6VGB|A",
+                  "accession": "6VGB_A",
+                  "title": "Chain A, De novo designed protein RO2_20 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.2117,
+                  "score": 243,
+                  "evalue": 9.08106e-24,
+                  "identity": 59,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 99,
+                  "hit_from": 21,
+                  "hit_to": 121,
+                  "align_len": 103,
+                  "gaps": 6,
+                  "qseq": "MLLYVLIISNDKKLIEEARKMAEKANLELRTVKTEDELKKYLEEFRKESQNIKVLILVSNDEELDKAK----ELAQKMEIDVRTRKVTSPDEAKRWIKEFSEE",
+                  "hseq": "MGLLVLIWSNDKKLIEEARKMAEKANLYLLTLETDD--KKIEDILKSLGPPVKILVLLEDTKDADKVKKEIEKKARKKNLPVRIRKVTSPDEAKRWIKEFSEE",
+                  "midline": "M L VLI SNDKKLIEEARKMAEKANL L T++T+D  KK  +  +     +K+L+L+ + ++ DK K    + A+K  + VR RKVTSPDEAKRWIKEFSEE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

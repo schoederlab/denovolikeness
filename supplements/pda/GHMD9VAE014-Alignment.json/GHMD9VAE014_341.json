@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236460",
+          "query_title": "5kph_A",
+          "query_len": 85,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5KPH|A",
+                  "accession": "5KPH_A",
+                  "title": "Chain A, De novo Beta Sheet Design Protein OR485 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 168.703,
+                  "score": 426,
+                  "evalue": 1.79772e-52,
+                  "identity": 85,
+                  "positive": 85,
+                  "query_from": 1,
+                  "query_to": 85,
+                  "hit_from": 1,
+                  "hit_to": 85,
+                  "align_len": 85,
+                  "gaps": 0,
+                  "qseq": "MPSEEEEKRQVKQVAKEKLLEQSPNSKVQVRRVQKQGNTIRVELELRTNGKKENYTVEVERQGNTWTVKRITRTVGSLEHHHHHH",
+                  "hseq": "MPSEEEEKRQVKQVAKEKLLEQSPNSKVQVRRVQKQGNTIRVELELRTNGKKENYTVEVERQGNTWTVKRITRTVGSLEHHHHHH",
+                  "midline": "MPSEEEEKRQVKQVAKEKLLEQSPNSKVQVRRVQKQGNTIRVELELRTNGKKENYTVEVERQGNTWTVKRITRTVGSLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|4R80|A",
+                  "accession": "4R80_A",
+                  "title": "Chain A, OR486 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.798,
+                  "score": 325,
+                  "evalue": 4.13584e-37,
+                  "identity": 67,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 80,
+                  "hit_from": 1,
+                  "hit_to": 80,
+                  "align_len": 80,
+                  "gaps": 0,
+                  "qseq": "MPSEEEEKRQVKQVAKEKLLEQSPNSKVQVRRVQKQGNTIRVELELRTNGKKENYTVEVERQGNTWTVKRITRTVGSLEH",
+                  "hseq": "MPSEEEEKRRAKQVAKEKILEQNPSSKVQVRRVQKQGNTIRVELEITENGKKTNITVEVEKQGNTFTVKRITETVGSLEH",
+                  "midline": "MPSEEEEKR+ KQVAKEK+LEQ+P+SKVQVRRVQKQGNTIRVELE+  NGKK N TVEVE+QGNT+TVKRIT TVGSLEH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6W90|A",
+                  "accession": "6W90_A",
+                  "title": "Chain A, NTF2 fold protein loop-helix-loop design NT-9 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.3578,
+                  "score": 98,
+                  "evalue": 0.0299684,
+                  "identity": 24,
+                  "positive": 35,
+                  "query_from": 26,
+                  "query_to": 75,
+                  "hit_from": 69,
+                  "hit_to": 116,
+                  "align_len": 51,
+                  "gaps": 4,
+                  "qseq": "SKVQVRRVQKQGNTIRVELELRTNGKKENYTVEVE-RQGNTWTVKRITRTV",
+                  "hseq": "DRVEIRKVQVDGNHVRVEIELESNGKKWTFEIEVEVRNG---KIKRIRQQV",
+                  "midline": " +V++R+VQ  GN +RVE+EL +NGKK  + +EVE R G    +KRI + V"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

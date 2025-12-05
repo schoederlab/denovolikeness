@@ -1,0 +1,198 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236299",
+          "query_title": "6wmk_A",
+          "query_len": 69,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6WMK|A",
+                  "accession": "6WMK_A",
+                  "title": "Chain A, Beta sheet heterodimer LHD29 - Chain A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 69,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 7.77177e-41,
+                  "identity": 69,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 69,
+                  "hit_from": 1,
+                  "hit_to": 69,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "SGGSTWQWVLINISEEARQRIEEYVRRISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIHEYAKRVIL",
+                  "hseq": "SGGSTWQWVLINISEEARQRIEEYVRRISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIHEYAKRVIL",
+                  "midline": "SGGSTWQWVLINISEEARQRIEEYVRRISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIHEYAKRVIL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7MWQ|B",
+                  "accession": "7MWQ_B",
+                  "title": "Chain B, LHD29B53 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 208,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 3.24479e-30,
+                  "identity": 55,
+                  "positive": 59,
+                  "query_from": 5,
+                  "query_to": 68,
+                  "hit_from": 1,
+                  "hit_to": 64,
+                  "align_len": 64,
+                  "gaps": 0,
+                  "qseq": "TWQWVLINISEEARQRIEEYVRRISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIHEYAKRVI",
+                  "hseq": "TWQWVLINISEEARQLIEKAVRAISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIHKVAKLIL",
+                  "midline": "TWQWVLINISEEARQ IE+ VR ISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIH+ AK ++"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6WMK|B",
+                  "accession": "6WMK_B",
+                  "title": "Chain B, Beta sheet heterodimer LHD29 - Chain B [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 69,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 3.58468e-23,
+                  "identity": 49,
+                  "positive": 54,
+                  "query_from": 1,
+                  "query_to": 67,
+                  "hit_from": 1,
+                  "hit_to": 67,
+                  "align_len": 67,
+                  "gaps": 0,
+                  "qseq": "SGGSTWQWVLINISEEARQRIEEYVRRISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIHEYAKRV",
+                  "hseq": "SGGSSSIFLLSNVSEEARQRAEEYVRRISKKEGTEVRFEKDDGFLTIEVKNLSEERLREIAEYLWRV",
+                  "midline": "SGGS+  ++L N+SEEARQR EEYVRRISKKEGTEV FEKDDG L I VKNL E+R REI EY  RV"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|7MWQ|A",
+                  "accession": "7MWQ_A",
+                  "title": "Chain A, LHD29A53 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 208,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 1.13229e-13,
+                  "identity": 36,
+                  "positive": 41,
+                  "query_from": 8,
+                  "query_to": 60,
+                  "hit_from": 4,
+                  "hit_to": 56,
+                  "align_len": 53,
+                  "gaps": 0,
+                  "qseq": "WVLINISEEARQRIEEYVRRISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREI",
+                  "hseq": "FLLSNVSEDAAQLAEELVREISKKEGTEVRFEKDDGFLTIEVKNLSEERLREI",
+                  "midline": "++L N+SE+A Q  EE VR ISKKEGTEV FEKDDG L I VKNL E+R REI"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|8URE|A",
+                  "accession": "8URE_A",
+                  "title": "Chain A, sr312 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 427,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 42.743,
+                  "score": 99,
+                  "evalue": 0.0244762,
+                  "identity": 28,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 63,
+                  "hit_from": 1,
+                  "hit_to": 61,
+                  "align_len": 63,
+                  "gaps": 2,
+                  "qseq": "SGGSTWQWVLINISEEARQRIEEYVRRISKKEGTEVHFEKDDGVLHIRVKNLHEKRAREIHEY",
+                  "hseq": "SGTVTFD--ITNIDWETAEWIMKHVYLIAKKEGTDVTFSFKEGELQITVKNLHEEAKREIEKW",
+                  "midline": "SG  T+   + NI  E  + I ++V  I+KKEGT+V F   +G L I VKNLHE+  REI ++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

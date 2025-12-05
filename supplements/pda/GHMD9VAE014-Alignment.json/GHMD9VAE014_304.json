@@ -1,0 +1,151 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236423",
+          "query_title": "8g9j_A",
+          "query_len": 223,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8G9J|A",
+                  "accession": "8G9J_A",
+                  "title": "Chain A, THR1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 223,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.481,
+                  "score": 968,
+                  "evalue": 8.64367e-131,
+                  "identity": 223,
+                  "positive": 223,
+                  "query_from": 1,
+                  "query_to": 223,
+                  "hit_from": 1,
+                  "hit_to": 223,
+                  "align_len": 223,
+                  "gaps": 0,
+                  "qseq": "HHHHHHSGSGENLYFQGSGSEEIVEEAETALKALLEEAEKGGKEDALEIAEKLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPELIVRLAETALEALLAIARLGGEELALEIARILAELAEVALEVLLELGASPELIKKLAETAEEALEAIAKLGGEELAEEIAKILAELAEVAKEVQKELGAS",
+                  "hseq": "HHHHHHSGSGENLYFQGSGSEEIVEEAETALKALLEEAEKGGKEDALEIAEKLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPELIVRLAETALEALLAIARLGGEELALEIARILAELAEVALEVLLELGASPELIKKLAETAEEALEAIAKLGGEELAEEIAKILAELAEVAKEVQKELGAS",
+                  "midline": "HHHHHHSGSGENLYFQGSGSEEIVEEAETALKALLEEAEKGGKEDALEIAEKLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPELIVRLAETALEALLAIARLGGEELALEIARILAELAEVALEVLLELGASPELIKKLAETAEEALEAIAKLGGEELAEEIAKILAELAEVAKEVQKELGAS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8G9K|A",
+                  "accession": "8G9K_A",
+                  "title": "Chain A, THR2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 204,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.534,
+                  "score": 532,
+                  "evalue": 1.09121e-64,
+                  "identity": 136,
+                  "positive": 172,
+                  "query_from": 20,
+                  "query_to": 223,
+                  "hit_from": 1,
+                  "hit_to": 204,
+                  "align_len": 204,
+                  "gaps": 0,
+                  "qseq": "SEEIVEEAETALKALLEEAEKGGKEDALEIAEKLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPELIVRLAETALEALLAIARLGGEELALEIARILAELAEVALEVLLELGASPELIKKLAETAEEALEAIAKLGGEELAEEIAKILAELAEVAKEVQKELGAS",
+                  "hseq": "PKKIVKDAKEKLEKLLEDAKDGGEELALDIAEELAREAEKALKELLREGASPELIVDLAETALRALLEIAKDGGEELALDIARILAKLAEVALEVLLKDGASPKLIVDLAKTALRALLEIAEDGGEELALDIAEILAELAEVALRVLLKDGASPKLIEDLAKTALDALEEIARDGGEELAEDIDRILRKLEKVARDVLRKDGAS",
+                  "midline": " ++IV++A+  L+ LLE+A+ GG+E AL+IAE+LA  A++AL+ LL  GASPELIV LAETAL+ALL IA+ GGEELAL+IARILA+LAEVALEVLL+ GASP+LIV LA+TAL ALL IA  GGEELAL+IA ILAELAEVAL VLL+ GASP+LI+ LA+TA +ALE IA+ GGEELAE+I +IL +L +VA++V ++ GAS"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 156.377,
+                  "score": 394,
+                  "evalue": 7.2069e-44,
+                  "identity": 106,
+                  "positive": 129,
+                  "query_from": 13,
+                  "query_to": 172,
+                  "hit_from": 45,
+                  "hit_to": 204,
+                  "align_len": 160,
+                  "gaps": 0,
+                  "qseq": "LYFQGSGSEEIVEEAETALKALLEEAEKGGKEDALEIAEKLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPELIVRLAETALEALLAIARLGGEELALEIARILAELAEVALEVLLELGAS",
+                  "hseq": "LLREGASPELIVDLAETALRALLEIAKDGGEELALDIARILAKLAEVALEVLLKDGASPKLIVDLAKTALRALLEIAEDGGEELALDIAEILAELAEVALRVLLKDGASPKLIEDLAKTALDALEEIARDGGEELAEDIDRILRKLEKVARDVLRKDGAS",
+                  "midline": "L  +G+  E IV+ AETAL+ALLE A+ GG+E AL+IA  LA+LA+ ALEVLL+ GASP+LIV LA+TAL+ALL IAE GGEELAL+IA ILAELAEVAL VLL+ GASP+LI  LA+TAL+AL  IAR GGEELA +I RIL +L +VA +VL + GAS"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|MCH6255092.1|",
+                  "accession": "MCH6255092",
+                  "title": "ankyrin repeat domain-containing protein [Puniceicoccaceae bacterium K14]",
+                  "taxid": 2922731,
+                  "sciname": "Puniceicoccaceae bacterium K14"
+                }
+              ],
+              "len": 852,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.0143417,
+                  "identity": 32,
+                  "positive": 40,
+                  "query_from": 52,
+                  "query_to": 124,
+                  "hit_from": 648,
+                  "hit_to": 718,
+                  "align_len": 73,
+                  "gaps": 2,
+                  "qseq": "KLAELAKEALEVLLEAGASPELIVRLAETALKALLAIAELGGEELALEIARILAELAEVALEVLLELGASPEL",
+                  "hseq": "KYTNLPAEKLQVLIEAGADVNVQDNLGRTALHYVCQIGHWGYKELPGRSPVI--EQYEVALQLLLELGADPEI",
+                  "midline": "K   L  E L+VL+EAGA   +   L  TAL  +  I   G +EL      I  E  EVAL++LLELGA PE+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

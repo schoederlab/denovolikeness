@@ -1,0 +1,70 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236237",
+          "query_title": "8k7z_A",
+          "query_len": 180,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8K7Z|A",
+                  "accession": "8K7Z_A",
+                  "title": "Chain A, De novo design protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 318.931,
+                  "score": 816,
+                  "evalue": 6.20515e-109,
+                  "identity": 180,
+                  "positive": 180,
+                  "query_from": 1,
+                  "query_to": 180,
+                  "hit_from": 1,
+                  "hit_to": 180,
+                  "align_len": 180,
+                  "gaps": 0,
+                  "qseq": "GLSPALATLRAALTAAFTAAGAPDLAAVFDATLAAAAAAPAAARARARAAVANLPAVLVTGTPVAIDTAEGVLVAVLAALVAALSDVPAIIYVEAATPEQKAGAALAAAIAAAIAEALGAKQPITITAADAATTAAAQAAFGAALGLPVTDAAGMNRDLLLLVAVLLERRAALEHHHHHH",
+                  "hseq": "GLSPALATLRAALTAAFTAAGAPDLAAVFDATLAAAAAAPAAARARARAAVANLPAVLVTGTPVAIDTAEGVLVAVLAALVAALSDVPAIIYVEAATPEQKAGAALAAAIAAAIAEALGAKQPITITAADAATTAAAQAAFGAALGLPVTDAAGMNRDLLLLVAVLLERRAALEHHHHHH",
+                  "midline": "GLSPALATLRAALTAAFTAAGAPDLAAVFDATLAAAAAAPAAARARARAAVANLPAVLVTGTPVAIDTAEGVLVAVLAALVAALSDVPAIIYVEAATPEQKAGAALAAAIAAAIAEALGAKQPITITAADAATTAAAQAAFGAALGLPVTDAAGMNRDLLLLVAVLLERRAALEHHHHHH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

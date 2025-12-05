@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236297",
+          "query_title": "7uni_A",
+          "query_len": 250,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7UNH|A",
+                  "accession": "7UNH_A",
+                  "title": "Chain A, SP2 designed chlorophyll dimer protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 471.855,
+                  "score": 1213,
+                  "evalue": 2.95775e-167,
+                  "identity": 246,
+                  "positive": 246,
+                  "query_from": 5,
+                  "query_to": 250,
+                  "hit_from": 1,
+                  "hit_to": 246,
+                  "align_len": 246,
+                  "gaps": 0,
+                  "qseq": "SSDEEFKFLATEAKMLITAAERLAGTDPELQEMVALIKKELEQAERTFRNGDKSEAQRQLEFVLTAARAVMNVAAAANAAGTDPELIEMVLRILKQLKEAIRTFQNGDQEEAETQLRFVLRAAIAVAVVAAALVLAGTDPELQEMVKQILEELKQAIETFARGDKEKALTQLLFVAWAAHAVAMIAAAANLAGTDPRLQQQVKEILEKLKEAIETFQKGDEEQAFRQLAEVLAEAALVALRAALTN",
+                  "hseq": "SSDEEFKFLATEAKMLITAAERLAGTDPELQEMVALIKKELEQAERTFRNGDKSEAQRQLEFVLTAARAVMNVAAAANAAGTDPELIEMVLRILKQLKEAIRTFQNGDQEEAETQLRFVLRAAIAVAVVAAALVLAGTDPELQEMVKQILEELKQAIETFARGDKEKALTQLLFVAWAAHAVAMIAAAANLAGTDPRLQQQVKEILEKLKEAIETFQKGDEEQAFRQLAEVLAEAALVALRAALTN",
+                  "midline": "SSDEEFKFLATEAKMLITAAERLAGTDPELQEMVALIKKELEQAERTFRNGDKSEAQRQLEFVLTAARAVMNVAAAANAAGTDPELIEMVLRILKQLKEAIRTFQNGDQEEAETQLRFVLRAAIAVAVVAAALVLAGTDPELQEMVKQILEELKQAIETFARGDKEKALTQLLFVAWAAHAVAMIAAAANLAGTDPRLQQQVKEILEKLKEAIETFQKGDEEQAFRQLAEVLAEAALVALRAALTN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7RKC|A",
+                  "accession": "7RKC_A",
+                  "title": "Chain A, D_3_633 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 6.79178e-05,
+                  "identity": 59,
+                  "positive": 105,
+                  "query_from": 32,
+                  "query_to": 224,
+                  "hit_from": 6,
+                  "hit_to": 208,
+                  "align_len": 210,
+                  "gaps": 24,
+                  "qseq": "PELQEMVALIKKE----LEQAERTFRNGDKSEAQRQLEF---VLTAARAVMNVAAAANAAGTDPELIEMVLRILKQLKEAIRTFQNGDQEEAETQLRFVLRAAIAVAVVAAALVL------AGTDPELQEMVKQILEELKQAIETFARGDKEKALTQLLFVAWAA-HAVAMIAAAANL--AGTDPRLQQQVKEILEKLKEAIETFQK-GD",
+                  "hseq": "PELDELWKRVKKLVTELLEQAERA---GDPEEIFKLLEVAQQLLWLAEMFLRLAAIQEKA-TDPEIQELAERVLRLIK---RLLEEAERAGDPRRIKELVEVALALAKLLEMFYRLKEIQERATDPEIQELAERVLRLIKKLLKAAEEAGDPRKIYKLVFVALVLLHLLQTFYRLKEIQEKATDPEIQRKAQEVLEKIKRLLEAAERAGD",
+                  "midline": "PEL E+   +KK     LEQAER    GD  E  + LE    +L  A   + +AA    A TDPE+ E+  R+L+ +K   R  +  ++     +++ ++  A+A+A +              TDPE+QE+ +++L  +K+ ++        + + +L+FVA    H +        +    TDP +Q++ +E+LEK+K  +E  ++ GD"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

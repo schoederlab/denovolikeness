@@ -1,0 +1,343 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236498",
+          "query_title": "7jh6_A",
+          "query_len": 174,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7JH6|A",
+                  "accession": "7JH6_A",
+                  "title": "Chain A, Two-domain di-Zn(II) and porphyrin-binding protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 327.791,
+                  "score": 839,
+                  "evalue": 1.24282e-112,
+                  "identity": 174,
+                  "positive": 174,
+                  "query_from": 1,
+                  "query_to": 174,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "DYLRELLKLELQAIKQYEKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQLASELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWLKEAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIRELTEKTGRKILEDEEKHIEWLETILG",
+                  "hseq": "DYLRELLKLELQAIKQYEKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQLASELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWLKEAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIRELTEKTGRKILEDEEKHIEWLETILG",
+                  "midline": "DYLRELLKLELQAIKQYEKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQLASELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWLKEAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIRELTEKTGRKILEDEEKHIEWLETILG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5TGW|A",
+                  "accession": "5TGW_A",
+                  "title": "Chain A, PS1 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 3.21694e-37,
+                  "identity": 95,
+                  "positive": 99,
+                  "query_from": 16,
+                  "query_to": 155,
+                  "hit_from": 2,
+                  "hit_to": 109,
+                  "align_len": 140,
+                  "gaps": 32,
+                  "qseq": "QYEKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQLASELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWLKEAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIRELTEKTG",
+                  "hseq": "EFEKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQL-----------FDNRQEAADT---------------------EAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIRELAEKKN",
+                  "midline": "++EKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQL               +EA +                      EAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIREL EK  "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|7JRQ|A",
+                  "accession": "7JRQ_A",
+                  "title": "Chain A, MPP1 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 2.86627e-35,
+                  "identity": 83,
+                  "positive": 90,
+                  "query_from": 17,
+                  "query_to": 159,
+                  "hit_from": 20,
+                  "hit_to": 128,
+                  "align_len": 143,
+                  "gaps": 34,
+                  "qseq": "YEKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQLASELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWLKEAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIRELTEKTGRKIL",
+                  "hseq": "FEKLKQTADEAVQLFQRLREIFDKGDDDSFEQVLEELEEALQKHRQLADQGRKKGL------------------------------LTSEAAKQGDQFVQLFQRFREAWDKGDKDSLEQILEELEQVAQKAVEL----GLKIL",
+                  "midline": "+EKL+QT DE VQ FQRLREIFDKGDDDS EQVLEE+EE +QKHRQLA +  K  L                                 EAAKQGDQ+VQLFQRFREA DKGDKDSLEQ+LEELEQ  QK  EL    G KIL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|9CTE|A",
+                  "accession": "9CTE_A",
+                  "title": "Chain A, De novo protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 132,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 5.34972e-30,
+                  "identity": 68,
+                  "positive": 81,
+                  "query_from": 19,
+                  "query_to": 147,
+                  "hit_from": 32,
+                  "hit_to": 130,
+                  "align_len": 129,
+                  "gaps": 30,
+                  "qseq": "KLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQLASELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWLKEAAKQGDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKI",
+                  "hseq": "KLKQTADEAIQLFQRLREIFDKGDDDSFEQVLEELEEALQKHRQLAN------------------------------NARKNGAPTTDLANLGNRFVQLFQRFREAWDKGDKDSLEQILEELEQVAQKV",
+                  "midline": "KL+QT DE +Q FQRLREIFDKGDDDS EQVLEE+EE +QKHRQLA+                              +  K+     + A  G+++VQLFQRFREA DKGDKDSLEQ+LEELEQ  QK+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 54.299,
+                  "score": 129,
+                  "evalue": 7.32716e-06,
+                  "identity": 27,
+                  "positive": 32,
+                  "query_from": 111,
+                  "query_to": 154,
+                  "hit_from": 37,
+                  "hit_to": 80,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "GDQWVQLFQRFREAIDKGDKDSLEQLLEELEQALQKIRELTEKT",
+                  "hseq": "ADEAIQLFQRLREIFDKGDDDSFEQVLEELEEALQKHRQLANNA",
+                  "midline": " D+ +QLFQR RE  DKGD DS EQ+LEELE+ALQK R+L    "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|1EC5|A",
+                  "accession": "1EC5_A",
+                  "title": "Chain A, PROTEIN (FOUR-HELIX BUNDLE MODEL) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 50,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 1.3554e-12,
+                  "identity": 37,
+                  "positive": 37,
+                  "query_from": 66,
+                  "query_to": 104,
+                  "hit_from": 6,
+                  "hit_to": 44,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "ELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWL",
+                  "hseq": "ELLKLELQLIKQYREALEYVKLPVLAKILEDEEKHIEWL",
+                  "midline": "EL KLELQ IKQYREALEYVKLPVLAKILEDEEKHIEWL"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|2HZ8|A",
+                  "accession": "2HZ8_A",
+                  "title": "Chain A, De novo designed diiron protein [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 64.6994,
+                  "score": 156,
+                  "evalue": 5.4825e-10,
+                  "identity": 51,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 2,
+                  "hit_to": 100,
+                  "align_len": 127,
+                  "gaps": 34,
+                  "qseq": "DYLRELLKLELQAIKQYEKLRQTGDELVQAFQRLREIFDKGDDDSLEQVLEEIEELIQKHRQLASELPKLELQAIKQYREALEYVKLP----VLAKILEDEEKHIEWLKEAAKQGD--QWVQLFQRF",
+                  "hseq": "DELRELLKAEQQAIKIYKEVLKKAKE--------------GDEQELARLIQEI--------------VKAEKQAVKVYKEAAEKARNPEKRQVIDKILEDEEKHIEWLKAASKQGNAEQFASLVQQI",
+                  "midline": "D LRELLK E QAIK Y+++ +   E              GD+  L ++++EI               K E QA+K Y+EA E  + P    V+ KILEDEEKHIEWLK A+KQG+  Q+  L Q+ "
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|5VJS|A",
+                  "accession": "5VJS_A",
+                  "title": "Chain A, Reaction Center Maquette [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 196,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 7.58866e-09,
+                  "identity": 62,
+                  "positive": 79,
+                  "query_from": 55,
+                  "query_to": 174,
+                  "hit_from": 4,
+                  "hit_to": 147,
+                  "align_len": 144,
+                  "gaps": 24,
+                  "qseq": "ELIQKHRQLASE--------------LPKLELQAIKQYREALEYVKLP----VLAKILEDEEKHIEWLKEAAKQGDQWVQLFQRFREA------IDKGDKDSLEQLLEELEQALQKIRELTEKTGRKILEDEEKHIEWLETILG",
+                  "hseq": "ELRQEHQQLAQEFQQLLQEIQQLGRELLKGELQGIKQLREASEKARNPEKKSVLQKILEDEEKHIELLETLQQTGQEAQQLLQELQQTGQELWQLGGSGGPELRQKHQQLAQKIQQLLQKHQQLGAKILEDEEKHIELLETILG",
+                  "midline": "EL Q+H+QLA E              L K ELQ IKQ REA E  + P    VL KILEDEEKHIE L+   + G +  QL Q  ++       +       L Q  ++L Q +Q++ +  ++ G KILEDEEKHIE LETILG"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|1Y47|A",
+                  "accession": "1Y47_A",
+                  "title": "Chain A, dueferri (DF2) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 46,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 8.01171e-07,
+                  "identity": 31,
+                  "positive": 32,
+                  "query_from": 66,
+                  "query_to": 104,
+                  "hit_from": 5,
+                  "hit_to": 43,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "ELPKLELQAIKQYREALEYVKLPVLAKILEDEEKHIEWL",
+                  "hseq": "ELYKLEQQAMKLYREASERVGDPVLAKILEDEEKHIEWL",
+                  "midline": "EL KLE QA+K YREA E V  PVLAKILEDEEKHIEWL"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|5C39|A",
+                  "accession": "5C39_A",
+                  "title": "Chain A, P0 Manganese cluster peptide [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 51,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.000679886,
+                  "identity": 29,
+                  "positive": 31,
+                  "query_from": 66,
+                  "query_to": 104,
+                  "hit_from": 5,
+                  "hit_to": 47,
+                  "align_len": 43,
+                  "gaps": 4,
+                  "qseq": "ELPKLELQAIKQYREALEYVKLP----VLAKILEDEEKHIEWL",
+                  "hseq": "ELYKLEQQAMKLYREASEKARNPEKKSVLQKILEDEEKHIEWL",
+                  "midline": "EL KLE QA+K YREA E  + P    VL KILEDEEKHIEWL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

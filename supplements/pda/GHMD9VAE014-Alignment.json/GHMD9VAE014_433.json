@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236552",
+          "query_title": "6w40_A",
+          "query_len": 120,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6W40|A",
+                  "accession": "6W40_A",
+                  "title": "Chain A, DENOVO NTF2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.335,
+                  "score": 586,
+                  "evalue": 7.38076e-76,
+                  "identity": 120,
+                  "positive": 120,
+                  "query_from": 1,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "GDEEEKHLRDMMEIVIKLFMTGDWDAFHEMADPDVKFQVDVGDKHIHRHGREEVVEELIRLLEHWRVRNIRIHDIKLIGDKLVVEGRWETSYGDKSHDEDVELIVIVVDGKIKKVRIIIR",
+                  "hseq": "GDEEEKHLRDMMEIVIKLFMTGDWDAFHEMADPDVKFQVDVGDKHIHRHGREEVVEELIRLLEHWRVRNIRIHDIKLIGDKLVVEGRWETSYGDKSHDEDVELIVIVVDGKIKKVRIIIR",
+                  "midline": "GDEEEKHLRDMMEIVIKLFMTGDWDAFHEMADPDVKFQVDVGDKHIHRHGREEVVEELIRLLEHWRVRNIRIHDIKLIGDKLVVEGRWETSYGDKSHDEDVELIVIVVDGKIKKVRIIIR"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "tpg|HEY2985277.1|",
+                  "accession": "HEY2985277",
+                  "title": "RNA polymerase sigma factor SigJ [Jatrophihabitantaceae bacterium]",
+                  "taxid": 2811413,
+                  "sciname": "Jatrophihabitantaceae bacterium"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.8986,
+                  "score": 102,
+                  "evalue": 0.0438964,
+                  "identity": 31,
+                  "positive": 49,
+                  "query_from": 22,
+                  "query_to": 118,
+                  "hit_from": 186,
+                  "hit_to": 276,
+                  "align_len": 102,
+                  "gaps": 16,
+                  "qseq": "GDWDAFHEMADPDVKFQVDVGDKHIHRH-----GREEVVEELIRLLEHWRVRNIRIHDIKLIGDKLVVEGRWETSYGDKSHDEDVELIVIVVDGKIKKVRII",
+                  "hseq": "GDFDALVAVLDPDVTFRIDVGPVGAPRARKPLVGAEAVAREVLASAPRF-IRGVR---------PAIVNGSAGAVFGDPTHPAGV-IGMTVVDGRIVEIDIV",
+                  "midline": "GD+DA   + DPDV F++DVG     R      G E V  E++     + +R +R           +V G     +GD +H   V + + VVDG+I ++ I+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

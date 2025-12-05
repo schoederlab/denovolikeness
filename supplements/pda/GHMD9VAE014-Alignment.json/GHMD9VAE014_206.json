@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236325",
+          "query_title": "8v9o_A",
+          "query_len": 178,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "ref|WP_010884763.1|",
+                  "accession": "WP_010884763",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Pyrococcus horikoshii]",
+                  "taxid": 53953,
+                  "sciname": "Pyrococcus horikoshii"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 310.842,
+                  "score": 795,
+                  "evalue": 6.73602e-106,
+                  "identity": 159,
+                  "positive": 160,
+                  "query_from": 1,
+                  "query_to": 172,
+                  "hit_from": 1,
+                  "hit_to": 172,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRS",
+                  "hseq": "MRITTKVGDKGSTRLFGGEEVWKDSPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLEGLISRYEEMVNLKSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGKEALVYLNRLSDLLFLLARVIEIEKNKLKEVRS",
+                  "midline": "MRITTKVGDKGSTRLFGGEEVWKD PIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWL GLI RY EMVN  SFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIG  A +YL  LS LLFLLARVIEIEKNKLKEVRS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_010868490.1|",
+                  "accession": "WP_010868490",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Pyrococcus abyssi]",
+                  "taxid": 29292,
+                  "sciname": "Pyrococcus abyssi"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 250.751,
+                  "score": 639,
+                  "evalue": 3.86406e-82,
+                  "identity": 120,
+                  "positive": 149,
+                  "query_from": 1,
+                  "query_to": 172,
+                  "hit_from": 1,
+                  "hit_to": 172,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRS",
+                  "hseq": "MRVTTKVGDKGSTKLFGGDEVWKDSPIIEANGTLDELTSFLGEARHYLNDEMREIIDRIQMDIYKIMGELGSKGDIKGITDEDLKWIEGIIEKYEGEVELRSFVLPGGTIESAKLDVCRTIARRAERRVATIVREYGFARKSLVYLNRLSDLLFLMARKIEIEKGKLREVRA",
+                  "midline": "MR+TTKVGDKGST+LFGG+EVWKD PIIEANGTLDELTSF+GEA+HY+++EM+ I++ IQ DIYKIMGE+GSKG I+GI++E +KW+ G+IE+Y   V   SFVLPGGT+ESAKLDVCRTIARRAER+VAT++RE+G    + +YL  LS LLFL+AR IEIEK KL+EVR+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6X1I|A",
+                  "accession": "6X1I_A",
+                  "title": "Chain A, Cob_adeno_trans domain-containing protein PH0671 fused to a coiled coil [Pyrococcus horikoshii OT3]",
+                  "taxid": 70601,
+                  "sciname": "Pyrococcus horikoshii OT3"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 245.743,
+                  "score": 626,
+                  "evalue": 4.15574e-80,
+                  "identity": 125,
+                  "positive": 126,
+                  "query_from": 25,
+                  "query_to": 162,
+                  "hit_from": 2,
+                  "hit_to": 139,
+                  "align_len": 138,
+                  "gaps": 0,
+                  "qseq": "DPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEI",
+                  "hseq": "SPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLEGLISRYEEMVNLKSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGKEALVYLNRLSDLLFLLARVIEI",
+                  "midline": " PIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWL GLI RY EMVN  SFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIG  A +YL  LS LLFLLARVIEI"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_014835299.1|",
+                  "accession": "WP_014835299",
+                  "title": "MULTISPECIES: cob(I)yrinic acid a,c-diamide adenosyltransferase [Pyrococcus]",
+                  "taxid": 2260,
+                  "sciname": "Pyrococcus"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 244.973,
+                  "score": 624,
+                  "evalue": 6.58358e-80,
+                  "identity": 115,
+                  "positive": 148,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MRVTTKIGDKGTTRLYTGDEVWKDSPIIEANGTLDELTSFLGEARHYVDKEFQQIIDKIQEDLYKIMGEIGSKGKIQGISKEDVEWIESLIKTYVEKIEIRSFVLPGSTLSSAKLDICRTIARRAERRLATVLREYGLGKLSLIYVNRLSDLLYLMARYIEIKEGKLREVK",
+                  "midline": "MR+TTK+GDKG+TRL+ G+EVWKD PIIEANGTLDELTSF+GEA+HYVD+E + I+++IQ D+YKIMGEIGSKGKI+GIS+E ++W+  LI+ Y E +   SFVLPG TL SAKLD+CRTIARRAER++ATVLRE+G+G L+ IY+  LS LL+L+AR IEI++ KL+EV+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_014734190.1|",
+                  "accession": "WP_014734190",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Pyrococcus sp. ST04]",
+                  "taxid": 1183377,
+                  "sciname": "Pyrococcus sp. ST04"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 243.817,
+                  "score": 621,
+                  "evalue": 2.26846e-79,
+                  "identity": 121,
+                  "positive": 142,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MKVTTKVGDKGTTRLFGGDEVWKDSPITEANGTLDELTSFLGEARHYVDENIREIIDTIQIHIYKIMGELGSKGKIKGITEEEVKWLEKLIEEYEHKVELKSFVLPGGSLASAKLDVCRAITRRAERKIATVLREFGIGKKSLVYLNRLSDLLFLLAREIEIREGKLREVK",
+                  "midline": "M++TTKVGDKG+TRLFGG+EVWKD PI EANGTLDELTSF+GEA+HYVDE ++ I++ IQ  IYKIMGE+GSKGKI+GI+EE +KWL  LIE Y   V   SFVLPGG+L SAKLDVCR I RRAERK+ATVLREFGIG  + +YL  LS LLFLLAR IEI + KL+EV+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_013748749.1|",
+                  "accession": "WP_013748749",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Pyrococcus sp. NA2]",
+                  "taxid": 342949,
+                  "sciname": "Pyrococcus sp. NA2"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.417,
+                  "score": 594,
+                  "evalue": 2.32163e-75,
+                  "identity": 113,
+                  "positive": 143,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MRVTTKVGDKGSTRLFKGDEVWKDSPIIEANGTLDELTSFLGEVRHYVKDDIREIIDKIQLDIYKIMGHLGSKGEIEGIKDEDIEWLENMIKEYEGKIELRSFILPGGTVESAKLDICRTIARRAERKIATLVREFGLGRKALIYLNRLSDLLYLLARDIEIREGKVREAK",
+                  "midline": "MR+TTKVGDKGSTRLF G+EVWKD PIIEANGTLDELTSF+GE +HYV ++++ I+++IQ DIYKIMG +GSKG+IEGI +E I+WL  +I+ Y   +   SF+LPGGT+ESAKLD+CRTIARRAERK+AT++REFG+G  A IYL  LS LL+LLAR IEI + K++E +"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_068576740.1|",
+                  "accession": "WP_068576740",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus chitonophagus]",
+                  "taxid": 54262,
+                  "sciname": "Thermococcus chitonophagus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.491,
+                  "score": 589,
+                  "evalue": 1.30913e-74,
+                  "identity": 112,
+                  "positive": 141,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MKVTTKVGDKGTTRLFGGDEVWKDSPITEANGSIDELTSFLGEARHYVNEQVREILDKVQAHLYRIMGELGSKGQFKGVGREEIEWLESLIRDYEGRIELRSFVLPGGTLASAKLDVCRTIARRAERRVATVLREYGIGRWALIYLNRLSDLLFLLARDIERKEGKLREAK",
+                  "midline": "M++TTKVGDKG+TRLFGG+EVWKD PI EANG++DELTSF+GEA+HYV+E+++ IL+++Q  +Y+IMGE+GSKG+ +G+  E I+WL  LI  Y   +   SFVLPGGTL SAKLDVCRTIARRAER+VATVLRE+GIG  A IYL  LS LLFLLAR IE ++ KL+E +"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|8VDZ|A",
+                  "accession": "8VDZ_A",
+                  "title": "Chain A, Subunit A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 213.386,
+                  "score": 542,
+                  "evalue": 7.85921e-68,
+                  "identity": 124,
+                  "positive": 124,
+                  "query_from": 23,
+                  "query_to": 163,
+                  "hit_from": 1,
+                  "hit_to": 141,
+                  "align_len": 141,
+                  "gaps": 0,
+                  "qseq": "KDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIE",
+                  "hseq": "KDSPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIAWLLKLILRYMEMVNLKSFVLPGGTLESAKLDVCRTIARRALRKVLTVTREFGIGAEAAAYLLALSDLLFLLARVIEIE",
+                  "midline": "KD PIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERI WL  LI RY EMVN  SFVLPGGTLESAKLDVCRTIARRA RKV TV REFGIG  AA YL  LS LLFLLARVIEIE"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|8VE7|A",
+                  "accession": "8VE7_A",
+                  "title": "Chain A, DARPin protein scaffold [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 294,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 214.157,
+                  "score": 544,
+                  "evalue": 5.11071e-66,
+                  "identity": 125,
+                  "positive": 125,
+                  "query_from": 23,
+                  "query_to": 166,
+                  "hit_from": 1,
+                  "hit_to": 144,
+                  "align_len": 144,
+                  "gaps": 0,
+                  "qseq": "KDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNK",
+                  "hseq": "KDSPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIAWLLKLILRYMEMVNLKSFVLPGGTLESAKLDVCRTIARRALRKVLTVTREFGIGAEAAAYLLALSDLLFLLARVIEIELGK",
+                  "midline": "KD PIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERI WL  LI RY EMVN  SFVLPGGTLESAKLDVCRTIARRA RKV TV REFGIG  AA YL  LS LLFLLARVIEIE  K"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_013905418.1|",
+                  "accession": "WP_013905418",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Pyrococcus yayanosii]",
+                  "taxid": 1008460,
+                  "sciname": "Pyrococcus yayanosii"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.068,
+                  "score": 523,
+                  "evalue": 1.82094e-64,
+                  "identity": 108,
+                  "positive": 137,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MRVTTKTGDRGTTSLFGGDRVWKDSPIIEANGTIDELTSFLGEARHYLDDEMRVIIDTVQGHLYSIMAELGSKGRMKSVGDGEIKWLENVIAKYEPQVELRSFVLPGGTLASAKLDVCRAVARRAERRVATVLREFGIGEKPLIYLNRLSDLLFLMARVIEIREGRLREVK",
+                  "midline": "MR+TTK GD+G+T LFGG+ VWKD PIIEANGT+DELTSF+GEA+HY+D+EM+ I++ +Q  +Y IM E+GSKG+++ + +  IKWL  +I +Y   V   SFVLPGGTL SAKLDVCR +ARRAER+VATVLREFGIG    IYL  LS LLFL+ARVIEI + +L+EV+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_297462417.1|",
+                  "accession": "WP_297462417",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 201.445,
+                  "score": 511,
+                  "evalue": 1.07611e-62,
+                  "identity": 103,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 170,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEV",
+                  "hseq": "MSITTKTGDKGLTGLFTGERVLKYSPVVEANGTIDELDSFLGEAKHYVPEEMAEILERIQVQLYGIMGELASKGKYVKVGEEEIGWMEGLIAKYEEEFQMRAFVLPGSTIASAKLDVCRAVARRAERKVARLVLEYGFGKSALVYLNRLSDLLFLMARVIEKREGKVKEI",
+                  "midline": "M ITTK GDKG T LF GE V K  P++EANGT+DEL SF+GEAKHYV EEM  ILE IQ  +Y IMGE+ SKGK   + EE I W+ GLI +Y E     +FVLPG T+ SAKLDVCR +ARRAERKVA ++ E+G G  A +YL  LS LLFL+ARVIE  + K+KE+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_010478339.1|",
+                  "accession": "WP_010478339",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus zilligii]",
+                  "taxid": 54076,
+                  "sciname": "Thermococcus zilligii"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 201.06,
+                  "score": 510,
+                  "evalue": 1.78091e-62,
+                  "identity": 104,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDRGLTGLFTGDRVVKYSPIMEANGTIDELDSFLGEAKHYLPGEMAGILERIQVQLYDIMAELASKGKYAKIGEEEVRWLEGLIHKYEGEVQLGGFVLPGSTVASAKLDVCRTIARRAERKVAKLLLDYGLGSNVLVYLNRLSDLLFIMARVIEKREGKLKEVR",
+                  "midline": "M ITTK GD+G T LF G+ V K  PI+EANGT+DEL SF+GEAKHY+  EM GILE IQ  +Y IM E+ SKGK   I EE ++WL GLI +Y   V    FVLPG T+ SAKLDVCRTIARRAERKVA +L ++G+G+   +YL  LS LLF++ARVIE  + KLKEVR"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_088854358.1|",
+                  "accession": "WP_088854358",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus pacificus]",
+                  "taxid": 71998,
+                  "sciname": "Thermococcus pacificus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 199.904,
+                  "score": 507,
+                  "evalue": 4.08872e-62,
+                  "identity": 102,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDKGLTGLFTGDRVAKYSPIMEANGTLDELDSFLGEAKHYIPGEMAEILERVQVQLYDLMAELASKGKYAKVGEEDVKWLEGLIHKYEEEVQLRAFVLPGSTIASAKLDVCRAIARRAERKVAKLVLDYGFGNNALVYLNRLSDLLFIMARAIEKREGKLKEVR",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI+EANGTLDEL SF+GEAKHY+  EM  ILE +Q  +Y +M E+ SKGK   + EE +KWL GLI +Y E V   +FVLPG T+ SAKLDVCR IARRAERKVA ++ ++G G  A +YL  LS LLF++AR IE  + KLKEVR"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_258084444.1|",
+                  "accession": "WP_258084444",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus thermotolerans]",
+                  "taxid": 2969672,
+                  "sciname": "Thermococcus thermotolerans"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 199.134,
+                  "score": 505,
+                  "evalue": 9.08379e-62,
+                  "identity": 101,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDRGLTGLFTGDRVAKFSPIMDANGTIDELDSFLGEAKHYVPEEMAEILEKIQVQLYDLMAELASKGKHAKVNEEDVRWLEGLIHRYEKEVQLKVFVLPGSTVASAKLDICRTIARRAERKVAKLVLDYGFGNNALVYLNRLSDLLFIMARTIEKREGKLKEVR",
+                  "midline": "M ITTK GD+G T LF G+ V K  PI++ANGT+DEL SF+GEAKHYV EEM  ILE+IQ  +Y +M E+ SKGK   ++EE ++WL GLI RY + V    FVLPG T+ SAKLD+CRTIARRAERKVA ++ ++G G  A +YL  LS LLF++AR IE  + KLKEVR"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_297470648.1|",
+                  "accession": "WP_297470648",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 198.749,
+                  "score": 504,
+                  "evalue": 1.56717e-61,
+                  "identity": 100,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 172,
+                  "hit_from": 1,
+                  "hit_to": 172,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRS",
+                  "hseq": "MSVTTKTGDKGLTGLFTGDRVAKYSPIMEANGTIDELDSFLGEAMHYVPEEMAGIIERVQVQLYELMGELASKGKYSKIGDKEIRWLEELISKYEEEFQMRVFVLPGSTIGSAKLDICRTIARRAERKVAKIVLEYGFGKNALVYLNRLSDLLFLMARVIEKREGKLREVKP",
+                  "midline": "M +TTK GDKG T LF G+ V K  PI+EANGT+DEL SF+GEA HYV EEM GI+E +Q  +Y++MGE+ SKGK   I ++ I+WL  LI +Y E      FVLPG T+ SAKLD+CRTIARRAERKVA ++ E+G G  A +YL  LS LLFL+ARVIE  + KL+EV+ "
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "dbj|BGZ33883.1|",
+                  "accession": "BGZ33883",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus coalescens]",
+                  "taxid": 227597,
+                  "sciname": "Thermococcus coalescens"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 197.208,
+                  "score": 500,
+                  "evalue": 5.16783e-61,
+                  "identity": 102,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDKGLTGLFTGDRVAKYSPIMDANGTIDELDSFLGEAKHYVPAEMVEILEKIQIQLYDLMAELASKGKYSKVGEEDVKWLEGLIRRYEEEVQLKTFVLPGSTIGSAKLDVCRAIARRAERKVAKLVLDYGFGQNCLIYLNRLSDLLFVMARAIEKREGKLREVR",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI++ANGT+DEL SF+GEAKHYV  EM  ILE+IQ  +Y +M E+ SKGK   + EE +KWL GLI RY E V   +FVLPG T+ SAKLDVCR IARRAERKVA ++ ++G G    IYL  LS LLF++AR IE  + KL+EVR"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_297499857.1|",
+                  "accession": "WP_297499857",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.897,
+                  "score": 494,
+                  "evalue": 3.69806e-60,
+                  "identity": 100,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDKGLTGLFTGDRIAKFSPITEANGTIDELDSFLGEAKHYLPEEMRRIVEKIQIRLYDIMGELGSKGEYTKVGEEDVRWLEELTRKYEEEVELTGFVIPGSTIASAKLDVCRTIARRAERKVAKLVLEYGLGNNTLIYLNRLSDLLFIMARAIEKREGKLKEVK",
+                  "midline": "M ITTK GDKG T LF G+ + K  PI EANGT+DEL SF+GEAKHY+ EEM+ I+E+IQ  +Y IMGE+GSKG+   + EE ++WL  L  +Y E V    FV+PG T+ SAKLDVCRTIARRAERKVA ++ E+G+G    IYL  LS LLF++AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_068666868.1|",
+                  "accession": "WP_068666868",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus piezophilus]",
+                  "taxid": 1712654,
+                  "sciname": "Thermococcus piezophilus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.897,
+                  "score": 494,
+                  "evalue": 3.99217e-60,
+                  "identity": 95,
+                  "positive": 127,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDKGLTGLFTGDRIAKYSPIMEANGTIDELSSFLGEAKHYVPKEMAEVLEKIQVELYSLMAEIASKGKYKKVGEGEVKWMEELIQRYEEEIQLKAFVLPGSTIASAKLDVCRAVARRSERAVARLVLDYGFGSSALIYLNRLSDLLFIMARAIEKREKKIKEVK",
+                  "midline": "M ITTK GDKG T LF G+ + K  PI+EANGT+DEL+SF+GEAKHYV +EM  +LE+IQ ++Y +M EI SKGK + + E  +KW+  LI+RY E +   +FVLPG T+ SAKLDVCR +ARR+ER VA ++ ++G G+ A IYL  LS LLF++AR IE  + K+KEV+"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_050003527.1|",
+                  "accession": "WP_050003527",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus eurythermalis]",
+                  "taxid": 1505907,
+                  "sciname": "Thermococcus eurythermalis"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.126,
+                  "score": 492,
+                  "evalue": 8.12475e-60,
+                  "identity": 98,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDKGLTGLFTGDRVAKYSPVMEANGTIDELDSFLGEAKHYVPEEMTEILEKIQVQLYDLMAELASRGKYAKVGDEEVRWLEELIHRYEEEVQLRAFVLPGSTIASAKLDVCRAITRRAERRVAKLVLDYGFGQNALIYLNRLSDLLFIMARAIEKREGKLKEVK",
+                  "midline": "M ITTK GDKG T LF G+ V K  P++EANGT+DEL SF+GEAKHYV EEM  ILE+IQ  +Y +M E+ S+GK   + +E ++WL  LI RY E V   +FVLPG T+ SAKLDVCR I RRAER+VA ++ ++G G  A IYL  LS LLF++AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_297520226.1|",
+                  "accession": "WP_297520226",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 193.356,
+                  "score": 490,
+                  "evalue": 2.12208e-59,
+                  "identity": 98,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 170,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEV",
+                  "hseq": "MSITTKTGDKGLTGLFTGDRVAKYSPVMEANGTIDELDSFIGEAKHYVPGEMADILEKIQVQLYGIMGELASKGKYVKVGEGEVKWMEELIAKYEEEFQMKAFVLPGSTIASAKLDICRTVARRSERKVAKLVLDYGFGKNALVYLNRLSDLLFIMARVIEKREGKVKEV",
+                  "midline": "M ITTK GDKG T LF G+ V K  P++EANGT+DEL SFIGEAKHYV  EM  ILE+IQ  +Y IMGE+ SKGK   + E  +KW+  LI +Y E     +FVLPG T+ SAKLD+CRT+ARR+ERKVA ++ ++G G  A +YL  LS LLF++ARVIE  + K+KEV"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_297552880.1|",
+                  "accession": "WP_297552880",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 192.971,
+                  "score": 489,
+                  "evalue": 2.73385e-59,
+                  "identity": 98,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDRGLTGLFTGDRVVKYSPIMEANGTIDELDSFLGEAKHYVPEEMVGILERVQVQLYDLMAELASKGKYAKVGDDEVRWLEDLTRKYEDELQLRAFVLPGSTVASAKLDVCRAIARRAERKVAKLYLEAGIGEKALVYLNRLSDLLFVMARVIEKREGKLKEVK",
+                  "midline": "M ITTK GD+G T LF G+ V K  PI+EANGT+DEL SF+GEAKHYV EEM GILE +Q  +Y +M E+ SKGK   + ++ ++WL  L  +Y + +   +FVLPG T+ SAKLDVCR IARRAERKVA +  E GIG  A +YL  LS LLF++ARVIE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_088856385.1|",
+                  "accession": "WP_088856385",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus siculi]",
+                  "taxid": 72803,
+                  "sciname": "Thermococcus siculi"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 192.586,
+                  "score": 488,
+                  "evalue": 3.36489e-59,
+                  "identity": 100,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDKGLTGLFTGDRVAKFSPIMEANGTIDELDSFIGEAKHYVPEEMVEILERIQVQLYDLMAELASKGKYSKVGEEDMKWLEDLIHEYEEEVQLRAFVLPGSTVGSAKLDVCRAIARRTERRVAKLVLDYGFGQNALVYLNRLSDLLFIMARAIEKREGKLREVK",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI+EANGT+DEL SFIGEAKHYV EEM  ILE IQ  +Y +M E+ SKGK   + EE +KWL  LI  Y E V   +FVLPG T+ SAKLDVCR IARR ER+VA ++ ++G G  A +YL  LS LLF++AR IE  + KL+EV+"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_014787938.1|",
+                  "accession": "WP_014787938",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus cleftensis]",
+                  "taxid": 163003,
+                  "sciname": "Thermococcus cleftensis"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 190.66,
+                  "score": 483,
+                  "evalue": 1.64162e-58,
+                  "identity": 96,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 170,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEV",
+                  "hseq": "MSITTKTGDKGLTGLFTSDRVAKFSPVMEANGTIDELDSFLGEAKHYVPEEMVEILEKIQVQLYDLMAELASRGKYAKVGKEEVEWLEGLISRYEGEVQLRAFVLPGSTIASAKLDVCRAIARRAERKVARLVLDYGLGKNALVYLNRLSDLLFLMARAIEKREGRLREI",
+                  "midline": "M ITTK GDKG T LF  + V K  P++EANGT+DEL SF+GEAKHYV EEM  ILE+IQ  +Y +M E+ S+GK   + +E ++WL GLI RY   V   +FVLPG T+ SAKLDVCR IARRAERKVA ++ ++G+G  A +YL  LS LLFL+AR IE  + +L+E+"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_297535070.1|",
+                  "accession": "WP_297535070",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 190.66,
+                  "score": 483,
+                  "evalue": 1.64162e-58,
+                  "identity": 97,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 170,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEV",
+                  "hseq": "MPVTTKTGDKGLTGLFTGDRVAKFSPVMEANGDIDELDSFIGEAKHYVPEEMREILERIQVQLYDLMAELASKGKYAKVGEDEIRWLEELTGRYEEELQLRAFVLPGSTVASAKLDVCRAVTRRAERKVARLLLEYGFGKNALVYLNRLSDLLFVMARVIEKREGRLREV",
+                  "midline": "M +TTK GDKG T LF G+ V K  P++EANG +DEL SFIGEAKHYV EEM+ ILE IQ  +Y +M E+ SKGK   + E+ I+WL  L  RY E +   +FVLPG T+ SAKLDVCR + RRAERKVA +L E+G G  A +YL  LS LLF++ARVIE  + +L+EV"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_062390775.1|",
+                  "accession": "WP_062390775",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus peptonophilus]",
+                  "taxid": 53952,
+                  "sciname": "Thermococcus peptonophilus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 190.274,
+                  "score": 482,
+                  "evalue": 2.35457e-58,
+                  "identity": 100,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDKGLTGLFTGDRVAKFSPIMEANGTIDELDSFIGEAKHYVLEGMVEILEKIQIQLYDLMAELASKGKYSKVGEEEVKWLEELIHQYEDEVQLKSFVLPGSTIASAKLDVCRAIARRAERNVAKLVLDYGFGHNALVYLNRLSDLLYIMARAIEKREGKLKEVK",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI+EANGT+DEL SFIGEAKHYV E M  ILE+IQ  +Y +M E+ SKGK   + EE +KWL  LI +Y + V   SFVLPG T+ SAKLDVCR IARRAER VA ++ ++G G  A +YL  LS LL+++AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_293252770.1|",
+                  "accession": "WP_293252770",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Palaeococcus sp. (in: euryarchaeotes)]",
+                  "taxid": 2820298,
+                  "sciname": "Palaeococcus sp. (in: euryarchaeotes)"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 189.889,
+                  "score": 481,
+                  "evalue": 4.06663e-58,
+                  "identity": 95,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 168,
+                  "hit_from": 1,
+                  "hit_to": 168,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "MGITTKTGDKGLTGIFTGERIAKFSPIVETNGTIDELGSFLGEAKHYVDEDLQGILEKVQVDLYSLMAEIASKGKYKKVGEEEIKWLESLITEFEKEVKLEGFVIPGSTVGSAKLDVCRAVARRAERKITKLVLEYGTGTNALKYLNRLSDLLFIMARYIEWKEGKIK",
+                  "midline": "M ITTK GDKG T +F GE + K  PI+E NGT+DEL SF+GEAKHYVDE+++GILE++Q D+Y +M EI SKGK + + EE IKWL  LI  + + V    FV+PG T+ SAKLDVCR +ARRAERK+  ++ E+G GT A  YL  LS LLF++AR IE ++ K+K"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_167891261.1|",
+                  "accession": "WP_167891261",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp. 18S1]",
+                  "taxid": 1638210,
+                  "sciname": "Thermococcus sp. 18S1"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 189.504,
+                  "score": 480,
+                  "evalue": 5.06013e-58,
+                  "identity": 97,
+                  "positive": 119,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDKGLTGLFTGDRVAKCSPIMEANGNIDELDSFLGEAKHYVPGEMAEILERIQVHLYDLMAEIASKGKYAKVGEEEVEWLEGLIHEYEQEVQLRTFVLPGSTIASAKLDVCRAVARRTERSVARLVLDYGFGQNALVYLNRLSDLLFIMARAIEKREGKLKEVK",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI+EANG +DEL SF+GEAKHYV  EM  ILE IQ  +Y +M EI SKGK   + EE ++WL GLI  Y + V   +FVLPG T+ SAKLDVCR +ARR ER VA ++ ++G G  A +YL  LS LLF++AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|NPA47362.1|",
+                  "accession": "NPA47362",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococci archaeon]",
+                  "taxid": 2250254,
+                  "sciname": "Thermococci archaeon"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 188.734,
+                  "score": 478,
+                  "evalue": 1.14848e-57,
+                  "identity": 96,
+                  "positive": 120,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDKGLTGLFTGDRVAKHSPIMEANGNIDELDSFLGEAKHHVPEEMREILERVQVQLYDLMAELASKGKYAKVGEDEIRWLEELIHRYEGEVQLRAFVLPGSTPVSAKLDVCRAVARRTERSVARLVLDYGFGDKALVYLNRLSDLLFIMARAIEKREDKLKEVR",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI+EANG +DEL SF+GEAKH+V EEM+ ILE +Q  +Y +M E+ SKGK   + E+ I+WL  LI RY   V   +FVLPG T  SAKLDVCR +ARR ER VA ++ ++G G  A +YL  LS LLF++AR IE  ++KLKEVR"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_167903080.1|",
+                  "accession": "WP_167903080",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp. JdF3]",
+                  "taxid": 1638258,
+                  "sciname": "Thermococcus sp. JdF3"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 187.193,
+                  "score": 474,
+                  "evalue": 3.82089e-57,
+                  "identity": 97,
+                  "positive": 119,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDKGLTGLFTGDRVAKYSPIMEANGNIDELDSFLGEAKHHVPEEMAEILERIQVQLYDLMAELASKGKYAKVGDEEVKWLEELIHKYEDEVQLRAFVLPGSTPASAKLDVCRAVARRTERAVARLVLEYGFGHNALIYLNRLSDLLFVMARTIEKREGKLKEVK",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI+EANG +DEL SF+GEAKH+V EEM  ILE IQ  +Y +M E+ SKGK   + +E +KWL  LI +Y + V   +FVLPG T  SAKLDVCR +ARR ER VA ++ E+G G  A IYL  LS LLF++AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_297437790.1|",
+                  "accession": "WP_297437790",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 186.808,
+                  "score": 473,
+                  "evalue": 6.11255e-57,
+                  "identity": 97,
+                  "positive": 118,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDRGLTGLFTGDRVAKFSPIMEANGTIDELDSFLGEAKHYVPGEMAESLERIQAQLYDLMAEIASRGRYTKVDDGEIGWLEGLIHRYEEEVQLRVFVLPGSTLGSAKLDVCRAVTRRAERKVAKLVLDYGFGQNALVYLNRLSDLLFIMARAIEKREGKLKEVK",
+                  "midline": "M ITTK GD+G T LF G+ V K  PI+EANGT+DEL SF+GEAKHYV  EM   LE IQ  +Y +M EI S+G+   + +  I WL GLI RY E V    FVLPG TL SAKLDVCR + RRAERKVA ++ ++G G  A +YL  LS LLF++AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_088882623.1|",
+                  "accession": "WP_088882623",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp. P6]",
+                  "taxid": 122420,
+                  "sciname": "Thermococcus sp. P6"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 186.808,
+                  "score": 473,
+                  "evalue": 7.42202e-57,
+                  "identity": 95,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 174,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRSHH",
+                  "hseq": "MPVTTKTGDKGLTGLFTGDRIAKSSPIIEANGTIDELDSFLGEAKHHLPEDMRATIERIQLRLYDIMAELASRGSYRKIEPGDIQWLEELIERYEGEVQLKSFVLPGSTVASAKLDVCRAVTRRAERRVAKLVLEYGIGHDALVYLNRLSDLLFLMARAIEKREGKLREVKNFQ",
+                  "midline": "M +TTK GDKG T LF G+ + K  PIIEANGT+DEL SF+GEAKH++ E+M+  +E IQ  +Y IM E+ S+G    I    I+WL  LIERY   V   SFVLPG T+ SAKLDVCR + RRAER+VA ++ E+GIG  A +YL  LS LLFL+AR IE  + KL+EV++  "
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "dbj|BGT60246.1|",
+                  "accession": "BGT60246",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Palaeococcus helgesonii]",
+                  "taxid": 207243,
+                  "sciname": "Palaeococcus helgesonii"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 186.037,
+                  "score": 471,
+                  "evalue": 1.41779e-56,
+                  "identity": 93,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 168,
+                  "hit_from": 1,
+                  "hit_to": 168,
+                  "align_len": 168,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "MGITTKTGDKGITGIFTGERIAKFSPLVEANGTIDELGSFLGEAKHHVDDDLREILEKVQVDLYSLMADIASKGKYRKAGDEEIKWMEGLIERFEKEVELEGFVIPGSTIGSAKLDVCRTMARRAERKVARLVLEYGTGASALKYLNRLSDLLFIMARYIEWREGRIK",
+                  "midline": "M ITTK GDKG T +F GE + K  P++EANGT+DEL SF+GEAKH+VD++++ ILE++Q D+Y +M +I SKGK     +E IKW+ GLIER+ + V    FV+PG T+ SAKLDVCRT+ARRAERKVA ++ E+G G  A  YL  LS LLF++AR IE  + ++K"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_324735596.1|",
+                  "accession": "WP_324735596",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp. SY098]",
+                  "taxid": 3111325,
+                  "sciname": "Thermococcus sp. SY098"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 184.882,
+                  "score": 468,
+                  "evalue": 4.60101e-56,
+                  "identity": 91,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 173,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 1,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRSH",
+                  "hseq": "MPITTRTGDKGTTGIFTGERLAKFSPIIEANGTIDEASSFLGEAKHYIEDEELRGIVEKVQIDLYSLMAEIASKGKYKKIGEKEVEWMESLIKKFENEVQLKAFVIPGSTIASAKLDVCRAVVRKAERKVARLLLEYGFGEDALKYLNRLSDLLFIMARYIEWKEGKLRYAKAE",
+                  "midline": "M ITT+ GDKG+T +F GE + K  PIIEANGT+DE +SF+GEAKHY+ DEE++GI+E++Q D+Y +M EI SKGK + I E+ ++W+  LI+++   V   +FV+PG T+ SAKLDVCR + R+AERKVA +L E+G G  A  YL  LS LLF++AR IE ++ KL+  ++ "
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_088862779.1|",
+                  "accession": "WP_088862779",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus celer]",
+                  "taxid": 2264,
+                  "sciname": "Thermococcus celer"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 181.415,
+                  "score": 459,
+                  "evalue": 8.87921e-55,
+                  "identity": 101,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDKGLTGLFTGERVAKYSPVMEANGTIDELDSFIGEAKHYVPEDMAGTLERIQVHLYDLMAELASKGKYSKIGDEEVRWLEGLIEKYEAEFQFKAFVLPGSTVASAKLDVCRTVARRAERRVARLVLDYGFGDTALVYLNRLSDLLFLMARTIEKREGKLKEVK",
+                  "midline": "M ITTK GDKG T LF GE V K  P++EANGT+DEL SFIGEAKHYV E+M G LE IQ  +Y +M E+ SKGK   I +E ++WL GLIE+Y       +FVLPG T+ SAKLDVCRT+ARRAER+VA ++ ++G G  A +YL  LS LLFL+AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_055283274.1|",
+                  "accession": "WP_055283274",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp. EP1]",
+                  "taxid": 1591054,
+                  "sciname": "Thermococcus sp. EP1"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 181.03,
+                  "score": 458,
+                  "evalue": 1.0379e-54,
+                  "identity": 93,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDDGITGIFTGERVAKFSPIIEANGSIDELSSFLGEAKHYVDEDLKKLLEELQIELYSLMADIGSKGEYKKIGEKDIARLEELIKKFESEVELKGFVIPGSTIGSAKLDICRTISRRAERKVAKLVSEYGIGHAVMKYLNRLSDLLFIMARYVEWKEGKIKYVK",
+                  "midline": "M ITTK GD G T +F GE V K  PIIEANG++DEL+SF+GEAKHYVDE++K +LEE+Q ++Y +M +IGSKG+ + I E+ I  L  LI+++   V    FV+PG T+ SAKLD+CRTI+RRAERKVA ++ E+GIG     YL  LS LLF++AR +E ++ K+K V+"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_297488361.1|",
+                  "accession": "WP_297488361",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.022,
+                  "score": 445,
+                  "evalue": 1.17418e-52,
+                  "identity": 90,
+                  "positive": 118,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDKGMTGLFTGERVAKFSAIMEANGTIDELDSFLGEAKHQLPEDMAGIIEKLQVKLYDLMAEVASRGKLDKVKGEDIKWLEDLIGKYESEVTLEGFVIPGSTPASAKLDVCRAVARRAERMVSRLVLEHGFGHSALVYLNRLSDLLFLMARYVELREGKIRYAR",
+                  "midline": "M ITTK GDKG T LF GE V K   I+EANGT+DEL SF+GEAKH + E+M GI+E++Q  +Y +M E+ S+GK++ +  E IKWL  LI +Y   V    FV+PG T  SAKLDVCR +ARRAER V+ ++ E G G  A +YL  LS LLFL+AR +E+ + K++  R"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_297071713.1|",
+                  "accession": "WP_297071713",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 171.4,
+                  "score": 433,
+                  "evalue": 8.20185e-51,
+                  "identity": 100,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKAGDKGLTALFTGDRVVKFSPIVEANGTLDELDSFIGEAKHHVPGEMVEVLERIQVQLYDLMAELASRGKYTKVGEEETKWLEGLIHRYEADVQLRAFVLPGSTVGSAKLDVCRAVARRAERRVARLVLDYGFGNNALVYLNRLSDLLFIMARVIENREGKVKEVR",
+                  "midline": "M ITTK GDKG T LF G+ V K  PI+EANGTLDEL SFIGEAKH+V  EM  +LE IQ  +Y +M E+ S+GK   + EE  KWL GLI RY   V   +FVLPG T+ SAKLDVCR +ARRAER+VA ++ ++G G  A +YL  LS LLF++ARVIE  + K+KEVR"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_058946116.1|",
+                  "accession": "WP_058946116",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp. 2319x1]",
+                  "taxid": 1674923,
+                  "sciname": "Thermococcus sp. 2319x1"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 171.014,
+                  "score": 432,
+                  "evalue": 1.21491e-50,
+                  "identity": 86,
+                  "positive": 116,
+                  "query_from": 15,
+                  "query_to": 171,
+                  "hit_from": 15,
+                  "hit_to": 171,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "IFTGERIAKFSPIIEANGTIDELSSFLGEAKHYLDEEFKEILEKIQIELYSLMAEIASKGEYKKVGEEEIRYLEELIEKFEREVKLEGFVVPGSTIASAKLDVCRTIARRAERRVSKVVLEYGTAKDVLRYLNRLSDLLFIMARYIELKEGKIKYVK",
+                  "midline": "+F GE + K  PIIEANGT+DEL+SF+GEAKHY+DEE K ILE+IQ ++Y +M EI SKG+ + + EE I++L  LIE++   V    FV+PG T+ SAKLDVCRTIARRAER+V+ V+ E+G       YL  LS LLF++AR IE+++ K+K V+"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_055428813.1|",
+                  "accession": "WP_055428813",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus thioreducens]",
+                  "taxid": 277988,
+                  "sciname": "Thermococcus thioreducens"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 167.933,
+                  "score": 424,
+                  "evalue": 2.05096e-49,
+                  "identity": 96,
+                  "positive": 124,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MPITTKTGDRGLTGLFTGDRVAKFSPIMDANGTIDELDSFLGEAKHYVPEEMVEILEKIQVQLYDLMAELASKGKYQKVGEEEVKWLEELIKKYEGEFQMRAFVLPGSTIASAKLDICRAIARRAERRVAKLVLDYGFGNNALVYLNRLSDLLFIMARAIEKREGKLKEVK",
+                  "midline": "M ITTK GD+G T LF G+ V K  PI++ANGT+DEL SF+GEAKHYV EEM  ILE+IQ  +Y +M E+ SKGK + + EE +KWL  LI++Y       +FVLPG T+ SAKLD+CR IARRAER+VA ++ ++G G  A +YL  LS LLF++AR IE  + KLKEV+"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_048165264.1|",
+                  "accession": "WP_048165264",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Palaeococcus pacificus]",
+                  "taxid": 971279,
+                  "sciname": "Palaeococcus pacificus"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 167.548,
+                  "score": 423,
+                  "evalue": 2.65627e-49,
+                  "identity": 85,
+                  "positive": 114,
+                  "query_from": 15,
+                  "query_to": 168,
+                  "hit_from": 15,
+                  "hit_to": 169,
+                  "align_len": 155,
+                  "gaps": 1,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "IFTGERLTKFSPIVEANGTIDELSAFIGEAKHYVEDEELKEILEKLQVELYSLMAEIASKGEYKKVGKEEVKWMENLIHKFEGQVKIEGFVIPGSTVASAKLDICRTIARRAERKVARVFLEYGIGEDALKYLNRLSDLLFVMARYVEWKDGKIK",
+                  "midline": "+F GE + K  PI+EANGT+DEL++FIGEAKHYV DEE+K ILE++Q ++Y +M EI SKG+ + + +E +KW+  LI ++   V    FV+PG T+ SAKLD+CRTIARRAERKVA V  E+GIG  A  YL  LS LLF++AR +E +  K+K"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_048148289.1|",
+                  "accession": "WP_048148289",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Palaeococcus ferrophilus]",
+                  "taxid": 83868,
+                  "sciname": "Palaeococcus ferrophilus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 164.851,
+                  "score": 416,
+                  "evalue": 2.54906e-48,
+                  "identity": 83,
+                  "positive": 108,
+                  "query_from": 15,
+                  "query_to": 167,
+                  "hit_from": 15,
+                  "hit_to": 167,
+                  "align_len": 153,
+                  "gaps": 0,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "IFTGERVAKISPIIEANGTIDELGSFIGEAKHHVDDELRETLETIQRHLYSLMAEIASKGQYKKVGEEEVRWLEELTARFEEEVKLEGFVLPGSTVASAKLDVCRTVARRAERRVAKLVLEYGFGEGVLVYLNRLSDALFMMARYIEWREGKI",
+                  "midline": "+F GE V K  PIIEANGT+DEL SFIGEAKH+VD+E++  LE IQ  +Y +M EI SKG+ + + EE ++WL  L  R+ E V    FVLPG T+ SAKLDVCRT+ARRAER+VA ++ E+G G    +YL  LS  LF++AR IE  + K+"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_297189001.1|",
+                  "accession": "WP_297189001",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 163.31,
+                  "score": 412,
+                  "evalue": 1.26671e-47,
+                  "identity": 82,
+                  "positive": 113,
+                  "query_from": 15,
+                  "query_to": 168,
+                  "hit_from": 15,
+                  "hit_to": 168,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "IFTGDRIAKFSPIIEANGTIDELSSFLGEAKHYVDEELGEVLENIQMELYSLMTEIASKGEYKKVGEKEIARLEELIKKFEREVKLEGFVIPGSTIASAKLDVCRAIARRAERKVAKLVLEYGIGEISLKYLNRLSDLLFMMGRYIELKEGKIK",
+                  "midline": "+F G+ + K  PIIEANGT+DEL+SF+GEAKHYVDEE+  +LE IQ ++Y +M EI SKG+ + + E+ I  L  LI+++   V    FV+PG T+ SAKLDVCR IARRAERKVA ++ E+GIG ++  YL  LS LLF++ R IE+++ K+K"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_253304314.1|",
+                  "accession": "WP_253304314",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus aggregans]",
+                  "taxid": 110163,
+                  "sciname": "Thermococcus aggregans"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 162.155,
+                  "score": 409,
+                  "evalue": 3.53072e-47,
+                  "identity": 83,
+                  "positive": 112,
+                  "query_from": 15,
+                  "query_to": 171,
+                  "hit_from": 15,
+                  "hit_to": 171,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "IFTGERIAKFSPIIEANGAIDELGSFLGEAKHYVDGELREILEKIQVELYSIMAEIASKGEYKKVGEKEISHLEELIKKFEEDIKLEGFVIPGSTLASAKFDVCRAVTRRAERKVSKVVLEYGIAEDALKYLNRLSDLLFVMARYVELKEGKIKYVR",
+                  "midline": "+F GE + K  PIIEANG +DEL SF+GEAKHYVD E++ ILE+IQ ++Y IM EI SKG+ + + E+ I  L  LI+++ E +    FV+PG TL SAK DVCR + RRAERKV+ V+ E+GI   A  YL  LS LLF++AR +E+++ K+K VR"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "tpg|HIP88396.1|",
+                  "accession": "HIP88396",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus paralvinellae]",
+                  "taxid": 582419,
+                  "sciname": "Thermococcus paralvinellae"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 162.155,
+                  "score": 409,
+                  "evalue": 3.55614e-47,
+                  "identity": 80,
+                  "positive": 114,
+                  "query_from": 15,
+                  "query_to": 168,
+                  "hit_from": 15,
+                  "hit_to": 169,
+                  "align_len": 155,
+                  "gaps": 1,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "IFTGDRLAKFSPIIEANGTIDEASSFLGEAKHYVGDDELRAIVEKIQVNLYSLMAEIASKGKYKNIGKEEVEWMESLIKKFESEVQLKALVIPGSTIASAKLDVCRTVVRRAERKVARLVLEYGFGEDALKYLNRLSDLLFIMARYVEWKEGKLK",
+                  "midline": "+F G+ + K  PIIEANGT+DE +SF+GEAKHYV D+E++ I+E+IQ ++Y +M EI SKGK + I +E ++W+  LI+++   V   + V+PG T+ SAKLDVCRT+ RRAERKVA ++ E+G G  A  YL  LS LLF++AR +E ++ KLK"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "dbj|GAB6101877.1|",
+                  "accession": "GAB6101877",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus atlanticus]",
+                  "taxid": 155321,
+                  "sciname": "Thermococcus atlanticus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 160.614,
+                  "score": 405,
+                  "evalue": 1.5555e-46,
+                  "identity": 92,
+                  "positive": 119,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 0,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MRITTKTGDRGMTGLFTGDRVAKFSPIMEANGTIDELDSFLGDAKHYVPEEMAEILEKIQIQLYDLMAELASRGEYSKIGGEEVGWLEGLIHEYEEEVRLKVFVLPGSTPASAKLDICRAVARRAERAVARLVLDYGFGKNTLVYLNRLSDLLFIMARAVEKREGRLREVK",
+                  "midline": "MRITTK GD+G T LF G+ V K  PI+EANGT+DEL SF+G+AKHYV EEM  ILE+IQ  +Y +M E+ S+G+   I  E + WL GLI  Y E V    FVLPG T  SAKLD+CR +ARRAER VA ++ ++G G    +YL  LS LLF++AR +E  + +L+EV+"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "gb|AAL81103.1|",
+                  "accession": "AAL81103",
+                  "title": "hypothetical protein PF0979 [Pyrococcus furiosus DSM 3638]",
+                  "taxid": 186497,
+                  "sciname": "Pyrococcus furiosus DSM 3638"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.532,
+                  "score": 397,
+                  "evalue": 5.63056e-46,
+                  "identity": 76,
+                  "positive": 103,
+                  "query_from": 48,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 124,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "VDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MDKEFQQIIDKIQEDLYKIMGEIGSKGKIQGISKEDVEWIESLIKTYVEKIEIRSFVLPGSTLSSAKLDICRTIARRAERRLATVLREYGLGKLSLIYVNRLSDLLYLMARYIEIKEGKLREVK",
+                  "midline": "+D+E + I+++IQ D+YKIMGEIGSKGKI+GIS+E ++W+  LI+ Y E +   SFVLPG TL SAKLD+CRTIARRAER++ATVLRE+G+G L+ IY+  LS LL+L+AR IEI++ KL+EV+"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_297183429.1|",
+                  "accession": "WP_297183429",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase, partial [Thermococcus sp.]",
+                  "taxid": 35749,
+                  "sciname": "Thermococcus sp."
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.532,
+                  "score": 397,
+                  "evalue": 1.16855e-45,
+                  "identity": 79,
+                  "positive": 107,
+                  "query_from": 25,
+                  "query_to": 168,
+                  "hit_from": 1,
+                  "hit_to": 144,
+                  "align_len": 144,
+                  "gaps": 0,
+                  "qseq": "DPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "SPIIEANGTIDELSSFLGEAKHYVDEELGEVLENIQMELYSLMTEIASKGEYKKVGEKEIARLEELIKKFEREVKLEGFVIPGSTIASAKLDVCRAIARRAERKVAKLVLEYGIGEISLKYLNRLSDLLFMMGRYIELKEGKIK",
+                  "midline": " PIIEANGT+DEL+SF+GEAKHYVDEE+  +LE IQ ++Y +M EI SKG+ + + E+ I  L  LI+++   V    FV+PG T+ SAKLDVCR IARRAERKVA ++ E+GIG ++  YL  LS LLF++ R IE+++ K+K"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "tpg|HHI01311.1|",
+                  "accession": "HHI01311",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus litoralis]",
+                  "taxid": 2265,
+                  "sciname": "Thermococcus litoralis"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.532,
+                  "score": 397,
+                  "evalue": 1.75648e-45,
+                  "identity": 88,
+                  "positive": 120,
+                  "query_from": 15,
+                  "query_to": 171,
+                  "hit_from": 13,
+                  "hit_to": 169,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "IFTGDRISKFSPIIEANGTIDELSSFLGEAKHYVDEELKGILEKIQVELYSLMAEIASKGEYKKIGEKEISYLEGLIKKFEENVKLEGFVIPGSTVASAKLDVCRAIARRAERRVSKVVLEYGIAKDALRYLNRLSDLLFVMARYVELKEGKIRYVR",
+                  "midline": "+F G+ + K  PIIEANGT+DEL+SF+GEAKHYVDEE+KGILE+IQ ++Y +M EI SKG+ + I E+ I +L GLI+++ E V    FV+PG T+ SAKLDVCR IARRAER+V+ V+ E+GI   A  YL  LS LLF++AR +E+++ K++ VR"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_167885442.1|",
+                  "accession": "WP_167885442",
+                  "title": "MULTISPECIES: cob(I)yrinic acid a,c-diamide adenosyltransferase [unclassified Thermococcus]",
+                  "taxid": 2627626,
+                  "sciname": "unclassified Thermococcus"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 157.532,
+                  "score": 397,
+                  "evalue": 2.52345e-45,
+                  "identity": 86,
+                  "positive": 114,
+                  "query_from": 15,
+                  "query_to": 172,
+                  "hit_from": 15,
+                  "hit_to": 173,
+                  "align_len": 159,
+                  "gaps": 1,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRS",
+                  "hseq": "IFTGERLAKFSPIIEANGAIDEASSFLGEAKHYIGDEELRAIVEKIQVDLYSLMAEIASKGKYKKIREREIEEIEGLIKKFEEEVQLKSFVIPGSTIASAKLDVCRAVVRRAERKVARLLLEYGFGEDALKYLNRLGDLLFIMARYIEWKEGKLKYAKS",
+                  "midline": "+F GE + K  PIIEANG +DE +SF+GEAKHY+ DEE++ I+E+IQ D+Y +M EI SKGK + I E  I+ + GLI+++ E V   SFV+PG T+ SAKLDVCR + RRAERKVA +L E+G G  A  YL  L  LLF++AR IE ++ KLK  +S"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_152881273.1|",
+                  "accession": "WP_152881273",
+                  "title": "MULTISPECIES: cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermococcus]",
+                  "taxid": 2263,
+                  "sciname": "Thermococcus"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 151.754,
+                  "score": 382,
+                  "evalue": 4.63014e-43,
+                  "identity": 86,
+                  "positive": 115,
+                  "query_from": 15,
+                  "query_to": 168,
+                  "hit_from": 15,
+                  "hit_to": 168,
+                  "align_len": 154,
+                  "gaps": 0,
+                  "qseq": "LFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "IFTGERIVKFAPIIEANGTIDELSSFLGEAKHYLDEELKELLEKIQVELYSLMAEIASKGEYKKIGEEEIRHLEGLIKKFEGEVKLEGFVVPGATLGSAKLDVCRAVARRAERKVAKVVLEYGIGEDVLKYLNRLGDLLFIMARYVELKEGKIK",
+                  "midline": "+F GE + K  PIIEANGT+DEL+SF+GEAKHY+DEE+K +LE+IQ ++Y +M EI SKG+ + I EE I+ L GLI+++   V    FV+PG TL SAKLDVCR +ARRAERKVA V+ E+GIG     YL  L  LLF++AR +E+++ K+K"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "ref|WP_113074659.1|",
+                  "accession": "WP_113074659",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Petrotoga sp. 9PW.55.5.1]",
+                  "taxid": 1308979,
+                  "sciname": "Petrotoga sp. 9PW.55.5.1"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 150.599,
+                  "score": 379,
+                  "evalue": 1.51889e-42,
+                  "identity": 78,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 164,
+                  "align_len": 164,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "MSITTKTGDKGETSLWSGERISKDSIRVEAYGTIDELNSFISEASHYLKSSESKKILKEVQNDLFKVAGQLASKSRNYIHPVSEEDVQRITKYIENFEKRINLKGFVIPGKTLQSSKLDVCRAITRRAERRIITLDKNEKVSEQLKKYMNRLSDLLFILARLEE",
+                  "midline": "M ITTK GDKG T L+ GE + KD   +EA GT+DEL SFI EA HY+   E K IL+E+QND++K+ G++ SK +  I  +SEE ++ +   IE + + +N   FV+PG TL+S+KLDVCR I RRAER++ T+ +   +      Y+  LS LLF+LAR+ E"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gb|MEN6514834.1|",
+                  "accession": "MEN6514834",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Fervidobacterium sp.]",
+                  "taxid": 1871331,
+                  "sciname": "Fervidobacterium sp."
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 149.058,
+                  "score": 375,
+                  "evalue": 4.98861e-42,
+                  "identity": 87,
+                  "positive": 115,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 173,
+                  "gaps": 5,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKTGDSGETSLANGERVLKDSIRVQAYGTVDELNSFLGLAKHYLPEKEKKIVEEIQKTLFRLAAEL-AKGENFVRLISEEEIDKLTDIIHDYEKLVNLSSFALPGGTIASAHLDVCRTIARRAERLVVTLSREERIRPEVIKYLNRISDLLYIMARFVEGE--KIQEIR",
+                  "midline": "M ITTK GD G T L  GE V KD   ++A GT+DEL SF+G AKHY+ E+ K I+EEIQ  ++++  E+ +KG+  +  ISEE I  L  +I  Y ++VN  SF LPGGT+ SA LDVCRTIARRAER V T+ RE  I      YL  +S LL+++AR +E E  K++E+R"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "ref|WP_109603701.1|",
+                  "accession": "WP_109603701",
+                  "title": "MULTISPECIES: cob(I)yrinic acid a,c-diamide adenosyltransferase [Oceanotoga]",
+                  "taxid": 1255275,
+                  "sciname": "Oceanotoga"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 148.288,
+                  "score": 373,
+                  "evalue": 1.05441e-41,
+                  "identity": 78,
+                  "positive": 115,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTKKGDKGQTSLWSGERVWKDDIRVESYGTIDELNSHIGESKHYVKSHEIKEILIDIQNDLFRVAGQLASKDKLYVKPIEESDVEKITQYVYKYETRLNLKGFVIPGNTIQSSKLDVCRTIARRAERRIISLSKVSQVPEQLNKYVNRLSDLLFIIARFEEHLEDKL",
+                  "midline": "M I+TK GDKG T L+ GE VWKDD  +E+ GT+DEL S IGE+KHYV   E+K IL +IQND++++ G++ SK K  ++ I E  ++ +   + +Y   +N   FV+PG T++S+KLDVCRTIARRAER++ ++ +   +      Y+  LS LLF++AR  E  ++KL"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|NLJ08393.1|",
+                  "accession": "NLJ08393",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Sphingobacteriales bacterium]",
+                  "taxid": 2044944,
+                  "sciname": "Sphingobacteriales bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.132,
+                  "score": 370,
+                  "evalue": 2.64462e-41,
+                  "identity": 77,
+                  "positive": 113,
+                  "query_from": 1,
+                  "query_to": 168,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "MSISTKSGDKGQTGLWSGERVWKDDLRVEAYGTVDELNSFLGEAKHFTDDNQIFAQIEQIQNDLFRVAGQLASKDKLYVVPMKEEDTERLTEWVHDYEKRIKLSGFVIPGSTLSSAKLDICRTITRRAERIIISLKKNEDIPDHILQYMNRLSDLLFMMARSEEQKENKIQ",
+                  "midline": "M I+TK GDKG T L+ GE VWKDD  +EA GT+DEL SF+GEAKH+ D+ ++   +E+IQND++++ G++ SK K  +  + EE  + L   +  Y + +    FV+PG TL SAKLD+CRTI RRAER + ++ +   I      Y+  LS LLF++AR  E ++NK++"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gb|MBW6514949.1|",
+                  "accession": "MBW6514949",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Syntrophosphaera sp.]",
+                  "taxid": 2819277,
+                  "sciname": "Candidatus Syntrophosphaera sp."
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.976,
+                  "score": 367,
+                  "evalue": 8.08712e-41,
+                  "identity": 76,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 168,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKG--KIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "MGISTKTGDSGQTSLYSGERVWKDDPRVDAYGSLDELDAHIGEARHYVNDPGARDILEDVQEKLYRVMGTLASKSGDYPHSVTNADVEQLTALITRLEEKTPLKGFVLPGSLPSSAKLDICRTIARRAERHVVTLSRSEQVAPQLMQFVNRLSDLFFILARSLEAAEGAIR",
+                  "midline": "M I+TK GD G T L+ GE VWKDDP ++A G+LDEL + IGEA+HYV D   + ILE++Q  +Y++MG + SK       ++   ++ L  LI R  E      FVLPG    SAKLD+CRTIARRAER V T+ R   +      ++  LS L F+LAR +E  +  ++"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|MDZ4122288.1|",
+                  "accession": "MDZ4122288",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadaceae bacterium]",
+                  "taxid": 3064664,
+                  "sciname": "Candidatus Cloacimonadaceae bacterium"
+                }
+              ],
+              "len": 184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 1.59317e-40,
+                  "identity": 77,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKTGDKGQTSLWSGERVWKDDLRVDAYGSLDELDAHIGEAKHFVKEPELQQLLIDLQNKLYRVMGQLASKSKEYVIPICQSDADQLTVIIQKYEEIVQLKGFVVPGSILASAKLDICRTIARRAERRLIALSKTETIAPALLEFCNRLSDFFFILARYTEYLENAI",
+                  "midline": "M ITTK GDKG T L+ GE VWKDD  ++A G+LDEL + IGEAKH+V E E++ +L ++QN +Y++MG++ SK K  +  I +     L  +I++Y E+V    FV+PG  L SAKLD+CRTIARRAER++  + +   I      +   LS   F+LAR  E  +N +"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "tpg|HOB16426.1|",
+                  "accession": "HOB16426",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Defluviitoga sp.]",
+                  "taxid": 2969823,
+                  "sciname": "Defluviitoga sp."
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 2.2434e-40,
+                  "identity": 76,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVD-EEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSISTKTGDNGETFLWSGERISKDDLRVESYGTIDELNAFISEAKHYVNSQEVKKILNEIQNDLFRLGGELASKDKQYPHPIEEADVERITNYVEQFEKRVKLKGFVVPGSTIQSSKLEICRTVARRAERRIISLDKKEPVSPIIKKYINRLSDLLFLMARFEEYLLNKIEYKR",
+                  "midline": "M I+TK GD G T L+ GE + KDD  +E+ GT+DEL +FI EAKHYV+ +E+K IL EIQND++++ GE+ SK K     I E  ++ +   +E++ + V    FV+PG T++S+KL++CRT+ARRAER++ ++ ++  +  +   Y+  LS LLFL+AR  E   NK++  R"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "tpg|HOA29040.1|",
+                  "accession": "HOA29040",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.821,
+                  "score": 364,
+                  "evalue": 2.65956e-40,
+                  "identity": 77,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 170,
+                  "hit_from": 1,
+                  "hit_to": 173,
+                  "align_len": 173,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGS--KGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEV",
+                  "hseq": "MSITTKGGDKGQTSLYSGQRVWKDDLRVDAYGTLDELDALIGESRHHIASEEIKQILSGIQKNLYRVMGQLATLDTSYPYPICASEVEEITTLIRDYEAKLNLIGFVIPGTTIPSAKLDICRTVARRAERRVVALEHAEQVAPELLGYVNRLSDLFFILARTIEFEMSKLEYV",
+                  "midline": "M ITTK GDKG T L+ G+ VWKDD  ++A GTLDEL + IGE++H++  EE+K IL  IQ ++Y++MG++ +        I    ++ +  LI  Y   +N + FV+PG T+ SAKLD+CRT+ARRAER+V  +     +      Y+  LS L F+LAR IE E +KL+ V"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_012744956.1|",
+                  "accession": "WP_012744956",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Kosmotoga olearia]",
+                  "taxid": 651457,
+                  "sciname": "Kosmotoga olearia"
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.436,
+                  "score": 363,
+                  "evalue": 3.15217e-40,
+                  "identity": 79,
+                  "positive": 111,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTGGGDKGETSLWSGERVSKDDLRVEAYGTIDELNSHIGEARHYCKSKETKELLLRIQNDLFKVAGQLASKGKLFIEPITETDVQWLTEKVHHYEKIIKLKGFVISGTTIQSAKLDICRTVARRAERRIVSLCKTEEIANELLKYMNRLSDFLFILARFEEHLEGKL",
+                  "midline": "M I+T  GDKG T L+ GE V KDD  +EA GT+DEL S IGEA+HY   +E K +L  IQND++K+ G++ SKGK  IE I+E  ++WL   +  Y +++    FV+ G T++SAKLD+CRT+ARRAER++ ++ +   I      Y+  LS  LF+LAR  E  + KL"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_280999806.1|",
+                  "accession": "WP_280999806",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Marinitoga aeolica]",
+                  "taxid": 2809031,
+                  "sciname": "Marinitoga aeolica"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.436,
+                  "score": 363,
+                  "evalue": 3.46639e-40,
+                  "identity": 79,
+                  "positive": 113,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTGGGDKGKTSLWSGERVSKDDLRVEAYGTIDELSSFLGEAKHYVKSYKVKNIINMIQNDLFKVAGELASKNKDFLYRINDEDVEQITQFVKFFEKRINLKGFVLTGNTIESAKLDVCRTIVRRAERRIVSLSKNADISEPLLKYINRLSDLLFVMARYEEYLINKI",
+                  "midline": "M I+T  GDKG T L+ GE V KDD  +EA GT+DEL+SF+GEAKHYV   ++K I+  IQND++K+ GE+ SK K  +  I++E ++ +   ++ + + +N   FVL G T+ESAKLDVCRTI RRAER++ ++ +   I      Y+  LS LLF++AR  E   NK+"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gb|MDD4309046.1|",
+                  "accession": "MDD4309046",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 4.78434e-40,
+                  "identity": 78,
+                  "positive": 105,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEE-MKGILEEIQNDIYKIMGEIG--SKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDKGKTSLYSGERIWKDDLRVDAYGSLDELDANLGEAKHLVDNPAIYDILISVQNTLYRVMGQLATISSEYPYPLCESDAEGITGIIHDYETRVQLTGFVIPGSTLPSAKLDICRTVARRAERRVIALSRTETVSPYLLSYVNRLSDLFFILARSVEHEKGKL",
+                  "midline": "M ITTK GDKG T L+ GE +WKDD  ++A G+LDEL + +GEAKH VD   +  IL  +QN +Y++MG++   S      + E   + + G+I  Y   V    FV+PG TL SAKLD+CRT+ARRAER+V  + R   +      Y+  LS L F+LAR +E EK KL"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_045087660.1|",
+                  "accession": "WP_045087660",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Defluviitoga tunisiensis]",
+                  "taxid": 1006576,
+                  "sciname": "Defluviitoga tunisiensis"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 4.90957e-40,
+                  "identity": 75,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVD-EEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSIYTKTGDSGETALWSGERVSKDDLRVESYGTIDELSAFISEATHYVNSQEIRKILKELQNDLFKVGGELASKGKQYIHPIEESDVERITNYVDYFEKRIQLKSFVIQGSTPQSSKLDICRTIARRAERRIISLDKKETVSPTIKKYINRLSDLLYVMARFEEFLQNKIEYKR",
+                  "midline": "M I TK GD G T L+ GE V KDD  +E+ GT+DEL++FI EA HYV+ +E++ IL+E+QND++K+ GE+ SKGK  I  I E  ++ +   ++ + + +   SFV+ G T +S+KLD+CRTIARRAER++ ++ ++  +      Y+  LS LL+++AR  E  +NK++  R"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gb|MBL6964161.1|",
+                  "accession": "MBL6964161",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Bacteroidota bacterium]",
+                  "taxid": 1898104,
+                  "sciname": "Bacteroidota bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 7.87576e-40,
+                  "identity": 82,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 174,
+                  "hit_from": 1,
+                  "hit_to": 177,
+                  "align_len": 179,
+                  "gaps": 7,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGI---LEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRSHH",
+                  "hseq": "MSISTKSGDKGKTGLWSGERVWKNNERVEAYGTIDELNSFIGEAKHFV--ETKSIFSQLEEIQNDLFRLAGQLASKDKLFVEPLLDVDVEKLTAWVHAYEKEVILDGFVIPGSTLSSAKLDICRTIARRAERVIIGLQQNEDIPEILIQYINRLSDLLYIMARKEEQLKDKIQKKKWDH",
+                  "midline": "M I+TK GDKG T L+ GE VWK++  +EA GT+DEL SFIGEAKH+V  E K I   LEEIQND++++ G++ SK K  +E + +  ++ L   +  Y + V    FV+PG TL SAKLD+CRTIARRAER +  + +   I  +   Y+  LS LL+++AR  E  K+K+++ +  H"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gb|MCB5267120.1|",
+                  "accession": "MCB5267120",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 143.665,
+                  "score": 361,
+                  "evalue": 8.18839e-40,
+                  "identity": 75,
+                  "positive": 111,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGKIEG--ISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDQGQTSLYSGERVLKSDLRVDAYGTLDELDAFIGEAKHHVDDDEVFKLLLDTQNRLYRVMGELATPSQVYPMPICDSEVEQITAVIHRFEQKVNLKGFVIPGSCLGSAKLDICRTIARRAERRVIALAQEAEVPEPLRKYVNRLSDFFYILARYIEVKQGLL",
+                  "midline": "M ITTK GD+G T L+ GE V K D  ++A GTLDEL +FIGEAKH+VD+ E+  +L + QN +Y++MGE+ +  ++    I +  ++ +  +I R+ + VN   FV+PG  L SAKLD+CRTIARRAER+V  + +E  +      Y+  LS   ++LAR IE+++  L"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_047267841.1|",
+                  "accession": "WP_047267841",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Marinitoga sp. 1197]",
+                  "taxid": 1428449,
+                  "sciname": "Marinitoga sp. 1197"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 1.17198e-39,
+                  "identity": 82,
+                  "positive": 113,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTGGGDKGKTSLWSGERVPKNDLRVEAYGTIDELSAHLGEAKHYVKSYKVKNIINEIQNDLFKVAGELASKNKNFIQPITKEDGEKLTKYIKNFEEKVKLNGFVITGSTIESAKLDICRTIARRAERRIICVNDEDKVSEELLIYMNRLSDLLFIMARYEEFLINKI",
+                  "midline": "M I+T  GDKG T L+ GE V K+D  +EA GT+DEL++ +GEAKHYV   ++K I+ EIQND++K+ GE+ SK K  I+ I++E  + L   I+ + E V    FV+ G T+ESAKLD+CRTIARRAER++  V  E  +     IY+  LS LLF++AR  E   NK+"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gb|MBT4970000.1|",
+                  "accession": "MBT4970000",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Bacteroidota bacterium]",
+                  "taxid": 1898104,
+                  "sciname": "Bacteroidota bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.895,
+                  "score": 359,
+                  "evalue": 1.46378e-39,
+                  "identity": 77,
+                  "positive": 107,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 161,
+                  "align_len": 163,
+                  "gaps": 7,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEI---QNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLAR",
+                  "hseq": "MSISTKSGDKGKTGLWSGERVWKNNERVEAYGTIDELNSFLGEAKHYV--ETKTIFEQIEIIQNDLFRVAGQLASKDKLFVEPIEEDDVETITNWVHLFEKEVKLTGFVIPGSTLSSAKLDICRTIARRAERVIIGIQQNESIPENLIQYVNRLSDLLFIMAR",
+                  "midline": "M I+TK GDKG T L+ GE VWK++  +EA GT+DEL SF+GEAKHYV  E K I E+I   QND++++ G++ SK K  +E I E+ ++ +   +  + + V    FV+PG TL SAKLD+CRTIARRAER +  + +   I      Y+  LS LLF++AR"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_121957364.1|",
+                  "accession": "WP_121957364",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Petrotoga sp. 9PWA.NaAc.5.4]",
+                  "taxid": 1434328,
+                  "sciname": "Petrotoga sp. 9PWA.NaAc.5.4"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.51,
+                  "score": 358,
+                  "evalue": 2.15477e-39,
+                  "identity": 79,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 164,
+                  "align_len": 167,
+                  "gaps": 9,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGK-----IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "MSISTKAGDKGETSLWSGERVPKDNIRVEAYGTIDELNAFLSDAKHYVKSQKVQQILKEVQNDLFKIAGELASKSKSYVHPIEEIDVERI---TNYVYGFEGELNLKGFVIPGNTLQSSKLDICRTIARRAERRIITLDRNEKVSETLKKYINRLSDLLFIMARFEE",
+                  "midline": "M I+TK GDKG T L+ GE V KD+  +EA GT+DEL +F+ +AKHYV  ++++ IL+E+QND++KI GE+ SK K     IE I  ERI      +  +   +N   FV+PG TL+S+KLD+CRTIARRAER++ T+ R   +      Y+  LS LLF++AR  E"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_014296011.1|",
+                  "accession": "WP_014296011",
+                  "title": "MULTISPECIES: cob(I)yrinic acid a,c-diamide adenosyltransferase [Marinitoga]",
+                  "taxid": 160798,
+                  "sciname": "Marinitoga"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.124,
+                  "score": 357,
+                  "evalue": 2.3252e-39,
+                  "identity": 73,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTGGGDKGQTSLWSGERVDKDDARVEAYGTIDELSSFLGEAKHYVKSYKVKDIIHKVQDNLFRVAGELASESKLFVQPITKEDVDEITKLVHYFEDAVQLKGFVIPGTTIQSAKLDICRTIARRAERRIITLSKKNKVNEYLIKYVNRLSDLLFIMARFEEYIEDKI",
+                  "midline": "M I+T  GDKG T L+ GE V KDD  +EA GT+DEL+SF+GEAKHYV   ++K I+ ++Q++++++ GE+ S+ K  ++ I++E +  +  L+  + + V    FV+PG T++SAKLD+CRTIARRAER++ T+ ++  +      Y+  LS LLF++AR  E  ++K+"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_205100421.1|",
+                  "accession": "WP_205100421",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Marinitoga litoralis]",
+                  "taxid": 570855,
+                  "sciname": "Marinitoga litoralis"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.124,
+                  "score": 357,
+                  "evalue": 2.48196e-39,
+                  "identity": 76,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 1,
+                  "hit_to": 161,
+                  "align_len": 161,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLAR",
+                  "hseq": "MSISTGGGDKGNTSLWSGERVSKDDIRVESYGTIDELNSFLGEAKHYVKSYEVKNIINEVQNDLFKVAGELASKDKTYIKPIESSDVERITEYVKNFESKMNLTGFVITGSTIESAKLDICRTIARRAERRIVTLSKIEKISEHLLKYVNRLSDLLFIMAR",
+                  "midline": "M I+T  GDKG+T L+ GE V KDD  +E+ GT+DEL SF+GEAKHYV   E+K I+ E+QND++K+ GE+ SK K  I+ I    ++ +   ++ +   +N   FV+ G T+ESAKLD+CRTIARRAER++ T+ +   I      Y+  LS LLF++AR"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|MBP7117610.1|",
+                  "accession": "MBP7117610",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.124,
+                  "score": 357,
+                  "evalue": 3.59069e-39,
+                  "identity": 77,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDKGQTSLYSGERVMKSDLRVDSYGTLDELDAFIGEAKHYVEDEEVYHLLISTQNKLYRVMGQLATPSKEYPMPVCESEVDEITQTIRDYEAKVDLKGFVIPGSCLASAKLDICRTIARRAERRVIALSEHAGVPETLMKYVNRLSDFFYILARYIEVKKGVL",
+                  "midline": "M ITTK GDKG T L+ GE V K D  +++ GTLDEL +FIGEAKHYV DEE+  +L   QN +Y++MG++ +  K     + E  +  +   I  Y   V+   FV+PG  L SAKLD+CRTIARRAER+V  +    G+      Y+  LS   ++LAR IE++K  L"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "dbj|GAB6188328.1|",
+                  "accession": "GAB6188328",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Marinitoga arctica]",
+                  "taxid": 1862713,
+                  "sciname": "Marinitoga arctica"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 141.354,
+                  "score": 355,
+                  "evalue": 4.92373e-39,
+                  "identity": 72,
+                  "positive": 111,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 164,
+                  "align_len": 164,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGKI--EGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "MSISTGGGDKGKTSLWSGERIDKDDIRVESYGTIDELSSFLGEAKHYVKSYKVKNIIDEIQNDLFRVAGELASKGKVFVKPIKKDDVDRLTKYVNFFENIIQLKGFVITGNTLQSAKLDICRTIARRAERRITSLSKHESVNEYLKKYVNRLSDLLYIMARFEE",
+                  "midline": "M I+T  GDKG T L+ GE + KDD  +E+ GT+DEL+SF+GEAKHYV   ++K I++EIQND++++ GE+ SKGK+  + I ++ +  L   +  +  ++    FV+ G TL+SAKLD+CRTIARRAER++ ++ +   +      Y+  LS LL+++AR  E"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "dbj|BGS18764.1|",
+                  "accession": "BGS18764",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Marinitoga okinawensis]",
+                  "taxid": 389480,
+                  "sciname": "Marinitoga okinawensis"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.969,
+                  "score": 354,
+                  "evalue": 7.44252e-39,
+                  "identity": 79,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTGGGDKGKTSLWSGERVYKDSLRVEAYGTIDELSSFLGEAKHYVKSFEVKKIINEIQNDLFKVAGILASKNKEFIQPIETLDVDKITNYINLFENKIGLKGFVIPGNTIESAKLDICRTISRRAERRIITLSKEEKLPVELLKYINRLSDLLFIMARYEEYLINKI",
+                  "midline": "M I+T  GDKG T L+ GE V+KD   +EA GT+DEL+SF+GEAKHYV   E+K I+ EIQND++K+ G + SK K  I+ I    +  +   I  +   +    FV+PG T+ESAKLD+CRTI+RRAER++ T+ +E  +      Y+  LS LLF++AR  E   NK+"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "tpg|HPT71932.1|",
+                  "accession": "HPT71932",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.969,
+                  "score": 354,
+                  "evalue": 7.66526e-39,
+                  "identity": 77,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVD-EEMKGILEEIQNDIYKIMGEIGSK--GKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSITTKKGDGGITSLWSGEKVWKSDARVEAYGTLDELDAHIGDARHYIQLEEIKSILVQIQGDLYHIMGELASTDISYPVPIRMEEVNRLTDIVHRYEDHLQLQGFVIPGNTISSAKLDICRTITRRAERRIVALKQNTQLPDEILLYVNRLSDVFFILARAEEKHLGKLEYIK",
+                  "midline": "M ITTK GD G T L+ GE+VWK D  +EA GTLDEL + IG+A+HY+  EE+K IL +IQ D+Y IMGE+ S        I  E +  L  ++ RY + +    FV+PG T+ SAKLD+CRTI RRAER++  + +   +     +Y+  LS + F+LAR  E    KL+ ++"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "tpg|HPM04119.1|",
+                  "accession": "HPM04119",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonas sp.]",
+                  "taxid": 2053534,
+                  "sciname": "Candidatus Cloacimonas sp."
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.584,
+                  "score": 353,
+                  "evalue": 1.0715e-38,
+                  "identity": 76,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 170,
+                  "hit_from": 1,
+                  "hit_to": 173,
+                  "align_len": 173,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKG--KIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEV",
+                  "hseq": "MSITTKGGDKGQTSLYTGERVWKDDLRVDAYGSLDELDAFIGEAKHYLENEDLKVILIEVQSKLYRVMGQLSTKNGSYPYPLCSKDLDSITDTIRAFEEKLNLKGFVIPGSCLPSAKLDLCRTVARRAERRIIALSHSEEVAAEVLGYVNRLSDLFFILARTAEQESGVLRYV",
+                  "midline": "M ITTK GDKG T L+ GE VWKDD  ++A G+LDEL +FIGEAKHY+ +E++K IL E+Q+ +Y++MG++ +K       +  + +  +   I  + E +N   FV+PG  L SAKLD+CRT+ARRAER++  +     +      Y+  LS L F+LAR  E E   L+ V"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gb|MCB5249010.1|",
+                  "accession": "MCB5249010",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.584,
+                  "score": 353,
+                  "evalue": 1.18258e-38,
+                  "identity": 75,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSK--GKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDKGNTSLYTGERVLKSDLRVDAYGSLDELDAFIGEAKHHISDVEIKRLLLDTQNRLYRVMGELATPDGSYPMPLCTEEVEAITQTIHRYEERVNLTGFVIPGSCIASARLDICRTIARRAERRVIALSQAADVPPNLLKYVNRLSDFFFILARAIEVQEGVL",
+                  "midline": "M ITTK GDKG+T L+ GE V K D  ++A G+LDEL +FIGEAKH++ D E+K +L + QN +Y++MGE+ +        +  E ++ +   I RY E VN   FV+PG  + SA+LD+CRTIARRAER+V  + +   +      Y+  LS   F+LAR IE+++  L"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gb|MCP5455944.1|",
+                  "accession": "MCP5455944",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermotogota bacterium]",
+                  "taxid": 2053689,
+                  "sciname": "Thermotogota bacterium"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.89557e-38,
+                  "identity": 80,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTKTGDKGQTSLWSGERVDKDSIRVEAYGTIDELNSNIGEAKHYVKSYEVKDILEEIQNDLFRVAGQLASKDKLFVKPIEENDSERLTEYVHFYEDKLKLKGFVIPGNTIQSAKLDISRTISRRAERRIITLSKSENISGSLLKYVNRLSDLLFIIARFEEYLEGKL",
+                  "midline": "M I+TK GDKG T L+ GE V KD   +EA GT+DEL S IGEAKHYV   E+K ILEEIQND++++ G++ SK K  ++ I E   + L   +  Y + +    FV+PG T++SAKLD+ RTI+RRAER++ T+ +   I      Y+  LS LLF++AR  E  + KL"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|MCB5252972.1|",
+                  "accession": "MCB5252972",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 2.89202e-38,
+                  "identity": 75,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 4,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE--EMKGILEEIQNDIYKIMGEIGSK--GKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDKGQTSLYTGERISKSDLRVEAYGTLDELDAFIGEAKHHVSEYQDVSKLLIEIQNRLYRVMGELATPDGSYPKPLCESEVNEITSSIHHYEEKLNLKGFVIPGACLASARLDICRTVARRAERRLTALAQTAEVSPHLQKYVNRLSDLFYILARHIEAQKGLL",
+                  "midline": "M ITTK GDKG T L+ GE + K D  +EA GTLDEL +FIGEAKH+V E  ++  +L EIQN +Y++MGE+ +      + + E  +  +   I  Y E +N   FV+PG  L SA+LD+CRT+ARRAER++  + +   +      Y+  LS L ++LAR IE +K  L"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|WP_245863495.1|",
+                  "accession": "WP_245863495",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Petrotoga halophila]",
+                  "taxid": 301141,
+                  "sciname": "Petrotoga halophila"
+                }
+              ],
+              "len": 189,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 3.62149e-38,
+                  "identity": 75,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 167,
+                  "hit_from": 17,
+                  "hit_to": 184,
+                  "align_len": 168,
+                  "gaps": 3,
+                  "qseq": "ITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGKIE--GISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "ISTKTGDKGETSLWSGERVSKDDIRVEAYGTIDELNSFLSEANYYLKSHEVKKIINEVQNNLFKVAGELASKSKTYKYPIQEEDVLKITNYVHVFENRLNLNSFVIPGRTVQSAKLDICRTIARRAERRIISLDKKEQLSEPLKKYVNRLSDLLFVLARFEEYIEDKI",
+                  "midline": "I+TK GDKG T L+ GE V KDD  +EA GT+DEL SF+ EA +Y+   E+K I+ E+QN+++K+ GE+ SK K     I EE +  +   +  +   +N  SFV+PG T++SAKLD+CRTIARRAER++ ++ ++  +      Y+  LS LLF+LAR  E  ++K+"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gb|MCB5265728.1|",
+                  "accession": "MCB5265728",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 3.79443e-38,
+                  "identity": 76,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 172,
+                  "gaps": 6,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGI---LEEIQNDIYKIMGEIGSK--GKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDKGQTSLYTGDRISKSDPRVEAYGTLDELDAFIGEAKHHVHEDA-GVYKQLIDIQNRLYRVMGELATPDGSYPMPLCESEVEEITACIHHYEEKLNLKGFVIPGACLASARLDICRTVARRAERRLTALAMTTEVSPFLQKYVNRLSDLFYILARHIEDEKGVL",
+                  "midline": "M ITTK GDKG T L+ G+ + K DP +EA GTLDEL +FIGEAKH+V E+  G+   L +IQN +Y++MGE+ +        + E  ++ +   I  Y E +N   FV+PG  L SA+LD+CRT+ARRAER++  +     +      Y+  LS L ++LAR IE EK  L"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "tpg|HOZ00844.1|",
+                  "accession": "HOZ00844",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Syntrophosphaera sp.]",
+                  "taxid": 2819277,
+                  "sciname": "Candidatus Syntrophosphaera sp."
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 3.84613e-38,
+                  "identity": 74,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 171,
+                  "hit_from": 1,
+                  "hit_to": 174,
+                  "align_len": 174,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHY-VDEEMKGILEEIQNDIYKIMGEIGSKGKI--EGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVR",
+                  "hseq": "MSVTTKTGDSGQTSLFSGERVWKDDLRVDAYGALDELDALLGEARHAGPDPDTQAILEGIQNTLYRVMGQLASKNAAYPYPLTQKDVEEITALAAELEEKTPLTGFVLPGSLPASAKLDVCRAVARRAERQAVKLSRAEAVPPEILQYLNRLSDLLFMLARSVEAADGALRYVK",
+                  "midline": "M +TTK GD G T LF GE VWKDD  ++A G LDEL + +GEA+H   D + + ILE IQN +Y++MG++ SK       ++++ ++ +  L     E      FVLPG    SAKLDVCR +ARRAER+   + R   +      YL  LS LLF+LAR +E     L+ V+"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gb|MBP6983813.1|",
+                  "accession": "MBP6983813",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermotogota bacterium]",
+                  "taxid": 2053689,
+                  "sciname": "Thermotogota bacterium"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 5.05013e-38,
+                  "identity": 73,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 164,
+                  "align_len": 164,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVD-EEMKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "MSITTKTGDQGMTSLWSGERVEKDNARVEAYGTIDELNSFVGENRHYCELEEVRTILLRIQRELFQVAGQLASKDKPYLEPITERQVEELTTIVRELEARVPLKGFVIPGSTLSSAKLDICRTVARRAERRIITLAAKEEVPIPVRQYVNRLSDVLFMLARLEE",
+                  "midline": "M ITTK GD+G T L+ GE V KD+  +EA GT+DEL SF+GE +HY + EE++ IL  IQ +++++ G++ SK K  +E I+E +++ L  ++      V    FV+PG TL SAKLD+CRT+ARRAER++ T+  +  +      Y+  LS +LF+LAR+ E"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gb|MDD3234982.1|",
+                  "accession": "MDD3234982",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 6.86897e-38,
+                  "identity": 72,
+                  "positive": 105,
+                  "query_from": 1,
+                  "query_to": 163,
+                  "hit_from": 1,
+                  "hit_to": 166,
+                  "align_len": 166,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEE-MKGILEEIQNDIYKIMGEIGS--KGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIE",
+                  "hseq": "MSITTKGGDKGQTSLYTGERVWKDDARVEAYGSLDELDALIGEAKHHIDNNTIVELLSGIQNNLYRVMGQLATMDASYPYPICAKEVEQITDTIHSYEDKLNLKGFVIPGSSIPSAKLDICRTVARRAERRIIALSHETELAAELHGYVNRLSDLFFILARSVENE",
+                  "midline": "M ITTK GDKG T L+ GE VWKDD  +EA G+LDEL + IGEAKH++D   +  +L  IQN++Y++MG++ +        I  + ++ +   I  Y + +N   FV+PG ++ SAKLD+CRT+ARRAER++  +  E  +      Y+  LS L F+LAR +E E"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "tpg|HNY36405.1|",
+                  "accession": "HNY36405",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Petrotogaceae bacterium]",
+                  "taxid": 2819251,
+                  "sciname": "Petrotogaceae bacterium"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 7.03038e-38,
+                  "identity": 70,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKG--KIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTKTGDSGQTSLWSGERVFKDDIRVESYGTVDELNSFLGEAMYYANSSEVKDILLSIQRDLFRVAGQLASKDVLYVKPVCDEDVQRLTDIVHHYEEIIKLKGFVIPGSILASAKLDICRTVCRRAERRIVALNRVETVPVQVGQYINRLSDLLFIVARYEEYLQDKI",
+                  "midline": "M I+TK GD G T L+ GE V+KDD  +E+ GT+DEL SF+GEA +Y +  E+K IL  IQ D++++ G++ SK    ++ + +E ++ L  ++  Y E++    FV+PG  L SAKLD+CRT+ RRAER++  + R   +      Y+  LS LLF++AR  E  ++K+"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_041534059.1|",
+                  "accession": "WP_041534059",
+                  "title": "MULTISPECIES: cob(I)yrinic acid a,c-diamide adenosyltransferase [Petrotoga]",
+                  "taxid": 28236,
+                  "sciname": "Petrotoga"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 7.87188e-38,
+                  "identity": 76,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGKIE--GISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKTGDKGETSLWSGERVSKDDLRVEAYGTVDELNSFLSEASHYLKSHEVKKIINEVQNNLFKVAGELASKSQTYKYPIQEEDALKITNYVYEFENRLDLKGFVIPGRTLQSAKLDICRTIARRAERRIIALDKKEPVSEPLKKYANRLSDLLFVLARFEEYIEDKI",
+                  "midline": "M ITTK GDKG T L+ GE V KDD  +EA GT+DEL SF+ EA HY+   E+K I+ E+QN+++K+ GE+ SK +     I EE    +   +  +   ++   FV+PG TL+SAKLD+CRTIARRAER++  + ++  +      Y   LS LLF+LAR  E  ++K+"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gb|MEN8154503.1|",
+                  "accession": "MEN8154503",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Acidobacteriota bacterium]",
+                  "taxid": 1978231,
+                  "sciname": "Acidobacteriota bacterium"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 8.63151e-38,
+                  "identity": 74,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 164,
+                  "align_len": 164,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEE-MKGILEEIQNDIYKIMGEIGSKGKIEG--ISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "MSIATKTGDKGKTSLFSGERVWKDNERVEAYGTIDELNSFLGEAKHYVNKSGFKEIVEDIQKGLFRVCGELAAESKEFGNAVKEEDTEKLSKILFEIEKEIKLTGFVIPGNSPGSAKLDICRSVARRGERRVITLSRSKTVNEHLIQYLNRLSDLLFIMARAEE",
+                  "midline": "M I TK GDKG T LF GE VWKD+  +EA GT+DEL SF+GEAKHYV++   K I+E+IQ  ++++ GE+ ++ K  G  + EE  + L+ ++    + +    FV+PG +  SAKLD+CR++ARR ER+V T+ R   +      YL  LS LLF++AR  E"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|WP_169924923.1|",
+                  "accession": "WP_169924923",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Petrotoga olearia]",
+                  "taxid": 156203,
+                  "sciname": "Petrotoga olearia"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 1.12672e-37,
+                  "identity": 74,
+                  "positive": 109,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGKIE--GISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTKTGDKGETSLWSGERVSKDDIRVEAYGTVDELNAFLSETNYYLKSHQVKKIINEVQNDLFKVAGELASKSKPYKYPIQEEDVLKITNYVYAFENRLNLKGFVIPGKTLQSAKLDICRTIARRAERRIIALDKKEPVPEPLKKYVNRLSDLLFILARFEEYIEDKI",
+                  "midline": "M I+TK GDKG T L+ GE V KDD  +EA GT+DEL +F+ E  +Y+   ++K I+ E+QND++K+ GE+ SK K     I EE +  +   +  +   +N   FV+PG TL+SAKLD+CRTIARRAER++  + ++  +      Y+  LS LLF+LAR  E  ++K+"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|MFN3692188.1|",
+                  "accession": "MFN3692188",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Fervidobacterium sp.]",
+                  "taxid": 1871331,
+                  "sciname": "Fervidobacterium sp."
+                }
+              ],
+              "len": 174,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 1.14279e-37,
+                  "identity": 73,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 162,
+                  "align_len": 162,
+                  "gaps": 1,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGK-IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "MSITTKTGDFGETSLANGERVLKDNIRVQSYGTVDELNSFLGLAKHYLPDYERDVVESIQKDLFRLAAELAKGEKYVKLISDDDVERLTNLIHQYEEKIQVNSFVIPGETIPSAHLDVCRTITRRAERLVVTLNREEGVRQEIIKYLNRISDLLYIMARFLE",
+                  "midline": "M ITTK GD G T L  GE V KD+  +++ GT+DEL SF+G AKHY+ +  + ++E IQ D++++  E+    K ++ IS++ ++ L  LI +Y E +   SFV+PG T+ SA LDVCRTI RRAER V T+ RE G+      YL  +S LL+++AR +E"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gb|MBP7563585.1|",
+                  "accession": "MBP7563585",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 1.41724e-37,
+                  "identity": 76,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 168,
+                  "hit_from": 1,
+                  "hit_to": 171,
+                  "align_len": 171,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEE-IQNDIYKIMGEIG--SKGKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLK",
+                  "hseq": "MSISTKGGDKGMTSLWSGERVWKDDARVDAYGTLDELDAHLGEAKHYVKIEKIREIIEIVQNELMKVMGELAALSKEYLIPLTQADVDRLTNYVHEFESIVQLKGFVIPGNTIQSAKLDVCRTIARRAERRIISLQRQTEVDPLILQYVNRLSDLCFIMARAEEKAEGKIK",
+                  "midline": "M I+TK GDKG T L+ GE VWKDD  ++A GTLDEL + +GEAKHYV  E    + E +QN++ K+MGE+   SK  +  +++  +  L   +  +  +V    FV+PG T++SAKLDVCRTIARRAER++ ++ R+  +  L   Y+  LS L F++AR  E  + K+K"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_184619734.1|",
+                  "accession": "WP_184619734",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Thermosipho japonicus]",
+                  "taxid": 90323,
+                  "sciname": "Thermosipho japonicus"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.732,
+                  "score": 343,
+                  "evalue": 3.05889e-37,
+                  "identity": 71,
+                  "positive": 107,
+                  "query_from": 3,
+                  "query_to": 161,
+                  "hit_from": 2,
+                  "hit_to": 161,
+                  "align_len": 160,
+                  "gaps": 1,
+                  "qseq": "ITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGK-IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "ISTKQGDNGKTKLANNETVYKDDLHVEAYGTVDELNSYLGYAKHFLNKKEKEIIENIQKDLFRVATELAKGEKFINLISKEDEEKITKLVEEYEKKVNLNSFVLPGTTKESSILDICRTIARRAERRIVSLSKRENVRKELIAYINRISDLLYIMARYIE",
+                  "midline": "I+TK GD G T+L   E V+KDD  +EA GT+DEL S++G AKH+++++ K I+E IQ D++++  E+    K I  IS+E  + +  L+E Y + VN  SFVLPG T ES+ LD+CRTIARRAER++ ++ +   +      Y+  +S LL+++AR IE"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "tpg|HQB97427.1|",
+                  "accession": "HQB97427",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.732,
+                  "score": 343,
+                  "evalue": 4.38466e-37,
+                  "identity": 70,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSK--GKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDKGTTSLYTGQRVSKSDARVEAYGNLDELDAFIGEAKHHMADPALKQMLIETQNRLYRVMGELATPDGSYPMPICEEEVDAITDAIHGFEAKVDLKGFVIPGSSIASARLDICRTVARRAERRLVALSQEAEVPPVLMKYVNRLSDFFFIMARIVEVQEGVL",
+                  "midline": "M ITTK GDKG+T L+ G+ V K D  +EA G LDEL +FIGEAKH++ D  +K +L E QN +Y++MGE+ +        I EE +  +   I  +   V+   FV+PG ++ SA+LD+CRT+ARRAER++  + +E  +  +   Y+  LS   F++AR++E+++  L"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "tpg|HOX91632.1|",
+                  "accession": "HOX91632",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Spirochaetales bacterium]",
+                  "taxid": 2026792,
+                  "sciname": "Spirochaetales bacterium"
+                }
+              ],
+              "len": 199,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 4.70484e-37,
+                  "identity": 78,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 172,
+                  "hit_from": 23,
+                  "hit_to": 197,
+                  "align_len": 175,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVD-EEMKGILEEIQNDIYKIMGEIGSKGKI--EGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKLKEVRS",
+                  "hseq": "MSIVTKMGDDGLTGLWSGERVRKDDPRVEAYGTVDELDSHLGEAKHYLSIDACLSIVESIQRDLYRLAGELATRTGVFVKQIEDEDVNRLGALVDRYEAELGLTGFVVPGMTLASAKLDVARTVCRRAERRVVSLAWDADVRPSLRRYLNRLSDLLFILARLEEKAAGKITYVKS",
+                  "midline": "M I TK+GD G T L+ GE V KDDP +EA GT+DEL S +GEAKHY+  +    I+E IQ D+Y++ GE+ ++  +  + I +E +  L  L++RY   +    FV+PG TL SAKLDV RT+ RRAER+V ++  +  +      YL  LS LLF+LAR+ E    K+  V+S"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gb|MDY0152192.1|",
+                  "accession": "MDY0152192",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonas sp.]",
+                  "taxid": 2053534,
+                  "sciname": "Candidatus Cloacimonas sp."
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.732,
+                  "score": 343,
+                  "evalue": 4.79978e-37,
+                  "identity": 73,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 163,
+                  "hit_from": 1,
+                  "hit_to": 166,
+                  "align_len": 166,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEE-MKGILEEIQNDIYKIMGEIGSKGK--IEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIE",
+                  "hseq": "MSITTKGGDKGKTSLYSGERVWKDDLRVDAYGSLDELDAHLGEAKHYVDNPAIKELLISVQNSLYRVMGQLATIGENYPYPICGKDVETITAVIHDFEEIVQLKGFVIPGSTKASAKLDICRTVARRAERRIIALSHTEELAPDLLGYVNRLSDLFFILARFVENE",
+                  "midline": "M ITTK GDKG T L+ GE VWKDD  ++A G+LDEL + +GEAKHYVD   +K +L  +QN +Y++MG++ + G+     I  + ++ +  +I  + E+V    FV+PG T  SAKLD+CRT+ARRAER++  +     +      Y+  LS L F+LAR +E E"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "gb|MCK9556551.1|",
+                  "accession": "MCK9556551",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.346,
+                  "score": 342,
+                  "evalue": 5.35007e-37,
+                  "identity": 73,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSK--GKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDQGSTSLYTGERVLKSDLRVDAYGSLDELDAFISEAKHHIGDVEIKKLLLDTQNRLYRVMGELATPDGSYLMPICKEEVDAITDTIHLYEERVNLQGFVVPGSCIASAHLDICRTVARRAERRVIALAQASDVPPNLIKYVNRLSDFFFILARAIEVQEGVL",
+                  "midline": "M ITTK GD+GST L+ GE V K D  ++A G+LDEL +FI EAKH++ D E+K +L + QN +Y++MGE+ +     +  I +E +  +   I  Y E VN   FV+PG  + SA LD+CRT+ARRAER+V  + +   +      Y+  LS   F+LAR IE+++  L"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_169699897.1|",
+                  "accession": "WP_169699897",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Mesotoga infera]",
+                  "taxid": 1236046,
+                  "sciname": "Mesotoga infera"
+                }
+              ],
+              "len": 176,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.961,
+                  "score": 341,
+                  "evalue": 7.11914e-37,
+                  "identity": 74,
+                  "positive": 107,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 169,
+                  "align_len": 169,
+                  "gaps": 2,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKG--KIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTMTGDGGQTSLWSGERVDKDSLRVEAYGTVDELNSFLGEAKHYTSEEVSQLILSVQRFLFRVGGQLASKDVQYIEPVSEEDVEKLTEGVHRFEEIVGLKGFVIPGSTVASAKLDICRTIARRAERRIIALSRLEKVPDPVRKYINRLSDFLYILARYEEFKEKKL",
+                  "midline": "M I+T  GD G T L+ GE V KD   +EA GT+DEL SF+GEAKHY  EE+  ++  +Q  ++++ G++ SK    IE +SEE ++ L   + R+ E+V    FV+PG T+ SAKLD+CRTIARRAER++  + R   +      Y+  LS  L++LAR  E ++ KL"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "gb|MDK2850270.1|",
+                  "accession": "MDK2850270",
+                  "title": "cob(I)alamin adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.576,
+                  "score": 340,
+                  "evalue": 1.10736e-36,
+                  "identity": 70,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 161,
+                  "hit_from": 1,
+                  "hit_to": 164,
+                  "align_len": 164,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSK--GKIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIE",
+                  "hseq": "MSITTKTGDKGQTSLYTGARVLKSDLRVEAYGSLDELDAFIGDAKHYVSDPEVRSLLKDTQNRLYRVMGELATPDGSYPMPLSQDEVEEITSIILSYEEKLQLKGFVIPGSCRGSARLDICRTIARRAERRLVALAHEAEVSEILLKYVNRLSDFFFILARFLE",
+                  "midline": "M ITTK GDKG T L+ G  V K D  +EA G+LDEL +FIG+AKHYV D E++ +L++ QN +Y++MGE+ +        +S++ ++ +  +I  Y E +    FV+PG    SA+LD+CRTIARRAER++  +  E  +  +   Y+  LS   F+LAR +E"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|MCB5259669.1|",
+                  "accession": "MCB5259669",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.191,
+                  "score": 339,
+                  "evalue": 1.94688e-36,
+                  "identity": 71,
+                  "positive": 107,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYV-DEEMKGILEEIQNDIYKIMGEIGSKGKIEG--ISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKGGDTGQTSLYTGGRVYKSDLRVEAYGSLDELDAFIGEAKHHIADDNIRKLLLETQNRLYRVMGELATPDGTYPMPLCEEEVETITQTIRQYEEKLDLKGFVIPGSCLASARLDICRTVARRAERRVIALAQATPLSPNLLKYINRLSDFFFILARVVEAQEGVL",
+                  "midline": "M ITTK GD G T L+ G  V+K D  +EA G+LDEL +FIGEAKH++ D+ ++ +L E QN +Y++MGE+ +        + EE ++ +   I +Y E ++   FV+PG  L SA+LD+CRT+ARRAER+V  + +   +      Y+  LS   F+LARV+E ++  L"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_190614307.1|",
+                  "accession": "WP_190614307",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Tepiditoga spiralis]",
+                  "taxid": 2108365,
+                  "sciname": "Tepiditoga spiralis"
+                }
+              ],
+              "len": 173,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 2.5636e-36,
+                  "identity": 73,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 170,
+                  "align_len": 170,
+                  "gaps": 3,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDE-EMKGILEEIQNDIYKIMGEIGSKGKI--EGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSISTKTGDNGYTNLWSGERISKDDLRVDTYGTIDELNSFLGEAFHYLKSFENKRILSNIQKTLFRVGGEIASKSKIFTKPIEENDVEYLTSLVKKFEDTISLKGFIIPGKTLSSSKLDVCRTIARRSERLIIKLSNVEKINNNLQKYINRLSDLLFMMARFEEYLEDKI",
+                  "midline": "M I+TK GD G T L+ GE + KDD  ++  GT+DEL SF+GEA HY+   E K IL  IQ  ++++ GEI SK KI  + I E  +++L  L++++ + ++   F++PG TL S+KLDVCRTIARR+ER +  +     I      Y+  LS LLF++AR  E  ++K+"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "ref|WP_367187901.1|",
+                  "accession": "WP_367187901",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Mesotoga sp.]",
+                  "taxid": 2053577,
+                  "sciname": "Mesotoga sp."
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.806,
+                  "score": 338,
+                  "evalue": 2.57308e-36,
+                  "identity": 74,
+                  "positive": 106,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 6,
+                  "hit_to": 174,
+                  "align_len": 169,
+                  "gaps": 2,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKG--KIEGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "LSISTGTGDGGETSLWSGERIEKDSERVEAYGTIDELSSFLGEAKHFSREEVAHHLVKIQRSLFKAAGQLASKDIDYVEPIEEADVQVLTDLVHRYESEVKLEGFVIPGSTVASSKLDICRTVARRAERRVIALSRTEKIDSVLLKYINRLSDLLFMLARYEEYKAGKI",
+                  "midline": "+ I+T  GD G T L+ GE + KD   +EA GT+DEL+SF+GEAKH+  EE+   L +IQ  ++K  G++ SK    +E I E  ++ L  L+ RY   V    FV+PG T+ S+KLD+CRT+ARRAER+V  + R   I ++   Y+  LS LLF+LAR  E +  K+"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "gb|PKN72783.1|",
+                  "accession": "PKN72783",
+                  "title": "MAG: ATP:cob(I)alamin adenosyltransferase [Candidatus Cloacimonetes bacterium HGW-Cloacimonetes-3]",
+                  "taxid": 2013735,
+                  "sciname": "Candidatus Cloacimonetes bacterium HGW-Cloacimonetes-3"
+                }
+              ],
+              "len": 180,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 3.03938e-36,
+                  "identity": 76,
+                  "positive": 105,
+                  "query_from": 1,
+                  "query_to": 163,
+                  "hit_from": 1,
+                  "hit_to": 166,
+                  "align_len": 168,
+                  "gaps": 7,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEE---IQNDIYKIMGEIGSKGKI--EGISEERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIE",
+                  "hseq": "MSITTKGGDKGKTSLYTGERVWKDDLRVDAYGSLDELDALIGESKHHIHNQ--SIVEQLISIQNGLYRVMGQLASKGSAYPYPVCAKDVEVLTELIHSYETKVPLKGFVVPGSSLPSAKLDVCRTVARRAERRIIALSHAEELAPELLGYVNRLSDLFFILARFIEHE",
+                  "midline": "M ITTK GDKG T L+ GE VWKDD  ++A G+LDEL + IGE+KH++  +   I+E+   IQN +Y++MG++ SKG      +  + ++ L  LI  Y   V    FV+PG +L SAKLDVCRT+ARRAER++  +     +      Y+  LS L F+LAR IE E"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gb|MEF3694782.1|",
+                  "accession": "MEF3694782",
+                  "title": "cob(I)yrinic acid a,c-diamide adenosyltransferase [Candidatus Cloacimonadota bacterium]",
+                  "taxid": 2030808,
+                  "sciname": "Candidatus Cloacimonadota bacterium"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 3.15047e-36,
+                  "identity": 72,
+                  "positive": 101,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 169,
+                  "align_len": 169,
+                  "gaps": 2,
+                  "qseq": "MRITTKVGDKGSTRLFGGEEVWKDDPIIEANGTLDELTSFIGEAKHYVDEEMKGILEEIQNDIYKIMGEIGSKGKIEGIS--EERIKWLAGLIERYSEMVNKLSFVLPGGTLESAKLDVCRTIARRAERKVATVLREFGIGTLAAIYLALLSRLLFLLARVIEIEKNKL",
+                  "hseq": "MSITTKTGDRGQTSLFSGERVYKDDLRVDAYGSLDELDAHIGEAKHLIPAEMKEELIELQNKLYRVMGTLASPSRDYPVPLCSKDVDELTDRVHYYEDRLELKGFVVPGSLPASAKLDVCRTIARRAERRIIALSRSEEVPELILSFVNRLSDYFFILARSVEALSNAI",
+                  "midline": "M ITTK GD+G T LF GE V+KDD  ++A G+LDEL + IGEAKH +  EMK  L E+QN +Y++MG + S  +   +    + +  L   +  Y + +    FV+PG    SAKLDVCRTIARRAER++  + R   +  L   ++  LS   F+LAR +E   N +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

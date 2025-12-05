@@ -1,0 +1,70 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236371",
+          "query_title": "5w9f_A",
+          "query_len": 41,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5W9F|A",
+                  "accession": "5W9F_A",
+                  "title": "Chain A, De novo mini protein gHEEE_02 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 41,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.0333,
+                  "score": 201,
+                  "evalue": 1.59565e-19,
+                  "identity": 41,
+                  "positive": 41,
+                  "query_from": 1,
+                  "query_to": 41,
+                  "hit_from": 1,
+                  "hit_to": 41,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "SQETRKKCTEMKKKFKNCEVRCDESNHCVEVRCSDTKYTLC",
+                  "hseq": "SQETRKKCTEMKKKFKNCEVRCDESNHCVEVRCSDTKYTLC",
+                  "midline": "SQETRKKCTEMKKKFKNCEVRCDESNHCVEVRCSDTKYTLC"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

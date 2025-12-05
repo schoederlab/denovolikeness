@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236546",
+          "query_title": "5ier_A",
+          "query_len": 132,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5IF6|A",
+                  "accession": "5IF6_A",
+                  "title": "Chain A, OHP9_1c [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 257.299,
+                  "score": 656,
+                  "evalue": 4.87824e-86,
+                  "identity": 124,
+                  "positive": 128,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 1,
+                  "hit_to": 132,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQSPALIASQSLGRCTQAKDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFWDTHIADDRVTVTCEETFPSSSPDEIAHILVAHAEFDGGFTSEVRGVFTYRVNKAGLITNLRGYYNLDMMTFG",
+                  "midline": "TQSPALIASQSL RCTQA DREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAF+DTHIA  R+TVTCEETFPSSSPDEIAHILVAH+EFDGGFTSEVRGVFTYRVNKAGLITNLRGY+NLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_113616654.1|",
+                  "accession": "WP_113616654",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium tuberculosis]",
+                  "taxid": 1773,
+                  "sciname": "Mycobacterium tuberculosis"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.373,
+                  "score": 651,
+                  "evalue": 2.82978e-85,
+                  "identity": 123,
+                  "positive": 125,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 134,
+                  "align_len": 132,
+                  "gaps": 2,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQSPALIASQSSWRCVQAHDREGWLALMADDVVIEDPIGKSVTNPDGSGIKGKEAVGAFFDTHIAANRLTVTCEETFPSSSPDEIAVVL--HSEFDGGFTSEVRGVFTYRVNKAGLITNMRGYWNLDMMTFG",
+                  "midline": "TQSPALIASQS WRC QAHDREGWLALMADDVVIE PIGKSVTNPDGSGIKGKEAVGAFFDTHIAA RLTVTCEETFPSSSPDEIA +L  HSEFDGGFTSEVRGVFTYRVNKAGLITN+RGYWNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_181908739.1|",
+                  "accession": "WP_181908739",
+                  "title": "ketosteroid isomerase family protein, partial [Mycobacterium tuberculosis]",
+                  "taxid": 1773,
+                  "sciname": "Mycobacterium tuberculosis"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 244.973,
+                  "score": 624,
+                  "evalue": 2.51321e-81,
+                  "identity": 115,
+                  "positive": 116,
+                  "query_from": 13,
+                  "query_to": 132,
+                  "hit_from": 1,
+                  "hit_to": 120,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "WRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "WRCVQAHDREGWLALMADDVVIEDPIGKSVTNPDGSGIKGKEAVGAFFDTHIAANRLTVTCEETFPSSSPDEIAHILVLHSEFDGGFTSEVRGVFTYRVNKAGLITNMRGYWNLDMMTFG",
+                  "midline": "WRC QAHDREGWLALMADDVVIE PIGKSVTNPDGSGIKGKEAVGAFFDTHIAA RLTVTCEETFPSSSPDEIAHILV HSEFDGGFTSEVRGVFTYRVNKAGLITN+RGYWNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_085326750.1|",
+                  "accession": "WP_085326750",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium decipiens]",
+                  "taxid": 1430326,
+                  "sciname": "Mycobacterium decipiens"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 241.506,
+                  "score": 615,
+                  "evalue": 7.93224e-80,
+                  "identity": 110,
+                  "positive": 122,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QAPALTASQSSWRCVQAHDREGWLALMADDVVIEDPIGKSVTNPDGKGVRGKEAVGAFFDANIAANQLTISCEETFPSSSPDEIAHILVLHSKFEGGFTSTVRGVFTYRVNEAGLITNMRGFWNLDMMTFG",
+                  "midline": "Q+PAL ASQS WRC QAHDREGWLALMADDVVIE PIGKSVTNPDG G++GKEAVGAFFD +IAA +LT++CEETFPSSSPDEIAHILV HS+F+GGFTS VRGVFTYRVN+AGLITN+RG+WNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|MDT5222433.1|",
+                  "accession": "MDT5222433",
+                  "title": "steroid Delta-isomerase [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 240.35,
+                  "score": 612,
+                  "evalue": 2.86495e-79,
+                  "identity": 109,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 136,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQSPALAASQSSWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGSGVRGREAVGVFYDTNIAVNQLTITCEETFPSSSPNEIAHILVLHSKFDGGFTSEVRGVFTYRVNDQGLIDSMRGYWNLDMMTFG",
+                  "midline": "TQSPAL ASQS WRC QAHDREGWLALMADDVV+E PIGKSVTNPDGSG++G+EAVG F+DT+IA  +LT+TCEETFPSSSP+EIAHILV HS+FDGGFTSEVRGVFTYRVN  GLI ++RGYWNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_144953849.1|",
+                  "accession": "WP_144953849",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium helveticum]",
+                  "taxid": 2592811,
+                  "sciname": "Mycobacterium helveticum"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.039,
+                  "score": 606,
+                  "evalue": 2.13544e-78,
+                  "identity": 107,
+                  "positive": 119,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQPSWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGTGVRGREAVGGFYDTNIAANRLTITCEETFPSSSPDEVAHILVLHSEFEGGVTSEVRGVFTYKVNDAGLITNMRGYWNLDMMKFG",
+                  "midline": "SPAL ASQ  WRC QAHDREGWLALMADDVV+E PIGKSVTNPDG+G++G+EAVG F+DT+IAA RLT+TCEETFPSSSPDE+AHILV HSEF+GG TSEVRGVFTY+VN AGLITN+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_047316353.1|",
+                  "accession": "WP_047316353",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium haemophilum]",
+                  "taxid": 29311,
+                  "sciname": "Mycobacterium haemophilum"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 237.654,
+                  "score": 605,
+                  "evalue": 3.34376e-78,
+                  "identity": 109,
+                  "positive": 120,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVQAHDRAGWLALMADDVVVEDPIGKSVTNPDGTGVRGKEAVGAFYDTNIAANQLTITCEETFPSSSPTEIAHILVLHSKFEGGFTSTVRGVFTYRVNDAGLITNMRGYWNLDAMTFG",
+                  "midline": "QSPAL ASQS WRC QAHDR GWLALMADDVV+E PIGKSVTNPDG+G++GKEAVGAF+DT+IAA +LT+TCEETFPSSSP EIAHILV HS+F+GGFTS VRGVFTYRVN AGLITN+RGYWNLD MTFG"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_424074044.1|",
+                  "accession": "WP_424074044",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 237.654,
+                  "score": 605,
+                  "evalue": 3.45565e-78,
+                  "identity": 106,
+                  "positive": 120,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALAASQASWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGNGVRGKEAVGVFYDTNIAANQLTITCEETFPSSSPDEVAHILVLHSKFEGGVTSEVRGVFTYRVNDAGLIANMRGYWNLDMMKFG",
+                  "midline": "Q+PAL ASQ+ WRC QAHDREGWLALMADDVV+E PIGKSVTNPDG+G++GKEAVG F+DT+IAA +LT+TCEETFPSSSPDE+AHILV HS+F+GG TSEVRGVFTYRVN AGLI N+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_421844007.1|",
+                  "accession": "WP_421844007",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 235.343,
+                  "score": 599,
+                  "evalue": 2.30871e-77,
+                  "identity": 107,
+                  "positive": 119,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 139,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALTASQSSWRCAQAHDRDGWLALMADDVVIEDPIGKSVTNPDGQGVRGKEAVSAFFDTNIAPNNLTITCEETFPSSSPNEIAHILVLHSKFDGGFTSKVRGVFTYHVNDAGLLTNMRGYWNLEMMTFG",
+                  "midline": "Q+PAL ASQS WRC QAHDR+GWLALMADDVVIE PIGKSVTNPDG G++GKEAV AFFDT+IA   LT+TCEETFPSSSP+EIAHILV HS+FDGGFTS+VRGVFTY VN AGL+TN+RGYWNL+MMTFG"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_067937966.1|",
+                  "accession": "WP_067937966",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. E2479]",
+                  "taxid": 1834134,
+                  "sciname": "Mycobacterium sp. E2479"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 235.343,
+                  "score": 599,
+                  "evalue": 2.69197e-77,
+                  "identity": 107,
+                  "positive": 120,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQSSWRCVQAHDREGWLALMSDDVVIEDPIGKSVTNPDGKGIRGKEAVGTFFDTNIAANQLSITCEETFPSSSPDEIAHILVLNSKFDGGFTSSVRGVFTYKVDESGLITNMRGYWNLDMMQFG",
+                  "midline": "SPAL ASQS WRC QAHDREGWLALM+DDVVIE PIGKSVTNPDG GI+GKEAVG FFDT+IAA +L++TCEETFPSSSPDEIAHILV +S+FDGGFTS VRGVFTY+V+++GLITN+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_297599469.1|",
+                  "accession": "WP_297599469",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 234.187,
+                  "score": 596,
+                  "evalue": 8.70656e-77,
+                  "identity": 106,
+                  "positive": 119,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQSSWRCVQAHDREGWLALMSDDVVIEDPIGKSVTNPDGTGVRGKEAVGAFFDTNIAANQLSITCEETFPSSSPDEIAHILVLNSRFEGGLTSSVRGVFTYKVNDAGLITNMRGYWNLEMMQFG",
+                  "midline": "SPAL ASQS WRC QAHDREGWLALM+DDVVIE PIGKSVTNPDG+G++GKEAVGAFFDT+IAA +L++TCEETFPSSSPDEIAHILV +S F+GG TS VRGVFTY+VN AGLITN+RGYWNL+MM FG"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_442389801.1|",
+                  "accession": "WP_442389801",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.802,
+                  "score": 595,
+                  "evalue": 1.17386e-76,
+                  "identity": 105,
+                  "positive": 117,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 16,
+                  "hit_to": 145,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALTASQSSWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGDGVKGKEGVAAFYDNNIAANQLTITCEETFPSSSPDEIAHILLLHSKFEGGFTSTVRGVFTYKVNDAGLITNMRGYWNLDVMKFG",
+                  "midline": "SPAL ASQS WRC QAHDREGWLALMADDVV+E PIGKSVTNPDG G+KGKE V AF+D +IAA +LT+TCEETFPSSSPDEIAHIL+ HS+F+GGFTS VRGVFTY+VN AGLITN+RGYWNLD+M FG"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "tpg|HYQ37225.1|",
+                  "accession": "HYQ37225",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 233.417,
+                  "score": 594,
+                  "evalue": 1.7959e-76,
+                  "identity": 104,
+                  "positive": 120,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALTASQSSWRCSQAHDREGWLALMADDVVIEDPIGKSITNPEGTGVRGKQAVGAFFDSNIAPIKLTITCEETFPSSSPDEIAHILLLHFRFDGGFTSQVRGVFTYKVNDAGLITNMRGYWNLEMMEFG",
+                  "midline": "SPAL ASQS WRC+QAHDREGWLALMADDVVIE PIGKS+TNP+G+G++GK+AVGAFFD++IA  +LT+TCEETFPSSSPDEIAHIL+ H  FDGGFTS+VRGVFTY+VN AGLITN+RGYWNL+MM FG"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "tpg|HXA89746.1|",
+                  "accession": "HXA89746",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 232.261,
+                  "score": 591,
+                  "evalue": 5.20673e-76,
+                  "identity": 107,
+                  "positive": 117,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALTASQSSWRSSQAHDRDGWLALMADDVVIEDPIGKSVTNPDGDGVKGKEAAGAFFDKNIAPIRLTITCEETFPSSSPDEIAHILVLQFKFEGGFTSEVRGVFTYRVNDAGLITNMRGYWNLDVMKFG",
+                  "midline": "Q+PAL ASQS WR +QAHDR+GWLALMADDVVIE PIGKSVTNPDG G+KGKEA GAFFD +IA  RLT+TCEETFPSSSPDEIAHILV   +F+GGFTSEVRGVFTYRVN AGLITN+RGYWNLD+M FG"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_068070202.1|",
+                  "accession": "WP_068070202",
+                  "title": "MULTISPECIES: ketosteroid isomerase family protein [unclassified Mycobacterium]",
+                  "taxid": 2642494,
+                  "sciname": "unclassified Mycobacterium"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.876,
+                  "score": 590,
+                  "evalue": 7.3128e-76,
+                  "identity": 106,
+                  "positive": 119,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQASWRCVQAHDRTGWLALMADDVVIEDPIGQSVTNPDGTGVRGKEAVGAFFDTNIAANQLTITCEETFPSSSPDEIAHILVLDSKFEGGLTSSVRGVFTYKVDGAGLITNMRGYWNLDMMTFG",
+                  "midline": "SPAL ASQ+ WRC QAHDR GWLALMADDVVIE PIG+SVTNPDG+G++GKEAVGAFFDT+IAA +LT+TCEETFPSSSPDEIAHILV  S+F+GG TS VRGVFTY+V+ AGLITN+RGYWNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_085182659.1|",
+                  "accession": "WP_085182659",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium bohemicum]",
+                  "taxid": 56425,
+                  "sciname": "Mycobacterium bohemicum"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.491,
+                  "score": 589,
+                  "evalue": 7.46709e-76,
+                  "identity": 106,
+                  "positive": 119,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 136,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TESPALAASHASWRCVQAHDRDGWLALMADDVVIEDPIGKSVTNPDGSGVRGKEAVGAFFDTNIAANQLTITCEETFPSSSPHEVAHILVLDSKFEGGLTSSVRGVFTYKVNDAGLITNMRGYWNLDMMKFG",
+                  "midline": "T+SPAL AS + WRC QAHDR+GWLALMADDVVIE PIGKSVTNPDGSG++GKEAVGAFFDT+IAA +LT+TCEETFPSSSP E+AHILV  S+F+GG TS VRGVFTY+VN AGLITN+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_211696623.1|",
+                  "accession": "WP_211696623",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium spongiae]",
+                  "taxid": 886343,
+                  "sciname": "Mycobacterium spongiae"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 231.491,
+                  "score": 589,
+                  "evalue": 7.71692e-76,
+                  "identity": 107,
+                  "positive": 116,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 136,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQSPALAASQASWRCVQVRDREGWLSLMADDVVIEDPIGKSVTNPDGEGIKGKEAVGAFFDANIAVNQLTVTCEETFPSSSPNEIAHLLVLDSKFDNGFTSKVRAVFTYRVNDAGLLTNLRGYWNLDMMEFG",
+                  "midline": "TQSPAL ASQ+ WRC Q  DREGWL+LMADDVVIE PIGKSVTNPDG GIKGKEAVGAFFD +IA  +LTVTCEETFPSSSP+EIAH+LV  S+FD GFTS+VR VFTYRVN AGL+TNLRGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_096443018.1|",
+                  "accession": "WP_096443018",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium shigaense]",
+                  "taxid": 722731,
+                  "sciname": "Mycobacterium shigaense"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 1.44168e-75,
+                  "identity": 105,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 136,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQSPALTASQSSWRCAQGKDREGWLALMTDDVVIEDPIGKSVTNPDGTGVRGKEAVGAFFDNNIAQNQLTITCEETFPSSSPDEIAHILVLQSKFEGGMTSKVRGVFTYKVNDAGLITNMRGYWNLDVMEFG",
+                  "midline": "TQSPAL ASQS WRC Q  DREGWLALM DDVVIE PIGKSVTNPDG+G++GKEAVGAFFD +IA  +LT+TCEETFPSSSPDEIAHILV  S+F+GG TS+VRGVFTY+VN AGLITN+RGYWNLD+M FG"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_065145084.1|",
+                  "accession": "WP_065145084",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium asiaticum]",
+                  "taxid": 1790,
+                  "sciname": "Mycobacterium asiaticum"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 1.57393e-75,
+                  "identity": 104,
+                  "positive": 118,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 136,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQTPALTASQSSWRCVQAHDREGWLALMAEDVVIEDPIGKSVTNPDGNGVRGKEAVAGFYDNNIAANQLSVTCEETFPSSSPNEVAHILVLRSKFEGGFTSEVRGVFTYRVNDEGLIDNMRGYWNLDMMKFG",
+                  "midline": "TQ+PAL ASQS WRC QAHDREGWLALMA+DVVIE PIGKSVTNPDG+G++GKEAV  F+D +IAA +L+VTCEETFPSSSP+E+AHILV  S+F+GGFTSEVRGVFTYRVN  GLI N+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_085268359.1|",
+                  "accession": "WP_085268359",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium parmense]",
+                  "taxid": 185642,
+                  "sciname": "Mycobacterium parmense"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.72,
+                  "score": 587,
+                  "evalue": 1.9836e-75,
+                  "identity": 107,
+                  "positive": 117,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQSSWQCVQAHDREGWLALMAEDVVIEDPIGKSVTNPDGTGVRGKEAVGAFFDTNIAANRLTITCEETFPSSSPHEIAHILVLDSRFDGGLTSSVRGVFTYKVDDAGLITNMRGYWNLDRMTFG",
+                  "midline": "SPAL ASQS W+C QAHDREGWLALMA+DVVIE PIGKSVTNPDG+G++GKEAVGAFFDT+IAA RLT+TCEETFPSSSP EIAHILV  S FDGG TS VRGVFTY+V+ AGLITN+RGYWNLD MTFG"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_083066685.1|",
+                  "accession": "WP_083066685",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium arosiense]",
+                  "taxid": 425468,
+                  "sciname": "Mycobacterium arosiense"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.335,
+                  "score": 586,
+                  "evalue": 2.31366e-75,
+                  "identity": 105,
+                  "positive": 118,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQSSWRCVQAHDREGWLALMSDDVVIEDPIGKSVTNPDGTGVRGKKAVGAFFDTNIAANQLSITCEETFPSSSPYEAAHILVLNSKFDGGLSSSVRGVFTYRVNDAGLITNMRGYWNLDMMQFG",
+                  "midline": "SPAL ASQS WRC QAHDREGWLALM+DDVVIE PIGKSVTNPDG+G++GK+AVGAFFDT+IAA +L++TCEETFPSSSP E AHILV +S+FDGG +S VRGVFTYRVN AGLITN+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_067233177.1|",
+                  "accession": "WP_067233177",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. 852002-51163_SCH5372311]",
+                  "taxid": 1834097,
+                  "sciname": "Mycobacterium sp. 852002-51163_SCH5372311"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.335,
+                  "score": 586,
+                  "evalue": 2.36497e-75,
+                  "identity": 104,
+                  "positive": 116,
+                  "query_from": 2,
+                  "query_to": 131,
+                  "hit_from": 6,
+                  "hit_to": 135,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "QSPAVTASQSSWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGTGVRGKEAVAGFYDKTIAPNQLTITCEETFPSSSPNEIAHILLLHSRFEGGFTSEVRGVFTYRVNDAGLITNLRGYWNLEMMKF",
+                  "midline": "QSPA+ ASQS WRC QAHDREGWLALMADDVV+E PIGKSVTNPDG+G++GKEAV  F+D  IA  +LT+TCEETFPSSSP+EIAHIL+ HS F+GGFTSEVRGVFTYRVN AGLITNLRGYWNL+MM F"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_158018351.1|",
+                  "accession": "WP_158018351",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium basiliense]",
+                  "taxid": 2094119,
+                  "sciname": "Mycobacterium basiliense"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 230.335,
+                  "score": 586,
+                  "evalue": 2.38869e-75,
+                  "identity": 104,
+                  "positive": 117,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALAASQASWRCVQVHDREGWLALMADDVVVEDPIGKSVTNPDGTGVKGKDGVASFYDTNIAANRLTITCEETFPSSSENEIAHILVLRSEFEGGFTSEVRGVFTYRVNDDGLITNMRGYWNLEMMNFG",
+                  "midline": "QSPAL ASQ+ WRC Q HDREGWLALMADDVV+E PIGKSVTNPDG+G+KGK+ V +F+DT+IAA RLT+TCEETFPSSS +EIAHILV  SEF+GGFTSEVRGVFTYRVN  GLITN+RGYWNL+MM FG"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_075543732.1|",
+                  "accession": "WP_075543732",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium innocens]",
+                  "taxid": 2341083,
+                  "sciname": "Mycobacterium innocens"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 4.04427e-75,
+                  "identity": 104,
+                  "positive": 117,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVQAHDRQGWLALMADDVVIEDPIGKSVTNPDGTGVHGKDGVAAFYDTNIAANQLTITCEETFPSSSPNEVAHILVLRSRFPGGFTSEVRGVFTYRINDEGLITNMRGYWNLEMMTFG",
+                  "midline": "QSPAL ASQS WRC QAHDR+GWLALMADDVVIE PIGKSVTNPDG+G+ GK+ V AF+DT+IAA +LT+TCEETFPSSSP+E+AHILV  S F GGFTSEVRGVFTYR+N  GLITN+RGYWNL+MMTFG"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_370480225.1|",
+                  "accession": "WP_370480225",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. pUA109]",
+                  "taxid": 3238982,
+                  "sciname": "Mycobacterium sp. pUA109"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 4.31693e-75,
+                  "identity": 106,
+                  "positive": 117,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 4,
+                  "hit_to": 134,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "ESPALHASQASWRCVQAHDRDGWLALMADDVVIEDPIGKSVTNPDGTGVRGKEAVAGFYDTNIAANRLTITCEETFPSSSPAEIAHILVLHSRFDGGVTSTVRGVFTYRVNDAGLITNMRGYWNLEAMTFG",
+                  "midline": "+SPAL ASQ+ WRC QAHDR+GWLALMADDVVIE PIGKSVTNPDG+G++GKEAV  F+DT+IAA RLT+TCEETFPSSSP EIAHILV HS FDGG TS VRGVFTYRVN AGLITN+RGYWNL+ MTFG"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "ref|WP_020730714.1|",
+                  "accession": "WP_020730714",
+                  "title": "MULTISPECIES: ketosteroid isomerase family protein [Mycobacterium ulcerans group]",
+                  "taxid": 2993898,
+                  "sciname": "Mycobacterium ulcerans group"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 4.98148e-75,
+                  "identity": 102,
+                  "positive": 118,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 136,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQSPALAASQASWRCVQAHDRQGWLALMADDIVIEDPIGKSVTNPDGTGVRGKDGVANFYDTNIAANQLSITCEETFPSSSPNEIAHILVLRSRFDGGFTSEVRGVFTYRVNDEGLMTNMRGYWNLEMMKFG",
+                  "midline": "TQSPAL ASQ+ WRC QAHDR+GWLALMADD+VIE PIGKSVTNPDG+G++GK+ V  F+DT+IAA +L++TCEETFPSSSP+EIAHILV  S FDGGFTSEVRGVFTYRVN  GL+TN+RGYWNL+MM FG"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|MBV9352719.1|",
+                  "accession": "MBV9352719",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.565,
+                  "score": 584,
+                  "evalue": 5.15133e-75,
+                  "identity": 106,
+                  "positive": 117,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVQARDREGWLALMADDVVIEDPIGKSVTNPDGTGVRGKEGVGAFFDTNIAANHLTITCEETFPSSSPNEIAHILVLHSKFDNGVTSTVRGVFTYRVDDAGLMTNMRGYWNLEAMTFG",
+                  "midline": "QSPAL ASQS WRC QA DREGWLALMADDVVIE PIGKSVTNPDG+G++GKE VGAFFDT+IAA  LT+TCEETFPSSSP+EIAHILV HS+FD G TS VRGVFTYRV+ AGL+TN+RGYWNL+ MTFG"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_426628055.1|",
+                  "accession": "WP_426628055",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium seoulense]",
+                  "taxid": 386911,
+                  "sciname": "Mycobacterium seoulense"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 229.18,
+                  "score": 583,
+                  "evalue": 9.4298e-75,
+                  "identity": 103,
+                  "positive": 119,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 13,
+                  "hit_to": 142,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALAASQASWRCVQAHDREGWLALMADDVVIEDPIGKSVTNPDGTGVRGKEAVGAFFDTNIAANQLSITCEETFPSSSPHEVAHILVLNSKFEGGFTSSVRGVFTYAVNDSGLITNMRGYWNLDVMQFG",
+                  "midline": "+PAL ASQ+ WRC QAHDREGWLALMADDVVIE PIGKSVTNPDG+G++GKEAVGAFFDT+IAA +L++TCEETFPSSSP E+AHILV +S+F+GGFTS VRGVFTY VN +GLITN+RGYWNLD+M FG"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "gb|MDT5255296.1|",
+                  "accession": "MDT5255296",
+                  "title": "steroid Delta-isomerase [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 228.794,
+                  "score": 582,
+                  "evalue": 1.02751e-74,
+                  "identity": 105,
+                  "positive": 118,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 136,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SAALTASQSSWRCVQAHDREGWLALMAHDVVVEDPIGKSVTNPDGAGLRGKEAVGAFFDTNIAPTQVTITCEETFPSSSPDEIAHILLLHFKFEGGFTSTVRGVFTYKVNDAGLLTNLRGYWNLDMMQFG",
+                  "midline": "S AL ASQS WRC QAHDREGWLALMA DVV+E PIGKSVTNPDG+G++GKEAVGAFFDT+IA T++T+TCEETFPSSSPDEIAHIL+ H +F+GGFTS VRGVFTY+VN AGL+TNLRGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_186244820.1|",
+                  "accession": "WP_186244820",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium simulans]",
+                  "taxid": 627089,
+                  "sciname": "Mycobacterium simulans"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.639,
+                  "score": 579,
+                  "evalue": 2.49846e-74,
+                  "identity": 104,
+                  "positive": 117,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "HSPALAASQSSWRCVQAHDREGWLALMADDVVIEDPIGKSVTNPDGTGVRGKDGVANFYDTNIAANQLTITCEETFPSSSPNEIAHILVLDSKFEGGFTSSVRGVFTYRVNDAGLITNMRGYWNLETMTFG",
+                  "midline": " SPAL ASQS WRC QAHDREGWLALMADDVVIE PIGKSVTNPDG+G++GK+ V  F+DT+IAA +LT+TCEETFPSSSP+EIAHILV  S+F+GGFTS VRGVFTYRVN AGLITN+RGYWNL+ MTFG"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_325607035.1|",
+                  "accession": "WP_325607035",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.639,
+                  "score": 579,
+                  "evalue": 3.25459e-74,
+                  "identity": 102,
+                  "positive": 116,
+                  "query_from": 2,
+                  "query_to": 131,
+                  "hit_from": 6,
+                  "hit_to": 135,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "QSPALTASQSSWRCVHAHDREGWLALMADDVVVEDPIGKSVTNPDGTGMRGKEAVAGFYDKNIATNQLTVTCEETFPCSSPDEIAHILVLHSKFENGYTSEVRGVFTYRVNEAGLISNMRGYWNLEMMKF",
+                  "midline": "QSPAL ASQS WRC  AHDREGWLALMADDVV+E PIGKSVTNPDG+G++GKEAV  F+D +IA  +LTVTCEETFP SSPDEIAHILV HS+F+ G+TSEVRGVFTYRVN+AGLI+N+RGYWNL+MM F"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_425172896.1|",
+                  "accession": "WP_425172896",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 3.59018e-74,
+                  "identity": 104,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVQAHDRAGWLALMADDVVIEDPIGKSVTNPDGTGVRGKDGVAAFFDTNIAANQLTITCEETFPSSSPEEIAHILVLHSKFDNGLTSSVRGVFTYRVNDEGLIASMRGYWNLDAMTFG",
+                  "midline": "QSPAL ASQS WRC QAHDR GWLALMADDVVIE PIGKSVTNPDG+G++GK+ V AFFDT+IAA +LT+TCEETFPSSSP+EIAHILV HS+FD G TS VRGVFTYRVN  GLI ++RGYWNLD MTFG"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_067107186.1|",
+                  "accession": "WP_067107186",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. 852002-51057_SCH5723018]",
+                  "taxid": 1834094,
+                  "sciname": "Mycobacterium sp. 852002-51057_SCH5723018"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 4.88663e-74,
+                  "identity": 102,
+                  "positive": 115,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 13,
+                  "hit_to": 142,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQNSWRCVQAHDREGWLALLADDVVVEDPIGKSVTNPDGMGVRGKEGVAAFYDNNIAANQLTITCEETFPSSSPNEIAHILVLRSRFEGGFTSEVRGVFTYKVNDAGLITNMRGYWNLDAMKFG",
+                  "midline": "SPAL ASQ+ WRC QAHDREGWLAL+ADDVV+E PIGKSVTNPDG G++GKE V AF+D +IAA +LT+TCEETFPSSSP+EIAHILV  S F+GGFTSEVRGVFTY+VN AGLITN+RGYWNLD M FG"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_085078537.1|",
+                  "accession": "WP_085078537",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium palustre]",
+                  "taxid": 153971,
+                  "sciname": "Mycobacterium palustre"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 4.93611e-74,
+                  "identity": 104,
+                  "positive": 114,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALSASQNSWRCVQAHDREGWLALMADDVVIEDPIGKSVTNPDGEGVKGKEAVAGFYDNNIAANQLTITCEETFPSSSPDEIAHILVLRSRFEGGITSEVRGVFTYKVNDAGLITNMRGYWNLEGMKFG",
+                  "midline": "SPAL ASQ+ WRC QAHDREGWLALMADDVVIE PIGKSVTNPDG G+KGKEAV  F+D +IAA +LT+TCEETFPSSSPDEIAHILV  S F+GG TSEVRGVFTY+VN AGLITN+RGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_180915518.1|",
+                  "accession": "WP_180915518",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium vicinigordonae]",
+                  "taxid": 1719132,
+                  "sciname": "Mycobacterium vicinigordonae"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.868,
+                  "score": 577,
+                  "evalue": 5.50262e-74,
+                  "identity": 103,
+                  "positive": 116,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGTGVKGKDGVAAFYDTNIAANQLTITCEETFPSSSPNEIAHILVLDSKFEGGVTSSVRGVFTYRVNDEGLIESMRGYWNLDMMKFG",
+                  "midline": "QSPAL ASQS WRC QAHDREGWLALMADDVV+E PIGKSVTNPDG+G+KGK+ V AF+DT+IAA +LT+TCEETFPSSSP+EIAHILV  S+F+GG TS VRGVFTYRVN  GLI ++RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_442365621.1|",
+                  "accession": "WP_442365621",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.868,
+                  "score": 577,
+                  "evalue": 5.50395e-74,
+                  "identity": 102,
+                  "positive": 117,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 136,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASHASWRCVQAHDRDGWLALMADDVVIEDPIGQSVTNPDGTGVRGKEGVGAFFDTNIAANQLTITCEETFPSSSPDEVAHILLLDSKFEGGLTSSVRGVFTYKVNDAGLITNMRGYWNLDMMKFG",
+                  "midline": "SPAL AS + WRC QAHDR+GWLALMADDVVIE PIG+SVTNPDG+G++GKE VGAFFDT+IAA +LT+TCEETFPSSSPDE+AHIL+  S+F+GG TS VRGVFTY+VN AGLITN+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_293334531.1|",
+                  "accession": "WP_293334531",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 7.16156e-74,
+                  "identity": 103,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "ESAALTASQSSWRCVQAHDREGWLALLADDVVLEDPIGKSVTNPDGTGVRGKENAAAFYDSNIAANRLTITCEETFPSSSPAEIAHILVLHSRFEGGITSEVRGVFTYRVNDAGLITNLRGYWNFEMMKFG",
+                  "midline": "+S AL ASQS WRC QAHDREGWLAL+ADDVV+E PIGKSVTNPDG+G++GKE   AF+D++IAA RLT+TCEETFPSSSP EIAHILV HS F+GG TSEVRGVFTYRVN AGLITNLRGYWN +MM FG"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_324682954.1|",
+                  "accession": "WP_324682954",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. 94-17]",
+                  "taxid": 2986147,
+                  "sciname": "Mycobacterium sp. 94-17"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 8.18244e-74,
+                  "identity": 101,
+                  "positive": 115,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQASWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGSGVHGRDGVATFYDTNIAANRLSITCEETFPSSSPDEVAHILVLNSRFEGGVTSSVRGVFTYKVNDAGLITNMRGYWNLDMMKFG",
+                  "midline": "SPAL ASQ+ WRC QAHDREGWLALMADDVV+E PIGKSVTNPDGSG+ G++ V  F+DT+IAA RL++TCEETFPSSSPDE+AHILV +S F+GG TS VRGVFTY+VN AGLITN+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_431508688.1|",
+                  "accession": "WP_431508688",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 226.483,
+                  "score": 576,
+                  "evalue": 9.02123e-74,
+                  "identity": 102,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALAASQASWRCVQAHDREGWLALMADDVVVEDPIGKAVTNPDGAGVRGKEGVAGFYDTNIAANQLTITCEETFPSSSPNEIAHILVLDSKFDNGITSSVRGVFTYRVNDAGLIANMRGYWNLDAMTFG",
+                  "midline": "QSPAL ASQ+ WRC QAHDREGWLALMADDVV+E PIGK+VTNPDG+G++GKE V  F+DT+IAA +LT+TCEETFPSSSP+EIAHILV  S+FD G TS VRGVFTYRVN AGLI N+RGYWNLD MTFG"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_293052147.1|",
+                  "accession": "WP_293052147",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.713,
+                  "score": 574,
+                  "evalue": 1.2656e-73,
+                  "identity": 103,
+                  "positive": 114,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 2,
+                  "hit_to": 131,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQASWRCVQAHDRAGWLALMADDVVIEDPIGKSVTNPDGAGVRGKEGVAAFYDNNIAANRLTITCEETFPSSSPDEIAHILVLRSKFDNGVSSTVRGVFTYRVNEAGLITNMRGYWNLDAMVFG",
+                  "midline": "SPAL ASQ+ WRC QAHDR GWLALMADDVVIE PIGKSVTNPDG+G++GKE V AF+D +IAA RLT+TCEETFPSSSPDEIAHILV  S+FD G +S VRGVFTYRVN+AGLITN+RGYWNLD M FG"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_205874907.1|",
+                  "accession": "WP_205874907",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium gordonae]",
+                  "taxid": 1778,
+                  "sciname": "Mycobacterium gordonae"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 2.07493e-73,
+                  "identity": 103,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 131,
+                  "hit_from": 6,
+                  "hit_to": 135,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "QSPALTASQSSWRCVQAHDREGWLALMADDVVIEDPIGKAVTNPDGTGVKGKEGVATFYDTNIAANQLRITCEETFPSSSPHEIAHILVLNSKFEGGFTSEVRGVFTYRVNDDGLINSMRGYWNLDMMKF",
+                  "midline": "QSPAL ASQS WRC QAHDREGWLALMADDVVIE PIGK+VTNPDG+G+KGKE V  F+DT+IAA +L +TCEETFPSSSP EIAHILV +S+F+GGFTSEVRGVFTYRVN  GLI ++RGYWNLDMM F"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_067883613.1|",
+                  "accession": "WP_067883613",
+                  "title": "MULTISPECIES: ketosteroid isomerase family protein [unclassified Mycobacterium]",
+                  "taxid": 2642494,
+                  "sciname": "unclassified Mycobacterium"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 225.328,
+                  "score": 573,
+                  "evalue": 2.19394e-73,
+                  "identity": 101,
+                  "positive": 115,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALTASQSSWRCVQAHDRAGWLALMADDVVVEDPIGKSVTNPDGTGVHGKDGVAAFYDNNIAANQLTITCEETFPSSSPDEVAHILVLHSRFEGGITSKVRGVFTYKVNDAGLITNMRGFWNLDMMEFG",
+                  "midline": "SPAL ASQS WRC QAHDR GWLALMADDVV+E PIGKSVTNPDG+G+ GK+ V AF+D +IAA +LT+TCEETFPSSSPDE+AHILV HS F+GG TS+VRGVFTY+VN AGLITN+RG+WNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_424764421.1|",
+                  "accession": "WP_424764421",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.942,
+                  "score": 572,
+                  "evalue": 3.18476e-73,
+                  "identity": 101,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVQAHDREGWLALMADDVVVEDPIGKSVTNPDGTGVRGKDGVAGFYDTNIAANQLTITCEETFPSSDPHEIAHILVLRSKFDNGITSKVRGVFSYKVNDAGLITKMRGYWNLDMMTFG",
+                  "midline": "QSPAL ASQS WRC QAHDREGWLALMADDVV+E PIGKSVTNPDG+G++GK+ V  F+DT+IAA +LT+TCEETFPSS P EIAHILV  S+FD G TS+VRGVF+Y+VN AGLIT +RGYWNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_083050811.1|",
+                  "accession": "WP_083050811",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium shinjukuense]",
+                  "taxid": 398694,
+                  "sciname": "Mycobacterium shinjukuense"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 4.18769e-73,
+                  "identity": 103,
+                  "positive": 117,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "HTPALSASQASWRCVQAHDRDGWLALMADDVVIEDPIGKAVTNPDGAGIRGKEAVGAFYDANIAPNQLTVTCQESFPSSSPNEIAHILVLDSTFEGGFTSSVRGVFTYRVNDDGLITNLRGYWNLEMMTFG",
+                  "midline": " +PAL ASQ+ WRC QAHDR+GWLALMADDVVIE PIGK+VTNPDG+GI+GKEAVGAF+D +IA  +LTVTC+E+FPSSSP+EIAHILV  S F+GGFTS VRGVFTYRVN  GLITNLRGYWNL+MMTFG"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_163717835.1|",
+                  "accession": "WP_163717835",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium bourgelatii]",
+                  "taxid": 1273442,
+                  "sciname": "Mycobacterium bourgelatii"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.557,
+                  "score": 571,
+                  "evalue": 4.18769e-73,
+                  "identity": 104,
+                  "positive": 113,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 136,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPVLTASQASWRCVQTHDREGWLALMADDVVIEDPIGKSVTNPDGTGIKGKENVAAFYDTNIAANNLTITCEETFPSSSPNEIAHILVLDSKFEGGFTSSVRGVFTYRVNDEGLITNLRGYWNLETMKFG",
+                  "midline": "SP L ASQ+ WRC Q HDREGWLALMADDVVIE PIGKSVTNPDG+GIKGKE V AF+DT+IAA  LT+TCEETFPSSSP+EIAHILV  S+F+GGFTS VRGVFTYRVN  GLITNLRGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_184445930.1|",
+                  "accession": "WP_184445930",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp. AZCC_0083]",
+                  "taxid": 2735882,
+                  "sciname": "Mycobacterium sp. AZCC_0083"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.787,
+                  "score": 569,
+                  "evalue": 1.16239e-72,
+                  "identity": 100,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQASWRCVQAHDREGWLALMADDVVVEDPIGPSVTNPDGTGVRGKEAMAAFYDANISANQLRITCEETFPSSSPDEIAHILVLRSRFEGGFTSTVRGVFTYRVDDAGLIANMRGYWNLDVMQFG",
+                  "midline": "QSPAL ASQ+ WRC QAHDREGWLALMADDVV+E PIG SVTNPDG+G++GKEA+ AF+D +I+A +L +TCEETFPSSSPDEIAHILV  S F+GGFTS VRGVFTYRV+ AGLI N+RGYWNLD+M FG"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_330962568.1|",
+                  "accession": "WP_330962568",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. 050134]",
+                  "taxid": 3096111,
+                  "sciname": "Mycobacterium sp. 050134"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.402,
+                  "score": 568,
+                  "evalue": 1.51176e-72,
+                  "identity": 101,
+                  "positive": 117,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALTASQNSWRCVQAHDREGWLALMADDVVIEDPIGKSVTNPDGTGVRGKAAVGGFFDSNIAANQLTITREETFPSSDPNEIAHVLVLDSKFEGGITSKVRGVFTYKVNEAGLITNMRGYWNLDMMKFG",
+                  "midline": "SPAL ASQ+ WRC QAHDREGWLALMADDVVIE PIGKSVTNPDG+G++GK AVG FFD++IAA +LT+T EETFPSS P+EIAH+LV  S+F+GG TS+VRGVFTY+VN+AGLITN+RGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_065151024.1|",
+                  "accession": "WP_065151024",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium asiaticum]",
+                  "taxid": 1790,
+                  "sciname": "Mycobacterium asiaticum"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.016,
+                  "score": 567,
+                  "evalue": 1.86102e-72,
+                  "identity": 98,
+                  "positive": 116,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "ESPALTASRSSWRCVQAHDREGWLALMADDVVVEDPIGKSITNPEGTGVKGKQGVATFYDTNIAANNLTITCEETFPSSSPNEVAHILVLDSKFEGGFTSSVRGVFTYRVNDEGLITNMRGYWNMEMMKFG",
+                  "midline": "+SPAL AS+S WRC QAHDREGWLALMADDVV+E PIGKS+TNP+G+G+KGK+ V  F+DT+IAA  LT+TCEETFPSSSP+E+AHILV  S+F+GGFTS VRGVFTYRVN  GLITN+RGYWN++MM FG"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_102419498.1|",
+                  "accession": "WP_102419498",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. 4858]",
+                  "taxid": 2057185,
+                  "sciname": "Mycobacterium sp. 4858"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 223.016,
+                  "score": 567,
+                  "evalue": 2.00988e-72,
+                  "identity": 101,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCAQAKDRDGWLALMTDDVVIEDPIGKSVTNPDGTGVRGKAAVGEFFDNNIAKNQLTITCEETFPSSSPREIAHILVLQSKFEGGMTSKVRGVFTYKVNEAGLITNMRGYWNLDVMEFG",
+                  "midline": "QSPAL ASQS WRC QA DR+GWLALM DDVVIE PIGKSVTNPDG+G++GK AVG FFD +IA  +LT+TCEETFPSSSP EIAHILV  S+F+GG TS+VRGVFTY+VN+AGLITN+RGYWNLD+M FG"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gb|MGA7052932.1|",
+                  "accession": "MGA7052932",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 222.631,
+                  "score": 566,
+                  "evalue": 2.64398e-72,
+                  "identity": 103,
+                  "positive": 114,
+                  "query_from": 1,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 136,
+                  "align_len": 132,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TQTAALAASQSSWRCAQARDREGWLALMTDDVVIEDPIGKSVTNPDGTGVRGKHAVGAFFDNNIAPNHLTITCEETFPSSSPDEIAHILVLRSKFEGGLTSTVRGVFTYRVNEAGLIANMRGYWNLDVMEFG",
+                  "midline": "TQ+ AL ASQS WRC QA DREGWLALM DDVVIE PIGKSVTNPDG+G++GK AVGAFFD +IA   LT+TCEETFPSSSPDEIAHILV  S+F+GG TS VRGVFTYRVN+AGLI N+RGYWNLD+M FG"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "ref|WP_371869007.1|",
+                  "accession": "WP_371869007",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium botniense]",
+                  "taxid": 84962,
+                  "sciname": "Mycobacterium botniense"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.09,
+                  "score": 562,
+                  "evalue": 9.12777e-72,
+                  "identity": 101,
+                  "positive": 113,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 3,
+                  "hit_to": 133,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALIASQASWRCVQAHDREGWLALMADDIVIEDPIGKAPTNPDGQGARGKDAVAAFYDANIAANQLTITCEETFPSSSPHEIAHILLLRSVFDNGVTSTVRGVFTYRVNNAGLITNMRGYWNMDAMTFG",
+                  "midline": "QSPALIASQ+ WRC QAHDREGWLALMADD+VIE PIGK+ TNPDG G +GK+AV AF+D +IAA +LT+TCEETFPSSSP EIAHIL+  S FD G TS VRGVFTYRVN AGLITN+RGYWN+D MTFG"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_149655535.1|",
+                  "accession": "WP_149655535",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium simiae]",
+                  "taxid": 1784,
+                  "sciname": "Mycobacterium simiae"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 221.09,
+                  "score": 562,
+                  "evalue": 1.34081e-71,
+                  "identity": 101,
+                  "positive": 113,
+                  "query_from": 2,
+                  "query_to": 131,
+                  "hit_from": 6,
+                  "hit_to": 135,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "QSPALAASQASWRCVQNRDRAGWLALMAHDVVIEDPIGTAVTNPEGSGVKGKEAVAAFFDAYLASNQLTVTCQESFPSSSPTEIAHILVLHSKFDNGFSSTVRGVFTYRVNDAGLITNLRGYWNLDMMTF",
+                  "midline": "QSPAL ASQ+ WRC Q  DR GWLALMA DVVIE PIG +VTNP+GSG+KGKEAV AFFD ++A+ +LTVTC+E+FPSSSP EIAHILV HS+FD GF+S VRGVFTYRVN AGLITNLRGYWNLDMMTF"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "ref|WP_442412368.1|",
+                  "accession": "WP_442412368",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 219.55,
+                  "score": 558,
+                  "evalue": 3.84164e-71,
+                  "identity": 97,
+                  "positive": 115,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALAASQSSWRCAQAHDRDGWLALMADDILIEEPIGKSVTNPDGTGVRGKESAGAFFDANIATNQLTITYKEAFPSSSPDEIAYILVLHSKFEGGFTSTIRGVFTYRVNDAGLITNMRAYWNLDFMKYG",
+                  "midline": "Q+PAL ASQS WRC QAHDR+GWLALMADD++IE PIGKSVTNPDG+G++GKE+ GAFFD +IA  +LT+T +E FPSSSPDEIA+ILV HS+F+GGFTS +RGVFTYRVN AGLITN+R YWNLD M +G"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "ref|WP_260991747.1|",
+                  "accession": "WP_260991747",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium deserti]",
+                  "taxid": 2978347,
+                  "sciname": "Mycobacterium deserti"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 219.55,
+                  "score": 558,
+                  "evalue": 5.05603e-71,
+                  "identity": 97,
+                  "positive": 113,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 137,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALTASQNSWRCVQSHDKEGWLGLMADDVVIEDPIGQAITNPDGHGVRGKEAAAAFYDSNIAANNLRITCEETFPSSSPDEIAHILVLRSQFDNGVTSTVRGVFTYKVNDAGLLTNLRGYWNLDMMEFG",
+                  "midline": "Q+PAL ASQ+ WRC Q+HD+EGWL LMADDVVIE PIG+++TNPDG G++GKEA  AF+D++IAA  L +TCEETFPSSSPDEIAHILV  S+FD G TS VRGVFTY+VN AGL+TNLRGYWNLDMM FG"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "ref|WP_331515579.1|",
+                  "accession": "WP_331515579",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 218.009,
+                  "score": 554,
+                  "evalue": 1.84381e-70,
+                  "identity": 98,
+                  "positive": 112,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "KSPALAASQSSWRCVQAHDREGWLALMSDDVVVEDPIGKSVTNPDGTGVQGKDGVAEFYDTNIAANQLQITCEETFPSSDACEVAHILVLRSKFDNGVTSSVRGVFTYRVNDAGLIANMRGYWNLDMMTFG",
+                  "midline": "+SPAL ASQS WRC QAHDREGWLALM+DDVV+E PIGKSVTNPDG+G++GK+ V  F+DT+IAA +L +TCEETFPSS   E+AHILV  S+FD G TS VRGVFTYRVN AGLI N+RGYWNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_324965994.1|",
+                  "accession": "WP_324965994",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 216.468,
+                  "score": 550,
+                  "evalue": 8.75036e-70,
+                  "identity": 98,
+                  "positive": 113,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVQAHDREGWLALMADDVVIEDPIGEAPTNPEGTGVRGKDGVAAFYDANIAANQLTITCEETFPSSSPNEIAHILVLRSKFDNGVTSTVRGVFTYRVNDAGQIASMRGYWNLDAMTFG",
+                  "midline": "QSPAL ASQS WRC QAHDREGWLALMADDVVIE PIG++ TNP+G+G++GK+ V AF+D +IAA +LT+TCEETFPSSSP+EIAHILV  S+FD G TS VRGVFTYRVN AG I ++RGYWNLD MTFG"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|WP_324396088.1|",
+                  "accession": "WP_324396088",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 216.083,
+                  "score": 549,
+                  "evalue": 1.10171e-69,
+                  "identity": 97,
+                  "positive": 112,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALTASQASWRCVQARDREGWLALMADDVVIEDPIGEAVTNPDGQGVRGKAGVGEFFDANIAKNQLTITCEETFPSSSPNEIAHILVLHSRFEGGFTSTVRGVFTYRVDEAGLIANMRGYWNMRAMTFG",
+                  "midline": "+PAL ASQ+ WRC QA DREGWLALMADDVVIE PIG++VTNPDG G++GK  VG FFD +IA  +LT+TCEETFPSSSP+EIAHILV HS F+GGFTS VRGVFTYRV++AGLI N+RGYWN+  MTFG"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "ref|WP_163776693.1|",
+                  "accession": "WP_163776693",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium cookii]",
+                  "taxid": 1775,
+                  "sciname": "Mycobacterium cookii"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 215.312,
+                  "score": 547,
+                  "evalue": 2.24703e-69,
+                  "identity": 98,
+                  "positive": 112,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QSPALTASQSSWRCVHAHDREGWLALMADDVVIEDPIGKSITNPGGNGVRGKDAVGEFYDTNIATNQLTITCEETFPSSDPAEIAHILVLRSKFDNGITSKVRGVFTYRVDDAGRIANMRGYWNLEAMTFG",
+                  "midline": "QSPAL ASQS WRC  AHDREGWLALMADDVVIE PIGKS+TNP G+G++GK+AVG F+DT+IA  +LT+TCEETFPSS P EIAHILV  S+FD G TS+VRGVFTYRV+ AG I N+RGYWNL+ MTFG"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_171024424.1|",
+                  "accession": "WP_171024424",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium mucogenicum]",
+                  "taxid": 56689,
+                  "sciname": "Mycolicibacterium mucogenicum"
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 214.927,
+                  "score": 546,
+                  "evalue": 2.70744e-69,
+                  "identity": 95,
+                  "positive": 114,
+                  "query_from": 1,
+                  "query_to": 131,
+                  "hit_from": 2,
+                  "hit_to": 132,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "SDNPVVIASQSSWRCVQSHDREGWLALMADDIVVEDPIGEAVTNPDGTGVKGKEALAAFYDTNIGPNQLTVTCEETFPSSSPDEIAYILVLRTEFPNGFVASVRGVFTYKVNAAGLITNLRGYWNLEAMTF",
+                  "midline": "+ +P +IASQS WRC Q+HDREGWLALMADD+V+E PIG++VTNPDG+G+KGKEA+ AF+DT+I   +LTVTCEETFPSSSPDEIA+ILV  +EF  GF + VRGVFTY+VN AGLITNLRGYWNL+ MTF"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_442381744.1|",
+                  "accession": "WP_442381744",
+                  "title": "ketosteroid isomerase family protein, partial [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 213.772,
+                  "score": 543,
+                  "evalue": 6.5125e-69,
+                  "identity": 96,
+                  "positive": 109,
+                  "query_from": 5,
+                  "query_to": 132,
+                  "hit_from": 1,
+                  "hit_to": 128,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "ALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "ALTASQSSWRCVQAHDREGWLALMADDVVVEDPIGKSITNPDGNGVRGKDGVAEFYDTNIAANQLSIICEETFPSSDPDEIAHILVLRSKFDNEITSSVRGVFTYRVNDAGLIANMRGYWNLDAMTFG",
+                  "midline": "AL ASQS WRC QAHDREGWLALMADDVV+E PIGKS+TNPDG+G++GK+ V  F+DT+IAA +L++ CEETFPSS PDEIAHILV  S+FD   TS VRGVFTYRVN AGLI N+RGYWNLD MTFG"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "ref|WP_066855153.1|",
+                  "accession": "WP_066855153",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp. 1274756.6]",
+                  "taxid": 1834076,
+                  "sciname": "Mycobacterium sp. 1274756.6"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 213.386,
+                  "score": 542,
+                  "evalue": 1.03186e-68,
+                  "identity": 94,
+                  "positive": 114,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 134,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALAASQASWRCAQARDKAGWLALMADDVTIEDPIGKAITNPEGTGVRGKDAVSTFFDTNIATNNLTITCEETFPSSSPNEVAHILKLHSKFEGGFTSTVRGVFTYRVDDAGLLTNLRGYWNMDVMTFG",
+                  "midline": "+PAL ASQ+ WRC QA D+ GWLALMADDV IE PIGK++TNP+G+G++GK+AV  FFDT+IA   LT+TCEETFPSSSP+E+AHIL  HS+F+GGFTS VRGVFTYRV+ AGL+TNLRGYWN+D+MTFG"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_353357185.1|",
+                  "accession": "WP_353357185",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 213.386,
+                  "score": 542,
+                  "evalue": 1.498e-68,
+                  "identity": 94,
+                  "positive": 110,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALAASQNSWRCVQAHDKEGWLGLMADDVVIEDPVGQSFTNPDGNGMRGKEAAAAFYDSNIAANNLQITCEETFPSSSPDEIAHILVLRSRFDNGVTSTVRGIFTYRVNDDGLLTNLRGYWNMDVMQFG",
+                  "midline": "+PAL ASQ+ WRC QAHD+EGWL LMADDVVIE P+G+S TNPDG+G++GKEA  AF+D++IAA  L +TCEETFPSSSPDEIAHILV  S FD G TS VRG+FTYRVN  GL+TNLRGYWN+D+M FG"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gb|MBI3215109.1|",
+                  "accession": "MBI3215109",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 212.231,
+                  "score": 539,
+                  "evalue": 3.48491e-68,
+                  "identity": 97,
+                  "positive": 109,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 11,
+                  "hit_to": 140,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQASWRAVQAHDREAWLALMAEDVVIEDPIGKSVTNPDGTGVRGKQAVAAFYDTNIAHNNLQITCEETFPSSSPDEIAHILVLRSRFEGGLRSAVRGVFTYRVDGDGLITNMRGYWNLDMMAFA",
+                  "midline": "SPAL ASQ+ WR  QAHDRE WLALMA+DVVIE PIGKSVTNPDG+G++GK+AV AF+DT+IA   L +TCEETFPSSSPDEIAHILV  S F+GG  S VRGVFTYRV+  GLITN+RGYWNLDMM F "
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gb|MDT5147948.1|",
+                  "accession": "MDT5147948",
+                  "title": "steroid Delta-isomerase [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 211.846,
+                  "score": 538,
+                  "evalue": 6.23133e-68,
+                  "identity": 96,
+                  "positive": 107,
+                  "query_from": 13,
+                  "query_to": 132,
+                  "hit_from": 20,
+                  "hit_to": 139,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "WRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "WRCVQAHDRDGWLALMADDVVIEDPIGKSVTNPDGTGVRGKEAVGAFFDTNIAANQLTITCEESFASSSPLEVAHILVLDSRFEGGLTSSVRGVFTYKVNDAGFITNLRGYWNFDMMTFG",
+                  "midline": "WRC QAHDR+GWLALMADDVVIE PIGKSVTNPDG+G++GKEAVGAFFDT+IAA +LT+TCEE+F SSSP E+AHILV  S F+GG TS VRGVFTY+VN AG ITNLRGYWN DMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "gb|MBU3751590.1|",
+                  "accession": "MBU3751590",
+                  "title": "steroid delta-isomerase [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 211.46,
+                  "score": 537,
+                  "evalue": 8.37746e-68,
+                  "identity": 96,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 13,
+                  "hit_to": 142,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPAMAASQASWRCVQSHDREGWLALMSPDVVIEDPIGPSVTNPDGLGVRGKQAVAAFYDTNIAANNLTVTCEESFPSSSPDEVAHILVLRSAFDGGFTSTVRGVFCYRVDDDGLITNIRGYWNLEGMAFG",
+                  "midline": "+PA+ ASQ+ WRC Q+HDREGWLALM+ DVVIE PIG SVTNPDG G++GK+AV AF+DT+IAA  LTVTCEE+FPSSSPDE+AHILV  S FDGGFTS VRGVF YRV+  GLITN+RGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|WP_416891461.1|",
+                  "accession": "WP_416891461",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 210.69,
+                  "score": 535,
+                  "evalue": 9.89037e-68,
+                  "identity": 96,
+                  "positive": 110,
+                  "query_from": 6,
+                  "query_to": 132,
+                  "hit_from": 1,
+                  "hit_to": 127,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "LIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "MTASQASWRCVQAHDRAGWLALMAEDVVIEDPVGKSVTNPDGTGVKGKEAVAAFYDTNIAANQLTITCEETFPSSSPREIAHILVLDSKFDGGFTSSVRGVFTYRVTDEGLIDSMRGYWNLETMKFG",
+                  "midline": "+ ASQ+ WRC QAHDR GWLALMA+DVVIE P+GKSVTNPDG+G+KGKEAV AF+DT+IAA +LT+TCEETFPSSSP EIAHILV  S+FDGGFTS VRGVFTYRV   GLI ++RGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_264067879.1|",
+                  "accession": "WP_264067879",
+                  "title": "ketosteroid isomerase family protein [Mycolicibacterium komossense]",
+                  "taxid": 1779,
+                  "sciname": "Mycolicibacterium komossense"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 211.075,
+                  "score": 536,
+                  "evalue": 1.2163e-67,
+                  "identity": 93,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 131,
+                  "hit_from": 9,
+                  "hit_to": 137,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "SPALAASQGSWKAVQSHDREAWLALMADDVVIEDPIGEAITNPDGNGVRGKEAVRAFYDTNIATNNLRITCEETFPSSSPNEIAHILILRSEFEGGLSSEVRGVFTYRVNDAGQIANMRGYWNMDVMTF",
+                  "midline": "SPAL ASQ  W+  Q+HDRE WLALMADDVVIE PIG+++TNPDG+G++GKEAV AF+DT+IA   L +TCEETFPSSSP+EIAHIL+  SEF+GG +SEVRGVFTYRVN AG I N+RGYWN+D+MTF"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_128110626.1|",
+                  "accession": "WP_128110626",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium elephantis]",
+                  "taxid": 81858,
+                  "sciname": "Mycolicibacterium elephantis"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 210.69,
+                  "score": 535,
+                  "evalue": 1.35725e-67,
+                  "identity": 95,
+                  "positive": 111,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 137,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALAASQNSWRCVHAHDKEGWLALMADDVVIEDPIGKAITNPDGTGIRGKEAVAAFFDANIASNDLRITCEETFPSSSPTEIAHILVLRSKFENGMTSTVRGVFTYKVDDDGLLTNLRGYWNMDAMQFG",
+                  "midline": "Q+PAL ASQ+ WRC  AHD+EGWLALMADDVVIE PIGK++TNPDG+GI+GKEAV AFFD +IA+  L +TCEETFPSSSP EIAHILV  S+F+ G TS VRGVFTY+V+  GL+TNLRGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gb|MCB0932546.1|",
+                  "accession": "MCB0932546",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 210.69,
+                  "score": 535,
+                  "evalue": 1.4497e-67,
+                  "identity": 96,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPAMAASLASWRCVQSHDREGWLALMAPDVVVEDPIGTSITNPDGLGVRGKEALAAFYDTNIAANTLTVTCEETFPSSSPNEVAHILVLRSEFEGGFTSTVRGVFCYRVDDDGLITNLRGYWNLDAMVFG",
+                  "midline": "+PA+ AS + WRC Q+HDREGWLALMA DVV+E PIG S+TNPDG G++GKEA+ AF+DT+IAA  LTVTCEETFPSSSP+E+AHILV  SEF+GGFTS VRGVF YRV+  GLITNLRGYWNLD M FG"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|MDT5091562.1|",
+                  "accession": "MDT5091562",
+                  "title": "steroid Delta-isomerase [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.92,
+                  "score": 533,
+                  "evalue": 2.37487e-67,
+                  "identity": 98,
+                  "positive": 112,
+                  "query_from": 2,
+                  "query_to": 131,
+                  "hit_from": 8,
+                  "hit_to": 136,
+                  "align_len": 130,
+                  "gaps": 1,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "QSPALAASHASWRCVQAGDREGWLALMADDVLVEDPIGESVTNPDGNGIRGKEAVGAFFDRTIAISEATITCEETFPSSSPNEIAHILVLQNKFD-GFSSRVRGVFTYRVNDAGLLTNLRGYWNMDAMTI",
+                  "midline": "QSPAL AS + WRC QA DREGWLALMADDV++E PIG+SVTNPDG+GI+GKEAVGAFFD  IA +  T+TCEETFPSSSP+EIAHILV  ++FD GF+S VRGVFTYRVN AGL+TNLRGYWN+D MT "
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|MBV9088979.1|",
+                  "accession": "MBV9088979",
+                  "title": "nuclear transport factor 2 family protein [Mycobacteriaceae bacterium]",
+                  "taxid": 2448780,
+                  "sciname": "Mycobacteriaceae bacterium"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 210.305,
+                  "score": 534,
+                  "evalue": 2.7073e-67,
+                  "identity": 95,
+                  "positive": 108,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALTASQASWRCVQARDRAGWLALMADDVVIEDPIGEAVTNPSGHGVRGRAGVGEFFDANIAKNRLTITCEETFPSSSPHEIAHILALHSRFEGGFTSTVRGVFTYQVNDAGLITNMRGYWNMDAMIFG",
+                  "midline": "+PAL ASQ+ WRC QA DR GWLALMADDVVIE PIG++VTNP G G++G+  VG FFD +IA  RLT+TCEETFPSSSP EIAHIL  HS F+GGFTS VRGVFTY+VN AGLITN+RGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gb|MCE9514365.1|",
+                  "accession": "MCE9514365",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.534,
+                  "score": 532,
+                  "evalue": 3.76299e-67,
+                  "identity": 96,
+                  "positive": 110,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 10,
+                  "hit_to": 139,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "APALAASQASWQCVQTHDREGWLALMAPDVVIEDPIGKSITNPDGLGVRGKEAVAAFYDTNIAVNDLTVTCEETFPSSSPNEVAHILVLRSKFDGGVTSAVRGVFCYRVDDDGLITNMRGYWNLEDMQFG",
+                  "midline": "+PAL ASQ+ W+C Q HDREGWLALMA DVVIE PIGKS+TNPDG G++GKEAV AF+DT+IA   LTVTCEETFPSSSP+E+AHILV  S+FDGG TS VRGVF YRV+  GLITN+RGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|MEQ0575278.1|",
+                  "accession": "MEQ0575278",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium tuberculosis]",
+                  "taxid": 1773,
+                  "sciname": "Mycobacterium tuberculosis"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.149,
+                  "score": 531,
+                  "evalue": 4.85058e-67,
+                  "identity": 101,
+                  "positive": 104,
+                  "query_from": 6,
+                  "query_to": 132,
+                  "hit_from": 1,
+                  "hit_to": 127,
+                  "align_len": 127,
+                  "gaps": 0,
+                  "qseq": "LIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "MIASQSSWQCVQAHDREGWLALAVATSSSRIRSASPSPIPISSGIKGKEAVGAFFDTHIAANRLTVTCEETFPSSSPDEIAHILVLHSEFDGGFTSEVRGVFTYRVNKAGLITNMRGYWNLDMMTFG",
+                  "midline": "+IASQS W+C QAHDREGWLAL                 P  SGIKGKEAVGAFFDTHIAA RLTVTCEETFPSSSPDEIAHILV HSEFDGGFTSEVRGVFTYRVNKAGLITN+RGYWNLDMMTFG"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|MBV9352026.1|",
+                  "accession": "MBV9352026",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.149,
+                  "score": 531,
+                  "evalue": 5.70906e-67,
+                  "identity": 97,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALAASQSSWRCVQAGDRDGWLALMADDVVIEDPIGESVTNPDGAGMRGKEAVGRFFDQNIGPNQLTVTCEETFPSSSPREIAHILVLHTKFPNGFASTVRGVFTYCVDEAGLLTNLRGYWNMDAMKFG",
+                  "midline": "+PAL ASQS WRC QA DR+GWLALMADDVVIE PIG+SVTNPDG+G++GKEAVG FFD +I   +LTVTCEETFPSSSP EIAHILV H++F  GF S VRGVFTY V++AGL+TNLRGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_197381242.1|",
+                  "accession": "WP_197381242",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium mengxianglii]",
+                  "taxid": 2736649,
+                  "sciname": "Mycolicibacterium mengxianglii"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.149,
+                  "score": 531,
+                  "evalue": 5.89832e-67,
+                  "identity": 90,
+                  "positive": 112,
+                  "query_from": 3,
+                  "query_to": 131,
+                  "hit_from": 9,
+                  "hit_to": 137,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "SPALAASQASWKAVQAHDKDSWLALMADDVVIEDPIGKAITNPDGNGVRGKDAVSAFYDTNIASNNLRITCEETFPSSSPDEVAHILILRSEFEGGLSSEVRGVFTYRVDDAGKIANMRGYWNMDVMKF",
+                  "midline": "SPAL ASQ+ W+  QAHD++ WLALMADDVVIE PIGK++TNPDG+G++GK+AV AF+DT+IA+  L +TCEETFPSSSPDE+AHIL+  SEF+GG +SEVRGVFTYRV+ AG I N+RGYWN+D+M F"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_193490404.1|",
+                  "accession": "WP_193490404",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium murale]",
+                  "taxid": 182220,
+                  "sciname": "Mycolicibacterium murale"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 209.149,
+                  "score": 531,
+                  "evalue": 6.09555e-67,
+                  "identity": 92,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 131,
+                  "hit_from": 9,
+                  "hit_to": 137,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "APALAASQSSWKAVQAHDKQAWLALMAEDVVIEDPIGQAITNPDGTGVRGKEAVSAFYDTNIAQNNLRITCEETFPSSSPDEIAHILVLRSEFEGGLTSEVRGVFTYRVDGAGKIANMRGYWNMDVMKF",
+                  "midline": "+PAL ASQS W+  QAHD++ WLALMA+DVVIE PIG+++TNPDG+G++GKEAV AF+DT+IA   L +TCEETFPSSSPDEIAHILV  SEF+GG TSEVRGVFTYRV+ AG I N+RGYWN+D+M F"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|AFC41821.1|",
+                  "accession": "AFC41821",
+                  "title": "steroid delta-isomerase [Mycobacterium intracellulare ATCC 13950]",
+                  "taxid": 487521,
+                  "sciname": "Mycobacterium intracellulare ATCC 13950"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.994,
+                  "score": 528,
+                  "evalue": 9.09282e-67,
+                  "identity": 94,
+                  "positive": 108,
+                  "query_from": 17,
+                  "query_to": 132,
+                  "hit_from": 2,
+                  "hit_to": 117,
+                  "align_len": 116,
+                  "gaps": 0,
+                  "qseq": "QAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QAHDRAGWLALMSDDVVIEDPIGKSVTNPDGTGVRGKEAVGAFFDTNIAANQLSITCEETFPSSSPDEIAHILVLNSKFEGGLTSSVRGVFTYKVNDAGLITNMRGYWNLEMMQFG",
+                  "midline": "QAHDR GWLALM+DDVVIE PIGKSVTNPDG+G++GKEAVGAFFDT+IAA +L++TCEETFPSSSPDEIAHILV +S+F+GG TS VRGVFTY+VN AGLITN+RGYWNL+MM FG"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|WP_328361339.1|",
+                  "accession": "WP_328361339",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp. NBC_00419]",
+                  "taxid": 2975989,
+                  "sciname": "Mycobacterium sp. NBC_00419"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 208.764,
+                  "score": 530,
+                  "evalue": 9.44925e-67,
+                  "identity": 94,
+                  "positive": 107,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQASWRCVQSHDREGWLALMAQDVVIEDPIGQAITNPDGLGVRGKEAVAAFYDANIAVNNLRVTCEETFPSSSPQEVAHILVLRSLFEGGLTSTVRGVFTYRVNDEGLIANMRGYWNMDGMQFG",
+                  "midline": "SPAL ASQ+ WRC Q+HDREGWLALMA DVVIE PIG+++TNPDG G++GKEAV AF+D +IA   L VTCEETFPSSSP E+AHILV  S F+GG TS VRGVFTYRVN  GLI N+RGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gb|MFM8599510.1|",
+                  "accession": "MFM8599510",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 208.764,
+                  "score": 530,
+                  "evalue": 1.10168e-66,
+                  "identity": 95,
+                  "positive": 110,
+                  "query_from": 5,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 136,
+                  "align_len": 128,
+                  "gaps": 0,
+                  "qseq": "ALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "AMAASQESWRCVQSHDKAGWLALMAPDVVIEDPIGESITNPDGRGIRGRDAVSAFYDTNIAANNLTVTCEETFPSSSPDEVAHILVLRSEFEGGFTSSVRGVFCYRVDDAGLITNIRGYWHLKAMTFG",
+                  "midline": "A+ ASQ  WRC Q+HD+ GWLALMA DVVIE PIG+S+TNPDG GI+G++AV AF+DT+IAA  LTVTCEETFPSSSPDE+AHILV  SEF+GGFTS VRGVF YRV+ AGLITN+RGYW+L  MTFG"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|WP_087079680.1|",
+                  "accession": "WP_087079680",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium dioxanotrophicus]",
+                  "taxid": 482462,
+                  "sciname": "Mycobacterium dioxanotrophicus"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 208.379,
+                  "score": 529,
+                  "evalue": 1.41808e-66,
+                  "identity": 94,
+                  "positive": 110,
+                  "query_from": 3,
+                  "query_to": 131,
+                  "hit_from": 8,
+                  "hit_to": 136,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "SPVQIASQASWRCVQSGDREGWLALMADDVVVEDPIGEAVTNPDGSGVRGKDAVAVFYDTNIGPNTLTVTCEETFPSSSPTEIAYILVLHTRFPNGFTATVRGVFTYKVNEAGLITNLRGYWNMDAMTF",
+                  "midline": "SP  IASQ+ WRC Q+ DREGWLALMADDVV+E PIG++VTNPDGSG++GK+AV  F+DT+I    LTVTCEETFPSSSP EIA+ILV H+ F  GFT+ VRGVFTY+VN+AGLITNLRGYWN+D MTF"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|WP_083740420.1|",
+                  "accession": "WP_083740420",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp. MS1601]",
+                  "taxid": 1936029,
+                  "sciname": "Mycobacterium sp. MS1601"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 208.379,
+                  "score": 529,
+                  "evalue": 1.48149e-66,
+                  "identity": 91,
+                  "positive": 112,
+                  "query_from": 3,
+                  "query_to": 131,
+                  "hit_from": 9,
+                  "hit_to": 137,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "SPALAASQSSWKAVQAHDKDAWLALMADDVVIEDPIGQAITNPDGTGVRGKEAVSAFYDTNIASNNLHITCEETFPSSSPDEIAHILILRSQFEGGFSSEVRGVFTYRVDGDGKIANMRGYWNMDVMKF",
+                  "midline": "SPAL ASQS W+  QAHD++ WLALMADDVVIE PIG+++TNPDG+G++GKEAV AF+DT+IA+  L +TCEETFPSSSPDEIAHIL+  S+F+GGF+SEVRGVFTYRV+  G I N+RGYWN+D+M F"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gb|MEI8084304.1|",
+                  "accession": "MEI8084304",
+                  "title": "ketosteroid isomerase family protein [Actinomycetes bacterium]",
+                  "taxid": 1883427,
+                  "sciname": "Actinomycetes bacterium"
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.994,
+                  "score": 528,
+                  "evalue": 1.72708e-66,
+                  "identity": 94,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPAMAASLASWRCVQTHDRDGWLSLMADDIVIEDPIGKTVTNPDGLGVRGKEAVAAFYDTNIAANTLRVTCEETFPSSSPNEIAHILVLRSEFEGGFTSAVRGVFCYRVDDDGLLTNMRGYWNLEGMQFG",
+                  "midline": "+PA+ AS + WRC Q HDR+GWL+LMADD+VIE PIGK+VTNPDG G++GKEAV AF+DT+IAA  L VTCEETFPSSSP+EIAHILV  SEF+GGFTS VRGVF YRV+  GL+TN+RGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "ref|WP_099022039.1|",
+                  "accession": "WP_099022039",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium palauense]",
+                  "taxid": 2034511,
+                  "sciname": "Mycolicibacterium palauense"
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.994,
+                  "score": 528,
+                  "evalue": 1.74672e-66,
+                  "identity": 95,
+                  "positive": 106,
+                  "query_from": 3,
+                  "query_to": 131,
+                  "hit_from": 7,
+                  "hit_to": 135,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "SPALAASQGSWRAVQAHDRAAWLALMADDVVIEDPIGKAVTNPDGTGVRGKEAVAAFYDTNIAHNNLRITCEETFPSSSPDEVAHILVLRSAFEGGLRSTVRGVFTYRVNDEGLIANMRGYWNLDVMEF",
+                  "midline": "SPAL ASQ  WR  QAHDR  WLALMADDVVIE PIGK+VTNPDG+G++GKEAV AF+DT+IA   L +TCEETFPSSSPDE+AHILV  S F+GG  S VRGVFTYRVN  GLI N+RGYWNLD+M F"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_163805119.1|",
+                  "accession": "WP_163805119",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium anyangense]",
+                  "taxid": 1431246,
+                  "sciname": "Mycolicibacterium anyangense"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.608,
+                  "score": 527,
+                  "evalue": 2.32258e-66,
+                  "identity": 94,
+                  "positive": 109,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPALAASQASWRAVMSHDREGWLGLMADDVVIEDPIGQAVTNPDGLGVRGKDAVAAFYDTNIAINNLRVTCEETFPSSSPREVAHILVLRSQFEGGLTSTVRGVFTYRVNDAGLITNMRGYWNMEGMQFG",
+                  "midline": "SPAL ASQ+ WR   +HDREGWL LMADDVVIE PIG++VTNPDG G++GK+AV AF+DT+IA   L VTCEETFPSSSP E+AHILV  S+F+GG TS VRGVFTYRVN AGLITN+RGYWN++ M FG"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "gb|TXI39638.1|",
+                  "accession": "TXI39638",
+                  "title": "MAG: nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.608,
+                  "score": 527,
+                  "evalue": 2.53618e-66,
+                  "identity": 95,
+                  "positive": 109,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 137,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPAMAASLASWRCVQSHDREGWLALMADDVVVEDPIGPSVTNPDGHGVRGKEALAAFYDTNIAANDLTVTCEETFPSSSPNEVAHILVLRSRFEGGFTSTVRGVFCYRVNDDGKIANLRGYWNLEGMQFG",
+                  "midline": "+PA+ AS + WRC Q+HDREGWLALMADDVV+E PIG SVTNPDG G++GKEA+ AF+DT+IAA  LTVTCEETFPSSSP+E+AHILV  S F+GGFTS VRGVF YRVN  G I NLRGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|WP_073856916.1|",
+                  "accession": "WP_073856916",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium diernhoferi]",
+                  "taxid": 1801,
+                  "sciname": "Mycolicibacterium diernhoferi"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.223,
+                  "score": 526,
+                  "evalue": 2.99e-66,
+                  "identity": 95,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 131,
+                  "hit_from": 2,
+                  "hit_to": 132,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "TDSPVVLASQASWRCVQAGDGEGWLALMSDDIVIEDPIGEAVTNPDGSGVRGKEAVRAFFDTNIGPNKLTVTCEETFPSSSPTEIAYILVLRTEFPNGFVATVRGVFTYRVNDAGLITNLRGYWNMDAMKF",
+                  "midline": "T SP ++ASQ+ WRC QA D EGWLALM+DD+VIE PIG++VTNPDGSG++GKEAV AFFDT+I   +LTVTCEETFPSSSP EIA+ILV  +EF  GF + VRGVFTYRVN AGLITNLRGYWN+D M F"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|MBY0443318.1|",
+                  "accession": "MBY0443318",
+                  "title": "ketosteroid isomerase family protein [Mycobacteriaceae bacterium]",
+                  "taxid": 2448780,
+                  "sciname": "Mycobacteriaceae bacterium"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.223,
+                  "score": 526,
+                  "evalue": 3.26412e-66,
+                  "identity": 91,
+                  "positive": 108,
+                  "query_from": 9,
+                  "query_to": 132,
+                  "hit_from": 13,
+                  "hit_to": 136,
+                  "align_len": 124,
+                  "gaps": 0,
+                  "qseq": "SQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SQSSWRCVQTHDRAGWLALMADDILIEDPIGKAITNPDGAGVRGKKAVAAFYDANIAANQLTIICEETFPSSSPHEIAHLLVLRSRFEGGFTSTVRGVFTYRVNDAGLLTNLRGYWNIDALTFG",
+                  "midline": "SQS WRC Q HDR GWLALMADD++IE PIGK++TNPDG+G++GK+AV AF+D +IAA +LT+ CEETFPSSSP EIAH+LV  S F+GGFTS VRGVFTYRVN AGL+TNLRGYWN+D +TFG"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "ref|WP_100517399.1|",
+                  "accession": "WP_100517399",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium goodii]",
+                  "taxid": 134601,
+                  "sciname": "Mycolicibacterium goodii"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.608,
+                  "score": 527,
+                  "evalue": 3.88247e-66,
+                  "identity": 94,
+                  "positive": 111,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 16,
+                  "hit_to": 145,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPVVTASRASWRCVQSGDREGWLALMADDVVIEDPIGQAVTNPDGTGVRGKEAVAAFYDTNIGPNQLTVTCEETFPSSSPTEIAYILVLHTRFPNGFTATVRGVFTYRVDDAGLITNLRGYWNMDAMKFG",
+                  "midline": "SP + AS++ WRC Q+ DREGWLALMADDVVIE PIG++VTNPDG+G++GKEAV AF+DT+I   +LTVTCEETFPSSSP EIA+ILV H+ F  GFT+ VRGVFTYRV+ AGLITNLRGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_003897268.1|",
+                  "accession": "WP_003897268",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium smegmatis]",
+                  "taxid": 1772,
+                  "sciname": "Mycolicibacterium smegmatis"
+                }
+              ],
+              "len": 145,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 207.223,
+                  "score": 526,
+                  "evalue": 4.2431e-66,
+                  "identity": 94,
+                  "positive": 109,
+                  "query_from": 4,
+                  "query_to": 132,
+                  "hit_from": 12,
+                  "hit_to": 140,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "PALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "PVVTASRASWRCVQAGDREGWLALMADDVVIEDPIGQAVTNPDGTGVRGKDAVAAFFDQNIGPNRLTVTCEETFPSSSPTEIAYILVLHTRFPNGFTATVRGVFTYKVNDAGLITNLRGYWNMDAMKFG",
+                  "midline": "P + AS++ WRC QA DREGWLALMADDVVIE PIG++VTNPDG+G++GK+AV AFFD +I   RLTVTCEETFPSSSP EIA+ILV H+ F  GFT+ VRGVFTY+VN AGLITNLRGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gb|MCB0924157.1|",
+                  "accession": "MCB0924157",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.838,
+                  "score": 525,
+                  "evalue": 4.89573e-66,
+                  "identity": 94,
+                  "positive": 108,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 9,
+                  "hit_to": 138,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPAMAASQESWRCVQSHDRAGWLALMSDDVVIEDPIGPSVTNPDGHGVRGKDAVAAFYDANIAANNLTVTCEETFPSSSPNEVAHILVLRSRFEGGFTSAVRGVFCYRVNDDGKISNLRGYWNLEGMQFG",
+                  "midline": "+PA+ ASQ  WRC Q+HDR GWLALM+DDVVIE PIG SVTNPDG G++GK+AV AF+D +IAA  LTVTCEETFPSSSP+E+AHILV  S F+GGFTS VRGVF YRVN  G I+NLRGYWNL+ M FG"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gb|MFN8102474.1|",
+                  "accession": "MFN8102474",
+                  "title": "ketosteroid isomerase family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 141,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.453,
+                  "score": 524,
+                  "evalue": 7.67434e-66,
+                  "identity": 92,
+                  "positive": 108,
+                  "query_from": 3,
+                  "query_to": 131,
+                  "hit_from": 10,
+                  "hit_to": 138,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "TPALAASQASWRAVQAHDKEAWLGLMADDVVIEDPIGTSVTNPDGTGVRGKEAVSAFFDSNIAKNNLRITCEETFPSSSPDEVAHILVLRSAFEGGLNSTVRAIFTYRVDEAGLLTNLRGYWNLEMMEF",
+                  "midline": "+PAL ASQ+ WR  QAHD+E WL LMADDVVIE PIG SVTNPDG+G++GKEAV AFFD++IA   L +TCEETFPSSSPDE+AHILV  S F+GG  S VR +FTYRV++AGL+TNLRGYWNL+MM F"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_407770462.1|",
+                  "accession": "WP_407770462",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.453,
+                  "score": 524,
+                  "evalue": 8.46269e-66,
+                  "identity": 89,
+                  "positive": 110,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 12,
+                  "hit_to": 141,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALAASQNSWRCVQTHDKDGWLGLMADDVVIEDPIGEAITNPDGNGVRGKEAAAAFYDSNIASNNLRITCEETFPSSSPNEIAHILMLRSRFDNGVTSTVRGIFTYSVNDAGLLTNLRGYWNMDVMEFG",
+                  "midline": "+PAL ASQ+ WRC Q HD++GWL LMADDVVIE PIG+++TNPDG+G++GKEA  AF+D++IA+  L +TCEETFPSSSP+EIAHIL+  S FD G TS VRG+FTY VN AGL+TNLRGYWN+D+M FG"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_265994666.1|",
+                  "accession": "WP_265994666",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium pinniadriaticum]",
+                  "taxid": 2994102,
+                  "sciname": "Mycobacterium pinniadriaticum"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.068,
+                  "score": 523,
+                  "evalue": 1.03148e-65,
+                  "identity": 90,
+                  "positive": 110,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 137,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALAASQASWKCVMSHDRAGWLALMAPDVVIEDPIGQAITNPDGQGVRGKDAVAEFYDANIAINNLRVTCEETFPSSSPNEVAHILVLRSQFEGGLTSTVRGVFTYRVNEAGLISNMRGYWNMDGMQFG",
+                  "midline": "Q+PAL ASQ+ W+C  +HDR GWLALMA DVVIE PIG+++TNPDG G++GK+AV  F+D +IA   L VTCEETFPSSSP+E+AHILV  S+F+GG TS VRGVFTYRVN+AGLI+N+RGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_427085436.1|",
+                  "accession": "WP_427085436",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium celeriflavum]",
+                  "taxid": 1249101,
+                  "sciname": "Mycolicibacterium celeriflavum"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.068,
+                  "score": 523,
+                  "evalue": 1.06518e-65,
+                  "identity": 92,
+                  "positive": 109,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "KTPALAASHNSWKCMHSHDKEGWLGLMADDVVIEDPIGQSFTNPDGTGIRGKEAVSAFYDANIAANDLRITCEETFPSSSPHEVAHILVLRSRFDNGMTSTVRGVFTYKVNDAGLLTNLRGYWNMDVMEFG",
+                  "midline": "++PAL AS + W+C  +HD+EGWL LMADDVVIE PIG+S TNPDG+GI+GKEAV AF+D +IAA  L +TCEETFPSSSP E+AHILV  S FD G TS VRGVFTY+VN AGL+TNLRGYWN+D+M FG"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_301680878.1|",
+                  "accession": "WP_301680878",
+                  "title": "nuclear transport factor 2 family protein [Mycolicibacterium sp. HK-90]",
+                  "taxid": 3056937,
+                  "sciname": "Mycolicibacterium sp. HK-90"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.068,
+                  "score": 523,
+                  "evalue": 1.11393e-65,
+                  "identity": 91,
+                  "positive": 111,
+                  "query_from": 1,
+                  "query_to": 131,
+                  "hit_from": 6,
+                  "hit_to": 136,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "TQSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTF",
+                  "hseq": "TETPVVTASRSSWRCVQSGDREGWLALMADDIVVEDPIGEAVTNPDGTGVKGKEALAAFYDTNIGPNELTVTCEETFPSSSPNEIAYILVLRTRFPNGFTATVRGVFTYKVNDAGLITNLRGYWNMDAMKF",
+                  "midline": "T++P + AS+S WRC Q+ DREGWLALMADD+V+E PIG++VTNPDG+G+KGKEA+ AF+DT+I    LTVTCEETFPSSSP+EIA+ILV  + F  GFT+ VRGVFTY+VN AGLITNLRGYWN+D M F"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "ref|WP_064424290.1|",
+                  "accession": "WP_064424290",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp. GA-1285]",
+                  "taxid": 1772282,
+                  "sciname": "Mycobacterium sp. GA-1285"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 206.068,
+                  "score": 523,
+                  "evalue": 1.21493e-65,
+                  "identity": 93,
+                  "positive": 107,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 138,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "KTPALAASHNSWRCVHSHDKEGWLALMADDVVIEDPIGKSFTNPDGTGIRGKEAVSGFYDAVIASNDLRITCEETFPSSSPHEVAHILVLRSMFDNGMTSTVRGVFTYKVNDTGLLTNLRGYWNMDMMQFG",
+                  "midline": "++PAL AS + WRC  +HD+EGWLALMADDVVIE PIGKS TNPDG+GI+GKEAV  F+D  IA+  L +TCEETFPSSSP E+AHILV  S FD G TS VRGVFTY+VN  GL+TNLRGYWN+DMM FG"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gb|MEI7913802.1|",
+                  "accession": "MEI7913802",
+                  "title": "ketosteroid isomerase family protein [Mycobacteriaceae bacterium]",
+                  "taxid": 2448780,
+                  "sciname": "Mycobacteriaceae bacterium"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 205.297,
+                  "score": 521,
+                  "evalue": 1.6728e-65,
+                  "identity": 92,
+                  "positive": 105,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 5,
+                  "hit_to": 134,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALAASHESWRCVQNHDREGWLGLMADDIVIEDPIGKAITNPDGNGVRGKEAASVFYDTNIAVNNLTVTCEETFPSSSTNEVAHILSLHSRFEGGVTSTVRGVFCYRVNDDGLITNLRGYWNMDAMQFG",
+                  "midline": "+PAL AS   WRC Q HDREGWL LMADD+VIE PIGK++TNPDG+G++GKEA   F+DT+IA   LTVTCEETFPSSS +E+AHIL  HS F+GG TS VRGVF YRVN  GLITNLRGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "ref|WP_163748505.1|",
+                  "accession": "WP_163748505",
+                  "title": "ketosteroid isomerase family protein [Mycolicibacterium helvum]",
+                  "taxid": 1534349,
+                  "sciname": "Mycolicibacterium helvum"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 205.297,
+                  "score": 521,
+                  "evalue": 2.03542e-65,
+                  "identity": 90,
+                  "positive": 110,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 7,
+                  "hit_to": 136,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "TPALAASQASWKCVMSHNREGWLALMADDVVIEDPIGQAITNPDGDGVRGKEAVAGFYDSNISINNLRVTCEETFPSSSPYEVAHILVLRSQFEGGLTSTVRGVFTYKVNDAGLITNMRGYWNMDGMQFG",
+                  "midline": "+PAL ASQ+ W+C  +H+REGWLALMADDVVIE PIG+++TNPDG G++GKEAV  F+D++I+   L VTCEETFPSSSP E+AHILV  S+F+GG TS VRGVFTY+VN AGLITN+RGYWN+D M FG"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "tpg|HEX7428488.1|",
+                  "accession": "HEX7428488",
+                  "title": "nuclear transport factor 2 family protein [Mycobacterium sp.]",
+                  "taxid": 1785,
+                  "sciname": "Mycobacterium sp."
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 205.297,
+                  "score": 521,
+                  "evalue": 2.14866e-65,
+                  "identity": 92,
+                  "positive": 108,
+                  "query_from": 2,
+                  "query_to": 132,
+                  "hit_from": 11,
+                  "hit_to": 141,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "QSPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "QTPALTASQNSWRCVHARDKEGWLALMADDVVVEDPIGQSYTNPDGNGLRGKEAVAAFYDANIGPNELRVTCEETFPSSAPDEIAHILVLRTKFPNGRISTVRGVFTYKVNDAGLLTNLRGYWNMDMMQFG",
+                  "midline": "Q+PAL ASQ+ WRC  A D+EGWLALMADDVV+E PIG+S TNPDG+G++GKEAV AF+D +I    L VTCEETFPSS+PDEIAHILV  ++F  G  S VRGVFTY+VN AGL+TNLRGYWN+DMM FG"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_085142358.1|",
+                  "accession": "WP_085142358",
+                  "title": "MULTISPECIES: nuclear transport factor 2 family protein [Mycolicibacterium]",
+                  "taxid": 1866885,
+                  "sciname": "Mycolicibacterium"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 205.297,
+                  "score": 521,
+                  "evalue": 2.45285e-65,
+                  "identity": 93,
+                  "positive": 110,
+                  "query_from": 3,
+                  "query_to": 132,
+                  "hit_from": 8,
+                  "hit_to": 137,
+                  "align_len": 130,
+                  "gaps": 0,
+                  "qseq": "SPALIASQSLWRCTQAHDREGWLALMADDVVIETPIGKSVTNPDGSGIKGKEAVGAFFDTHIAATRLTVTCEETFPSSSPDEIAHILVAHSEFDGGFTSEVRGVFTYRVNKAGLITNLRGYWNLDMMTFG",
+                  "hseq": "SPARAASLASWRCVQSGDKDGWLALMADDVVIEDPIGEAVTNPDGTGVRGKEAVSAFYDTNIGPNELTVTCEETFPSSSPSEIAYILVLHTKFPNGFTATVRGVFTYKVNDAGLITNLRGYWNMDAMKFG",
+                  "midline": "SPA  AS + WRC Q+ D++GWLALMADDVVIE PIG++VTNPDG+G++GKEAV AF+DT+I    LTVTCEETFPSSSP EIA+ILV H++F  GFT+ VRGVFTY+VN AGLITNLRGYWN+D M FG"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

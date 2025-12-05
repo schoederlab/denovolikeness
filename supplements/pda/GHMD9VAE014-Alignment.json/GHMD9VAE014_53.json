@@ -1,0 +1,198 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236172",
+          "query_title": "2lr0_A",
+          "query_len": 134,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|2LR0|A",
+                  "accession": "2LR0_A",
+                  "title": "Chain A, P-loop ntpase fold [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 259.61,
+                  "score": 662,
+                  "evalue": 6.09485e-87,
+                  "identity": 134,
+                  "positive": 134,
+                  "query_from": 1,
+                  "query_to": 134,
+                  "hit_from": 1,
+                  "hit_to": 134,
+                  "align_len": 134,
+                  "gaps": 0,
+                  "qseq": "MKILILINTNNDELIKKIKKEVENQGYQVRDVNDSDELKKEMKKLAEEKNFEKILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKVTDDEEALKIVREFMQKAGSLEHHHHHH",
+                  "hseq": "MKILILINTNNDELIKKIKKEVENQGYQVRDVNDSDELKKEMKKLAEEKNFEKILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKVTDDEEALKIVREFMQKAGSLEHHHHHH",
+                  "midline": "MKILILINTNNDELIKKIKKEVENQGYQVRDVNDSDELKKEMKKLAEEKNFEKILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKVTDDEEALKIVREFMQKAGSLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|2L69|A",
+                  "accession": "2L69_A",
+                  "title": "Chain A, Rossmann 2x3 fold protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.5741,
+                  "score": 205,
+                  "evalue": 1.79078e-17,
+                  "identity": 41,
+                  "positive": 82,
+                  "query_from": 1,
+                  "query_to": 129,
+                  "hit_from": 1,
+                  "hit_to": 129,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "MKILILINTNNDELIKKIKKEVENQGYQVRDVNDSDELKKEMKKLAEEKNFEKILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKVTDDEEALKIVREFMQKAGSLEH",
+                  "hseq": "MNIVIVVFSTDEETLRKFKDIIKKNGFKVRTVRSPQELKDSIEELVKKYNATIVVVVVDDKEWAEKAIRFVKSLGAQVLIIIYDQDQNRLEEFSREVRRRGFEVRTVTSPDDFKKSLERLIREVGSLEH",
+                  "midline": "M I+I++ + ++E ++K K  ++  G++VR V    ELK  +++L ++ N   +++  +DK+  ++ +  +  LG +V +++ DQD+N LEEF R++  +G+EVR VT  ++  K +   +++ GSLEH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|2L82|A",
+                  "accession": "2L82_A",
+                  "title": "Chain A, DESIGNED PROTEIN OR32 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 1.2465e-07,
+                  "identity": 33,
+                  "positive": 70,
+                  "query_from": 25,
+                  "query_to": 129,
+                  "hit_from": 51,
+                  "hit_to": 157,
+                  "align_len": 109,
+                  "gaps": 6,
+                  "qseq": "QGYQVRDVNDSDELKKEMKKLAEEKNFEK----ILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKVTDDEEALKIVREFMQKAGSLEH",
+                  "hseq": "QGVDVRTVEDKEDFRENIREIWE--RYPQLDVVVIVTTDDKEWIKDFIEEAKERGVEVFVVYNNKDDDRRKEAQQEFRSDGVDVRTVSDKEELIEQVRRFVRKVGSLEH",
+                  "midline": "QG  VR V D ++ ++ ++++ E   + +    +++ ++DK+ +K+ +E   + G +VF++  ++D++  +E +++  S G +VR V+D EE ++ VR F++K GSLEH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6XEH|A",
+                  "accession": "6XEH_A",
+                  "title": "Chain A, DE NOVO DESIGNED OR386 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 56.6102,
+                  "score": 135,
+                  "evalue": 3.0711e-07,
+                  "identity": 37,
+                  "positive": 72,
+                  "query_from": 9,
+                  "query_to": 129,
+                  "hit_from": 8,
+                  "hit_to": 120,
+                  "align_len": 121,
+                  "gaps": 8,
+                  "qseq": "TNNDELIKKIKKEVENQGYQVRDVNDSDELKKEMKKLAEEKNFEKILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKVTDDEEALKIVREFMQKAGSLEH",
+                  "hseq": "SDDQEIIEEVSKKAEEEGYDIQTSNDKKEIIDRLKR----RNIDMIIVKTEDKESISEIIKQVLDSGAKVLILSSD--ENIIESIRKQYPK--VETRRAQDKEEVKDAVEEFLKEGGSLEH",
+                  "midline": "+++ E+I+++ K+ E +GY ++  ND  E+   +K+    +N + I++K+ DK+ + E+++ +   G KV +L +D  EN +E  +++      E R+  D EE    V EF+++ GSLEH"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|2LTA|A",
+                  "accession": "2LTA_A",
+                  "title": "Chain A, De novo designed protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.00469382,
+                  "identity": 36,
+                  "positive": 55,
+                  "query_from": 54,
+                  "query_to": 128,
+                  "hit_from": 6,
+                  "hit_to": 104,
+                  "align_len": 100,
+                  "gaps": 26,
+                  "qseq": "ILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVR-------------------------KVTDDEEALKIVREFMQKAGSLE",
+                  "hseq": "IVIISSDDTTLEELARKIKDEGLEVYILLKDKDEKRLEEKIQKLKSQGFEVRKVKDDDDIDKWIDKIKKERPQLEVRKVTDEDQAKQIL-EDLKKKGSLE",
+                  "midline": "I+I S+D   L+E+   I   G +V++LL D+DE  LEE  +K++SQG+EVR                         KVTD+++A +I+ E ++K GSLE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

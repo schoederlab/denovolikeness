@@ -1,0 +1,582 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236515",
+          "query_title": "2n8w_A",
+          "query_len": 104,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|2N8W|A",
+                  "accession": "2N8W_A",
+                  "title": "Chain A, Designed Protein DA05R1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 203.756,
+                  "score": 517,
+                  "evalue": 8.23817e-66,
+                  "identity": 104,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 104,
+                  "hit_from": 1,
+                  "hit_to": 104,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "ADENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSLKEAITAIPEEEGRKEAKEMAKKAEEWLQAEQNN",
+                  "hseq": "ADENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSLKEAITAIPEEEGRKEAKEMAKKAEEWLQAEQNN",
+                  "midline": "ADENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSLKEAITAIPEEEGRKEAKEMAKKAEEWLQAEQNN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|2N8I|A",
+                  "accession": "2N8I_A",
+                  "title": "Chain A, Designed Protein DA05 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.405,
+                  "score": 311,
+                  "evalue": 2.04947e-34,
+                  "identity": 63,
+                  "positive": 65,
+                  "query_from": 2,
+                  "query_to": 78,
+                  "hit_from": 5,
+                  "hit_to": 81,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "DENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSLKEAITAI",
+                  "hseq": "DENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKVKEAIEYFLRAKKVFDAEHDTDGARRAAKSLSEAYQKV",
+                  "midline": "DENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGK +EA EYF RA  VF  EHDTDG RRAAKSL EA   +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_326254806.1|",
+                  "accession": "WP_326254806",
+                  "title": "tetratricopeptide repeat protein, partial [Bacillus inaquosorum]",
+                  "taxid": 483913,
+                  "sciname": "Bacillus inaquosorum"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.8398,
+                  "score": 133,
+                  "evalue": 1.39952e-06,
+                  "identity": 28,
+                  "positive": 33,
+                  "query_from": 5,
+                  "query_to": 55,
+                  "hit_from": 48,
+                  "hit_to": 98,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "ISHFKKAYSMAEAENQPQLMGRTLYNIGLCKNSQSQYEDAVTYFKRAIAVF",
+                  "midline": "I+ F+KAY  AE  NQ +LMGR LYNIGL KN   +  +A  YF RA  VF"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_268278410.1|",
+                  "accession": "WP_268278410",
+                  "title": "tetratricopeptide repeat protein, partial [Bacillus inaquosorum]",
+                  "taxid": 483913,
+                  "sciname": "Bacillus inaquosorum"
+                }
+              ],
+              "len": 344,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 55.4546,
+                  "score": 132,
+                  "evalue": 3.03261e-06,
+                  "identity": 28,
+                  "positive": 33,
+                  "query_from": 5,
+                  "query_to": 55,
+                  "hit_from": 165,
+                  "hit_to": 215,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "ISHFKKAYSMAEAENQPQLMGRTLYNIGLCKNSQSQYEDAVTYFKRAIAVF",
+                  "midline": "I+ F+KAY  AE  NQ +LMGR LYNIGL KN   +  +A  YF RA  VF"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "emb|CJS90482.1|",
+                  "accession": "CJS90482",
+                  "title": "Response regulator aspartate phosphatase F [Streptococcus pneumoniae]",
+                  "taxid": 1313,
+                  "sciname": "Streptococcus pneumoniae"
+                }
+              ],
+              "len": 273,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 2.3393e-05,
+                  "identity": 27,
+                  "positive": 32,
+                  "query_from": 5,
+                  "query_to": 55,
+                  "hit_from": 94,
+                  "hit_to": 144,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "ISHFQKAYSMAEAEKQPQLMGRTLYNIGLCKNSQSQYEDAIPYFKRAIAVF",
+                  "midline": "I+ F+KAY  AE   Q +LMGR LYNIGL KN   +  +A  YF RA  VF"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_283933869.1|",
+                  "accession": "WP_283933869",
+                  "title": "response regulator aspartate phosphatase RapF [Bacillus subtilis]",
+                  "taxid": 1423,
+                  "sciname": "Bacillus subtilis"
+                }
+              ],
+              "len": 381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 2.56808e-05,
+                  "identity": 27,
+                  "positive": 32,
+                  "query_from": 5,
+                  "query_to": 55,
+                  "hit_from": 202,
+                  "hit_to": 252,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "ISHFQKAYSMAEAEKQPQLMGRTLYNIGLCKNSQSQYEDAIPYFKRAIAVF",
+                  "midline": "I+ F+KAY  AE   Q +LMGR LYNIGL KN   +  +A  YF RA  VF"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|MDQ0929666.1|",
+                  "accession": "MDQ0929666",
+                  "title": "response regulator aspartate phosphatase F [Bacillus atrophaeus]",
+                  "taxid": 1452,
+                  "sciname": "Bacillus atrophaeus"
+                }
+              ],
+              "len": 315,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 51.2174,
+                  "score": 121,
+                  "evalue": 7.84377e-05,
+                  "identity": 27,
+                  "positive": 31,
+                  "query_from": 5,
+                  "query_to": 55,
+                  "hit_from": 201,
+                  "hit_to": 251,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "ISHFKKAYTMAESEKQPQLMGRTLYNIGLCKNSQDQYESAITYFKRAISVF",
+                  "midline": "I+ F+KAY  AE   Q +LMGR LYNIGL KN   +   A  YF RA  VF"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_353772649.1|",
+                  "accession": "WP_353772649",
+                  "title": "tetratricopeptide repeat protein, partial [Bacillus sp. JJ353]",
+                  "taxid": 3122967,
+                  "sciname": "Bacillus sp. JJ353"
+                }
+              ],
+              "len": 266,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000352616,
+                  "identity": 32,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 82,
+                  "hit_from": 90,
+                  "hit_to": 166,
+                  "align_len": 78,
+                  "gaps": 1,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSLKEAITAIPEEE",
+                  "hseq": "LPHLENALKLVREESQRILEGHTFYNLGNCYYKMGKADQAAEYFHK-AVVIYKEETSDTLTKACFSLALAYFKLKQNE",
+                  "midline": "+   E A K   E +Q  L G   YN+G    KMGKA +AAEYF + A+V YKE  +D L +A  SL  A   + + E"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gb|XLG16272.1|",
+                  "accession": "XLG16272",
+                  "title": "Response regulator aspartate phosphatase F [Bacillus velezensis]",
+                  "taxid": 492670,
+                  "sciname": "Bacillus velezensis"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.1358,
+                  "score": 113,
+                  "evalue": 0.000919245,
+                  "identity": 27,
+                  "positive": 31,
+                  "query_from": 2,
+                  "query_to": 55,
+                  "hit_from": 53,
+                  "hit_to": 106,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "DENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "DEAIQHFKKAYAMAEAEQQPQLMGRTLYNIGLCFNSQENYKPAIDYIKRAIAVF",
+                  "midline": "DE I  F+KAY  AE   Q +LMGR LYNIGL  N     + A +Y  RA  VF"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_007407638.1|",
+                  "accession": "WP_007407638",
+                  "title": "MULTISPECIES: response regulator aspartate phosphatase [Bacillus]",
+                  "taxid": 1386,
+                  "sciname": "Bacillus"
+                }
+              ],
+              "len": 381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.00140483,
+                  "identity": 27,
+                  "positive": 31,
+                  "query_from": 2,
+                  "query_to": 55,
+                  "hit_from": 199,
+                  "hit_to": 252,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "DENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "DEAIQHFKKAYAMAEAEQQPQLMGRTLYNIGLCFNSQENYKPAIDYIKRAIAVF",
+                  "midline": "DE I  F+KAY  AE   Q +LMGR LYNIGL  N     + A +Y  RA  VF"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_268516837.1|",
+                  "accession": "WP_268516837",
+                  "title": "tetratricopeptide repeat protein, partial [Bacillus atrophaeus]",
+                  "taxid": 1452,
+                  "sciname": "Bacillus atrophaeus"
+                }
+              ],
+              "len": 312,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.0081839,
+                  "identity": 24,
+                  "positive": 34,
+                  "query_from": 5,
+                  "query_to": 58,
+                  "hit_from": 134,
+                  "hit_to": 186,
+                  "align_len": 54,
+                  "gaps": 1,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKE",
+                  "hseq": "IPHFQKAYKKALEIDMPRLAGSALYNLGISSFSGGKFDKAIEY-FREGVLIYEQ",
+                  "midline": "I  F+KAYKKA E++   L G ALYN+G+     GK  +A EY FR  ++ Y++"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_229977758.1|",
+                  "accession": "WP_229977758",
+                  "title": "Rap family tetratricopeptide repeat protein [Bacillus nakamurai]",
+                  "taxid": 1793963,
+                  "sciname": "Bacillus nakamurai"
+                }
+              ],
+              "len": 378,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.0111534,
+                  "identity": 28,
+                  "positive": 36,
+                  "query_from": 5,
+                  "query_to": 71,
+                  "hit_from": 200,
+                  "hit_to": 262,
+                  "align_len": 67,
+                  "gaps": 4,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSL",
+                  "hseq": "IPHFEKALEKAREINKPRLAGSALYNLGLSSFSEDKFEEAAEYFKEGVSIY----DQNGYEHANRLL",
+                  "midline": "I  FEKA +KA E+N+  L G ALYN+GL      K  EAAEYF     ++    D +G   A + L"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_048406156.1|",
+                  "accession": "WP_048406156",
+                  "title": "response regulator aspartate phosphatase [Bacillus glycinifermentans]",
+                  "taxid": 1664069,
+                  "sciname": "Bacillus glycinifermentans"
+                }
+              ],
+              "len": 372,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0148977,
+                  "identity": 31,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 82,
+                  "hit_from": 200,
+                  "hit_to": 276,
+                  "align_len": 78,
+                  "gaps": 1,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSLKEAITAIPEEE",
+                  "hseq": "LPHLENALKLAREEGQRILEGHTFYNLGNCYYKMRKADQAAEYFHKAVVI-YKEETSDILPKACFSLALAYFKLKQNE",
+                  "midline": "+   E A K A E  Q  L G   YN+G    KM KA +AAEYF +A ++ YKE  +D L +A  SL  A   + + E"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_168749007.1|",
+                  "accession": "WP_168749007",
+                  "title": "MULTISPECIES: tetratricopeptide repeat protein [Bacillus]",
+                  "taxid": 1386,
+                  "sciname": "Bacillus"
+                }
+              ],
+              "len": 381,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.02102,
+                  "identity": 25,
+                  "positive": 30,
+                  "query_from": 2,
+                  "query_to": 55,
+                  "hit_from": 199,
+                  "hit_to": 252,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "DENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "DKAIAHFQKAYTLAEAEQQPQLMGRTLYNIALCKQNQHSLESAIEYVKKSIHVF",
+                  "midline": "D+ IA F+KAY  AE   Q +LMGR LYNI L K        A EY  ++  VF"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_223251884.1|",
+                  "accession": "WP_223251884",
+                  "title": "response regulator aspartate phosphatase [Bacillus atrophaeus]",
+                  "taxid": 1452,
+                  "sciname": "Bacillus atrophaeus"
+                }
+              ],
+              "len": 394,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0226133,
+                  "identity": 24,
+                  "positive": 32,
+                  "query_from": 2,
+                  "query_to": 55,
+                  "hit_from": 212,
+                  "hit_to": 265,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "DENIAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "NEAISHFKKAFSMAQAEQQPQLMGRTLYNIALCKQSQKEYESAIEYIERAILVF",
+                  "midline": "+E I+ F+KA+  A+   Q +LMGR LYNI L K    +   A EY  RA +VF"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_307891889.1|",
+                  "accession": "WP_307891889",
+                  "title": "Rap family tetratricopeptide repeat protein [Bacillus swezeyi]",
+                  "taxid": 1925020,
+                  "sciname": "Bacillus swezeyi"
+                }
+              ],
+              "len": 376,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0267552,
+                  "identity": 29,
+                  "positive": 36,
+                  "query_from": 5,
+                  "query_to": 71,
+                  "hit_from": 200,
+                  "hit_to": 265,
+                  "align_len": 67,
+                  "gaps": 1,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVFYKEHDTDGLRRAAKSL",
+                  "hseq": "LPHLENALKLAQEEDQRILEGHTFYNLGNCYYKMGNTDQAAEY-FNKAIVIYNEEKSDILSKAFFSL",
+                  "midline": "+   E A K A+E +Q  L G   YN+G    KMG   +AAEY F  AIV Y E  +D L +A  SL"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_174747595.1|",
+                  "accession": "WP_174747595",
+                  "title": "RapH N-terminal domain-containing protein [Bacillus amyloliquefaciens]",
+                  "taxid": 1390,
+                  "sciname": "Bacillus amyloliquefaciens"
+                }
+              ],
+              "len": 378,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0452844,
+                  "identity": 22,
+                  "positive": 30,
+                  "query_from": 5,
+                  "query_to": 55,
+                  "hit_from": 200,
+                  "hit_to": 250,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "IAKFEKAYKKAEELNQGELMGRALYNIGLEKNKMGKAREAAEYFFRAAIVF",
+                  "hseq": "IPHFQKAYKKALEIDMPRLAGSALYNLGISSFSEEKFDEAIEYFKEGVLIY",
+                  "midline": "I  F+KAYKKA E++   L G ALYN+G+      K  EA EYF    +++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

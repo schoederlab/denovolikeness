@@ -1,0 +1,3238 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236248",
+          "query_title": "8dn6_C",
+          "query_len": 239,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|9J05|B",
+                  "accession": "9J05_B",
+                  "title": "Chain B, Antibody 1b3 Fab Heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 284,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 426.017,
+                  "score": 1094,
+                  "evalue": 1.08747e-148,
+                  "identity": 216,
+                  "positive": 219,
+                  "query_from": 1,
+                  "query_to": 225,
+                  "hit_from": 58,
+                  "hit_to": 284,
+                  "align_len": 227,
+                  "gaps": 2,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS-YGWATY-GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNIYYSSMHWVRQAPGKGLEWVASISPYSGSTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARPWYPWSYWSGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFN YY S+HWVRQAPGKGLEWVASISPYSG TYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR  Y W+ + GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8ZYT|D",
+                  "accession": "8ZYT_D",
+                  "title": "Chain D, Fab30 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 407.912,
+                  "score": 1047,
+                  "evalue": 6.09763e-142,
+                  "identity": 218,
+                  "positive": 219,
+                  "query_from": 1,
+                  "query_to": 229,
+                  "hit_from": 21,
+                  "hit_to": 249,
+                  "align_len": 229,
+                  "gaps": 0,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNVYSSSIHWVRQAPGKGLEWVASISSYYGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSRQFWYSGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFN Y  SIHWVRQAPGKGLEWVASIS Y GYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS  +   GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|8VC7|B",
+                  "accession": "8VC7_B",
+                  "title": "Chain B, Human IgG1 Fragment Antibody Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 402.905,
+                  "score": 1034,
+                  "evalue": 2.50496e-140,
+                  "identity": 218,
+                  "positive": 219,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 233,
+                  "align_len": 233,
+                  "gaps": 2,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATY--GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNLYSSSIHWVRQAPGKGLEWVAYIYPSSGYTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARYYYTRGYPDGMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFN Y  SIHWVRQAPGKGLEWVA I P SGYT YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR Y    Y  G+DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|9D41|H",
+                  "accession": "9D41_H",
+                  "title": "Chain H, Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 398.667,
+                  "score": 1023,
+                  "evalue": 1.28277e-138,
+                  "identity": 217,
+                  "positive": 218,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 233,
+                  "align_len": 234,
+                  "gaps": 4,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR---SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFSYSSIHWVRQAPGKGLEWVASIYPYSGSTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARKQVSGWWWYYGFDYWGQGTLVTVFN-QIKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNF Y SIHWVRQAPGKGLEWVASI PYSG TYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR   S  W  YG DYWGQGTLVTV +   KGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|AZM66141.1|",
+                  "accession": "AZM66141",
+                  "title": "anti-EphB6 Fab-SpyCatcher-6xHis, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 355,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 401.364,
+                  "score": 1030,
+                  "evalue": 7.74216e-138,
+                  "identity": 215,
+                  "positive": 216,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 232,
+                  "gaps": 3,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWA-TYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNISSSSIHWVRQAPGKGLEWVASISSYYGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAR--GWSHVSALDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFN    SIHWVRQAPGKGLEWVASIS Y G TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR  GW+    LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|8TMD|H",
+                  "accession": "8TMD_H",
+                  "title": "Chain H, sAB C18 Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 237,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 388.652,
+                  "score": 997,
+                  "evalue": 1.09824e-134,
+                  "identity": 218,
+                  "positive": 221,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 237,
+                  "align_len": 237,
+                  "gaps": 6,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATY------GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNVSYYSIHWVRQAPGKGLEWVASISSSSGSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYWYYIWSYSYGNAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFN  YYSIHWVRQAPGKGLEWVASIS  SG T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSY +  +       +DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|5X8L|F",
+                  "accession": "5X8L_F",
+                  "title": "Chain F, atezolizumab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.726,
+                  "score": 992,
+                  "evalue": 5.51703e-134,
+                  "identity": 211,
+                  "positive": 212,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 224,
+                  "align_len": 226,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSDSWIHWVRQAPGKGLEWVAWISPYGGSTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARRH-WPG-GFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF F    IHWVRQAPGKGLEWVA ISPY G TYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR + W   G DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|8OZ3|A",
+                  "accession": "8OZ3_A",
+                  "title": "Chain A, Single chain Fv [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 385.185,
+                  "score": 988,
+                  "evalue": 2.01123e-133,
+                  "identity": 206,
+                  "positive": 214,
+                  "query_from": 4,
+                  "query_to": 235,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 232,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTSRHH",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFNFGYSYMSWVRQAPGKGLEWVSSIGSTSSHTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARVY--SSPGIDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHCDKTH",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGFNF Y  + WVRQAPGKGLEWV+SI   S +TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR Y  ++ G+DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH  + H"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gb|USU81764.1|",
+                  "accession": "USU81764",
+                  "title": "anti-HER2-SpyTag002 4D5 Fab0.11 heavy chain [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 278,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.726,
+                  "score": 992,
+                  "evalue": 3.05837e-133,
+                  "identity": 206,
+                  "positive": 209,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 32,
+                  "hit_to": 254,
+                  "align_len": 223,
+                  "gaps": 0,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRWGGWGFYAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGFN     IHWVRQAPGKGLEWVA I P +GYT YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYC+R  GW  Y +DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "pdb|8TV1|D",
+                  "accession": "8TV1_D",
+                  "title": "Chain D, S1C variant of Fab_L1 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 237,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 385.185,
+                  "score": 988,
+                  "evalue": 3.21257e-133,
+                  "identity": 212,
+                  "positive": 214,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 237,
+                  "align_len": 237,
+                  "gaps": 9,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS-----YGWATY----GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTISSSYIHWVRQAPGKGLEWVASISSYYGSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSHYSVWWGWHSVSYYAAFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF      IHWVRQAPGKGLEWVASIS Y G T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS     +GW +       DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|7KEZ|H",
+                  "accession": "7KEZ_H",
+                  "title": "Chain H, anti-VEGF-A Fab bH1 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 385.185,
+                  "score": 988,
+                  "evalue": 3.44936e-133,
+                  "identity": 209,
+                  "positive": 210,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 229,
+                  "align_len": 229,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS---YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKDTYIHWVRQAPGKGLEWVARIYPTNGYTRYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARGGAVAGTGVYYFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGFN     IHWVRQAPGKGLEWVA I P +GYT YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR     G   Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|1TZI|B",
+                  "accession": "1TZI_B",
+                  "title": "Chain B, Fab YADS2 Heavy Chain [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 222,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 382.489,
+                  "score": 981,
+                  "evalue": 2.24333e-132,
+                  "identity": 206,
+                  "positive": 211,
+                  "query_from": 4,
+                  "query_to": 225,
+                  "hit_from": 1,
+                  "hit_to": 222,
+                  "align_len": 223,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYG-LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFAIYDYDIHWVRQAPGKGLEWVADIAPYAGATAYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCSRS-SYAYYAAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF  Y Y IHWVRQAPGKGLEWVA I+PY+G T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYC+RS  +A Y  +DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|9MY8|H",
+                  "accession": "9MY8_H",
+                  "title": "Chain H, Anti-Nb Fab Heavy chain [Lama glama]",
+                  "taxid": 9844,
+                  "sciname": "Lama glama"
+                }
+              ],
+              "len": 244,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 380.563,
+                  "score": 976,
+                  "evalue": 2.08352e-131,
+                  "identity": 217,
+                  "positive": 218,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 236,
+                  "align_len": 236,
+                  "gaps": 8,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATY--------GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFSYYSIHWVRQAPGKGLEWVAYISSSSSYTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARGYQYWQYHASWYWNGGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGFNF YYSIHWVRQAPGKGLEWVA IS  S YT YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR Y +  Y        GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "pdb|4JG1|H",
+                  "accession": "4JG1_H",
+                  "title": "Chain H, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 234,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 380.178,
+                  "score": 975,
+                  "evalue": 2.19161e-131,
+                  "identity": 203,
+                  "positive": 208,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 232,
+                  "align_len": 232,
+                  "gaps": 1,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASIS-PYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCVTSGFTFRKFGMSWVRQAPGKGLEWVASISTPRGSTTYYSDSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTRGYSSTSYAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCSHTAT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSC  SGF F  + + WVRQAPGKGLEWVASIS P    TYY+DSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYC R Y   +Y +DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC  T T"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "pdb|3G6J|F",
+                  "accession": "3G6J_F",
+                  "title": "Chain F, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 226,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 378.252,
+                  "score": 970,
+                  "evalue": 1.11067e-130,
+                  "identity": 202,
+                  "positive": 211,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 226,
+                  "align_len": 226,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT---YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFSFTSSSVSWVRQAPGKGLEWVGLIYPYNGFNYYADSVKGRFTISANTSKNTAYLQMNSLRAEDTAVYYCARNALYGSGGYYAMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF+F   S+ WVRQAPGKGLEWV  I PY+G+ YYADSVKGRFTISA+TSKNTAYLQMNSLRAEDTAVYYCAR+  + +   Y +DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "pdb|7S0B|A",
+                  "accession": "7S0B_A",
+                  "title": "Chain A, N-612-056 Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 228,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.867,
+                  "score": 969,
+                  "evalue": 1.60315e-130,
+                  "identity": 203,
+                  "positive": 208,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 228,
+                  "align_len": 228,
+                  "gaps": 1,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS-YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSLISGSGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDLWGSGFFAFDVWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF F  Y++ WVRQAPGKGLEWV+ IS   G TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR  +G   +  D WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "pdb|6XJW|C",
+                  "accession": "6XJW_C",
+                  "title": "Chain C, Fab HAVx Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 228,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.17,
+                  "score": 962,
+                  "evalue": 2.10667e-129,
+                  "identity": 211,
+                  "positive": 214,
+                  "query_from": 3,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 228,
+                  "align_len": 231,
+                  "gaps": 10,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS-------YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFSLSSSSMHWVRQAPGKGLEWVASISPYSGSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARTKYHYKNYYWWA---LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "SEVQLVESGGGLVQPGGSLRLSCAASGF+    S+HWVRQAPGKGLEWVASISPYSG T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR+       Y WA   LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "pdb|6DF1|H",
+                  "accession": "6DF1_H",
+                  "title": "Chain H, Anti-phosphotyrosine antibody 4G10-4D5 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 247,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.4,
+                  "score": 960,
+                  "evalue": 8.4187e-129,
+                  "identity": 199,
+                  "positive": 207,
+                  "query_from": 1,
+                  "query_to": 226,
+                  "hit_from": 24,
+                  "hit_to": 247,
+                  "align_len": 226,
+                  "gaps": 2,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGYTFTENTVHWVRQAPGKGLEWIGGINPYYGGSIFSPKFKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARRAG--AYYFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASG+ F   ++HWVRQAPGKGLEW+  I+PY G + ++   KGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR  G   Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "pdb|8VQD|C",
+                  "accession": "8VQD_C",
+                  "title": "Chain C, Variable Heavy chain of TL1 Fab [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 257,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.015,
+                  "score": 959,
+                  "evalue": 1.4756e-128,
+                  "identity": 209,
+                  "positive": 213,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 239,
+                  "align_len": 240,
+                  "gaps": 10,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR--SYGWATYG-------LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFTWSGAYIHWVRQAPGKGLEWVASIYSAGGYTDYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARYGTYELKSYGSWESLPAFDYWGQGTLVTVFN-QIKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGF +    IHWVRQAPGKGLEWVASI    GYT YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR  +Y   +YG        DYWGQGTLVTV +   KGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "pdb|4OQT|H",
+                  "accession": "4OQT_H",
+                  "title": "Chain H, Heavy Chain of Li81 Fab, VH3-23 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.703,
+                  "score": 953,
+                  "evalue": 5.32077e-128,
+                  "identity": 199,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 226,
+                  "align_len": 228,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFTFSAYEMKWVRQAPGKGLEWVSVIGPSGGFTFYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCATE--GDNDAFDIWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGF F  Y + WVRQAPGKGLEWV+ I P  G+T+YADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA          D WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "pdb|3G6A|B",
+                  "accession": "3G6A_B",
+                  "title": "Chain B, CNTO607 Fab Heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.318,
+                  "score": 952,
+                  "evalue": 5.72036e-128,
+                  "identity": 202,
+                  "positive": 208,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 229,
+                  "align_len": 229,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGL--DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "QVQLVESGGGLVQPGGSLRLSCAASGFTFNSYWINWVRQAPGKGLEWVSGIAYDSSNTLYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARGLGAFHWDMQPDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "+VQLVESGGGLVQPGGSLRLSCAASGF F  Y I+WVRQAPGKGLEWV+ I+  S  T YADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR  G   + +  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "pdb|7LO7|H",
+                  "accession": "7LO7_H",
+                  "title": "Chain H, Fab25 Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 372.089,
+                  "score": 954,
+                  "evalue": 8.61565e-128,
+                  "identity": 213,
+                  "positive": 214,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 24,
+                  "hit_to": 262,
+                  "align_len": 240,
+                  "gaps": 10,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYG-----WATYG----LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFTFSSSSIHWVRQAPGKGLEWVASISSSSGSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARWETGYYPYWRMYGFYWALDYWGQGTLVTVFN-QIKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGF F   SIHWVRQAPGKGLEWVASIS  SG T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR        W  YG    LDYWGQGTLVTV +   KGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "gb|QRG33714.1|",
+                  "accession": "QRG33714",
+                  "title": "immunoglobulin variable region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 394,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.096,
+                  "score": 967,
+                  "evalue": 9.62802e-128,
+                  "identity": 204,
+                  "positive": 214,
+                  "query_from": 5,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 228,
+                  "align_len": 230,
+                  "gaps": 5,
+                  "qseq": "VQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR---SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "VQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAISGSGGSTYYADSVKGRFTISRDSSKNSLYLQMNSLRADDTAVYYCAKATDSSGY--YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTHT",
+                  "midline": "VQLVESGGGLVQPGGSLRLSCAASGF F  Y++ WVRQAPGKGLEWV++IS   G TYYADSVKGRFTIS D+SKN+ YLQMNSLRA+DTAVYYCA+   S G+  YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "pdb|4WV1|B",
+                  "accession": "4WV1_B",
+                  "title": "Chain B, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 370.548,
+                  "score": 950,
+                  "evalue": 1.50443e-127,
+                  "identity": 202,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 230,
+                  "gaps": 7,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYG-------WATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTFTSTGISWVRQAPGKGLEWVGRTHLGDGSTNYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARTYGIYDLYVDYTEYVMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF F    I WVRQAPGKGLEWV       G T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR+YG       +  Y +DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "pdb|6O1F|H",
+                  "accession": "6O1F_H",
+                  "title": "Chain H, Heavy Chain hu31A.v11 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 369.392,
+                  "score": 947,
+                  "evalue": 3.07747e-127,
+                  "identity": 200,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 228,
+                  "gaps": 1,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSDYGMVWVRQAPGKGLEWVAFISSGSSTVYYADTMKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCTRR-NYDDWYFDVWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF F  Y + WVRQAPGKGLEWVA IS  S   YYAD++KGRFTIS D SKNT YLQMNSLRAEDTAVYYC R   +  +  D WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "pdb|7CHC|A",
+                  "accession": "7CHC_A",
+                  "title": "Chain A, BD-368-2 Fab H [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 369.392,
+                  "score": 947,
+                  "evalue": 3.23993e-127,
+                  "identity": 198,
+                  "positive": 208,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 230,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGL-----DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLLESGGGVVQPGGSLRLSCAASGFAFTTYAMNWVRQAPGRGLEWVSAISDGGGSAYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKTRGRGLYDYVWGSKDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "EVQL+ESGGG+VQPGGSLRLSCAASGF F  Y+++WVRQAPG+GLEWV++IS   G  YYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA++ G   Y       DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "pdb|1JPS|H",
+                  "accession": "1JPS_H",
+                  "title": "Chain H, immunoglobulin Fab D3H44, heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 369.392,
+                  "score": 947,
+                  "evalue": 3.56958e-127,
+                  "identity": 201,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 225,
+                  "align_len": 228,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNIKEYYMHWVRQAPGKGLEWVGLIDPEQGNTIYDPKFQDRATISADNSKNTAYLQMNSLRAEDTAVYYCARDT--AAY-FDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGFN   Y +HWVRQAPGKGLEWV  I P  G T Y    + R TISAD SKNTAYLQMNSLRAEDTAVYYCAR    A Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "pdb|4Z5R|B",
+                  "accession": "4Z5R_B",
+                  "title": "Chain B, anti-IFN-a antibody rontalizumab heavy chain modules VH and CH1 (Fab) [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 369.007,
+                  "score": 946,
+                  "evalue": 4.44439e-127,
+                  "identity": 200,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 225,
+                  "align_len": 228,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCATSGYTFTEYIIHWVRQAPGKGLEWVASINPDYDITNYNQRFKGRFTISLDKSKRTAYLQMNSLRAEDTAVYYCA---SWISDFFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCA SG+ F  Y IHWVRQAPGKGLEWVASI+P    T Y    KGRFTIS D SK TAYLQMNSLRAEDTAVYYCA    W +   DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "pdb|4FZ8|H",
+                  "accession": "4FZ8_H",
+                  "title": "Chain H, FAB heavy chain of human ANTI-HIV-1 ENV ANTIBODY C11 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 237,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.851,
+                  "score": 943,
+                  "evalue": 1.76309e-126,
+                  "identity": 198,
+                  "positive": 211,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 237,
+                  "align_len": 237,
+                  "gaps": 11,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSY-----------GWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLVESGGGLVKPGGSLRLSCAASGFTFSSYSMNWVRQAPGRGLEWVSSISNTSTYIYYADSVEGRFTLSRDNAKNSLYLQMNSLRAEDTAVYYCARANQHFDWLLSLLGGYHYYGMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKT",
+                  "midline": "EVQLVESGGGLV+PGGSLRLSCAASGF F  YS++WVRQAPG+GLEWV+SIS  S Y YYADSV+GRFT+S D +KN+ YLQMNSLRAEDTAVYYCAR+            G+  YG+D WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "pdb|9BYF|H",
+                  "accession": "9BYF_H",
+                  "title": "Chain H, 221-55 Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.466,
+                  "score": 942,
+                  "evalue": 1.94977e-126,
+                  "identity": 195,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 229,
+                  "align_len": 229,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS--YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTFRNYWMDWVRQAPGKGLEWVANIKQDGSVKYYVDSVEGRFTISRDNAKNSLFLQMNSLRAEDTAVYYCARDGYSGYDSVGFDIWGQGTMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTH",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF F  Y + WVRQAPGKGLEWVA+I       YY DSV+GRFTIS D +KN+ +LQMNSLRAEDTAVYYCAR    G+ + G D WGQGT+VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "pdb|8G4M|D",
+                  "accession": "8G4M_D",
+                  "title": "Chain D, antibody heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.466,
+                  "score": 942,
+                  "evalue": 2.8173e-126,
+                  "identity": 197,
+                  "positive": 207,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 229,
+                  "align_len": 229,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT----YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCSASGFTFSSYAMHWVRQAPGKGLEYVSAISGNGDSTYYADSVRGRFTISRDNSKNTLYLQMSSLRAEDTAVYYCVKQAAYCTRTSCYYFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSC+ASGF F  Y++HWVRQAPGKGLE+V++IS     TYYADSV+GRFTIS D SKNT YLQM+SLRAEDTAVYYC +   + T    Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "dbj|BAN63135.1|",
+                  "accession": "BAN63135",
+                  "title": "IgG H chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 275,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 368.622,
+                  "score": 945,
+                  "evalue": 3.22114e-126,
+                  "identity": 200,
+                  "positive": 208,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 20,
+                  "hit_to": 249,
+                  "align_len": 231,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGW---ATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFTFSSNAMSWVRQAPGKGLEWVSGVSNSGGDTYYADSVKGRFAISRDNSKNTLYLQMNSLRAEDTAVYYCANTL-WTVGSKGGFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTHT",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGF F   ++ WVRQAPGKGLEWV+ +S   G TYYADSVKGRF IS D SKNT YLQMNSLRAEDTAVYYCA +  W   +  G DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "pdb|6SRX|HHH",
+                  "accession": "6SRX_HHH",
+                  "title": "Chain HHH, Fab C0021158 heavy chain (IgG1) [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.081,
+                  "score": 941,
+                  "evalue": 3.40623e-126,
+                  "identity": 198,
+                  "positive": 205,
+                  "query_from": 3,
+                  "query_to": 232,
+                  "hit_from": 4,
+                  "hit_to": 233,
+                  "align_len": 230,
+                  "gaps": 0,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTS",
+                  "hseq": "SEVQLLESGGGLVQPGGSLRLSCAASGFTFRYEVAAWVRQAPGKGLEWVSAISGPIPKGYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARLRADLGLYMDLWGRGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTHAA",
+                  "midline": "SEVQL+ESGGGLVQPGGSLRLSCAASGF F Y    WVRQAPGKGLEWV++IS      YYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR        +D WG+GTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKTH +"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "pdb|9D3E|H",
+                  "accession": "9D3E_H",
+                  "title": "Chain H, anti-BRIL Fab Heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 269,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 368.622,
+                  "score": 945,
+                  "evalue": 3.58673e-126,
+                  "identity": 207,
+                  "positive": 209,
+                  "query_from": 1,
+                  "query_to": 225,
+                  "hit_from": 20,
+                  "hit_to": 248,
+                  "align_len": 229,
+                  "gaps": 4,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT----YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNVVDFSLHWVRQAPGKGLEWVAYISSSSGSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARWGYWPGEPWWKAFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFN   +S+HWVRQAPGKGLEWVA IS  SG T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR   W         DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "pdb|8REW|G",
+                  "accession": "8REW_G",
+                  "title": "Chain G, hFab LHT-22, Heavy Chain [Lama glama]",
+                  "taxid": 9844,
+                  "sciname": "Lama glama"
+                }
+              ],
+              "len": 247,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.466,
+                  "score": 942,
+                  "evalue": 4.43601e-126,
+                  "identity": 196,
+                  "positive": 210,
+                  "query_from": 3,
+                  "query_to": 230,
+                  "hit_from": 19,
+                  "hit_to": 247,
+                  "align_len": 229,
+                  "gaps": 1,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGW-ATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "SELQLVESGGGLVQPGGSLRLSCAASGFTFDDYTMNWVRQAPGKGLEWVSAIRWNGVTTYYAESMKGRFTVSRDNGQNTLYLQMNSLKAEDTAVYYCAKGGSIDLTYGMDYWGKGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "SE+QLVESGGGLVQPGGSLRLSCAASGF F  Y+++WVRQAPGKGLEWV++I      TYYA+S+KGRFT+S D  +NT YLQMNSL+AEDTAVYYCA+      TYG+DYWG+GTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "pdb|6E1K|D",
+                  "accession": "6E1K_D",
+                  "title": "Chain D, cat06 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 231,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 366.696,
+                  "score": 940,
+                  "evalue": 4.76047e-126,
+                  "identity": 212,
+                  "positive": 214,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 231,
+                  "align_len": 232,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYG-WATY---GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNVYSYSIHWVRQAPGKGLEWVASISSYYSSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYWYWRTSTLGGIDYWGQGTLVTVFN-QIKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGFN Y YSIHWVRQAPGKGLEWVASIS Y   T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSY  W T    G+DYWGQGTLVTV +   KGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "pdb|8TB7|H",
+                  "accession": "8TB7_H",
+                  "title": "Chain H, Fab24 BAK5 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 490,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.941,
+                  "score": 964,
+                  "evalue": 6.93498e-126,
+                  "identity": 208,
+                  "positive": 209,
+                  "query_from": 1,
+                  "query_to": 225,
+                  "hit_from": 262,
+                  "hit_to": 490,
+                  "align_len": 229,
+                  "gaps": 4,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT----YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNVRSFSIHWVRQAPGKGLEWVAYISSSSGSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARWGYWPGEPWWKAFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFN   +SIHWVRQAPGKGLEWVA IS  SG T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR   W         DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "pdb|9DMS|F",
+                  "accession": "9DMS_F",
+                  "title": "Chain F, Fab6 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 290,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 367.466,
+                  "score": 942,
+                  "evalue": 1.87306e-125,
+                  "identity": 196,
+                  "positive": 206,
+                  "query_from": 3,
+                  "query_to": 226,
+                  "hit_from": 31,
+                  "hit_to": 258,
+                  "align_len": 228,
+                  "gaps": 4,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCA----RSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "AEVQLLESGGGLVQPGGSLRLSCAASGFTFSDYAMNWVRQAPGRGLEWVSSFSNSGGTTYYTDSVKGRFTISRDYSRNTLYLQMNNLRAEDTAVYYCAKALTRFYGGNIYNFDFWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "+EVQL+ESGGGLVQPGGSLRLSCAASGF F  Y+++WVRQAPG+GLEWV+S S   G TYY DSVKGRFTIS D S+NT YLQMN+LRAEDTAVYYCA    R YG   Y  D+WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "pdb|6WN1|B",
+                  "accession": "6WN1_B",
+                  "title": "Chain B, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 237,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.54,
+                  "score": 937,
+                  "evalue": 1.87998e-125,
+                  "identity": 198,
+                  "positive": 206,
+                  "query_from": 3,
+                  "query_to": 231,
+                  "hit_from": 5,
+                  "hit_to": 235,
+                  "align_len": 231,
+                  "gaps": 2,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT--YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "SEVQLLESGGGLVQPGGSLRLSCAVSGFTFRNYALSWVRQAPGKGLDWVSTISASGGATYYADSVKGHFTISRDNSKNILYLDMKSLRAEDTAIYYCARDGGSYTPYFFLDSWGQGALVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "SEVQL+ESGGGLVQPGGSLRLSCA SGF F  Y++ WVRQAPGKGL+WV++IS   G TYYADSVKG FTIS D SKN  YL M SLRAEDTA+YYCAR  G  T  + LD WGQG LVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "pdb|6WOZ|B",
+                  "accession": "6WOZ_B",
+                  "title": "Chain B, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 241,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.155,
+                  "score": 936,
+                  "evalue": 2.63694e-125,
+                  "identity": 198,
+                  "positive": 211,
+                  "query_from": 3,
+                  "query_to": 231,
+                  "hit_from": 5,
+                  "hit_to": 239,
+                  "align_len": 235,
+                  "gaps": 6,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS---YGWAT---YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "SEVQLVESGGGLVKPGGSLRLSCEASGFLFSSYSMNWVRQAPGKGLEWVSSITGYSSEVFYTDSVKGRFTVSRDNSKNSLYLQMDSLRAEDTAVYYCARALTIFGVVITDYWFFDLWGRGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "SEVQLVESGGGLV+PGGSLRLSC ASGF F  YS++WVRQAPGKGLEWV+SI+ YS   +Y DSVKGRFT+S D SKN+ YLQM+SLRAEDTAVYYCAR+   +G      +  D WG+GTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "pdb|9MI6|H",
+                  "accession": "9MI6_H",
+                  "title": "Chain H, nipocalimab Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 220,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.999,
+                  "score": 933,
+                  "evalue": 3.11783e-125,
+                  "identity": 196,
+                  "positive": 201,
+                  "query_from": 4,
+                  "query_to": 227,
+                  "hit_from": 1,
+                  "hit_to": 220,
+                  "align_len": 224,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCD",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFTFSTYAMGWVRQAPGKGLEWVSSIGASGSQTRYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAR----LAIGDSYWGQGTMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCD",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGF F  Y++ WVRQAPGKGLEWV+SI      T YADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR       G  YWGQGT+VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCD"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "pdb|7LSB|B",
+                  "accession": "7LSB_B",
+                  "title": "Chain B, B1 Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 218,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.999,
+                  "score": 933,
+                  "evalue": 3.13639e-125,
+                  "identity": 198,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 218,
+                  "align_len": 223,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFTFSWYVMGWVRQAPGKGLEWVSSIYPSGGATNYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAR----GNY-FDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSC",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGF F +Y + WVRQAPGKGLEWV+SI P  G T YADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR      Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "pdb|6XSW|A",
+                  "accession": "6XSW_A",
+                  "title": "Chain A, Anti-N3 Fab Heavy Chain [Rattus norvegicus]",
+                  "taxid": 10116,
+                  "sciname": "Rattus norvegicus"
+                }
+              ],
+              "len": 231,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.385,
+                  "score": 934,
+                  "evalue": 3.73551e-125,
+                  "identity": 199,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 231,
+                  "gaps": 7,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR---SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGYAFTDYWMTWVRQAPGKGLEWVAEISPNSGGTNFNEKFKGRFTISVDNAKNSLYLQMNSLRAEDTAVYYCARGEIRYNW----FAYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASG+ F  Y + WVRQAPGKGLEWVA ISP SG T + +  KGRFTIS D +KN+ YLQMNSLRAEDTAVYYCAR    Y W      YWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "pdb|4QF1|A",
+                  "accession": "4QF1_A",
+                  "title": "Chain A, CH59UA Fab fragment of heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.999,
+                  "score": 933,
+                  "evalue": 4.15206e-125,
+                  "identity": 195,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 225,
+                  "align_len": 225,
+                  "gaps": 0,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLVESGGGLVQPGRSLRLSCAASGFTFDDYAMHWVRQAPGKGLEWVSGISWNSGSIGYADSVKGRFTISRDNAKNSLYLQMNSLRAEDTALYYCAKDSPRGELPFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDK",
+                  "midline": "EVQLVESGGGLVQPG SLRLSCAASGF F  Y++HWVRQAPGKGLEWV+ IS  SG   YADSVKGRFTIS D +KN+ YLQMNSLRAEDTA+YYCA+         DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "pdb|2NZ9|D",
+                  "accession": "2NZ9_D",
+                  "title": "Chain D, AR2 monoclonal antibody [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.999,
+                  "score": 933,
+                  "evalue": 4.52125e-125,
+                  "identity": 196,
+                  "positive": 207,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 224,
+                  "align_len": 226,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "QVQLQESGGGLVQPGGSLRLSCAASGFTFSDHYMYWVRQAPGKGLEWVATISDGGSYTYYSDSVEGRFTTSRDNSKNTLYLQMNSLRAEDTAIYYCSR-YRYDD-AMDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "midline": "+VQL ESGGGLVQPGGSLRLSCAASGF F  + ++WVRQAPGKGLEWVA+IS    YTYY+DSV+GRFT S D SKNT YLQMNSLRAEDTA+YYC+R Y +    +DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "pdb|8DB4|A",
+                  "accession": "8DB4_A",
+                  "title": "Chain A, 13T1 Heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 231,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.999,
+                  "score": 933,
+                  "evalue": 5.48166e-125,
+                  "identity": 197,
+                  "positive": 206,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 231,
+                  "align_len": 231,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT----YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "EVQLVESGGGVVQPGGSLRLSCVASGFKFQNYGMSWVRQAPGKGLEWVADISGSDESTYYADSVKGRFTISRDTSKNTLHLQMSSPRAEDTALYYCAKATAPAGKYYYYGMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTH",
+                  "midline": "EVQLVESGGG+VQPGGSLRLSC ASGF F  Y + WVRQAPGKGLEWVA IS     TYYADSVKGRFTIS DTSKNT +LQM+S RAEDTA+YYCA++   A     YG+D WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gb|UNO36727.1|",
+                  "accession": "UNO36727",
+                  "title": "F8(IgG)-m4-1BBL_HC [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 653,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.022,
+                  "score": 972,
+                  "evalue": 5.70642e-125,
+                  "identity": 204,
+                  "positive": 211,
+                  "query_from": 3,
+                  "query_to": 231,
+                  "hit_from": 19,
+                  "hit_to": 245,
+                  "align_len": 229,
+                  "gaps": 2,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "SEVQLLESGGGLVQPGGSLRLSCAASGFTFSLFTMSWVRQAPGKGLEWVSAISGSGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKST--HLYLFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "SEVQL+ESGGGLVQPGGSLRLSCAASGF F  +++ WVRQAPGKGLEWV++IS   G TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA+S     Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "pdb|7TYV|D",
+                  "accession": "7TYV_D",
+                  "title": "Chain D, 25.10C Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 226,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.844,
+                  "score": 930,
+                  "evalue": 1.12832e-124,
+                  "identity": 191,
+                  "positive": 206,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 226,
+                  "align_len": 226,
+                  "gaps": 1,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWA-TYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "QVQLQESGGGLVKPGGSLRLSCTASGFNFNKYNMNWVRQAPGKGLEWVSSISALSTYIYYADSLKGRFTVSRDNAKNSLFLQMNSLRDDDTAVYYCAREIRRASTWSADLWGRGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDK",
+                  "midline": "+VQL ESGGGLV+PGGSLRLSC ASGFNF  Y+++WVRQAPGKGLEWV+SIS  S Y YYADS+KGRFT+S D +KN+ +LQMNSLR +DTAVYYCAR    A T+  D WG+GTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "pdb|6K7O|B",
+                  "accession": "6K7O_B",
+                  "title": "Chain B, h128-3 Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 228,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.844,
+                  "score": 930,
+                  "evalue": 1.44301e-124,
+                  "identity": 198,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 228,
+                  "align_len": 228,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNF-YYYSIHWVRQAPGKGLEWVASI-SPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGIDFSNHYYMYWVRQAPGKGLEWIGSIFSGDSASTYYADSAKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARGMSTNDWASDLWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASG +F  +Y ++WVRQAPGKGLEW+ SI S  S  TYYADS KGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR      +  D WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "pdb|8REX|G",
+                  "accession": "8REX_G",
+                  "title": "Chain G, mFab LMT-12, Heavy Chain [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 247,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.614,
+                  "score": 932,
+                  "evalue": 1.52677e-124,
+                  "identity": 196,
+                  "positive": 207,
+                  "query_from": 3,
+                  "query_to": 230,
+                  "hit_from": 19,
+                  "hit_to": 247,
+                  "align_len": 229,
+                  "gaps": 1,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATY-GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFTFSSYYMYWVRQAPGKGLEWVSGTSIGGGSTWYADSVKGRFTISRDNAKNTLYLQMNNLKSEDTAVYYCAKDLNSRSYKGMGDWGQGTQVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "SEVQLVESGGGLVQPGGSLRLSCAASGF F  Y ++WVRQAPGKGLEWV+  S   G T+YADSVKGRFTIS D +KNT YLQMN+L++EDTAVYYCA+     +Y G+  WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "pdb|7DC7|A",
+                  "accession": "7DC7_A",
+                  "title": "Chain A, D12 Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.459,
+                  "score": 929,
+                  "evalue": 1.64177e-124,
+                  "identity": 195,
+                  "positive": 204,
+                  "query_from": 5,
+                  "query_to": 228,
+                  "hit_from": 2,
+                  "hit_to": 227,
+                  "align_len": 226,
+                  "gaps": 2,
+                  "qseq": "VQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR--SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "VQLQESGGDLVKPGGSLRLSCAASGFTFNTYTMNWVRQAPGKGLEWLSSISSRSNYINYADSVKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARFGRKGDLNWVFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "VQL ESGG LV+PGGSLRLSCAASGF F  Y+++WVRQAPGKGLEW++SIS  S Y  YADSVKGRFTIS D +KN+ YLQMNSLRAEDTAVYYCAR    G   +  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "pdb|8GKK|H",
+                  "accession": "8GKK_H",
+                  "title": "Chain H, MUC16 antibody AR9.6 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 226,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.459,
+                  "score": 929,
+                  "evalue": 1.80749e-124,
+                  "identity": 196,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 226,
+                  "align_len": 226,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS---YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSTFGMHWVRQAPGKGLEWVAYISSGSSTIYYGDTLQGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARSGYDYDPIYYALDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPASC",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF F  + +HWVRQAPGKGLEWVA IS  S   YY D+++GRFTIS D +KN+ YLQMNSLRAEDTAVYYCARS   Y    Y LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEP SC"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "pdb|4K3J|H",
+                  "accession": "4K3J_H",
+                  "title": "Chain H, Onartuzumab Fab heavy chain [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.459,
+                  "score": 929,
+                  "evalue": 2.00692e-124,
+                  "identity": 197,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 224,
+                  "align_len": 225,
+                  "gaps": 1,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGYTFTSYWLHWVRQAPGKGLEWVGMIDPSNSDTRFNPNFKDRFTISADTSKNTAYLQMNSLRAEDTAVYYCATYRSYVT-PLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASG+ F  Y +HWVRQAPGKGLEWV  I P +  T +  + K RFTISADTSKNTAYLQMNSLRAEDTAVYYCA    + T  LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "pdb|8DXS|F",
+                  "accession": "8DXS_F",
+                  "title": "Chain F, P2B4 Heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 231,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.459,
+                  "score": 929,
+                  "evalue": 2.01937e-124,
+                  "identity": 195,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 231,
+                  "align_len": 231,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR-SYGWATY---GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "EVQLVESGGGLVQPGRSLRLSCAASGFNFDDYAMHWARQVPGKGLEWVSGISGNSGSVEYADSVKGRFAMSRDNAKNSLYLEMNSLRTEDTALYYCAKETTPWGIYRSGGLDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "EVQLVESGGGLVQPG SLRLSCAASGFNF  Y++HW RQ PGKGLEWV+ IS  SG   YADSVKGRF +S D +KN+ YL+MNSLR EDTA+YYCA+ +  W  Y   GLD WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "emb|CAH65830.1|",
+                  "accession": "CAH65830",
+                  "title": "Fab fragment heavy chain precursor [Cloning vector pASK88-huHRS3-VH-EP3/1]",
+                  "taxid": 299811,
+                  "sciname": "Cloning vector pASK88-huHRS3-VH-EP3/1"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 363.229,
+                  "score": 931,
+                  "evalue": 2.32159e-124,
+                  "identity": 195,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 226,
+                  "hit_from": 21,
+                  "hit_to": 247,
+                  "align_len": 227,
+                  "gaps": 3,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYG---LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "AEVKLQESGGGLVQPGGSLRLSCAASGFTFTTYTIHWVRQAPGKGLEWVSYINPSSGYSDYNQNFKGRFTTSANKSKNTAYLQMNSLRAEDTAVYYCARRADYGNYKYTWFPYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "+EV+L ESGGGLVQPGGSLRLSCAASGF F  Y+IHWVRQAPGKGLEWV+ I+P SGY+ Y  + KGRFT SA+ SKNTAYLQMNSLRAEDTAVYYCAR   +  Y      YWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|AKL91140.1|",
+                  "accession": "AKL91140",
+                  "title": "immunoglobulin heavy chain Fd fragment, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.073,
+                  "score": 928,
+                  "evalue": 3.61326e-124,
+                  "identity": 196,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 228,
+                  "align_len": 230,
+                  "gaps": 7,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR-----SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "QVQLVESGGGVVQPGRSLRLSCPASGFTFSRYALHWVRQAPGKGLEWVAVISFDGSFKYYADSVKGRFSISRDNFKNTLYLQMNSLRAEDTAVYYCAKDDTLHASGWG--GFDYWGQGALVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "+VQLVESGGG+VQPG SLRLSC ASGF F  Y++HWVRQAPGKGLEWVA IS    + YYADSVKGRF+IS D  KNT YLQMNSLRAEDTAVYYCA+     + GW   G DYWGQG LVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "pdb|8V52|D",
+                  "accession": "8V52_D",
+                  "title": "Chain D, 2A10 Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.688,
+                  "score": 927,
+                  "evalue": 4.12165e-124,
+                  "identity": 198,
+                  "positive": 206,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 230,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASI--SPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFDFNSYGMSWVRQAPGKGLELVSDIVSKTYNYATYYSDSVKDRFTISRDDSKNTLYLQMNSLRAEDTAVYYCTVAPGGS---FDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGF+F  Y + WVRQAPGKGLE V+ I    Y+  TYY+DSVK RFTIS D SKNT YLQMNSLRAEDTAVYYC  + G +    DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "pdb|5FGC|E",
+                  "accession": "5FGC_E",
+                  "title": "Chain E, Anti-HCV E2 Fab HC33.8 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 269,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.844,
+                  "score": 930,
+                  "evalue": 5.34834e-124,
+                  "identity": 197,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 232,
+                  "align_len": 233,
+                  "gaps": 9,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS--------YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLVESGGGLAQPGESLRLSCAASGFNFYTYAMTWVRQAPGKGLEWVSASSSTDGTTYYADSVKGRFTISRDNSKNILYLQMNSLKAEDTATYYCARAVVFTDSSAYYYSKY-FDYWSQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKAEPKSCDK",
+                  "midline": "EVQLVESGGGL QPG SLRLSCAASGFNFY Y++ WVRQAPGKGLEWV++ S   G TYYADSVKGRFTIS D SKN  YLQMNSL+AEDTA YYCAR+        Y ++ Y  DYW QGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKK EPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "pdb|6WNO|B",
+                  "accession": "6WNO_B",
+                  "title": "Chain B, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.688,
+                  "score": 927,
+                  "evalue": 5.64879e-124,
+                  "identity": 194,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 231,
+                  "hit_from": 5,
+                  "hit_to": 233,
+                  "align_len": 229,
+                  "gaps": 0,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "SQVQLVESGGGVVQSGKSLRVSCAASGFTFSSYGMHWVRQAPGKGLEWVAFISYDGDNKYSADSVKGRLTISRDNSKNTLYLQMNSLRPEDTAVYYCAKESNYGENAFDIWGQGTMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "S+VQLVESGGG+VQ G SLR+SCAASGF F  Y +HWVRQAPGKGLEWVA IS      Y ADSVKGR TIS D SKNT YLQMNSLR EDTAVYYCA+   +     D WGQGT+VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "pdb|6WTU|B",
+                  "accession": "6WTU_B",
+                  "title": "Chain B, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.688,
+                  "score": 927,
+                  "evalue": 5.81533e-124,
+                  "identity": 194,
+                  "positive": 207,
+                  "query_from": 3,
+                  "query_to": 231,
+                  "hit_from": 5,
+                  "hit_to": 236,
+                  "align_len": 232,
+                  "gaps": 3,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYG---LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "SEVQLLESGGGLVRPGGSQRLSCAASGFTFTPYAMTWVRQAPGKGLEWLSTISGSGGSTSYADSVKGRFTISRDNSKNILYLQMDSLRAEDTALYYCTKDKDEYTFGHNAFDVWGRGTMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "SEVQL+ESGGGLV+PGGS RLSCAASGF F  Y++ WVRQAPGKGLEW+++IS   G T YADSVKGRFTIS D SKN  YLQM+SLRAEDTA+YYC +     T+G    D WG+GT+VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "pdb|7X8Z|H",
+                  "accession": "7X8Z_H",
+                  "title": "Chain H, Ab188 heavy chain [Severe acute respiratory syndrome coronavirus 2]",
+                  "taxid": 2697049,
+                  "sciname": "Severe acute respiratory syndrome coronavirus 2"
+                }
+              ],
+              "len": 265,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 362.459,
+                  "score": 929,
+                  "evalue": 6.24988e-124,
+                  "identity": 196,
+                  "positive": 207,
+                  "query_from": 1,
+                  "query_to": 230,
+                  "hit_from": 26,
+                  "hit_to": 256,
+                  "align_len": 232,
+                  "gaps": 3,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYG--LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "ELEEVQLVESGGGLVQPGGSLRLSCAASGFTFINYKMNWVRQAPGKGLEWVSYISSGSDAIYYADSVKGRFTISRDNAKNSLYLQMNSLRDEDTALYYCARGGGY-NYGECMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCENLY",
+                  "midline": "E+ EVQLVESGGGLVQPGGSLRLSCAASGF F  Y ++WVRQAPGKGLEWV+ IS  S   YYADSVKGRFTIS D +KN+ YLQMNSLR EDTA+YYCAR  G+  YG  +D WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC+  +"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "pdb|8PHW|H",
+                  "accession": "8PHW_H",
+                  "title": "Chain H, Fab18 (heavy chain, variable region) [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.303,
+                  "score": 926,
+                  "evalue": 6.43566e-124,
+                  "identity": 209,
+                  "positive": 211,
+                  "query_from": 1,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 241,
+                  "gaps": 21,
+                  "qseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGW----------ATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNFSSSSIHWVRQAPGKGLEWVASISSSSGSTSYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR-YGWGGPWYYWLRDSRSGIDYWGQGTLVTVSSASTKGPSV----------SGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EISEVQLVESGGGLVQPGGSLRLSCAASGFNF   SIHWVRQAPGKGLEWVASIS  SG T YADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR YGW          +  G+DYWGQGTLVTVSSASTKGPSV          SGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "pdb|2FGW|H",
+                  "accession": "2FGW_H",
+                  "title": "Chain H, H52 FAB (HEAVY CHAIN) [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 232,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.303,
+                  "score": 926,
+                  "evalue": 6.68291e-124,
+                  "identity": 194,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 232,
+                  "align_len": 232,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR----SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCATSGYTFTEYTMHWMRQAPGKGLEWVAGINPKNGGTSHNQRFMDRFTISVDKSTSTAYMQMNSLRAEDTAVYYCARWRGLNYGFDVRYFDVWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCA SG+ F  Y++HW+RQAPGKGLEWVA I+P +G T +      RFTIS D S +TAY+QMNSLRAEDTAVYYCAR    +YG+     D WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "pdb|8C7M|C",
+                  "accession": "8C7M_C",
+                  "title": "Chain C, FAb4 Heavy chain [Homo sapiens x Mus musculus hybrid cell line]",
+                  "taxid": 1131344,
+                  "sciname": "Homo sapiens x Mus musculus hybrid cell line"
+                }
+              ],
+              "len": 231,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.303,
+                  "score": 926,
+                  "evalue": 6.74027e-124,
+                  "identity": 196,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 224,
+                  "align_len": 224,
+                  "gaps": 1,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT-YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "QVQLVESGGGVVQPGRSLRLSCAASGFTFTSYGMSWVRQAPGKGLEWVAGISYDASDTEYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARSPDYIIDYGFDYWGRGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSC",
+                  "midline": "+VQLVESGGG+VQPG SLRLSCAASGF F  Y + WVRQAPGKGLEWVA IS  +  T YADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCARS  +   YG DYWG+GTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "pdb|5GGU|A",
+                  "accession": "5GGU_A",
+                  "title": "Chain A, heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 361.688,
+                  "score": 927,
+                  "evalue": 6.79542e-124,
+                  "identity": 199,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 230,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT-----YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "QVQLVESGGGVVQPGRSLRLSCAASGFTFSSYGMHWVRQAPGKGLEWVAVIWYDGSNKYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDPRGATLYYYYYGMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "+VQLVESGGG+VQPG SLRLSCAASGF F  Y +HWVRQAPGKGLEWVA I       YYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR    AT     YG+D WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "pdb|4R90|H",
+                  "accession": "4R90_H",
+                  "title": "Chain H, Anti CD70 Llama glama Fab 27B3 Heavy chain [Lama glama]",
+                  "taxid": 9844,
+                  "sciname": "Lama glama"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.918,
+                  "score": 925,
+                  "evalue": 8.53632e-124,
+                  "identity": 193,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 229,
+                  "align_len": 229,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYG--LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGFTFSVYYMNWVRQAPGKGLEWVSDINNEGGTTYYADSVKGRFTISRDNAKNTLTLQMNSLKPEDTALYYCVRDAGYSNHVPIFDSWGQGTQVIVASASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASGF F  Y ++WVRQAPGKGLEWV+ I+   G TYYADSVKGRFTIS D +KNT  LQMNSL+ EDTA+YYC R  G++ +    D WGQGT V V+SASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "dbj|BAA33579.1|",
+                  "accession": "BAA33579",
+                  "title": "anti-HBsAg immunoglobulin, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 226,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.533,
+                  "score": 924,
+                  "evalue": 9.14997e-124,
+                  "identity": 195,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 226,
+                  "align_len": 228,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLLESGGGVVQPGRSLRLSCIASGFTFSSYPMTWVRQAPGKGLEWVASISYDGSYKYKVDSMKGRLTISRDNSKNTLYLEMNSLTAEDTAVYYCARTAFFNAY--DFWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQL+ESGGG+VQPG SLRLSC ASGF F  Y + WVRQAPGKGLEWVASIS    Y Y  DS+KGR TIS D SKNT YL+MNSL AEDTAVYYCAR+  +  Y  D+WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "pdb|6NMR|A",
+                  "accession": "6NMR_A",
+                  "title": "Chain A, Fab 119 anti-SIRP-alpha antibody Variable Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.533,
+                  "score": 924,
+                  "evalue": 1.12264e-123,
+                  "identity": 194,
+                  "positive": 207,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 223,
+                  "align_len": 225,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR--SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "DVQLLESGGGVVQPGGSLRLSCAASGFSFSNFAMTWVRQAPGEGLEWVSTIG--SGDTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDSTVSWSGDFFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "+VQL+ESGGG+VQPGGSLRLSCAASGF+F  +++ WVRQAPG+GLEWV++I   SG TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCA+  +  W+    DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "pdb|8V91|J",
+                  "accession": "8V91_J",
+                  "title": "Chain J, rAB 58 Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 223,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.147,
+                  "score": 923,
+                  "evalue": 1.20775e-123,
+                  "identity": 194,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 223,
+                  "align_len": 227,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "QVQLVESGGGLVQPGGSLRLSCAASGFTFRGYAMNWVRQAPGKGLEWVASISGSGSITQYADSAKGRFTITRDNSKSTLYAHVSSLRADDTAVYYCAK----GDYVFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "+VQLVESGGGLVQPGGSLRLSCAASGF F  Y+++WVRQAPGKGLEWVASIS     T YADS KGRFTI+ D SK+T Y  ++SLRA+DTAVYYCA+      Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "pdb|6U36|H",
+                  "accession": "6U36_H",
+                  "title": "Chain H, Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.918,
+                  "score": 925,
+                  "evalue": 1.28973e-123,
+                  "identity": 197,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 232,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 230,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS-YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTS",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCKASGYTFSSYGMYWVRQAPGKGLEWIGWIDPGSGGTKYNEKFKGKATISRDNSKNTLYLQMNSLRAEDTAVYYCARERYG---YYFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTA",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSC ASG+ F  Y ++WVRQAPGKGLEW+  I P SG T Y +  KG+ TIS D SKNT YLQMNSLRAEDTAVYYCAR  YG   Y  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT+"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "pdb|8GY5|A",
+                  "accession": "8GY5_A",
+                  "title": "Chain A, heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.147,
+                  "score": 923,
+                  "evalue": 1.46033e-123,
+                  "identity": 194,
+                  "positive": 201,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 223,
+                  "align_len": 226,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLLESGGVLVQPGGSLRLSCAASGFTFSNFGMTWVRQAPGKGLEWVSGISGGGRDTYFADSVKGRFTISRDNSKNTLYLQMNSLKGEDTAVYYCVK---WGNIYFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "midline": "EVQL+ESGG LVQPGGSLRLSCAASGF F  + + WVRQAPGKGLEWV+ IS     TY+ADSVKGRFTIS D SKNT YLQMNSL+ EDTAVYYC +   W     DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "pdb|6XQ2|C",
+                  "accession": "6XQ2_C",
+                  "title": "Chain C, antibody S8V2-37 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.533,
+                  "score": 924,
+                  "evalue": 1.57461e-123,
+                  "identity": 193,
+                  "positive": 202,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 227,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS--YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCEASGFTFSNYEMNWVRQAPGKGLEWLSYIRSSGTVTSYADSVKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARDLVYTGSYYGMDVWGQGTRVTVSGASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDK",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSC ASGF F  Y ++WVRQAPGKGLEW++ I      T YADSVKGRFTIS D +KN+ YLQMNSLRAEDTAVYYCAR   Y  + YG+D WGQGT VTVS ASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "pdb|7RXI|H",
+                  "accession": "7RXI_H",
+                  "title": "Chain H, Fab234 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 359.762,
+                  "score": 922,
+                  "evalue": 1.8813e-123,
+                  "identity": 193,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 225,
+                  "align_len": 225,
+                  "gaps": 2,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWAT--YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVKPGGSLRLSCAASGFNFSTHIMNWVRQAPGKGLEWVSSISSSGTYIYYADSMKGRFTISRDNPKNSLYLQMNSLRAEDTAVYYCARARGFIQFHYYMDVWGKGTTVAVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVESGGGLV+PGGSLRLSCAASGFNF  + ++WVRQAPGKGLEWV+SIS    Y YYADS+KGRFTIS D  KN+ YLQMNSLRAEDTAVYYCAR+ G+    Y +D WG+GT V VSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "pdb|9B82|H",
+                  "accession": "9B82_H",
+                  "title": "Chain H, COVA2-15 antibody heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 232,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.147,
+                  "score": 923,
+                  "evalue": 1.97726e-123,
+                  "identity": 195,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 232,
+                  "align_len": 232,
+                  "gaps": 9,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWA---------TYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "QVQLLESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWASAISGSGGSTYYADSVEGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAKDTGYCGDDCYIKLIRGGPDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSC",
+                  "midline": "+VQL+ESGGGLVQPGGSLRLSCAASGF F  Y++ WVRQAPGKGLEW ++IS   G TYYADSV+GRFTIS D SKNT YLQMNSLRAEDTAVYYCA+  G+            G DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "gb|QRG34626.1|",
+                  "accession": "QRG34626",
+                  "title": "immunoglobulin variable region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 351,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.77,
+                  "score": 935,
+                  "evalue": 1.98457e-123,
+                  "identity": 202,
+                  "positive": 212,
+                  "query_from": 5,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 235,
+                  "align_len": 235,
+                  "gaps": 8,
+                  "qseq": "VQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCA---RSYGWATYGL----DYWGQGTLVTVSSA-STKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "VQLLESGGGLVRPGGSLRLSCAASGFTFSSYAMNWVRQTPGQGLEWVSAISGSGFSTYYADSVKGRFTISRDNSKNTLFLQMNSLRAEDTAVYYCAGAGRYYGSGTYGVFNPFDYWGQGTLVTVSSAASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "VQL+ESGGGLV+PGGSLRLSCAASGF F  Y+++WVRQ PG+GLEWV++IS     TYYADSVKGRFTIS D SKNT +LQMNSLRAEDTAVYYCA   R YG  TYG+    DYWGQGTLVTVSSA STKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "pdb|7S0X|C",
+                  "accession": "7S0X_C",
+                  "title": "Chain C, Fab352 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 223,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 359.762,
+                  "score": 922,
+                  "evalue": 2.13527e-123,
+                  "identity": 192,
+                  "positive": 200,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 223,
+                  "align_len": 223,
+                  "gaps": 0,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVKPGGSLRLSCAASGFSFSEYRMNWVRQAPGKGLEWVSFISSSGTYIDYADSVKGRFTISRDNVNNSLYLQMNNLRAGDTAVYYCARGMGIAVRRFDYWGQGTLVSVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVESGGGLV+PGGSLRLSCAASGF+F  Y ++WVRQAPGKGLEWV+ IS    Y  YADSVKGRFTIS D   N+ YLQMN+LRA DTAVYYCAR  G A    DYWGQGTLV+VSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|USL47873.1|",
+                  "accession": "USL47873",
+                  "title": "immunoglobulin gamma heavy chain variable region, partial [Macaca fascicularis]",
+                  "taxid": 9541,
+                  "sciname": "Macaca fascicularis"
+                }
+              ],
+              "len": 243,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.533,
+                  "score": 924,
+                  "evalue": 2.215e-123,
+                  "identity": 195,
+                  "positive": 205,
+                  "query_from": 7,
+                  "query_to": 231,
+                  "hit_from": 4,
+                  "hit_to": 227,
+                  "align_len": 226,
+                  "gaps": 3,
+                  "qseq": "LVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYG-LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "LVESGGGLAKPGGSLRLSCAASGFTFSNYWMNWVRQAPGKGLEWISAINSGGGSTYYADSVKGRFTISRDNSKNTLSLQMNSLRAEDTAVYYCARDR--SHYGRFDYWGQGVLVTISSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTHT",
+                  "midline": "LVESGGGL +PGGSLRLSCAASGF F  Y ++WVRQAPGKGLEW+++I+   G TYYADSVKGRFTIS D SKNT  LQMNSLRAEDTAVYYCAR    + YG  DYWGQG LVT+SSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "pdb|8RZ2|B",
+                  "accession": "8RZ2_B",
+                  "title": "Chain B, R5.034 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 360.533,
+                  "score": 924,
+                  "evalue": 2.718e-123,
+                  "identity": 192,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 231,
+                  "hit_from": 19,
+                  "hit_to": 247,
+                  "align_len": 229,
+                  "gaps": 0,
+                  "qseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "SEVQLVESGGGLVQPGGSLRLSCAASGFTFNTYWMSWVRQAPGKGLEWVANIQQDGSEKDYLNSVRGRFTISRDNAKKSLYLQMNSLRAEDTAVYYCARDNPASAVAFDVWGQGAMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKTHT",
+                  "midline": "SEVQLVESGGGLVQPGGSLRLSCAASGF F  Y + WVRQAPGKGLEWVA+I        Y +SV+GRFTIS D +K + YLQMNSLRAEDTAVYYCAR    +    D WGQG +VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "pdb|4LRI|C",
+                  "accession": "4LRI_C",
+                  "title": "Chain C, MSL-109 Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 359.762,
+                  "score": 922,
+                  "evalue": 2.97277e-123,
+                  "identity": 195,
+                  "positive": 208,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 233,
+                  "align_len": 233,
+                  "gaps": 10,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS---YGWAT-------YGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EEQVLESGGGLVKPGGSLRLSCAASGFTFSPYSVFWVRQAPGKGLEWVSSINSDSTYKYYADSVKGRFTISRDNAENSIFLQMNSLRAEDTAVYYCARDRSYYAFSSGSLSDYYYGLDVWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "E Q++ESGGGLV+PGGSLRLSCAASGF F  YS+ WVRQAPGKGLEWV+SI+  S Y YYADSVKGRFTIS D ++N+ +LQMNSLRAEDTAVYYCAR    Y +++       YGLD WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "pdb|8SIT|H",
+                  "accession": "8SIT_H",
+                  "title": "Chain H, CC84.24 fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 231,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 359.377,
+                  "score": 921,
+                  "evalue": 3.30123e-123,
+                  "identity": 196,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 231,
+                  "align_len": 231,
+                  "gaps": 8,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS----YGWATY----GLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVKPGGSLRLSCAASGFTFSPYSMNWVRQAPGKGLEWVSSIRSSGNYISYADSVKGRFTISRDNAKNSLYLQMNSLRAEDMAVYYCARAGRDYYDRSGYQRFPGFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSC",
+                  "midline": "EVQLVESGGGLV+PGGSLRLSCAASGF F  YS++WVRQAPGKGLEWV+SI     Y  YADSVKGRFTIS D +KN+ YLQMNSLRAED AVYYCAR+    Y  + Y    G DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "pdb|7RQP|A",
+                  "accession": "7RQP_A",
+                  "title": "Chain A, L9 Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 359.377,
+                  "score": 921,
+                  "evalue": 3.41618e-123,
+                  "identity": 193,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 227,
+                  "gaps": 0,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "QVKLVESGGGVVQPGRSLRLSCEASGFIFSTYGMHWVRQAPGKGLEWVAVIWFDGSNIYYADSVKGRFTISRDNSKNTVFMQMDSLRAEDTAVYYCHRNFYDGSGPFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "+V+LVESGGG+VQPG SLRLSC ASGF F  Y +HWVRQAPGKGLEWVA I       YYADSVKGRFTIS D SKNT ++QM+SLRAEDTAVYYC R++   +   DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "pdb|5VIG|A",
+                  "accession": "5VIG_A",
+                  "title": "Chain A, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 232,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 4.85577e-123,
+                  "identity": 192,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 226,
+                  "align_len": 228,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR--SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFTFKNYAMAWVRQAPGKGLEWVSLLYNSEESTYYADSVKGRFTISRDNSKNTLFLQMNRLRVEDTAVYFCVRDRSNGWSS--INLWGRGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKT",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGF F  Y++ WVRQAPGKGLEWV+ +      TYYADSVKGRFTIS D SKNT +LQMN LR EDTAVY+C R  S GW++  ++ WG+GTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "pdb|6GKU|H",
+                  "accession": "6GKU_H",
+                  "title": "Chain H, Fab 6F5 - Heavy Chain [Lama glama]",
+                  "taxid": 9844,
+                  "sciname": "Lama glama"
+                }
+              ],
+              "len": 228,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 4.97031e-123,
+                  "identity": 196,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 228,
+                  "align_len": 229,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR--SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "QLQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSAINSGGGSTSYADSVKGRFTISRDNAKNTLYLQMNSLKPEDTAVYYCATPGDRLWY-YRYDYWGQGTQVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "++QLVESGGGLVQPGGSLRLSCAASGF F  Y++ WVRQAPGKGLEWV++I+   G T YADSVKGRFTIS D +KNT YLQMNSL+ EDTAVYYCA      W  Y  DYWGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "pdb|7E8C|H",
+                  "accession": "7E8C_H",
+                  "title": "Chain H, N9 H [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 5.7587e-123,
+                  "identity": 196,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 230,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYG-----WATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLVESGGGLVKPGGSLRLSCAASEFTFSSYSMNWVRQAPGKGLEWVSSISSSGSQIYYADSVKGRFTISRDNAKKSLYLQMNSLRVEDTAVYYCATNGGAHSSTWSFYGMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "EVQLVESGGGLV+PGGSLRLSCAAS F F  YS++WVRQAPGKGLEWV+SIS      YYADSVKGRFTIS D +K + YLQMNSLR EDTAVYYCA + G     W+ YG+D WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "pdb|7U2E|H",
+                  "accession": "7U2E_H",
+                  "title": "Chain H, ADI-55688 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.607,
+                  "score": 919,
+                  "evalue": 6.17327e-123,
+                  "identity": 194,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 227,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSY----GWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVKPGGSLRLSCAASGFTFSSYYMNWVRQAPGKGLEWVSSISSDGYNTYYPDSLKGRFTISRDSAKNSLYLQMNSLRADDTAVYYCARDFSGHTAVAGTGFEYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVESGGGLV+PGGSLRLSCAASGF F  Y ++WVRQAPGKGLEWV+SIS     TYY DS+KGRFTIS D++KN+ YLQMNSLRA+DTAVYYCAR +      A  G +YWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "pdb|7UAP|H",
+                  "accession": "7UAP_H",
+                  "title": "Chain H, C1520 Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 6.19402e-123,
+                  "identity": 193,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 233,
+                  "align_len": 233,
+                  "gaps": 7,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR-------SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLACVASGFTFSIYEMNWVRQAPGKGLEWVSYITTSGHARYNADSVKGRFTISRDNSKNSFYLQMNSLRAEDTAIYYCARPQYHYYDTSTYHSYGFDIWGQGTMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDKT",
+                  "midline": "EVQLVESGGGLVQPGGSLRL+C ASGF F  Y ++WVRQAPGKGLEWV+ I+      Y ADSVKGRFTIS D SKN+ YLQMNSLRAEDTA+YYCAR       +  + +YG D WGQGT+VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "pdb|5Y2K|A",
+                  "accession": "5Y2K_A",
+                  "title": "Chain A, a group 2 HA binding antibody AF4H1K1 Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 6.401e-123,
+                  "identity": 195,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 233,
+                  "align_len": 233,
+                  "gaps": 8,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS-------YGWATYG-LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "QVQLVESGGGVVQPGTSLRLSCEASGFTSSAYAMHWVRQAPGKGLEWVAVITFDGGYQYYADSVKGRFTISRDISRNTLHLHMNSLRAEDTAVYYCARDPLTKLLPFDWVSGGYFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDK",
+                  "midline": "+VQLVESGGG+VQPG SLRLSC ASGF    Y++HWVRQAPGKGLEWVA I+   GY YYADSVKGRFTIS D S+NT +L MNSLRAEDTAVYYCAR        + W + G  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "pdb|8K3C|C",
+                  "accession": "8K3C_C",
+                  "title": "Chain C, Heavy chain of 41-6 Fab fragments [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 6.76681e-123,
+                  "identity": 198,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 229,
+                  "hit_from": 1,
+                  "hit_to": 237,
+                  "align_len": 237,
+                  "gaps": 11,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSY-----------GWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "hseq": "EVQLVQSGGGLVQPGGSLRLSCAASGFTVSSNYMSWVRQAPGKGLEWVSAISGSGGSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDREDIVVVPAPRGYYYYYYMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT",
+                  "midline": "EVQLV+SGGGLVQPGGSLRLSCAASGF      + WVRQAPGKGLEWV++IS   G TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR              +  Y +D WGQGT VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKT"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "pdb|8WSU|B",
+                  "accession": "8WSU_B",
+                  "title": "Chain B, Ab-H [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.221,
+                  "score": 918,
+                  "evalue": 7.06711e-123,
+                  "identity": 194,
+                  "positive": 202,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 224,
+                  "align_len": 226,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYG-WATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "QVQLVQSGGGVVKTGRSQRVSCATSGFTFSSYAIHWVRQAPGKGLEWVAVISYDGSNKYYADSVKGRFTISRDSSKNTVYLQMNSLRTEDTAVYYCARSQASWQAF--DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "+VQLV+SGGG+V+ G S R+SCA SGF F  Y+IHWVRQAPGKGLEWVA IS      YYADSVKGRFTIS D+SKNT YLQMNSLR EDTAVYYCARS   W  +  DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "pdb|5D6C|B",
+                  "accession": "5D6C_B",
+                  "title": "Chain B, antibody IgG1 (VH and CH1) [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.221,
+                  "score": 918,
+                  "evalue": 7.46512e-123,
+                  "identity": 192,
+                  "positive": 203,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 224,
+                  "align_len": 228,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCSASGFSFNSFWMHWVRQVPGKGLVWISFTNNEGTTTAYADSVRGRFIISRDNAKNTLYLEMNNLRGEDTAVYYCARGDG----GLDDWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSC+ASGF+F  + +HWVRQ PGKGL W++  +     T YADSV+GRF IS D +KNT YL+MN+LR EDTAVYYCAR  G    GLD WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "pdb|8YX9|B",
+                  "accession": "8YX9_B",
+                  "title": "Chain B, Dacetuzumab, Heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 223,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.221,
+                  "score": 918,
+                  "evalue": 7.95319e-123,
+                  "identity": 194,
+                  "positive": 201,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 217,
+                  "align_len": 223,
+                  "gaps": 6,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVESGGGLVQPGGSLRLSCAASGYSFTGYYIHWVRQAPGKGLEWVARVIPNAGGTSYNQKFKGRFTLSVDNSKNTAYLQMNSLRAEDTAVYYCARE------GIYWWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVESGGGLVQPGGSLRLSCAASG++F  Y IHWVRQAPGKGLEWVA + P +G T Y    KGRFT+S D SKNTAYLQMNSLRAEDTAVYYCAR       G+ +WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "pdb|7PA9|KKK",
+                  "accession": "7PA9_KKK",
+                  "title": "Chain KKK, Fab 98D3 VH [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 404,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 364.77,
+                  "score": 935,
+                  "evalue": 8.4498e-123,
+                  "identity": 197,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 231,
+                  "hit_from": 1,
+                  "hit_to": 231,
+                  "align_len": 231,
+                  "gaps": 3,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS---YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "hseq": "EVQLVESGGGVVQPGRSLRLSCAASGFTFSSSAMHWVRQAPGKGLEWVAVISYDGNNQLYADSVKGRLTISRDNSKNALYLQLNSLRTEDTAVYFCARDGGGYSFGTYFFDFWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT",
+                  "midline": "EVQLVESGGG+VQPG SLRLSCAASGF F   ++HWVRQAPGKGLEWVA IS       YADSVKGR TIS D SKN  YLQ+NSLR EDTAVY+CAR    Y + TY  D+WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHT"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "pdb|6AXL|A",
+                  "accession": "6AXL_A",
+                  "title": "Chain A, Fab317 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 222,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 357.836,
+                  "score": 917,
+                  "evalue": 9.45442e-123,
+                  "identity": 190,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 222,
+                  "align_len": 223,
+                  "gaps": 1,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "QMQLVESGGGVVQPGRSLRLSCTASGFTFSTYAMHWVRQSPGQGLQWVAVISYHSTNKYYEDSVRGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARD-GYSSSFFDFWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "++QLVESGGG+VQPG SLRLSC ASGF F  Y++HWVRQ+PG+GL+WVA IS +S   YY DSV+GRFTIS D SKNT YLQMNSLRAEDTAVYYCAR  G+++   D+WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "pdb|7SU0|H",
+                  "accession": "7SU0_H",
+                  "title": "Chain H, Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.221,
+                  "score": 918,
+                  "evalue": 9.51004e-123,
+                  "identity": 197,
+                  "positive": 205,
+                  "query_from": 5,
+                  "query_to": 226,
+                  "hit_from": 2,
+                  "hit_to": 221,
+                  "align_len": 223,
+                  "gaps": 4,
+                  "qseq": "VQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYT-YYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "VQLVESGGGVVQPGRSLRLSCAASGFTFSHYTMHWVRQAPGKGLEWVTFIS-YDGHNKYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAIYYCART-GWLG-PFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSC",
+                  "midline": "VQLVESGGG+VQPG SLRLSCAASGF F +Y++HWVRQAPGKGLEWV  IS Y G+  YYADSVKGRFTIS D SKNT YLQMNSLRAEDTA+YYCAR+ GW     DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "pdb|5DR5|H",
+                  "accession": "5DR5_H",
+                  "title": "Chain H, AbD09097 Fab heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 248,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 1.08493e-122,
+                  "identity": 197,
+                  "positive": 202,
+                  "query_from": 4,
+                  "query_to": 225,
+                  "hit_from": 1,
+                  "hit_to": 217,
+                  "align_len": 222,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARSYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "hseq": "QVQLVESGGGLVQPGGSLRLSCAASGFTFTNYYMHWVRQAPGKGLEWVSTIAYDGSSTYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAR---WFTD--DIWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS",
+                  "midline": "+VQLVESGGGLVQPGGSLRLSCAASGF F  Y +HWVRQAPGKGLEWV++I+     TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYCAR   W T   D WGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "pdb|7UVQ|D",
+                  "accession": "7UVQ_D",
+                  "title": "Chain D, Fab Heavy Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 357.836,
+                  "score": 917,
+                  "evalue": 1.12784e-122,
+                  "identity": 194,
+                  "positive": 204,
+                  "query_from": 4,
+                  "query_to": 226,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 227,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS----YGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "hseq": "EVQLVENGGGLVKPGGSLRLSCAASGFTISSYGMNWVRQAPGKGLEWVSSISSGSTYKYYSDSVKGRFTISRDNAKNSLYLQMNTLRAEDTAVYYCARAPEPGLTWFGEWGDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC",
+                  "midline": "EVQLVE+GGGLV+PGGSLRLSCAASGF    Y ++WVRQAPGKGLEWV+SIS  S Y YY+DSVKGRFTIS D +KN+ YLQMN+LRAEDTAVYYCAR+      W     DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSC"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gb|AKL91138.1|",
+                  "accession": "AKL91138",
+                  "title": "immunoglobulin heavy chain Fd fragment, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.221,
+                  "score": 918,
+                  "evalue": 1.16209e-122,
+                  "identity": 196,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 227,
+                  "align_len": 228,
+                  "gaps": 4,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR---SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "QVQLVESGGGLVQPGGSLRLSCVTSGFTFRSYAMTWVRQAPGKGLEWVSSISHSGGSTKYADSVKGRLTISRDDSMDTLYLQMNSLRAEDTAIYYCAKDQISYPAAS-PLDYWGRGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "+VQLVESGGGLVQPGGSLRLSC  SGF F  Y++ WVRQAPGKGLEWV+SIS   G T YADSVKGR TIS D S +T YLQMNSLRAEDTA+YYCA+   SY  A+  LDYWG+GTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "pdb|6E56|G",
+                  "accession": "6E56_G",
+                  "title": "Chain G, antibody H2214 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 358.992,
+                  "score": 920,
+                  "evalue": 1.29297e-122,
+                  "identity": 196,
+                  "positive": 206,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 234,
+                  "align_len": 234,
+                  "gaps": 9,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCARS---YGWATYG------LDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "EVQLLESGGGLVQPGGSLRLSCAASGFTFNHYAMTWVRQAPGKGLEWVASSSGSGRSTYYTDSVKGRFSVSRDNSKNTLYLQMNSLRAEDTAVYYCAKSSNYYGSGSYSPDDYYHMDVWGQGTTVTVSGASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSCDK",
+                  "midline": "EVQL+ESGGGLVQPGGSLRLSCAASGF F +Y++ WVRQAPGKGLEWVAS S     TYY DSVKGRF++S D SKNT YLQMNSLRAEDTAVYYCA+S   YG  +Y       +D WGQGT VTVS ASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDK+VEPKSCDK"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "pdb|8H3M|D",
+                  "accession": "8H3M_D",
+                  "title": "Chain D, MO1 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 449,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 365.925,
+                  "score": 938,
+                  "evalue": 1.42121e-122,
+                  "identity": 197,
+                  "positive": 207,
+                  "query_from": 4,
+                  "query_to": 230,
+                  "hit_from": 1,
+                  "hit_to": 232,
+                  "align_len": 232,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCAR-----SYGWATYGLDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "hseq": "EVQLVESGGGMVQPGRSLRLSCAASGFTFDDYAMHWVRQIPGKGLEWVSGISWNSGDIGYADSVKGRFTISRDNAKNSLHLQMNSLRAEDTALYYCAKDKTYDSPGYFLNSFDYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH",
+                  "midline": "EVQLVESGGG+VQPG SLRLSCAASGF F  Y++HWVRQ PGKGLEWV+ IS  SG   YADSVKGRFTIS D +KN+ +LQMNSLRAEDTA+YYCA+     S G+     DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "pdb|7JKB|B",
+                  "accession": "7JKB_B",
+                  "title": "Chain B, Anti-Her2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 239,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 357.836,
+                  "score": 917,
+                  "evalue": 1.8583e-122,
+                  "identity": 197,
+                  "positive": 205,
+                  "query_from": 4,
+                  "query_to": 228,
+                  "hit_from": 1,
+                  "hit_to": 230,
+                  "align_len": 230,
+                  "gaps": 5,
+                  "qseq": "EVQLVESGGGLVQPGGSLRLSCAASGFNFYYYSIHWVRQAPGKGLEWVASISPYSGYTYYADSVKGRFTISADTSKNTAYLQMNSLRAEDTAVYYCA---RSYGWAT-YGL-DYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "hseq": "QVQLVESGGGLIKPGGSLRLSCAASGFTVSYESMGWVRQAPGKGLEWVSAISSSGGSTYYADSVKGRFTISRDNSKNTVYLQMNSLRAEDTAVYYCVTPERQCKQSTCYARPRYWGQGTMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK",
+                  "midline": "+VQLVESGGGL++PGGSLRLSCAASGF   Y S+ WVRQAPGKGLEWV++IS   G TYYADSVKGRFTIS D SKNT YLQMNSLRAEDTAVYYC    R    +T Y    YWGQGT+VTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDK"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

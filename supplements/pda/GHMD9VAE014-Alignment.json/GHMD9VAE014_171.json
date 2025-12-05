@@ -1,0 +1,230 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236290",
+          "query_title": "2mr5_A",
+          "query_len": 136,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5GAJ|A",
+                  "accession": "5GAJ_A",
+                  "title": "Chain A, DE NOVO DESIGNED PROTEIN OR258 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 202.986,
+                  "score": 515,
+                  "evalue": 1.57811e-64,
+                  "identity": 120,
+                  "positive": 120,
+                  "query_from": 1,
+                  "query_to": 126,
+                  "hit_from": 1,
+                  "hit_to": 126,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "MGTVVIVVSNDERILEELLEVVLKSDPNVKTVRTDDKEKVKEEIEKARKQGRPIVIFIRGAYEEVVRDIVEYAQKEGLRVLVIKVAQDQELLERFYEQLKKDGVDVRVTDNEDEAKKRLKELLEKV",
+                  "hseq": "MGTVVIVVSRDERILEELLEVVLKSDPNVKTVRTDDKEKVKEEIEKARKQGRPIVIFIRGATEEVVRDIVEYAQKEGLRVLVIMVDQDQEELERIYEQLKKDGVDVRVTDNEDEAKKRLKELLEKV",
+                  "midline": "MGTVVIVVS DERILEELLEVVLKSDPNVKTVRTDDKEKVKEEIEKARKQGRPIVIFIRGA EEVVRDIVEYAQKEGLRVLVI V QDQE LER YEQLKKDGVDVRVTDNEDEAKKRLKELLEKV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|2MR6|A",
+                  "accession": "2MR6_A",
+                  "title": "Chain A, De novo designed Protein OR462 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 5.57066e-32,
+                  "identity": 89,
+                  "positive": 104,
+                  "query_from": 1,
+                  "query_to": 131,
+                  "hit_from": 1,
+                  "hit_to": 131,
+                  "align_len": 131,
+                  "gaps": 0,
+                  "qseq": "MGTVVIVVSNDERILEELLEVVLKSDPNVKTVRTDDKEKVKEEIEKARKQGRPIVIFIRGAYEEVVRDIVEYAQKEGLRVLVIKVAQDQELLERFYEQLKKDGVDVRVTDNEDEAKKRLKELLEKVGSLEH",
+                  "hseq": "MGVVILVLTGDERIAEELRKEVQKHDPNVKTVPTKDKEKVKEEIEKARKQGRPIVVFVRGGDDERAKDIAEYAQKEGLRVIVIIVSQDEEALRKGYEDKKKKGYDVYTSRNEDEAKKKLKEALEKSGSLEH",
+                  "midline": "MG V++V++ DERI EEL + V K DPNVKTV T DKEKVKEEIEKARKQGRPIV+F+RG  +E  +DI EYAQKEGLRV+VI V+QD+E L + YE  KK G DV  + NEDEAKK+LKE LEK GSLEH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|2L69|A",
+                  "accession": "2L69_A",
+                  "title": "Chain A, Rossmann 2x3 fold protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.003,
+                  "score": 149,
+                  "evalue": 4.09787e-09,
+                  "identity": 41,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 131,
+                  "hit_from": 1,
+                  "hit_to": 129,
+                  "align_len": 131,
+                  "gaps": 2,
+                  "qseq": "MGTVVIVVSNDERILEELLEVVLKSDPNVKTVRTDDKEKVKEEIEKARKQGRPIVIFIRGAYEEVVRDIVEYAQKEGLRVLVIKVAQDQELLERFYEQLKKDGVDVRVTDNEDEAKKRLKELLEKVGSLEH",
+                  "hseq": "MNIVIVVFSTDEETLRKFKDIIKKNGFKVRTVRS--PQELKDSIEELVKKYNATIVVVVVDDKEWAEKAIRFVKSLGAQVLIIIYDQDQNRLEEFSREVRRRGFEVRTVTSPDDFKKSLERLIREVGSLEH",
+                  "midline": "M  V++V S DE  L +  +++ K+   V+TVR+   +++K+ IE+  K+    ++ +    +E     + + +  G +VL+I   QDQ  LE F  ++++ G +VR   + D+ KK L+ L+ +VGSLEH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|2LVB|A",
+                  "accession": "2LVB_A",
+                  "title": "Chain A, DE NOVO DESIGNED PFK fold PROTEIN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.1434,
+                  "score": 126,
+                  "evalue": 5.52616e-06,
+                  "identity": 30,
+                  "positive": 54,
+                  "query_from": 1,
+                  "query_to": 103,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "MGTVVIVVSNDERILEELLEVVLKSDPNVKTVRTDDKEKVKEEIEKARKQGRPIVIFIRGAYEEVVRDIVEYAQKEGLRVLVIKVAQDQELLERFYEQLKKDG",
+                  "hseq": "MGKVLLVISTDTNIISSVQERAKHNYPGREIRTATSSQDIRDIIKSMKDNGKPLVVFVNGASQNDVNEFQNEAKKEGVSYDVLKSTDPEELTQRVREFLKTAG",
+                  "midline": "MG V++V+S D  I+  + E    + P  +       + +++ I+  +  G+P+V+F+ GA +  V +    A+KEG+   V+K    +EL +R  E LK  G"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|2LR0|A",
+                  "accession": "2LR0_A",
+                  "title": "Chain A, P-loop ntpase fold [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.00166574,
+                  "identity": 33,
+                  "positive": 80,
+                  "query_from": 1,
+                  "query_to": 131,
+                  "hit_from": 1,
+                  "hit_to": 129,
+                  "align_len": 131,
+                  "gaps": 2,
+                  "qseq": "MGTVVIVVSNDERILEELLEVVLKSDPNVKTVRTDDKEKVKEEIEKARKQGRPIVIFIRGAYEEVVRDIVEYAQKEGLRVLVIKVAQDQELLERFYEQLKKDGVDVRVTDNEDEAKKRLKELLEKVGSLEH",
+                  "hseq": "MKILILINTNNDELIKKIKKEVENQGYQVRDV--NDSDELKKEMKKLAEEKNFEKILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKVTDDEEALKIVREFMQKAGSLEH",
+                  "midline": "M  ++++ +N++ +++++ + V      V+ V  +D +++K+E++K  ++     I I+   ++++++++E   K G +V ++   QD+  LE F  +++  G +VR   +++EA K ++E ++K GSLEH"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|2L82|A",
+                  "accession": "2L82_A",
+                  "title": "Chain A, DESIGNED PROTEIN OR32 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.00509334,
+                  "identity": 44,
+                  "positive": 80,
+                  "query_from": 1,
+                  "query_to": 131,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 26,
+                  "qseq": "MGTVVIVVSNDERILEELLE---------VVLKSDPNVKT--------------VRT-DDKEKVKEEIEKA--RKQGRPIVIFIRGAYEEVVRDIVEYAQKEGLRVLVIKVAQDQELLERFYEQLKKDGVDVRVTDNEDEAKKRLKELLEKVGSLEH",
+                  "hseq": "MSQIFVVFSSDPEILKEIVREIKRQGVRVVLLYSDQDEKRRRERLEEFEKQGVDVRTVEDKEDFRENIREIWERYPQLDVVVIVTTDDKEWIKDFIEEAKERGVEVFVVYNNKDDDRRKEAQQEFRSDGVDVRTVSDKEELIEQVRRFVRKVGSLEH",
+                  "midline": "M  + +V S+D  IL+E++          V+L SD + K               VRT +DKE  +E I +   R     +V+ +    +E ++D +E A++ G+ V V+   +D +  +   ++ + DGVDVR   +++E  ++++  + KVGSLEH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

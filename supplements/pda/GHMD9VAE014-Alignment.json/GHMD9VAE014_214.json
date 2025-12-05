@@ -1,0 +1,198 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236333",
+          "query_title": "5cwg_A",
+          "query_len": 210,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5CWG|A",
+                  "accession": "5CWG_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 392.119,
+                  "score": 1006,
+                  "evalue": 6.20408e-137,
+                  "identity": 210,
+                  "positive": 210,
+                  "query_from": 1,
+                  "query_to": 210,
+                  "hit_from": 1,
+                  "hit_to": 210,
+                  "align_len": 210,
+                  "gaps": 0,
+                  "qseq": "MSSEKEELRERLVKIVVENAKRKGDDTEEAREAAREAFELVREAAERAGIDSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSETLKRAIEEIRKRVEEAQREGNDISEAARQAAEEFRKKAEELKRRGDGWLEHHHHHH",
+                  "hseq": "MSSEKEELRERLVKIVVENAKRKGDDTEEAREAAREAFELVREAAERAGIDSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSETLKRAIEEIRKRVEEAQREGNDISEAARQAAEEFRKKAEELKRRGDGWLEHHHHHH",
+                  "midline": "MSSEKEELRERLVKIVVENAKRKGDDTEEAREAAREAFELVREAAERAGIDSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSETLKRAIEEIRKRVEEAQREGNDISEAARQAAEEFRKKAEELKRRGDGWLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5CWB|A",
+                  "accession": "5CWB_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 2.40635e-07,
+                  "identity": 60,
+                  "positive": 89,
+                  "query_from": 17,
+                  "query_to": 205,
+                  "hit_from": 18,
+                  "hit_to": 206,
+                  "align_len": 194,
+                  "gaps": 10,
+                  "qseq": "VENAKRKGDDTEE-AREAAREAFELVREAAERAGIDSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSETLKRAIEEIRKRVEEA-QREG---NDISEAARQAAEEFRKKAEELKRRGDGWLEH",
+                  "hseq": "VERLKRSGTSEDEIAEEVAREISEVIRTLKE-SGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESG-SSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERT---LKESGSSWLEH",
+                  "midline": "VE  KR G   +E A E ARE  E++R   E +G     + E   R++ E+VE  +R G    E A   A     V    K +G +   + E   R++ E+VE  +R G    E A   A     V    K +G +S E +K  ++ I + + EA +R G   ++I+E  R+   E  +    LK  G  WLEH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6VFI|A",
+                  "accession": "6VFI_A",
+                  "title": "Chain A, O43_dn18A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 209,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.9138,
+                  "score": 128,
+                  "evalue": 6.47526e-05,
+                  "identity": 51,
+                  "positive": 78,
+                  "query_from": 16,
+                  "query_to": 206,
+                  "hit_from": 14,
+                  "hit_to": 205,
+                  "align_len": 192,
+                  "gaps": 1,
+                  "qseq": "VVENAKRKGDDTEEAREAAREAFELVREAAERAGIDSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSETLKRAIEEIRKRVEEAQREGNDISEAARQAAEEFRKKAEELKRRGDG-WLEHH",
+                  "hseq": "VVERAKRAGTSEDEIAESVARVISLVIRALKLSGSSYEVICECVARIVAEIVEALKRSGTSAVEIAKIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSAAIIALIVALVISEVIRTLKESGSSFEVILECVIRIVLEIIEALKRSGTSEQDVMLIVMAVLLVVLATLQLSGSGGWLEHH",
+                  "midline": "VVE AKR G   +E  E+      LV  A + +G     + E   R++ E+VE  +R G    E A+  A     V    K +G +   + E   R++ E+VE  +R G   +  A   A     V    K +G +    L+  I  + + +E  +R G    +               L+  G G WLEHH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|5CWL|A",
+                  "accession": "5CWL_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.00852848,
+                  "identity": 62,
+                  "positive": 102,
+                  "query_from": 20,
+                  "query_to": 205,
+                  "hit_from": 20,
+                  "hit_to": 178,
+                  "align_len": 186,
+                  "gaps": 27,
+                  "qseq": "AKRKGDDTEEAREAAREAFELVREAAERAGIDSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSEVLELAIRLIKEVVENAQREGYDISEAARAAAEAFKRVAEAAKRAGITSSETLKRAIEEIRKRVEEAQREGNDISEAARQAAEEFRKKAEELKRRGDGWLEH",
+                  "hseq": "AAREGN-TDEVREQLQRALEIARESG------TTEAVKLALEVVARVAIEAARRGN--TDAVR---EALEVALEIARESGTT--EAVKLALEVVARVAIEAARRGN--TDAVR---EALEVALEIARESG--TEEAVRLALEVVKRVSDEAKKQGN---EDAVKEAEEVRKKIEE---ESGGWLEH",
+                  "midline": "A R+G+ T+E RE  + A E+ RE+       ++E ++LA+ ++  V   A R G   ++A R   EA +   E A+ +G T  E ++LA+ ++  V   A R G   ++A R   EA +   E A+ +G  + E ++ A+E +++  +EA+++GN   E A + AEE RKK EE      GWLEH"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|5CWN|A",
+                  "accession": "5CWN_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.0140777,
+                  "identity": 84,
+                  "positive": 109,
+                  "query_from": 26,
+                  "query_to": 205,
+                  "hit_from": 2,
+                  "hit_to": 206,
+                  "align_len": 220,
+                  "gaps": 55,
+                  "qseq": "DTEEAREAAREAFELVREAAERAGIDSSEV---LELAIRLIKEVVENAQREGYD--ISEAARAAAEAFKRVAEAAKRAGITSSEVL----ELAIRLIKEVVENAQREGYD--ISEAARAAAEAFKRVAEAAKRAGITSSETLKRAIE---EIRKR-VEEAQREGN-DISEAARQAAEEFRKKA--------------------EELKR----RGDGWLEH",
+                  "hseq": "DPEEILERAKESLERAREASERG--DEEEFRKAAEKALELAKRLVEQAKKEGDPELVLEAAKVAL----RVAELAAKNG--DKEVFKKAAESALEVAKRLVEVASKEGDPELVLEAAKVAL----RVAELAAKNG--DKEVFKKAAESALEVAKRLVEVASKEGDPELVEEAAKVAEEVRKLAKKQGDEEVYEKARETAREVKEELKRVREEKG-GWLEH",
+                  "midline": "D EE  E A+E+ E  REA+ER   D  E     E A+ L K +VE A++EG    + EAA+ A     RVAE A + G    EV     E A+ + K +VE A +EG    + EAA+ A     RVAE A + G    E  K+A E   E+ KR VE A +EG+ ++ E A + AEE RK A                    EELKR    +G GWLEH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

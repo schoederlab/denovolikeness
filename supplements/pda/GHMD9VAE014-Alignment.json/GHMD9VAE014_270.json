@@ -1,0 +1,556 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236389",
+          "query_title": "6ds9_A",
+          "query_len": 93,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6DS9|A",
+                  "accession": "6DS9_A",
+                  "title": "Chain A, de novo designed three helix bundle GRa3D [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 93,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 178.333,
+                  "score": 451,
+                  "evalue": 3.48843e-56,
+                  "identity": 93,
+                  "positive": 93,
+                  "query_from": 1,
+                  "query_to": 93,
+                  "hit_from": 1,
+                  "hit_to": 93,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYRHN",
+                  "hseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYRHN",
+                  "midline": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYRHN"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|2A3D|A",
+                  "accession": "2A3D_A",
+                  "title": "Chain A, PROTEIN (DE NOVO THREE-HELIX BUNDLE) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 73,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 7.21665e-34,
+                  "identity": 72,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 93,
+                  "hit_from": 2,
+                  "hit_to": 73,
+                  "align_len": 93,
+                  "gaps": 21,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYRHN",
+                  "hseq": "GSWAEFKQRLAAIKTRL-------QALGGSEAELAAFEKEIAAFESE-------LQAYKGKGNPEVEALRK-------EAAAIRDELQAYRHN",
+                  "midline": "GSWAEFKQRLAAIKTRL       QALGGSEAELAAFEKEIAAFESE       LQAYKGKGNPEVEALRK       EAAAIRDELQAYRHN"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|XP_069155993.1|",
+                  "accession": "XP_069155993",
+                  "title": "autotransporter adhesin BpaC-like [Procambarus clarkii]",
+                  "taxid": 6728,
+                  "sciname": "Procambarus clarkii"
+                }
+              ],
+              "len": 264,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.9138,
+                  "score": 128,
+                  "evalue": 6.25217e-06,
+                  "identity": 37,
+                  "positive": 45,
+                  "query_from": 1,
+                  "query_to": 91,
+                  "hit_from": 100,
+                  "hit_to": 183,
+                  "align_len": 91,
+                  "gaps": 7,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "GEVAAFTGEVAAFTGEVAAYTGEVAAYTG---EVAAFTGEVAAFTGEVAAFTGEVAAYTG----EVAAFTGEVAAFTGEVAAFTGEVAAYT",
+                  "midline": "G  A F   +AA    +AA    + A  G   E+AAF  E+AAF  E+AAF  E+ AY G    EV A   E AA   E AA   E+ AY "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 1.5539e-05,
+                  "identity": 36,
+                  "positive": 45,
+                  "query_from": 1,
+                  "query_to": 91,
+                  "hit_from": 128,
+                  "hit_to": 211,
+                  "align_len": 91,
+                  "gaps": 7,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "GEVAAFTGEVAAFTGEVAAFTGEVAAYTG---EVAAFTGEVAAFTGEVAAFTGEVAAYTG----EVAAFTGEVAAFTGEVAAFTGEVAAFT",
+                  "midline": "G  A F   +AA    +AA    + A  G   E+AAF  E+AAF  E+AAF  E+ AY G    EV A   E AA   E AA   E+ A+ "
+                },
+                {
+                  "num": 3,
+                  "bit_score": 52.373,
+                  "score": 124,
+                  "evalue": 1.91663e-05,
+                  "identity": 37,
+                  "positive": 46,
+                  "query_from": 1,
+                  "query_to": 91,
+                  "hit_from": 65,
+                  "hit_to": 155,
+                  "align_len": 94,
+                  "gaps": 6,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKG---NPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "GEVAAFTGEVAAFTGEVAAFTGEVAAYTG---EVAAFTGEVAAFTGEVAAFTGEVAAYTGEVAAYTGEVAAFTGEVAAFTGEVAAFTGEVAAYT",
+                  "midline": "G  A F   +AA    +AA    + A  G   E+AAF  E+AAF  E+AAF  E+ AY G+      EV A   E AA   E AA   E+ AY "
+                },
+                {
+                  "num": 4,
+                  "bit_score": 51.9878,
+                  "score": 123,
+                  "evalue": 2.88598e-05,
+                  "identity": 34,
+                  "positive": 45,
+                  "query_from": 2,
+                  "query_to": 91,
+                  "hit_from": 38,
+                  "hit_to": 120,
+                  "align_len": 90,
+                  "gaps": 7,
+                  "qseq": "SWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "SWVRQASKPSVMNRQVAAYTGEVAAFTG---EVAAFTGEVAAFTGEVAAFTGEVAAYTG----EVAAFTGEVAAFTGEVAAFTGEVAAYT",
+                  "midline": "SW     + + +  ++AA    + A  G   E+AAF  E+AAF  E+AAF  E+ AY G    EV A   E AA   E AA   E+ AY "
+                },
+                {
+                  "num": 5,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.0108084,
+                  "identity": 31,
+                  "positive": 39,
+                  "query_from": 1,
+                  "query_to": 79,
+                  "hit_from": 177,
+                  "hit_to": 248,
+                  "align_len": 79,
+                  "gaps": 7,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDE",
+                  "hseq": "GEVAAYTGEVAAFTGEVAAFTGEVAAFTG---EVAAFTGEVAAFTGEVAAFTGEVAAYTG----EVAAFTGEVAAFTGE",
+                  "midline": "G  A +   +AA    +AA    + A  G   E+AAF  E+AAF  E+AAF  E+ AY G    EV A   E AA   E"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|XP_069157676.1|",
+                  "accession": "XP_069157676",
+                  "title": "Kruppel-like factor 18 [Procambarus clarkii]",
+                  "taxid": 6728,
+                  "sciname": "Procambarus clarkii"
+                }
+              ],
+              "len": 908,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.9138,
+                  "score": 128,
+                  "evalue": 8.67303e-06,
+                  "identity": 31,
+                  "positive": 57,
+                  "query_from": 7,
+                  "query_to": 91,
+                  "hit_from": 694,
+                  "hit_to": 771,
+                  "align_len": 85,
+                  "gaps": 7,
+                  "qseq": "KQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "KTKLQAIKTKLQAIKTKLQAI---KTKLQAIKTKLQAIKTKLQAIKTKLQAIKTK----LQAIKTKLQAIKTKLQAIKTKLQAIK",
+                  "midline": "K +L AIKT+L AIKT+LQA+   + +L A + ++ A ++++ A +++LQA K K    ++A++ +  AI+ +  AI+ +LQA +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 52.373,
+                  "score": 124,
+                  "evalue": 2.25593e-05,
+                  "identity": 30,
+                  "positive": 57,
+                  "query_from": 7,
+                  "query_to": 91,
+                  "hit_from": 687,
+                  "hit_to": 764,
+                  "align_len": 85,
+                  "gaps": 7,
+                  "qseq": "KQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "QDKLQAIKTKLQAIKTKLQAI---KTKLQAIKTKLQAIKTKLQAIKTKLQAIKTK----LQAIKTKLQAIKTKLQAIKTKLQAIK",
+                  "midline": "+ +L AIKT+L AIKT+LQA+   + +L A + ++ A ++++ A +++LQA K K    ++A++ +  AI+ +  AI+ +LQA +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|MDE0319288.1|",
+                  "accession": "MDE0319288",
+                  "title": "hypothetical protein [Acidimicrobiaceae bacterium]",
+                  "taxid": 2024894,
+                  "sciname": "Acidimicrobiaceae bacterium"
+                }
+              ],
+              "len": 159,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000105961,
+                  "identity": 25,
+                  "positive": 40,
+                  "query_from": 1,
+                  "query_to": 93,
+                  "hit_from": 17,
+                  "hit_to": 102,
+                  "align_len": 93,
+                  "gaps": 7,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYRHN",
+                  "hseq": "GEFGAMRDEFGTVRGELGTVR---DELGGTRGEFGTVRDELGAMRDELGAMRGELGTVR----DELGATRGEFGTVRGELGAMRDEFTAFRHD",
+                  "midline": "G +   +     ++  L  ++     LGG+  E      E+ A   E+ A   EL   +     E+ A R E   +R E  A+RDE  A+RH+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|WP_421556145.1|",
+                  "accession": "WP_421556145",
+                  "title": "hypothetical protein [Pseudomonas kitaguniensis]",
+                  "taxid": 2607908,
+                  "sciname": "Pseudomonas kitaguniensis"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.000513736,
+                  "identity": 34,
+                  "positive": 54,
+                  "query_from": 6,
+                  "query_to": 91,
+                  "hit_from": 19,
+                  "hit_to": 111,
+                  "align_len": 97,
+                  "gaps": 15,
+                  "qseq": "FKQRLAAIKTRLAAIKTRLQA----LGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAA-------AIRDELQAYR",
+                  "hseq": "FQPELAAFQLELTAVQPELPAFQLELTATQPELAAFQLELTATQSELAAFQLELTATQ----PDFVAFQLELTAVQPELAAFQLGLTAVQPELAAFQ",
+                  "midline": "F+  LAA +  L A++  L A    L  ++ ELAAF+ E+ A +SE+AAF+ EL A +    P+  A + E  A++ E A       A++ EL A++"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_163898112.1|",
+                  "accession": "WP_163898112",
+                  "title": "hypothetical protein [Mycolicibacterium pulveris]",
+                  "taxid": 36813,
+                  "sciname": "Mycolicibacterium pulveris"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.00152223,
+                  "identity": 22,
+                  "positive": 46,
+                  "query_from": 10,
+                  "query_to": 78,
+                  "hit_from": 42,
+                  "hit_to": 107,
+                  "align_len": 69,
+                  "gaps": 3,
+                  "qseq": "LAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRD",
+                  "hseq": "LAAVKTDMAAVKTDMAAV---KTDMAALKTDVAAFKTDVAAFKTEFVGFRTETRATFRSIDEHIAELRD",
+                  "midline": "LAA+KT +AA+KT + A+   + ++AA + ++AAF++++AAF++E   ++ +      ++ +  A +RD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 42.743,
+                  "score": 99,
+                  "evalue": 0.0203947,
+                  "identity": 22,
+                  "positive": 37,
+                  "query_from": 2,
+                  "query_to": 57,
+                  "hit_from": 41,
+                  "hit_to": 93,
+                  "align_len": 56,
+                  "gaps": 3,
+                  "qseq": "SWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQA",
+                  "hseq": "DLAAVKTDMAAVKTDMAAVKTDMAAL---KTDVAAFKTDVAAFKTEFVGFRTETRA",
+                  "midline": "  A  K  +AA+KT +AA+KT + AL   + ++AAF+ ++AAF++E   F +E +A"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "gb|MCX8087133.1|",
+                  "accession": "MCX8087133",
+                  "title": "hypothetical protein [Rhodocyclaceae bacterium]",
+                  "taxid": 1898103,
+                  "sciname": "Rhodocyclaceae bacterium"
+                }
+              ],
+              "len": 308,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.595,
+                  "score": 109,
+                  "evalue": 0.0024449,
+                  "identity": 27,
+                  "positive": 50,
+                  "query_from": 5,
+                  "query_to": 91,
+                  "hit_from": 53,
+                  "hit_to": 139,
+                  "align_len": 90,
+                  "gaps": 6,
+                  "qseq": "EFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKG---NPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "DFKNEMAAFKNEMSDFKNEMLDFKN---EMAAFKNEMLDFKNEMAAFKNEMLDFKNEMAEFKNEMLDFKDEMAEFKDEMAAFKDEMAEFK",
+                  "midline": "+FK  +AA K  ++  K  +        E+AAF+ E+  F++E+AAF++E+  +K +      E+   + E A  +DE AA +DE+  ++"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_143505413.1|",
+                  "accession": "WP_143505413",
+                  "title": "hypothetical protein [Pseudomonas sp. ICMP 460]",
+                  "taxid": 1718917,
+                  "sciname": "Pseudomonas sp. ICMP 460"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.00273369,
+                  "identity": 32,
+                  "positive": 50,
+                  "query_from": 9,
+                  "query_to": 92,
+                  "hit_from": 15,
+                  "hit_to": 91,
+                  "align_len": 84,
+                  "gaps": 7,
+                  "qseq": "RLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAYRH",
+                  "hseq": "QLTAFQVKLAAFQLELIAV---QPELAAFQLALTATQPELAAFQLELTAVQ----PELAALQLELTATQPELAALQPELTATQP",
+                  "midline": "+L A + +LAA +  L A+   + ELAAF+  + A + E+AAF+ EL A +    PE+ AL+ E  A + E AA++ EL A + "
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|XP_070061403.1|",
+                  "accession": "XP_070061403",
+                  "title": "uncharacterized protein CTRU02_207344 [Colletotrichum truncatum]",
+                  "taxid": 5467,
+                  "sciname": "Colletotrichum truncatum"
+                }
+              ],
+              "len": 219,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00330267,
+                  "identity": 24,
+                  "positive": 52,
+                  "query_from": 1,
+                  "query_to": 90,
+                  "hit_from": 63,
+                  "hit_to": 145,
+                  "align_len": 90,
+                  "gaps": 7,
+                  "qseq": "GSWAEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGKGNPEVEALRKEAAAIRDEAAAIRDELQAY",
+                  "hseq": "SDVAAIKSDVAAIKSDVAAIKSDVAVL---KSDVAVLKSDVAVLKSDVAVLKSDVAVLKS----DVAVLKSDVAVLKSDVAAIKSDVAAF",
+                  "midline": "   A  K  +AAIK+ +AAIK+ +  L   ++++A  + ++A  +S++A  +S++   K     +V  L+ + A ++ + AAI+ ++ A+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "emb|CAI5493335.1|",
+                  "accession": "CAI5493335",
+                  "title": "unnamed protein product, partial [Closterium sp. Naga37s-1]",
+                  "taxid": 2996811,
+                  "sciname": "Closterium sp. Naga37s-1"
+                }
+              ],
+              "len": 200,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.00466051,
+                  "identity": 26,
+                  "positive": 39,
+                  "query_from": 4,
+                  "query_to": 69,
+                  "hit_from": 70,
+                  "hit_to": 134,
+                  "align_len": 68,
+                  "gaps": 5,
+                  "qseq": "AEFKQRLAAIKTRLAAIKTRLQALGGSEAELAAFEKEIAAFESEIAAFESELQAYKGK--GNPEVEAL",
+                  "hseq": "AAMRSRLAAVRSRLAAVRSRLAAV---RSRLAAVRSRLAAVRSRLAAVRSRLAAVRSRLAAVPCCHAL",
+                  "midline": "A  + RLAA+++RLAA+++RL A+    + LAA    +AA  S +AA  S L A + +    P   AL"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_427133535.1|",
+                  "accession": "WP_427133535",
+                  "title": "hypothetical protein [Pseudomonas kitaguniensis]",
+                  "taxid": 2607908,
+                  "sciname": "Pseudomonas kitaguniensis"
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.00733734,
+                  "identity": 35,
+                  "positive": 53,
+                  "query_from": 3,
+                  "query_to": 91,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 21,
+                  "qseq": "WAEFKQRLAAIKTRLAAIKTRLQA-----------LGGSEAELAAFEKEIAAFESEIAAFESELQAYKGK----------GNPEVEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "MAAFQLELTATQPELAEPQLELTATQPELAEPQLELTATQPELAAFQLELTATQPELAAFQLELTAFQPELAELQLELTATQPELAALQMELTATQPELAACQLELTATQ",
+                  "midline": " A F+  L A +  LA  +  L A           L  ++ ELAAF+ E+ A + E+AAF+ EL A++ +            PE+ AL+ E  A + E AA + EL A +"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_310554712.1|",
+                  "accession": "WP_310554712",
+                  "title": "M56 family metallopeptidase [Flavobacterium sp.]",
+                  "taxid": 239,
+                  "sciname": "Flavobacterium sp."
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0379911,
+                  "identity": 25,
+                  "positive": 40,
+                  "query_from": 31,
+                  "query_to": 91,
+                  "hit_from": 509,
+                  "hit_to": 573,
+                  "align_len": 65,
+                  "gaps": 4,
+                  "qseq": "EAELAAFEKEIAAFESEIAAFESELQAYK---GKGNPE-VEALRKEAAAIRDEAAAIRDELQAYR",
+                  "hseq": "EPDMTAFEKEMEKFEAKMEAYQDKMEAYQESVGDENQDRQEAIRDRMNAKRDEMNAKRDAINAKR",
+                  "midline": "E ++ AFEKE+  FE+++ A++ +++AY+   G  N +  EA+R    A RDE  A RD + A R"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

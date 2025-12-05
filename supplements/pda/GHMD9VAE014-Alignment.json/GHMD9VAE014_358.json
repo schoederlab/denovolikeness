@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236477",
+          "query_title": "2lta_A",
+          "query_len": 110,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|2LTA|A",
+                  "accession": "2LTA_A",
+                  "title": "Chain A, De novo designed protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 208.379,
+                  "score": 529,
+                  "evalue": 1.91008e-67,
+                  "identity": 110,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 110,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 0,
+                  "qseq": "MGSKIIVIISSDDTTLEELARKIKDEGLEVYILLKDKDEKRLEEKIQKLKSQGFEVRKVKDDDDIDKWIDKIKKERPQLEVRKVTDEDQAKQILEDLKKKGSLEHHHHHH",
+                  "hseq": "MGSKIIVIISSDDTTLEELARKIKDEGLEVYILLKDKDEKRLEEKIQKLKSQGFEVRKVKDDDDIDKWIDKIKKERPQLEVRKVTDEDQAKQILEDLKKKGSLEHHHHHH",
+                  "midline": "MGSKIIVIISSDDTTLEELARKIKDEGLEVYILLKDKDEKRLEEKIQKLKSQGFEVRKVKDDDDIDKWIDKIKKERPQLEVRKVTDEDQAKQILEDLKKKGSLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|2LR0|A",
+                  "accession": "2LR0_A",
+                  "title": "Chain A, P-loop ntpase fold [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.00205417,
+                  "identity": 36,
+                  "positive": 55,
+                  "query_from": 6,
+                  "query_to": 104,
+                  "hit_from": 54,
+                  "hit_to": 128,
+                  "align_len": 100,
+                  "gaps": 26,
+                  "qseq": "IVIISSDDTTLEELARKIKDEGLEVYILLKDKDEKRLEEKIQKLKSQGFEVRKVKDDDDIDKWIDKIKKERPQLEVRKVTDEDQAKQIL-EDLKKKGSLE",
+                  "hseq": "ILIKSNDKQLLKEMLELISKLGYKVFLLLADQDENELEEFKRKIESQGYEVRKV-------------------------TDDEEALKIVREFMQKAGSLE",
+                  "midline": "I+I S+D   L+E+   I   G +V++LL D+DE  LEE  +K++SQG+EVRKV                         TD+++A +I+ E ++K GSLE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
