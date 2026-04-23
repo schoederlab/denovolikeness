@@ -54,7 +54,7 @@ def extract_data_from_json(json_file_path):
 
 def main():
     # Directory containing JSON files
-    json_dir = Path("F1D73BMZ014-Alignment.json")
+    json_dir = Path("GHMD9VAE014-Alignment.json")
     
     # Output CSV file
     output_csv = "extracted_blast_results.csv"

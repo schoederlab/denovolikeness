@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236138",
+          "query_title": "7dns_A",
+          "query_len": 97,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7DNS|A",
+                  "accession": "7DNS_A",
+                  "title": "Chain A, de novo designed protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 191.43,
+                  "score": 485,
+                  "evalue": 3.19654e-61,
+                  "identity": 97,
+                  "positive": 97,
+                  "query_from": 1,
+                  "query_to": 97,
+                  "hit_from": 1,
+                  "hit_to": 97,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "GGHMGEEQKEIETLVELFAEAFREAKRQKKNGTPEEWARDAVEEAARQQGRSRKDVVEALTKYAQEQGRDELLKRLGITPEIYKVIQQIRKEEGSLE",
+                  "hseq": "GGHMGEEQKEIETLVELFAEAFREAKRQKKNGTPEEWARDAVEEAARQQGRSRKDVVEALTKYAQEQGRDELLKRLGITPEIYKVIQQIRKEEGSLE",
+                  "midline": "GGHMGEEQKEIETLVELFAEAFREAKRQKKNGTPEEWARDAVEEAARQQGRSRKDVVEALTKYAQEQGRDELLKRLGITPEIYKVIQQIRKEEGSLE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7BQM|A",
+                  "accession": "7BQM_A",
+                  "title": "Chain A, Chantal [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 99,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 110.538,
+                  "score": 275,
+                  "evalue": 3.59222e-29,
+                  "identity": 63,
+                  "positive": 80,
+                  "query_from": 5,
+                  "query_to": 97,
+                  "hit_from": 1,
+                  "hit_to": 93,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "GEEQKEIETLVELFAEAFREAKRQKKNGTPEEWARDAVEEAARQQGRSRKDVVEALTKYAQEQGRDELLKRLGITPEIYKVIQQIRKEEGSLE",
+                  "hseq": "GEEEKEIDKLVELFAQAYEDAREKKRNGTPEEWVRDAIEEAARRVGRSRSRVVEALRRYAEKHGKEELLKRAGITPEALKVIEKIEKEEGSLE",
+                  "midline": "GEE+KEI+ LVELFA+A+ +A+ +K+NGTPEEW RDA+EEAAR+ GRSR  VVEAL +YA++ G++ELLKR GITPE  KVI++I KEEGSLE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,3323 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236149",
+          "query_title": "6s3d_B",
+          "query_len": 225,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7CZU|K",
+                  "accession": "7CZU_K",
+                  "title": "Chain K, Immunoglobulin kappa variable 1-33,Immunoglobulin kappa variable 1-33,Uncharacterized protein [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.631,
+                  "score": 1093,
+                  "evalue": 7.40514e-150,
+                  "identity": 205,
+                  "positive": 209,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCQASQDISNYLNWYQQKPGKAPKLLIYDASNLETGVPSRFSGSGSGTDFTFTISSLQPEDIATYYCQQYDNLPYTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITCQASQDI NYLNWYQQKPGKAPKLLIY ASNLETGVPSRFSGSGSGTDF+ TISSLQPED+ATYYCQQYDNLP TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|UPG20590.1|",
+                  "accession": "UPG20590",
+                  "title": "immunoglobulin kappa chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 425.246,
+                  "score": 1092,
+                  "evalue": 2.78894e-149,
+                  "identity": 207,
+                  "positive": 211,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 23,
+                  "hit_to": 238,
+                  "align_len": 216,
+                  "gaps": 2,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLP--LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCQASQDISNYLNWYQQKPGKAPKLLIYDASNLDTGVPSRFSGSGSGTDFTFTISSLQPEDIATYYCQQYDNLPPKLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITCQASQDI NYLNWYQQKPGKAPKLLIY ASNL+TGVPSRFSGSGSGTDF+ TISSLQPED+ATYYCQQYDNLP  LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_247170951.1|",
+                  "accession": "WP_247170951",
+                  "title": "immunoglobulin domain-containing protein [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 234,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 411.379,
+                  "score": 1056,
+                  "evalue": 5.82386e-144,
+                  "identity": 199,
+                  "positive": 206,
+                  "query_from": 1,
+                  "query_to": 216,
+                  "hit_from": 19,
+                  "hit_to": 234,
+                  "align_len": 216,
+                  "gaps": 0,
+                  "qseq": "TRDIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "TGDIQMTQSPSSLSASVGDRVTITCRASQGIRNYLAWYQQKPGKAPKLLIYAASTLQSGVPSRFSGSGSGTDFTLTISSLQPEDVATYYCQRYNRAPYTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "T DIQMTQSPSSLSA+VGDRVTITC+ASQ I NYL WYQQKPGKAPKLLIY AS L++GVPSRFSGSGSGTDF+LTISSLQPEDVATYYCQ+Y+  P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "dbj|BAC01673.1|",
+                  "accession": "BAC01673",
+                  "title": "immunoglobulin kappa light chain VLJ region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 271,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 411.379,
+                  "score": 1056,
+                  "evalue": 2.49663e-143,
+                  "identity": 197,
+                  "positive": 208,
+                  "query_from": 3,
+                  "query_to": 220,
+                  "hit_from": 23,
+                  "hit_to": 240,
+                  "align_len": 218,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGTKH",
+                  "hseq": "DIQMTQSPSSVSASVGDRVTITCRASQGISSWLAWYQQKPGKAPKLLIYAASSLQSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQANNFPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECSARQ",
+                  "midline": "DIQMTQSPSS+SA+VGDRVTITC+ASQ I ++L WYQQKPGKAPKLLIY AS+L++GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ +N PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC  + "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|4PY7|B",
+                  "accession": "4PY7_B",
+                  "title": "Chain B, antibody 3.1 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 405.986,
+                  "score": 1042,
+                  "evalue": 3.74167e-142,
+                  "identity": 194,
+                  "positive": 207,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "ELQMTQSPSSVSASVGDRVTITCRASQGISSWLAWYQQKPGKAPKLLIYAASSLQSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQANSFPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "++QMTQSPSS+SA+VGDRVTITC+ASQ I ++L WYQQKPGKAPKLLIY AS+L++GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ ++ PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|WKY18136.1|",
+                  "accession": "WKY18136",
+                  "title": "ricin A/panitumumab scFv [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 737,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 423.705,
+                  "score": 1088,
+                  "evalue": 1.15946e-141,
+                  "identity": 203,
+                  "positive": 209,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 524,
+                  "hit_to": 737,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCQASQDISNYLNWYQQKPGKAPKLLIYDASNLETGVPSRFSGSGSGTDFTFTISSLQPEDIATYFCQHFDHLPLAFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITCQASQDI NYLNWYQQKPGKAPKLLIY ASNLETGVPSRFSGSGSGTDF+ TISSLQPED+ATY+CQ +D+LPL FGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|WWV57710.1|",
+                  "accession": "WWV57710",
+                  "title": "anti-HER2 MF3958 light chain precursor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 405.601,
+                  "score": 1041,
+                  "evalue": 1.37276e-141,
+                  "identity": 197,
+                  "positive": 205,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 29,
+                  "hit_to": 242,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQSISSYLNWYQQKPGKAPKLLIYAASSLQSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQSYSTPPTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ I +YLNWYQQKPGKAPKLLIY AS+L++GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ  + P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|7EZV|L",
+                  "accession": "7EZV_L",
+                  "title": "Chain L, 812L [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 405.216,
+                  "score": 1040,
+                  "evalue": 1.81784e-141,
+                  "identity": 192,
+                  "positive": 205,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 20,
+                  "hit_to": 233,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIEITQSPSSLSASVGDRVTISCRASQDIRTYVAWYQQRPGKVPRLLIYAASTLQSGVPSRFSGRGSGTDFTLTISSLQPEDVATYYCQQYNSAPLTFGGGAKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI++TQSPSSLSA+VGDRVTI+C+ASQDI  Y+ WYQQ+PGK P+LLIY AS L++GVPSRFSG GSGTDF+LTISSLQPEDVATYYCQQY++ PLTFGGG KVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|6UTA|B",
+                  "accession": "6UTA_B",
+                  "title": "Chain B, Z004 iGL Fab light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 403.675,
+                  "score": 1036,
+                  "evalue": 3.58393e-141,
+                  "identity": 194,
+                  "positive": 206,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSTLSASVGDRVTITCRASQSISSWLAWYQQKPGKAPKLLIYKASSLESGVPSRFSGSGSGTEFTLTISSLQPDDFATYYCQQYNSYPWTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPS+LSA+VGDRVTITC+ASQ I ++L WYQQKPGKAPKLLIY AS+LE+GVPSRFSGSGSGT+F+LTISSLQP+D ATYYCQQY++ P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|ABU90653.2|",
+                  "accession": "ABU90653",
+                  "title": "immunoglobulin kappa 1 light chain, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 403.29,
+                  "score": 1035,
+                  "evalue": 4.0881e-141,
+                  "identity": 194,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQAIRNYLAWLQQKPGKAPKSLIYAASSLQSGVPSKFSGSGSGTDFNLTISSLQPEDFATYYCQQYTNYPITFGQGTRLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ I NYL W QQKPGKAPK LIY AS+L++GVPS+FSGSGSGTDF+LTISSLQPED ATYYCQQY N P+TFG GT++EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|7X96|L",
+                  "accession": "7X96_L",
+                  "title": "Chain L, Ab847 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 242,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.445,
+                  "score": 1038,
+                  "evalue": 5.23063e-141,
+                  "identity": 197,
+                  "positive": 205,
+                  "query_from": 2,
+                  "query_to": 216,
+                  "hit_from": 26,
+                  "hit_to": 242,
+                  "align_len": 217,
+                  "gaps": 2,
+                  "qseq": "RDIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLP--LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "EDIVMTQSPSSLSASVGDRVTITCQASQDIGNFLNWCQQKPGQAPKVLIYGASNLETGVPSRFSGSGSGTDFTFTISSLQPEDIATYYCQHYDNFPPRFTFGQGTKLDIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": " DI MTQSPSSLSA+VGDRVTITCQASQDI N+LNW QQKPG+APK+LIY ASNLETGVPSRFSGSGSGTDF+ TISSLQPED+ATYYCQ YDN P   TFG GTK++IKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|AJD85780.1|",
+                  "accession": "AJD85780",
+                  "title": "anti-human CD40 12E12 antibody HIV antigen fusion protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 330,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 404.831,
+                  "score": 1039,
+                  "evalue": 6.80549e-140,
+                  "identity": 196,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 218,
+                  "hit_from": 21,
+                  "hit_to": 236,
+                  "align_len": 216,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGT",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCSASQGISNYLNWYQQKPGKAVKLLIYYTSILHSGVPSRFSGSGSGTDYTLTISSLQPEDFATYYCQQFNKLPPTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECAS",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC ASQ I NYLNWYQQKPGKA KLLIY  S L +GVPSRFSGSGSGTD++LTISSLQPED ATYYCQQ++ LP TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC +"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|9IXV|L",
+                  "accession": "9IXV_L",
+                  "title": "Chain L, Light chain from KNIH-88, monoclonal antibody [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 399.053,
+                  "score": 1024,
+                  "evalue": 2.36575e-139,
+                  "identity": 192,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "EIVLTQSPSSLSASVGDRVTITCRASQGIRNNLAWYQQKPGQVPELLIYGASNLKPGVPSRFSGSASGTDFTLTISSMQPEDVATYYCQKYDSAPLTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "+I +TQSPSSLSA+VGDRVTITC+ASQ I N L WYQQKPG+ P+LLIY ASNL+ GVPSRFSGS SGTDF+LTISS+QPEDVATYYCQ+YD+ PLTFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "pdb|7DZY|L",
+                  "accession": "7DZY_L",
+                  "title": "Chain L, Fab light chain of enhancing antibody 2490 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 266,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 400.593,
+                  "score": 1028,
+                  "evalue": 3.60337e-139,
+                  "identity": 193,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "DIQMTQSPSTLSASVGDRVTITCRASQSISSWLAWYQQKPRKAPKLLIYKASTLESGVPSRFSGSGSGTEFTLTISSLQPDDFATYYCQQYNSYSLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "DIQMTQSPS+LSA+VGDRVTITC+ASQ I ++L WYQQKP KAPKLLIY AS LE+GVPSRFSGSGSGT+F+LTISSLQP+D ATYYCQQY++  LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "pdb|5TH9|L",
+                  "accession": "5TH9_L",
+                  "title": "Chain L, GS-5745 Fab light chain [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 395.586,
+                  "score": 1015,
+                  "evalue": 4.72405e-138,
+                  "identity": 193,
+                  "positive": 200,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCKASQDVRNTVAWYQQKPGKAPKLLIYSSSYRNTGVPDRFSGSGSGTDFTLTISSLQAEDVAVYYCQQHYITPYTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQD+ N + WYQQKPGKAPKLLIY +S   TGVP RFSGSGSGTDF+LTISSLQ EDVA YYCQQ+   P TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "pdb|6O89|L",
+                  "accession": "6O89_L",
+                  "title": "Chain L, Anti-CD28xCD3 CODV-Fab Light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 338,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 400.208,
+                  "score": 1027,
+                  "evalue": 5.7617e-138,
+                  "identity": 198,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 120,
+                  "hit_to": 338,
+                  "align_len": 219,
+                  "gaps": 5,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIK-----RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCQASQNIYVWLNWYQQKPGKAPKLLIYKASNLHTGVPSRFSGSGSGTDFTLTISSLQPEDIATYYCQQGQTYPYTFGQGTKLEIKTKGPSRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITCQASQ+I  +LNWYQQKPGKAPKLLIY ASNL TGVPSRFSGSGSGTDF+LTISSLQPED+ATYYCQQ    P TFG GTK+EIK     RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 3.70587e-32,
+                  "identity": 67,
+                  "positive": 84,
+                  "query_from": 3,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 6,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVN-----YLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIK-RTVAAPSV",
+                  "hseq": "DIVMTQTPLSLSVTPGQPASISCKSSQSLVHNNANTYLSWYLQKPGQSPQSLIYKVSNRFSGVPDRFSGSGSGTDFTLKISRVEAEDVGVYYCGQGTQYPFTFGSGTKVEIKGQPKAAPDI",
+                  "midline": "DI MTQ+P SLS   G   +I+C++SQ +V+     YL+WY QKPG++P+ LIY  SN  +GVP RFSGSGSGTDF+L IS ++ EDV  YYC Q    P TFG GTKVEIK +  AAP +"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|QRG34088.1|",
+                  "accession": "QRG34088",
+                  "title": "immunoglobulin variable region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 394.815,
+                  "score": 1013,
+                  "evalue": 1.02623e-137,
+                  "identity": 191,
+                  "positive": 201,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "IQLTQSPSFLSASVGDRVTITCRASQGISSYLAWYQQKPGKAPKLLIYAASTLQSGVPSRFSGSGSGTEFTLTISSLQPEDFATYYCQQLNNYRYTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "IQ+TQSPS LSA+VGDRVTITC+ASQ I +YL WYQQKPGKAPKLLIY AS L++GVPSRFSGSGSGT+F+LTISSLQPED ATYYCQQ +N   TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "pdb|8ATH|F",
+                  "accession": "8ATH_F",
+                  "title": "Chain F, Fab B Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 393.275,
+                  "score": 1009,
+                  "evalue": 4.08685e-137,
+                  "identity": 191,
+                  "positive": 202,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 214,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCKASQDIDRYMAWYQDKPGKAPRLLIHDTSTLQSGVPSRFSGSGSGRDYTLTISNLEPEDFATYYCLQYDNL-WTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQDI  Y+ WYQ KPGKAP+LLI+  S L++GVPSRFSGSGSG D++LTIS+L+PED ATYYC QYDNL  TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|XHY11661.1|",
+                  "accession": "XHY11661",
+                  "title": "A9 anti-CD40 immunoglobulin light chain scFv fusion rigid linker, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 469,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 402.905,
+                  "score": 1034,
+                  "evalue": 4.72879e-137,
+                  "identity": 196,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQSISSYLNWYQQKPGKAPKLLIYAASSLQSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQGYPYPFTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ I +YLNWYQQKPGKAPKLLIY AS+L++GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ    P TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 182.956,
+                  "score": 463,
+                  "evalue": 3.2271e-51,
+                  "identity": 89,
+                  "positive": 96,
+                  "query_from": 3,
+                  "query_to": 109,
+                  "hit_from": 363,
+                  "hit_to": 469,
+                  "align_len": 107,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIK",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCHASQNINVWLSWYQQKPGKAPKLLIYKASTLHTGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQGQSYPLTFGQGTKLEIK",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC ASQ+I  +L+WYQQKPGKAPKLLIY AS L TGVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ  + PLTFG GTK+EIK"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "pdb|7U0A|L",
+                  "accession": "7U0A_L",
+                  "title": "Chain L, Light chain Fab C77G12 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 392.889,
+                  "score": 1008,
+                  "evalue": 7.0921e-137,
+                  "identity": 187,
+                  "positive": 200,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLTQSPSSLSASIGDRVTITCRASQDIANKLAWFQQAPGKAPKSLIYAASRLQSGVPSQFSGSGSGTDFTLTIESLQAGDFATYFCQQYDSFPFTFGPGTKVDVKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+TQSPSSLSA++GDRVTITC+ASQDI N L W+QQ PGKAPK LIY AS L++GVPS+FSGSGSGTDF+LTI SLQ  D ATY+CQQYD+ P TFG GTKV++KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "emb|CAH65831.1|",
+                  "accession": "CAH65831",
+                  "title": "light chain precursor [Cloning vector pASK88-huHRS3-VH-EP3/1]",
+                  "taxid": 299811,
+                  "sciname": "Cloning vector pASK88-huHRS3-VH-EP3/1"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 392.889,
+                  "score": 1008,
+                  "evalue": 1.20581e-136,
+                  "identity": 190,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 22,
+                  "hit_to": 235,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIELTQSPSSLSASVGDRVTITCKASQNVGTNVAWYQQKPGKAPKVLIYSASYRYSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQYHTYPLTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI++TQSPSSLSA+VGDRVTITC+ASQ++   + WYQQKPGKAPK+LIY AS   +GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQY   PLTFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "pdb|7LO7|L",
+                  "accession": "7LO7_L",
+                  "title": "Chain L, Fab25 Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 392.504,
+                  "score": 1007,
+                  "evalue": 2.19793e-136,
+                  "identity": 190,
+                  "positive": 200,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 25,
+                  "hit_to": 238,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQSVSSAVAWYQQKPGKAPKLLIYSASSLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQSSSSLITFGQGTKVEIKRTVAAPSVFIFPPSDSQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ + + + WYQQKPGKAPKLLIY AS+L +GVPSRFSGS SGTDF+LTISSLQPED ATYYCQQ  +  +TFG GTKVEIKRTVAAPSVFIFPPSD QLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "dbj|BAC01701.1|",
+                  "accession": "BAC01701",
+                  "title": "immunoglobulin kappa light chain VLJ region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 269,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 393.66,
+                  "score": 1010,
+                  "evalue": 2.23521e-136,
+                  "identity": 190,
+                  "positive": 202,
+                  "query_from": 3,
+                  "query_to": 223,
+                  "hit_from": 23,
+                  "hit_to": 243,
+                  "align_len": 221,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGTKHHHH",
+                  "hseq": "DIVMTQSPSSLSASVGDRVTFTCRASRGIRNDLGWYQQKPGKAPERLIYAASTLQSGVPSRFSGSGSGTEFTLTISSLQPEDFATYYCLQHNSYPWTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECSARQSTH",
+                  "midline": "DI MTQSPSSLSA+VGDRVT TC+AS+ I N L WYQQKPGKAP+ LIY AS L++GVPSRFSGSGSGT+F+LTISSLQPED ATYYC Q+++ P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC  +   H"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "pdb|8WQW|C",
+                  "accession": "8WQW_C",
+                  "title": "Chain C, bsAb3 Fab-light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 333,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 394.815,
+                  "score": 1013,
+                  "evalue": 7.78373e-136,
+                  "identity": 190,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 119,
+                  "hit_to": 332,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQGVGTDLAWYQQKPGKAPNRLIFAASNLQSGVPSRFSGSGSGTEFTLTISSLQPEDFATYYCLHHNSFPLAFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ +   L WYQQKPGKAP  LI+ ASNL++GVPSRFSGSGSGT+F+LTISSLQPED ATYYC  +++ PL FGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 100.138,
+                  "score": 248,
+                  "evalue": 6.9805e-21,
+                  "identity": 52,
+                  "positive": 68,
+                  "query_from": 5,
+                  "query_to": 108,
+                  "hit_from": 3,
+                  "hit_to": 107,
+                  "align_len": 106,
+                  "gaps": 3,
+                  "qseq": "QMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLP--LTFGGGTKVEI",
+                  "hseq": "ELTQDPA-VSVALGQTVRITCQGDSLRSYYASWYQQKPGQAPVLVIYGKNNRPSGIPDRFSGSSSGNTASLTITGAQAEDEADYYCNSRDSSGNHVVFGGGTKLTV",
+                  "midline": "++TQ P+ +S A+G  V ITCQ       Y +WYQQKPG+AP L+IY  +N  +G+P RFSGS SG   SLTI+  Q ED A YYC   D+    + FGGGTK+ +"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "pdb|8DKE|B",
+                  "accession": "8DKE_B",
+                  "title": "Chain B, Fab 3H5 Kappa chain [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 390.193,
+                  "score": 1001,
+                  "evalue": 1.5771e-135,
+                  "identity": 188,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 20,
+                  "hit_to": 233,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMNQSPSTLSASLGDTITITCRASQNIDVWLNWYQQKPGDIPKLLIYEASNLHTGVPSRFSGSGSGTDFTLAISSLQPEDIATYYCLQGQDYPFTFGSGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQM QSPS+LSA++GD +TITC+ASQ+I  +LNWYQQKPG  PKLLIY ASNL TGVPSRFSGSGSGTDF+L ISSLQPED+ATYYC Q  + P TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "pdb|8H3M|D",
+                  "accession": "8H3M_D",
+                  "title": "Chain D, MO1 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 449,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 398.282,
+                  "score": 1022,
+                  "evalue": 1.68045e-135,
+                  "identity": 193,
+                  "positive": 203,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 236,
+                  "hit_to": 449,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQGISSYLVWYQQKPGKAPKFLIYAASTLQSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQLYSYPITFGQGTRLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ I +YL WYQQKPGKAPK LIY AS L++GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ  + P+TFG GT++EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "pdb|8F7Z|B",
+                  "accession": "8F7Z_B",
+                  "title": "Chain B, VRC34_m228 Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.037,
+                  "score": 998,
+                  "evalue": 2.01109e-135,
+                  "identity": 187,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLTQSPSFLSASVGDKVTITCRASQGVRNELAWYQQKPGKAPNLLIYYASTLQSGVPSRFSATGSGTHFTLTVSSLQPEDFATYFCQHMSSYPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+TQSPS LSA+VGD+VTITC+ASQ + N L WYQQKPGKAP LLIY AS L++GVPSRFS +GSGT F+LT+SSLQPED ATY+CQ   + PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "gb|QRG34310.1|",
+                  "accession": "QRG34310",
+                  "title": "immunoglobulin variable region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 212,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 388.652,
+                  "score": 997,
+                  "evalue": 2.35741e-135,
+                  "identity": 193,
+                  "positive": 200,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 212,
+                  "align_len": 213,
+                  "gaps": 1,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "IQMTQSPSSLSASVGDRVTITCRASQGIRNDLAWYQQKPGKAPKLLIYGASRLQSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCLQDYNYP-SFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "IQMTQSPSSLSA+VGDRVTITC+ASQ I N L WYQQKPGKAPKLLIY AS L++GVPSRFSGSGSGTDF+LTISSLQPED ATYYC Q  N P +FG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "pdb|8D01|B",
+                  "accession": "8D01_B",
+                  "title": "Chain B, 21N13 Fab light chain [Macaca mulatta]",
+                  "taxid": 9544,
+                  "sciname": "Macaca mulatta"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 388.652,
+                  "score": 997,
+                  "evalue": 2.81746e-135,
+                  "identity": 188,
+                  "positive": 198,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRTSENVNNCLNWYQQKPGKAPKLLIYRTSTLQRGVPSRFSGTGSGTDYTLTISSLQSEDFGTYYCQHYYGTPLTFGGGTMVDIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ S+++ N LNWYQQKPGKAPKLLIY  S L+ GVPSRFSG+GSGTD++LTISSLQ ED  TYYCQ Y   PLTFGGGT V+IKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "pdb|5VKK|B",
+                  "accession": "5VKK_B",
+                  "title": "Chain B, Epratuzumab Fab Light Chain [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 219,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.037,
+                  "score": 998,
+                  "evalue": 2.96103e-135,
+                  "identity": 191,
+                  "positive": 204,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 219,
+                  "align_len": 220,
+                  "gaps": 7,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIV------NYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLTQSPSSLSASVGDRVTMSCKSSQSVLYSANHKNYLAWYQQKPGKAPKLLIYWASTRESGVPSRFSGSGSGTDFTLTISSLQPEDIATYYCHQYLS-SWTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+TQSPSSLSA+VGDRVT++C++SQ ++      NYL WYQQKPGKAPKLLIY AS  E+GVPSRFSGSGSGTDF+LTISSLQPED+ATYYC QY +   TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_280195946.1|",
+                  "accession": "WP_280195946",
+                  "title": "immunoglobulin domain-containing protein, partial [Corynebacterium pyruviciproducens]",
+                  "taxid": 598660,
+                  "sciname": "Corynebacterium pyruviciproducens"
+                }
+              ],
+              "len": 241,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.423,
+                  "score": 999,
+                  "evalue": 3.62824e-135,
+                  "identity": 191,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 28,
+                  "hit_to": 241,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSVSASVGDTVTINCRASQGINSRLVWYQQKPGHVPKFLIYDASSLERGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQADSLPYTFGPGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSS+SA+VGD VTI C+ASQ I + L WYQQKPG  PK LIY AS+LE GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ D+LP TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "pdb|8W83|B",
+                  "accession": "8W83_B",
+                  "title": "Chain B, DQN0344AE02 Fab light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 388.267,
+                  "score": 996,
+                  "evalue": 4.79622e-135,
+                  "identity": 188,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 215,
+                  "align_len": 215,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNL-PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCQATENIYSGLAWYQQKPGKAPKLLIYYVSTLASGIPARFSGSGSGTDFTLTISSLEPEDFAVYYCQTYHDISEVTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITCQA+++I + L WYQQKPGKAPKLLIY  S L +G+P+RFSGSGSGTDF+LTISSL+PED A YYCQ Y ++  +TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "pdb|7OW1|K",
+                  "accession": "7OW1_K",
+                  "title": "Chain K, TAP01 family antibody light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.497,
+                  "score": 994,
+                  "evalue": 8.36717e-135,
+                  "identity": 187,
+                  "positive": 200,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQTTSSLSASLGDRVTISCRASQDISNYLNWYQQKPDGTVKLLIYYTSRLHSGVPSRFSGSGSGTDYSLTISNLEQEDIATYFCQQGNTLPPTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQ+ SSLSA++GDRVTI+C+ASQDI NYLNWYQQKP    KLLIY  S L +GVPSRFSGSGSGTD+SLTIS+L+ ED+ATY+CQQ + LP TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "pdb|5D1Z|C",
+                  "accession": "5D1Z_C",
+                  "title": "Chain C, D4-10 Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.111,
+                  "score": 993,
+                  "evalue": 1.29743e-134,
+                  "identity": 188,
+                  "positive": 197,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLTQSPSFLSASVADRVTITCRASQAVRSSLAWYQQKPGKAPQLLIYSASTLENGVSSRFSGSGPGTEFTLTISSLQPEDVGTYYCQQLNTYPFTFGPGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+TQSPS LSA+V DRVTITC+ASQ + + L WYQQKPGKAP+LLIY AS LE GV SRFSGSG GT+F+LTISSLQPEDV TYYCQQ +  P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "pdb|7PKL|L",
+                  "accession": "7PKL_L",
+                  "title": "Chain L, trastuzumab Light Chain VHH fusion [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 368,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 392.889,
+                  "score": 1008,
+                  "evalue": 1.5434e-134,
+                  "identity": 193,
+                  "positive": 200,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 155,
+                  "hit_to": 368,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQDVNTAVAWYQQKPGKAPKLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQHYTTPPTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQD+   + WYQQKPGKAPKLLIY AS L +GVPSRFSGS SGTDF+LTISSLQPED ATYYCQQ+   P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 0.00436676,
+                  "identity": 32,
+                  "positive": 51,
+                  "query_from": 3,
+                  "query_to": 90,
+                  "hit_from": 1,
+                  "hit_to": 96,
+                  "align_len": 97,
+                  "gaps": 10,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVN--YLNWYQQKPGKAPKLLIYVASNLET-----GVPSRF--SGSGSGTDFSLTISSLQPEDVATYYC",
+                  "hseq": "EVQLVESGGGLVQA-GDSLTLSCAASGRTFSSVAMGWFRQAPGKERKFVANISWNGDSTYYTDSVKGRFTISRDNAKNTVYLQMSSLKPEDTAVYYC",
+                  "midline": "++Q+ +S   L  A GD +T++C AS    +   + W++Q PGK  K +  ++ N ++      V  RF  S   +     L +SSL+PED A YYC"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "pdb|7KQ7|L",
+                  "accession": "7KQ7_L",
+                  "title": "Chain L, Antibody light chain [Rattus norvegicus]",
+                  "taxid": 10116,
+                  "sciname": "Rattus norvegicus"
+                }
+              ],
+              "len": 218,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.726,
+                  "score": 992,
+                  "evalue": 1.80312e-134,
+                  "identity": 191,
+                  "positive": 198,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 218,
+                  "align_len": 218,
+                  "gaps": 4,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDI----VNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCGASQSVSISRFNLMHWYQQKPGHQPKLLIYRASNLASGVPSRFSGSGSGTDFTLTINPLQAEDFATYYCQQSRESPPTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC ASQ +     N ++WYQQKPG  PKLLIY ASNL +GVPSRFSGSGSGTDF+LTI+ LQ ED ATYYCQQ    P TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "pdb|4D9Q|D",
+                  "accession": "4D9Q_D",
+                  "title": "Chain D, Anti-Factor D, light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.726,
+                  "score": 992,
+                  "evalue": 1.85797e-134,
+                  "identity": 190,
+                  "positive": 197,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "DIQVTQSPSSLSASVGDRVTITCITSTDIDDDMNWYQQKPGKVPKLLISGGNTLRPGVPSRFSGSGSGTDFTLTISSLQPEDVATYYCLQSDSLPYTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "DIQ+TQSPSSLSA+VGDRVTITC  S DI + +NWYQQKPGK PKLLI   + L  GVPSRFSGSGSGTDF+LTISSLQPEDVATYYC Q D+LP TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "pdb|8W70|A",
+                  "accession": "8W70_A",
+                  "title": "Chain A, light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 218,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.726,
+                  "score": 992,
+                  "evalue": 2.07939e-134,
+                  "identity": 187,
+                  "positive": 202,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 218,
+                  "align_len": 218,
+                  "gaps": 4,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNY----LNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLTQSPSTLSASVGDRVTITCRASESLDNYGIRFLTWFQQKPGKAPKLLMYAASNQGSGVPSRFSGSGSGTEFTLTISSLQPDDFATYYCQQTKEVPWSFGQGTKVEVKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+TQSPS+LSA+VGDRVTITC+AS+ + NY    L W+QQKPGKAPKLL+Y ASN  +GVPSRFSGSGSGT+F+LTISSLQP+D ATYYCQQ   +P +FG GTKVE+KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "pdb|7U5B|B",
+                  "accession": "7U5B_B",
+                  "title": "Chain B, anti-KLK5 Fab Light Chain [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 217,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.726,
+                  "score": 992,
+                  "evalue": 2.1666e-134,
+                  "identity": 190,
+                  "positive": 197,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 2,
+                  "hit_to": 217,
+                  "align_len": 216,
+                  "gaps": 3,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQ---YDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "IRMTQSPSSFSASTGDRVTITCQASESISNELSWYQQKPGKAPKLLIYYASTLASGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCAQGFGSSGVENVFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "I+MTQSPSS SA+ GDRVTITCQAS+ I N L+WYQQKPGKAPKLLIY AS L +GVPSRFSGSGSGTDF+LTISSLQPED ATYYC Q      +   FGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "pdb|3QPX|L",
+                  "accession": "3QPX_L",
+                  "title": "Chain L, Fab C2507 light chain [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.341,
+                  "score": 991,
+                  "evalue": 2.26343e-134,
+                  "identity": 185,
+                  "positive": 202,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 214,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSLLSASVGDRVTLSCKASQNIYNYLNWYQQKLGEAPKLLIYYTDRLQTGIPSRFSGDGSGSDYTLTISSLQPEDVATYFCQQYNSRD-TFGAGTKLDLKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPS LSA+VGDRVT++C+ASQ+I NYLNWYQQK G+APKLLIY    L+TG+PSRFSG GSG+D++LTISSLQPEDVATY+CQQY++   TFG GTK+++KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "pdb|5CD3|B",
+                  "accession": "5CD3_B",
+                  "title": "Chain B, DRVIA7 Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.341,
+                  "score": 991,
+                  "evalue": 2.45045e-134,
+                  "identity": 186,
+                  "positive": 202,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 210,
+                  "align_len": 214,
+                  "gaps": 4,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPVTLSASIGDRVTITCRASQRIDNWVAWYQQKPGRAPKLLIYKASILETGVPSRFSGSGSGTEFTLSINSLQPDDVATYYCQQFEE----FGRGTKIDIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSP +LSA++GDRVTITC+ASQ I N++ WYQQKPG+APKLLIY AS LETGVPSRFSGSGSGT+F+L+I+SLQP+DVATYYCQQ++     FG GTK++IKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "pdb|6NCP|B",
+                  "accession": "6NCP_B",
+                  "title": "Chain B, ACS202 Fab light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.341,
+                  "score": 991,
+                  "evalue": 2.64636e-134,
+                  "identity": 187,
+                  "positive": 198,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 2,
+                  "hit_to": 214,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "IRMTQSPSSLSASVGDRVTITCQASQDIKKSLNWYRQKPGKAPELLIHDASILQTGVPSAFTASGSGTHFSFVINKLQPEDVGTYFCQEYENLQFTFGPGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "I+MTQSPSSLSA+VGDRVTITCQASQDI   LNWY+QKPGKAP+LLI+ AS L+TGVPS F+ SGSGT FS  I+ LQPEDV TY+CQ+Y+NL  TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_367064835.1|",
+                  "accession": "WP_367064835",
+                  "title": "hypothetical protein, partial [Chromobacterium vaccinii]",
+                  "taxid": 1108595,
+                  "sciname": "Chromobacterium vaccinii"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.111,
+                  "score": 993,
+                  "evalue": 2.92107e-134,
+                  "identity": 190,
+                  "positive": 198,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 26,
+                  "hit_to": 238,
+                  "align_len": 214,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSTLSASVGDRVTITCSASSR-VGYMHWYQQKPGKAPKLLIYDTSKLASGVPSRFSGSGSGTEFTLTISSLQPDDFATYYCFQGSGYPFTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPS+LSA+VGDRVTITC AS   V Y++WYQQKPGKAPKLLIY  S L +GVPSRFSGSGSGT+F+LTISSLQP+D ATYYC Q    P TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gb|AZM66142.1|",
+                  "accession": "AZM66142",
+                  "title": "anti-EphB6 Fab-Flag, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.726,
+                  "score": 992,
+                  "evalue": 3.39708e-134,
+                  "identity": 192,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 217,
+                  "hit_from": 2,
+                  "hit_to": 219,
+                  "align_len": 218,
+                  "gaps": 3,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDN---LPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECG",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQSVSSAVAWYQQKPGKAPKLLIYSASSLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQYYYGWYSLITFGQGTKVEIKRTVAAPSVFIFPPSDSQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECG",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ + + + WYQQKPGKAPKLLIY AS+L +GVPSRFSGS SGTDF+LTISSLQPED ATYYCQQY       +TFG GTKVEIKRTVAAPSVFIFPPSD QLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECG"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "pdb|8TCO|D",
+                  "accession": "8TCO_D",
+                  "title": "Chain D, CS4tt1p1_E3K Fab light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 385.185,
+                  "score": 988,
+                  "evalue": 6.81438e-134,
+                  "identity": 188,
+                  "positive": 200,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 215,
+                  "align_len": 215,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLP-LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLTQSPSSLSASVGDRVTITCRASQNIYNWLAWYQQKPGQAPKLLIFDASTLEGGVPSRFGGSGSGTDFTLTISNLRPEDFATYFCQHYYNYPPWTFGQGTKVTFRRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+TQSPSSLSA+VGDRVTITC+ASQ+I N+L WYQQKPG+APKLLI+ AS LE GVPSRF GSGSGTDF+LTIS+L+PED ATY+CQ Y N P  TFG GTKV  +RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "pdb|8XLK|L",
+                  "accession": "8XLK_L",
+                  "title": "Chain L, Light Chain of GluN2B Fab2 [Mus musculoides]",
+                  "taxid": 60742,
+                  "sciname": "Mus musculoides"
+                }
+              ],
+              "len": 265,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 387.111,
+                  "score": 993,
+                  "evalue": 7.78318e-134,
+                  "identity": 186,
+                  "positive": 203,
+                  "query_from": 3,
+                  "query_to": 223,
+                  "hit_from": 21,
+                  "hit_to": 240,
+                  "align_len": 221,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGTKHHHH",
+                  "hseq": "DIQMTQSPSSLSASLGGKVTITCKASQDINKYIAWYQHKPGKGPRLLIHYTSSLQPGIPSRFSGSGSGRDYSFSISNLEPEDIATYYCLQYDNL-YTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGSGSWSH",
+                  "midline": "DIQMTQSPSSLSA++G +VTITC+ASQDI  Y+ WYQ KPGK P+LLI+  S+L+ G+PSRFSGSGSG D+S +IS+L+PED+ATYYC QYDNL  TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECG+    H"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "gb|QVL61759.1|",
+                  "accession": "QVL61759",
+                  "title": "anti-SARS-CoV-2 immunoglobulin light chain, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 384.8,
+                  "score": 987,
+                  "evalue": 1.04223e-133,
+                  "identity": 182,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "EIVLTQSPATLSLSPGERATLSCRASQSVSSYLAWYQQKPGQAPRLLIYDASNRATGIPARFSGSGSGTDFTLTISSLEPEDFAVYYCQQRSNWPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "+I +TQSP++LS + G+R T++C+ASQ + +YL WYQQKPG+AP+LLIY ASN  TG+P+RFSGSGSGTDF+LTISSL+PED A YYCQQ  N PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "emb|CAA09181.1|",
+                  "accession": "CAA09181",
+                  "title": "immunoglobulin kappa light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 384.415,
+                  "score": 986,
+                  "evalue": 2.71937e-133,
+                  "identity": 187,
+                  "positive": 194,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 24,
+                  "hit_to": 236,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "IWMTQSPSLLSASTGDRVTISCRMSQGISNYLAWYQQKPGKAPDLLIYAASTLQSGVPSRFSGSGSGTDFILTISRLQSEDFAIYYCQQYYSFPFTFGPGTKVDIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "I MTQSPS LSA+ GDRVTI+C+ SQ I NYL WYQQKPGKAP LLIY AS L++GVPSRFSGSGSGTDF LTIS LQ ED A YYCQQY + P TFG GTKV+IKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "dbj|BAC05011.1|",
+                  "accession": "BAC05011",
+                  "title": "unnamed protein product [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 384.415,
+                  "score": 986,
+                  "evalue": 3.24075e-133,
+                  "identity": 186,
+                  "positive": 197,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 23,
+                  "hit_to": 236,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DTQMTQSPTSLSASVGDRVTITCQASHDIESFLNWYQYKPGKAPKRLIHDGSRSEKGVPRRFSGSGFGTDFSLFINNLQPEDVATYYCQQFGSLPRTFGQGTKLQINRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "D QMTQSP+SLSA+VGDRVTITCQAS DI ++LNWYQ KPGKAPK LI+  S  E GVP RFSGSG GTDFSL I++LQPEDVATYYCQQ+ +LP TFG GTK++I RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gb|WZH65200.1|",
+                  "accession": "WZH65200",
+                  "title": "B-cell receptor light chain variable region [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 382.874,
+                  "score": 982,
+                  "evalue": 1.4868e-132,
+                  "identity": 184,
+                  "positive": 199,
+                  "query_from": 2,
+                  "query_to": 216,
+                  "hit_from": 26,
+                  "hit_to": 240,
+                  "align_len": 215,
+                  "gaps": 0,
+                  "qseq": "RDIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "EDIQMTQTTSSLSASLGDRVTISCRASQDISNHLNWYQQKPDGTVKLLIYYTSRLHSGVPSRFSGSGSGTDYYLTITNLEQEDIATYFCQQGNTLPYTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": " DIQMTQ+ SSLSA++GDRVTI+C+ASQDI N+LNWYQQKP    KLLIY  S L +GVPSRFSGSGSGTD+ LTI++L+ ED+ATY+CQQ + LP TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "pdb|7Y6L|L",
+                  "accession": "7Y6L_L",
+                  "title": "Chain L, Ab816 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 382.874,
+                  "score": 982,
+                  "evalue": 1.54528e-132,
+                  "identity": 186,
+                  "positive": 202,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 27,
+                  "hit_to": 238,
+                  "align_len": 213,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "EIVLTQSPSTLSASVGDRVTITCRASQNIYTWLAWYQRKPGKAPKVLIYKASSLESGVPSRFSGSGSGTEFTLTISSLQPDDFATYYCQQYKS-AWSFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "+I +TQSPS+LSA+VGDRVTITC+ASQ+I  +L WYQ+KPGKAPK+LIY AS+LE+GVPSRFSGSGSGT+F+LTISSLQP+D ATYYCQQY +   +FG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "pdb|6DZR|L",
+                  "accession": "6DZR_L",
+                  "title": "Chain L, h38c2 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 218,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 381.719,
+                  "score": 979,
+                  "evalue": 2.12605e-132,
+                  "identity": 187,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 1,
+                  "hit_to": 218,
+                  "align_len": 218,
+                  "gaps": 5,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVN-----YLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "ELQMTQSPSSLSASVGDRVTITCRSSQSLLHTYGSPYLNWYLQKPGQSPKLLIYKVSNRFSGVPSRFSGSGSGTDFTLTISSLQPEDFAVYFCSQGTHLPYTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "++QMTQSPSSLSA+VGDRVTITC++SQ +++     YLNWY QKPG++PKLLIY  SN  +GVPSRFSGSGSGTDF+LTISSLQPED A Y+C Q  +LP TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "pdb|7D5Z|C",
+                  "accession": "7D5Z_C",
+                  "title": "Chain C, light chain of 1D8 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 381.719,
+                  "score": 979,
+                  "evalue": 2.84854e-132,
+                  "identity": 187,
+                  "positive": 194,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 20,
+                  "hit_to": 233,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIVMTQTPPSLSASVGDRVTLTCRASQAIRNNLAWYQHKPGKAPKRLIYAASTLEDGVPSSFSGSGFGTDFTLTINSLQPEDFATYYCLQHSTYPWTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI MTQ+P SLSA+VGDRVT+TC+ASQ I N L WYQ KPGKAPK LIY AS LE GVPS FSGSG GTDF+LTI+SLQPED ATYYC Q+   P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "pdb|3LEV|L",
+                  "accession": "3LEV_L",
+                  "title": "Chain L, 2F5 ANTIBODY LIGHT CHAIN [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 380.563,
+                  "score": 976,
+                  "evalue": 4.15056e-132,
+                  "identity": 181,
+                  "positive": 200,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 2,
+                  "hit_to": 214,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "LQLTQSPSSLSASVGDRITITCRASQGVTSALAWYRQKPGSPPQLLIYDASSLESGVPSRFSGSGSGTEFTLTISTLRPEDFATYYCQQLHFYPHTFGGGTRVDVRRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "+Q+TQSPSSLSA+VGDR+TITC+ASQ + + L WY+QKPG  P+LLIY AS+LE+GVPSRFSGSGSGT+F+LTIS+L+PED ATYYCQQ    P TFGGGT+V+++RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "pdb|8KFA|F",
+                  "accession": "8KFA_F",
+                  "title": "Chain F, D48 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 380.178,
+                  "score": 975,
+                  "evalue": 7.66989e-132,
+                  "identity": 181,
+                  "positive": 197,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 2,
+                  "hit_to": 214,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "IWMTQSPPSLSASIGDTVTITCRASQGISNSIAWYQRRPGKAPELLVYAAYRLQSGVPSRLSGSGSGAEYTLTIKNMQPEDFATYYCQQYYDNPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "I MTQSP SLSA++GD VTITC+ASQ I N + WYQ++PGKAP+LL+Y A  L++GVPSR SGSGSG +++LTI ++QPED ATYYCQQY + PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|AYI49805.1|",
+                  "accession": "AYI49805",
+                  "title": "Rozanolixizumab immunoglobulin light chain, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 219,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.793,
+                  "score": 974,
+                  "evalue": 1.03388e-131,
+                  "identity": 187,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 219,
+                  "align_len": 219,
+                  "gaps": 5,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVN-----YLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCKSSQSLVGASGKTYLYWLFQKPGKAPKRLIYLVSTLDSGIPSRFSGSGSGTEFTLTISSLQPEDFATYYCLQGTHFPHTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC++SQ +V      YL W  QKPGKAPK LIY+ S L++G+PSRFSGSGSGT+F+LTISSLQPED ATYYC Q  + P TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "pdb|7BH8|F",
+                  "accession": "7BH8_F",
+                  "title": "Chain F, 3H4 Fab light chain [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 233,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 380.178,
+                  "score": 975,
+                  "evalue": 1.30739e-131,
+                  "identity": 182,
+                  "positive": 198,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 20,
+                  "hit_to": 233,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIVITQSPSSMYASLGERVTITCKASQDINSYLSWFQQKPGKSPKTLIYRANRLVDGVPSRFSGSGSGQDYSLTISSLEYEDMGIYYCLQYDEFPLTFGAGTKLELKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI +TQSPSS+ A++G+RVTITC+ASQDI +YL+W+QQKPGK+PK LIY A+ L  GVPSRFSGSGSG D+SLTISSL+ ED+  YYC QYD  PLTFG GTK+E+KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "pdb|5U3J|L",
+                  "accession": "5U3J_L",
+                  "title": "Chain L, DH511.1 Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.022,
+                  "score": 972,
+                  "evalue": 1.84898e-131,
+                  "identity": 185,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 1,
+                  "hit_to": 215,
+                  "align_len": 215,
+                  "gaps": 2,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQ-YDNLP-LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "DIQMTQSPSPLSASVGDTVTITCRASQKISDYLNWYQQKPGRAPKILIYAASKLGSGVPSRFSGSGYGRDFTLTITGLQPEDFATYYCQEAYSSTPTLTFGQGTRLDLKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "DIQMTQSPS LSA+VGD VTITC+ASQ I +YLNWYQQKPG+APK+LIY AS L +GVPSRFSGSG G DF+LTI+ LQPED ATYYCQ+ Y + P LTFG GT++++KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "pdb|5I1D|A",
+                  "accession": "5I1D_A",
+                  "title": "Chain A, FAB LIGHT CHAIN [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 220,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 379.022,
+                  "score": 972,
+                  "evalue": 2.33351e-131,
+                  "identity": 185,
+                  "positive": 197,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 220,
+                  "align_len": 220,
+                  "gaps": 6,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIV------NYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIVMTQSPDSLAVSLGERATINCKSSQSVLYSSNNKNYLAWYQQKPGQPPKLLIYWASTRESGVPDRFSGSGSGTDFTLTISSLQAEDVAVYYCQQYYSTPLTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI MTQSP SL+ ++G+R TI C++SQ ++      NYL WYQQKPG+ PKLLIY AS  E+GVP RFSGSGSGTDF+LTISSLQ EDVA YYCQQY + PLTFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "pdb|9DH2|D",
+                  "accession": "9DH2_D",
+                  "title": "Chain D, Fab light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 212,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 378.637,
+                  "score": 971,
+                  "evalue": 2.41252e-131,
+                  "identity": 188,
+                  "positive": 197,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 212,
+                  "align_len": 214,
+                  "gaps": 2,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRTSGNIYNYLAWYQQKPGKAPKLLIYNAKTLADAVPSRFSGSGSGTDYTLTISSLQPEDFATYYCQHFWSIPWTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVT-QGTTS-VTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ S +I NYL WYQQKPGKAPKLLIY A  L   VPSRFSGSGSGTD++LTISSLQPED ATYYCQ + ++P TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVT QG +S VTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "pdb|4LSQ|L",
+                  "accession": "4LSQ_L",
+                  "title": "Chain L, LIGHT CHAIN OF ANTIBODY VRC-CH31 WITH N70D MUTATION [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 210,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 378.637,
+                  "score": 971,
+                  "evalue": 2.50713e-131,
+                  "identity": 189,
+                  "positive": 196,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 210,
+                  "align_len": 214,
+                  "gaps": 4,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASLGDRVTITCQASRGIGKDLNWYQQKAGKAPKLLVSDASTLEGGVPSRFSGSGFHQDFSLTISSLQAEDVATYFCQQYE----TFGQGTKVDIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA++GDRVTITCQAS+ I   LNWYQQK GKAPKLL+  AS LE GVPSRFSGSG   DFSLTISSLQ EDVATY+CQQY+    TFG GTKV+IKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gb|QCT24586.1|",
+                  "accession": "QCT24586",
+                  "title": "single chain antibody precursor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 437,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 386.341,
+                  "score": 991,
+                  "evalue": 5.19409e-131,
+                  "identity": 191,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 27,
+                  "hit_to": 236,
+                  "align_len": 214,
+                  "gaps": 4,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRTSQSLSSYTHWYQQKPGKAPKLLIYAASSRGSGVPSRFSGSGSGTDFTLTISSLQPEDFATYYCQQ----SRTFGQGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ SQ + +Y +WYQQKPGKAPKLLIY AS+  +GVPSRFSGSGSGTDF+LTISSLQPED ATYYCQQ      TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "pdb|5U3M|L",
+                  "accession": "5U3M_L",
+                  "title": "Chain L, DH511.11P Fab Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 216,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.867,
+                  "score": 969,
+                  "evalue": 5.19668e-131,
+                  "identity": 183,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 216,
+                  "align_len": 216,
+                  "gaps": 2,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQ-YDNLPL-TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIRLTQSPSSLSASVGDRITITCRASQSIKDYLNWYKHRPGEAPKLLIYSASKLRSGVSSRFSGSGYGSAFTLTISSLQPEDFATYYCQESYSSVPMYIFGQGTKVDLKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI++TQSPSSLSA+VGDR+TITC+ASQ I +YLNWY+ +PG+APKLLIY AS L +GV SRFSGSG G+ F+LTISSLQPED ATYYCQ+ Y ++P+  FG GTKV++KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "pdb|1AD0|A",
+                  "accession": "1AD0_A",
+                  "title": "Chain A, ANTIBODY A5B7 (LIGHT CHAIN) [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.867,
+                  "score": 969,
+                  "evalue": 5.21184e-131,
+                  "identity": 183,
+                  "positive": 195,
+                  "query_from": 6,
+                  "query_to": 216,
+                  "hit_from": 4,
+                  "hit_to": 213,
+                  "align_len": 211,
+                  "gaps": 1,
+                  "qseq": "MTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "LTQSPSSLSVSVGDRVTITCRASSS-VTYIHWYQQKPGLAPKSLIYATSNLASGVPSRFSGSGSGTDYTFTISSLQPEDIATYYCQHWSSKPPTFGQGTKVEVKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "+TQSPSSLS +VGDRVTITC+AS   V Y++WYQQKPG APK LIY  SNL +GVPSRFSGSGSGTD++ TISSLQPED+ATYYCQ + + P TFG GTKVE+KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "pdb|5U3K|B",
+                  "accession": "5U3K_B",
+                  "title": "Chain B, DH511.2 Fab Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.867,
+                  "score": 969,
+                  "evalue": 5.76787e-131,
+                  "identity": 184,
+                  "positive": 201,
+                  "query_from": 3,
+                  "query_to": 214,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 2,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQ-YDNLP-LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG",
+                  "hseq": "DIVMTQSPSSVSASVGDRVTITCRASQNIRDYLNWYQHKPGGSPRLLIYAASTLQTGVPSRFSGSGSGNLFTLTITNLQPEDFATYYCQENYNTIPSLSFGQGTKVDIRRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG",
+                  "midline": "DI MTQSPSS+SA+VGDRVTITC+ASQ+I +YLNWYQ KPG +P+LLIY AS L+TGVPSRFSGSGSG  F+LTI++LQPED ATYYCQ+ Y+ +P L+FG GTKV+I+RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "pdb|7YDS|C",
+                  "accession": "7YDS_C",
+                  "title": "Chain C, Anti-PDL1-VL-CL [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 217,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.481,
+                  "score": 968,
+                  "evalue": 9.11473e-131,
+                  "identity": 188,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 217,
+                  "align_len": 217,
+                  "gaps": 3,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIV--NYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQ-YDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSTLSASVGDRVTITCQSSQNVYSNNRLSWYQQKPGKAPKLLIYWTSFLASGVPSRFSGSGSGTEFTLTISSLQPDDFATYYCAGGYSGNLYTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPS+LSA+VGDRVTITCQ+SQ++   N L+WYQQKPGKAPKLLIY  S L +GVPSRFSGSGSGT+F+LTISSLQP+D ATYYC   Y     TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "pdb|6UBI|B",
+                  "accession": "6UBI_B",
+                  "title": "Chain B, VRC34.05 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 212,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.096,
+                  "score": 967,
+                  "evalue": 9.39678e-131,
+                  "identity": 181,
+                  "positive": 196,
+                  "query_from": 3,
+                  "query_to": 214,
+                  "hit_from": 1,
+                  "hit_to": 212,
+                  "align_len": 212,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG",
+                  "hseq": "DIKLTQSPAFLSASVGERVTFTCRASQDIRHELVWYQQKPGRGPKLLIYYGSTLEGGVPSRFSGRRSGTEFTVTISSLQPEDVGTYYCQQLNSFPLTFGGGTTVDIRRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG",
+                  "midline": "DI++TQSP+ LSA+VG+RVT TC+ASQDI + L WYQQKPG+ PKLLIY  S LE GVPSRFSG  SGT+F++TISSLQPEDV TYYCQQ ++ PLTFGGGT V+I+RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRG"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "pdb|9EVZ|L",
+                  "accession": "9EVZ_L",
+                  "title": "Chain L, ELC07 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.867,
+                  "score": 969,
+                  "evalue": 1.1144e-130,
+                  "identity": 184,
+                  "positive": 194,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 22,
+                  "hit_to": 235,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLTQSPSTLSAPVGAGVTITCQASQSISNGLAWYQQKPGRAPKMLITEGSSLKSGVPDRFRGSGSGTHFILTISDLQPDDSATYFCQQYNTFPWTFGRGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+TQSPS+LSA VG  VTITCQASQ I N L WYQQKPG+APK+LI   S+L++GVP RF GSGSGT F LTIS LQP+D ATY+CQQY+  P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "pdb|7X8Z|L",
+                  "accession": "7X8Z_L",
+                  "title": "Chain L, Ab188 light chain [Severe acute respiratory syndrome coronavirus 2]",
+                  "taxid": 2697049,
+                  "sciname": "Severe acute respiratory syndrome coronavirus 2"
+                }
+              ],
+              "len": 248,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 378.252,
+                  "score": 970,
+                  "evalue": 1.24399e-130,
+                  "identity": 185,
+                  "positive": 197,
+                  "query_from": 2,
+                  "query_to": 216,
+                  "hit_from": 28,
+                  "hit_to": 248,
+                  "align_len": 221,
+                  "gaps": 6,
+                  "qseq": "RDIQMTQSPSSLSAAVGDRVTITCQASQDIV------NYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "EDIQMTQSPDSLAVSLGERATINCKSSQSVLYSSNNKNYLAWYQQKPGQPPKLLIYWASTRESGVPDRFSGSGSGTDFTLTISSLQAEDVAVYYCQHYYSPPPTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": " DIQMTQSP SL+ ++G+R TI C++SQ ++      NYL WYQQKPG+ PKLLIY AS  E+GVP RFSGSGSGTDF+LTISSLQ EDVA YYCQ Y + P TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "pdb|9B8J|F",
+                  "accession": "9B8J_F",
+                  "title": "Chain F, ADI-46152 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 235,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.481,
+                  "score": 968,
+                  "evalue": 1.88605e-130,
+                  "identity": 187,
+                  "positive": 199,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 25,
+                  "hit_to": 235,
+                  "align_len": 213,
+                  "gaps": 2,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "ILLTQSPSSLSASVGDRVTITCRASQGISSALAWYQQKPGRAPKVLIYDASSLANGVPSRFSGSGSGTDFTLTINSLQPEDFATYYCQQFNYYPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVT-QGTTS-VTKSFNRGEC",
+                  "midline": "I +TQSPSSLSA+VGDRVTITC+ASQ I + L WYQQKPG+APK+LIY AS+L  GVPSRFSGSGSGTDF+LTI+SLQPED ATYYCQQ++  PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVT QG +S VTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|QCT24585.1|",
+                  "accession": "QCT24585",
+                  "title": "single chain antibody precursor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 422,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 384.415,
+                  "score": 986,
+                  "evalue": 2.12103e-130,
+                  "identity": 188,
+                  "positive": 198,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 27,
+                  "hit_to": 239,
+                  "align_len": 214,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSTLSASVGDRVTITCKC-QLSVGYMHWYQQKPGKAPKLLIYDTSKLASGVPSRFSGSGSGTEFTLTISSLQPDDFATYYCFQGSGYPFTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPS+LSA+VGDRVTITC+  Q  V Y++WYQQKPGKAPKLLIY  S L +GVPSRFSGSGSGT+F+LTISSLQP+D ATYYC Q    P TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "pdb|8F6L|B",
+                  "accession": "8F6L_B",
+                  "title": "Chain B, h25F7 Fab light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 217,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 376.326,
+                  "score": 965,
+                  "evalue": 2.72849e-130,
+                  "identity": 184,
+                  "positive": 195,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 217,
+                  "align_len": 217,
+                  "gaps": 3,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQ---YDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIVMTQSPDSLAVSLGERATINCQASRNIYNFLAWYQQKPGQPPKLLIYSASTLASGVPDRFSGSGSGTDFTLTISSLQAEDVAVYYCQQGSSNSNIDNPFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI MTQSP SL+ ++G+R TI CQAS++I N+L WYQQKPG+ PKLLIY AS L +GVP RFSGSGSGTDF+LTISSLQ EDVA YYCQQ     N+   FGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|AHG23044.1|",
+                  "accession": "AHG23044",
+                  "title": "immunoglobulin kappa light chain variable region NGK-1, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 237,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 376.711,
+                  "score": 966,
+                  "evalue": 3.78189e-130,
+                  "identity": 184,
+                  "positive": 195,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 2,
+                  "hit_to": 214,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "DIQMTQSPSSLSASVGDSVTITCRSSQTINIYLNWYQQKPGKAPKVLIFASSNLQSGVPSRFSGSGSGTDFSLTISSLQPEDLATYYCQQAYETPWTFGQGTKVEVKRTVAAPSVFIFLPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPRHKELQQGR",
+                  "midline": "DIQMTQSPSSLSA+VGD VTITC++SQ I  YLNWYQQKPGKAPK+LI+ +SNL++GVPSRFSGSGSGTDFSLTISSLQPED+ATYYCQQ    P TFG GTKVE+KRTVAAPSVFIF PSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSP  K   +G "
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|QRG34348.1|",
+                  "accession": "QRG34348",
+                  "title": "immunoglobulin variable region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.17,
+                  "score": 962,
+                  "evalue": 5.50585e-130,
+                  "identity": 182,
+                  "positive": 194,
+                  "query_from": 4,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 213,
+                  "align_len": 213,
+                  "gaps": 0,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "VQMTQSPSTLSASVGDTITITCRPSQVINNWMAWYQQKPGKAPKLLLYDASTLENGVPSRFSGIASGTDFTLTITSLQPDDFATYYCQQYSAYFSLFGQGTRVEIKGTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "+QMTQSPS+LSA+VGD +TITC+ SQ I N++ WYQQKPGKAPKLL+Y AS LE GVPSRFSG  SGTDF+LTI+SLQP+D ATYYCQQY      FG GT+VEIK TVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "pdb|5U3D|A",
+                  "accession": "5U3D_A",
+                  "title": "Chain A, MEMAB TRASTUZUMAB FAB LIGHT CHAIN I83E [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.785,
+                  "score": 961,
+                  "evalue": 1.07758e-129,
+                  "identity": 184,
+                  "positive": 194,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPILLSASVGDRVTITCRASQDVNTAVAWYQQRTNGSPRLLIYSASFLYSGVPSRFSGSRSGTDFTLTISSLQPEDEADYYCQQHYTTPPTFGAGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSP  LSA+VGDRVTITC+ASQD+   + WYQQ+   +P+LLIY AS L +GVPSRFSGS SGTDF+LTISSLQPED A YYCQQ+   P TFG GTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "pdb|8TB7|H",
+                  "accession": "8TB7_H",
+                  "title": "Chain H, Fab24 BAK5 heavy chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 490,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 384.415,
+                  "score": 986,
+                  "evalue": 1.85084e-129,
+                  "identity": 191,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 215,
+                  "hit_from": 25,
+                  "hit_to": 238,
+                  "align_len": 214,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPL-TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQSVSSAVAWYQQKPGKAPKLLIYSASSLYSGVPSRFSGSRSGTDFTLTISSLQPEDFATYYCQQYLYYSLVTFGQGTKVEIKRTVAAPSVFIFPPSDSQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ + + + WYQQKPGKAPKLLIY AS+L +GVPSRFSGS SGTDF+LTISSLQPED ATYYCQQY    L TFG GTKVEIKRTVAAPSVFIFPPSD QLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|ALO70196.1|",
+                  "accession": "ALO70196",
+                  "title": "anti-human Marco 11A8 chimeric kappa chain [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 238,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.785,
+                  "score": 961,
+                  "evalue": 1.85811e-129,
+                  "identity": 177,
+                  "positive": 198,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 25,
+                  "hit_to": 238,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIVMTQSQKFMSASVGDRVSVTCRASQNVVTNVGWYQQKPGQSPKVLIYSASFRYSGVPDRFTGSGSGTDFTLTITNVQSEDLAEYFCQQYNNYPYTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI MTQS   +SA+VGDRV++TC+ASQ++V  + WYQQKPG++PK+LIY AS   +GVP RF+GSGSGTDF+LTI+++Q ED+A Y+CQQY+N P TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "pdb|5VIY|G",
+                  "accession": "5VIY_G",
+                  "title": "Chain G, BG1 Fab light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.015,
+                  "score": 959,
+                  "evalue": 2.1034e-129,
+                  "identity": 179,
+                  "positive": 195,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIHMTQSPVSLSASVGDRVTITCRASHFIANYVNWYQQKPGKAPTLLIFESSTLQRGVPSRFSAYGDGTEFTLSINTLQPEDFASYICQQSHSPPVTFGAGTRVDQKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI MTQSP SLSA+VGDRVTITC+AS  I NY+NWYQQKPGKAP LLI+ +S L+ GVPSRFS  G GT+F+L+I++LQPED A+Y CQQ  + P+TFG GT+V+ KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gb|AAQ16319.1|",
+                  "accession": "AAQ16319",
+                  "title": "anti-human N-terminal lipopolysaccharide-binding protein antibody kappa light chain Fab AbLBP24L [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 234,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.785,
+                  "score": 961,
+                  "evalue": 2.14427e-129,
+                  "identity": 182,
+                  "positive": 194,
+                  "query_from": 5,
+                  "query_to": 216,
+                  "hit_from": 23,
+                  "hit_to": 234,
+                  "align_len": 212,
+                  "gaps": 0,
+                  "qseq": "QMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "ELTQSPSSLSASVGDRVTTTCRASQVISSSLAWYQQKPGKAPKLLIYGASTYQIGVPLRFSGSGSGTDFTLTIDVPQPEDSATYYCQQLNSYPLTFGQGTRLDIKGTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "++TQSPSSLSA+VGDRVT TC+ASQ I + L WYQQKPGKAPKLLIY AS  + GVP RFSGSGSGTDF+LTI   QPED ATYYCQQ ++ PLTFG GT+++IK TVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "pdb|8G5B|M",
+                  "accession": "8G5B_M",
+                  "title": "Chain M, FL-1061 light chain [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.4,
+                  "score": 960,
+                  "evalue": 2.43145e-129,
+                  "identity": 177,
+                  "positive": 195,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 23,
+                  "hit_to": 236,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DVQMTQSPSYLAASPGETITINCRASKSISKFLAWYQEKPGKTNKLLIYSGSTLQSGIPSRFSGSGSGTDFTLTISSLEPEDFAMYYCQQHNEYPYTFGAGTKLELKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "D+QMTQSPS L+A+ G+ +TI C+AS+ I  +L WYQ+KPGK  KLLIY  S L++G+PSRFSGSGSGTDF+LTISSL+PED A YYCQQ++  P TFG GTK+E+KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "pdb|5MVZ|B",
+                  "accession": "5MVZ_B",
+                  "title": "Chain B, Fab 4AB007 L-chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 374.4,
+                  "score": 960,
+                  "evalue": 4.7956e-129,
+                  "identity": 179,
+                  "positive": 197,
+                  "query_from": 1,
+                  "query_to": 216,
+                  "hit_from": 19,
+                  "hit_to": 234,
+                  "align_len": 216,
+                  "gaps": 0,
+                  "qseq": "TRDIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "TGEIVLTQSPATLSLSPGERATLSCRASQSVSSYLAWYQQKPGQAPRLLIYDASNRATGIPARFSGSGSGTDFTLTISSLEPEDFAVYYCQQRSNWLWTFGQGTKVEIKRSVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "T +I +TQSP++LS + G+R T++C+ASQ + +YL WYQQKPG+AP+LLIY ASN  TG+P+RFSGSGSGTDF+LTISSL+PED A YYCQQ  N   TFG GTKVEIKR+VAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "pdb|7L77|L",
+                  "accession": "7L77_L",
+                  "title": "Chain L, Light chain of VRC33.01 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 217,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 372.859,
+                  "score": 956,
+                  "evalue": 4.98605e-129,
+                  "identity": 187,
+                  "positive": 196,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 217,
+                  "align_len": 218,
+                  "gaps": 5,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSG----TDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSTLSASVGDRVDITCRASQSISRWLAWYQQKPGKAPKVLIYEASLLANGVPSRFSGHFNGRESATDFTLTISSLQPDDVATYYCQHYMADP-RFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPS+LSA+VGDRV ITC+ASQ I  +L WYQQKPGKAPK+LIY AS L  GVPSRFSG  +G    TDF+LTISSLQP+DVATYYCQ Y   P  FG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "pdb|8BLQ|B",
+                  "accession": "8BLQ_B",
+                  "title": "Chain B, CODV-Fab, light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 334,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 377.481,
+                  "score": 968,
+                  "evalue": 5.75756e-129,
+                  "identity": 185,
+                  "positive": 197,
+                  "query_from": 3,
+                  "query_to": 213,
+                  "hit_from": 119,
+                  "hit_to": 334,
+                  "align_len": 216,
+                  "gaps": 5,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIK-----RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNR",
+                  "hseq": "DIQMTQSPASLSVSVGDTITLTCHASQNIDVWLSWFQQKPGNIPKLLIYKASNLHTGVPSRFSGSGSGTGFTLTISSLQPEDIATYYCQQAHSYPFTFGGGTKLEIKGGGGGRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNR",
+                  "midline": "DIQMTQSP+SLS +VGD +T+TC ASQ+I  +L+W+QQKPG  PKLLIY ASNL TGVPSRFSGSGSGT F+LTISSLQPED+ATYYCQQ  + P TFGGGTK+EIK     RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNR"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 144.05,
+                  "score": 362,
+                  "evalue": 1.37548e-37,
+                  "identity": 69,
+                  "positive": 88,
+                  "query_from": 3,
+                  "query_to": 109,
+                  "hit_from": 1,
+                  "hit_to": 111,
+                  "align_len": 111,
+                  "gaps": 4,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDI----VNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIK",
+                  "hseq": "DIVLTQSPASLAVSLGQRATISCRASESVDSYGQSYMHWYQQKAGQPPKLLIYLASNLESGVPARFSGSGSRTDFTLTIDPVQAEDAATYYCQQNAEDSRTFGGGTKLEIK",
+                  "midline": "DI +TQSP+SL+ ++G R TI+C+AS+ +     +Y++WYQQK G+ PKLLIY+ASNLE+GVP+RFSGSGS TDF+LTI  +Q ED ATYYCQQ      TFGGGTK+EIK"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gb|WZH65195.1|",
+                  "accession": "WZH65195",
+                  "title": "B-cell receptor light chain variable region [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 373.244,
+                  "score": 957,
+                  "evalue": 8.29167e-129,
+                  "identity": 179,
+                  "positive": 195,
+                  "query_from": 2,
+                  "query_to": 216,
+                  "hit_from": 26,
+                  "hit_to": 240,
+                  "align_len": 215,
+                  "gaps": 0,
+                  "qseq": "RDIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "EDIVMTQSHKFMSTSVGDRVSITCKASQDVGTAVAWYQQKPGQSPKLLIYWASTRHTGVPDRFTGSGSGTDFTLTISNVQSEDLADYFCQQYSSYPYTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": " DI MTQS   +S +VGDRV+ITC+ASQD+   + WYQQKPG++PKLLIY AS   TGVP RF+GSGSGTDF+LTIS++Q ED+A Y+CQQY + P TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "pdb|6P67|B",
+                  "accession": "6P67_B",
+                  "title": "Chain B, anti-IL-7R 2B8 Fab light chain [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 372.089,
+                  "score": 954,
+                  "evalue": 1.12581e-128,
+                  "identity": 179,
+                  "positive": 194,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIVMTQSHKFMSTLVGDRVSITCKASQDVSTTVAWYQQKPGQSPKLLIYSASYRYTGVPDRFTGSGSGTDFTFTISSVQAEDLAVYYCQQHYSIPRTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI MTQS   +S  VGDRV+ITC+ASQD+   + WYQQKPG++PKLLIY AS   TGVP RF+GSGSGTDF+ TISS+Q ED+A YYCQQ+ ++P TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "pdb|5CJX|C",
+                  "accession": "5CJX_C",
+                  "title": "Chain C, 8ANC195 G52K5 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.703,
+                  "score": 953,
+                  "evalue": 1.46852e-128,
+                  "identity": 179,
+                  "positive": 193,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 215,
+                  "align_len": 215,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIV-NYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSTLSASTGDTVRISCRASQSITGNWVAWYQQRPGKAPRLLIYRGAALLGGVPSRFRGSAAGTDFTLTIGNLQAEDFGTFYCQQYDTYPGTFGQGTKVEVKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPS+LSA+ GD V I+C+ASQ I  N++ WYQQ+PGKAP+LLIY  + L  GVPSRF GS +GTDF+LTI +LQ ED  T+YCQQYD  P TFG GTKVE+KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "pdb|7N28|Y",
+                  "accession": "7N28_Y",
+                  "title": "Chain Y, J033 antibody light chain [Macaca mulatta]",
+                  "taxid": 9544,
+                  "sciname": "Macaca mulatta"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.703,
+                  "score": 953,
+                  "evalue": 1.67064e-128,
+                  "identity": 179,
+                  "positive": 192,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 214,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQLIQSPSSVSASVGDRVTITCRSTQAIGTDLAWYQATPGTAPKLLIYHSFARHEGVPSRFSAGGSGSEFSLTITGLQPEDFATFFCQHYKRLPLTFGGGTKVEVKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQ+ QSPSS+SA+VGDRVTITC+++Q I   L WYQ  PG APKLLIY +     GVPSRFS  GSG++FSLTI+ LQPED AT++CQ Y  LPLTFGGGTKVE+KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "pdb|7BM5|A",
+                  "accession": "7BM5_A",
+                  "title": "Chain A, Fab1 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.703,
+                  "score": 953,
+                  "evalue": 1.82856e-128,
+                  "identity": 181,
+                  "positive": 198,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 215,
+                  "align_len": 215,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLP-LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPASLSASLGETVTIECRASEDIHSRLAWYQQKPGKSPQLLIYNANSLHTGVPSRFSGSGSGTQFSLKINSLQSEDVASYFCLQYYNYPPYTFGAGAKLELRRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSP+SLSA++G+ VTI C+AS+DI + L WYQQKPGK+P+LLIY A++L TGVPSRFSGSGSGT FSL I+SLQ EDVA+Y+C QY N P  TFG G K+E++RTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "pdb|7ARN|L",
+                  "accession": "7ARN_L",
+                  "title": "Chain L, Antibody Fab Fragment Light Chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 247,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 372.859,
+                  "score": 956,
+                  "evalue": 1.83705e-128,
+                  "identity": 184,
+                  "positive": 197,
+                  "query_from": 1,
+                  "query_to": 216,
+                  "hit_from": 30,
+                  "hit_to": 247,
+                  "align_len": 218,
+                  "gaps": 2,
+                  "qseq": "TRDIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKR--TVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "TGDIEMTQSPSSLSASIGDRLTITCRASQAIRESVQWYQQKPGKAPKLLMFSTSILESGVPSRFSGSGFGTHFTLTISSLQPEDFATYSCQQNYSGPFTFGPGTKVEMRAAATVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "T DI+MTQSPSSLSA++GDR+TITC+ASQ I   + WYQQKPGKAPKLL++  S LE+GVPSRFSGSG GT F+LTISSLQPED ATY CQQ  + P TFG GTKVE++   TVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "pdb|7JZ4|B",
+                  "accession": "7JZ4_B",
+                  "title": "Chain B, MGD21 light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.318,
+                  "score": 952,
+                  "evalue": 2.39268e-128,
+                  "identity": 180,
+                  "positive": 196,
+                  "query_from": 4,
+                  "query_to": 215,
+                  "hit_from": 2,
+                  "hit_to": 213,
+                  "align_len": 212,
+                  "gaps": 0,
+                  "qseq": "IQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "hseq": "IRMTQSPSSLSASPGDKVSITCRASQHINDSLAWFQQRPGKAPKLLIYGASNLHSGVPSRFSGTGSGTDFTLTITGLQSEDFATYFCQQCNCFPPDFGQGTRLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE",
+                  "midline": "I+MTQSPSSLSA+ GD+V+ITC+ASQ I + L W+QQ+PGKAPKLLIY ASNL +GVPSRFSG+GSGTDF+LTI+ LQ ED ATY+CQQ +  P  FG GT++EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGE"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "dbj|BAC01758.1|",
+                  "accession": "BAC01758",
+                  "title": "immunoglobulin kappa light chain VLJ region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 265,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 373.244,
+                  "score": 957,
+                  "evalue": 2.46686e-128,
+                  "identity": 178,
+                  "positive": 197,
+                  "query_from": 3,
+                  "query_to": 220,
+                  "hit_from": 23,
+                  "hit_to": 241,
+                  "align_len": 219,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVN-YLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGTKH",
+                  "hseq": "ETTLTQSPGTLSLSPGERATLSCRASQSVSSSYLAWYQQKPGQAPRLLIYGASSRATGIPDRFSGSGSGTDFTLTISRLEPEDFAVYYCQQYGSSPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKLYACEVTHQGLSSPVTKSFNRGECSARQ",
+                  "midline": "+  +TQSP +LS + G+R T++C+ASQ + + YL WYQQKPG+AP+LLIY AS+  TG+P RFSGSGSGTDF+LTIS L+PED A YYCQQY + PLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHK+YACEVTHQGLSSPVTKSFNRGEC  + "
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "gb|ALO70205.1|",
+                  "accession": "ALO70205",
+                  "title": "anti-DCIR_9E8_HIV5pep_L_chain [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 334,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 375.555,
+                  "score": 963,
+                  "evalue": 3.17364e-128,
+                  "identity": 183,
+                  "positive": 200,
+                  "query_from": 3,
+                  "query_to": 218,
+                  "hit_from": 21,
+                  "hit_to": 240,
+                  "align_len": 220,
+                  "gaps": 4,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNY----LNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGT",
+                  "hseq": "NIVLTQSPDSLAVSLGERATINCRASESIHSYGNSFLHWYQQKPGQPPKLLIYLASNLESGVPSRFSGSGSRTDFTLTISSLQPEDFATYYCQQNNEDPWTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECAS",
+                  "midline": "+I +TQSP SL+ ++G+R TI C+AS+ I +Y    L+WYQQKPG+ PKLLIY+ASNLE+GVPSRFSGSGS TDF+LTISSLQPED ATYYCQQ +  P TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC +"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|XP_054329698.1|",
+                  "accession": "XP_054329698",
+                  "title": "immunoglobulin kappa light chain isoform X1 [Pongo pygmaeus]",
+                  "taxid": 9600,
+                  "sciname": "Pongo pygmaeus"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.703,
+                  "score": 953,
+                  "evalue": 3.19542e-128,
+                  "identity": 178,
+                  "positive": 196,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 23,
+                  "hit_to": 236,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCRASQGISSWLAWYQQKPGKAPKPLIYKVSSLESGIPSRFSGSESGTEFTLTISSLQPEDFATYYCQQYNSYPRTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPRQVNVKWKVDNVEQSGNFQESATEQDSKDSTYSLSSTLTLNNAEFQKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITC+ASQ I ++L WYQQKPGKAPK LIY  S+LE+G+PSRFSGS SGT+F+LTISSLQPED ATYYCQQY++ P TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPR+  V+WKVDN  QSGN QES TEQDSKDSTYSLSSTLTL+ A+++KHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "pdb|9IZ9|N",
+                  "accession": "9IZ9_N",
+                  "title": "Chain N, C37 Fab, Light chain [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 241,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.703,
+                  "score": 953,
+                  "evalue": 3.77217e-128,
+                  "identity": 178,
+                  "positive": 196,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 26,
+                  "hit_to": 240,
+                  "align_len": 215,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLP-LTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIQMTQSPATLSLSPGERATLFCRASQSVSSSLAWYQQKPGQAPRLLIYDASNRATGIPARFSGSGSGTDFTLTISSLEPEDFAVYYCQQRGNWPPITFGQGTRLDTKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DIQMTQSP++LS + G+R T+ C+ASQ + + L WYQQKPG+AP+LLIY ASN  TG+P+RFSGSGSGTDF+LTISSL+PED A YYCQQ  N P +TFG GT+++ KRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "pdb|3MNV|A",
+                  "accession": "3MNV_A",
+                  "title": "Chain A, ANTI-HIV-1 ANTIBODY 13H11 LIGHT CHAIN [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 370.548,
+                  "score": 950,
+                  "evalue": 5.36177e-128,
+                  "identity": 179,
+                  "positive": 199,
+                  "query_from": 3,
+                  "query_to": 218,
+                  "hit_from": 3,
+                  "hit_to": 224,
+                  "align_len": 222,
+                  "gaps": 6,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVN------YLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGT",
+                  "hseq": "DIQLTQSPSSLAMSGGQKVTMRCKSSQSLLNSRNERNYLAWYQQKPGQSPKLLVYFASIRESGVPDRFIGSGSGTDFTLTISSVQAEDLADYFCLQHYNTPWTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGS",
+                  "midline": "DIQ+TQSPSSL+ + G +VT+ C++SQ ++N      YL WYQQKPG++PKLL+Y AS  E+GVP RF GSGSGTDF+LTISS+Q ED+A Y+C Q+ N P TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECG+"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|AEL29441.1|",
+                  "accession": "AEL29441",
+                  "title": "monoclonal antibody 16E7_K [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 243,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.318,
+                  "score": 952,
+                  "evalue": 5.62455e-128,
+                  "identity": 178,
+                  "positive": 194,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 30,
+                  "hit_to": 243,
+                  "align_len": 214,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "DIVMTQSHKFMSTSVGDRVSVTCKASQDVTSAVAWYQQKPGQSPKLLIYWASTRHTGVPDRFTGSGSGTDYTLTISSGQAEDLALYYCHQYYSAPRTFGGGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "DI MTQS   +S +VGDRV++TC+ASQD+ + + WYQQKPG++PKLLIY AS   TGVP RF+GSGSGTD++LTISS Q ED+A YYC QY + P TFGGGTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "dbj|BAC01700.1|",
+                  "accession": "BAC01700",
+                  "title": "immunoglobulin kappa light chain VLJ region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 272,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 372.474,
+                  "score": 955,
+                  "evalue": 6.42928e-128,
+                  "identity": 182,
+                  "positive": 196,
+                  "query_from": 3,
+                  "query_to": 220,
+                  "hit_from": 23,
+                  "hit_to": 246,
+                  "align_len": 224,
+                  "gaps": 6,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIV------NYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECGTKH",
+                  "hseq": "DIVMTQSPDSLAVSLGERATINCKSSQSVLYSSNNNNYLAWYQQKPGQPPKLLIYWASTRESGVPDRFSGSGSGTDFTLTISSLQAEDVAVYYCQQYYSTSYTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGECSARQ",
+                  "midline": "DI MTQSP SL+ ++G+R TI C++SQ ++      NYL WYQQKPG+ PKLLIY AS  E+GVP RFSGSGSGTDF+LTISSLQ EDVA YYCQQY +   TFG GTK+EIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC  + "
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "emb|CAJ1718555.1|",
+                  "accession": "CAJ1718555",
+                  "title": "Immunoglobuline Kappa light chain V-J-C REARRANGEMENT, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 369.777,
+                  "score": 948,
+                  "evalue": 7.04739e-128,
+                  "identity": 179,
+                  "positive": 184,
+                  "query_from": 3,
+                  "query_to": 191,
+                  "hit_from": 23,
+                  "hit_to": 211,
+                  "align_len": 189,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKH",
+                  "hseq": "DIQMTQSPSSLSASVGDRVTITCQASQDISNYLNWYQQKSGKAPKLLIYDASSLQTGVPSRFSGSGSGTDFTFTISSLQPEDIATYYCQQYDNLPPTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKH",
+                  "midline": "DIQMTQSPSSLSA+VGDRVTITCQASQDI NYLNWYQQK GKAPKLLIY AS+L+TGVPSRFSGSGSGTDF+ TISSLQPED+ATYYCQQYDNLP TFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKH"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "pdb|4D3C|L",
+                  "accession": "4D3C_L",
+                  "title": "Chain L, SFN68 FAB [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 369.777,
+                  "score": 948,
+                  "evalue": 1.00033e-127,
+                  "identity": 180,
+                  "positive": 193,
+                  "query_from": 3,
+                  "query_to": 216,
+                  "hit_from": 1,
+                  "hit_to": 215,
+                  "align_len": 215,
+                  "gaps": 1,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQ-YDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "hseq": "ELDLTQTPSSVSAAVGGTVTINCQASQSVSNLLAWYQQKPGQPPKLLIYGASNLESGVPSRFRGSGSGTEFTLTISGMKAEDAATYYCQSGYYSAGATFGAGTNVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC",
+                  "midline": "++ +TQ+PSS+SAAVG  VTI CQASQ + N L WYQQKPG+ PKLLIY ASNLE+GVPSRF GSGSGT+F+LTIS ++ ED ATYYCQ  Y +   TFG GT VEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gb|QSI99050.1|",
+                  "accession": "QSI99050",
+                  "title": "anti-SARS-CoV-2 immunoglobulin kappa light chain variable region, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 189,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 368.622,
+                  "score": 945,
+                  "evalue": 1.04346e-127,
+                  "identity": 179,
+                  "positive": 183,
+                  "query_from": 3,
+                  "query_to": 191,
+                  "hit_from": 1,
+                  "hit_to": 189,
+                  "align_len": 189,
+                  "gaps": 0,
+                  "qseq": "DIQMTQSPSSLSAAVGDRVTITCQASQDIVNYLNWYQQKPGKAPKLLIYVASNLETGVPSRFSGSGSGTDFSLTISSLQPEDVATYYCQQYDNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKH",
+                  "hseq": "DIVMTQSPSSLSASVGDRVTITCQASQDISNYLNCYQQKPGKAPKFLIYDASNLETGVPSRFSGSGSGTDFTFTISSLQPEDIATYYCQQYNNLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKH",
+                  "midline": "DI MTQSPSSLSA+VGDRVTITCQASQDI NYLN YQQKPGKAPK LIY ASNLETGVPSRFSGSGSGTDF+ TISSLQPED+ATYYCQQY+NLPLTFGGGTKVEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKH"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

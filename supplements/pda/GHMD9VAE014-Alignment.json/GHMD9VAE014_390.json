@@ -1,0 +1,70 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236509",
+          "query_title": "7k3h_A",
+          "query_len": 121,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7K3H|A",
+                  "accession": "7K3H_A",
+                  "title": "Chain A, Network hallucinated protein 0217 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 251.906,
+                  "score": 642,
+                  "evalue": 2.10752e-84,
+                  "identity": 121,
+                  "positive": 121,
+                  "query_from": 1,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 121,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "MGSSHHHHHHSSGLVPRGSHMSPIARQALDIAKSVLEHSKGMFDYWEGMLEQYEKTGDPDQANKLRQTLNRVKNSVGRLESALKRAERAYDTGNPDAAVGAVVELIGNVHEIMSTFHELFG",
+                  "hseq": "MGSSHHHHHHSSGLVPRGSHMSPIARQALDIAKSVLEHSKGMFDYWEGMLEQYEKTGDPDQANKLRQTLNRVKNSVGRLESALKRAERAYDTGNPDAAVGAVVELIGNVHEIMSTFHELFG",
+                  "midline": "MGSSHHHHHHSSGLVPRGSHMSPIARQALDIAKSVLEHSKGMFDYWEGMLEQYEKTGDPDQANKLRQTLNRVKNSVGRLESALKRAERAYDTGNPDAAVGAVVELIGNVHEIMSTFHELFG"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

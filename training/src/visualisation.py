@@ -83,13 +83,12 @@ def plot_confusion_matrix(labels, predictions, threshold=0.5, title='',
     
     # Add and style colorbar
     cbar = plt.colorbar(mappable=cm_display.im_, ax=ax)
-    cbar.set_ticklabels(
-        np.arange(0, 1751, 250),
-        fontsize=STYLE['fontsize']['ticks'],
-        fontname=STYLE['fontname'],
-        weight='bold',
-        color=STYLE['color']
-    )
+
+    for label in cbar.ax.get_yticklabels():  # or get_xticklabels() if horizontal
+        label.set_fontsize(30)
+        label.set_fontname('Arial')
+        label.set_weight('bold')
+        label.set_color(STYLE['color'])
     
     _apply_axis_styling(ax, title, xlabel, ylabel, show_top_right=True)
     return cm

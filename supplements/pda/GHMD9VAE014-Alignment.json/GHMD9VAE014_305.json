@@ -1,0 +1,183 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236424",
+          "query_title": "7mcd_A",
+          "query_len": 184,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7MCD|A",
+                  "accession": "7MCD_A",
+                  "title": "Chain A, AI-designed TIM-barrel F15C [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 342.813,
+                  "score": 878,
+                  "evalue": 2.54386e-118,
+                  "identity": 184,
+                  "positive": 184,
+                  "query_from": 1,
+                  "query_to": 184,
+                  "hit_from": 1,
+                  "hit_to": 184,
+                  "align_len": 184,
+                  "gaps": 0,
+                  "qseq": "MDILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAG",
+                  "hseq": "MDILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAG",
+                  "midline": "MDILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7MCC|A",
+                  "accession": "7MCC_A",
+                  "title": "Chain A, AI-designed TIM-barrel F2C [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 190,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 194.126,
+                  "score": 492,
+                  "evalue": 1.83146e-59,
+                  "identity": 104,
+                  "positive": 148,
+                  "query_from": 1,
+                  "query_to": 184,
+                  "hit_from": 1,
+                  "hit_to": 184,
+                  "align_len": 184,
+                  "gaps": 0,
+                  "qseq": "MDILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAG",
+                  "hseq": "MDIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAGADIAIVDADNPADAIQQVKDLRKYGAKLIAYKSKSSEELKLALKAG",
+                  "midline": "MDI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAGADI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAGADI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAGADI IV+ D+    +++VK+L+++GAK+IAY SKS+EELK A KAG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_096602593.1|",
+                  "accession": "WP_096602593",
+                  "title": "hypothetical protein [Hydrogenobacter hydrogenophilus]",
+                  "taxid": 35835,
+                  "sciname": "Hydrogenobacter hydrogenophilus"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.0191231,
+                  "identity": 26,
+                  "positive": 42,
+                  "query_from": 41,
+                  "query_to": 106,
+                  "hit_from": 28,
+                  "hit_to": 92,
+                  "align_len": 67,
+                  "gaps": 3,
+                  "qseq": "KAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELK-KAEKAGADILIVNPDDFEKG",
+                  "hseq": "NAEYSGEDVVFINVEAFP--VDKIRELKAKGAKVIAYCSHKNVELQLEARSAGADLVVPNSQVVDAG",
+                  "midline": " AE +G D++ +N + F   V++++ELK  GAK+IAY S    EL+ +A  AGAD+++ N    + G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.0191231,
+                  "identity": 26,
+                  "positive": 42,
+                  "query_from": 87,
+                  "query_to": 152,
+                  "hit_from": 28,
+                  "hit_to": 92,
+                  "align_len": 67,
+                  "gaps": 3,
+                  "qseq": "KAEKAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELK-KAEKAGADILIVNPDDFEKG",
+                  "hseq": "NAEYSGEDVVFINVEAFP--VDKIRELKAKGAKVIAYCSHKNVELQLEARSAGADLVVPNSQVVDAG",
+                  "midline": " AE +G D++ +N + F   V++++ELK  GAK+IAY S    EL+ +A  AGAD+++ N    + G"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_041798348.1|",
+                  "accession": "WP_041798348",
+                  "title": "YbaL family putative K(+) efflux transporter [Rhodopseudomonas palustris]",
+                  "taxid": 1076,
+                  "sciname": "Rhodopseudomonas palustris"
+                }
+              ],
+              "len": 569,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.0199824,
+                  "identity": 32,
+                  "positive": 55,
+                  "query_from": 44,
+                  "query_to": 148,
+                  "hit_from": 447,
+                  "hit_to": 547,
+                  "align_len": 106,
+                  "gaps": 6,
+                  "qseq": "KAGADILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGA-DILIVNPDDFEKGVEEVKELKRHGAKIIAYISKSAEELKKAEKAGADILIVNPDD",
+                  "hseq": "QEGADVVVIEND-----AERLAQLQREGITAVGGNAAAPDMLEAAEIAGARGLLVAIPDAFEGGQIVAKARALNAALPIIARAHSAEEVAHLKSNGADVVIMGEDE",
+                  "midline": "+ GAD++++  D      E + +L+R G   +   + + + L+ AE AGA  +L+  PD FE G    K    + A  I   + SAEE+   +  GAD++I+  D+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

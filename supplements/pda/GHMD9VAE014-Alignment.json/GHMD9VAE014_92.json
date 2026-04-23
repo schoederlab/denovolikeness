@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236211",
+          "query_title": "5vmr_C",
+          "query_len": 43,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5VMR|C",
+                  "accession": "5VMR_C",
+                  "title": "Chain C, Bot.2110.4 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 43,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 1.08206e-21,
+                  "identity": 43,
+                  "positive": 43,
+                  "query_from": 1,
+                  "query_to": 43,
+                  "hit_from": 1,
+                  "hit_to": 43,
+                  "align_len": 43,
+                  "gaps": 0,
+                  "qseq": "PDMFCALKIKFFLEIGDEDAARKAAKKCGYSEEQAERIIKKNL",
+                  "hseq": "PDMFCALKIKFFLEIGDEDAARKAAKKCGYSEEQAERIIKKNL",
+                  "midline": "PDMFCALKIKFFLEIGDEDAARKAAKKCGYSEEQAERIIKKNL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5VID|F",
+                  "accession": "5VID_F",
+                  "title": "Chain F, Bot.0671.2 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 66,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 3.02993e-10,
+                  "identity": 28,
+                  "positive": 32,
+                  "query_from": 3,
+                  "query_to": 41,
+                  "hit_from": 24,
+                  "hit_to": 62,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "MFCALKIKFFLEIGDEDAARKAAKKCGYSEEQAERIIKK",
+                  "hseq": "MFAELKAKFFLEIGDRDAARNALRKAGYSDEEAERIIRK",
+                  "midline": "MF  LK KFFLEIGD DAAR A +K GYS+E+AERII+K"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

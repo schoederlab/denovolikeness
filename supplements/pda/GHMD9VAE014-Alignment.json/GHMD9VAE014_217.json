@@ -1,0 +1,230 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236336",
+          "query_title": "5e6g_A",
+          "query_len": 136,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5E6G|A",
+                  "accession": "5E6G_A",
+                  "title": "Chain A, De novo designed protein CA01 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 271.937,
+                  "score": 694,
+                  "evalue": 7.63998e-92,
+                  "identity": 136,
+                  "positive": 136,
+                  "query_from": 1,
+                  "query_to": 136,
+                  "hit_from": 1,
+                  "hit_to": 136,
+                  "align_len": 136,
+                  "gaps": 0,
+                  "qseq": "MRGSHHHHHHGTGENLYFQGGSPEQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRYRIAYLAALEAYRLLAEGVRIPEAVQRAAAYLASMGYPHYAELFRAKGEELVKRLLEGKVTGEEFARQLVFYPAQAV",
+                  "hseq": "MRGSHHHHHHGTGENLYFQGGSPEQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRYRIAYLAALEAYRLLAEGVRIPEAVQRAAAYLASMGYPHYAELFRAKGEELVKRLLEGKVTGEEFARQLVFYPAQAV",
+                  "midline": "MRGSHHHHHHGTGENLYFQGGSPEQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRYRIAYLAALEAYRLLAEGVRIPEAVQRAAAYLASMGYPHYAELFRAKGEELVKRLLEGKVTGEEFARQLVFYPAQAV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|MDI1901298.1|",
+                  "accession": "MDI1901298",
+                  "title": "ferritin-like domain-containing protein [Staphylococcus aureus]",
+                  "taxid": 1280,
+                  "sciname": "Staphylococcus aureus"
+                }
+              ],
+              "len": 86,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 3.91391e-05,
+                  "identity": 25,
+                  "positive": 28,
+                  "query_from": 19,
+                  "query_to": 60,
+                  "hit_from": 26,
+                  "hit_to": 67,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "QGGSPEQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRY",
+                  "hseq": "KGYSAEQMVEELSQDFTNISKQLENAIEIAGNAGDDVSEDMF",
+                  "midline": "+G S EQM EE+ Q    I KQLEN IEIA NAGDD  ED +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_308906086.1|",
+                  "accession": "WP_308906086",
+                  "title": "Dps family protein [Staphylococcus aureus]",
+                  "taxid": 1280,
+                  "sciname": "Staphylococcus aureus"
+                }
+              ],
+              "len": 132,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8322,
+                  "score": 120,
+                  "evalue": 7.03049e-05,
+                  "identity": 25,
+                  "positive": 28,
+                  "query_from": 19,
+                  "query_to": 60,
+                  "hit_from": 72,
+                  "hit_to": 113,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "QGGSPEQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRY",
+                  "hseq": "KGYSAEQMVEELSQDFTNISKQLENAIEIAGNAGDDVSEDMF",
+                  "midline": "+G S EQM EE+ Q    I KQLEN IEIA NAGDD  ED +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_031844270.1|",
+                  "accession": "WP_031844270",
+                  "title": "Dps family protein, partial [Staphylococcus aureus]",
+                  "taxid": 1280,
+                  "sciname": "Staphylococcus aureus"
+                }
+              ],
+              "len": 135,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 9.94034e-05,
+                  "identity": 25,
+                  "positive": 28,
+                  "query_from": 19,
+                  "query_to": 60,
+                  "hit_from": 87,
+                  "hit_to": 128,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "QGGSPEQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRY",
+                  "hseq": "KGYSAEQMVEELSQDFTNISKQLENAIEIAGNAGDDVSEDMF",
+                  "midline": "+G S EQM EE+ Q    I KQLEN IEIA NAGDD  ED +"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_031835726.1|",
+                  "accession": "WP_031835726",
+                  "title": "ferritin-like domain-containing protein, partial [Staphylococcus aureus]",
+                  "taxid": 1280,
+                  "sciname": "Staphylococcus aureus"
+                }
+              ],
+              "len": 57,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.000282757,
+                  "identity": 23,
+                  "positive": 25,
+                  "query_from": 24,
+                  "query_to": 60,
+                  "hit_from": 2,
+                  "hit_to": 38,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "EQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRY",
+                  "hseq": "EQMVEELSQDFTNISKQLENAIEIAGNAGDDVSEDMF",
+                  "midline": "EQM EE+ Q    I KQLEN IEIA NAGDD  ED +"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|MDU4602022.1|",
+                  "accession": "MDU4602022",
+                  "title": "Dps family protein [Staphylococcus warneri]",
+                  "taxid": 1292,
+                  "sciname": "Staphylococcus warneri"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0352801,
+                  "identity": 20,
+                  "positive": 28,
+                  "query_from": 19,
+                  "query_to": 60,
+                  "hit_from": 67,
+                  "hit_to": 108,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "QGGSPEQMAEEIRQALEKILKQLENEIEIARNAGDDEREDRY",
+                  "hseq": "KGYAAEQMVEELSKDFTNISKQLENAIKVAGDAGDDVSEDMF",
+                  "midline": "+G + EQM EE+ +    I KQLEN I++A +AGDD  ED +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

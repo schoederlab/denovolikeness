@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236472",
+          "query_title": "8e1e_A",
+          "query_len": 243,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8E1E|A",
+                  "accession": "8E1E_A",
+                  "title": "Chain A, SG122_C3 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 243,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 444.891,
+                  "score": 1143,
+                  "evalue": 1.10267e-156,
+                  "identity": 243,
+                  "positive": 243,
+                  "query_from": 1,
+                  "query_to": 243,
+                  "hit_from": 1,
+                  "hit_to": 243,
+                  "align_len": 243,
+                  "gaps": 0,
+                  "qseq": "GSENLYFQGSGSEELEKQALVYAVQVLLIALRAILQGDEKLFKLAEWAVELAIKALQNGDERQVQRAILFMQAVILIQIVKEIAEEARKQGDEKLFELARWAIELAEKAIERGDEESVKRAILFMQAVILIQIVKKIAEKAKRQGDDKLFKLAEWAIELAERAIEEGDEEKVKRAILFMEAVILIQLVKEIAKKAKEQGDEELFQRAEEAIKDAEKAIEEGDEEKVKEAIKKMKEVIRIQERK",
+                  "hseq": "GSENLYFQGSGSEELEKQALVYAVQVLLIALRAILQGDEKLFKLAEWAVELAIKALQNGDERQVQRAILFMQAVILIQIVKEIAEEARKQGDEKLFELARWAIELAEKAIERGDEESVKRAILFMQAVILIQIVKKIAEKAKRQGDDKLFKLAEWAIELAERAIEEGDEEKVKRAILFMEAVILIQLVKEIAKKAKEQGDEELFQRAEEAIKDAEKAIEEGDEEKVKEAIKKMKEVIRIQERK",
+                  "midline": "GSENLYFQGSGSEELEKQALVYAVQVLLIALRAILQGDEKLFKLAEWAVELAIKALQNGDERQVQRAILFMQAVILIQIVKEIAEEARKQGDEKLFELARWAIELAEKAIERGDEESVKRAILFMQAVILIQIVKKIAEKAKRQGDDKLFKLAEWAIELAERAIEEGDEEKVKRAILFMEAVILIQLVKEIAKKAKEQGDEELFQRAEEAIKDAEKAIEEGDEEKVKEAIKKMKEVIRIQERK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7RMX|A",
+                  "accession": "7RMX_A",
+                  "title": "Chain A, Tunable symmetric protein, D_3_212 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 229,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 61.2326,
+                  "score": 147,
+                  "evalue": 3.14799e-07,
+                  "identity": 69,
+                  "positive": 122,
+                  "query_from": 9,
+                  "query_to": 238,
+                  "hit_from": 2,
+                  "hit_to": 223,
+                  "align_len": 232,
+                  "gaps": 12,
+                  "qseq": "GSGSEELEKQALVYAVQVLLIALRAILQ--GDEKLFKLAEWAVELAIKALQNGDERQVQRAILFMQAVILIQIVKEIAEEARKQGDEKLFELARWAIELAEKAIERGDEESVKRAILFMQAVILIQIVKKIAEKAKRQGDDKLFKLAEWAIELAERAIEEGDEEKVKRAILFMEAVILIQLVKEIAKKAKEQGDEELFQRAEEAIKDAEKAIEEGDEEKVKEAIKKMKEVIR",
+                  "hseq": "GSGSTE-EEEALLRWFQTLLAKFDELVKQLGDPRLLEEARRLQERLEEAKKRGDKRTIKQLAALLQMFVLIAQIFQLVEEL---GDPKLLEQAKRLLERLKEAVERGDEETIKELLDLAHMTYLIAQIFQLVEQL---GDPRLLELAKELLKRLKEAQERGDRRTIER---LLRLVQMTYLIAQIFQLVRQLGDPRLLETAKTLLTLLKLAFEEGDELLIKSLLTLVAETYR",
+                  "midline": "GSGS E E++AL+   Q LL     +++  GD +L + A    E   +A + GD+R +++    +Q  +LI  + ++ EE    GD KL E A+  +E  ++A+ERGDEE++K  +       LI  + ++ E+    GD +L +LA+  ++  + A E GD   ++R    +  V +  L+ +I +  ++ GD  L + A+  +   + A EEGDE  +K  +  + E  R"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "ref|WP_202219790.1|",
+                  "accession": "WP_202219790",
+                  "title": "hypothetical protein [Okeania sp. KiyG1]",
+                  "taxid": 2720165,
+                  "sciname": "Okeania sp. KiyG1"
+                }
+              ],
+              "len": 224,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 6.07997e-07,
+                  "identity": 43,
+                  "positive": 76,
+                  "query_from": 3,
+                  "query_to": 177,
+                  "hit_from": 52,
+                  "hit_to": 200,
+                  "align_len": 175,
+                  "gaps": 26,
+                  "qseq": "ENLYFQGSGSEELEKQALVYAVQVLLIALRAILQGDEKLFKLAEWAVELAIKALQNGDERQVQRAILFMQAVILIQIVKEIAEEARKQGDEKLFELARWAIELAEKAIERGDEESVKRAILFMQAVILIQIVKKIAEKAKRQGDDKLFKLAEWAIELAERAIEEGDEEKVKRAIL",
+                  "hseq": "DNSYCSG------DERSLCLAMMTIYLLDNSYCSGDERSLCLAMMTIYLLDNSYCSGDERSLCLA---MMTIYLL-------DNSYCSGDERSLCLARMTIYLLDNSYCSGDERSLCLA---MMTIYLL-------DNSYCSGDERSLCLAMMTIYLLDNSYCSGDERSLCLAMM",
+                  "midline": "+N Y  G      ++++L  A+  + +   +   GDE+   LA   + L   +  +GDER +  A   M  + L+       + +   GDE+   LAR  I L + +   GDE S+  A   M  + L+       + +   GD++   LA   I L + +   GDE  +  A++"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

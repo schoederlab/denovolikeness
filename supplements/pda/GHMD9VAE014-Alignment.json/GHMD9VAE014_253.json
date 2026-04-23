@@ -1,0 +1,349 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236372",
+          "query_title": "6egc_A",
+          "query_len": 156,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6EGC|A",
+                  "accession": "6EGC_A",
+                  "title": "Chain A, SC_2L4HC2_23 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 156,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 272.322,
+                  "score": 695,
+                  "evalue": 3.05686e-91,
+                  "identity": 156,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 156,
+                  "hit_from": 1,
+                  "hit_to": 156,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "GSHMTRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQQGPPGNEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQD",
+                  "hseq": "GSHMTRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQQGPPGNEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQD",
+                  "midline": "GSHMTRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQQGPPGNEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQD"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5J0K|A",
+                  "accession": "5J0K_A",
+                  "title": "Chain A, designed protein 2L4HC2_23 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 80,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.88,
+                  "score": 333,
+                  "evalue": 3.69726e-37,
+                  "identity": 78,
+                  "positive": 78,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 1,
+                  "hit_to": 79,
+                  "align_len": 79,
+                  "gaps": 1,
+                  "qseq": "GSHM-TRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQ",
+                  "hseq": "GSHMGTRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQ",
+                  "midline": "GSHM TRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQ"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 2.39693e-33,
+                  "identity": 72,
+                  "positive": 72,
+                  "query_from": 84,
+                  "query_to": 156,
+                  "hit_from": 8,
+                  "hit_to": 80,
+                  "align_len": 73,
+                  "gaps": 0,
+                  "qseq": "NEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQD",
+                  "hseq": "TEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQD",
+                  "midline": " EIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQD"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6B87|A",
+                  "accession": "6B87_A",
+                  "title": "Chain A, TMHC2_E [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.1814,
+                  "score": 191,
+                  "evalue": 2.04341e-15,
+                  "identity": 63,
+                  "positive": 63,
+                  "query_from": 4,
+                  "query_to": 78,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 103,
+                  "gaps": 28,
+                  "qseq": "MTRTEIIRELERSLREQEELAKRLKELL--------------RELERLQREGSSDEDVRELLREIKELVEEIE--------------KLAREQKYLVEELKRQ",
+                  "hseq": "MTRTEIIRELERSLRLQLVLAIFLLALLIVLLWLLQQLKELLRELERLQREGSSDEDVRELLREIKELVENIVYLVIIIMVLVLVIIALAVTQKYLVEELKRQ",
+                  "midline": "MTRTEIIRELERSLR Q  LA  L  LL              RELERLQREGSSDEDVRELLREIKELVE I                LA  QKYLVEELKRQ"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 3.24726e-13,
+                  "identity": 60,
+                  "positive": 60,
+                  "query_from": 84,
+                  "query_to": 156,
+                  "hit_from": 4,
+                  "hit_to": 104,
+                  "align_len": 101,
+                  "gaps": 28,
+                  "qseq": "NEIIRELERSLREQEELAKRLKELL--------------RELERLQREGSSDEDVRELLREIKELVEEIE--------------KLAREQKYLVEELKRQD",
+                  "hseq": "TEIIRELERSLRLQLVLAIFLLALLIVLLWLLQQLKELLRELERLQREGSSDEDVRELLREIKELVENIVYLVIIIMVLVLVIIALAVTQKYLVEELKRQD",
+                  "midline": " EIIRELERSLR Q  LA  L  LL              RELERLQREGSSDEDVRELLREIKELVE I                LA  QKYLVEELKRQD"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|8CWY|B",
+                  "accession": "8CWY_B",
+                  "title": "Chain B, T32-15-2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 74,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 8.25285e-12,
+                  "identity": 62,
+                  "positive": 65,
+                  "query_from": 5,
+                  "query_to": 78,
+                  "hit_from": 1,
+                  "hit_to": 74,
+                  "align_len": 74,
+                  "gaps": 0,
+                  "qseq": "TRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQ",
+                  "hseq": "TRTEIIRELERSLREQEELAKRLMELLLKLLRLQMTGSSDEDVRRLMLRIIELVEEIEELAREQKYLVEELKRQ",
+                  "midline": "TRTEIIRELERSLREQEELAKRL ELL +L RLQ  GSSDEDVR L+  I ELVEEIE+LAREQKYLVEELKRQ"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 62.3882,
+                  "score": 150,
+                  "evalue": 1.15447e-09,
+                  "identity": 59,
+                  "positive": 62,
+                  "query_from": 84,
+                  "query_to": 155,
+                  "hit_from": 3,
+                  "hit_to": 74,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "NEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQ",
+                  "hseq": "TEIIRELERSLREQEELAKRLMELLLKLLRLQMTGSSDEDVRRLMLRIIELVEEIEELAREQKYLVEELKRQ",
+                  "midline": " EIIRELERSLREQEELAKRL ELL +L RLQ  GSSDEDVR L+  I ELVEEIE+LAREQKYLVEELKRQ"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|XP_069984701.1|",
+                  "accession": "XP_069984701",
+                  "title": "uncharacterized protein PF3D7_1120000-like [Penaeus vannamei]",
+                  "taxid": 6689,
+                  "sciname": "Penaeus vannamei"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 3.46172e-11,
+                  "identity": 52,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 155,
+                  "hit_from": 40,
+                  "hit_to": 176,
+                  "align_len": 156,
+                  "gaps": 20,
+                  "qseq": "GSHMTRTEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKRQQGPPGNEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLV-EELKRQ",
+                  "hseq": "GTERDVKELIRDVKELIRDVKELIRDVKELIRDVKELIR------DVKELIRDVKELIQDMKELIRDVNELIQDMK--------ELIRDVKELIRDVKELIRDVKELIRDVKELIRD-----DVKELIRDVKELIRDVKELIRDVKELIRDELRRD",
+                  "midline": "G+     E+IR+++  +R+ +EL + +KEL+R+++ L R      DV+EL+R++KEL++++++L R+   L++++K        E+IR+++  +R+ +EL + +KEL+R+++ L R+     DV+EL+R++KEL+ ++++L R+ K L+ +EL+R "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.8474,
+                  "score": 146,
+                  "evalue": 1.21889e-07,
+                  "identity": 53,
+                  "positive": 104,
+                  "query_from": 8,
+                  "query_to": 155,
+                  "hit_from": 68,
+                  "hit_to": 218,
+                  "align_len": 153,
+                  "gaps": 7,
+                  "qseq": "EIIRELERSLREQEELAKRLKELLRELERLQREGSS-DEDVRELLREIKELVEEIEKLAREQKYLVEELKRQQGPPGNEIIRELERSLREQEELAKRLKELLR-ELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYL---VEELKRQ",
+                  "hseq": "ELIRDVKELIRDVKELIRDVKELIQDMKELIRDVNELIQDMKELIRDVKELIRDVKELIRDVKELIRDVKELIRDDVKELIRDVKELIRDVKELIRDVKELIRDELRRDVKELRR--DVKELIRDVKELRRDVNELRRDVKELRRDVNELRRD",
+                  "midline": "E+IR+++  +R+ +EL + +KEL+++++ L R+ +   +D++EL+R++KEL+ ++++L R+ K L+ ++K        E+IR+++  +R+ +EL + +KEL+R EL R  +E     DV+EL+R++KEL  ++ +L R+ K L   V EL+R "
+                },
+                {
+                  "num": 3,
+                  "bit_score": 56.225,
+                  "score": 134,
+                  "evalue": 5.53816e-06,
+                  "identity": 50,
+                  "positive": 98,
+                  "query_from": 8,
+                  "query_to": 149,
+                  "hit_from": 110,
+                  "hit_to": 258,
+                  "align_len": 154,
+                  "gaps": 17,
+                  "qseq": "EIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLV-EELKRQQGP---PGNEIIRELERSLREQEELAKRLKELLRELERLQREGSS--------DEDVRELLREIKELVEEIEKLAREQKYLV",
+                  "hseq": "ELIRDVKELIRDVKELIRDVKELIRDVKELIRD-----DVKELIRDVKELIRDVKELIRDVKELIRDELRRDVKELRRDVKELIRDVKELRRDVNELRRDVKELRRDVNELRRDVKELRRDMEELIRDVKELIRDVKELIRNVKELRRDVNELI",
+                  "midline": "E+IR+++  +R+ +EL + +KEL+R+++ L R+     DV+EL+R++KEL+ ++++L R+ K L+ +EL+R          E+IR+++   R+  EL + +KEL R++  L+R+             DV+EL+R++KEL+  +++L R+   L+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|XP_046550818.1|",
+                  "accession": "XP_046550818",
+                  "title": "cilia- and flagella-associated protein 57-like [Haliotis rubra]",
+                  "taxid": 36100,
+                  "sciname": "Haliotis rubra"
+                }
+              ],
+              "len": 263,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 0.000568445,
+                  "identity": 41,
+                  "positive": 95,
+                  "query_from": 11,
+                  "query_to": 153,
+                  "hit_from": 92,
+                  "hit_to": 222,
+                  "align_len": 150,
+                  "gaps": 26,
+                  "qseq": "RELERSLREQEELAKRLKELLRELERLQREGSSD--EDVRELLREIKELVEEIEKLAREQKYLVEELKRQQGPPGNEIIRELERSLREQEELAKRLKELLRELERLQREGSSD-----EDVRELLREIKELVEEIEKLAREQKYLVEELK",
+                  "hseq": "QDVNESVQHVKELVQDVKESMQDV----KETVQDLVQDVKELVQDVKELVQDVKELVQDVKELVQDVK------------ELLQNVK---ELVQDVKELQQDMNGVNARCKGDVKELVQDVKELVQDVKELVQDVKELLQNVKELVQDVK",
+                  "midline": "+++  S++  +EL + +KE ++++    +E   D  +DV+EL++++KELV+++++L ++ K LV+++K            EL ++++   EL + +KEL +++  +      D     +DV+EL++++KELV+++++L +  K LV+++K"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.9062,
+                  "score": 115,
+                  "evalue": 0.00215206,
+                  "identity": 41,
+                  "positive": 93,
+                  "query_from": 8,
+                  "query_to": 144,
+                  "hit_from": 103,
+                  "hit_to": 227,
+                  "align_len": 142,
+                  "gaps": 22,
+                  "qseq": "EIIRELERSLREQEE----LAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLAREQKYLVEELKR-QQGPPGNEIIRELERSLREQEELAKRLKELLRELERLQREGSSDEDVRELLREIKELVEEIEKLARE",
+                  "hseq": "ELVQDVKESMQDVKETVQDLVQDVKELVQDVKELVQ------DVKELVQDVKELVQDVKELLQNVKELVQDVKELQQDMNGVN-----ARCKGDVKELVQDVKELVQDVKELVQ------DVKELLQNVKELVQDVKELQQD",
+                  "midline": "E++++++ S+++ +E    L + +KEL+++++ L +      DV+EL++++KELV+++++L +  K LV+++K  QQ   G        R   + +EL + +KEL+++++ L +      DV+ELL+ +KELV+++++L ++"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.00858572,
+                  "identity": 40,
+                  "positive": 98,
+                  "query_from": 11,
+                  "query_to": 153,
+                  "hit_from": 13,
+                  "hit_to": 155,
+                  "align_len": 153,
+                  "gaps": 20,
+                  "qseq": "RELERSLREQEELAKRLKELLRELERLQREGSSD--EDVRELLREIKELVEEIEKLAREQKYLVEELKRQ------QGPPGNEIIRELERSLREQEELAKRLKELLRELERLQREGSSD--EDVRELLREIKELVEEIEKLAREQKYLVEELK",
+                  "hseq": "QDVNESVQHVKELVQDVKESMQDV----KETVQDLVQDVKELVQDVKELVQDVKELLEDVKETVQDVSESKMLWELQDVVG--VRQDVNESVQHVKELVQDVKESMQDV----KETVQDLVQDVKELVQDVKELVQDVKELVQDVKELVQDVK",
+                  "midline": "+++  S++  +EL + +KE ++++    +E   D  +DV+EL++++KELV+++++L  + K  V+++         Q   G  + +++  S++  +EL + +KE ++++    +E   D  +DV+EL++++KELV+++++L ++ K LV+++K"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

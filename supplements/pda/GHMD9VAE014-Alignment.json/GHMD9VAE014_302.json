@@ -1,0 +1,396 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236421",
+          "query_title": "7osu_A",
+          "query_len": 194,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5BVL|A",
+                  "accession": "5BVL_A",
+                  "title": "Chain A, designed TIM barrel sTIM11 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 194,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 359.377,
+                  "score": 921,
+                  "evalue": 1.86117e-124,
+                  "identity": 188,
+                  "positive": 192,
+                  "query_from": 1,
+                  "query_to": 194,
+                  "hit_from": 1,
+                  "hit_to": 194,
+                  "align_len": 194,
+                  "gaps": 0,
+                  "qseq": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATGLEHHHHHH",
+                  "hseq": "MDKDEAWKCVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATQIAYRSDDWRDLKEAWKKGADILICDATGLEHHHHHH",
+                  "midline": "MDKDEAWK VEQLRREGAT+IAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGAT+IAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGAT+IAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGAT+IAYRSDDWRDLKEAWKKGADILI DATGLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8R8N|A",
+                  "accession": "8R8N_A",
+                  "title": "Chain A, HalluTIM2-2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 297.745,
+                  "score": 761,
+                  "evalue": 3.19645e-99,
+                  "identity": 173,
+                  "positive": 177,
+                  "query_from": 1,
+                  "query_to": 185,
+                  "hit_from": 1,
+                  "hit_to": 243,
+                  "align_len": 243,
+                  "gaps": 58,
+                  "qseq": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATD-------------------------------KDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDE---------------------------AWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDAT",
+                  "hseq": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVSSKADDYRARAAAAAKELGNVKPIVDALLAEAKKARDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKNEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDVNARIEKRRKKLAAEGRTDPAVIEAEAAKAREEGWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDAT",
+                  "midline": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIV +                                 +DEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDK+EAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVD   + E                            WKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDAT"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|6Z2I|A",
+                  "accession": "6Z2I_A",
+                  "title": "Chain A, de novo designed TIM barrel DeNovoTIM6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 194,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 293.893,
+                  "score": 751,
+                  "evalue": 1.25459e-98,
+                  "identity": 161,
+                  "positive": 169,
+                  "query_from": 1,
+                  "query_to": 189,
+                  "hit_from": 1,
+                  "hit_to": 189,
+                  "align_len": 189,
+                  "gaps": 0,
+                  "qseq": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATGLEH",
+                  "hseq": "MDKDEAWKQVEILRRLGAKQIAYRSDDWRDLQEALKKGGDILIVDATDKDEAWKQVEILRRLGAKQIAYRSDDWRDLQEALKKGGDILIVDATDKDEAWKQVEILRRLGAKQIAYRSDDWRDLQEALKKGGDILIVDATDKDEAWKQVEILRRLGAKQIAYRSDDWRDLQEALKKGGDILIVDATGLEH",
+                  "midline": "MDKDEAWKQVE LRR GA +IAYRSDDWRDL+EA KKG DILIVDATDKDEAWKQVE LRR GA +IAYRSDDWRDL+EA KKG DILIVDATDKDEAWKQVE LRR GA +IAYRSDDWRDL+EA KKG DILIVDATDKDEAWKQVE LRR GA +IAYRSDDWRDL+EA KKG DILIVDATGLEH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|8R8O|A",
+                  "accession": "8R8O_A",
+                  "title": "Chain A, HalluTIM3-1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 275,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 273.478,
+                  "score": 698,
+                  "evalue": 2.23093e-89,
+                  "identity": 171,
+                  "positive": 175,
+                  "query_from": 1,
+                  "query_to": 185,
+                  "hit_from": 1,
+                  "hit_to": 267,
+                  "align_len": 267,
+                  "gaps": 82,
+                  "qseq": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATD---------------------------KDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKD---------------------------EAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDA----------------TDKDE------------AWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDAT",
+                  "hseq": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDASRLREAADAARAAGEATGDEELIAKAEAYRDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDGLRRGRIARELERLAKEEGDPALLAAAEAAREAAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDNRARLRRAEEEVAETGDPDNEELIRETRERAREEGWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDAT",
+                  "midline": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDA+                            +DEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVD   +                             AWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVD                  D +E             WKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDAT"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|7P12|A",
+                  "accession": "7P12_A",
+                  "title": "Chain A, DeNovoTIM13-SB [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 193,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 254.988,
+                  "score": 650,
+                  "evalue": 3.2776e-83,
+                  "identity": 141,
+                  "positive": 145,
+                  "query_from": 1,
+                  "query_to": 185,
+                  "hit_from": 1,
+                  "hit_to": 185,
+                  "align_len": 185,
+                  "gaps": 0,
+                  "qseq": "MDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDAT",
+                  "hseq": "MDVDEMLKQVEILRRLGAKRIAVRSDDWRILQEALKKGGDILIVDATDVDEMLKQVEILRRLGAKEIAVRSDDWRILQEALKKGGDILIVDATDVDEMLKQVEILRRLGAKRIAVRSDDWRILQEALKKGGDILIVDATDVDEMLKQVEILRRLGAKEIAVRSDDWRILQEALKKGGDILIVDAT",
+                  "midline": "MD DE  KQVE LRR GA RIA RSDDWR L+EA KKG DILIVDATD DE  KQVE LRR GA EIA RSDDWR L+EA KKG DILIVDATD DE  KQVE LRR GA RIA RSDDWR L+EA KKG DILIVDATD DE  KQVE LRR GA EIA RSDDWR L+EA KKG DILIVDAT"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|6WXP|A",
+                  "accession": "6WXP_A",
+                  "title": "Chain A, TFD-EE [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.523,
+                  "score": 249,
+                  "evalue": 8.01128e-23,
+                  "identity": 74,
+                  "positive": 84,
+                  "query_from": 39,
+                  "query_to": 176,
+                  "hit_from": 4,
+                  "hit_to": 172,
+                  "align_len": 185,
+                  "gaps": 63,
+                  "qseq": "ADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDL--------KEAWKKGADI--------LIVDAT-------------------------------DKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKG",
+                  "hseq": "GDILIVNAKDVDEMLKQVEILRRLGAKQIAVESSDWRILQEALKKGGDILIVNG----------------GGMTITFRGDDLEALLKAAIEMIKQALKFGATITLSLDGNDLNINITGVPEQVRKELAKEAERLAKEFGITVTRTGGGDVDEMLKQVEILRRLGAKQIAVESDDWRILQEALKKG",
+                  "midline": " DILIV+A D DE  KQVE LRR GA +IA  S DWR L+EA KKG DILIV+                 G   I +R DD   L        K+A K GA I        L ++ T                               D DE  KQVE LRR GA +IA  SDDWR L+EA KKG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 2.24153e-18,
+                  "identity": 68,
+                  "positive": 77,
+                  "query_from": 2,
+                  "query_to": 130,
+                  "hit_from": 13,
+                  "hit_to": 172,
+                  "align_len": 176,
+                  "gaps": 63,
+                  "qseq": "DKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDL--------KEAWKKGADI--------LIVDAT-------------------------------DKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKG",
+                  "hseq": "DVDEMLKQVEILRRLGAKQIAVESSDWRILQEALKKGGDILIVNG----------------GGMTITFRGDDLEALLKAAIEMIKQALKFGATITLSLDGNDLNINITGVPEQVRKELAKEAERLAKEFGITVTRTGGGDVDEMLKQVEILRRLGAKQIAVESDDWRILQEALKKG",
+                  "midline": "D DE  KQVE LRR GA +IA  S DWR L+EA KKG DILIV+                 G   I +R DD   L        K+A K GA I        L ++ T                               D DE  KQVE LRR GA +IA  SDDWR L+EA KKG"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 7.56058e-12,
+                  "identity": 36,
+                  "positive": 41,
+                  "query_from": 131,
+                  "query_to": 187,
+                  "hit_from": 4,
+                  "hit_to": 60,
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "ADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATGL",
+                  "hseq": "GDILIVNAKDVDEMLKQVEILRRLGAKQIAVESSDWRILQEALKKGGDILIVNGGGM",
+                  "midline": " DILIV+A D DE  KQVE LRR GA +IA  S DWR L+EA KKG DILIV+  G+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|XP_066497551.1|",
+                  "accession": "XP_066497551",
+                  "title": "nebulette-like isoform X1 [Hoplias malabaricus]",
+                  "taxid": 27720,
+                  "sciname": "Hoplias malabaricus"
+                }
+              ],
+              "len": 1227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 3.51815e-06,
+                  "identity": 60,
+                  "positive": 87,
+                  "query_from": 10,
+                  "query_to": 181,
+                  "hit_from": 700,
+                  "hit_to": 841,
+                  "align_len": 172,
+                  "gaps": 30,
+                  "qseq": "VEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILI",
+                  "hseq": "MEMQRAKKASEIASQKEYRKDLREIIGKGGDI----STD------SMEMQRAKKASEIASQKEYRKDLKEIIGKGGDI----STD------SMEMQRAKKASEIASQKEYRKDLKEIIGKGVDISI-DSMEIQRAKK---------ASEIASQKEYRKDLKEIIGKGGDISI",
+                  "midline": "+E  R + A+ IA + +  +DL+E   KG DI    +TD       +E  R + A+EIA + +  +DLKE   KG DI    +TD       +E  R + A+ IA + +  +DLKE   KG DI I D+ +   A K         A+EIA + +  +DLKE   KG DI I"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.151,
+                  "score": 139,
+                  "evalue": 5.03935e-06,
+                  "identity": 58,
+                  "positive": 85,
+                  "query_from": 13,
+                  "query_to": 181,
+                  "hit_from": 667,
+                  "hit_to": 805,
+                  "align_len": 169,
+                  "gaps": 30,
+                  "qseq": "LRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILI",
+                  "hseq": "LRVKNAGKVISEKEYRKDLKEIIGKGVDI----STD------SMEMQRAKKASEIASQKEYRKDLREIIGKGGDI----STD------SMEMQRAKKASEIASQKEYRKDLKEIIGKGGDI----STD------SMEMQRAKKASEIASQKEYRKDLKEIIGKGVDISI",
+                  "midline": "LR + A ++    +  +DLKE   KG DI    +TD       +E  R + A+EIA + +  +DL+E   KG DI    +TD       +E  R + A+ IA + +  +DLKE   KG DI    +TD       +E  R + A+EIA + +  +DLKE   KG DI I"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 58.151,
+                  "score": 139,
+                  "evalue": 5.53902e-06,
+                  "identity": 60,
+                  "positive": 86,
+                  "query_from": 10,
+                  "query_to": 179,
+                  "hit_from": 736,
+                  "hit_to": 875,
+                  "align_len": 170,
+                  "gaps": 30,
+                  "qseq": "VEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADI",
+                  "hseq": "MEMQRAKKASEIASQKEYRKDLKEIIGKGGDI----STD------SMEMQRAKKASEIASQKEYRKDLKEIIGKGVDISI-DSMEIQRAKK---------ASEIASQKEYRKDLKEIIGKGGDISI-DS---------MEMQRAKKASEIASQKEYRKDLKEIIGKGGDI",
+                  "midline": "+E  R + A+ IA + +  +DLKE   KG DI    +TD       +E  R + A+EIA + +  +DLKE   KG DI I D+ +   A K         A+ IA + +  +DLKE   KG DI I D+         +E  R + A+EIA + +  +DLKE   KG DI"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 51.9878,
+                  "score": 123,
+                  "evalue": 0.000664569,
+                  "identity": 58,
+                  "positive": 86,
+                  "query_from": 14,
+                  "query_to": 179,
+                  "hit_from": 884,
+                  "hit_to": 1019,
+                  "align_len": 166,
+                  "gaps": 30,
+                  "qseq": "RREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADI",
+                  "hseq": "RAKKASEIASQKEYRKDLKEIIGKGGDI----STD------SMEMQRAKKASEIAREKEYRKDLKEIIGKGGDI----STDSME----IQRAKR--ASEIAREKEYRKDLKEIIGKGGDI----STDSME----IQRAKR--ASEIAREKDYRKDLKDILGRGVDI",
+                  "midline": "R + A+ IA + +  +DLKE   KG DI    +TD       +E  R + A+EIA   +  +DLKE   KG DI    +TD  E    +++ +R  A+ IA   +  +DLKE   KG DI    +TD  E    +++ +R  A+EIA   D  +DLK+   +G DI"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|XP_076044476.1|",
+                  "accession": "XP_076044476",
+                  "title": "uncharacterized protein LOC143027193 isoform X2 [Oratosquilla oratoria]",
+                  "taxid": 337810,
+                  "sciname": "Oratosquilla oratoria"
+                }
+              ],
+              "len": 2777,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 7.15321e-05,
+                  "identity": 39,
+                  "positive": 78,
+                  "query_from": 2,
+                  "query_to": 174,
+                  "hit_from": 875,
+                  "hit_to": 1042,
+                  "align_len": 176,
+                  "gaps": 11,
+                  "qseq": "DKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAW---KKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWK",
+                  "hseq": "DVKEQWRDVKQQSRDVKEQWRDEKEQWRDVKGQWRDVKEQSRNGKQQSRDVNQQWRDVKEQSRNGKQQSRDVNQQWRDVNQQWRDVKE----QSRDVKEQSRDVKEQSRDVRQQSRDVKEQWRDVKEQSRDVKE----QSRDVKEQSRDVKEQSRDVKEQSRDVKEQSRDVKEQWR",
+                  "midline": "D  E W+ V+Q  R+   +     + WRD+K  W   K+ +      + D ++ W+ V++  R G  +    +  WRD+ + W+   +     + D  E  + V++  R+   +     + WRD+KE  +   +     + D  E  + V++  R+   +     +  RD+KE W+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 0.000344229,
+                  "identity": 38,
+                  "positive": 73,
+                  "query_from": 2,
+                  "query_to": 174,
+                  "hit_from": 805,
+                  "hit_to": 958,
+                  "align_len": 173,
+                  "gaps": 19,
+                  "qseq": "DKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATRIAYRSDDWRDLKEAWKKGADILIVDATDKDEAWKQVEQLRREGATEIAYRSDDWRDLKEAWK",
+                  "hseq": "DEKQQSRSGKQQSRDGKQQSRSGKQQSRDVKEQSQNGKK----QSRDVKDQWRDVEEQSRDVKQQSRNGKQQSRDVKEQWRD----VKQQSRDVKEQWRDEKEQWRD-------VKGQWRDVKEQSRNGKQ----QSRDVNQQWRDVKEQSRNGKQQSRDVNQQWRDVNQQWR",
+                  "midline": "D+ +  +  +Q  R+G  +        RD+KE  + G       + D  + W+ VE+  R+   +        RD+KE W+     +   + D  E W+  ++  R+           WRD+KE  + G       + D ++ W+ V++  R G  +    +  WRD+ + W+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

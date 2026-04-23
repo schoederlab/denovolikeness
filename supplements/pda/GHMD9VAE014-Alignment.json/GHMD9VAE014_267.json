@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236386",
+          "query_title": "7lmx_A",
+          "query_len": 75,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8TCG|C",
+                  "accession": "8TCG_C",
+                  "title": "Chain C, Minibinder B6_BP_dslf [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 72,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.206,
+                  "score": 365,
+                  "evalue": 1.40018e-43,
+                  "identity": 69,
+                  "positive": 69,
+                  "query_from": 4,
+                  "query_to": 75,
+                  "hit_from": 1,
+                  "hit_to": 72,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "CVVRFVFRGDLATLMLRAVKDHLKKEGPHWNITSTNNGAELVVRGIHESDAKRIAKWVEKRFPGVHTETQCD",
+                  "hseq": "CVVRFVFRGDLAELMLRAVKDHLKKEGPHWNITSTNNGKELVVRGIHESDAKRIAKWVEKRFPRVHTETQCD",
+                  "midline": "CVVRFVFRGDLA LMLRAVKDHLKKEGPHWNITSTNNG ELVVRGIHESDAKRIAKWVEKRFP VHTETQCD"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8TCF|C",
+                  "accession": "8TCF_C",
+                  "title": "Chain C, Minibinder B8_BP_dslf [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 75,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.78517e-32,
+                  "identity": 56,
+                  "positive": 61,
+                  "query_from": 2,
+                  "query_to": 75,
+                  "hit_from": 1,
+                  "hit_to": 75,
+                  "align_len": 75,
+                  "gaps": 1,
+                  "qseq": "TKCVVRFVFRGDLATLMLRAVKDHLKKEGPHWNITSTNNG-AELVVRGIHESDAKRIAKWVEKRFPGVHTETQCD",
+                  "hseq": "TKCVVRFNFRGDMAVYALKAVKDHLKKEGPHWNITTHNDDEVYLVVRGIHESDAKRIAKWVESTIPGISVETQCD",
+                  "midline": "TKCVVRF FRGD+A   L+AVKDHLKKEGPHWNIT+ N+    LVVRGIHESDAKRIAKWVE   PG+  ETQCD"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|7LMV|A",
+                  "accession": "7LMV_A",
+                  "title": "Chain A, Integrin inhibitor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 70,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 1.59582e-26,
+                  "identity": 53,
+                  "positive": 55,
+                  "query_from": 4,
+                  "query_to": 73,
+                  "hit_from": 1,
+                  "hit_to": 64,
+                  "align_len": 70,
+                  "gaps": 6,
+                  "qseq": "CVVRFVFRGDLATLMLRAVKDHLKKEGPHWNITSTNNGAELVVRGIHESDAKRIAKWVEKRFPGVHTETQ",
+                  "hseq": "AVVRFVFRGDLAELMLRAVKDHLKKEGPHWNITSRGN--ELVVRGIHESDAKRI----QKEFPSVQSTIQ",
+                  "midline": " VVRFVFRGDLA LMLRAVKDHLKKEGPHWNITS  N  ELVVRGIHESDAKRI    +K FP V +  Q"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

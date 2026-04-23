@@ -1,0 +1,678 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236213",
+          "query_title": "6kos_A",
+          "query_len": 102,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|6KOS|A",
+                  "accession": "6KOS_A",
+                  "title": "Chain A, SUWA (Super WA20) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 195.667,
+                  "score": 496,
+                  "evalue": 1.02e-62,
+                  "identity": 102,
+                  "positive": 102,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "midline": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|3VJF|A",
+                  "accession": "3VJF_A",
+                  "title": "Chain A, WA20 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 167.548,
+                  "score": 423,
+                  "evalue": 1.53694e-51,
+                  "identity": 88,
+                  "positive": 90,
+                  "query_from": 2,
+                  "query_to": 102,
+                  "hit_from": 2,
+                  "hit_to": 102,
+                  "align_len": 101,
+                  "gaps": 0,
+                  "qseq": "YGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "YGKLNKLVEHIKELLQQLNKNWHRHQGNLHDXNQQXEQLFQEFQHFXQGNQDDGKLQNXIHEXQQFXNQVDNHLQSESDTVHHFHNKLQELXNNFHHLVHR",
+                  "midline": "YGKLNKLVEHIKELLQQLNKNWHR Q NLHD  QQ EQLFQEFQHF QGNQDDGKLQN IHE QQF NQ+DNHLQS SDTVHHFHNKLQEL NNFHHLVH+"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "emb|CBX55929.1|",
+                  "accession": "CBX55929",
+                  "title": "Syn-Fes-4 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 2.47505e-34,
+                  "identity": 63,
+                  "positive": 80,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNQLLKQINDILQNMNKNWHHEGENLHDLDQQMDNLMHDLHHFMQGKRDRGKLQDMIHEMQQFMNQVDNHLQSESDTVHHLDNKLNNILDHLDHLVHR",
+                  "midline": "MYGKLN+L++ I ++LQ +NKNWH    NLHD+ QQM+ L  +  HFMQG +D GKLQ+MIHEMQQFMNQ+DNHLQS SDTVHH  NKL  ++++  HLVH+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "emb|CBX55920.1|",
+                  "accession": "CBX55920",
+                  "title": "Syn-GltA-1 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 107.457,
+                  "score": 267,
+                  "evalue": 9.66237e-28,
+                  "identity": 51,
+                  "positive": 81,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNHIINHLQDLLDKLDKNWHRDRNNLHDMKNKLQELLKDFKDFMQGKRRNGKLQNILHQLQNILNDLDNHLQNQHGTVHHFNQELEHVFQNLHNLVHR",
+                  "midline": "MYGKLN ++ H+++LL +L+KNWHR ++NLHDM  ++++L ++F+ FMQG + +GKLQN++H++Q  +N LDNHLQ+   TVHHF+ +L+ +  N H+LVH+"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "emb|CBX55919.1|",
+                  "accession": "CBX55919",
+                  "title": "Syn-SerB-4 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 103.219,
+                  "score": 256,
+                  "evalue": 3.69377e-26,
+                  "identity": 52,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNKLLQEMEELMKQLNKNWHQNDRNLHDLKHQIKHFMKQLNDFMQGERGNGKLQQVIKEMKNLVNQMNNHLQERNHTVHHFHQQFQHMLQNLHHLVHR",
+                  "midline": "MYGKLNKL++ ++EL++QLNKNWH+   NLHD+  Q++   ++   FMQG + +GKLQ +I EM+  +NQ++NHLQ  + TVHHFH + Q ++ N HHLVH+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "emb|CBX55918.1|",
+                  "accession": "CBX55918",
+                  "title": "Syn-SerB-3 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 1.47306e-24,
+                  "identity": 49,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNHIINHLKDLVNQLNKNWHNDRKNLHDLDQNIKQMFENLDNFMQGKENDGKLQKFMKDLKEMFHQLHNHLQQRRDTVHHFKQEVHHFIHQFKHLVHR",
+                  "midline": "MYGKLN ++ H+K+L+ QLNKNWH  + NLHD+ Q ++Q+F+   +FMQG ++DGKLQ  + ++++  +QL NHLQ   DTVHHF  ++   ++ F HLVH+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "emb|CBX55928.1|",
+                  "accession": "CBX55928",
+                  "title": "Syn-Fes-3 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.5969,
+                  "score": 244,
+                  "evalue": 2.83887e-24,
+                  "identity": 46,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNELLQDLDELIKQMHKNWHHKRSNLHDMKHELDKLVDDVKDFMQGKEGSGKLQQLLDEIKDMLKEFNNHLQNRSDTVHHLEENVQKIIQNLNHLVHR",
+                  "midline": "MYGKLN+L++ + EL++Q++KNWH  +SNLHDM  ++++L  + + FMQG +  GKLQ ++ E++  + + +NHLQ+ SDTVHH    +Q+++ N +HLVH+"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "emb|CBX55922.1|",
+                  "accession": "CBX55922",
+                  "title": "Syn-IlvA-2 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.4413,
+                  "score": 241,
+                  "evalue": 9.14543e-24,
+                  "identity": 48,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNQLFHNLNEIVEDLNKNWHRESRNLHDFEDELHQLVKHFHHFMQGHKNEGKLQDIVKQLDKLFKDLDNHLQRKDDTVHHLHHQLNKLLEQLDNLVHR",
+                  "midline": "MYGKLN+L  ++ E+++ LNKNWHR   NLHD   ++ QL + F HFMQG++++GKLQ+++ ++ +    LDNHLQ   DTVHH H++L +L+    +LVH+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "emb|CBX55932.1|",
+                  "accession": "CBX55932",
+                  "title": "Syn-Fes-7 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.6709,
+                  "score": 239,
+                  "evalue": 1.47946e-23,
+                  "identity": 48,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNKIIQHIDHMLNKLHKNWHHEHRNLHDLDKHLQNLLHHLDHFMQGRERGGKLQQMMNQLEQIIKQLNNHLQRKEGTVHHLKDDLQQILDNLHDLVHR",
+                  "midline": "MYGKLNK+++HI  +L +L+KNWH    NLHD+ + ++ L     HFMQG +  GKLQ M+++++Q + QL+NHLQ    TVHH  + LQ++++N H LVH+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "emb|CBX55917.1|",
+                  "accession": "CBX55917",
+                  "title": "Syn-SerB-2 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.2857,
+                  "score": 238,
+                  "evalue": 2.07622e-23,
+                  "identity": 49,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNKLLKQLEDFLKQLNKNWHGSSGNLHDLDHHLENFIDQFQHFMQGKKKSGKLQQMLNEVEELLEKLHNHLQREDRTVHHLQHKLDNVLQHLDHLVHR",
+                  "midline": "MYGKLNKL++ +++ L+QLNKNWH    NLHD+   +E    +FQHFMQG +  GKLQ M++E+++ + +L NHLQ    TVHH  +KL  ++ +  HLVH+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "emb|CBX55931.1|",
+                  "accession": "CBX55931",
+                  "title": "Syn-Fes-6 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 1.12985e-22,
+                  "identity": 49,
+                  "positive": 69,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNQMLNQIEDMVNKLNKNWHGSGENLHDLKHNLEQVLQHLNNFMQGHRQNGKLQNIIKELQELVKHFHNHLQEKGGTVHHVQNKLNELMKQIDDLVHR",
+                  "midline": "MYGKLN+++  I++++ +LNKNWH    NLHD+   +EQ+ Q   +FMQG++ +GKLQN+I E+Q+ +    NHLQ    TVHH  NKL ELM     LVH+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "emb|CBX55933.1|",
+                  "accession": "CBX55933",
+                  "title": "Syn-Fes-8 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 1.39058e-22,
+                  "identity": 46,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNKLMNELHDILDHLHKNWHRESRNLHDLEEKVDNLMHNVDNFMQGNDNHGKLQQLLDKMKQMLDHIDNHLQRKGQTVHHLEDKMDQMLDNLQHLVHR",
+                  "midline": "MYGKLNKL+  + ++L  L+KNWHR   NLHD+ ++++ L     +FMQGN + GKLQ ++ +M+Q ++ +DNHLQ    TVHH  +K+ ++++N  HLVH+"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "emb|CBX55927.1|",
+                  "accession": "CBX55927",
+                  "title": "Syn-Fes-2 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 2.95565e-22,
+                  "identity": 48,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNQFIQELQHLLHELHKNWHDKEHNLHDIHHELDQFLNEVDHFMQGESHDGKLQNILKHMNHLIDQLNNHLQKESQTVHHVQNQLKDFLNELQNLVHR",
+                  "midline": "MYGKLN+ ++ ++ LL +L+KNWH  + NLHD+  +++Q   E  HFMQG   DGKLQN++  M   ++QL+NHLQ  S TVHH  N+L++ +N   +LVH+"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "emb|CBX55923.1|",
+                  "accession": "CBX55923",
+                  "title": "Syn-IlvA-3 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 4.13087e-22,
+                  "identity": 53,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 106,
+                  "gaps": 5,
+                  "qseq": "MYGKLNKLVEHI----KELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNHLMEQIEHLMKQLLKQLDKNWRGQQRNLHDIEEELNQIIKNLKDFMQGKQDGGKLQNFLQDLHHLLDQLNNHLQSGKGTVHHLQH-IQELLNQLDHLVHR",
+                  "midline": "MYGKLN L+E I    K+LL+QL+KNW   Q NLHD+ +++ Q+ +  + FMQG QD GKLQN + ++   ++QL+NHLQS   TVHH  + +QEL+N   HLVH+"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "emb|CBX55926.1|",
+                  "accession": "CBX55926",
+                  "title": "Syn-Fes-1 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.8189,
+                  "score": 229,
+                  "evalue": 5.44991e-22,
+                  "identity": 44,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNKLMKELEEFIQQVDKNWHGNGGNLHDLHQEVKHMIKNLHNFMQGDHENGKLQEVLQQLNHLLQEMHNHLQKRSNTVHHLKNDINQLLDDFHNLVHR",
+                  "midline": "MYGKLNKL++ ++E +QQ++KNWH    NLHD+ Q+++ + +   +FMQG+ ++GKLQ ++ ++   + ++ NHLQ  S+TVHH  N + +L+++FH+LVH+"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "emb|CBX55930.1|",
+                  "accession": "CBX55930",
+                  "title": "Syn-Fes-5 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.0485,
+                  "score": 227,
+                  "evalue": 1.22321e-21,
+                  "identity": 46,
+                  "positive": 76,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNQMMHKMDHLLQQLNKNWHERSGNLHDIHDKLDNLVEELKHFMQGKEHHGKLQDLLNQLENIMHKLNNHLQHKKSTVHHVQNELEKMLQHLNNLVHR",
+                  "midline": "MYGKLN+++  +  LLQQLNKNWH    NLHD+  +++ L +E +HFMQG +  GKLQ+++++++  M++L+NHLQ    TVHH  N+L++++ + ++LVH+"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "emb|CBX55925.1|",
+                  "accession": "CBX55925",
+                  "title": "Syn-IlvA-5 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.1225,
+                  "score": 222,
+                  "evalue": 7.18466e-21,
+                  "identity": 51,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 93,
+                  "hit_from": 1,
+                  "hit_to": 104,
+                  "align_len": 104,
+                  "gaps": 11,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLH-----------DMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELM",
+                  "hseq": "MYGKLNKLMKELKEFLEHFHKNWHERSGNLHDFHHELHHLLHDIDEELEQMMKHMHHFMQGHSDDGKLQNLIHQMQELLKNMDNHLQSNSHTVHHLQQKLDDLV",
+                  "midline": "MYGKLNKL++ +KE L+  +KNWH    NLH           D+ +++EQ+ +   HFMQG+ DDGKLQN+IH+MQ+ +  +DNHLQS S TVHH   KL +L+"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "pdb|1P68|A",
+                  "accession": "1P68_A",
+                  "title": "Chain A, De novo designed protein S-824 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 9.44266e-20,
+                  "identity": 44,
+                  "positive": 68,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNDLLEDLQEVLKNLHKNWHGGKDNLHDVDNHLQNVIEDIHDFMQGGGSGGKLQEMMKEFQQVLDELNNHLQGGKHTVHHIEQNIKEIFHHLEELVHR",
+                  "midline": "MYGKLN L+E ++E+L+ L+KNWH  + NLHD+   ++ + ++   FMQG    GKLQ M+ E QQ +++L+NHLQ    TVHH    ++E+ ++   LVH+"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "pdb|2JUA|A",
+                  "accession": "2JUA_A",
+                  "title": "Chain A, de novo protein S836 [unidentified]",
+                  "taxid": 32644,
+                  "sciname": "unidentified"
+                }
+              ],
+              "len": 102,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.9366,
+                  "score": 167,
+                  "evalue": 1.49924e-12,
+                  "identity": 34,
+                  "positive": 65,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 102,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQGNQDDGKLQNMIHEMQQFMNQLDNHLQSLSDTVHHFHNKLQELMNNFHHLVHK",
+                  "hseq": "MYGKLNDLLEDLQEVLKHVNQHWQGGQKNMNKVDHHLQNVIEDIHDFMQGGGSGGKLQEMMKEFQQVLDEIKQQLQGGDNSLHNVHENIKEIFHHLEELVHR",
+                  "midline": "MYGKLN L+E ++E+L+ +N++W   Q N++ +   ++ + ++   FMQG    GKLQ M+ E QQ ++++   LQ   +++H+ H  ++E+ ++   LVH+"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|WKW76283.1|",
+                  "accession": "WKW76283",
+                  "title": "mini-cAMPase [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 59,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 40.817,
+                  "score": 94,
+                  "evalue": 0.0388267,
+                  "identity": 19,
+                  "positive": 33,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 49,
+                  "align_len": 49,
+                  "gaps": 0,
+                  "qseq": "MYGKLNKLVEHIKELLQQLNKNWHRLQSNLHDMLQQMEQLFQEFQHFMQ",
+                  "hseq": "MYGKLNDLLEDLQEVLKNLHKNDRSGKDNIHDVDNHLQNVIEDIHDFMQ",
+                  "midline": "MYGKLN L+E ++E+L+ L+KN    + N+HD+   ++ + ++   FMQ"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

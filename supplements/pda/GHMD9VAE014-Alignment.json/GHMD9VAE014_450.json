@@ -1,0 +1,313 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236569",
+          "query_title": "5izs_A",
+          "query_len": 95,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5IZS|A",
+                  "accession": "5IZS_A",
+                  "title": "Chain A, Designed protein 5L6HC3_1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 176.792,
+                  "score": 447,
+                  "evalue": 1.77501e-55,
+                  "identity": 95,
+                  "positive": 95,
+                  "query_from": 1,
+                  "query_to": 95,
+                  "hit_from": 1,
+                  "hit_to": 95,
+                  "align_len": 95,
+                  "gaps": 0,
+                  "qseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGSLEHHHHHH",
+                  "hseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGSLEHHHHHH",
+                  "midline": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGSLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "gb|QNQ74182.1|",
+                  "accession": "QNQ74182",
+                  "title": "S3-RAB_EKARev [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 1287,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 173.326,
+                  "score": 438,
+                  "evalue": 1.22195e-47,
+                  "identity": 87,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 87,
+                  "hit_from": 1201,
+                  "hit_to": 1287,
+                  "align_len": 87,
+                  "gaps": 0,
+                  "qseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGS",
+                  "hseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGS",
+                  "midline": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGS"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|QNQ74179.1|",
+                  "accession": "QNQ74179",
+                  "title": "S3-ExRaiAKAR [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 1037,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 170.244,
+                  "score": 430,
+                  "evalue": 1.21866e-46,
+                  "identity": 87,
+                  "positive": 87,
+                  "query_from": 1,
+                  "query_to": 87,
+                  "hit_from": 951,
+                  "hit_to": 1037,
+                  "align_len": 87,
+                  "gaps": 0,
+                  "qseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGS",
+                  "hseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGS",
+                  "midline": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGS"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6XI6|A",
+                  "accession": "6XI6_A",
+                  "title": "Chain A, helical fusion design [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 272,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 7.47096e-31,
+                  "identity": 67,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 77,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEES",
+                  "hseq": "GKELEIVARLQQLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEQEIRKAEAES",
+                  "midline": " +EL  VA LQ+LNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAE+EIR+A+ ES"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|9DRL|A",
+                  "accession": "9DRL_A",
+                  "title": "Chain A, T33-549_B [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 511,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 1.29619e-29,
+                  "identity": 67,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 3,
+                  "hit_to": 79,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "SEELRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEES",
+                  "hseq": "GKELEIVARLQQLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEQEIRKAEAES",
+                  "midline": " +EL  VA LQ+LNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAE+EIR+A+ ES"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|7JH5|A",
+                  "accession": "7JH5_A",
+                  "title": "Chain A, Co-LOCKR: de novo designed protein switch [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 291,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 77.0258,
+                  "score": 188,
+                  "evalue": 2.55936e-14,
+                  "identity": 47,
+                  "positive": 60,
+                  "query_from": 4,
+                  "query_to": 85,
+                  "hit_from": 11,
+                  "hit_to": 92,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "LRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESR",
+                  "hseq": "LEASTKLQRLNIRLAEALLEAIARLQELNLELVYLAVELTDPKRIRDEIKEVKDKSKEIIRRAEKEIDDAAKESEKILEEAR",
+                  "midline": "L A   LQRLNI LA  LLEA+ARLQELN++LV    ELTD K IR+EI++VK++SK I+  AE+EI  A +ES  I +E+R"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 52.373,
+                  "score": 124,
+                  "evalue": 2.34478e-05,
+                  "identity": 41,
+                  "positive": 53,
+                  "query_from": 4,
+                  "query_to": 85,
+                  "hit_from": 107,
+                  "hit_to": 188,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "LRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESR",
+                  "hseq": "LKAIAETQDLNLRAAKAFLEAAAKLQELNIRAVELLVKLTDPATIREALEHAKRRSKEIIDEAERAIRAAKRESERIIEEAR",
+                  "midline": "L+A+A+ Q LN+  A+  LEA A+LQELNI  V    +LTD  TIRE +   K  SK I++EAE  IR AK ES  I +E+R"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|7CBC|A",
+                  "accession": "7CBC_A",
+                  "title": "Chain A, De novo designed switch protein caging a hemagglutinin binder (sCageHA267_1S) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 319,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 57.7658,
+                  "score": 138,
+                  "evalue": 2.90152e-07,
+                  "identity": 47,
+                  "positive": 62,
+                  "query_from": 4,
+                  "query_to": 94,
+                  "hit_from": 9,
+                  "hit_to": 99,
+                  "align_len": 91,
+                  "gaps": 0,
+                  "qseq": "LRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESRGSLEHHHHH",
+                  "hseq": "LEASTKLQRLNIRLAEALLEAXARLQELNLELVYLAVELTDPKRIRDEIKEVKDKSKEIIRRAEKEIDDAAKESEKILEEAREAISGSGSY",
+                  "midline": "L A   LQRLNI LA  LLEA ARLQELN++LV    ELTD K IR+EI++VK++SK I+  AE+EI  A +ES  I +E+R ++     +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 0.000120818,
+                  "identity": 40,
+                  "positive": 52,
+                  "query_from": 4,
+                  "query_to": 85,
+                  "hit_from": 105,
+                  "hit_to": 186,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "LRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAEEEIRRAKEESRYIADESR",
+                  "hseq": "LKAIAETQDLNLRAAKAFLEAAAKLQELNIRAVELLVKLYDPATIREALEHAKRRSKEIIDEAERAIRAAKRESERIIEEAR",
+                  "midline": "L+A+A+ Q LN+  A+  LEA A+LQELNI  V    +L D  TIRE +   K  SK I++EAE  IR AK ES  I +E+R"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 46.595,
+                  "score": 109,
+                  "evalue": 0.00251022,
+                  "identity": 41,
+                  "positive": 50,
+                  "query_from": 4,
+                  "query_to": 67,
+                  "hit_from": 204,
+                  "hit_to": 267,
+                  "align_len": 64,
+                  "gaps": 0,
+                  "qseq": "LRAVADLQRLNIELARKLLEAVARLQELNIDLVRKTSELTDEKTIREEIRKVKEESKRIVEEAE",
+                  "hseq": "LRAHAQLQRLNLELLRELLRALAQLQELNLDLLRLASELTDPDEARKAIARSKRESKRIVEDAE",
+                  "midline": "LRA A LQRLN+EL R+LL A+A+LQELN+DL+R  SELTD    R+ I + K ESKRIVE+AE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

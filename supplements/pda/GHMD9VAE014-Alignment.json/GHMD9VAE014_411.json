@@ -1,0 +1,607 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236530",
+          "query_title": "7mwr_B",
+          "query_len": 249,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7MWR|B",
+                  "accession": "7MWR_B",
+                  "title": "Chain B, LHD101B4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 454.136,
+                  "score": 1167,
+                  "evalue": 3.59201e-160,
+                  "identity": 249,
+                  "positive": 249,
+                  "query_from": 1,
+                  "query_to": 249,
+                  "hit_from": 1,
+                  "hit_to": 249,
+                  "align_len": 249,
+                  "gaps": 0,
+                  "qseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG",
+                  "hseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG",
+                  "midline": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|9DRL|A",
+                  "accession": "9DRL_A",
+                  "title": "Chain A, T33-549_B [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 511,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 402.905,
+                  "score": 1034,
+                  "evalue": 4.52069e-136,
+                  "identity": 222,
+                  "positive": 228,
+                  "query_from": 8,
+                  "query_to": 249,
+                  "hit_from": 247,
+                  "hit_to": 488,
+                  "align_len": 242,
+                  "gaps": 0,
+                  "qseq": "KARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG",
+                  "hseq": "KAIVVAIKVFVLKLSGTSEDEIAEEIARDISELIRKLKEDGSSYEDICEAVATVVDMVVEALKRAGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAAIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG",
+                  "midline": "KA  VA KV  LK SGTSEDEIAEE+AR+ISE+IR LKE GSSYE ICE VA +V  +VEALKR+GTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVA IVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 73.1738,
+                  "score": 178,
+                  "evalue": 9.25816e-11,
+                  "identity": 71,
+                  "positive": 104,
+                  "query_from": 21,
+                  "query_to": 204,
+                  "hit_from": 153,
+                  "hit_to": 342,
+                  "align_len": 191,
+                  "gaps": 8,
+                  "qseq": "RSGTSE-DEIAEEVAREISEVIRTLKESGSSYEV------ICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEV",
+                  "hseq": "RTGDPEVRELARELVRLAVEAAEEVQRNPSSSDVNEALKLIVEAIEAAVQALEAAIEAGDPREREKARELVRLAVEAAEEVQRNPSSKEVNVKLKAIVVAIKVFVLKLSGTSEDEIAEEIARDISELIRKLKEDGSSYEDICEAVATVVDMVVEALKRAGTSEDEIAEIVARVISEVIR-TLKESGSSYEV",
+                  "midline": "R+G  E  E+A E+ R   E    ++ + SS +V      I E +   V  +  A++     E E A  + R+  E    ++ + SS EV  +  A +VA  V  LK SGTSE+EIAE +AR I E+IR LKE GSSYE I E +  +++ V+EALKR+G    EI  I+ ++   V+  T++E  S  EV"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|5CWB|A",
+                  "accession": "5CWB_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 304.294,
+                  "score": 778,
+                  "evalue": 1.69351e-101,
+                  "identity": 168,
+                  "positive": 178,
+                  "query_from": 1,
+                  "query_to": 186,
+                  "hit_from": 3,
+                  "hit_to": 188,
+                  "align_len": 186,
+                  "gaps": 0,
+                  "qseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKI",
+                  "hseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRV",
+                  "midline": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSSYEVI+EC++RI+EE++EALKRSG    EI  I+ ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 186.422,
+                  "score": 472,
+                  "evalue": 3.93137e-55,
+                  "identity": 115,
+                  "positive": 126,
+                  "query_from": 50,
+                  "query_to": 204,
+                  "hit_from": 2,
+                  "hit_to": 155,
+                  "align_len": 155,
+                  "gaps": 1,
+                  "qseq": "SYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEV",
+                  "hseq": "SYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIR-TLKESGSSYEV",
+                  "midline": "SYE  CE  AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSSYEVI EC+ RI+ E++EALKRSG    EI  I+ ++   V+  T++E  S  EV"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|8CWY|A",
+                  "accession": "8CWY_A",
+                  "title": "Chain A, T32-15-1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 451,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 281.952,
+                  "score": 720,
+                  "evalue": 2.24236e-89,
+                  "identity": 165,
+                  "positive": 176,
+                  "query_from": 3,
+                  "query_to": 204,
+                  "hit_from": 1,
+                  "hit_to": 201,
+                  "align_len": 202,
+                  "gaps": 1,
+                  "qseq": "DECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEV",
+                  "hseq": "DEAEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIR-TLKESGSSAEV",
+                  "midline": "DE EEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSSYEVI E + RI+ E++EALKRSG    EI  I+ ++   V+  T++E  S  EV"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 241.506,
+                  "score": 615,
+                  "evalue": 1.13028e-73,
+                  "identity": 153,
+                  "positive": 168,
+                  "query_from": 1,
+                  "query_to": 211,
+                  "hit_from": 99,
+                  "hit_to": 308,
+                  "align_len": 211,
+                  "gaps": 1,
+                  "qseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGL",
+                  "hseq": "YEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSAEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSSILIALIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIR-TLKESGSSYEIIALIVAM",
+                  "midline": "YE   E  AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS EVI E VARIVAEIVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSS  +I   + RI+ E++EALKRSG    EI  I+ ++   V+  T++E  S  E+  +I  +"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 231.106,
+                  "score": 588,
+                  "evalue": 1.42743e-69,
+                  "identity": 154,
+                  "positive": 168,
+                  "query_from": 1,
+                  "query_to": 226,
+                  "hit_from": 149,
+                  "hit_to": 362,
+                  "align_len": 227,
+                  "gaps": 14,
+                  "qseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHR-SGNEVKVVIKGLHESQQEELLELVLRA",
+                  "hseq": "YEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSAEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSSILIALIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEIIALIVAMIVAEIVRALLRSGTSEEEIA----KIVARVMNEVLRTLRESGSDFEVI---------REILRLILAA",
+                  "midline": "YE   E  AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSS EVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS  +I   VARIVAEIVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSSYE+I   +  I+ E++ AL RSG    EI     KI   VM   +   R SG++ +V+          E+L L+L A"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 230.335,
+                  "score": 586,
+                  "evalue": 3.0637e-69,
+                  "identity": 144,
+                  "positive": 166,
+                  "query_from": 9,
+                  "query_to": 220,
+                  "hit_from": 207,
+                  "hit_to": 419,
+                  "align_len": 213,
+                  "gaps": 1,
+                  "qseq": "ARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGV-TMEEHRSGNEVKVVIKGLHESQQEELL",
+                  "hseq": "ARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSSILIALIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEIIALIVAMIVAEIVRALLRSGTSEEEIAKIVARVMNEVLRTLRESGSDFEVIREILRLILAAIRAALQKGGVSEDEIMRIEIKILLMLLRLSTAELERATRSLKAITEELKKNPSEDAL",
+                  "midline": "AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSS  +I   VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYE+I   VA IVAEIV AL RSGTSEEEIA+IVARV+ EV+RTL+ESGS +EVIRE LR IL  +  AL++ GV   EI+ I IKI + ++ + T E  R+   +K + + L ++  E+ L"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|6VFI|A",
+                  "accession": "6VFI_A",
+                  "title": "Chain A, O43_dn18A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 209,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 261.922,
+                  "score": 668,
+                  "evalue": 8.8625e-85,
+                  "identity": 150,
+                  "positive": 167,
+                  "query_from": 3,
+                  "query_to": 202,
+                  "hit_from": 2,
+                  "hit_to": 200,
+                  "align_len": 200,
+                  "gaps": 1,
+                  "qseq": "DECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGN",
+                  "hseq": "DRCEELARRIAEVVERAKRAGTSEDEIAESVARVISLVIRALKLSGSSYEVICECVARIVAEIVEALKRSGTSAVEIAKIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSAAIIALIVALVISEVIRTLKESGSSFEVILECVIRIVLEIIEALKRSGTSEQDVMLIVMAVLLVVLA-TLQLSGSGG",
+                  "midline": "D CEE ARR+AE VER KR+GTSEDEIAE VAR IS VIR LK SGSSYEVICECVARIVAEIVEALKRSGTS  EIA+IVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTS   IA IVA VI EVIRTLKESGSS+EVI EC+ RI+ E+IEALKRSG    +++LI++ + + V+  T++   SG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 187.193,
+                  "score": 474,
+                  "evalue": 1.84318e-55,
+                  "identity": 113,
+                  "positive": 122,
+                  "query_from": 1,
+                  "query_to": 149,
+                  "hit_from": 50,
+                  "hit_to": 198,
+                  "align_len": 149,
+                  "gaps": 0,
+                  "qseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGS",
+                  "hseq": "YEVICECVARIVAEIVEALKRSGTSAVEIAKIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSAAIIALIVALVISEVIRTLKESGSSFEVILECVIRIVLEIIEALKRSGTSEQDVMLIVMAVLLVVLATLQLSGS",
+                  "midline": "YE  CE  AR VAE VE LKRSGTS  EIA+ VAR ISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTS   IA IVA VISEVIRTLKESGSS+EVI ECV RIV EI+EALKRSGTSE+++  IV  V+  V+ TL+ SGS"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 3.40334e-18,
+                  "identity": 71,
+                  "positive": 96,
+                  "query_from": 55,
+                  "query_to": 204,
+                  "hit_from": 4,
+                  "hit_to": 152,
+                  "align_len": 175,
+                  "gaps": 51,
+                  "qseq": "CECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARV-------------------------IQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEV",
+                  "hseq": "CEELARRIAEVVERAKRAGTSEDEIA-------------------------ESVARVISLVIRALKLSGSSYEVICECVARIVAEIVEALKRSGTSAVEIAKIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSG-TSAAIIALIVALVISEVIRTLKESGSSFEV",
+                  "midline": "CE +AR +AE+VE  KR+GTSEDEIA                         E VAR+++ ++ ALK SG+S E I E VAR+                         I EVIRTLKESGSSYEVI EC+ RI+ E++EALKRSG  S+ I+ +I+ + ++ +  T++E  S  EV"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|9DCX|A",
+                  "accession": "9DCX_A",
+                  "title": "Chain A, Designed allosteric facilitated dissociation switch AS1 H [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 264,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 8.88181e-29,
+                  "identity": 67,
+                  "positive": 80,
+                  "query_from": 148,
+                  "query_to": 248,
+                  "hit_from": 161,
+                  "hit_to": 259,
+                  "align_len": 101,
+                  "gaps": 2,
+                  "qseq": "GSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVR",
+                  "hseq": "GASAERLKEA-EAIVKELIAAAEK-GASPQELVLLVIEMMVKGMGVTMETHRSGNEVKVVIKGLHESQQEVLLEAVLFAAELMGVRVRIRFKGDTVTIVVR",
+                  "midline": "G+S E ++E    I++E+I A ++ G    E+VL++I++ V  MGVTME HRSGNEVKVVIKGLHESQQE LLE VL AAEL GVRVRIRFKGDTVTIVVR"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|9DD3|A",
+                  "accession": "9DD3_A",
+                  "title": "Chain A, Designed allosteric facilitated dissociation switch AS5 H [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 260,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 9.7005e-29,
+                  "identity": 75,
+                  "positive": 94,
+                  "query_from": 115,
+                  "query_to": 248,
+                  "hit_from": 128,
+                  "hit_to": 259,
+                  "align_len": 134,
+                  "gaps": 2,
+                  "qseq": "IVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVR",
+                  "hseq": "VLEALERAQASEDERLIRAILAAAYAFALLAVAGASAERLKEA-EAIVKELIAAAEK-GASPQELVLLVIEMMVKGMGVTMETHRSGNEVKVVIKGLHESQQEVLLEAVLFAAELMGVRVRIRFKGDTVTIVVR",
+                  "midline": "++EAL+R+  SE+E               L  +G+S E ++E    I++E+I A ++ G    E+VL++I++ V  MGVTME HRSGNEVKVVIKGLHESQQE LLE VL AAEL GVRVRIRFKGDTVTIVVR"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|6W2Q|A",
+                  "accession": "6W2Q_A",
+                  "title": "Chain A, Junction 34 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 220,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 5.37866e-28,
+                  "identity": 71,
+                  "positive": 90,
+                  "query_from": 22,
+                  "query_to": 150,
+                  "hit_from": 82,
+                  "hit_to": 210,
+                  "align_len": 129,
+                  "gaps": 0,
+                  "qseq": "SGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSS",
+                  "hseq": "AATTGDNEAAKQAIEAASKAAQLAEQRGDDELVCEALALLIAAQVLLLKQQGTSDEEVAEHVARTISQLVQRLKRKGASYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSS",
+                  "midline": "+ T+ D  A + A E +     L E     E++CE +A ++A  V  LK+ GTS++E+AE VAR IS++++ LK  G+SYEVI ECV RIV EIVEALKRSGTSE+EI EIV RV  EV RTLKESGSS"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 112.464,
+                  "score": 280,
+                  "evalue": 3.1848e-26,
+                  "identity": 65,
+                  "positive": 76,
+                  "query_from": 5,
+                  "query_to": 100,
+                  "hit_from": 115,
+                  "hit_to": 210,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "CEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS",
+                  "hseq": "CEALALLIAAQVLLLKQQGTSDEEVAEHVARTISQLVQRLKRKGASYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSS",
+                  "midline": "CE  A  +A +V  LK+ GTS++E+AE VAR IS++++ LK  G+SYEVI ECV RIV EIVEALKRSGTSEDEI EIV RV SEV RTLKESGSS"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 5.4259e-17,
+                  "identity": 52,
+                  "positive": 81,
+                  "query_from": 74,
+                  "query_to": 201,
+                  "hit_from": 85,
+                  "hit_to": 211,
+                  "align_len": 128,
+                  "gaps": 1,
+                  "qseq": "TSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSG",
+                  "hseq": "TGDNEAAKQAIEAASKAAQLAEQRGDD-ELVCEALALLIAAQVLLLKQQGTSDEEVAEHVARTISQLVQRLKRKGASYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSG",
+                  "midline": "T ++E A+      S+  +  ++ G   E++CE +A ++A  V  LK+ GTS+EE+AE VAR I ++++ LK  G+SYEVI+EC++RI+EE++EALKRSG    EI  I+ ++   V     E   SG"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|6MRS|A",
+                  "accession": "6MRS_A",
+                  "title": "Chain A, Peak6 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 77,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 1.35535e-17,
+                  "identity": 48,
+                  "positive": 53,
+                  "query_from": 173,
+                  "query_to": 248,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "GVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVR",
+                  "hseq": "GSGRQEKVLKSIEETVRKMGVTMETHRSGNEVKVVIKGLHESQQEQLKKDVEETSKKQGVETRIEFHGDTVTIVVR",
+                  "midline": "G    E VL  I+  V  MGVTME HRSGNEVKVVIKGLHESQQE+L + V   ++  GV  RI F GDTVTIVVR"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "pdb|7MWR|A",
+                  "accession": "7MWR_A",
+                  "title": "Chain A, LHD101A54 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 204,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.5666,
+                  "score": 192,
+                  "evalue": 1.47079e-13,
+                  "identity": 43,
+                  "positive": 46,
+                  "query_from": 187,
+                  "query_to": 249,
+                  "hit_from": 142,
+                  "hit_to": 204,
+                  "align_len": 63,
+                  "gaps": 0,
+                  "qseq": "AVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG",
+                  "hseq": "AVARMGVKMELHPSGNEVKVVIKGLHIKQQRQLYRDVREAAKKAGVEVEIEVEGDTVTIVVRG",
+                  "midline": "AVA MGV ME H SGNEVKVVIKGLH  QQ +L   V  AA+ AGV V I  +GDTVTIVVRG"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|9DRL|B",
+                  "accession": "9DRL_B",
+                  "title": "Chain B, T33-549_A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 400,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 78.9518,
+                  "score": 193,
+                  "evalue": 9.13955e-13,
+                  "identity": 43,
+                  "positive": 46,
+                  "query_from": 187,
+                  "query_to": 249,
+                  "hit_from": 338,
+                  "hit_to": 400,
+                  "align_len": 63,
+                  "gaps": 0,
+                  "qseq": "AVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVRG",
+                  "hseq": "AVARMGVKMELHPSGNEVKVVIKGLHIKQQRQLYRDVREAAKKAGVEVEIEVEGDTVTIVVRG",
+                  "midline": "AVA MGV ME H SGNEVKVVIKGLH  QQ +L   V  AA+ AGV V I  +GDTVTIVVRG"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "pdb|9DCZ|B",
+                  "accession": "9DCZ_B",
+                  "title": "Chain B, Designed allosteric facilitated dissociation switch AS1 T [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 6.77966e-09,
+                  "identity": 48,
+                  "positive": 64,
+                  "query_from": 131,
+                  "query_to": 248,
+                  "hit_from": 5,
+                  "hit_to": 126,
+                  "align_len": 122,
+                  "gaps": 4,
+                  "qseq": "EIVARVIQEVIR---TLKE-SGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVVR",
+                  "hseq": "EAVRRRFEELLREALAFRERTGGRRETLEHAVRLARELAEFAASHPEFNRQEAVLLAIELMVRAMGVTMETHRSGNEVXVVIXGLNIDEQVALYRAVRETSXIMGVETEIEVEGDTQTIVVR",
+                  "midline": "E V R  +E++R     +E +G   E +   +R   E    A      +  E VL+ I++ V  MGVTME HRSGNEV VVI GL+  +Q  L   V   + + GV   I  +GDT TIVVR"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "pdb|8URE|A",
+                  "accession": "8URE_A",
+                  "title": "Chain A, sr312 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 427,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 0.000140054,
+                  "identity": 30,
+                  "positive": 38,
+                  "query_from": 191,
+                  "query_to": 247,
+                  "hit_from": 317,
+                  "hit_to": 373,
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "MGVTMEEHRSGNEVKVVIKGLHESQQEELLELVLRAAELAGVRVRIRFKGDTVTIVV",
+                  "hseq": "MGVRMLTHRGGNAVIVVIEGLHPSQIVQLMQDVIKAAKKLGVTVTITVSGDIVVIMV",
+                  "midline": "MGV M  HR GN V VVI+GLH SQ  +L++ V++AA+  GV V I   GD V I+V"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

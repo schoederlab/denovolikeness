@@ -1,0 +1,3272 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236308",
+          "query_title": "8sjh_A",
+          "query_len": 114,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8SJH|A",
+                  "accession": "8SJH_A",
+                  "title": "Chain A, Topoisomerase 1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 227.254,
+                  "score": 578,
+                  "evalue": 7.12404e-75,
+                  "identity": 114,
+                  "positive": 114,
+                  "query_from": 1,
+                  "query_to": 114,
+                  "hit_from": 1,
+                  "hit_to": 114,
+                  "align_len": 114,
+                  "gaps": 0,
+                  "qseq": "QDWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "QDWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "midline": "QDWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8SJF|A",
+                  "accession": "8SJF_A",
+                  "title": "Chain A, Tet4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.124,
+                  "score": 357,
+                  "evalue": 3.93819e-41,
+                  "identity": 82,
+                  "positive": 86,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 2,
+                  "hit_to": 114,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DWEAAMLTLLMMLKVIEKADNAAQVLTALWFMALAAHMAALATPPKLEDKSPASPEMIDFRVGFEELATEIGKAIKLAALGKVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "midline": "DWE AM TL   LKVIEKADNA QV+ AL +M  AA  AA ATPPKLEDKSP S E + FR+G  ELA  I KA  LA  G VKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|9DBF|A",
+                  "accession": "9DBF_A",
+                  "title": "Chain A, Tet4 Variant [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 378,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.51,
+                  "score": 358,
+                  "evalue": 2.85449e-38,
+                  "identity": 82,
+                  "positive": 86,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 266,
+                  "hit_to": 378,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DWEAAMLTLLMMLKVIEKADNAAQVLTALWFMALAAHMAALATPPKLEDKSPASPEMIDFRVGFEELATEIGKAIKLAALGKVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "midline": "DWE AM TL   LKVIEKADNA QV+ AL +M  AA  AA ATPPKLEDKSP S E + FR+G  ELA  I KA  LA  G VKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 128.257,
+                  "score": 321,
+                  "evalue": 8.76976e-33,
+                  "identity": 74,
+                  "positive": 78,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 2,
+                  "hit_to": 106,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DWEAAMLTLLMMLKVIEKADNAAQVLTALWFMALAAHMAAWATPPKLEDKSPASPEMIDFRVGFEELATEIGKAIKLAALGKVKEAQAAAEQLKTTVNAHWQKYR",
+                  "midline": "DWE AM TL   LKVIEKADNA QV+ AL +M  AA  AA ATPPKLEDKSP S E + FR+G  ELA  I KA  LA  G VKEAQAAAEQLKTTVNAHWQKYR"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 125.561,
+                  "score": 314,
+                  "evalue": 8.83596e-32,
+                  "identity": 74,
+                  "positive": 78,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 134,
+                  "hit_to": 238,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DWEAAMLTLLMMLKVIEKADNAAQVLTALWFMALAAHMAALATPPKLEDKSPASPEMIDFRVGFEELATEIGKAIKLAALGKVKEAQAAAEQLKTTVNAHWQKYR",
+                  "midline": "DWE AM TL   LKVIEKADNA QV+ AL +M  AA  AA ATPPKLEDKSP S E + FR+G  ELA  I KA  LA  G VKEAQAAAEQLKTTVNAHWQKYR"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6WZ1|A",
+                  "accession": "6WZ1_A",
+                  "title": "Chain A, Soluble cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.257,
+                  "score": 321,
+                  "evalue": 9.02969e-36,
+                  "identity": 72,
+                  "positive": 76,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 2,
+                  "hit_to": 106,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMETLNDNLKVIEKADNAAQVKDALKKMRKAALDAKKATPPKLEDKSPASPEMIDFRVGFDELAWEIHDAAHLAKEGKVKEAQAAAEQLKTTCNACHQKYR",
+                  "midline": "D ED METLNDNLKVIEKADNA QV  AL  M  AA+ A  ATPPKLEDKSP S E + FR+G  ELA  I  A  LA +G VKEAQAAAEQLKTT NA  QKYR"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_106883963.1|",
+                  "accession": "WP_106883963",
+                  "title": "cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.331,
+                  "score": 316,
+                  "evalue": 1.06084e-34,
+                  "identity": 71,
+                  "positive": 74,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 24,
+                  "hit_to": 128,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYHQKYR",
+                  "midline": "D ED METLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKYR"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|7W53|R",
+                  "accession": "7W53_R",
+                  "title": "Chain R, Neuromedin-U receptor 1 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 755,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.576,
+                  "score": 340,
+                  "evalue": 3.41165e-34,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 41,
+                  "hit_to": 153,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|8IRU|R",
+                  "accession": "8IRU_R",
+                  "title": "Chain R, D(4) dopamine receptor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 785,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.191,
+                  "score": 339,
+                  "evalue": 4.90001e-34,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 30,
+                  "hit_to": 142,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_202793123.1|",
+                  "accession": "WP_202793123",
+                  "title": "cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 6.59442e-34,
+                  "identity": 70,
+                  "positive": 74,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 13,
+                  "hit_to": 117,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMETLNDNLKVVEKADNAVQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYHQKYR",
+                  "midline": "D ED METLNDNLKV+EKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKYR"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|6WWZ|R",
+                  "accession": "6WWZ_R",
+                  "title": "Chain R, C-C chemokine receptor type 6,C-C chemokine receptor type 6 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 529,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 133.265,
+                  "score": 334,
+                  "evalue": 7.69888e-34,
+                  "identity": 75,
+                  "positive": 79,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 33,
+                  "hit_to": 145,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLGSENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY  +ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "pdb|7W55|R",
+                  "accession": "7W55_R",
+                  "title": "Chain R, Neuromedin-U receptor 2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 571,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 133.65,
+                  "score": 335,
+                  "evalue": 8.20493e-34,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 41,
+                  "hit_to": 153,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|8IBU|R",
+                  "accession": "8IBU_R",
+                  "title": "Chain R, Soluble cytochrome b562,Motilin receptor,Fusion tag [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 741,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 134.42,
+                  "score": 337,
+                  "evalue": 9.80207e-34,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 41,
+                  "hit_to": 153,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "tpg|HCL8550696.1|",
+                  "accession": "HCL8550696",
+                  "title": "cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 2.42506e-33,
+                  "identity": 69,
+                  "positive": 73,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 30,
+                  "hit_to": 134,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMETLNDNLKVVEKADNAAQVKDALTKMRAAALDAQKATPPKLEGKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYHQKYR",
+                  "midline": "D ED METLNDNLKV+EKADNA QV  AL  M AAA+ A  ATPPKLE KSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKYR"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_376739338.1|",
+                  "accession": "WP_376739338",
+                  "title": "cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 6.77456e-33,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 5,
+                  "query_to": 106,
+                  "hit_from": 23,
+                  "hit_to": 124,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "DAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DNMETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYHQKYR",
+                  "midline": "D METLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKYR"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "pdb|7EXD|R",
+                  "accession": "7EXD_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 1F [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 506,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 9.37901e-33,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 25,
+                  "hit_to": 137,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_252100153.1|",
+                  "accession": "WP_252100153",
+                  "title": "cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.16221e-32,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 5,
+                  "query_to": 106,
+                  "hit_from": 38,
+                  "hit_to": 139,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "DAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DNMETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYHQKYR",
+                  "midline": "D METLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKYR"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "pdb|7XZ5|R",
+                  "accession": "7XZ5_R",
+                  "title": "Chain R, Soluble cytochrome b562,Glucose-dependent insulinotropic receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 485,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 1.48009e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 30,
+                  "hit_to": 142,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "pdb|7CMU|R",
+                  "accession": "7CMU_R",
+                  "title": "Chain R, Soluble cytochrome b562,D(3) dopamine receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 545,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.798,
+                  "score": 325,
+                  "evalue": 1.48022e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 30,
+                  "hit_to": 142,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "pdb|3U8P|A",
+                  "accession": "3U8P_A",
+                  "title": "Chain A, Cytochrome b562 integral fusion with enhanced green fluorescent protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 347,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 126.716,
+                  "score": 317,
+                  "evalue": 1.61149e-32,
+                  "identity": 71,
+                  "positive": 75,
+                  "query_from": 2,
+                  "query_to": 109,
+                  "hit_from": 45,
+                  "hit_to": 152,
+                  "align_len": 108,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAE",
+                  "hseq": "DLEDNMETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYHQKYRGGK",
+                  "midline": "D ED METLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKYR  +"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "pdb|7E2X|R",
+                  "accession": "7E2X_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 1A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 543,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.798,
+                  "score": 325,
+                  "evalue": 1.69632e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 30,
+                  "hit_to": 142,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "pdb|7XTC|R",
+                  "accession": "7XTC_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 7 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 576,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 1.76605e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 30,
+                  "hit_to": 142,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "pdb|7XT8|R",
+                  "accession": "7XT8_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 4 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 527,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 1.81476e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 25,
+                  "hit_to": 137,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "pdb|7E33|R",
+                  "accession": "7E33_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 1E [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 504,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 1.82801e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 25,
+                  "hit_to": 137,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "pdb|7JVR|R",
+                  "accession": "7JVR_R",
+                  "title": "Chain R, Soluble cytochrome b562,D(2) dopamine receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 588,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.183,
+                  "score": 326,
+                  "evalue": 1.86753e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 30,
+                  "hit_to": 142,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "pdb|8IRV|R",
+                  "accession": "8IRV_R",
+                  "title": "Chain R, Soluble cytochrome b562,D(1B) dopamine receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 617,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.413,
+                  "score": 324,
+                  "evalue": 3.36125e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 25,
+                  "hit_to": 137,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "pdb|7E32|R",
+                  "accession": "7E32_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 1D [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 516,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.642,
+                  "score": 322,
+                  "evalue": 3.56888e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 25,
+                  "hit_to": 137,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "pdb|6OT4|A",
+                  "accession": "6OT4_A",
+                  "title": "Chain A, Soluble cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 4.61282e-32,
+                  "identity": 70,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 2,
+                  "hit_to": 106,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMHTLNDNLKVIEKADNATTVKDALTKMQAAAQDAWSATPPKLEDKSPDSPEMSDFRCGFWELIGQINAALHLAKQCKVKEAQAAAEQLKTTCNACHQKYR",
+                  "midline": "D ED M TLNDNLKVIEKADNA  V  AL  M AAA  A +ATPPKLEDKSP S E   FR G  EL   I  A  LA Q  VKEAQAAAEQLKTT NA  QKYR"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "pdb|6RZ4|A",
+                  "accession": "6RZ4_A",
+                  "title": "Chain A, Cysteinyl leukotriene receptor 1,Soluble cytochrome b562,Cysteinyl leukotriene receptor 1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 423,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 127.102,
+                  "score": 318,
+                  "evalue": 4.76018e-32,
+                  "identity": 72,
+                  "positive": 76,
+                  "query_from": 2,
+                  "query_to": 111,
+                  "hit_from": 228,
+                  "hit_to": 337,
+                  "align_len": 110,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENL",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLSGKNL",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY S +NL"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "pdb|7XTB|R",
+                  "accession": "7XTB_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 6 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 584,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.642,
+                  "score": 322,
+                  "evalue": 5.97345e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 30,
+                  "hit_to": 142,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "pdb|7X5H|R",
+                  "accession": "7X5H_R",
+                  "title": "Chain R, Soluble cytochrome b562,5-hydroxytryptamine receptor 5A,hydroxytryptamine receptor 5A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 690,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.642,
+                  "score": 322,
+                  "evalue": 8.29812e-32,
+                  "identity": 75,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 46,
+                  "hit_to": 158,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLASENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY ++ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "pdb|8DJK|C",
+                  "accession": "8DJK_C",
+                  "title": "Chain C, Soluble cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 120,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 3.01665e-31,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 4,
+                  "query_to": 105,
+                  "hit_from": 7,
+                  "hit_to": 108,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "EDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "EDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "pdb|7F61|B",
+                  "accession": "7F61_B",
+                  "title": "Chain B, Soluble cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 3.36233e-31,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 43,
+                  "hit_to": 146,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "pdb|7SQ0|C",
+                  "accession": "7SQ0_C",
+                  "title": "Chain C, TMD of the tail-anchored protein Bos1 [Saccharomyces cerevisiae]",
+                  "taxid": 4932,
+                  "sciname": "Saccharomyces cerevisiae"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 4.91838e-31,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 17,
+                  "hit_to": 120,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "pdb|9IYA|A",
+                  "accession": "9IYA_A",
+                  "title": "Chain A, G-protein coupled receptor 55,Soluble cytochrome b562 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 412,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 1.05902e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 301,
+                  "hit_to": 404,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "pdb|8SAI|A",
+                  "accession": "8SAI_A",
+                  "title": "Chain A, Probable G-protein coupled receptor 34 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 466,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 1.20226e-30,
+                  "identity": 70,
+                  "positive": 73,
+                  "query_from": 4,
+                  "query_to": 108,
+                  "hit_from": 28,
+                  "hit_to": 132,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "EDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSA",
+                  "hseq": "EDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLSA",
+                  "midline": "ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY SA"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "pdb|5UNF|A",
+                  "accession": "5UNF_A",
+                  "title": "Chain A, Chimera protein of Type-2 angiotensin II receptor and Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 411,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 1.30018e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 2,
+                  "hit_to": 105,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "pdb|7ZL9|A",
+                  "accession": "7ZL9_A",
+                  "title": "Chain A, Hydroxycarboxylic acid receptor 2,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 431,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 1.36879e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 327,
+                  "hit_to": 430,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "pdb|7ZLY|A",
+                  "accession": "7ZLY_A",
+                  "title": "Chain A, Hydroxycarboxylic acid receptor 2,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 431,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 1.36879e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 221,
+                  "hit_to": 324,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_103777623.1|",
+                  "accession": "WP_103777623",
+                  "title": "cytochrome b562 [Citrobacter amalonaticus]",
+                  "taxid": 35703,
+                  "sciname": "Citrobacter amalonaticus"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 1.74099e-30,
+                  "identity": 65,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 24,
+                  "hit_to": 128,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMNTLNDNLKVVEKADNATQVKDALTKMRAAALDAQKATPPKLEGKSPDSPEMKDFRHGFDLLVGQIDGALKLANEGKVKEAQAAAEDFKTTRNAYHKKYR",
+                  "midline": "D ED M TLNDNLKV+EKADNA QV  AL  M AAA+ A  ATPPKLE KSP S E   FR G   L   I  A  LA +G VKEAQAAAE  KTT NA+ +KYR"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "pdb|7WVV|R",
+                  "accession": "7WVV_R",
+                  "title": "Chain R, Soluble cytochrome b562,N-formyl peptide receptor 2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 1.89681e-30,
+                  "identity": 75,
+                  "positive": 79,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 5,
+                  "hit_to": 119,
+                  "align_len": 115,
+                  "gaps": 2,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY--RSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLGSGSENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY    +ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_141075549.1|",
+                  "accession": "WP_141075549",
+                  "title": "cytochrome b562, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.39,
+                  "score": 285,
+                  "evalue": 1.94512e-30,
+                  "identity": 65,
+                  "positive": 68,
+                  "query_from": 10,
+                  "query_to": 106,
+                  "hit_from": 1,
+                  "hit_to": 97,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "LNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "LNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYHQKYR",
+                  "midline": "LNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKYR"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "pdb|5BU7|A",
+                  "accession": "5BU7_A",
+                  "title": "Chain A, Soluble cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.775,
+                  "score": 286,
+                  "evalue": 2.12365e-30,
+                  "identity": 71,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 2,
+                  "hit_to": 106,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMETLNDNLKVIEKADNAAQVEKALEKMLAAAADALKATPPKLEDKSPDSPEMHDFRHGFAILMGQIHDAAHLANEGKVKEAQAAAEQLKCTCNACHQKYR",
+                  "midline": "D ED METLNDNLKVIEKADNA QV  AL  MLAAA  A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLK T NA  QKYR"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "pdb|5YO5|A",
+                  "accession": "5YO5_A",
+                  "title": "Chain A, Soluble cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.775,
+                  "score": 286,
+                  "evalue": 2.18671e-30,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 3,
+                  "hit_to": 106,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKCDNAACVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEK DNA  V  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "pdb|8H2G|A",
+                  "accession": "8H2G_A",
+                  "title": "Chain A, Hydroxy-carboxylic acid receptor 2 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 476,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 2.30749e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 7,
+                  "hit_to": 110,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "pdb|8ZSJ|R",
+                  "accession": "8ZSJ_R",
+                  "title": "Chain R, Soluble cytochrome b562,Trace amine-associated receptor 1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 2.77844e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 44,
+                  "hit_to": 147,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "pdb|7S8M|R",
+                  "accession": "7S8M_R",
+                  "title": "Chain R, Soluble cytochrome b562, Mas-related G-protein coupled receptor member X2 chimera [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 480,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 2.8324e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 36,
+                  "hit_to": 139,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "pdb|4NTJ|A",
+                  "accession": "4NTJ_A",
+                  "title": "Chain A, P2Y purinoceptor 12,Soluble cytochrome b562,P2Y purinoceptor 12 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 466,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 2.8858e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 234,
+                  "hit_to": 337,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "pdb|8YRG|R",
+                  "accession": "8YRG_R",
+                  "title": "Chain R, Soluble cytochrome b562,Mas-related G-protein coupled receptor member X4 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 472,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 3.04419e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 36,
+                  "hit_to": 139,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "pdb|7XY6|R",
+                  "accession": "7XY6_R",
+                  "title": "Chain R, Soluble cytochrome b562,Adenosine receptor A2b,LgBiT [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 628,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 3.66265e-30,
+                  "identity": 75,
+                  "positive": 78,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 23,
+                  "hit_to": 133,
+                  "align_len": 113,
+                  "gaps": 2,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY--LENLYFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY   ENLYFQ"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "pdb|6LW5|A",
+                  "accession": "6LW5_A",
+                  "title": "Chain A, Soluble cytochrome b562,N-formyl peptide receptor 2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 427,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 4.61781e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 3,
+                  "hit_to": 106,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "pdb|4O9R|A",
+                  "accession": "4O9R_A",
+                  "title": "Chain A, Smoothened homolog/Soluble cytochrome b562 chimeric protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 468,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 4.98257e-30,
+                  "identity": 70,
+                  "positive": 75,
+                  "query_from": 2,
+                  "query_to": 111,
+                  "hit_from": 249,
+                  "hit_to": 358,
+                  "align_len": 110,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENL",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLAASKI",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY +A  +"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "pdb|8GY7|R",
+                  "accession": "8GY7_R",
+                  "title": "Chain R, Soluble cytochrome b562,Adrenocorticotropic hormone receptor,melanocortin-2 receptor,Adrenocorticotropic hormone receptor,Adrenocorticotropic hormone receptor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 601,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 5.5964e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 28,
+                  "hit_to": 131,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "pdb|8W8W|R",
+                  "accession": "8W8W_R",
+                  "title": "Chain R, Soluble cytochrome b562,Melanocortin receptor 3,Fusion protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 602,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 5.67635e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 12,
+                  "hit_to": 115,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "pdb|9B3K|Z",
+                  "accession": "9B3K_Z",
+                  "title": "Chain Z, NorA-BRIL(3A) fusion [Staphylococcus aureus]",
+                  "taxid": 1280,
+                  "sciname": "Staphylococcus aureus"
+                }
+              ],
+              "len": 489,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 5.95446e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 385,
+                  "hit_to": 488,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "pdb|8KIG|R",
+                  "accession": "8KIG_R",
+                  "title": "Chain R, Soluble cytochrome b562,Melanocortin receptor 3,GlgA glycogen synthase,Fusion protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 619,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 6.00429e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 12,
+                  "hit_to": 115,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "pdb|8ZMF|A",
+                  "accession": "8ZMF_A",
+                  "title": "Chain A, 5-hydroxytryptamine receptor 2C,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 439,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 6.01209e-30,
+                  "identity": 71,
+                  "positive": 74,
+                  "query_from": 2,
+                  "query_to": 110,
+                  "hit_from": 234,
+                  "hit_to": 342,
+                  "align_len": 109,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAEN",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLQAIN",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY  A N"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "pdb|6B73|A",
+                  "accession": "6B73_A",
+                  "title": "Chain A, Soluble cytochrome b562, kappa-type opioid receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 418,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 6.22236e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 7,
+                  "hit_to": 110,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "pdb|4ZUD|A",
+                  "accession": "4ZUD_A",
+                  "title": "Chain A, Chimera protein of Soluble cytochrome b562 and Type-1 angiotensin II receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 410,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 6.26198e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 2,
+                  "hit_to": 105,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "pdb|8JHC|R",
+                  "accession": "8JHC_R",
+                  "title": "Chain R, Frizzled-3,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 643,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 6.4807e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 427,
+                  "hit_to": 530,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "pdb|7XKI|A",
+                  "accession": "7XKI_A",
+                  "title": "Chain A, Gap junction delta-2 protein,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 343,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 6.71702e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 95,
+                  "hit_to": 198,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "pdb|8K4S|E",
+                  "accession": "8K4S_E",
+                  "title": "Chain E, Soluble cytochrome b562,Mas-related G-protein coupled receptor member X4,Green fluorescent protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 710,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 123.25,
+                  "score": 308,
+                  "evalue": 7.38006e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 12,
+                  "hit_to": 115,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "pdb|8JH7|D",
+                  "accession": "8JH7_D",
+                  "title": "Chain D, Frizzled-6,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 641,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.865,
+                  "score": 307,
+                  "evalue": 7.69834e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 426,
+                  "hit_to": 529,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "pdb|8XML|R",
+                  "accession": "8XML_R",
+                  "title": "Chain R, Soluble cytochrome b562,C-C chemokine receptor type 8 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 461,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 8.22812e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 2,
+                  "hit_to": 105,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "pdb|7C6A|A",
+                  "accession": "7C6A_A",
+                  "title": "Chain A, Type-2 angiotensin II receptor,Soluble cytochrome b562,Type-2 angiotensin II receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 422,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 9.05322e-30,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 211,
+                  "hit_to": 314,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "pdb|8IHJ|R",
+                  "accession": "8IHJ_R",
+                  "title": "Chain R, Soluble cytochrome b562,Hydroxycarboxylic acid receptor 3 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 530,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.00285e-29,
+                  "identity": 69,
+                  "positive": 74,
+                  "query_from": 4,
+                  "query_to": 111,
+                  "hit_from": 28,
+                  "hit_to": 135,
+                  "align_len": 108,
+                  "gaps": 0,
+                  "qseq": "EDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENL",
+                  "hseq": "EDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLNRHHL",
+                  "midline": "ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY +  +L"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "pdb|8K9K|R",
+                  "accession": "8K9K_R",
+                  "title": "Chain R, Soluble cytochrome b562,Mu-type opioid receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 453,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.05885e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 24,
+                  "hit_to": 127,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "pdb|6D35|A",
+                  "accession": "6D35_A",
+                  "title": "Chain A, Smoothened,Soluble cytochrome b562,Smoothened [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 600,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 1.06464e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 376,
+                  "hit_to": 479,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "pdb|6KO5|A",
+                  "accession": "6KO5_A",
+                  "title": "Chain A, Chimera of Soluble cytochrome b562 and Growth hormone secretagogue receptor type 1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 424,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 1.10844e-29,
+                  "identity": 70,
+                  "positive": 73,
+                  "query_from": 2,
+                  "query_to": 107,
+                  "hit_from": 2,
+                  "hit_to": 107,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRS",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLS",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY S"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "pdb|8WJX|R",
+                  "accession": "8WJX_R",
+                  "title": "Chain R, Soluble cytochrome b562,P2Y purinoceptor 1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 680,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 1.1866e-29,
+                  "identity": 71,
+                  "positive": 75,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 49,
+                  "hit_to": 161,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLEFLEVLFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY     + FQ"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "pdb|8ZVZ|D",
+                  "accession": "8ZVZ_D",
+                  "title": "Chain D, Soluble cytochrome b562,Prostaglandin D2 receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 468,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.26969e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 18,
+                  "hit_to": 121,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "pdb|8HJ5|F",
+                  "accession": "8HJ5_F",
+                  "title": "Chain F, Soluble cytochrome b562,Mas-related G-protein coupled receptor member X1,LgBit [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 637,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.40438e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 36,
+                  "hit_to": 139,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "pdb|7WJ5|R",
+                  "accession": "7WJ5_R",
+                  "title": "Chain R, Soluble cytochrome b562,Somatostatin receptor type 2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 518,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 1.44758e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 45,
+                  "hit_to": 148,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "pdb|8ZPL|R",
+                  "accession": "8ZPL_R",
+                  "title": "Chain R, Soluble cytochrome b562,C-X-C chemokine receptor type 4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 486,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.48365e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 28,
+                  "hit_to": 131,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "pdb|6KUX|A",
+                  "accession": "6KUX_A",
+                  "title": "Chain A, alpha2A adrenergic receptor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 395,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 1.48575e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 210,
+                  "hit_to": 313,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "pdb|7F83|A",
+                  "accession": "7F83_A",
+                  "title": "Chain A, Growth hormone secretagogue receptor type 1,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 416,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 1.51401e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 216,
+                  "hit_to": 319,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "pdb|6WW2|R",
+                  "accession": "6WW2_R",
+                  "title": "Chain R, Frizzled-5,Soluble cytochrome b562 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 667,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.53959e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 416,
+                  "hit_to": 519,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "pdb|6RZ6|A",
+                  "accession": "6RZ6_A",
+                  "title": "Chain A, Cysteinyl leukotriene receptor 2,Soluble cytochrome b562,Cysteinyl leukotriene receptor 2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 405,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 1.69329e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 218,
+                  "hit_to": 321,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "pdb|8TH3|A",
+                  "accession": "8TH3_A",
+                  "title": "Chain A, AT118-H nanobody, Type-1 angiotensin II receptor, Soluble cytochrome b562 complex [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 582,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 1.75289e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 362,
+                  "hit_to": 465,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "pdb|9J0B|R",
+                  "accession": "9J0B_R",
+                  "title": "Chain R, Soluble cytochrome b562,P2Y purinoceptor 14 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 501,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 1.76545e-29,
+                  "identity": 71,
+                  "positive": 75,
+                  "query_from": 2,
+                  "query_to": 114,
+                  "hit_from": 49,
+                  "hit_to": 161,
+                  "align_len": 113,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENLYFQ",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLEFLEVLFQ",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY     + FQ"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "pdb|8IHB|R",
+                  "accession": "8IHB_R",
+                  "title": "Chain R, Soluble cytochrome b562,Hydroxycarboxylic acid receptor 2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 658,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 1.7681e-29,
+                  "identity": 69,
+                  "positive": 74,
+                  "query_from": 4,
+                  "query_to": 111,
+                  "hit_from": 28,
+                  "hit_to": 135,
+                  "align_len": 108,
+                  "gaps": 0,
+                  "qseq": "EDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRSAENL",
+                  "hseq": "EDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLNRHHL",
+                  "midline": "ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY +  +L"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "pdb|6M97|A",
+                  "accession": "6M97_A",
+                  "title": "Chain A, Chimera protein of High affinity copper uptake protein 1 and Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 234,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 1.87026e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 55,
+                  "hit_to": 158,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "pdb|6ME8|A",
+                  "accession": "6ME8_A",
+                  "title": "Chain A, Soluble cytochrome b562,Melatonin receptor type 1B,Rubredoxin [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 460,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 1.9728e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 2,
+                  "hit_to": 105,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "pdb|8Y6Y|A",
+                  "accession": "8Y6Y_A",
+                  "title": "Chain A, Free fatty acid receptor 2,Soluble cytochrome b562 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 436,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 2.05061e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 212,
+                  "hit_to": 315,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "pdb|8VY7|R",
+                  "accession": "8VY7_R",
+                  "title": "Chain R, Taste receptor type 2 member 14 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 637,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 2.12642e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 36,
+                  "hit_to": 139,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "pdb|7TUY|R",
+                  "accession": "7TUY_R",
+                  "title": "Chain R, G-protein coupled receptor 183,Soluble cytochrome b562 fusion [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 477,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 2.31978e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 232,
+                  "hit_to": 335,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "pdb|9EAI|A",
+                  "accession": "9EAI_A",
+                  "title": "Chain A, Nanobody AT206,Type-1 angiotensin II receptor,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 583,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 2.52286e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 363,
+                  "hit_to": 466,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "pdb|6USF|A",
+                  "accession": "6USF_A",
+                  "title": "Chain A, chimera of soluble cytochrome b562 (BRIL) and neuronal acetylcholine receptor subunit alpha-4 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 486,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 2.6299e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 344,
+                  "hit_to": 447,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "pdb|4OR2|A",
+                  "accession": "4OR2_A",
+                  "title": "Chain A, Soluble cytochrome b562, Metabotropic glutamate receptor 1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 389,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 2.63175e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 5,
+                  "hit_to": 108,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "pdb|5L7D|A",
+                  "accession": "5L7D_A",
+                  "title": "Chain A, Smoothened homolog,Soluble cytochrome b562,Smoothened homolog [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 638,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 2.81115e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 404,
+                  "hit_to": 507,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "pdb|9EE5|A",
+                  "accession": "9EE5_A",
+                  "title": "Chain A, Prostaglandin D2 receptor,Soluble cytochrome b562 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 495,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 2.84899e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 261,
+                  "hit_to": 364,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "pdb|7F2O|R",
+                  "accession": "7F2O_R",
+                  "title": "Chain R, B2 bradykinin receptor [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 595,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 2.96608e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 2,
+                  "hit_to": 105,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "pdb|8HS2|R",
+                  "accession": "8HS2_R",
+                  "title": "Chain R, Soluble cytochrome b562,G-protein coupled receptor 20 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 459,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 2.97624e-29,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 4,
+                  "query_to": 105,
+                  "hit_from": 31,
+                  "hit_to": 132,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "EDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "EDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "pdb|5L31|A",
+                  "accession": "5L31_A",
+                  "title": "Chain A, Soluble cytochrome b562 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 111.694,
+                  "score": 278,
+                  "evalue": 3.02968e-29,
+                  "identity": 70,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 2,
+                  "hit_to": 106,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "DLEDNMETLNDNLKVIEKADNAAQVKDALTKMAAAACDAWSATPPKLEDKSPDSPEMHDFRHGFWILIGQIHDALHLANCGKVKEAQAAAEQLKCTCNACHQKYR",
+                  "midline": "D ED METLNDNLKVIEKADNA QV  AL  M AAA  A +ATPPKLEDKSP S E   FR G   L   I  A  LA  G VKEAQAAAEQLK T NA  QKYR"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_152401749.1|",
+                  "accession": "WP_152401749",
+                  "title": "MULTISPECIES: cytochrome b562 [Citrobacter]",
+                  "taxid": 544,
+                  "sciname": "Citrobacter"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.464,
+                  "score": 280,
+                  "evalue": 3.27366e-29,
+                  "identity": 63,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 106,
+                  "hit_from": 25,
+                  "hit_to": 129,
+                  "align_len": 105,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYR",
+                  "hseq": "ELEDNMETLNDNLKVVEKADNATQVTEALTKMRAAALDAQKATPPKLESKASDSPEMKDFRHGFDVLVGQIDGALKLAKEGKVKEAQAAAEEFKTTRNAYHKKYR",
+                  "midline": "+ ED METLNDNLKV+EKADNA QV  AL  M AAA+ A  ATPPKLE K+  S E   FR G   L   I  A  LA +G VKEAQAAAE+ KTT NA+ +KYR"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "pdb|8J9O|A",
+                  "accession": "8J9O_A",
+                  "title": "Chain A, Frizzled-1,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 677,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 3.83131e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 455,
+                  "hit_to": 558,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "pdb|9CAX|A",
+                  "accession": "9CAX_A",
+                  "title": "Chain A, Soluble cytochrome b562,Solute carrier family 2, facilitated glucose transporter member 9 [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 640,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 3.91354e-29,
+                  "identity": 70,
+                  "positive": 73,
+                  "query_from": 2,
+                  "query_to": 107,
+                  "hit_from": 27,
+                  "hit_to": 132,
+                  "align_len": 106,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKYRS",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKYLS",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY S"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "pdb|7W0L|Q",
+                  "accession": "7W0L_Q",
+                  "title": "Chain Q, Soluble cytochrome b562,Apelin receptor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 477,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 4.1161e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 44,
+                  "hit_to": 147,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "pdb|9EHS|R",
+                  "accession": "9EHS_R",
+                  "title": "Chain R, Adenosine receptor A3,adenosine A3 receptor fused to BRIL [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 469,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 4.53333e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 246,
+                  "hit_to": 349,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "pdb|8HS3|R",
+                  "accession": "8HS3_R",
+                  "title": "Chain R, Soluble cytochrome b562,G-protein coupled receptor 20 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 511,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 4.73018e-29,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 4,
+                  "query_to": 105,
+                  "hit_from": 31,
+                  "hit_to": 132,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "EDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "EDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "pdb|9L3Z|A",
+                  "accession": "9L3Z_A",
+                  "title": "Chain A, Chemerin-like receptor 1,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 4.76578e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 257,
+                  "hit_to": 360,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "pdb|9UWD|A",
+                  "accession": "9UWD_A",
+                  "title": "Chain A, Prostaglandin D2 receptor,Soluble cytochrome b562 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 428,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 5.03104e-29,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 105,
+                  "hit_from": 234,
+                  "hit_to": 337,
+                  "align_len": 104,
+                  "gaps": 0,
+                  "qseq": "DWEDAMETLNDNLKVIEKADNADQVIAALLYMLAAAIAAATATPPKLEDKSPTSEEALAFRLGMHELAALITKATALAYQGLVKEAQAAAEQLKTTVNAHWQKY",
+                  "hseq": "DLEDNWETLNDNLKVIEKADNAAQVKDALTKMRAAALDAQKATPPKLEDKSPDSPEMKDFRHGFDILVGQIDDALKLANEGKVKEAQAAAEQLKTTRNAYIQKY",
+                  "midline": "D ED  ETLNDNLKVIEKADNA QV  AL  M AAA+ A  ATPPKLEDKSP S E   FR G   L   I  A  LA +G VKEAQAAAEQLKTT NA+ QKY"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

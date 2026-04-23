@@ -1,0 +1,326 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236624",
+          "query_title": "8jvq_A",
+          "query_len": 44,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8JVR|A",
+                  "accession": "8JVR_A",
+                  "title": "Chain A, Ph1_GG [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 44,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 77.7962,
+                  "score": 190,
+                  "evalue": 9.56607e-18,
+                  "identity": 43,
+                  "positive": 43,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 44,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "GPMPGKKFVARVAEADGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVAEAGGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARVAEA GKRVVIIPKAERAKVGIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8JVP|A",
+                  "accession": "8JVP_A",
+                  "title": "Chain A, Ph1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 2.32303e-15,
+                  "identity": 43,
+                  "positive": 43,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 4,
+                  "qseq": "GPMPGKKFVARVAEAD----GKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVAEARAEDVGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARVAEA     GKRVVIIPKAERAKVGIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|7DXX|A",
+                  "accession": "7DXX_A",
+                  "title": "Chain A, mk2h_deltaMILPS protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 4.39863e-10,
+                  "identity": 36,
+                  "positive": 38,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 4,
+                  "qseq": "GPMPGKKFVARVAEAD----GKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVAEAYAEDVGKRVVRVDKYERAKVGVKVGDYVEVKKV",
+                  "midline": "GPMPGKK VARVAEA     GKRVV + K ERAKVG+KVGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|7DXR|A",
+                  "accession": "7DXR_A",
+                  "title": "Chain A, mk2h protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 54.299,
+                  "score": 129,
+                  "evalue": 2.05598e-08,
+                  "identity": 32,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 4,
+                  "qseq": "GPMPGKKFVARVAEAD----GKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKSVVARVAEAYPEDVGKRIVRMDKYERAKLGVSVGDYVEVKKV",
+                  "midline": "GPMPGK  VARVAEA     GKR+V + K ERAK+G+ VGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|8JVW|A",
+                  "accession": "8JVW_A",
+                  "title": "Chain A, tkoL2_v1.2_Z [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 42,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.5286,
+                  "score": 127,
+                  "evalue": 3.71162e-08,
+                  "identity": 36,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 42,
+                  "align_len": 48,
+                  "gaps": 10,
+                  "qseq": "GPMPGKKFVARVAEAD----GKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVEEARAEDVGKRVVIIPK------GIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARV EA     GKRVVIIPK      GIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|7DXY|A",
+                  "accession": "7DXY_A",
+                  "title": "Chain A, mk2h_deltaMILPS [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 43,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.595,
+                  "score": 109,
+                  "evalue": 1.89844e-05,
+                  "identity": 31,
+                  "positive": 33,
+                  "query_from": 6,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 43,
+                  "align_len": 43,
+                  "gaps": 4,
+                  "qseq": "KKFVARVAEAD----GKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "KKVVARVAEAYAEDVGKRVVRVDKYERAKVGVKVGDYVEVKKV",
+                  "midline": "KK VARVAEA     GKRVV + K ERAKVG+KVGD VEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|8JVU|A",
+                  "accession": "8JVU_A",
+                  "title": "Chain A, tkoL2_v1.2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 6.00683e-05,
+                  "identity": 36,
+                  "positive": 36,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 55,
+                  "align_len": 61,
+                  "gaps": 23,
+                  "qseq": "GPMPGKKFVARVAE----------------ADG-KRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKFVARVEEILHDPGRTAPVARVKFEDGTKRVVIIPK------GIKVGDVVEVKKV",
+                  "midline": "GPMPGKKFVARV E                 DG KRVVIIPK      GIKVGDVVEVKKV"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|7DVH|A",
+                  "accession": "7DVH_A",
+                  "title": "Chain A, reDPBB_sym4 protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.000239456,
+                  "identity": 27,
+                  "positive": 31,
+                  "query_from": 1,
+                  "query_to": 43,
+                  "hit_from": 1,
+                  "hit_to": 47,
+                  "align_len": 47,
+                  "gaps": 4,
+                  "qseq": "GPMPGKKFVARVAEAD----GKRVVIIPKAERAKVGIKVGDVVEVKK",
+                  "hseq": "GPMPGKSVVARVAPAHPEDVGKGIVRMDKYERQNLGVSVGDYVEVKK",
+                  "midline": "GPMPGK  VARVA A     GK +V + K ER  +G+ VGD VEVKK"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "pdb|8JVY|A",
+                  "accession": "8JVY_A",
+                  "title": "Chain A, tkoL2_v1_turn [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 49,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 38.5058,
+                  "score": 88,
+                  "evalue": 0.0417443,
+                  "identity": 29,
+                  "positive": 32,
+                  "query_from": 1,
+                  "query_to": 44,
+                  "hit_from": 1,
+                  "hit_to": 49,
+                  "align_len": 54,
+                  "gaps": 15,
+                  "qseq": "GPMPGKKFVARVAE----------ADGKRVVIIPKAERAKVGIKVGDVVEVKKV",
+                  "hseq": "GPMPGKKVVARVEEILDGVARVKFEDGTKKLII-----APEGVKVGDVVEVKKV",
+                  "midline": "GPMPGKK VARV E           DG + +II     A  G+KVGDVVEVKKV"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

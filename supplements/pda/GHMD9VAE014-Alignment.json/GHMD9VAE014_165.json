@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236284",
+          "query_title": "1g6u_A",
+          "query_len": 48,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|1G6U|A",
+                  "accession": "1G6U_A",
+                  "title": "Chain A, DOMAIN SWAPPED DIMER [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.0333,
+                  "score": 201,
+                  "evalue": 2.92513e-19,
+                  "identity": 48,
+                  "positive": 48,
+                  "query_from": 1,
+                  "query_to": 48,
+                  "hit_from": 1,
+                  "hit_to": 48,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "SLAALKSELQALKKEGFSPEELAALESELQALEKKLAALKSKLQALKG",
+                  "hseq": "SLAALKSELQALKKEGFSPEELAALESELQALEKKLAALKSKLQALKG",
+                  "midline": "SLAALKSELQALKKEGFSPEELAALESELQALEKKLAALKSKLQALKG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7BEY|B",
+                  "accession": "7BEY_B",
+                  "title": "Chain B, 'Cys-N2-SO3-' Strand [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 50,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 73.559,
+                  "score": 179,
+                  "evalue": 7.23262e-16,
+                  "identity": 38,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 48,
+                  "hit_from": 3,
+                  "hit_to": 49,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "LAALKSELQALKKEGFSPEELAALESELQALEKKLAALKSKLQALKG",
+                  "hseq": "LXALRSELQALRREGFSPEELAALESELQALERELAALRSELQALRG",
+                  "midline": "L AL+SELQAL++EGFSPEELAALESELQALE++LAAL+S+LQAL+G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

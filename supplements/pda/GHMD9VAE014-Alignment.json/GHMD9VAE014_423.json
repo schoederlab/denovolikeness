@@ -1,0 +1,621 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236542",
+          "query_title": "4yxy_A",
+          "query_len": 117,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|4YXY|A",
+                  "accession": "4YXY_A",
+                  "title": "Chain A, dTor_9x31L [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 217.238,
+                  "score": 552,
+                  "evalue": 1.03584e-70,
+                  "identity": 117,
+                  "positive": 117,
+                  "query_from": 1,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 117,
+                  "align_len": 117,
+                  "gaps": 0,
+                  "qseq": "MASSHHHHHHSSGLVPRGSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "MASSHHHHHHSSGLVPRGSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "MASSHHHHHHSSGLVPRGSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|4YXZ|A",
+                  "accession": "4YXZ_A",
+                  "title": "Chain A, dTor_9x31L [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 286,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 178.718,
+                  "score": 452,
+                  "evalue": 2.85889e-53,
+                  "identity": 100,
+                  "positive": 100,
+                  "query_from": 18,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 100,
+                  "align_len": 100,
+                  "gaps": 0,
+                  "qseq": "GSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 167.933,
+                  "score": 424,
+                  "evalue": 4.74224e-49,
+                  "identity": 94,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 100,
+                  "hit_to": 193,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 167.933,
+                  "score": 424,
+                  "evalue": 4.74224e-49,
+                  "identity": 94,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 193,
+                  "hit_to": 286,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 1.07734e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 38,
+                  "hit_to": 131,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 1.07734e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 69,
+                  "hit_to": 162,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 1.07734e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 131,
+                  "hit_to": 224,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 1.07734e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 162,
+                  "hit_to": 255,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|5BYO|A",
+                  "accession": "5BYO_A",
+                  "title": "Chain A, dTor_12x31L [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 379,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 178.718,
+                  "score": 452,
+                  "evalue": 2.9254e-52,
+                  "identity": 100,
+                  "positive": 100,
+                  "query_from": 18,
+                  "query_to": 117,
+                  "hit_from": 1,
+                  "hit_to": 100,
+                  "align_len": 100,
+                  "gaps": 0,
+                  "qseq": "GSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GSSMASGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 167.933,
+                  "score": 424,
+                  "evalue": 4.5138e-48,
+                  "identity": 94,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 100,
+                  "hit_to": 193,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 167.933,
+                  "score": 424,
+                  "evalue": 4.5138e-48,
+                  "identity": 94,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 193,
+                  "hit_to": 286,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 167.933,
+                  "score": 424,
+                  "evalue": 4.5138e-48,
+                  "identity": 94,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 286,
+                  "hit_to": 379,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 9.9236e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 38,
+                  "hit_to": 131,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 9.9236e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 69,
+                  "hit_to": 162,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 9.9236e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 131,
+                  "hit_to": 224,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 9.9236e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 162,
+                  "hit_to": 255,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 9,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 9.9236e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 224,
+                  "hit_to": 317,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG"
+                },
+                {
+                  "num": 10,
+                  "bit_score": 164.466,
+                  "score": 415,
+                  "evalue": 9.9236e-47,
+                  "identity": 92,
+                  "positive": 94,
+                  "query_from": 24,
+                  "query_to": 117,
+                  "hit_from": 255,
+                  "hit_to": 348,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLG",
+                  "hseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLAEAAYYSGTTVEEAYKLALKLG",
+                  "midline": "GISVEELLKLAKAAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLGISVEELLKLA+AAYYSGTTVEEAYKLALKLG"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|4YXX|A",
+                  "accession": "4YXX_A",
+                  "title": "Chain A, dTor_6x35L [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 220,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 1.17197e-16,
+                  "identity": 56,
+                  "positive": 69,
+                  "query_from": 24,
+                  "query_to": 116,
+                  "hit_from": 35,
+                  "hit_to": 135,
+                  "align_len": 101,
+                  "gaps": 8,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAYKLALKL----GISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GVSLEQALKILEVAAELGTTVEEAVKRALKLKTKLGVSLEQALKILEVAAKLGTTVEEAVKRALKLKTKLGVSLEQALKILKVAAELGTTVEEAVKRALKL",
+                  "midline": "G+S+E+ LK+ + A   GTTVEEA K ALKL    G+S+E+ LK+ E A   GTTVEEA K ALKL    G+S+E+ LK+ K A   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 1.17197e-16,
+                  "identity": 56,
+                  "positive": 69,
+                  "query_from": 24,
+                  "query_to": 116,
+                  "hit_from": 105,
+                  "hit_to": 205,
+                  "align_len": 101,
+                  "gaps": 8,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAYKLALKL----GISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GVSLEQALKILKVAAELGTTVEEAVKRALKLKTKLGVSLEQALKILEVAAELGTTVEEAVKRALKLKTKLGVSLEQALKILEVAAKLGTTVEEAVKRALKL",
+                  "midline": "G+S+E+ LK+ K A   GTTVEEA K ALKL    G+S+E+ LK+ E A   GTTVEEA K ALKL    G+S+E+ LK+ + A   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 80.1073,
+                  "score": 196,
+                  "evalue": 1.11183e-15,
+                  "identity": 55,
+                  "positive": 68,
+                  "query_from": 25,
+                  "query_to": 116,
+                  "hit_from": 1,
+                  "hit_to": 100,
+                  "align_len": 100,
+                  "gaps": 8,
+                  "qseq": "ISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAYKLALKL----GISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "VSLEQALKILKVAAELGTTVEEAVKRALKLKTKLGVSLEQALKILEVAAELGTTVEEAVKRALKLKTKLGVSLEQALKILEVAAKLGTTVEEAVKRALKL",
+                  "midline": "+S+E+ LK+ K A   GTTVEEA K ALKL    G+S+E+ LK+ E A   GTTVEEA K ALKL    G+S+E+ LK+ + A   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 78.9518,
+                  "score": 193,
+                  "evalue": 3.34619e-15,
+                  "identity": 54,
+                  "positive": 69,
+                  "query_from": 24,
+                  "query_to": 116,
+                  "hit_from": 70,
+                  "hit_to": 170,
+                  "align_len": 101,
+                  "gaps": 8,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAYKLALKL----GISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GVSLEQALKILEVAAKLGTTVEEAVKRALKLKTKLGVSLEQALKILKVAAELGTTVEEAVKRALKLKTKLGVSLEQALKILEVAAELGTTVEEAVKRALKL",
+                  "midline": "G+S+E+ LK+ + A   GTTVEEA K ALKL    G+S+E+ LK+ + A   GTTVEEA K ALKL    G+S+E+ LK+ + A   GTTVEEA K ALKL"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|8S6P|A",
+                  "accession": "8S6P_A",
+                  "title": "Chain A, TRP_18 F116W (R0) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 68.5514,
+                  "score": 166,
+                  "evalue": 2.83149e-11,
+                  "identity": 53,
+                  "positive": 65,
+                  "query_from": 23,
+                  "query_to": 116,
+                  "hit_from": 4,
+                  "hit_to": 105,
+                  "align_len": 102,
+                  "gaps": 8,
+                  "qseq": "SGISVEELLKLAKAAYYSGTTVEEAYKLAL----KLGISVEELLKLAEAAYYSGTTVEEAYKLAL----KLGISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "SGVSLEQALLILSVAALLGTTVEEAVKRALWLKTKLGVSLEQAAFILSVAAYLGTTVEEAVKRALKLKTKLGVSLEQALLILFAAAALGTTVEEAVKRALKL",
+                  "midline": "SG+S+E+ L +   A   GTTVEEA K AL    KLG+S+E+   +   A Y GTTVEEA K AL    KLG+S+E+ L +  AA   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 4.29191e-10,
+                  "identity": 52,
+                  "positive": 64,
+                  "query_from": 24,
+                  "query_to": 116,
+                  "hit_from": 40,
+                  "hit_to": 140,
+                  "align_len": 101,
+                  "gaps": 8,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAYKLAL----KLGISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GVSLEQAAFILSVAAYLGTTVEEAVKRALKLKTKLGVSLEQALLILFAAAALGTTVEEAVKRALKLKTKLGVSLEQALLILWTAAELGTTVEEAVKRALKL",
+                  "midline": "G+S+E+   +   A Y GTTVEEA K ALKL    G+S+E+ L +  AA   GTTVEEA K AL    KLG+S+E+ L +   A   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 4.85069e-09,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 24,
+                  "query_to": 116,
+                  "hit_from": 110,
+                  "hit_to": 210,
+                  "align_len": 101,
+                  "gaps": 8,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAY----KLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GVSLEQALLILWTAAELGTTVEEAVKRALKLKTKLGVSLEQAQAILVVAAELGTTVEEAVYRALKLKTKLGVSLEQALLILEVAAKLGTTVEEAVKRALKL",
+                  "midline": "G+S+E+ L +   A   GTTVEEA K ALKL    G+S+E+   +   A   GTTVEEA     KL  KLG+S+E+ L + + A   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 1.53596e-07,
+                  "identity": 50,
+                  "positive": 62,
+                  "query_from": 24,
+                  "query_to": 116,
+                  "hit_from": 75,
+                  "hit_to": 175,
+                  "align_len": 101,
+                  "gaps": 8,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAYKLAL----KLGISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GVSLEQALLILFAAAALGTTVEEAVKRALKLKTKLGVSLEQALLILWTAAELGTTVEEAVKRALKLKTKLGVSLEQAQAILVVAAELGTTVEEAVYRALKL",
+                  "midline": "G+S+E+ L +  AA   GTTVEEA K ALKL    G+S+E+ L +   A   GTTVEEA K AL    KLG+S+E+   +   A   GTTVEEA   ALKL"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|8C3W|A",
+                  "accession": "8C3W_A",
+                  "title": "Chain A, dnHEM1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 3.06176e-09,
+                  "identity": 49,
+                  "positive": 65,
+                  "query_from": 25,
+                  "query_to": 116,
+                  "hit_from": 2,
+                  "hit_to": 101,
+                  "align_len": 100,
+                  "gaps": 8,
+                  "qseq": "ISVEELLKLAKAAYYSGTTVEEAYKLAL----KLGISVEELLKLAEAAYYSGTTVEEAYKLALKL----GISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "VSLDQAILILVVAAKLGTTVEEAVKRALWLKTKLGVSLDQALRILSAAANTGTTVEEAVKRALKLKTKLGVSLEAALAILSAAAQLGTTVEEAVKRALKL",
+                  "midline": "+S+++ + +   A   GTTVEEA K AL    KLG+S+++ L++  AA  +GTTVEEA K ALKL    G+S+E  L +  AA   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 3.55207e-08,
+                  "identity": 50,
+                  "positive": 62,
+                  "query_from": 24,
+                  "query_to": 116,
+                  "hit_from": 36,
+                  "hit_to": 136,
+                  "align_len": 101,
+                  "gaps": 8,
+                  "qseq": "GISVEELLKLAKAAYYSGTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAYKLAL----KLGISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GVSLDQALRILSAAANTGTTVEEAVKRALKLKTKLGVSLEAALAILSAAAQLGTTVEEAVKRALKLKTKLGVDLETAALALLTAAKLGTTVEEAVKRALKL",
+                  "midline": "G+S+++ L++  AA  +GTTVEEA K ALKL    G+S+E  L +  AA   GTTVEEA K AL    KLG+ +E        A   GTTVEEA K ALKL"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 53.1434,
+                  "score": 126,
+                  "evalue": 2.04672e-05,
+                  "identity": 43,
+                  "positive": 50,
+                  "query_from": 41,
+                  "query_to": 116,
+                  "hit_from": 123,
+                  "hit_to": 206,
+                  "align_len": 84,
+                  "gaps": 8,
+                  "qseq": "GTTVEEAYKLALKL----GISVEELLKLAEAAYYSGTTVEEAY----KLALKLGISVEELLKLAKAAYYSGTTVEEAYKLALKL",
+                  "hseq": "GTTVEEAVKRALKLKTKLGVSLIEALHILLTAAVLGTTVEEAVYRALKLKTKLGVSLLQAAAILILAARLGTTVEEAVKRALKL",
+                  "midline": "GTTVEEA K ALKL    G+S+ E L +   A   GTTVEEA     KL  KLG+S+ +   +   A   GTTVEEA K ALKL"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

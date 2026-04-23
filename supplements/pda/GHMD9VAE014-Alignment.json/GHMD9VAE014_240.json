@@ -1,0 +1,166 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236359",
+          "query_title": "8t6e_A",
+          "query_len": 157,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8T6E|A",
+                  "accession": "8T6E_A",
+                  "title": "Chain A, T33-28.3: A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 324.324,
+                  "score": 830,
+                  "evalue": 7.81772e-112,
+                  "identity": 157,
+                  "positive": 157,
+                  "query_from": 1,
+                  "query_to": 157,
+                  "hit_from": 1,
+                  "hit_to": 157,
+                  "align_len": 157,
+                  "gaps": 0,
+                  "qseq": "MSVNTSFLSPSLVTIRDFDKGQFAVLRIGRTGFPADKGDIDLCLSKMDGVLAAQLYLGNPREPGFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEERARRALAVALRVDEADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL",
+                  "hseq": "MSVNTSFLSPSLVTIRDFDKGQFAVLRIGRTGFPADKGDIDLCLSKMDGVLAAQLYLGNPREPGFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEERARRALAVALRVDEADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL",
+                  "midline": "MSVNTSFLSPSLVTIRDFDKGQFAVLRIGRTGFPADKGDIDLCLSKMDGVLAAQLYLGNPREPGFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEERARRALAVALRVDEADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "emb|CAP47818.1|",
+                  "accession": "CAP47818",
+                  "title": "putative integron gene cassette protein [uncultured bacterium]",
+                  "taxid": 77133,
+                  "sciname": "uncultured bacterium"
+                }
+              ],
+              "len": 158,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 275.789,
+                  "score": 704,
+                  "evalue": 1.14935e-92,
+                  "identity": 136,
+                  "positive": 140,
+                  "query_from": 2,
+                  "query_to": 157,
+                  "hit_from": 3,
+                  "hit_to": 158,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SVNTSFLSPSLVTIRDFDKGQFAVLRIGRTGFPADKGDIDLCLSKMDGVLAAQLYLGNPREPGFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEERARRALAVALRVDEADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL",
+                  "hseq": "SVNTSFLSPSLVTIRDFDNGQFAVLRIGRTGFPADKGDIDLCLDKMKGVRDAQQSIGDDTEFGFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEELAKEKLRAALQVDIADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL",
+                  "midline": "SVNTSFLSPSLVTIRDFD GQFAVLRIGRTGFPADKGDIDLCL KM GV  AQ  +G+  E GFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEE A+  L  AL+VD ADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|3FUY|A",
+                  "accession": "3FUY_A",
+                  "title": "Chain A, Putative integron gene cassette protein [uncultured bacterium]",
+                  "taxid": 77133,
+                  "sciname": "uncultured bacterium"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 267.314,
+                  "score": 682,
+                  "evalue": 5.3033e-89,
+                  "identity": 133,
+                  "positive": 137,
+                  "query_from": 2,
+                  "query_to": 157,
+                  "hit_from": 24,
+                  "hit_to": 179,
+                  "align_len": 156,
+                  "gaps": 0,
+                  "qseq": "SVNTSFLSPSLVTIRDFDKGQFAVLRIGRTGFPADKGDIDLCLSKMDGVLAAQLYLGNPREPGFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEERARRALAVALRVDEADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL",
+                  "hseq": "SVNTSFLSPSLVTIRDFDNGQFAVLRIGRTGFPADKGDIDLCLDKXKGVRDAQQSIGDDTEFGFKGPHIRIRCVDIDDKHTYNAXVYVDLIVGTGASEVERETAEELAKEKLRAALQVDIADEHSCVTQFEXKLREELLSSDSFHPDKDEYYKDFL",
+                  "midline": "SVNTSFLSPSLVTIRDFD GQFAVLRIGRTGFPADKGDIDLCL K  GV  AQ  +G+  E GFKGPHIRIRCVDIDDKHTYNA VYVDLIVGTGASEVERETAEE A+  L  AL+VD ADEHSCVTQFE KLREELLSSDSFHPDKDEYYKDFL"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gb|MBX3697016.1|",
+                  "accession": "MBX3697016",
+                  "title": "hypothetical protein [Dokdonella sp.]",
+                  "taxid": 2291710,
+                  "sciname": "Dokdonella sp."
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 132.494,
+                  "score": 332,
+                  "evalue": 4.15852e-36,
+                  "identity": 68,
+                  "positive": 95,
+                  "query_from": 2,
+                  "query_to": 157,
+                  "hit_from": 3,
+                  "hit_to": 155,
+                  "align_len": 157,
+                  "gaps": 5,
+                  "qseq": "SVNTSFLSPSLVTIRDFDKGQFAVLRIGRTGFPADKGDIDLCLSKMDGVLAA-QLYLGNPREPGFKGPHIRIRCVDIDDKHTYNAMVYVDLIVGTGASEVERETAEERARRALAVALRVDEADEHSCVTQFEMKLREELLSSDSFHPDKDEYYKDFL",
+                  "hseq": "AINVSFLTPSKAIIRDFDNGQLCVLRIGRTGFPVTKSDVSLALSKMKAVREIEQLYRERSQTAGF----LRVRALDVDNKHSYSTTVFVDLVVAHGTNEKDSALLLEMAKVLVLGHEELAEVDSNGCFVQTEIALKDALLSSDNFHRDAESFYEQHL",
+                  "midline": "++N SFL+PS   IRDFD GQ  VLRIGRTGFP  K D+ L LSKM  V    QLY    +  GF    +R+R +D+D+KH+Y+  V+VDL+V  G +E +     E A+  +     + E D + C  Q E+ L++ LLSSD+FH D + +Y+  L"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

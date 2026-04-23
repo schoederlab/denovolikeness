@@ -1,0 +1,134 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236582",
+          "query_title": "3he5_A",
+          "query_len": 49,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|3HE5|A",
+                  "accession": "3HE5_A",
+                  "title": "Chain A, SYNZIP1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 49,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.6633,
+                  "score": 226,
+                  "evalue": 3.89972e-23,
+                  "identity": 49,
+                  "positive": 49,
+                  "query_from": 1,
+                  "query_to": 49,
+                  "hit_from": 1,
+                  "hit_to": 49,
+                  "align_len": 49,
+                  "gaps": 0,
+                  "qseq": "GSNLVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIEE",
+                  "hseq": "GSNLVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIEE",
+                  "midline": "GSNLVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIEE"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8FSJ|E",
+                  "accession": "8FSJ_E",
+                  "title": "Chain E, HCV E2 ectodomain, SYNZIP2 scaffold fusion [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 385,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.0485,
+                  "score": 227,
+                  "evalue": 2.07365e-20,
+                  "identity": 45,
+                  "positive": 45,
+                  "query_from": 4,
+                  "query_to": 48,
+                  "hit_from": 335,
+                  "hit_to": 379,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIE",
+                  "hseq": "LVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIE",
+                  "midline": "LVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIE"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|UDE22652.1|",
+                  "accession": "UDE22652",
+                  "title": "SZ1-GST-mCherry-RGG, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 697,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 5.16844e-19,
+                  "identity": 47,
+                  "positive": 47,
+                  "query_from": 3,
+                  "query_to": 49,
+                  "hit_from": 2,
+                  "hit_to": 48,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "NLVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIEE",
+                  "hseq": "NLVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIEE",
+                  "midline": "NLVAQLENEVASLENENETLKKKNLHKKDLIAYLEKEIANLRKKIEE"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

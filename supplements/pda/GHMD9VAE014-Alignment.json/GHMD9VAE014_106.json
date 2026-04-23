@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236225",
+          "query_title": "5ts4_A",
+          "query_len": 110,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5TS4|A",
+                  "accession": "5TS4_A",
+                  "title": "Chain A, denovo NTF2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 224.172,
+                  "score": 570,
+                  "evalue": 1.04979e-73,
+                  "identity": 110,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 110,
+                  "hit_from": 1,
+                  "hit_to": 110,
+                  "align_len": 110,
+                  "gaps": 0,
+                  "qseq": "GSHMSEEAKIAIELFKEAMKDPERFKEMCSPDTRIESNGQEYRGSEECKKFAEEMKKTHPWEVRVERYRSDGDRFEIELRVNFNGKTFRMEIRMRKVNGEFRIEEMRLHG",
+                  "hseq": "GSHMSEEAKIAIELFKEAMKDPERFKEMCSPDTRIESNGQEYRGSEECKKFAEEMKKTHPWEVRVERYRSDGDRFEIELRVNFNGKTFRMEIRMRKVNGEFRIEEMRLHG",
+                  "midline": "GSHMSEEAKIAIELFKEAMKDPERFKEMCSPDTRIESNGQEYRGSEECKKFAEEMKKTHPWEVRVERYRSDGDRFEIELRVNFNGKTFRMEIRMRKVNGEFRIEEMRLHG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5L33|A",
+                  "accession": "5L33_A",
+                  "title": "Chain A, denovo NTF2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 4.17803e-13,
+                  "identity": 41,
+                  "positive": 64,
+                  "query_from": 1,
+                  "query_to": 102,
+                  "hit_from": 1,
+                  "hit_to": 101,
+                  "align_len": 104,
+                  "gaps": 5,
+                  "qseq": "GSHMSEEAKIAIELFKEAMK--DPERFKEMCSPDTRIESNGQEYRGSEECKKFAEEMKKTHPWEVRVERYRSDGDRFEIELRVNFNGKTFRMEIRMRKVNGEFR",
+                  "hseq": "GSHMPEEEKAA-RLFIEALEKGDPELMRKVISPDTRMEDNGREFTGDEVVEYVKEIQKRGEQWHLR--RYTKEGNSWRFEVQVDNNGQTEQWEVQIEVRNGRIK",
+                  "midline": "GSHM EE K A  LF EA++  DPE  +++ SPDTR+E NG+E+ G E  +   E  K+   W +R  RY  +G+ +  E++V+ NG+T + E+++   NG  +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

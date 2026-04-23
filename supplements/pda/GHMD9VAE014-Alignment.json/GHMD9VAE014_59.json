@@ -1,0 +1,102 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236178",
+          "query_title": "8kcj_A",
+          "query_len": 181,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|8KCJ|A",
+                  "accession": "8KCJ_A",
+                  "title": "Chain A, De novo design protein -N7 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 320.472,
+                  "score": 820,
+                  "evalue": 1.44064e-109,
+                  "identity": 181,
+                  "positive": 181,
+                  "query_from": 1,
+                  "query_to": 181,
+                  "hit_from": 1,
+                  "hit_to": 181,
+                  "align_len": 181,
+                  "gaps": 0,
+                  "qseq": "GLEAAVDAAYEILLEELEKHGVRTIVVVGTGELALVLALAGVRLARERGVKTIVLVRDAAAAHRLLAALAAALGLPAPASADAAALAAADAALWAEHGLRVRVADLTDPAALRAALEALFAEHGRDDTLVLPAGEAALAALEPVLRELGLEEMAAVAREVYARLRAALAAARALEHHHHHH",
+                  "hseq": "GLEAAVDAAYEILLEELEKHGVRTIVVVGTGELALVLALAGVRLARERGVKTIVLVRDAAAAHRLLAALAAALGLPAPASADAAALAAADAALWAEHGLRVRVADLTDPAALRAALEALFAEHGRDDTLVLPAGEAALAALEPVLRELGLEEMAAVAREVYARLRAALAAARALEHHHHHH",
+                  "midline": "GLEAAVDAAYEILLEELEKHGVRTIVVVGTGELALVLALAGVRLARERGVKTIVLVRDAAAAHRLLAALAAALGLPAPASADAAALAAADAALWAEHGLRVRVADLTDPAALRAALEALFAEHGRDDTLVLPAGEAALAALEPVLRELGLEEMAAVAREVYARLRAALAAARALEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "ref|WP_436793873.1|",
+                  "accession": "WP_436793873",
+                  "title": "SDR family NAD(P)-dependent oxidoreductase [Actinospongicola halichondriae]",
+                  "taxid": 3236844,
+                  "sciname": "Actinospongicola halichondriae"
+                }
+              ],
+              "len": 240,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.0158723,
+                  "identity": 34,
+                  "positive": 46,
+                  "query_from": 81,
+                  "query_to": 169,
+                  "hit_from": 28,
+                  "hit_to": 111,
+                  "align_len": 89,
+                  "gaps": 5,
+                  "qseq": "ADAAALAAADAALWAEHGLRVRVADLTDPAALRAALEALFAEHGRDDTLVLPAGEAALAALEPVLRELGLEEMAAVAREVYARLRAALA",
+                  "hseq": "AEGATVAVVDLAATADH-----PCDVTDPTAVASTFGAIAAEHGRIDVLVTSAGIANVGTLESTSPEDFDKVFAVNVRGVYLTMQAAVA",
+                  "midline": "A+ A +A  D A  A+H       D+TDP A+ +   A+ AEHGR D LV  AG A +  LE    E   +  A   R VY  ++AA+A"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

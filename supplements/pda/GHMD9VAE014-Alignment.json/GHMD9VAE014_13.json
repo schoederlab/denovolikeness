@@ -1,0 +1,4428 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236132",
+          "query_title": "3tdm_A",
+          "query_len": 126,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|3TDM|A",
+                  "accession": "3TDM_A",
+                  "title": "Chain A, Computationally designed two-fold symmetric TIM-barrel protein, FLR (half molecule) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 255.373,
+                  "score": 651,
+                  "evalue": 1.22741e-85,
+                  "identity": 126,
+                  "positive": 126,
+                  "query_from": 1,
+                  "query_to": 126,
+                  "hit_from": 1,
+                  "hit_to": 126,
+                  "align_len": 126,
+                  "gaps": 0,
+                  "qseq": "GSESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "GSESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "midline": "GSESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|4J9J|A",
+                  "accession": "4J9J_A",
+                  "title": "Chain A, Imidazole glycerol phosphate synthase subunit HisF [Thermotoga maritima MSB8]",
+                  "taxid": 243274,
+                  "sciname": "Thermotoga maritima MSB8"
+                }
+              ],
+              "len": 246,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 238.039,
+                  "score": 606,
+                  "evalue": 5.65e-77,
+                  "identity": 117,
+                  "positive": 117,
+                  "query_from": 6,
+                  "query_to": 126,
+                  "hit_from": 27,
+                  "hit_to": 147,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "SQAVVVAIDAKRVDGEFMAFTYSGKKNTGILLRDWVVEVEKRGAGEILLASIDRGGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGADKVSINTAAVENPSLITQIAQTFG",
+                  "midline": "SQAVVVAIDAKRVDGEFM FTYSGKKNTGILLRDWVVEVEKRGAGEILL SIDR GTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GADKVSINTAAVENPSLITQIAQTFG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 192.971,
+                  "score": 489,
+                  "evalue": 3.04539e-59,
+                  "identity": 95,
+                  "positive": 95,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 148,
+                  "hit_to": 245,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVVVAIVAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRVGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGAD",
+                  "midline": "SQAVVVAI AKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDR GTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GAD"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.000299438,
+                  "identity": 24,
+                  "positive": 24,
+                  "query_from": 102,
+                  "query_to": 126,
+                  "hit_from": 2,
+                  "hit_to": 26,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "ADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "ADKVIINTAAVENPSLITQIAQTFG",
+                  "midline": "ADKV INTAAVENPSLITQIAQTFG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|4FX7|A",
+                  "accession": "4FX7_A",
+                  "title": "Chain A, Imidazole glycerol phosphate synthase subunit HisF [Thermotoga maritima MSB8]",
+                  "taxid": 243274,
+                  "sciname": "Thermotoga maritima MSB8"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 235.728,
+                  "score": 600,
+                  "evalue": 4.59944e-76,
+                  "identity": 117,
+                  "positive": 118,
+                  "query_from": 6,
+                  "query_to": 126,
+                  "hit_from": 122,
+                  "hit_to": 242,
+                  "align_len": 121,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "SQAVVVAIVAKRVDGEFMVFTHSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRVGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGADKVSINTAAVENPSLITQIAQTFG",
+                  "midline": "SQAVVVAI AKRVDGEFMVFT+SGKKNTGILLRDWVVEVEKRGAGEILLTSIDR GTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GADKVSINTAAVENPSLITQIAQTFG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 232.261,
+                  "score": 591,
+                  "evalue": 1.44057e-74,
+                  "identity": 115,
+                  "positive": 116,
+                  "query_from": 7,
+                  "query_to": 126,
+                  "hit_from": 2,
+                  "hit_to": 121,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "QRVVVAIVAKRVDGEFMVFTHSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRVGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGADKVSINTAAVENPSLITQIAQTFG",
+                  "midline": "Q VVVAI AKRVDGEFMVFT+SGKKNTGILLRDWVVEVEKRGAGEILLTSIDR GTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GADKVSINTAAVENPSLITQIAQTFG"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|2LLE|A",
+                  "accession": "2LLE_A",
+                  "title": "Chain A, Chemotaxis protein CheY, Imidazole glycerol phosphate synthase subunit HisF chimera [Thermotoga maritima]",
+                  "taxid": 2336,
+                  "sciname": "Thermotoga maritima"
+                }
+              ],
+              "len": 234,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 201.06,
+                  "score": 510,
+                  "evalue": 1.46567e-62,
+                  "identity": 97,
+                  "positive": 97,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 101,
+                  "hit_to": 198,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGAD",
+                  "midline": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.000364336,
+                  "identity": 25,
+                  "positive": 29,
+                  "query_from": 82,
+                  "query_to": 126,
+                  "hit_from": 56,
+                  "hit_to": 100,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "IIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "IIVCSAMGQQAMVIEAIKAGAKGFIVNTAAVENPSLITQLAQTFG",
+                  "midline": "II     G+    +EA   GA    +NTAAVENPSLITQ+AQTFG"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_012311332.1|",
+                  "accession": "WP_012311332",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Thermotoga sp. RQ2]",
+                  "taxid": 126740,
+                  "sciname": "Thermotoga sp. RQ2"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 198.364,
+                  "score": 503,
+                  "evalue": 3.13315e-61,
+                  "identity": 96,
+                  "positive": 97,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 219,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVERRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGAD",
+                  "midline": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVE+RGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 3.9932e-09,
+                  "identity": 38,
+                  "positive": 43,
+                  "query_from": 48,
+                  "query_to": 126,
+                  "hit_from": 43,
+                  "hit_to": 121,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "GIDELVFLDITASVEKRKTMLELVEKVAEQIDIPFTVGGGIHDFETASELILRGADKVSINTAAVGNPSLITQIAQTFG",
+                  "midline": "G  E++   I     K     E++  V     +P    GG    E   E  LRGADKVSINTAAV NPSLITQIAQTFG"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|2W6R|A",
+                  "accession": "2W6R_A",
+                  "title": "Chain A, IMIDAZOLE GLYCEROL PHOSPHATE SYNTHASE SUBUNIT HISF [Thermotoga maritima]",
+                  "taxid": 2336,
+                  "sciname": "Thermotoga maritima"
+                }
+              ],
+              "len": 266,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 197.208,
+                  "score": 500,
+                  "evalue": 1.35003e-60,
+                  "identity": 96,
+                  "positive": 97,
+                  "query_from": 5,
+                  "query_to": 103,
+                  "hit_from": 126,
+                  "hit_to": 224,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "SSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SGQAVVVAIDAKRVDGEFMVFTHSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGAD",
+                  "midline": "S QAVVVAIDAKRVDGEFMVFT+SGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 195.282,
+                  "score": 495,
+                  "evalue": 6.34581e-60,
+                  "identity": 95,
+                  "positive": 96,
+                  "query_from": 7,
+                  "query_to": 104,
+                  "hit_from": 2,
+                  "hit_to": 99,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADK",
+                  "hseq": "QRVVVAIDAKRVDGEFMVFTHSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGADK",
+                  "midline": "Q VVVAIDAKRVDGEFMVFT+SGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GADK"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "gb|KUK22306.1|",
+                  "accession": "KUK22306",
+                  "title": "MAG: Imidazole glycerol phosphate synthase subunit HisF, partial [Thermotoga petrophila]",
+                  "taxid": 93929,
+                  "sciname": "Thermotoga petrophila"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 171.785,
+                  "score": 434,
+                  "evalue": 1.38724e-52,
+                  "identity": 82,
+                  "positive": 84,
+                  "query_from": 19,
+                  "query_to": 103,
+                  "hit_from": 1,
+                  "hit_to": 85,
+                  "align_len": 85,
+                  "gaps": 0,
+                  "qseq": "DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "DGEFVVFTYSGKKNTGILLRDWVVEVERRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLAGAD",
+                  "midline": "DGEF+VFTYSGKKNTGILLRDWVVEVE+RGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFL GAD"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_038034149.1|",
+                  "accession": "WP_038034149",
+                  "title": "MULTISPECIES: imidazole glycerol phosphate synthase subunit HisF [unclassified Thermotoga]",
+                  "taxid": 2631113,
+                  "sciname": "unclassified Thermotoga"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 174.866,
+                  "score": 442,
+                  "evalue": 5.08677e-52,
+                  "identity": 84,
+                  "positive": 88,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 122,
+                  "hit_to": 214,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "SQAVVVAIDAKRMDGDFIVFTYSGKKNTGILLSDWVREVERRGAGEILLTSIDRDGTKMGYDTEMIEFVRPLTNLPIIASGGAGKMEHFLEAF",
+                  "midline": "SQAVVVAIDAKR+DG+F+VFTYSGKKNTGILL DWV EVE+RGAGEILLTSIDRDGTK GYDTEMI FVRPLT LPIIASGGAGKMEHFLEAF"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 1.42616e-07,
+                  "identity": 35,
+                  "positive": 42,
+                  "query_from": 48,
+                  "query_to": 126,
+                  "hit_from": 43,
+                  "hit_to": 121,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "GIDELVFLDITASVEKRKTMLELVEKVAEQIDIPFTVGGGIHDFETASELILRGADKVSINTAAVEKPDLITRIAETFG",
+                  "midline": "G  E++   I     K     E++  V     +P    GG    E   E  LRGADKVSINTAAVE P LIT+IA+TFG"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_101509723.1|",
+                  "accession": "WP_101509723",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Thermotoga sp. KOL6]",
+                  "taxid": 126741,
+                  "sciname": "Thermotoga sp. KOL6"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 165.236,
+                  "score": 417,
+                  "evalue": 3.45199e-48,
+                  "identity": 79,
+                  "positive": 86,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 122,
+                  "hit_to": 214,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "SQAVVVAIDAKRIDGKFVVFTYSGKKNTGILLENWVQEIEKRGAGEILLTSIDRDGTKMGYDVEMIEFVRSLTGLPIIASGGAGEMKHFLEAF",
+                  "midline": "SQAVVVAIDAKR+DG+F+VFTYSGKKNTGILL +WV E+EKRGAGEILLTSIDRDGTK GYD EMI FVR LT LPIIASGGAG+M+HFLEAF"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 2.58847e-07,
+                  "identity": 31,
+                  "positive": 36,
+                  "query_from": 69,
+                  "query_to": 126,
+                  "hit_from": 64,
+                  "hit_to": 121,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "ELVEKVAEEIDIPFTVGGGIHDFETASELILRGADKVSINTAAVEKPELITKIARTFG",
+                  "midline": "E++  V     +P    GG    E   E  LRGADKVSINTAAVE P LIT+IA+TFG"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_435564838.1|",
+                  "accession": "WP_435564838",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Pseudothermotoga sp. U03pept]",
+                  "taxid": 3447012,
+                  "sciname": "Pseudothermotoga sp. U03pept"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 155.606,
+                  "score": 392,
+                  "evalue": 2.19254e-44,
+                  "identity": 76,
+                  "positive": 83,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 122,
+                  "hit_to": 214,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "SQAVVVAIDSKRVDGKFFVFTHSGKNNTGVLLQDWVREVEKLGAGEILLTSIDRDGTKAGYDTEMISFVRDLTNLPIIASGGAGKIEDFLIVF",
+                  "midline": "SQAVVVAID+KRVDG+F VFT+SGK NTG+LL+DWV EVEK GAGEILLTSIDRDGTK+GYDTEMI FVR LT LPIIASGGAGK+E FL  F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 51.6026,
+                  "score": 122,
+                  "evalue": 0.000107091,
+                  "identity": 29,
+                  "positive": 41,
+                  "query_from": 48,
+                  "query_to": 126,
+                  "hit_from": 43,
+                  "hit_to": 121,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "GIDELVFLDITASIEKRRTVVDLVERVAEQIDIPFTVGGGIHDFETASQLILCGADKISLNTAAVEQPRLITKLSQTFG",
+                  "midline": "G  E++   I     K     +++  V     +P    GG    E   +  L GADK+S+NTAAVE P LIT+++QTFG"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_445919852.1|",
+                  "accession": "WP_445919852",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Fervidobacterium sp.]",
+                  "taxid": 1871331,
+                  "sciname": "Fervidobacterium sp."
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 147.902,
+                  "score": 372,
+                  "evalue": 1.86866e-41,
+                  "identity": 73,
+                  "positive": 80,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 122,
+                  "hit_to": 214,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "SQAVVVAIDAKKVDGEFYVFTHSGKKNTGMYLSDWVRKVEIFGAGEILLTSIDRDGTKKGYDLEMIGFVRNITNLPIIASGGAGRMEDFLDVF",
+                  "midline": "SQAVVVAIDAK+VDGEF VFT+SGKKNTG+ L DWV +VE  GAGEILLTSIDRDGTK GYD EMI FVR +T LPIIASGGAG+ME FL+ F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.5286,
+                  "score": 127,
+                  "evalue": 2.27031e-05,
+                  "identity": 27,
+                  "positive": 31,
+                  "query_from": 80,
+                  "query_to": 126,
+                  "hit_from": 75,
+                  "hit_to": 121,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "LPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "IPFTVGGGIRDFETAAELIKLGADKVSINTAAVENPKLISKIAKTFG",
+                  "midline": "+P    GG    E   E    GADKVSINTAAVENP LI++IA+TFG"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "gb|MDI3472925.1|",
+                  "accession": "MDI3472925",
+                  "title": "imidazole glycerol-phosphate synthase subunit HisF [Thermotogaceae bacterium]",
+                  "taxid": 2268206,
+                  "sciname": "Thermotogaceae bacterium"
+                }
+              ],
+              "len": 250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 3.29347e-37,
+                  "identity": 68,
+                  "positive": 76,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 219,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVVVAIDAKRTGRGFEVFTHSGRKATGILLEDWCRTVEELGAGEILLTSIDKDGVKEGYDIEMLEIVRNIVTIPVIISGGAGKKEHFLEAFKNGAD",
+                  "midline": "SQAVVVAIDAKR    F VFT+SG+K TGILL DW   VE+ GAGEILLTSID+DG K GYD EM+  VR + T+P+I SGGAGK EHFLEAF  GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.5286,
+                  "score": 127,
+                  "evalue": 2.00091e-05,
+                  "identity": 30,
+                  "positive": 41,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 41,
+                  "hit_to": 121,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "KEGIDELVFLDITASVEKRKTMVETVEKVAKNIMIPFTIGGGIWELDLAFELIYRGADKVSLNSGAVNNPELITKIAEKFG",
+                  "midline": "K G  E++   I     K     E +  V     +P    GG  +++   E   RGADKVS+N+ AV NP LIT+IA+ FG"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "tpg|HEW91307.1|",
+                  "accession": "HEW91307",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Thermotogaceae bacterium]",
+                  "taxid": 2268206,
+                  "sciname": "Thermotogaceae bacterium"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.732,
+                  "score": 343,
+                  "evalue": 5.79524e-37,
+                  "identity": 67,
+                  "positive": 79,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 219,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVIVAIDAKRTALGFEVFTHSGKKATGMKLEDWVMKVEKLGAGEIMLTSIDKDGTRDGYDIEMLKAVRKLVNIPIIISGGAGKKKHFLEAFNNGAD",
+                  "midline": "SQAV+VAIDAKR    F VFT+SGKK TG+ L DWV++VEK GAGEI+LTSID+DGT+ GYD EM++ VR L  +PII SGGAGK +HFLEAF  GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 0.000275784,
+                  "identity": 26,
+                  "positive": 36,
+                  "query_from": 70,
+                  "query_to": 126,
+                  "hit_from": 62,
+                  "hit_to": 121,
+                  "align_len": 60,
+                  "gaps": 3,
+                  "qseq": "MIRFVRPLT---TLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "MIKTVEKVAENITIPFAIGGGIWQSDLAFELIYRGADKVSLNSGVVDNPKLITEIAKKFG",
+                  "midline": "MI+ V  +    T+P    GG  + +   E   RGADKVS+N+  V+NP LIT+IA+ FG"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_165274934.1|",
+                  "accession": "WP_165274934",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Thermotoga sp. Ku-13t]",
+                  "taxid": 1755813,
+                  "sciname": "Thermotoga sp. Ku-13t"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 135.191,
+                  "score": 339,
+                  "evalue": 2.00764e-36,
+                  "identity": 66,
+                  "positive": 78,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 219,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVVVAIDTKRTEIGFEVFVMSGKKATGIRLEDWLVEIQQRGAGEILLTSIDTDGTKDGFDIELIRRARQISKLPLIASGGAGRQQHFLEAFRAGAD",
+                  "midline": "SQAVVVAID KR +  F VF  SGKK TGI L DW+VE+++RGAGEILLTSID DGTK G+D E+IR  R ++ LP+IASGGAG+ +HFLEAF  GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 51.9878,
+                  "score": 123,
+                  "evalue": 7.23115e-05,
+                  "identity": 25,
+                  "positive": 35,
+                  "query_from": 69,
+                  "query_to": 126,
+                  "hit_from": 64,
+                  "hit_to": 121,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "DLVKKVAERVDVPFTVGGGIRDLETAMELIYAGADKVSVNTAAVENPRLVEKIATRFG",
+                  "midline": "++++ V     +P    GG   +E  +E    GADKVS+NTAAVENP L+ +IA  FG"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gb|MFN3328248.1|",
+                  "accession": "MFN3328248",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Fervidobacterium pennivorans]",
+                  "taxid": 93466,
+                  "sciname": "Fervidobacterium pennivorans"
+                }
+              ],
+              "len": 225,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 128.257,
+                  "score": 321,
+                  "evalue": 3.91162e-34,
+                  "identity": 61,
+                  "positive": 76,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 96,
+                  "hit_to": 193,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVVVAIDVKKTEIGYEVFTVSGRKRTGIKYETHLVEMQKRGAGELLITSIDKDGMQEGYDIETVKLAKSLTNLPVIVSGGAGKMEHFLEAFLVGAD",
+                  "midline": "SQAVVVAID K+ +  + VFT SG+K TGI     +VE++KRGAGE+L+TSID+DG + GYD E ++  + LT LP+I SGGAGKMEHFLEAFL GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.9214,
+                  "score": 141,
+                  "evalue": 1.61602e-07,
+                  "identity": 36,
+                  "positive": 46,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 7,
+                  "hit_to": 95,
+                  "align_len": 89,
+                  "gaps": 4,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VELAKRYVELGVDELVFLDITATHEKRKTLVELVEKIAENINVPFTVGGGINSLELASELIYKGADKVSINSAAVENPQLITQIADRFG",
+                  "midline": "VE+ KR    G  E++   I     K     E++  +     +P    GG   +E   E   +GADKVSIN+AAVENP LITQIA  FG"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_031503347.1|",
+                  "accession": "WP_031503347",
+                  "title": "MULTISPECIES: imidazole glycerol phosphate synthase subunit HisF [Pseudothermotoga]",
+                  "taxid": 1643951,
+                  "sciname": "Pseudothermotoga"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 125.561,
+                  "score": 314,
+                  "evalue": 1.22877e-32,
+                  "identity": 63,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 103,
+                  "hit_from": 117,
+                  "hit_to": 219,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "GSESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "ASKFGSQAVVVAVDAKRTQLGFEVFILSGKKATGIKLEDWLRNVQELGAGEILLTSIDKDGTKEGFDLELISLARKVLKIPLIASGGAGTKQHFLEAFKAGAD",
+                  "midline": " S+  SQAVVVA+DAKR    F VF  SGKK TGI L DW+  V++ GAGEILLTSID+DGTK G+D E+I   R +  +P+IASGGAG  +HFLEAF  GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.5286,
+                  "score": 127,
+                  "evalue": 2.1512e-05,
+                  "identity": 30,
+                  "positive": 35,
+                  "query_from": 70,
+                  "query_to": 126,
+                  "hit_from": 62,
+                  "hit_to": 121,
+                  "align_len": 60,
+                  "gaps": 3,
+                  "qseq": "MIRFVRPL---TTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "MIHVVKKVAEKTNIPFTVGGGIRDIETASELIYAGADKVSINTAAVENPKLIEKIASKFG",
+                  "midline": "MI  V+ +   T +P    GG   +E   E    GADKVSINTAAVENP LI +IA  FG"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "gb|MEN3042485.1|",
+                  "accession": "MEN3042485",
+                  "title": "HisA/HisF-related TIM barrel protein [Fervidobacterium sp.]",
+                  "taxid": 1871331,
+                  "sciname": "Fervidobacterium sp."
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.67551e-32,
+                  "identity": 58,
+                  "positive": 72,
+                  "query_from": 7,
+                  "query_to": 103,
+                  "hit_from": 1,
+                  "hit_to": 97,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "QAVVVAIDVKKTGIGYEIFTVSGRKRTGIKYEDYLTEIEKLGAGELLITSIDKDGMQEGYDTQTIHIAKSLTKLPIIASGGAGRMEHILEIFNAGAD",
+                  "midline": "QAVVVAID K+    + +FT SG+K TGI   D++ E+EK GAGE+L+TSID+DG + GYDT+ I   + LT LPIIASGGAG+MEH LE F  GAD"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|MCU1449969.1|",
+                  "accession": "MCU1449969",
+                  "title": "imidazoleglycerol phosphate synthase, cyclase subunit [Acidimicrobiales bacterium]",
+                  "taxid": 2201156,
+                  "sciname": "Acidimicrobiales bacterium"
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 2.39879e-32,
+                  "identity": 62,
+                  "positive": 72,
+                  "query_from": 3,
+                  "query_to": 105,
+                  "hit_from": 7,
+                  "hit_to": 110,
+                  "align_len": 104,
+                  "gaps": 1,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "EFGAQCVVVAIDARRAPGGFEVFTHGGRKPTGLDAVSWAAECERLGAGEILLTSMDRDGTKDGYDTELTRAVSEACELPVIASGGAGTLEHLAEAALEGKADAV",
+                  "midline": "E  +Q VVVAIDA+R  G F VFT+ G+K TG+    W  E E+ GAGEILLTS+DRDGTK GYDTE+ R V     LP+IASGGAG +EH  EA L G AD V"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|MDT7907325.1|",
+                  "accession": "MDT7907325",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Calescibacterium sp.]",
+                  "taxid": 2972667,
+                  "sciname": "Candidatus Calescibacterium sp."
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 124.02,
+                  "score": 310,
+                  "evalue": 3.66963e-32,
+                  "identity": 63,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 102,
+                  "hit_from": 126,
+                  "hit_to": 222,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGA",
+                  "hseq": "SQCVVVAIDAKRVGKSFRVFIYSGKKDTGLDAEDWAKKVVELGAGEILLTSIDKDGTQSGYDLELIQKISESVPVPIIASGGAGKKEHFLEAIRSGA",
+                  "midline": "SQ VVVAIDAKRV   F VF YSGKK+TG+   DW  +V + GAGEILLTSID+DGT+SGYD E+I+ +     +PIIASGGAGK EHFLEA   GA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 54.299,
+                  "score": 129,
+                  "evalue": 1.00741e-05,
+                  "identity": 31,
+                  "positive": 40,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 45,
+                  "hit_to": 125,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "QEGADEICILDISASEEGRKASLQMISKIAENVFVPLTVGGGVRTWKDMREYLLAGADKVSINTGAVENPKLIKECAEIFG",
+                  "midline": "+ GA EI +  I           +MI  +     +P+   GG    +   E  L GADKVSINT AVENP LI + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|MGB9856719.1|",
+                  "accession": "MGB9856719",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Dictyoglomaceae bacterium]",
+                  "taxid": 2969825,
+                  "sciname": "Dictyoglomaceae bacterium"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 122.479,
+                  "score": 306,
+                  "evalue": 1.81816e-31,
+                  "identity": 63,
+                  "positive": 77,
+                  "query_from": 3,
+                  "query_to": 105,
+                  "hit_from": 119,
+                  "hit_to": 222,
+                  "align_len": 104,
+                  "gaps": 1,
+                  "qseq": "ESSSQAVVVAIDAKRV-DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKV",
+                  "hseq": "EFGSQSLVVAIDAKRIADKKWEVYIKSGKEPTGIDLRDWLVEVEKRGAGEILLTSIDADGHKRGYDLELLKLADSLINIPLIASGGAGSLEDLYNAFQVGADAV",
+                  "midline": "E  SQ++VVAIDAKR+ D ++ V+  SGK+ TGI LRDW+VEVEKRGAGEILLTSID DG K GYD E+++    L  +P+IASGGAG +E    AF  GAD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.151,
+                  "score": 139,
+                  "evalue": 4.3422e-07,
+                  "identity": 34,
+                  "positive": 45,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EREGADELVLLDITATLESRKTFVKLVREVAKELFIPLTVGGGIRTIEDVRELLRAGADKVSVNTAAVINPSLINQIAEEFG",
+                  "midline": "E+ GA E++L  I           +++R V     +P+   GG   +E   E    GADKVS+NTAAV NPSLI QIA+ FG"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|MDO5437720.1|",
+                  "accession": "MDO5437720",
+                  "title": "HisA/HisF-related TIM barrel protein [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 196,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 2.06212e-31,
+                  "identity": 59,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 100,
+                  "hit_from": 62,
+                  "hit_to": 157,
+                  "align_len": 96,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLR",
+                  "hseq": "SQCVVAAIDAKRVDGDFFVHINAGKKNTGIKLLDWVKEVEERGAGEILLTSMDYDGCQIGFDIEMLRLVSNSVNIPVIASGGAGPDSSHFIDVFTK",
+                  "midline": "SQ VV AIDAKRVDG+F V   +GKKNTGI L DWV EVE+RGAGEILLTS+D DG + G+D EM+R V     +P+IASGGAG    HF++ F +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.9062,
+                  "score": 115,
+                  "evalue": 0.000719472,
+                  "identity": 24,
+                  "positive": 34,
+                  "query_from": 69,
+                  "query_to": 126,
+                  "hit_from": 4,
+                  "hit_to": 61,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "ELVEKVGKNVFIPFTVGGGISDIEDFKVILKAGADKISVNSAAVKNPSLINEAAEYFG",
+                  "midline": "E++  V     +P    GG   +E F      GADK+S+N+AAV+NPSLI + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_009075509.1|",
+                  "accession": "WP_009075509",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Metallosphaera yellowstonensis]",
+                  "taxid": 1111107,
+                  "sciname": "Metallosphaera yellowstonensis"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 2.73136e-31,
+                  "identity": 60,
+                  "positive": 75,
+                  "query_from": 3,
+                  "query_to": 101,
+                  "hit_from": 119,
+                  "hit_to": 217,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "EFGAQAVVVAIDVKRLNDSWAVFIRSGTENTGLDALRWAKKVQELGAGEILLTSIDRDGTRDGYDIEVTKFVSENVTIPVIASGGAGKPEHFLEAFLKG",
+                  "midline": "E  +QAVVVAID KR++  + VF  SG +NTG+    W  +V++ GAGEILLTSIDRDGT+ GYD E+ +FV    T+P+IASGGAGK EHFLEAFL+G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.8322,
+                  "score": 120,
+                  "evalue": 0.000214504,
+                  "identity": 32,
+                  "positive": 45,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVF--LDISATVEGRKTLLQKVRETAEILSIPLTVGGGVRTVDDVSRLLSNGADKVSINTAAVENPELIELASREFG",
+                  "midline": "E+ GA EI+   +D   T  G  T  + +R    + ++P+   GG   ++        GADKVSINTAAVENP LI   ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "tpg|HIS87878.1|",
+                  "accession": "HIS87878",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Avigastranaerophilus faecigallinarum]",
+                  "taxid": 2840696,
+                  "sciname": "Candidatus Avigastranaerophilus faecigallinarum"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 2.85809e-31,
+                  "identity": 58,
+                  "positive": 75,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLRG",
+                  "hseq": "SQCIVVAIDAKRVDGDFYVFINAGKINTGIKLSKWVKEVQKRGAGEILLTSMDADGTQNGFDIEMTKLASEHSSIPVIASGGAGPNPKHFTDIFIKG",
+                  "midline": "SQ +VVAIDAKRVDG+F VF  +GK NTGI L  WV EV+KRGAGEILLTS+D DGT++G+D EM +     +++P+IASGGAG   +HF + F++G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.9062,
+                  "score": 115,
+                  "evalue": 0.000911997,
+                  "identity": 28,
+                  "positive": 38,
+                  "query_from": 47,
+                  "query_to": 126,
+                  "hit_from": 42,
+                  "hit_to": 121,
+                  "align_len": 80,
+                  "gaps": 0,
+                  "qseq": "RGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EGADELVFLDITATNEKRKTTVEMVKKVAQQVFIPFTVGGGINSIEDMKVLLLAGADKVAINSAAVKTPDLINTSSNYFG",
+                  "midline": " GA E++   I     K     EM++ V     +P    GG   +E      L GADKV+IN+AAV+ P LI   +  FG"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "gb|MGC9105938.1|",
+                  "accession": "MGC9105938",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Thermoprotei archaeon]",
+                  "taxid": 2250277,
+                  "sciname": "Thermoprotei archaeon"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 2.99528e-31,
+                  "identity": 59,
+                  "positive": 70,
+                  "query_from": 7,
+                  "query_to": 98,
+                  "hit_from": 121,
+                  "hit_to": 212,
+                  "align_len": 92,
+                  "gaps": 0,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "QAVVVAIDAKRVGNQFRVFVRSGTQDTGLDAIEWAKEVERLGAGEILLTSIDRDGTRMGYDIELTKLVAKAVRIPVIASGGAGKMEHFLEVF",
+                  "midline": "QAVVVAIDAKRV  +F VF  SG ++TG+   +W  EVE+ GAGEILLTSIDRDGT+ GYD E+ + V     +P+IASGGAGKMEHFLE F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 57.3806,
+                  "score": 137,
+                  "evalue": 9.32771e-07,
+                  "identity": 40,
+                  "positive": 51,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 33,
+                  "hit_to": 119,
+                  "align_len": 89,
+                  "gaps": 6,
+                  "qseq": "VEVEKR--GAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VELASRYEGADEIVF--LDISATVEGRKTLFEKVRQTAEVISVPLTVGGGIRSLKDAETAFNSGADKVSINTAAVENKSLITEIADQFG",
+                  "midline": "VE+  R  GA EI+   +D   T  G  T  E +R    + ++P+   GG   ++    AF  GADKVSINTAAVEN SLIT+IA  FG"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "gb|MRJ06175.1|",
+                  "accession": "MRJ06175",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Campylobacterota bacterium]",
+                  "taxid": 2026809,
+                  "sciname": "Campylobacterota bacterium"
+                }
+              ],
+              "len": 257,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.709,
+                  "score": 304,
+                  "evalue": 3.94624e-31,
+                  "identity": 59,
+                  "positive": 72,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 124,
+                  "hit_to": 221,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQCIVVAIDVKRVNGEWKVFVKGGRENTGLDALQWAKEVVDRGAGEILLTSMDTDGTKGGFDIEITQAISQAVPVPVIASGGAGKMEHFKEAFLHGAD",
+                  "midline": "SQ +VVAID KRV+GE+ VF   G++NTG+    W  EV  RGAGEILLTS+D DGTK G+D E+ + +     +P+IASGGAGKMEHF EAFL GAD"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gb|MBQ8887088.1|",
+                  "accession": "MBQ8887088",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Gastranaerophilales bacterium]",
+                  "taxid": 2137880,
+                  "sciname": "Candidatus Gastranaerophilales bacterium"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 4.13064e-31,
+                  "identity": 58,
+                  "positive": 74,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 123,
+                  "hit_to": 219,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGK-MEHFLEAFLRG",
+                  "hseq": "SQCITVAVDAKRVDSDFYVFINAGKLNTGIRLSDWVKEVQKRGAGEILLTSMDADGTQNGFDIEMTKLVAQNSSIPVIASGGAGPVVEHFTDVFKYG",
+                  "midline": "SQ + VA+DAKRVD +F VF  +GK NTGI L DWV EV+KRGAGEILLTS+D DGT++G+D EM + V   +++P+IASGGAG  +EHF + F  G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.00222044,
+                  "identity": 33,
+                  "positive": 48,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 34,
+                  "hit_to": 122,
+                  "align_len": 91,
+                  "gaps": 8,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VELAKKYSSEGADELVF--LDITATNEGRKTTIEMVQKVAANVFIPFTVGGGIKSLDDMKALLLAGADKVAINSAAVKNPDLISISSDYFG",
+                  "midline": "VE+ K+    GA E++   +D   T  G  T  EM++ V     +P    GG   ++      L GADKV+IN+AAV+NP LI+  +  FG"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "tpg|HMP30245.1|",
+                  "accession": "HMP30245",
+                  "title": "HisA/HisF-related TIM barrel protein [Saprospiraceae bacterium]",
+                  "taxid": 2202734,
+                  "sciname": "Saprospiraceae bacterium"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 5.17262e-31,
+                  "identity": 54,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 107,
+                  "hit_from": 43,
+                  "hit_to": 144,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSI",
+                  "hseq": "AQCVIVAIDAKKEDGKWFVHTHGGRRNTGIDLFEWAKRAQELGAGEILFTSMDHDGTKDGYAIEALRYMNQLLCIPIIASGGAGKMEHFAEALQEGVAEAAL",
+                  "midline": "+Q V+VAIDAK+ DG++ V T+ G++NTGI L +W    ++ GAGEIL TS+D DGTK GY  E +R++  L  +PIIASGGAGKMEHF EA   G  + ++"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_428150592.1|",
+                  "accession": "WP_428150592",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Desulfurella sp.]",
+                  "taxid": 1962857,
+                  "sciname": "Desulfurella sp."
+                }
+              ],
+              "len": 250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 5.42918e-31,
+                  "identity": 56,
+                  "positive": 74,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 219,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQCIVVAIDAKKIGNDFYVFIDGGRVNTNKKVIDWLIEVQERGAGEILLTSMDKDGTKEGYDLELTKLVCENSTIPVIASGGAGKMEHIKQVFEIGAD",
+                  "midline": "SQ +VVAIDAK++  +F VF   G+ NT   + DW++EV++RGAGEILLTS+D+DGTK GYD E+ + V   +T+P+IASGGAGKMEH  + F  GAD"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_346309940.1|",
+                  "accession": "WP_346309940",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Pseudothermotoga sp.]",
+                  "taxid": 2033661,
+                  "sciname": "Pseudothermotoga sp."
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 6.53071e-31,
+                  "identity": 61,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 103,
+                  "hit_from": 117,
+                  "hit_to": 219,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "GSESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "ASKFGSQAVVVAVDAKRTQLGFEVFTLSGKKATKIKLEEWLRLLQDLGAGEVLLTSIDRDGTKEGFDLELISLARKILKIPLIASGGAGTEQHFLEAFKAGAD",
+                  "midline": " S+  SQAVVVA+DAKR    F VFT SGKK T I L +W+  ++  GAGE+LLTSIDRDGTK G+D E+I   R +  +P+IASGGAG  +HFLEAF  GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 0.000464409,
+                  "identity": 26,
+                  "positive": 34,
+                  "query_from": 69,
+                  "query_to": 126,
+                  "hit_from": 64,
+                  "hit_to": 121,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EVIEKVAEKTDIPFTVGGGIRDVDTASKLIYAGADRVSINTAAIENPRLIEQVASKFG",
+                  "midline": "E+I  V   T +P    GG   ++   +    GAD+VSINTAA+ENP LI Q+A  FG"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "gb|MBQ9246317.1|",
+                  "accession": "MBQ9246317",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 7.77918e-31,
+                  "identity": 56,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLRG",
+                  "hseq": "SQCIVVAIDAKRKDNDFYVYIHAGKTNTNIKLSDWVKDVQKRGAGEILLTSMDADGTQNGFDIEMTRLAAEYSSIPVIASGGAGPNTEHFIKVFNEG",
+                  "midline": "SQ +VVAIDAKR D +F V+ ++GK NT I L DWV +V+KRGAGEILLTS+D DGT++G+D EM R     +++P+IASGGAG   EHF++ F  G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.00225661,
+                  "identity": 28,
+                  "positive": 45,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 33,
+                  "hit_to": 121,
+                  "align_len": 89,
+                  "gaps": 4,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "IELAKKYSNDGADELVFLDITATNEKRKTTIKMVKKVARQVFIPFTVGGGIKTIDDIKDLLSAGADKVAINSAAVKNPDIINEAANYFG",
+                  "midline": "+E+ K+    GA E++   I     K     +M++ V     +P    GG   ++   +    GADKV+IN+AAV+NP +I + A  FG"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gb|MCD8023956.1|",
+                  "accession": "MCD8023956",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Gastranaerophilales bacterium]",
+                  "taxid": 2137880,
+                  "sciname": "Candidatus Gastranaerophilales bacterium"
+                }
+              ],
+              "len": 259,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.939,
+                  "score": 302,
+                  "evalue": 8.50007e-31,
+                  "identity": 58,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 124,
+                  "hit_to": 217,
+                  "align_len": 94,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAF",
+                  "hseq": "SQCIVAAIDAKRIDGDFYVFINAGKKNTGLKLLDWVKTVEKSGAGEILLTSMDFDGTKKGFDIEMLKMVSSSVNIPVIASGGAGDNSEHFVKLF",
+                  "midline": "SQ +V AIDAKR+DG+F VF  +GKKNTG+ L DWV  VEK GAGEILLTS+D DGTK G+D EM++ V     +P+IASGGAG   EHF++ F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 0.000237828,
+                  "identity": 29,
+                  "positive": 40,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 43,
+                  "hit_to": 123,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "KNGADELVFLDITATNEKRKTVVELVEKVGKHIFIPFTVGGGISTIEDIRAILKAGADKVSINSAAVKNPEMISLCAEYFG",
+                  "midline": "K GA E++   I     K     E++  V     +P    GG   +E        GADKVSIN+AAV+NP +I+  A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_345966119.1|",
+                  "accession": "WP_345966119",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Pseudothermotoga sp.]",
+                  "taxid": 2033661,
+                  "sciname": "Pseudothermotoga sp."
+                }
+              ],
+              "len": 257,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.553,
+                  "score": 301,
+                  "evalue": 9.13253e-31,
+                  "identity": 60,
+                  "positive": 74,
+                  "query_from": 1,
+                  "query_to": 98,
+                  "hit_from": 117,
+                  "hit_to": 214,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "GSESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "ASKFGSQAVVVAVDAKRTELGFEVFVLSGKKRTMMKLQDWLSLVQDFGAGEVLLTSIDKDGTKEGFDTEMISQARKVLKIPIIASGGAGRKEHFLQAF",
+                  "midline": " S+  SQAVVVA+DAKR +  F VF  SGKK T + L+DW+  V+  GAGE+LLTSID+DGTK G+DTEMI   R +  +PIIASGGAG+ EHFL+AF"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 0.000435104,
+                  "identity": 26,
+                  "positive": 29,
+                  "query_from": 80,
+                  "query_to": 126,
+                  "hit_from": 75,
+                  "hit_to": 121,
+                  "align_len": 47,
+                  "gaps": 0,
+                  "qseq": "LPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VPFTIGGGVRDVETASELIYAGADKVSINTAAVENPRLIEKIASKFG",
+                  "midline": "+P    GG   +E   E    GADKVSINTAAVENP LI +IA  FG"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_156014671.1|",
+                  "accession": "WP_156014671",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Sulfurisphaera ohwakuensis]",
+                  "taxid": 69656,
+                  "sciname": "Sulfurisphaera ohwakuensis"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 1.00079e-30,
+                  "identity": 62,
+                  "positive": 72,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 98,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "AQAVVVAIDVKRVNNSFIVFTRSGTYNTGIDAIQWAKEVEKLGAGEILLTSIDKDGTREGYDIELTKEVNNSVNIPVIASGGAGKMEHFYEV-LKVAD",
+                  "midline": "+QAVVVAID KRV+  F+VFT SG  NTGI    W  EVEK GAGEILLTSID+DGT+ GYD E+ + V     +P+IASGGAGKMEHF E  L+ AD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000644086,
+                  "identity": 31,
+                  "positive": 46,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVF--LDITATIEGRKALLEVVKNTASVLSIPLTVGGGIRTIEDVSRILGNGADKVSINTAAVENKKIITEASEQFG",
+                  "midline": "E+ GA EI+   +D   T  G     E+++    + ++P+   GG   +E        GADKVSINTAAVEN  +IT+ ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_229571368.1|",
+                  "accession": "WP_229571368",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Saccharolobus caldissimus]",
+                  "taxid": 1702097,
+                  "sciname": "Saccharolobus caldissimus"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 1.03812e-30,
+                  "identity": 59,
+                  "positive": 71,
+                  "query_from": 3,
+                  "query_to": 98,
+                  "hit_from": 119,
+                  "hit_to": 214,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "EFGSQAIVVAIDAKKIDKNWIVFTKSGTYNTGKNAIEWAKEVEQLGAGEILLTSIDRDGTKLGYDLELTKKIVEAVNIPVIASGGAGKMEHFYEVF",
+                  "midline": "E  SQA+VVAIDAK++D  ++VFT SG  NTG    +W  EVE+ GAGEILLTSIDRDGTK GYD E+ + +     +P+IASGGAGKMEHF E F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 54.6842,
+                  "score": 130,
+                  "evalue": 7.55703e-06,
+                  "identity": 33,
+                  "positive": 49,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDR--DGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIIFLDITATIEGRRALY--EVVKNTASVISIPLTVGGGIRTLEDVSMALKSGADKVSINTAAVENKTLIKEAAEEFG",
+                  "midline": "E+ GA EI+   I    +G ++ Y  E+++    + ++P+   GG   +E    A   GADKVSINTAAVEN +LI + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "gb|MEI8377245.1|",
+                  "accession": "MEI8377245",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 1.23324e-30,
+                  "identity": 59,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 100,
+                  "hit_from": 118,
+                  "hit_to": 217,
+                  "align_len": 100,
+                  "gaps": 1,
+                  "qseq": "SESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLR",
+                  "hseq": "QEFGSQCIVIAIDGKRVDGEFYVFINAGQKNTGIKLLDWVKKVESLGAGEILLTSMDADGTQAGFDIEMTKLVSENVNIPVIASGGAGDNAEHFSEVFKK",
+                  "midline": " E  SQ +V+AID KRVDGEF VF  +G+KNTGI L DWV +VE  GAGEILLTS+D DGT++G+D EM + V     +P+IASGGAG   EHF E F +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.0121619,
+                  "identity": 25,
+                  "positive": 39,
+                  "query_from": 48,
+                  "query_to": 126,
+                  "hit_from": 43,
+                  "hit_to": 121,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "GADELVFLDITATNEGRATTVKMVEAVAEQVFIPFTVGGGVKTIEDIKKLLRAGADKVALNSAAVINPNIIAEASQEFG",
+                  "midline": "GA E++   I           +M+  V     +P    GG   +E   +    GADKV++N+AAV NP++I + +Q FG"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|MCG2909562.1|",
+                  "accession": "MCG2909562",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Stygiolobus sp.]",
+                  "taxid": 2893820,
+                  "sciname": "Stygiolobus sp."
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 1.33845e-30,
+                  "identity": 56,
+                  "positive": 68,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 122,
+                  "hit_to": 214,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "SQAVVIAIDAKLVNGEYIVFTHSGTHNTGLNAVKWAKEVETLGAGEILLTSIDKDGTRDGYDITLTSLISSTVNIPVIASGGAGKMEHFYEVL",
+                  "midline": "SQAVV+AIDAK V+GE++VFT+SG  NTG+    W  EVE  GAGEILLTSID+DGT+ GYD  +   +     +P+IASGGAGKMEHF E  "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.9062,
+                  "score": 115,
+                  "evalue": 0.000784801,
+                  "identity": 33,
+                  "positive": 44,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EDEGADEIVF--LDVTATIEGRRAMLEVIKNTASVLSIPLTVGGGIRTIDDVSTILANGADKVSINTAAVENKKLITEAALQFG",
+                  "midline": "E  GA EI+   +D   T  G     E+I+    + ++P+   GG   ++        GADKVSINTAAVEN  LIT+ A  FG"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|MEM1526440.1|",
+                  "accession": "MEM1526440",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Ignisphaera sp.]",
+                  "taxid": 2268142,
+                  "sciname": "Ignisphaera sp."
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 120.168,
+                  "score": 300,
+                  "evalue": 1.40327e-30,
+                  "identity": 58,
+                  "positive": 71,
+                  "query_from": 3,
+                  "query_to": 101,
+                  "hit_from": 119,
+                  "hit_to": 217,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "EFGSQCIVVAIDAKKVGSRFVVFTYSGTYNTGLDAVEWARTVEYQGAGEILLTSIDRDGTRLGYDIELTKSVSQAVNIPVIASGGAGNIEHFYEVFTQG",
+                  "midline": "E  SQ +VVAIDAK+V   F+VFTYSG  NTG+   +W   VE +GAGEILLTSIDRDGT+ GYD E+ + V     +P+IASGGAG +EHF E F +G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.00034161,
+                  "identity": 28,
+                  "positive": 42,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVFLDITASVENRRTLLNVVKDTASVLSIPLIVGGGIKDVEDISSVLAYGADKVSINTAAVNNPGIVSIAAEEFG",
+                  "midline": "E+ GA EI+   I            +++    + ++P+I  GG   +E        GADKVSINTAAV NP +++  A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|MCC6016901.1|",
+                  "accession": "MCC6016901",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Desulfurococcaceae archaeon]",
+                  "taxid": 2184738,
+                  "sciname": "Desulfurococcaceae archaeon"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.783,
+                  "score": 299,
+                  "evalue": 1.79743e-30,
+                  "identity": 58,
+                  "positive": 70,
+                  "query_from": 3,
+                  "query_to": 101,
+                  "hit_from": 119,
+                  "hit_to": 217,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "EFGRQCIVVAVDAKKVGDRYRVFTYSGTYDTGLDVVDWVKYVETLGAGEILLTSIDRDGTRSGYDIELTRLVAESVRIPVIASGGAGSMEHFYEVLTKG",
+                  "midline": "E   Q +VVA+DAK+V   + VFTYSG  +TG+ + DWV  VE  GAGEILLTSIDRDGT+SGYD E+ R V     +P+IASGGAG MEHF E   +G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 51.6026,
+                  "score": 122,
+                  "evalue": 8.78314e-05,
+                  "identity": 27,
+                  "positive": 44,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EDEGADELVILDISASVEGRRTMLNVVKDVASILSIPLTVGGGIRDLEDISAALAHGADKVSINTAAVNNPQIVSRASEEFG",
+                  "midline": "E  GA E+++  I            +++ V  + ++P+   GG   +E    A   GADKVSINTAAV NP ++++ ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "gb|MCY0860302.1|",
+                  "accession": "MCY0860302",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Sulfolobaceae archaeon]",
+                  "taxid": 2967306,
+                  "sciname": "Sulfolobaceae archaeon"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.398,
+                  "score": 298,
+                  "evalue": 2.08971e-30,
+                  "identity": 57,
+                  "positive": 73,
+                  "query_from": 3,
+                  "query_to": 98,
+                  "hit_from": 119,
+                  "hit_to": 214,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "EFGAQAIVVAIDAKRINDKWIVFTKSGTYNTGLDAVKWASEVERLGAGEILLTSIDRDGTRDGYDYELTKKVVDVVKIPVIASGGAGKMEHFYQVF",
+                  "midline": "E  +QA+VVAIDAKR++ +++VFT SG  NTG+    W  EVE+ GAGEILLTSIDRDGT+ GYD E+ + V  +  +P+IASGGAGKMEHF + F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.1358,
+                  "score": 113,
+                  "evalue": 0.00164103,
+                  "identity": 31,
+                  "positive": 45,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVF--LDISATIEGRKTLLEAVKNTASVLSIPLTVGGGIRTLDDVSRLLANGADKVSINTAAVENKQLISIASREFG",
+                  "midline": "E+ GA EI+   +D   T  G  T  E ++    + ++P+   GG   ++        GADKVSINTAAVEN  LI+  ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_369609994.1|",
+                  "accession": "WP_369609994",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Sulfurisphaera javensis]",
+                  "taxid": 2049879,
+                  "sciname": "Sulfurisphaera javensis"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.398,
+                  "score": 298,
+                  "evalue": 2.36812e-30,
+                  "identity": 61,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 98,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "AQAVVVAIDAKRVNNDFIVFTRSGTYNTGLNAISWAKEVEQLGAGEILLTSIDKDGTREGYDIELTEKVSKSVNIPVIASGGAGKMEHFYE-VLKVAD",
+                  "midline": "+QAVVVAIDAKRV+ +F+VFT SG  NTG+    W  EVE+ GAGEILLTSID+DGT+ GYD E+   V     +P+IASGGAGKMEHF E  L+ AD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.0023914,
+                  "identity": 31,
+                  "positive": 46,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EDEGADEIVF--LDIAATVEGRRTLLEVIKNTASVLSIPLTVGGGIRTIDDVSRILGNGADKVSINTAAVENKRIISEASEQFG",
+                  "midline": "E  GA EI+   +D   T  G  T  E+I+    + ++P+   GG   ++        GADKVSINTAAVEN  +I++ ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gb|MCS7214397.1|",
+                  "accession": "MCS7214397",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Calescibacterium sp.]",
+                  "taxid": 2972667,
+                  "sciname": "Candidatus Calescibacterium sp."
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 3.97114e-30,
+                  "identity": 57,
+                  "positive": 68,
+                  "query_from": 6,
+                  "query_to": 97,
+                  "hit_from": 126,
+                  "hit_to": 217,
+                  "align_len": 92,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEA",
+                  "hseq": "SQCVVVAIDAKRVDGKFKVFIYSGKKETDLDAVDWAKRCEELGCGEILLTSIDKDGTQEGYDLELLTMVLEAVSVPVIASGGAGSKEHFLQA",
+                  "midline": "SQ VVVAIDAKRVDG+F VF YSGKK T +   DW    E+ G GEILLTSID+DGT+ GYD E++  V    ++P+IASGGAG  EHFL+A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 56.9954,
+                  "score": 136,
+                  "evalue": 1.15345e-06,
+                  "identity": 34,
+                  "positive": 40,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 45,
+                  "hit_to": 125,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "QEGADEICVLDISASVEGRRASLEMIRKIAQNVFVPITVGGGVRTPEDMREYLKYGADKVSINTGAVENPKLIKECAERFG",
+                  "midline": "+ GA EI +  I           EMIR +     +PI   GG    E   E    GADKVSINT AVENP LI + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "gb|MBE7705131.1|",
+                  "accession": "MBE7705131",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Cyanobacteria bacterium SIG29]",
+                  "taxid": 2775573,
+                  "sciname": "Cyanobacteria bacterium SIG29"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 119.013,
+                  "score": 297,
+                  "evalue": 3.99291e-30,
+                  "identity": 59,
+                  "positive": 72,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGK-MEHFLEAFLRG",
+                  "hseq": "SQCIVVAIDAKRVNGEFYVHINAGKLNTGIKLIDWAKEVEQRGAGEILLTSMDADGTQNGFDIEMTKLVSENVKIPVIASGGAGPCVNHFVEVFKDG",
+                  "midline": "SQ +VVAIDAKRV+GEF V   +GK NTGI L DW  EVE+RGAGEILLTS+D DGT++G+D EM + V     +P+IASGGAG  + HF+E F  G"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_372802675.1|",
+                  "accession": "WP_372802675",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Lutibacter sp.]",
+                  "taxid": 1925666,
+                  "sciname": "Lutibacter sp."
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 4.20571e-30,
+                  "identity": 56,
+                  "positive": 75,
+                  "query_from": 1,
+                  "query_to": 101,
+                  "hit_from": 117,
+                  "hit_to": 217,
+                  "align_len": 101,
+                  "gaps": 0,
+                  "qseq": "GSESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "ASKFGSQCIVVAIDAKQIDGEWMVHLVGGKVSTEIKLFDWVKKVEQLGAGEILFTSMDHDGTKNGFANEALAYLSELVNIPIIASGGAGKIQHFTDVFLKG",
+                  "midline": " S+  SQ +VVAIDAK++DGE+MV    GK +T I L DWV +VE+ GAGEIL TS+D DGTK+G+  E + ++  L  +PIIASGGAGK++HF + FL+G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.00069594,
+                  "identity": 28,
+                  "positive": 41,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 41,
+                  "hit_to": 121,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "KKGADELVFLDITATEQKRKTLIDLVLKVAEKVNIPFTVGGGISSVEDVELLLNSGADKVSINSSAVKNPQLISDLASKFG",
+                  "midline": "K+GA E++   I     K     +++  V     +P    GG   +E        GADKVSIN++AV+NP LI+ +A  FG"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gb|MFZ8804882.1|",
+                  "accession": "MFZ8804882",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Calescibacterium sp.]",
+                  "taxid": 2972667,
+                  "sciname": "Candidatus Calescibacterium sp."
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 4.41444e-30,
+                  "identity": 59,
+                  "positive": 72,
+                  "query_from": 6,
+                  "query_to": 102,
+                  "hit_from": 126,
+                  "hit_to": 222,
+                  "align_len": 97,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGA",
+                  "hseq": "SQCVVVAIDAKRVDNVFRVFIYSGKKNTGLDAVDWAKKAVELGAGEILLTSIDKDGTQGGYDLELIQRISENVSVPIIASGGAGEEQHFFDAVKAGA",
+                  "midline": "SQ VVVAIDAKRVD  F VF YSGKKNTG+   DW  +  + GAGEILLTSID+DGT+ GYD E+I+ +    ++PIIASGGAG+ +HF +A   GA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.1434,
+                  "score": 126,
+                  "evalue": 3.20207e-05,
+                  "identity": 29,
+                  "positive": 41,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 45,
+                  "hit_to": 125,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "QEGADEICILDISASEEGRRASLQMISKIAENVFVPLTVGGGVRTWKDMRDYLLAGADKVSVNTGAVENPNLIKECAEVFG",
+                  "midline": "+ GA EI +  I           +MI  +     +P+   GG    +   +  L GADKVS+NT AVENP+LI + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "gb|NLY81928.1|",
+                  "accession": "NLY81928",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Clostridiales bacterium]",
+                  "taxid": 1898207,
+                  "sciname": "Clostridiales bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 4.99569e-30,
+                  "identity": 57,
+                  "positive": 76,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 220,
+                  "align_len": 99,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF-LRGAD",
+                  "hseq": "NQCVVLSVDVARVNGEYRVFTKGGREDTGINALDWIVEGEKRGAGELVLNSIDTDGVKKGFDLEMLRDVAKLISIPIIASGGAGKMEDFVELFKIQGVD",
+                  "midline": "+Q VV+++D  RV+GE+ VFT  G+++TGI   DW+VE EKRGAGE++L SID DG K G+D EM+R V  L ++PIIASGGAGKME F+E F ++G D"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "pdb|4EVZ|A",
+                  "accession": "4EVZ_A",
+                  "title": "Chain A, HisF-LUCA [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 5.16428e-30,
+                  "identity": 62,
+                  "positive": 77,
+                  "query_from": 3,
+                  "query_to": 103,
+                  "hit_from": 119,
+                  "hit_to": 220,
+                  "align_len": 102,
+                  "gaps": 1,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF-LRGAD",
+                  "hseq": "EFGSQAVVVAIDAKRVGGGWEVFTHGGRKPTGLDAVEWARKVVELGAGEILLTSMDRDGTKAGYDLELTRAVSEAVSVPVIASGGAGELEHFAEVFELEGAD",
+                  "midline": "E  SQAVVVAIDAKRV G + VFT+ G+K TG+   +W  +V + GAGEILLTS+DRDGTK+GYD E+ R V    ++P+IASGGAG++EHF E F L GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000628932,
+                  "identity": 31,
+                  "positive": 46,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "DEEGADELVF--LDITASHEGRETMLEVVERTAEQVFIPLTVGGGIRSVEDASRLLRAGADKVSINTAAVKNPELITEAAEEFG",
+                  "midline": "++ GA E++   +D   +  G +T  E++        +P+   GG   +E        GADKVSINTAAV+NP LIT+ A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_069293545.1|",
+                  "accession": "WP_069293545",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Fervidobacterium thailandense]",
+                  "taxid": 1008305,
+                  "sciname": "Fervidobacterium thailandense"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 6.1286e-30,
+                  "identity": 56,
+                  "positive": 70,
+                  "query_from": 6,
+                  "query_to": 96,
+                  "hit_from": 122,
+                  "hit_to": 212,
+                  "align_len": 91,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLE",
+                  "hseq": "SQAVVVAIDVKKTEIGYEVFTVSGRKRTGIKYETHLVEMQKRGAGELLITSIDKDGMQEGYDIETVRIAKSLTNLPVIVSGGAGKMEHFLE",
+                  "midline": "SQAVVVAID K+ +  + VFT SG+K TGI     +VE++KRGAGE+L+TSID+DG + GYD E +R  + LT LP+I SGGAGKMEHFLE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.6918,
+                  "score": 143,
+                  "evalue": 1.21851e-07,
+                  "identity": 36,
+                  "positive": 46,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 33,
+                  "hit_to": 121,
+                  "align_len": 89,
+                  "gaps": 4,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VELAKRYVELGVDELVFLDITATHEKRKTLVELVEKIAENINIPFTVGGGINSLELASELIYKGADKVSINSAAVENPQLITQIADRFG",
+                  "midline": "VE+ KR    G  E++   I     K     E++  +     +P    GG   +E   E   +GADKVSIN+AAVENP LITQIA  FG"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|MBQ4122942.1|",
+                  "accession": "MBQ4122942",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 6.47887e-30,
+                  "identity": 54,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 122,
+                  "hit_to": 215,
+                  "align_len": 94,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAF",
+                  "hseq": "SQCIVVAVDAKRVDNDFYVHINAGKKNTGIKLYDWLIDIEKRGAGEVLLTSMDADGTQNGFDIEMTKLAAMNLNIPVIASGGAGANANHFLDVF",
+                  "midline": "SQ +VVA+DAKRVD +F V   +GKKNTGI L DW++++EKRGAGE+LLTS+D DGT++G+D EM +       +P+IASGGAG    HFL+ F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0426016,
+                  "identity": 28,
+                  "positive": 42,
+                  "query_from": 47,
+                  "query_to": 126,
+                  "hit_from": 42,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 4,
+                  "qseq": "RGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EGADELVF--LDITATNEGRQTTVKMVEKVAQQVFIPFTVGGGIKSIEDMKILLSAGADKIAINSAAVKNPDLINESSKYFG",
+                  "midline": " GA E++   +D   T  G  T  +M+  V     +P    GG   +E        GADK++IN+AAV+NP LI + ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_011848832.1|",
+                  "accession": "WP_011848832",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Pyrobaculum calidifontis]",
+                  "taxid": 181486,
+                  "sciname": "Pyrobaculum calidifontis"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.242,
+                  "score": 295,
+                  "evalue": 7.06099e-30,
+                  "identity": 63,
+                  "positive": 72,
+                  "query_from": 3,
+                  "query_to": 105,
+                  "hit_from": 121,
+                  "hit_to": 223,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKV",
+                  "hseq": "EYGSQSVVVAIDAKRVGGGFEVFINGGRTPTGLDAVAWARRVEELGAGEILLTSIDRDGTKLGYDVELIRAVASAVRVPVIASGGAGELEHFYEAVKAGADAV",
+                  "midline": "E  SQ+VVVAIDAKRV G F VF   G+  TG+    W   VE+ GAGEILLTSIDRDGTK GYD E+IR V     +P+IASGGAG++EHF EA   GAD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 52.373,
+                  "score": 124,
+                  "evalue": 6.17215e-05,
+                  "identity": 29,
+                  "positive": 48,
+                  "query_from": 39,
+                  "query_to": 126,
+                  "hit_from": 36,
+                  "hit_to": 123,
+                  "align_len": 88,
+                  "gaps": 0,
+                  "qseq": "DWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "ELAVRYEEEGADELVVLDITATPEGRGTFVEAVRRVATSVSIPVAVGGGVRGLKDADALFKAGADKVSVNTAAVKSPGLVEELAREYG",
+                  "midline": "+  V  E+ GA E+++  I       G   E +R V    ++P+   GG   ++     F  GADKVS+NTAAV++P L+ ++A+ +G"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gb|MEY2840997.1|",
+                  "accession": "MEY2840997",
+                  "title": "hypothetical protein [Actinomycetota bacterium]",
+                  "taxid": 2900548,
+                  "sciname": "Actinomycetota bacterium"
+                }
+              ],
+              "len": 261,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 118.627,
+                  "score": 296,
+                  "evalue": 7.15735e-30,
+                  "identity": 55,
+                  "positive": 75,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 128,
+                  "hit_to": 228,
+                  "align_len": 101,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRV-DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKV",
+                  "hseq": "NQVLVLSIDARRTKDGQFEVTTHGGRNSSGLDMRSWIEEIEVRGAGEILLNSMDKDGVKSGYDLEMIRVARAHSNLPIIASGGAGSLHHFSEALSAGANAL",
+                  "midline": "+Q +V++IDA+R  DG+F V T+ G+ ++G+ +R W+ E+E RGAGEILL S+D+DG KSGYD EMIR  R  + LPIIASGGAG + HF EA   GA+ +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000722387,
+                  "identity": 33,
+                  "positive": 48,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 46,
+                  "hit_to": 127,
+                  "align_len": 85,
+                  "gaps": 6,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLR-GADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "QSEGADE--LTFLDISASADGRSTTLEVVKKCAEEIFIPLTVGGGISSVAQ-VDSLLRAGADKVSINTAAISNPELINQISERFG",
+                  "midline": "+  GA E  LT +D   +  G  T  E+++       +P+   GG   +   +++ LR GADKVSINTAA+ NP LI QI++ FG"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gb|MEC7870963.1|",
+                  "accession": "MEC7870963",
+                  "title": "HisA/HisF-related TIM barrel protein [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 7.47329e-30,
+                  "identity": 54,
+                  "positive": 81,
+                  "query_from": 3,
+                  "query_to": 105,
+                  "hit_from": 24,
+                  "hit_to": 128,
+                  "align_len": 105,
+                  "gaps": 2,
+                  "qseq": "ESSSQAVVVAIDAKRV-DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "EFGSQCVVAAIDVKKIHNNKWLVYTHGGRIETEIDAFEWVKEVQERGAGEILLTSMDRDGSQNGYDNELLNKINTLVSIPVIASGGAGKLQHFLDALIKGKADAV",
+                  "midline": "E  SQ VV AID K++ + +++V+T+ G+  T I   +WV EV++RGAGEILLTS+DRDG+++GYD E++  +  L ++P+IASGGAGK++HFL+A ++G AD V"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gb|KER09296.1|",
+                  "accession": "KER09296",
+                  "title": "MAG: imidazole glycerol phosphate synthase [[Candidatus Thermochlorobacteriaceae] bacterium GBChlB]",
+                  "taxid": 1519464,
+                  "sciname": "[Candidatus Thermochlorobacteriaceae] bacterium GBChlB"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 8.83459e-30,
+                  "identity": 56,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 217,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQAVVVAIDIKRVDGRYEVFTHSGRMPTGLDALDWARNVTELGAGEILLTSMDKDGTQSGYDLESLRLISTSVSVPVIASGGAGNLQHLYEAFSEG",
+                  "midline": "SQAVVVAID KRVDG + VFT+SG+  TG+   DW   V + GAGEILLTS+D+DGT+SGYD E +R +    ++P+IASGGAG ++H  EAF  G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 52.373,
+                  "score": 124,
+                  "evalue": 5.8431e-05,
+                  "identity": 27,
+                  "positive": 35,
+                  "query_from": 69,
+                  "query_to": 126,
+                  "hit_from": 64,
+                  "hit_to": 121,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEVRKVSEQVFIPLTVGGGIRTEADAREAFLHGADKVSLNTAAVKTPELITALAERYG",
+                  "midline": "E +R V     +P+   GG        EAFL GADKVS+NTAAV+ P LIT +A+ +G"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gb|ADM28377.1|",
+                  "accession": "ADM28377",
+                  "title": "imidazole glycerol phosphate synthase subunit hisF [Ignisphaera aggregans DSM 17230]",
+                  "taxid": 583356,
+                  "sciname": "Ignisphaera aggregans DSM 17230"
+                }
+              ],
+              "len": 250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 9.20642e-30,
+                  "identity": 56,
+                  "positive": 70,
+                  "query_from": 3,
+                  "query_to": 101,
+                  "hit_from": 118,
+                  "hit_to": 216,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "EVGSQSIVVAIDAKRIGSEYYVFTHSGTVNTGLKALEWAKTVEALGAGEILLTSIDRDGTRMGYDIELTRLIAENVSIPVIASGGAGSYEHFYEVLTKG",
+                  "midline": "E  SQ++VVAIDAKR+  E+ VFT+SG  NTG+   +W   VE  GAGEILLTSIDRDGT+ GYD E+ R +    ++P+IASGGAG  EHF E   +G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0245257,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 39,
+                  "hit_to": 120,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVFLDITATVEGRKLLLNVVRDTASVLTIPLTVGGGIRDLDDILTVLSNGADKVSINTAAVKDRNIILRAAEEVG",
+                  "midline": "E+ GA EI+   I            ++R    + T+P+   GG   ++  L     GADKVSINTAAV++ ++I + A+  G"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|MEM4514378.1|",
+                  "accession": "MEM4514378",
+                  "title": "HisA/HisF-related TIM barrel protein [Ignisphaera sp.]",
+                  "taxid": 2268142,
+                  "sciname": "Ignisphaera sp."
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.005,
+                  "score": 284,
+                  "evalue": 1.20157e-29,
+                  "identity": 55,
+                  "positive": 67,
+                  "query_from": 10,
+                  "query_to": 101,
+                  "hit_from": 1,
+                  "hit_to": 92,
+                  "align_len": 92,
+                  "gaps": 0,
+                  "qseq": "VVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "VVAIDAKKVGSRFVVFTYSGTYNTGLDAVEWARTVEYQGAGEILLTSIDRDGTRLGYDIELTKSVSQAVNIPVIASGGAGNIEHFYEVFTQG",
+                  "midline": "VVAIDAK+V   F+VFTYSG  NTG+   +W   VE +GAGEILLTSIDRDGT+ GYD E+ + V     +P+IASGGAG +EHF E F +G"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gb|MFA6990379.1|",
+                  "accession": "MFA6990379",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Gastranaerophilaceae bacterium]",
+                  "taxid": 3022870,
+                  "sciname": "Candidatus Gastranaerophilaceae bacterium"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 1.23513e-29,
+                  "identity": 56,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLRG",
+                  "hseq": "SQCIVIAIDAKRQDDDFYVFVNAGQKNTGIKVFDWIKEVEKLGAGEILLTSMDADGTQNGFDVELTKMVSTNVKIPVIASGGAGANPEHFVEIFEKG",
+                  "midline": "SQ +V+AIDAKR D +F VF  +G+KNTGI + DW+ EVEK GAGEILLTS+D DGT++G+D E+ + V     +P+IASGGAG   EHF+E F +G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.0175179,
+                  "identity": 26,
+                  "positive": 37,
+                  "query_from": 47,
+                  "query_to": 126,
+                  "hit_from": 42,
+                  "hit_to": 121,
+                  "align_len": 80,
+                  "gaps": 0,
+                  "qseq": "RGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EGADELVFLDITATNENRKTMINVVENVARQVFIPFTVGGGIKTIDDIRSLLLAGADKVSLNSAAVKNPEIIKQSANAFG",
+                  "midline": " GA E++   I            ++  V     +P    GG   ++      L GADKVS+N+AAV+NP +I Q A  FG"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_322573842.1|",
+                  "accession": "WP_322573842",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Fodinibius sp.]",
+                  "taxid": 1872440,
+                  "sciname": "Fodinibius sp."
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 1.25052e-29,
+                  "identity": 57,
+                  "positive": 75,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 122,
+                  "hit_to": 222,
+                  "align_len": 101,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "SQCIVAAVDAKRIEDEWIVFISGGSKNTGKNALEWIKEVEKRGAGEILLTSMDQDGTKEGYDIELLQQVNEFTTIPVIASGGAGTKKHCIDAIKEGNADAV",
+                  "midline": "SQ +V A+DAKR++ E++VF   G KNTG    +W+ EVEKRGAGEILLTS+D+DGTK GYD E+++ V   TT+P+IASGGAG  +H ++A   G AD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.00325737,
+                  "identity": 29,
+                  "positive": 43,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 33,
+                  "hit_to": 121,
+                  "align_len": 89,
+                  "gaps": 4,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VELAKRYSDEGADELVFLDITATKEKRKTLVDLVKKIALEIDIPFTVGGGISNTEQIAELLHAGADKVSLNSAIVRDPDLINRAAEQFG",
+                  "midline": "VE+ KR    GA E++   I     K     ++++ +     +P    GG    E   E    GADKVS+N+A V +P LI + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gb|MEM1736248.1|",
+                  "accession": "MEM1736248",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Ignisphaera sp.]",
+                  "taxid": 2268142,
+                  "sciname": "Ignisphaera sp."
+                }
+              ],
+              "len": 221,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 1.38777e-29,
+                  "identity": 55,
+                  "positive": 70,
+                  "query_from": 3,
+                  "query_to": 101,
+                  "hit_from": 119,
+                  "hit_to": 217,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "EFGSQCIVVAIDAKKSGNKYLVYTYSGTYNTNLDAVEWAKTVEALGAGEILLTSIDRDGTRLGYDVELTKSIACAVRLPVIASGGAGSMEHFYEVFVQG",
+                  "midline": "E  SQ +VVAIDAK+   +++V+TYSG  NT +   +W   VE  GAGEILLTSIDRDGT+ GYD E+ + +     LP+IASGGAG MEHF E F++G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000583124,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVFLDITASIENRKTLLNVVKDTASVLSIPLTVGGGIRDLNDIADVLSYGADKVSINTAAVNNPEIISRSAEEFG",
+                  "midline": "E+ GA EI+   I            +++    + ++P+   GG   +    +    GADKVSINTAAV NP +I++ A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "tpg|HSQ47723.1|",
+                  "accession": "HSQ47723",
+                  "title": "HisA/HisF-related TIM barrel protein [Lutibacter sp.]",
+                  "taxid": 1925666,
+                  "sciname": "Lutibacter sp."
+                }
+              ],
+              "len": 199,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 1.63422e-29,
+                  "identity": 55,
+                  "positive": 70,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 70,
+                  "hit_to": 165,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQCIVVAIDAKQIDGEWMVHLVGGKVPTTIKLFDWAKEVEQRGAGEILFTSMDHDGTKNGFANEALAKLGTLVNIPIIASGGAGNMQHFVDTFIDG",
+                  "midline": "SQ +VVAIDAK++DGE+MV    GK  T I L DW  EVE+RGAGEIL TS+D DGTK+G+  E +  +  L  +PIIASGGAG M+HF++ F+ G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00992507,
+                  "identity": 23,
+                  "positive": 32,
+                  "query_from": 69,
+                  "query_to": 126,
+                  "hit_from": 12,
+                  "hit_to": 69,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "ELVMRVAEKVNIPFTVGGGISSVEDVELLLNSGADKVSINSSAVKNPQLINEVAAKFG",
+                  "midline": "E++  V     +P    GG   +E        GADKVSIN++AV+NP LI ++A  FG"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_095606866.1|",
+                  "accession": "WP_095606866",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Fodinibius salipaludis]",
+                  "taxid": 2032627,
+                  "sciname": "Fodinibius salipaludis"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.72641e-29,
+                  "identity": 56,
+                  "positive": 76,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 122,
+                  "hit_to": 222,
+                  "align_len": 101,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "SQCIVAAVDAKRIDNQWVVFISGGSKNTGKDALEWIQEVEERGAGEILLTSMDQDGTKEGFDLELLQKVNEFTTIPIIASGGAGSKKHCIDAIQKGNADAV",
+                  "midline": "SQ +V A+DAKR+D +++VF   G KNTG    +W+ EVE+RGAGEILLTS+D+DGTK G+D E+++ V   TT+PIIASGGAG  +H ++A  +G AD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.00335476,
+                  "identity": 29,
+                  "positive": 43,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 33,
+                  "hit_to": 121,
+                  "align_len": 89,
+                  "gaps": 4,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VELARRYSNEGADELVFLDITATKEKRKTLVDLVSKIALEIDIPFTVGGGIGSTDQIAEILHAGADKVSLNSAIVRNPNLINEAAAQFG",
+                  "midline": "VE+ +R    GA E++   I     K     +++  +     +P    GG G  +   E    GADKVS+N+A V NP+LI + A  FG"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "gb|MAR37155.1|",
+                  "accession": "MAR37155",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 206,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 1.73911e-29,
+                  "identity": 54,
+                  "positive": 81,
+                  "query_from": 3,
+                  "query_to": 105,
+                  "hit_from": 73,
+                  "hit_to": 177,
+                  "align_len": 105,
+                  "gaps": 2,
+                  "qseq": "ESSSQAVVVAIDAKRV-DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "EFGSQCVVAAIDVKKIHNNKWLVYTHGGRTETEIDAFEWVKEVQERGAGEILLTSMDRDGSQNGYDNELLNKINTLVSIPVIASGGAGKLQHFLDALIKGKADAV",
+                  "midline": "E  SQ VV AID K++ + +++V+T+ G+  T I   +WV EV++RGAGEILLTS+DRDG+++GYD E++  +  L ++P+IASGGAGK++HFL+A ++G AD V"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gb|MBM3743596.1|",
+                  "accession": "MBM3743596",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Actinomycetota bacterium]",
+                  "taxid": 2900548,
+                  "sciname": "Actinomycetota bacterium"
+                }
+              ],
+              "len": 256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.84952e-29,
+                  "identity": 54,
+                  "positive": 75,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 123,
+                  "hit_to": 223,
+                  "align_len": 101,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVD-GEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKV",
+                  "hseq": "NQVLVLSVDARRTNNGDFEVTTHGGKKSTGLDMRSWIEEIEDRGTGEILLNSMDRDGVKSGYDLEMIKVAREHSNLPIIASGGAGSLNHFPDALSAGANAL",
+                  "midline": "+Q +V+++DA+R + G+F V T+ GKK+TG+ +R W+ E+E RG GEILL S+DRDG KSGYD EMI+  R  + LPIIASGGAG + HF +A   GA+ +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.00138588,
+                  "identity": 32,
+                  "positive": 48,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 34,
+                  "hit_to": 122,
+                  "align_len": 91,
+                  "gaps": 8,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VEMAKKYQSDGADE--LTFLDISASSDGRSTTIEVVKKCAEEISIPLTVGGGINSVAQVDTLLRAGADKISINTAAISNPDLINEISERFG",
+                  "midline": "VE+ K+    GA E  LT +D   +  G  T  E+++      ++P+   GG   +         GADK+SINTAA+ NP LI +I++ FG"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gb|MCQ2957582.1|",
+                  "accession": "MCQ2957582",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Gastranaerophilales bacterium]",
+                  "taxid": 2137880,
+                  "sciname": "Candidatus Gastranaerophilales bacterium"
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.9883e-29,
+                  "identity": 54,
+                  "positive": 76,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLRG",
+                  "hseq": "SQAIIVAVDSKKVDDDFYVFINAGKKNTGIKVSDWVNKVEKLGAGEILLTSMDADGTQNGFDLEVTKMVSESLNIPVIASGGAGANVQHFVDVFEKG",
+                  "midline": "SQA++VA+D+K+VD +F VF  +GKKNTGI + DWV +VEK GAGEILLTS+D DGT++G+D E+ + V     +P+IASGGAG  ++HF++ F +G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0212082,
+                  "identity": 29,
+                  "positive": 40,
+                  "query_from": 47,
+                  "query_to": 126,
+                  "hit_from": 42,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 4,
+                  "qseq": "RGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EGADELVF--LDITATNEGRQTTLDMVEKVAQQVFIPFTVGGGIRTVEDINNLLHAGADKVSLNSAAVNNPELIEKASNKFG",
+                  "midline": " GA E++   +D   T  G  T  +M+  V     +P    GG   +E        GADKVS+N+AAV NP LI + +  FG"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "tpg|HHE07884.1|",
+                  "accession": "HHE07884",
+                  "title": "imidazole glycerol phosphate synthase cyclase subunit [Chlorobaculum parvum]",
+                  "taxid": 274539,
+                  "sciname": "Chlorobaculum parvum"
+                }
+              ],
+              "len": 196,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 2.11399e-29,
+                  "identity": 53,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 67,
+                  "hit_to": 162,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQAVVVAIDVKKVNGEYIVHTHSGKKPTAFEAVEWAHRVQELGAGEILLTSMDRDGTQEGYDNEILKRISTSVHIPVIASGGAGNLEHLYEGFTKG",
+                  "midline": "SQAVVVAID K+V+GE++V T+SGKK T     +W   V++ GAGEILLTS+DRDGT+ GYD E+++ +     +P+IASGGAG +EH  E F +G"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "gb|MBN1897233.1|",
+                  "accession": "MBN1897233",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Spirochaetota bacterium]",
+                  "taxid": 2202144,
+                  "sciname": "Spirochaetota bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 2.64552e-29,
+                  "identity": 53,
+                  "positive": 75,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 217,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQCVVVAVDAKRKNGQWEVYIHGGRTPTGMDVVAWIKKCERLGAGEILLTSMDQDGTKSGYDTELLKAVSTTVNIPVIASGGAGKLEHFYEAIVKG",
+                  "midline": "SQ VVVA+DAKR +G++ V+ + G+  TG+ +  W+ + E+ GAGEILLTS+D+DGTKSGYDTE+++ V     +P+IASGGAGK+EHF EA ++G"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_338600547.1|",
+                  "accession": "WP_338600547",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Sulfolobus tengchongensis]",
+                  "taxid": 207809,
+                  "sciname": "Sulfolobus tengchongensis"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 2.82178e-29,
+                  "identity": 56,
+                  "positive": 73,
+                  "query_from": 3,
+                  "query_to": 98,
+                  "hit_from": 119,
+                  "hit_to": 214,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "EFGSQAVVVAIDAKKVENRWIVFTKAGTHNTGLDAIAWAKEVQELGAGEILLTSIDRDGTRAGYDIELTKNIVDSVSIPVIASGGAGKMEHFYDVF",
+                  "midline": "E  SQAVVVAIDAK+V+  ++VFT +G  NTG+    W  EV++ GAGEILLTSIDRDGT++GYD E+ + +    ++P+IASGGAGKMEHF + F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 0.00025637,
+                  "identity": 32,
+                  "positive": 47,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDR--DGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVFLDITATVEARKALYN--VIRDTASVLSIPLTVGGGIRTIEDVSMALRSGADKVSINTAAVENKQIVKRAAEEFG",
+                  "midline": "E+ GA EI+   I    +  K+ Y+  +IR    + ++P+   GG   +E    A   GADKVSINTAAVEN  ++ + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "ref|WP_240780832.1|",
+                  "accession": "WP_240780832",
+                  "title": "MULTISPECIES: imidazole glycerol phosphate synthase subunit HisF [Saccharolobus]",
+                  "taxid": 2100760,
+                  "sciname": "Saccharolobus"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 3.00978e-29,
+                  "identity": 57,
+                  "positive": 71,
+                  "query_from": 3,
+                  "query_to": 98,
+                  "hit_from": 119,
+                  "hit_to": 214,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "EFGSQAVVVAIDAKKINGNWKVFTKSGTYNTGLDAIKWAKKVEELGAGEILLTSIDRDGTRLGYDLELTKKIVDSVNIPVIASGGAGKMEHFYDVF",
+                  "midline": "E  SQAVVVAIDAK+++G + VFT SG  NTG+    W  +VE+ GAGEILLTSIDRDGT+ GYD E+ + +     +P+IASGGAGKMEHF + F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.00990116,
+                  "identity": 29,
+                  "positive": 46,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDR--DGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVFLDITATIEARRALY--SVIKDTASVLSIPLTVGGGIRTLDDVSMALSSGADKVSINTAAVENSQIVKKSAEEFG",
+                  "midline": "E+ GA EI+   I    +  ++ Y   +I+    + ++P+   GG   ++    A   GADKVSINTAAVEN  ++ + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "tpg|HIT56148.1|",
+                  "accession": "HIT56148",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Galligastranaerophilus intestinigallinarum]",
+                  "taxid": 2840837,
+                  "sciname": "Candidatus Galligastranaerophilus intestinigallinarum"
+                }
+              ],
+              "len": 258,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 3.03903e-29,
+                  "identity": 55,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 126,
+                  "hit_to": 219,
+                  "align_len": 94,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAF",
+                  "hseq": "SQCIVIAIDAKRIDGDFYVFINAGKKNSGKKLLDWAKEVEEKGAGEILLTSMDFDGTQKGFDIEMLKMVTDNINIPIIASGGAGADSNHFIDVF",
+                  "midline": "SQ +V+AIDAKR+DG+F VF  +GKKN+G  L DW  EVE++GAGEILLTS+D DGT+ G+D EM++ V     +PIIASGGAG    HF++ F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.000399676,
+                  "identity": 29,
+                  "positive": 46,
+                  "query_from": 41,
+                  "query_to": 126,
+                  "hit_from": 36,
+                  "hit_to": 125,
+                  "align_len": 90,
+                  "gaps": 4,
+                  "qseq": "VVEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "CIELAKKYSDNGADELVFLDITATNEKRKTVVELVQKVGKNVFIPFTVGGGISDIEDIRCILAAGADKISINSAAVKNPDIISKCAEYFG",
+                  "midline": " +E+ K+    GA E++   I     K     E+++ V     +P    GG   +E        GADK+SIN+AAV+NP +I++ A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "tpg|HUI09571.1|",
+                  "accession": "HUI09571",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Bacteroidota bacterium]",
+                  "taxid": 1898104,
+                  "sciname": "Bacteroidota bacterium"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 3.05157e-29,
+                  "identity": 59,
+                  "positive": 77,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 122,
+                  "hit_to": 225,
+                  "align_len": 104,
+                  "gaps": 4,
+                  "qseq": "SQAVVVAIDAKRVDGE---FMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "TQCVVSAIDARRRAAGAPGWDVYIYGGRENTGMDMLDWAAEAERRGAGEILLTSMDRDGTQAGYDCEMLQAVTGRVSIPVIASGGAGTMEHFVEAFERGKADAV",
+                  "midline": "+Q VV AIDA+R       + V+ Y G++NTG+ + DW  E E+RGAGEILLTS+DRDGT++GYD EM++ V    ++P+IASGGAG MEHF+EAF RG AD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.0110934,
+                  "identity": 24,
+                  "positive": 43,
+                  "query_from": 48,
+                  "query_to": 126,
+                  "hit_from": 43,
+                  "hit_to": 121,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "GADELVMLDITASHERRGTFVHVVEAVADNLFIPLTVGGGIRSSDDVRDLLLAGADRVSLNTAAVKRPAILSESAERFG",
+                  "midline": "GA E+++  I     + G    ++  V     +P+   GG    +   +  L GAD+VS+NTAAV+ P+++++ A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "dbj|GAB6148043.1|",
+                  "accession": "GAB6148043",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Stetteria hydrogenophila]",
+                  "taxid": 52001,
+                  "sciname": "Stetteria hydrogenophila"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.701,
+                  "score": 291,
+                  "evalue": 3.10842e-29,
+                  "identity": 57,
+                  "positive": 70,
+                  "query_from": 3,
+                  "query_to": 98,
+                  "hit_from": 119,
+                  "hit_to": 214,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "EYGSQAVVVAIDAKREGGAFRVYVSAGRIPTGLDAVEWAREVERLGAGEILLTSIDRDGTRDGYDLELTRLVSSAVRVPVIASGGAGRLEHFLQAL",
+                  "midline": "E  SQAVVVAIDAKR  G F V+  +G+  TG+   +W  EVE+ GAGEILLTSIDRDGT+ GYD E+ R V     +P+IASGGAG++EHFL+A "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 0.000239199,
+                  "identity": 28,
+                  "positive": 43,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVLLDISATPEGRAPLYRLVSDVASVLSIPLTVGGGVRGLEEFGRLLDSGADKVSVNTAAVRDPGLVARAAEEYG",
+                  "midline": "E+ GA EI+L  I            ++  V  + ++P+   GG   +E F      GADKVS+NTAAV +P L+ + A+ +G"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "gb|MEM0370961.1|",
+                  "accession": "MEM0370961",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Ignisphaera sp.]",
+                  "taxid": 2268142,
+                  "sciname": "Ignisphaera sp."
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 3.2103e-29,
+                  "identity": 55,
+                  "positive": 70,
+                  "query_from": 3,
+                  "query_to": 101,
+                  "hit_from": 119,
+                  "hit_to": 217,
+                  "align_len": 99,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "EFGSQCIVVAIDAKKSGNKYLVYTYSGTYNTNLDAVEWAKTVEALGAGEILLTSIDRDGTRLGYDVELTKSIACAVRLPVIASGGAGSMEHFYEVFVQG",
+                  "midline": "E  SQ +VVAIDAK+   +++V+TYSG  NT +   +W   VE  GAGEILLTSIDRDGT+ GYD E+ + +     LP+IASGGAG MEHF E F++G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.000723971,
+                  "identity": 27,
+                  "positive": 42,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVFLDITASIENRKTLLNVVKDTASVLSIPLTVGGGIRDLNDIADVLSYGADKVSINTAAVNNPEIISRSAEEFG",
+                  "midline": "E+ GA EI+   I            +++    + ++P+   GG   +    +    GADKVSINTAAV NP +I++ A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "gb|MBI62743.1|",
+                  "accession": "MBI62743",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Chloroflexota bacterium]",
+                  "taxid": 2026724,
+                  "sciname": "Chloroflexota bacterium"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 3.46646e-29,
+                  "identity": 55,
+                  "positive": 79,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 122,
+                  "hit_to": 223,
+                  "align_len": 102,
+                  "gaps": 2,
+                  "qseq": "SQAVVVAIDAKRV-DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "SQCVVVAIDVKKINDNKWLVYTHGGRTETEIDAFEWVKEVQERGAGEILLTSMDRDGSHEGYDNELLNKVNTIVSIPVIASGGAGKLQHFLDALIKGKADAV",
+                  "midline": "SQ VVVAID K++ D +++V+T+ G+  T I   +WV EV++RGAGEILLTS+DRDG+  GYD E++  V  + ++P+IASGGAGK++HFL+A ++G AD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.000343087,
+                  "identity": 33,
+                  "positive": 43,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 41,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 6,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGK---MEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "KEGADELVFLDITASHEKRKTIVDVVKKVSSNVFIPLTVGGGIQNSIDMELMLEA---GADKVSINTAAVNNPKLINICSKQFG",
+                  "midline": "K GA E++   I     K     ++++ V     +P+   GG      ME  LEA   GADKVSINTAAV NP LI   ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "gb|MBQ2113583.1|",
+                  "accession": "MBQ2113583",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Selenomonadales bacterium]",
+                  "taxid": 2137878,
+                  "sciname": "Selenomonadales bacterium"
+                }
+              ],
+              "len": 133,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 3.52125e-29,
+                  "identity": 58,
+                  "positive": 72,
+                  "query_from": 7,
+                  "query_to": 105,
+                  "hit_from": 5,
+                  "hit_to": 104,
+                  "align_len": 100,
+                  "gaps": 1,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "QCVVLSIDAKRVDGSFRVFSKGGRENTGLDLIEWVKKGVSLGAGEILLTSMDADGTKDGYDIELTRAVSEAVSVPVIASGGAGKLEHFYEVLTEGKADAV",
+                  "midline": "Q VV++IDAKRVDG F VF+  G++NTG+ L +WV +    GAGEILLTS+D DGTK GYD E+ R V    ++P+IASGGAGK+EHF E    G AD V"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|MGI9312938.1|",
+                  "accession": "MGI9312938",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Alphaproteobacteria bacterium]",
+                  "taxid": 1913988,
+                  "sciname": "Alphaproteobacteria bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 3.77197e-29,
+                  "identity": 49,
+                  "positive": 75,
+                  "query_from": 7,
+                  "query_to": 105,
+                  "hit_from": 124,
+                  "hit_to": 223,
+                  "align_len": 100,
+                  "gaps": 1,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "QCIVVAVDVKKIDNDYIIFTHGGRTQTKLKAYDWCLECQKRGAGEILLTSMDKDGTKDGFDVEILRKISSNVTIPVIASGGAGNLDHLYQAIVKGNADAV",
+                  "midline": "Q +VVA+D K++D ++++FT+ G+  T +   DW +E +KRGAGEILLTS+D+DGTK G+D E++R +    T+P+IASGGAG ++H  +A ++G AD V"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|WP_156006235.1|",
+                  "accession": "WP_156006235",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Stygiolobus azoricus]",
+                  "taxid": 41675,
+                  "sciname": "Stygiolobus azoricus"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 3.80059e-29,
+                  "identity": 57,
+                  "positive": 68,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 122,
+                  "hit_to": 214,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "SQAVVVAIDAKKVDDDYKVFTRSGSYNTGLSAIRWAKEVEALGAGEILLTSIDRDGTREGYDITLTKMISEAVSIPVIASGGAGKEVHFLEAL",
+                  "midline": "SQAVVVAIDAK+VD ++ VFT SG  NTG+    W  EVE  GAGEILLTSIDRDGT+ GYD  + + +    ++P+IASGGAGK  HFLEA "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.00299879,
+                  "identity": 32,
+                  "positive": 44,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EDEGADEIVF--LDVTATIEGRRALLEVVKNTASVLSIPLTVGGGIRTIDDVSTILGNGADKVSINTAAVENKKLITEAALQFG",
+                  "midline": "E  GA EI+   +D   T  G     E+++    + ++P+   GG   ++        GADKVSINTAAVEN  LIT+ A  FG"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_086033749.1|",
+                  "accession": "WP_086033749",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Desulfurella amilsii]",
+                  "taxid": 1562698,
+                  "sciname": "Desulfurella amilsii"
+                }
+              ],
+              "len": 250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 3.97402e-29,
+                  "identity": 53,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 219,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQCIVIAVDAKKVNNDFFVFIDGGRKAANIKVIDWLNEVQERGAGEILLTSMDKDGTKEGYDLELTKLVCKNSSIPVIASGGAGNVEHIKEVFEIGAD",
+                  "midline": "SQ +V+A+DAK+V+ +F VF   G+K   I + DW+ EV++RGAGEILLTS+D+DGTK GYD E+ + V   +++P+IASGGAG +EH  E F  GAD"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gb|MDO4364863.1|",
+                  "accession": "MDO4364863",
+                  "title": "HisA/HisF-related TIM barrel protein [Clostridia bacterium]",
+                  "taxid": 2044939,
+                  "sciname": "Clostridia bacterium"
+                }
+              ],
+              "len": 161,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.62,
+                  "score": 283,
+                  "evalue": 4.13817e-29,
+                  "identity": 62,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 31,
+                  "hit_to": 132,
+                  "align_len": 102,
+                  "gaps": 2,
+                  "qseq": "SQAVVVAIDAKR-VDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "SQCVVVAIDAKRRADGGWEVYLNGGRIPTGIDAVEWAVEAEKRGAGEILLTSMDCDGQKTGYDIELTRAVSERVGIPVIASGGAGKAEHFLDAFVDGKADAV",
+                  "midline": "SQ VVVAIDAKR  DG + V+   G+  TGI   +W VE EKRGAGEILLTS+D DG K+GYD E+ R V     +P+IASGGAGK EHFL+AF+ G AD V"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|MFC1511399.1|",
+                  "accession": "MFC1511399",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Margulisiibacteriota bacterium]",
+                  "taxid": 2053573,
+                  "sciname": "Candidatus Margulisiibacteriota bacterium"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 4.34407e-29,
+                  "identity": 55,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 217,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQCIVVAIDAKRKDKSWEVYTHGGRTPTGLDAVEWAKKVEKLGAGEILLTSMDRDGTKKGYELELTRAIADAVNIPVIASGGAGKIEHLYEAFVRG",
+                  "midline": "SQ +VVAIDAKR D  + V+T+ G+  TG+   +W  +VEK GAGEILLTS+DRDGTK GY+ E+ R +     +P+IASGGAGK+EH  EAF+RG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 0.000489716,
+                  "identity": 27,
+                  "positive": 41,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "DKEGADELVFLDITASSDKRHIMLDVVRRTAEKVYIPFTVGGGINNVETMRKILAAGADKVSVNTAAVADPNLVKHGAEKFG",
+                  "midline": "+K GA E++   I     K     +++R       +P    GG   +E   +    GADKVS+NTAAV +P+L+   A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "gb|EJF06225.1|",
+                  "accession": "EJF06225",
+                  "title": "imidazoleglycerol phosphate synthase, cyclase subunit [Thiovulum sp. ES]",
+                  "taxid": 1177931,
+                  "sciname": "Thiovulum sp. ES"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 4.62653e-29,
+                  "identity": 55,
+                  "positive": 73,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 123,
+                  "hit_to": 220,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SSTLVVAVDVKFVNGEYHVFINGGTKDTGIIARDWVKEIQDRGAGEILLTSMNADGTKSGFDLKITEEISKIAKVPLIASGGAGKMQHFDEVFKIGAD",
+                  "midline": "S  +VVA+D K V+GE+ VF   G K+TGI+ RDWV E++ RGAGEILLTS++ DGTKSG+D ++   +  +  +P+IASGGAGKM+HF E F  GAD"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|WP_196888512.1|",
+                  "accession": "WP_196888512",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Aureivirga sp. CE67]",
+                  "taxid": 1788983,
+                  "sciname": "Aureivirga sp. CE67"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 4.9347e-29,
+                  "identity": 56,
+                  "positive": 68,
+                  "query_from": 3,
+                  "query_to": 98,
+                  "hit_from": 119,
+                  "hit_to": 214,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "ESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "EIGSQCVVIAIDVKNMDGNSFVVTHSGTNKTEILLKDWVQTVEKLGAGEILLTSMHSDGTKNGFDISTIKMVSNLVKIPVIASGGAGEMKHFKEVF",
+                  "midline": "E  SQ VV+AID K +DG   V T+SG   T ILL+DWV  VEK GAGEILLTS+  DGTK+G+D   I+ V  L  +P+IASGGAG+M+HF E F"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.000404164,
+                  "identity": 24,
+                  "positive": 44,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 41,
+                  "hit_to": 121,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EQGADELVFLDISATLEKRKTLISLVRKINKEISIPFTVGGGISSLEDAKNLIIAGADKISLNSAAIQNPTLIKEISEEIG",
+                  "midline": "++GA E++   I     K      ++R +    ++P    GG   +E      + GADK+S+N+AA++NP+LI +I++  G"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "tpg|HZQ08669.1|",
+                  "accession": "HZQ08669",
+                  "title": "imidazole glycerol phosphate synthase cyclase subunit [Anaerolineae bacterium]",
+                  "taxid": 2052143,
+                  "sciname": "Anaerolineae bacterium"
+                }
+              ],
+              "len": 151,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 5.38998e-29,
+                  "identity": 55,
+                  "positive": 74,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 21,
+                  "hit_to": 122,
+                  "align_len": 102,
+                  "gaps": 2,
+                  "qseq": "SQAVVVAIDAKR-VDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF-LRGADKV",
+                  "hseq": "SQCVVVAVDAKREANGQWQVYTHGGRRASEREAIEWAQEIERRGAGEILLTSIDRDGTHKGYDLDLTRAITEVVNIPVIASGGAGHLEHFYEALTLGGADAV",
+                  "midline": "SQ VVVA+DAKR  +G++ V+T+ G++ +     +W  E+E+RGAGEILLTSIDRDGT  GYD ++ R +  +  +P+IASGGAG +EHF EA  L GAD V"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "gb|MBQ2984579.1|",
+                  "accession": "MBQ2984579",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Candidatus Gastranaerophilales bacterium]",
+                  "taxid": 2137880,
+                  "sciname": "Candidatus Gastranaerophilales bacterium"
+                }
+              ],
+              "len": 254,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 5.88491e-29,
+                  "identity": 56,
+                  "positive": 69,
+                  "query_from": 6,
+                  "query_to": 100,
+                  "hit_from": 124,
+                  "hit_to": 219,
+                  "align_len": 96,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLR",
+                  "hseq": "SQCLVVALDAKRVDGEFYVHINAGKKNTGIKALDWAKEVEKRGAGEILLTSMDYDGTQKGFDLELNNLISNAVNIPVIASGGAGADSNHFIDVFKK",
+                  "midline": "SQ +VVA+DAKRVDGEF V   +GKKNTGI   DW  EVEKRGAGEILLTS+D DGT+ G+D E+   +     +P+IASGGAG    HF++ F +"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_409208824.1|",
+                  "accession": "WP_409208824",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF, partial [Flavobacterium sp.]",
+                  "taxid": 239,
+                  "sciname": "Flavobacterium sp."
+                }
+              ],
+              "len": 147,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 6.05137e-29,
+                  "identity": 53,
+                  "positive": 70,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 18,
+                  "hit_to": 113,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQCVVVAIDAKQIDGQWIVHLVGGKVPTEIRLFDWAKEVEQRGAGEILFTSMDHDGTKNGFANEALATLSKLVNIPIIASGGAGNIQHFVDTFVEG",
+                  "midline": "SQ VVVAIDAK++DG+++V    GK  T I L DW  EVE+RGAGEIL TS+D DGTK+G+  E +  +  L  +PIIASGGAG ++HF++ F+ G"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gb|MCX7654705.1|",
+                  "accession": "MCX7654705",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Fervidobacterium sp.]",
+                  "taxid": 1871331,
+                  "sciname": "Fervidobacterium sp."
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 6.06123e-29,
+                  "identity": 53,
+                  "positive": 64,
+                  "query_from": 22,
+                  "query_to": 103,
+                  "hit_from": 138,
+                  "hit_to": 219,
+                  "align_len": 82,
+                  "gaps": 0,
+                  "qseq": "FMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "YEVFTVSGRKRTGIRYEDYLVEVEKRGAGELLITSIDKDGTQDGYDVETVRLAKSLTKLPVIASGGAGKMEHVLEILTAGAD",
+                  "midline": "+ VFT SG+K TGI   D++VEVEKRGAGE+L+TSID+DGT+ GYD E +R  + LT LP+IASGGAGKMEH LE    GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 1.01333e-07,
+                  "identity": 37,
+                  "positive": 46,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 33,
+                  "hit_to": 121,
+                  "align_len": 89,
+                  "gaps": 4,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VELAKRYAQIGIDELVFLDISATYEKRKTLIQLVEKVAEQINIPFTVGGGINSLELASELIYKGADKVSINTAAVENPKLITQIADRFG",
+                  "midline": "VE+ KR    G  E++   I     K     +++  V     +P    GG   +E   E   +GADKVSINTAAVENP LITQIA  FG"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "gb|MFY7812928.1|",
+                  "accession": "MFY7812928",
+                  "title": "HisA/HisF-related TIM barrel protein [Candidatus Nanopelagicaceae bacterium]",
+                  "taxid": 2518609,
+                  "sciname": "Candidatus Nanopelagicaceae bacterium"
+                }
+              ],
+              "len": 138,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.464,
+                  "score": 280,
+                  "evalue": 6.35541e-29,
+                  "identity": 52,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 94,
+                  "hit_from": 5,
+                  "hit_to": 94,
+                  "align_len": 90,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVD-GEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHF",
+                  "hseq": "NQVLVLSVDARRNDNGKFEVTTHGGRKSSGLDMRSWIEEIEIRGAGEILLNSMDRDGVKSGYDLEMIKVAREHSNLPIIASGGAGTVEHF",
+                  "midline": "+Q +V+++DA+R D G+F V T+ G+K++G+ +R W+ E+E RGAGEILL S+DRDG KSGYD EMI+  R  + LPIIASGGAG +EHF"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "ref|WP_011278393.1|",
+                  "accession": "WP_011278393",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Sulfolobus acidocaldarius]",
+                  "taxid": 2285,
+                  "sciname": "Sulfolobus acidocaldarius"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 6.36737e-29,
+                  "identity": 60,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 103,
+                  "hit_from": 118,
+                  "hit_to": 218,
+                  "align_len": 102,
+                  "gaps": 1,
+                  "qseq": "SESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "AEFGSQAIVVAIDVKRIGNDYYVFTRSGKYNTGINAISWAKEVEKLGAGEILLTSIDRDGTREGYDIEITELISKSVNIPIIASGGAGKIDDFL-GILKVAD",
+                  "midline": "+E  SQA+VVAID KR+  ++ VFT SGK NTGI    W  EVEK GAGEILLTSIDRDGT+ GYD E+   +     +PIIASGGAGK++ FL   L+ AD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.0151417,
+                  "identity": 30,
+                  "positive": 45,
+                  "query_from": 45,
+                  "query_to": 126,
+                  "hit_from": 40,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 4,
+                  "qseq": "EKRGAGEILLTSIDRDGTKSGYDTEM--IRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EEEGADEIVF--LDITATIEGRKTMMNVVKDTASVISIPLTVGGGIRSLDDVSKILGNGADKVSINTAAVENKDLVSISSAEFG",
+                  "midline": "E+ GA EI+   +D   T  G  T M  ++    + ++P+   GG   ++   +    GADKVSINTAAVEN  L++  +  FG"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "gb|MFZ2323322.1|",
+                  "accession": "MFZ2323322",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Ignavibacteriaceae bacterium]",
+                  "taxid": 2651163,
+                  "sciname": "Ignavibacteriaceae bacterium"
+                }
+              ],
+              "len": 250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 7.10075e-29,
+                  "identity": 55,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 122,
+                  "hit_to": 219,
+                  "align_len": 98,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQAVVVAIDVKKINGKYKVFIKGGKKETNLDGINWCKEIVELGAGEILLTSMDKDGTQSGYDTEFLSILNQFIPVPVIASGGAGTMEHFYNAFNAGAD",
+                  "midline": "SQAVVVAID K+++G++ VF   GKK T +   +W  E+ + GAGEILLTS+D+DGT+SGYDTE +  +     +P+IASGGAG MEHF  AF  GAD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 50.447,
+                  "score": 119,
+                  "evalue": 0.000265532,
+                  "identity": 33,
+                  "positive": 50,
+                  "query_from": 35,
+                  "query_to": 126,
+                  "hit_from": 24,
+                  "hit_to": 121,
+                  "align_len": 98,
+                  "gaps": 6,
+                  "qseq": "ILLRDW--VVEVEKR----GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "INLRDAGSAVELAQRYSEEGADELVFLDITASEEKRKTLVELVKSVASVIRIPFTVGGGISSVSDISDLLNSGADKISLNTSAVKNPQLIYESAKKFG",
+                  "midline": "I LRD    VE+ +R    GA E++   I     K     E+++ V  +  +P    GG   +    +    GADK+S+NT+AV+NP LI + A+ FG"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|MCI4438983.1|",
+                  "accession": "MCI4438983",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [archaeon]",
+                  "taxid": 1906665,
+                  "sciname": "archaeon"
+                }
+              ],
+              "len": 250,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 7.17747e-29,
+                  "identity": 61,
+                  "positive": 68,
+                  "query_from": 2,
+                  "query_to": 103,
+                  "hit_from": 118,
+                  "hit_to": 219,
+                  "align_len": 102,
+                  "gaps": 0,
+                  "qseq": "SESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SEFGSQAVVVAIDAKFKNGSYEVFIYGGTSPTGIDAVAWAKEAEARGAGEILLTSIDRDGTKQGYDLNLTKMVLDAVSIPVIASGGAGSPLHFLEVFRIGAD",
+                  "midline": "SE  SQAVVVAIDAK  +G + VF Y G   TGI    W  E E RGAGEILLTSIDRDGTK GYD  + + V    ++P+IASGGAG   HFLE F  GAD"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gb|MBL6700436.1|",
+                  "accession": "MBL6700436",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Gammaproteobacteria bacterium]",
+                  "taxid": 1913989,
+                  "sciname": "Gammaproteobacteria bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 7.18798e-29,
+                  "identity": 51,
+                  "positive": 73,
+                  "query_from": 7,
+                  "query_to": 105,
+                  "hit_from": 124,
+                  "hit_to": 223,
+                  "align_len": 100,
+                  "gaps": 1,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "QCIVIAVDVKKIDNEYYVFTHGGRKNSMLSAYDWCMECQKRGAGEILLTSMDKDGTKDGFDLEILNTISTDLNIPLIASGGAGNLEHLHEAITKGNADAV",
+                  "midline": "Q +V+A+D K++D E+ VFT+ G+KN+ +   DW +E +KRGAGEILLTS+D+DGTK G+D E++  +     +P+IASGGAG +EH  EA  +G AD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.0542,
+                  "score": 105,
+                  "evalue": 0.0194517,
+                  "identity": 32,
+                  "positive": 45,
+                  "query_from": 42,
+                  "query_to": 126,
+                  "hit_from": 34,
+                  "hit_to": 122,
+                  "align_len": 91,
+                  "gaps": 8,
+                  "qseq": "VEVEKR----GAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VEVAKKYDSEGADEI--TFLDITASHEGRDTILSVVEKVANEVFIPLTVGGGVSDFNDVRDLLSVGADKVTINTAAVSNPNIINDVTEKIG",
+                  "midline": "VEV K+    GA EI  T +D   +  G DT   ++  V     +P+   GG        +    GADKV+INTAAV NP++I  + +  G"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "gb|PYR93054.1|",
+                  "accession": "PYR93054",
+                  "title": "MAG: imidazole glycerol phosphate synthase subunit HisF [Acidobacteriota bacterium]",
+                  "taxid": 1978231,
+                  "sciname": "Acidobacteriota bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 7.26563e-29,
+                  "identity": 56,
+                  "positive": 67,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 217,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQAVIVAIDAKQTEGRFAVFARSGSTASGRSAVEWAREAADRGAGEILLTSIDRDGTRSGFDCELTAAVSSAVSIPVIASGGAGTFEHFLEVFTRG",
+                  "midline": "SQAV+VAIDAK+ +G F VF  SG   +G    +W  E   RGAGEILLTSIDRDGT+SG+D E+   V    ++P+IASGGAG  EHFLE F RG"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "gb|MDC0045268.1|",
+                  "accession": "MDC0045268",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Pelagibacteraceae bacterium]",
+                  "taxid": 2026775,
+                  "sciname": "Pelagibacteraceae bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.08981e-29,
+                  "identity": 49,
+                  "positive": 70,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 217,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "NQCIVVAVDAKRIDNDWYVFSHGGTKNTGMFALDWINRAQELGAGEILLTSMDKDGTKSGFDINLLSEVSKFVNVPVIASGGVGKLEHFYEGVNKG",
+                  "midline": "+Q +VVA+DAKR+D ++ VF++ G KNTG+   DW+   ++ GAGEILLTS+D+DGTKSG+D  ++  V     +P+IASGG GK+EHF E   +G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.00493544,
+                  "identity": 25,
+                  "positive": 39,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 41,
+                  "hit_to": 121,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "ENGADEICFLDISASLENRNTMVNVVKKTANEVFIPLTVGGGISSIENIQSLLKAGADKVSINSAAINNPNIIKQSSEYFG",
+                  "midline": "+ GA EI    I            +++       +P+   GG   +E+       GADKVSIN+AA+ NP++I Q ++ FG"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gb|MFL2848201.1|",
+                  "accession": "MFL2848201",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Coraliomargaritaceae bacterium]",
+                  "taxid": 3107317,
+                  "sciname": "Coraliomargaritaceae bacterium"
+                }
+              ],
+              "len": 252,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.18854e-29,
+                  "identity": 56,
+                  "positive": 74,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRV-DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "NQCIVVAIDAKKVSDNKWSVFTHGGRKDSGKNLLDWVQEVEQRGAGEILLTSMDADGTKDGYDLELNKRVSEAVGIPVIASGGAGKLEHLADAITKG",
+                  "midline": "+Q +VVAIDAK+V D ++ VFT+ G+K++G  L DWV EVE+RGAGEILLTS+D DGTK GYD E+ + V     +P+IASGGAGK+EH  +A  +G"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_271855879.1|",
+                  "accession": "WP_271855879",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Patiriisocius marinus]",
+                  "taxid": 1397112,
+                  "sciname": "Patiriisocius marinus"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.44508e-29,
+                  "identity": 54,
+                  "positive": 72,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 217,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQCLVVAIDAKQIEGEWIVHLIGGKTPTTIKLFDWVKEVEQRGAGEILFTSMDHDGTKNGFANEALLTISRLVNIPVIASGGAGNMQHFEDAFIKG",
+                  "midline": "SQ +VVAIDAK+++GE++V    GK  T I L DWV EVE+RGAGEIL TS+D DGTK+G+  E +  +  L  +P+IASGGAG M+HF +AF++G"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "tpg|HMK29576.1|",
+                  "accession": "HMK29576",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Terriglobales bacterium]",
+                  "taxid": 2282142,
+                  "sciname": "Terriglobales bacterium"
+                }
+              ],
+              "len": 255,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.48896e-29,
+                  "identity": 58,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 121,
+                  "hit_to": 219,
+                  "align_len": 99,
+                  "gaps": 3,
+                  "qseq": "SQAVVVAIDAKRVD---GEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "SQAVVVAIDAKRSDQARGDAEVYVSGGHKPTGRLLLDWAREAESRGAGEILFTSMDRDGTRAGFDCELTLAVEQVVSIPVIASGGAGSVEHFIEVFRRG",
+                  "midline": "SQAVVVAIDAKR D   G+  V+   G K TG LL DW  E E RGAGEIL TS+DRDGT++G+D E+   V  + ++P+IASGGAG +EHF+E F RG"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.00419016,
+                  "identity": 28,
+                  "positive": 41,
+                  "query_from": 48,
+                  "query_to": 126,
+                  "hit_from": 42,
+                  "hit_to": 120,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "GADEIVMLDISATHEGRGTLVGTVRRTARVLFVPFTVGGGIRTLKDAAAIFDAGADKITINSAAVADPKLITEIAERFG",
+                  "midline": "GA EI++  I       G     +R    +  +P    GG   ++     F  GADK++IN+AAV +P LIT+IA+ FG"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "gb|MFA5298863.1|",
+                  "accession": "MFA5298863",
+                  "title": "HisA/HisF-related TIM barrel protein [Lutibacter sp.]",
+                  "taxid": 1925666,
+                  "sciname": "Lutibacter sp."
+                }
+              ],
+              "len": 203,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 114.005,
+                  "score": 284,
+                  "evalue": 8.52475e-29,
+                  "identity": 53,
+                  "positive": 68,
+                  "query_from": 6,
+                  "query_to": 98,
+                  "hit_from": 73,
+                  "hit_to": 165,
+                  "align_len": 93,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAF",
+                  "hseq": "SQCIVVAIDAKQIDGEWIVHLVGGKVPTAINLYDWAKEVAQRGAGEILFTSMDHDGTKNGFANEALAHLSELVNIPIIASGGAGNMQHFVDAF",
+                  "midline": "SQ +VVAIDAK++DGE++V    GK  T I L DW  EV +RGAGEIL TS+D DGTK+G+  E +  +  L  +PIIASGGAG M+HF++AF"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "gb|MGB9112520.1|",
+                  "accession": "MGB9112520",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Acidimicrobiales bacterium]",
+                  "taxid": 2201156,
+                  "sciname": "Acidimicrobiales bacterium"
+                }
+              ],
+              "len": 265,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 8.56564e-29,
+                  "identity": 56,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 122,
+                  "hit_to": 221,
+                  "align_len": 100,
+                  "gaps": 0,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKV",
+                  "hseq": "CQCVVVAIDAKRRDGRFEVYTHGGGRSTGVDAVSWAVIAERLGAGEILLTSMDRDGTKLGYDGELLRAVAEATRIPLVASGGAGNLDHLLEGAHSGADAL",
+                  "midline": " Q VVVAIDAKR DG F V+T+ G ++TG+    W V  E+ GAGEILLTS+DRDGTK GYD E++R V   T +P++ASGGAG ++H LE    GAD +"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "ref|WP_034553438.1|",
+                  "accession": "WP_034553438",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Helicobacter apodemus]",
+                  "taxid": 135569,
+                  "sciname": "Helicobacter apodemus"
+                }
+              ],
+              "len": 262,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.63982e-29,
+                  "identity": 60,
+                  "positive": 71,
+                  "query_from": 6,
+                  "query_to": 103,
+                  "hit_from": 125,
+                  "hit_to": 225,
+                  "align_len": 101,
+                  "gaps": 3,
+                  "qseq": "SQAVVVAIDAKRV---DGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGAD",
+                  "hseq": "SQCIIVAIDVKRNASNPAKLEVYTHGGRKNTEIGLLQWVKEVYNRGAGEILLTSMDCDGTKSGYDLEVLREVSSLVDIPLIASGGAGSKEHILEAFRNGAD",
+                  "midline": "SQ ++VAID KR      +  V+T+ G+KNT I L  WV EV  RGAGEILLTS+D DGTKSGYD E++R V  L  +P+IASGGAG  EH LEAF  GAD"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gb|MGN0550693.1|",
+                  "accession": "MGN0550693",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [Acutalibacteraceae bacterium]",
+                  "taxid": 3077420,
+                  "sciname": "Acutalibacteraceae bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.72173e-29,
+                  "identity": 60,
+                  "positive": 70,
+                  "query_from": 6,
+                  "query_to": 105,
+                  "hit_from": 122,
+                  "hit_to": 222,
+                  "align_len": 101,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG-ADKV",
+                  "hseq": "SQCVVAAIDAKRTDGGWEVYINGGRTPMGIDAVKWAMEAEKRGAGEILLTSMDCDGQKNGYDLELTRAVSESVGIPVIASGGAGKMEHFYEAFTKGKADAV",
+                  "midline": "SQ VV AIDAKR DG + V+   G+   GI    W +E EKRGAGEILLTS+D DG K+GYD E+ R V     +P+IASGGAGKMEHF EAF +G AD V"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.00243267,
+                  "identity": 26,
+                  "positive": 42,
+                  "query_from": 43,
+                  "query_to": 126,
+                  "hit_from": 38,
+                  "hit_to": 121,
+                  "align_len": 84,
+                  "gaps": 0,
+                  "qseq": "EVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EYDKQGADELVLLDITASSDARNIIVDIVSKVADTIFIPFTVGGGIRTVDDFTDILRAGADKVSVNSAAILRPDIINEAAYKFG",
+                  "midline": "E +K+GA E++L  I           +++  V     +P    GG   ++ F +    GADKVS+N+AA+  P +I + A  FG"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "gb|MBO5948984.1|",
+                  "accession": "MBO5948984",
+                  "title": "imidazole glycerol phosphate synthase subunit HisF [bacterium]",
+                  "taxid": 1869227,
+                  "sciname": "bacterium"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.546,
+                  "score": 288,
+                  "evalue": 8.91118e-29,
+                  "identity": 54,
+                  "positive": 72,
+                  "query_from": 6,
+                  "query_to": 101,
+                  "hit_from": 122,
+                  "hit_to": 218,
+                  "align_len": 97,
+                  "gaps": 1,
+                  "qseq": "SQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAG-KMEHFLEAFLRG",
+                  "hseq": "AQCIVIAIDAKRVDGDFYVHINAGKKNTGIKLIDWAKQVEQNGAGEILLTSMDADGTQNGFDIEMTKLISNSVQIPVIASGGAGANVQHFTDVFNLG",
+                  "midline": "+Q +V+AIDAKRVDG+F V   +GKKNTGI L DW  +VE+ GAGEILLTS+D DGT++G+D EM + +     +P+IASGGAG  ++HF + F  G"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.8246,
+                  "score": 107,
+                  "evalue": 0.0116948,
+                  "identity": 27,
+                  "positive": 43,
+                  "query_from": 46,
+                  "query_to": 126,
+                  "hit_from": 41,
+                  "hit_to": 121,
+                  "align_len": 83,
+                  "gaps": 4,
+                  "qseq": "KRGAGEILLTSIDRDGTKSGYDT--EMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "EQGADELVF--LDITATNEGRKTTLDLVSKVAKEVFIPFCVGGGISSIDDIRNLLLAGADKIAINSAGVKNPDLIKSASQYFG",
+                  "midline": "++GA E++   +D   T  G  T  +++  V     +P    GG   ++      L GADK++IN+A V+NP LI   +Q FG"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "gb|OUU77102.1|",
+                  "accession": "OUU77102",
+                  "title": "MAG: imidazole glycerol phosphate synthase subunit HisF [Chloroflexi bacterium TMED70]",
+                  "taxid": 1986676,
+                  "sciname": "Chloroflexi bacterium TMED70"
+                }
+              ],
+              "len": 251,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.161,
+                  "score": 287,
+                  "evalue": 9.81589e-29,
+                  "identity": 53,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 101,
+                  "hit_from": 118,
+                  "hit_to": 217,
+                  "align_len": 100,
+                  "gaps": 0,
+                  "qseq": "SESSSQAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLRG",
+                  "hseq": "NEFGSQCVVSAIDVKRNEDEWIVYTHGGRKETNLNALDWVQEIEERGAGEILLTSMDKDGSNIGYDNELLQKVNDLVNIPVIASGGAGNLRHLYEAFNTG",
+                  "midline": "+E  SQ VV AID KR + E++V+T+ G+K T +   DWV E+E+RGAGEILLTS+D+DG+  GYD E+++ V  L  +P+IASGGAG + H  EAF  G"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gb|MCQ4345813.1|",
+                  "accession": "MCQ4345813",
+                  "title": "imidazole glycerol phosphate synthase cyclase subunit [Sulfolobales archaeon]",
+                  "taxid": 2268200,
+                  "sciname": "Sulfolobales archaeon"
+                }
+              ],
+              "len": 182,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 1.03878e-28,
+                  "identity": 57,
+                  "positive": 67,
+                  "query_from": 7,
+                  "query_to": 100,
+                  "hit_from": 54,
+                  "hit_to": 147,
+                  "align_len": 94,
+                  "gaps": 0,
+                  "qseq": "QAVVVAIDAKRVDGEFMVFTYSGKKNTGILLRDWVVEVEKRGAGEILLTSIDRDGTKSGYDTEMIRFVRPLTTLPIIASGGAGKMEHFLEAFLR",
+                  "hseq": "QALVVAIDAKRVGNSFRVFVRSGTQDTGLEVVAWAREAEALGAGEILLTSIDRDGTRMGYDIELIDAVSRAVRIPVIASGGAGEMRHFLEVFER",
+                  "midline": "QA+VVAIDAKRV   F VF  SG ++TG+ +  W  E E  GAGEILLTSIDRDGT+ GYD E+I  V     +P+IASGGAG+M HFLE F R"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 2.25604e-05,
+                  "identity": 26,
+                  "positive": 34,
+                  "query_from": 77,
+                  "query_to": 126,
+                  "hit_from": 3,
+                  "hit_to": 52,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "LTTLPIIASGGAGKMEHFLEAFLRGADKVSINTAAVENPSLITQIAQTFG",
+                  "hseq": "VISVPLTVGGGIRSLQDAEKAFDSGADKVSVNTAAVENKGLITQIADQFG",
+                  "midline": "+ ++P+   GG   ++   +AF  GADKVS+NTAAVEN  LITQIA  FG"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

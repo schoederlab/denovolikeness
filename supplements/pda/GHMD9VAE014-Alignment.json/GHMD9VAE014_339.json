@@ -1,0 +1,4343 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236458",
+          "query_title": "2n35_A",
+          "query_len": 52,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|2N35|A",
+                  "accession": "2N35_A",
+                  "title": "Chain A, Albumin binding protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 52,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.523,
+                  "score": 249,
+                  "evalue": 1.58001e-26,
+                  "identity": 52,
+                  "positive": 52,
+                  "query_from": 1,
+                  "query_to": 52,
+                  "hit_from": 1,
+                  "hit_to": 52,
+                  "align_len": 52,
+                  "gaps": 0,
+                  "qseq": "GTIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "GTIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "midline": "GTIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|2VDB|B",
+                  "accession": "2VDB_B",
+                  "title": "Chain B, PEPTOSTREPTOCOCCAL ALBUMIN-BINDING PROTEIN [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 55,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 2.11397e-19,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 3,
+                  "hit_to": 53,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDQWLLKNAKEDAIAELKKAGITSDFYFNAINKAKTVEEVNALKNEILKA",
+                  "midline": "TID+WLLK AKE AI ELKKAGITSD+YF+ INKAKTVE VNALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "gb|MDU5186149.1|",
+                  "accession": "MDU5186149",
+                  "title": "DUF5633 domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 327,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 1.02616e-18,
+                  "identity": 42,
+                  "positive": 48,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 14,
+                  "hit_to": 64,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDFYFNAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD+YF+ INKAKTVEGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "gb|OXZ36650.1|",
+                  "accession": "OXZ36650",
+                  "title": "hypothetical protein B9N56_08320 [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 264,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.8853,
+                  "score": 211,
+                  "evalue": 1.31158e-18,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 68,
+                  "hit_to": 118,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKEAKKDAIAELKKAGITSDLYFNAINKAKTIEGVNALKNEILKA",
+                  "midline": "TIDEWLLKEAK+ AI ELKKAGITSD YF+ INKAKT+EGVNALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_316058422.1|",
+                  "accession": "WP_316058422",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 398,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 2.7346e-18,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 213,
+                  "hit_to": 263,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDQWLLKNAKEDAIAELKKAGITSDFYFNAINKAKTVEGVNALKNEILKA",
+                  "midline": "TID+WLLK AKE AI ELKKAGITSD+YF+ INKAKTVEGVNALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "gb|MFR4778291.1|",
+                  "accession": "MFR4778291",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 471,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.8853,
+                  "score": 211,
+                  "evalue": 6.67851e-18,
+                  "identity": 42,
+                  "positive": 49,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 283,
+                  "hit_to": 333,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDFYFNMINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD+YF++INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 3.8503e-12,
+                  "identity": 35,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 224,
+                  "hit_to": 274,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKAAGITSDLLLNQIRNAKTIEGVNALKDQLLKS",
+                  "midline": "TIDEW LK AKE+AI+ELK AGITSD   + I  AKT+EGVNALKD++LK+"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_148131955.1|",
+                  "accession": "WP_148131955",
+                  "title": "DUF5633 domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 378,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 6.71605e-18,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 185,
+                  "hit_to": 235,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKEAKKDAIAELKKAGITSDLYFNAINKAKTIEGVNALKNEILKA",
+                  "midline": "TIDEWLLKEAK+ AI ELKKAGITSD YF+ INKAKT+EGVNALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_094223931.1|",
+                  "accession": "WP_094223931",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 655,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 1.55418e-17,
+                  "identity": 42,
+                  "positive": 48,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 350,
+                  "hit_to": 400,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDFYFNAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD+YF+ INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 1.61589e-11,
+                  "identity": 36,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 287,
+                  "hit_to": 337,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TLAKWALSQAKEKAIKELKDAGITSDLLLDQINKAKTVEGVEALKAEILKS",
+                  "midline": "T+ +W L +AKEKAI+ELK AGITSD   D INKAKTVEGV ALK EILK+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 63.5438,
+                  "score": 153,
+                  "evalue": 4.87899e-10,
+                  "identity": 32,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 228,
+                  "hit_to": 278,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TLAEWALSQAKEKAIKELKEAGITSDLLLNQIKNAKTIDGVNALKAELLKS",
+                  "midline": "T+ EW L +AKEKAI+ELK+AGITSD   + I  AKT++GVNALK E+LK+"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.000724651,
+                  "identity": 23,
+                  "positive": 30,
+                  "query_from": 16,
+                  "query_to": 52,
+                  "hit_from": 183,
+                  "hit_to": 219,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "IEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "IKELKEAGITSDLLLNQIKNAKTIDGVNALKAELLKS",
+                  "midline": "I+ELK+AGITSD   + I  AKT++GVNALK E+LK+"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gb|MDU4208380.1|",
+                  "accession": "MDU4208380",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 1.59615e-17,
+                  "identity": 41,
+                  "positive": 49,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 187,
+                  "hit_to": 237,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDFYFNMINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD+YF++INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 2.83596e-08,
+                  "identity": 30,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 124,
+                  "hit_to": 178,
+                  "align_len": 55,
+                  "gaps": 4,
+                  "qseq": "TIDEWLLKE----AKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TLADWAKKQELAKAKEAAIKELQKAGVTSDLFLNQIRNAKTIEGVNALKDQLLKS",
+                  "midline": "T+ +W  K+    AKE AI+EL+KAG+TSD + + I  AKT+EGVNALKD++LK+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 3.01233e-05,
+                  "identity": 26,
+                  "positive": 36,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 68,
+                  "hit_to": 115,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EETLKAEKENAIKELKEAGVTSELFLNQIRNAKTIDSVNALKAELLKS",
+                  "midline": "E  LK  KE AI+ELK+AG+TS+ + + I  AKT++ VNALK E+LK+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_274983998.1|",
+                  "accession": "WP_274983998",
+                  "title": "albumin-binding GA domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 364,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.9593,
+                  "score": 206,
+                  "evalue": 2.14984e-17,
+                  "identity": 42,
+                  "positive": 48,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 263,
+                  "hit_to": 313,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDFYFNAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD+YF+ INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 4.86484e-12,
+                  "identity": 35,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 204,
+                  "hit_to": 254,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKAAGITSDLLLNQIRNAKTIEGVNALKDELIKS",
+                  "midline": "TIDEW LK AKE+AI+ELK AGITSD   + I  AKT+EGVNALKDE++K+"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "gb|MDU4018264.1|",
+                  "accession": "MDU4018264",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 979,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 2.45902e-17,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 657,
+                  "hit_to": 707,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDLYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 9.80781e-17,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 533,
+                  "hit_to": 583,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.72672e-16,
+                  "identity": 42,
+                  "positive": 45,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 595,
+                  "hit_to": 645,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKAAGITSDLYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEW LK AKE+AI+ELK AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 55.4546,
+                  "score": 132,
+                  "evalue": 4.07912e-07,
+                  "identity": 26,
+                  "positive": 32,
+                  "query_from": 19,
+                  "query_to": 52,
+                  "hit_from": 416,
+                  "hit_to": 449,
+                  "align_len": 34,
+                  "gaps": 0,
+                  "qseq": "LKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKEAGITSDLYFNLINKAKTVEGVESLKNEMLKS",
+                  "midline": "LK+AGITSD YF+LINKAKTVEGV +LK+E+LK+"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_278736156.1|",
+                  "accession": "WP_278736156",
+                  "title": "DUF5633 domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 360,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.1889,
+                  "score": 204,
+                  "evalue": 3.61929e-17,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 51,
+                  "hit_to": 101,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKEAGITSDLYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEW LK AKE+AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 3.48034e-08,
+                  "identity": 27,
+                  "positive": 37,
+                  "query_from": 11,
+                  "query_to": 52,
+                  "hit_from": 1,
+                  "hit_to": 42,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "AKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "AKEEAIKELKEAGVTSDLFLNQIRNAKTIEGVNALKDQLLKS",
+                  "midline": "AKE+AI+ELK+AG+TSD + + I  AKT+EGVNALKD++LK+"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_316532718.1|",
+                  "accession": "WP_316532718",
+                  "title": "DUF5633 domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 695,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.5741,
+                  "score": 205,
+                  "evalue": 5.2541e-17,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 383,
+                  "hit_to": 433,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_278725770.1|",
+                  "accession": "WP_278725770",
+                  "title": "DUF5633 domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 453,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.5741,
+                  "score": 205,
+                  "evalue": 5.27699e-17,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 138,
+                  "hit_to": 188,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKEAGITSDLYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEW LK AKE+AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_316511046.1|",
+                  "accession": "WP_316511046",
+                  "title": "albumin-binding GA domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 473,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 7.7423e-17,
+                  "identity": 42,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 217,
+                  "hit_to": 267,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDLYFNAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YF+ INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.6918,
+                  "score": 143,
+                  "evalue": 1.32188e-08,
+                  "identity": 31,
+                  "positive": 35,
+                  "query_from": 11,
+                  "query_to": 52,
+                  "hit_from": 167,
+                  "hit_to": 208,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "AKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "AKLNAIEELKKAGITSDLLLDQIRKAKTIEGVNALKDELIKS",
+                  "midline": "AK  AIEELKKAGITSD   D I KAKT+EGVNALKDE++K+"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "ref|WP_146199872.1|",
+                  "accession": "WP_146199872",
+                  "title": "albumin-binding GA domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 499,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 9.07975e-17,
+                  "identity": 43,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 362,
+                  "hit_to": 412,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 4.58929e-10,
+                  "identity": 34,
+                  "positive": 41,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 178,
+                  "hit_to": 222,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LQYAKEAAIKELKEAGITSEYLFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "L+ AKE AI+ELK+AGITS+Y F+LINKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 1.08417e-09,
+                  "identity": 30,
+                  "positive": 38,
+                  "query_from": 11,
+                  "query_to": 52,
+                  "hit_from": 312,
+                  "hit_to": 353,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "AKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "AKENAIKELKEAGITSDFFLDQIRKAKTIEGVNALKDELIKS",
+                  "midline": "AKE AI+ELK+AGITSD++ D I KAKT+EGVNALKDE++K+"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_154255059.1|",
+                  "accession": "WP_154255059",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia sp. BIOML-A1]",
+                  "taxid": 2584649,
+                  "sciname": "Finegoldia sp. BIOML-A1"
+                }
+              ],
+              "len": 1010,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 9.80828e-17,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 436,
+                  "hit_to": 486,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDLYFSLINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YF LINKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.03722e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 806,
+                  "hit_to": 856,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.65499e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 615,
+                  "hit_to": 665,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGISSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGI+SD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 78.5666,
+                  "score": 192,
+                  "evalue": 3.08933e-15,
+                  "identity": 40,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 677,
+                  "hit_to": 727,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEAAIKELKEAGITAEYLFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGIT++Y F+LINKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 4.73364e-12,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 876,
+                  "hit_to": 923,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EEALKKAKEAAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "E  LK+AKE AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 68.1662,
+                  "score": 165,
+                  "evalue": 1.5572e-11,
+                  "identity": 37,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 747,
+                  "hit_to": 794,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EEALKKAKEAAIKELKEAGITSDIFFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "E  LK+AKE AI+ELK+AGITSD +FD INKAKTVEGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_148131672.1|",
+                  "accession": "WP_148131672",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1391,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 1.05049e-16,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 795,
+                  "hit_to": 845,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDLYFSLINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YF LINKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 82.4185,
+                  "score": 202,
+                  "evalue": 1.31439e-16,
+                  "identity": 43,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 970,
+                  "hit_to": 1020,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.09845e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 465,
+                  "hit_to": 515,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.09845e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 598,
+                  "hit_to": 648,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.09845e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 1192,
+                  "hit_to": 1242,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 80.1073,
+                  "score": 196,
+                  "evalue": 7.30477e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 660,
+                  "hit_to": 710,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKS",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILK+"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 78.9518,
+                  "score": 193,
+                  "evalue": 2.13425e-15,
+                  "identity": 42,
+                  "positive": 45,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 1254,
+                  "hit_to": 1304,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDINFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD  FD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.14249e-10,
+                  "identity": 35,
+                  "positive": 40,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 1136,
+                  "hit_to": 1180,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LQYAKEAAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "L+ AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 9,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 3.91141e-10,
+                  "identity": 34,
+                  "positive": 41,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 1053,
+                  "hit_to": 1097,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LQYAKEAAIKELKEAGITSEYLFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "L+ AKE AI+ELK+AGITS+Y F+LINKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 10,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 1.68429e-08,
+                  "identity": 30,
+                  "positive": 34,
+                  "query_from": 16,
+                  "query_to": 52,
+                  "hit_from": 417,
+                  "hit_to": 453,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "IEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "IKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "I+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_349171815.1|",
+                  "accession": "WP_349171815",
+                  "title": "albumin-binding GA domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 932,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 1.0602e-16,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 616,
+                  "hit_to": 666,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDLYFSLINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YF LINKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 82.4185,
+                  "score": 202,
+                  "evalue": 1.33951e-16,
+                  "identity": 43,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 853,
+                  "hit_to": 903,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.15749e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 791,
+                  "hit_to": 841,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 80.1073,
+                  "score": 196,
+                  "evalue": 7.44355e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 481,
+                  "hit_to": 531,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKS",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV +LK+EILK+"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 59.3066,
+                  "score": 142,
+                  "evalue": 1.87205e-08,
+                  "identity": 30,
+                  "positive": 34,
+                  "query_from": 16,
+                  "query_to": 52,
+                  "hit_from": 362,
+                  "hit_to": 398,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "IEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "IKELKEAGITSDIYFDAINKAKTVEGVESLKNEILKA",
+                  "midline": "I+ELK+AGITSD YFD INKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|WP_316520769.1|",
+                  "accession": "WP_316520769",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 680,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 1.08034e-16,
+                  "identity": 42,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 424,
+                  "hit_to": 474,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDLYFNAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YF+ INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 59.6918,
+                  "score": 143,
+                  "evalue": 1.50661e-08,
+                  "identity": 32,
+                  "positive": 37,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 371,
+                  "hit_to": 415,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LEYAKLNAIEELKKAGITSDLLLDQIRKAKTIEGVNALKDELIKS",
+                  "midline": "L+ AK  AIEELKKAGITSD   D I KAKT+EGVNALKDE++K+"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|AAA67503.1|",
+                  "accession": "AAA67503",
+                  "title": "protein L [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 992,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 1.10245e-16,
+                  "identity": 43,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 548,
+                  "hit_to": 598,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEEAIKELKEAGITSDLYFSLINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE+AI+ELK+AGITSD YF LINKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 81.6481,
+                  "score": 200,
+                  "evalue": 2.28947e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 851,
+                  "hit_to": 901,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.7633e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 727,
+                  "hit_to": 777,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGISSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGI+SD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 78.5666,
+                  "score": 192,
+                  "evalue": 3.27527e-15,
+                  "identity": 40,
+                  "positive": 47,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 789,
+                  "hit_to": 839,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEAAIKELKEAGITAEYLFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGIT++Y F+LINKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_316131929.1|",
+                  "accession": "WP_316131929",
+                  "title": "DUF5633 domain-containing protein, partial [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 293,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 1.16665e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 31,
+                  "hit_to": 81,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_094206375.1|",
+                  "accession": "WP_094206375",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 567,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.4185,
+                  "score": 202,
+                  "evalue": 1.28066e-16,
+                  "identity": 42,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 258,
+                  "hit_to": 308,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKEAGITSDLYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEW LK AKE+AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 4.95594e-12,
+                  "identity": 33,
+                  "positive": 43,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 140,
+                  "hit_to": 190,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKEAGVTSDLFLNQIRNAKTIEGVKALKDQLLKS",
+                  "midline": "TIDEW LK AKE+AI+ELK+AG+TSD + + I  AKT+EGV ALKD++LK+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 4.95594e-12,
+                  "identity": 33,
+                  "positive": 43,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 199,
+                  "hit_to": 249,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELKEAGVTSDLFLNQIRNAKTIEGVKALKDQLLKS",
+                  "midline": "TIDEW LK AKE+AI+ELK+AG+TSD + + I  AKT+EGV ALKD++LK+"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_344678883.1|",
+                  "accession": "WP_344678883",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 781,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.4185,
+                  "score": 202,
+                  "evalue": 1.32608e-16,
+                  "identity": 43,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 644,
+                  "hit_to": 694,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 63.929,
+                  "score": 154,
+                  "evalue": 4.56161e-10,
+                  "identity": 34,
+                  "positive": 41,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 460,
+                  "hit_to": 504,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LQYAKEAAIKELKEAGITSEYLFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "L+ AKE AI+ELK+AGITS+Y F+LINKAKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 62.7734,
+                  "score": 151,
+                  "evalue": 1.17666e-09,
+                  "identity": 31,
+                  "positive": 40,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 591,
+                  "hit_to": 635,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LEYAKENAIKELKEAGITSDFFLDQIRKAKTIEGVNALKDELIKS",
+                  "midline": "L+ AKE AI+ELK+AGITSD++ D I KAKT+EGVNALKDE++K+"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_316263912.1|",
+                  "accession": "WP_316263912",
+                  "title": "DUF5633 domain-containing protein [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 306,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 1.36386e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 44,
+                  "hit_to": 94,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "gb|MDU3192920.1|",
+                  "accession": "MDU3192920",
+                  "title": "DUF5633 domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 531,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 2.88137e-16,
+                  "identity": 40,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 168,
+                  "hit_to": 218,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGITSQFFFNLINNAKTVEGVEALKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGITS ++F+LIN AKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 57.7658,
+                  "score": 138,
+                  "evalue": 6.51569e-08,
+                  "identity": 28,
+                  "positive": 37,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 115,
+                  "hit_to": 159,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LEYAKENAIKELKAAGVTSDLFLNQIRNAKTIEGVNALKDQLLKS",
+                  "midline": "L+ AKE AI+ELK AG+TSD + + I  AKT+EGVNALKD++LK+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 3.8171e-06,
+                  "identity": 25,
+                  "positive": 35,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 32,
+                  "hit_to": 76,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LSAAKAAAVKELKEAGVTSDLFLNQIRNAKTIESVNALKDQLLKS",
+                  "midline": "L  AK  A++ELK+AG+TSD + + I  AKT+E VNALKD++LK+"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "ref|WP_198482175.1|",
+                  "accession": "WP_198482175",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 979,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.2629,
+                  "score": 199,
+                  "evalue": 3.28329e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 650,
+                  "hit_to": 700,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 74.3294,
+                  "score": 181,
+                  "evalue": 8.66975e-14,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 587,
+                  "hit_to": 637,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITGQIYFDQINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 74.3294,
+                  "score": 181,
+                  "evalue": 8.66975e-14,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 713,
+                  "hit_to": 763,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITGQIYFDQINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 66.6254,
+                  "score": 161,
+                  "evalue": 5.1234e-11,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 530,
+                  "hit_to": 574,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKELKAAGITGQIYFDQINKAKTIEGVEALKNEILKA",
+                  "midline": "LK+AKEKAI+ELK AGIT   YFD INKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_316265469.1|",
+                  "accession": "WP_316265469",
+                  "title": "MULTISPECIES: DUF5633 domain-containing protein [Peptoniphilaceae]",
+                  "taxid": 1570339,
+                  "sciname": "Peptoniphilaceae"
+                }
+              ],
+              "len": 550,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.8777,
+                  "score": 198,
+                  "evalue": 4.03723e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 287,
+                  "hit_to": 337,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_200225743.1|",
+                  "accession": "WP_200225743",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus obesiensis]",
+                  "taxid": 1287640,
+                  "sciname": "Anaerococcus obesiensis"
+                }
+              ],
+              "len": 448,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.8777,
+                  "score": 198,
+                  "evalue": 4.33214e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 154,
+                  "hit_to": 204,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 74.3294,
+                  "score": 181,
+                  "evalue": 9.74884e-14,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 217,
+                  "hit_to": 267,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITGQIYFDQINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 73.1738,
+                  "score": 178,
+                  "evalue": 2.31271e-13,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 91,
+                  "hit_to": 141,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITGQIYFDQINKAKTIEGVESLKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV +LK+EILKA"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 65.855,
+                  "score": 159,
+                  "evalue": 8.4954e-11,
+                  "identity": 35,
+                  "positive": 39,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 34,
+                  "hit_to": 78,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKELKAAGITGQIYFDQINKAKTVEGVESLKNEILKA",
+                  "midline": "LK+AKEKAI+ELK AGIT   YFD INKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_130819119.1|",
+                  "accession": "WP_130819119",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus vaginimassiliensis]",
+                  "taxid": 2042308,
+                  "sciname": "Anaerococcus vaginimassiliensis"
+                }
+              ],
+              "len": 378,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.4925,
+                  "score": 197,
+                  "evalue": 4.5525e-16,
+                  "identity": 43,
+                  "positive": 45,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 183,
+                  "hit_to": 233,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKEAKKEAIEELKKAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEWLLKEAK++AIEELKKAGIT   YFD INKAKTVEGV ALK EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.4622,
+                  "score": 145,
+                  "evalue": 6.44438e-09,
+                  "identity": 34,
+                  "positive": 41,
+                  "query_from": 3,
+                  "query_to": 52,
+                  "hit_from": 110,
+                  "hit_to": 159,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "IDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LDKEKLETAKKEAIEELKKAGITGEIFFKQINNAKTVEGVNALKAEILKA",
+                  "midline": "+D+  L+ AK++AIEELKKAGIT + +F  IN AKTVEGVNALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_308750886.1|",
+                  "accession": "WP_308750886",
+                  "title": "albumin-binding GA domain-containing protein [uncultured Anaerococcus sp.]",
+                  "taxid": 293428,
+                  "sciname": "uncultured Anaerococcus sp."
+                }
+              ],
+              "len": 401,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.4925,
+                  "score": 197,
+                  "evalue": 4.80598e-16,
+                  "identity": 43,
+                  "positive": 45,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 206,
+                  "hit_to": 256,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKEAKKEAIEELKKAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEWLLKEAK++AIEELKKAGIT   YFD INKAKTVEGV ALK EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 53.1434,
+                  "score": 126,
+                  "evalue": 2.59243e-06,
+                  "identity": 23,
+                  "positive": 28,
+                  "query_from": 23,
+                  "query_to": 52,
+                  "hit_from": 164,
+                  "hit_to": 193,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "GITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "GVTSDYYVNLINKGKTVEGVNALRDQIIKA",
+                  "midline": "G+TSDYY +LINK KTVEGVNAL+D+I+KA"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 41.2022,
+                  "score": 95,
+                  "evalue": 0.0399185,
+                  "identity": 17,
+                  "positive": 26,
+                  "query_from": 18,
+                  "query_to": 45,
+                  "hit_from": 63,
+                  "hit_to": 90,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "ELKKAGITSDYYFDLINKAKTVEGVNAL",
+                  "hseq": "QLREAGITSDFYFNLVDGAKTKEGLDAL",
+                  "midline": "+L++AGITSD+YF+L++ AKT EG++AL"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "ref|WP_316124407.1|",
+                  "accession": "WP_316124407",
+                  "title": "DUF5633 domain-containing protein [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 549,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.8777,
+                  "score": 198,
+                  "evalue": 5.1017e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 287,
+                  "hit_to": 337,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|MDU5363311.1|",
+                  "accession": "MDU5363311",
+                  "title": "DUF5633 domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 531,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.4925,
+                  "score": 197,
+                  "evalue": 5.70937e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 324,
+                  "hit_to": 374,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_070605187.1|",
+                  "accession": "WP_070605187",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus sp. HMSC065G05]",
+                  "taxid": 1739356,
+                  "sciname": "Anaerococcus sp. HMSC065G05"
+                }
+              ],
+              "len": 509,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.4925,
+                  "score": 197,
+                  "evalue": 5.88164e-16,
+                  "identity": 41,
+                  "positive": 46,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 295,
+                  "hit_to": 345,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLINAKKDAIEELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_366992491.1|",
+                  "accession": "WP_366992491",
+                  "title": "albumin-binding GA domain-containing protein, partial [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 89,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 73.1738,
+                  "score": 178,
+                  "evalue": 3.07947e-15,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 1,
+                  "hit_to": 51,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_316124804.1|",
+                  "accession": "WP_316124804",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus hydrogenalis]",
+                  "taxid": 33029,
+                  "sciname": "Anaerococcus hydrogenalis"
+                }
+              ],
+              "len": 555,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 77.7962,
+                  "score": 190,
+                  "evalue": 5.62911e-15,
+                  "identity": 40,
+                  "positive": 45,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 286,
+                  "hit_to": 336,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLNNAKKEAIEELKAAGITSDFYFNLINKAKTVEGVEALKTEILKS",
+                  "midline": "TIDEW L  AK++AIEELK AGITSD+YF+LINKAKTVEGV ALK EILK+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 7.76009e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 349,
+                  "hit_to": 399,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLNNAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "ref|WP_002840002.1|",
+                  "accession": "WP_002840002",
+                  "title": "DUF5633 domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 954,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 76.6406,
+                  "score": 187,
+                  "evalue": 1.42732e-14,
+                  "identity": 38,
+                  "positive": 45,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 511,
+                  "hit_to": 561,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLKNAKEDAIKELKEAGIKSQFFFNLINNAKTVEGVESLKNEILKA",
+                  "midline": "TIDEWLLK AKE AI+ELK+AGI S ++F+LIN AKTVEGV +LK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 60.077,
+                  "score": 144,
+                  "evalue": 9.72533e-09,
+                  "identity": 29,
+                  "positive": 39,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 458,
+                  "hit_to": 502,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIEAIRKEGVKSKLYEDLINKAKTIDGVNALRDQIIEA",
+                  "midline": "LK+AKEKAIE ++K G+ S  Y DLINKAKT++GVNAL+D+I++A"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "pdb|9BB1|A",
+                  "accession": "9BB1_A",
+                  "title": "Chain A, Peptostreptococcal albumin-binding protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 48,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 1.54089e-14,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 1,
+                  "hit_to": 45,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKNAKEDAIAELKKAGITSDFYFNAINKAKTVEEVNALKNEILKA",
+                  "midline": "LK AKE AI ELKKAGITSD+YF+ INKAKTVE VNALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_316277143.1|",
+                  "accession": "WP_316277143",
+                  "title": "DUF5633 domain-containing protein, partial [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 544,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 75.485,
+                  "score": 184,
+                  "evalue": 3.04044e-14,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 287,
+                  "hit_to": 337,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLNNAKKDAIEELKAAGITGQIYFDQINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "ref|WP_282930128.1|",
+                  "accession": "WP_282930128",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus sp. Marseille-Q7828]",
+                  "taxid": 3036300,
+                  "sciname": "Anaerococcus sp. Marseille-Q7828"
+                }
+              ],
+              "len": 432,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 75.485,
+                  "score": 184,
+                  "evalue": 3.43571e-14,
+                  "identity": 37,
+                  "positive": 44,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 154,
+                  "hit_to": 204,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKEEAIEALKAAGITSDLYFNQINRAKTVEGVNALRDQIIEA",
+                  "midline": "TIDEW L  AKE+AIE LK AGITSD YF+ IN+AKTVEGVNAL+D+I++A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.00417309,
+                  "identity": 21,
+                  "positive": 29,
+                  "query_from": 16,
+                  "query_to": 52,
+                  "hit_from": 105,
+                  "hit_to": 141,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "IEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "IKELNEAGITSDFLLNQIRRAKTIEGVEALKTETLES",
+                  "midline": "I+EL +AGITSD+  + I +AKT+EGV ALK E L++"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "ref|WP_339351803.1|",
+                  "accession": "WP_339351803",
+                  "title": "DUF5633 domain-containing protein, partial [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 474,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 75.485,
+                  "score": 184,
+                  "evalue": 3.91817e-14,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 287,
+                  "hit_to": 337,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLNNAKKDAIEELKAAGITGQIYFDQINKAKTIEGVEALKNEILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_026074039.1|",
+                  "accession": "WP_026074039",
+                  "title": "albumin-binding GA domain-containing protein, partial [Anaerococcus obesiensis]",
+                  "taxid": 1287640,
+                  "sciname": "Anaerococcus obesiensis"
+                }
+              ],
+              "len": 83,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 4.12146e-14,
+                  "identity": 36,
+                  "positive": 43,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 34,
+                  "hit_to": 78,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKDLKEAGITSDLYFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "LK+AKEKAI++LK+AGITSD YF+LINKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_316513513.1|",
+                  "accession": "WP_316513513",
+                  "title": "albumin-binding GA domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.8626,
+                  "score": 172,
+                  "evalue": 5.18066e-14,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 7,
+                  "query_to": 52,
+                  "hit_from": 1,
+                  "hit_to": 46,
+                  "align_len": 46,
+                  "gaps": 0,
+                  "qseq": "LLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LLKNAKEDAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "LLK AKE AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "gb|MDU4671450.1|",
+                  "accession": "MDU4671450",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1918,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 74.7146,
+                  "score": 182,
+                  "evalue": 5.93496e-14,
+                  "identity": 40,
+                  "positive": 41,
+                  "query_from": 4,
+                  "query_to": 52,
+                  "hit_from": 357,
+                  "hit_to": 405,
+                  "align_len": 49,
+                  "gaps": 0,
+                  "qseq": "DEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "DEEALKEAKEKAIEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "DE  LKEAKEKAIEELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_242430175.1|",
+                  "accession": "WP_242430175",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2479,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 74.3294,
+                  "score": 181,
+                  "evalue": 9.76313e-14,
+                  "identity": 40,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 428,
+                  "hit_to": 475,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKKNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELKK GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_316267535.1|",
+                  "accession": "WP_316267535",
+                  "title": "DUF5633 domain-containing protein [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 634,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 73.559,
+                  "score": 179,
+                  "evalue": 1.764e-13,
+                  "identity": 37,
+                  "positive": 43,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 318,
+                  "hit_to": 362,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "LK+AKEKAI+ELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.00231e-13,
+                  "identity": 37,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 375,
+                  "hit_to": 425,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLNNAKKDAIEELKAAGITGQIYFDQINKAKTIEGVESLKNAILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV +LK+ ILKA"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_316269576.1|",
+                  "accession": "WP_316269576",
+                  "title": "DUF5633 domain-containing protein [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 748,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 73.559,
+                  "score": 179,
+                  "evalue": 1.8535e-13,
+                  "identity": 37,
+                  "positive": 43,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 423,
+                  "hit_to": 467,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKELKAAGITSDFYFNLINKAKTIEGVEALKNEILKA",
+                  "midline": "LK+AKEKAI+ELK AGITSD+YF+LINKAKT+EGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.45902e-13,
+                  "identity": 37,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 480,
+                  "hit_to": 530,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWLLNNAKKDAIEELKAAGITGQIYFDQINKAKTIEGVESLKNAILKA",
+                  "midline": "TIDEWLL  AK+ AIEELK AGIT   YFD INKAKT+EGV +LK+ ILKA"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "gb|MDU2829597.1|",
+                  "accession": "MDU2829597",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus sp.]",
+                  "taxid": 1872515,
+                  "sciname": "Anaerococcus sp."
+                }
+              ],
+              "len": 484,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 73.1738,
+                  "score": 178,
+                  "evalue": 2.2033e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 297,
+                  "hit_to": 347,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "gb|KWZ90360.1|",
+                  "accession": "KWZ90360",
+                  "title": "GA module, partial [Anaerococcus hydrogenalis]",
+                  "taxid": 33029,
+                  "sciname": "Anaerococcus hydrogenalis"
+                }
+              ],
+              "len": 361,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 2.8832e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 297,
+                  "hit_to": 347,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "gb|MDU6064594.1|",
+                  "accession": "MDU6064594",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus sp.]",
+                  "taxid": 1872515,
+                  "sciname": "Anaerococcus sp."
+                }
+              ],
+              "len": 481,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 3.16046e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 294,
+                  "hit_to": 344,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gb|MFQ9332636.1|",
+                  "accession": "MFQ9332636",
+                  "title": "leucine-rich repeat domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 720,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 3.4596e-13,
+                  "identity": 39,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 115,
+                  "hit_to": 162,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "gb|MDU7560028.1|",
+                  "accession": "MDU7560028",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 406,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 3.47786e-13,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 346,
+                  "hit_to": 393,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKVLKEAKEKAIEELKNNGITSEKYIDQINEAKTVEGVNALKDEIIKA",
+                  "midline": "E +LKEAKEKAIEELK  GITS+ Y D IN+AKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "gb|MDU3191972.1|",
+                  "accession": "MDU3191972",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 634,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 3.84916e-13,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 391,
+                  "hit_to": 438,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKENGITSEKYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK+ GITS+ Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|MDU2898234.1|",
+                  "accession": "MDU2898234",
+                  "title": "leucine-rich repeat domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 635,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 3.96349e-13,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 3,
+                  "query_to": 52,
+                  "hit_from": 226,
+                  "hit_to": 275,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "IDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "VKEKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "+ E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gb|MDU7925380.1|",
+                  "accession": "MDU7925380",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 715,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.20473e-13,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 107,
+                  "hit_to": 154,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKKNGITSEKYIDQINEAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELKK GITS+ Y D IN+AKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "ref|WP_094210470.1|",
+                  "accession": "WP_094210470",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2227,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.30022e-13,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 364,
+                  "hit_to": 411,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKKNGITSEKYIDQINEAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELKK GITS+ Y D IN+AKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "gb|MDU4571577.1|",
+                  "accession": "MDU4571577",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 534,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.44537e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 374,
+                  "hit_to": 421,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTIEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKT+EGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gb|MDU5998433.1|",
+                  "accession": "MDU5998433",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 605,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.72284e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 418,
+                  "hit_to": 465,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTIEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKT+EGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "ref|WP_316511031.1|",
+                  "accession": "WP_316511031",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2445,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.83494e-13,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 3,
+                  "query_to": 52,
+                  "hit_from": 396,
+                  "hit_to": 445,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "IDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "VKEKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "+ E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_316450201.1|",
+                  "accession": "WP_316450201",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1256,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.87644e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 343,
+                  "hit_to": 390,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "gb|MDU5923720.1|",
+                  "accession": "MDU5923720",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2063,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.4034,
+                  "score": 176,
+                  "evalue": 4.88119e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 380,
+                  "hit_to": 427,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "gb|MDU1833151.1|",
+                  "accession": "MDU1833151",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 364,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.05567e-13,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 139,
+                  "hit_to": 186,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTIEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKT+EGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "gb|MFR6598815.1|",
+                  "accession": "MFR6598815",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1711,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.1236e-13,
+                  "identity": 39,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 343,
+                  "hit_to": 390,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKKNGITSEKYIEQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELKK GITS+ Y + INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "ref|WP_002835766.1|",
+                  "accession": "WP_002835766",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1814,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.12414e-13,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 379,
+                  "hit_to": 426,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKENGITSEKYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK+ GITS+ Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_158520613.1|",
+                  "accession": "WP_158520613",
+                  "title": "leucine-rich repeat protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2031,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.12508e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 355,
+                  "hit_to": 402,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gb|MDU2131415.1|",
+                  "accession": "MDU2131415",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1044,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.16777e-13,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 346,
+                  "hit_to": 393,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKVLKEAKEKAIEELKNNGITSEKYIDQINEAKTVEGVNALKDEIIKA",
+                  "midline": "E +LKEAKEKAIEELK  GITS+ Y D IN+AKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_094226036.1|",
+                  "accession": "WP_094226036",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2000,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.17521e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 382,
+                  "hit_to": 429,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 57.3806,
+                  "score": 137,
+                  "evalue": 7.83007e-08,
+                  "identity": 28,
+                  "positive": 31,
+                  "query_from": 16,
+                  "query_to": 52,
+                  "hit_from": 457,
+                  "hit_to": 493,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "IEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "VEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKS",
+                  "midline": "+EELK  GITS  Y D INKAKTVEGVNALKDEI+K+"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_316057904.1|",
+                  "accession": "WP_316057904",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2022,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.17529e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 392,
+                  "hit_to": 439,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 3.44316e-08,
+                  "identity": 29,
+                  "positive": 31,
+                  "query_from": 16,
+                  "query_to": 52,
+                  "hit_from": 467,
+                  "hit_to": 503,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "IEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "VEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "gb|MBS6927014.1|",
+                  "accession": "MBS6927014",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1961,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.32875e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 401,
+                  "hit_to": 448,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|WP_316531754.1|",
+                  "accession": "WP_316531754",
+                  "title": "leucine-rich repeat protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1588,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.59304e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 405,
+                  "hit_to": 452,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|WP_308577908.1|",
+                  "accession": "WP_308577908",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 465,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 5.70329e-13,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 185,
+                  "hit_to": 232,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKVLKEAKEKAIEELKNNGITSEKYIDQINEAKTVEGVNALKDEIIKA",
+                  "midline": "E +LKEAKEKAIEELK  GITS+ Y D IN+AKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|WP_094204417.1|",
+                  "accession": "WP_094204417",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1788,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 6.22807e-13,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 346,
+                  "hit_to": 393,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKVLKEAKEKAIEELKNNGITSEKYIDQINEAKTVEGVNALKDEIIKA",
+                  "midline": "E +LKEAKEKAIEELK  GITS+ Y D IN+AKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "ref|WP_304140112.1|",
+                  "accession": "WP_304140112",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2359,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 6.23075e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 392,
+                  "hit_to": 439,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|WP_094208102.1|",
+                  "accession": "WP_094208102",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1867,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 72.0182,
+                  "score": 175,
+                  "evalue": 6.28961e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 426,
+                  "hit_to": 473,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTIEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKT+EGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "ref|WP_242428068.1|",
+                  "accession": "WP_242428068",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2346,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 7.07332e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 410,
+                  "hit_to": 457,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTIEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKT+EGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gb|MCI6000878.1|",
+                  "accession": "MCI6000878",
+                  "title": "leucine-rich repeat protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 3031,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 7.57566e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 338,
+                  "hit_to": 385,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINRAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D IN+AKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "ref|WP_058990229.1|",
+                  "accession": "WP_058990229",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus rubeinfantis]",
+                  "taxid": 1720199,
+                  "sciname": "Anaerococcus rubeinfantis"
+                }
+              ],
+              "len": 488,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 7.70785e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 278,
+                  "hit_to": 328,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|WP_316081539.1|",
+                  "accession": "WP_316081539",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus hydrogenalis]",
+                  "taxid": 33029,
+                  "sciname": "Anaerococcus hydrogenalis"
+                }
+              ],
+              "len": 498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 8.85525e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 297,
+                  "hit_to": 347,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "ref|WP_412411954.1|",
+                  "accession": "WP_412411954",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia sp.]",
+                  "taxid": 1981334,
+                  "sciname": "Finegoldia sp."
+                }
+              ],
+              "len": 1968,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 9.29308e-13,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 406,
+                  "hit_to": 453,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSPVYIDQINKAKTIEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS  Y D INKAKT+EGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|WP_306479052.1|",
+                  "accession": "WP_306479052",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1999,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.633,
+                  "score": 174,
+                  "evalue": 9.38445e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 437,
+                  "hit_to": 484,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKS",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKTVEGVNALKDEI+K+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 2.11151e-11,
+                  "identity": 36,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 371,
+                  "hit_to": 418,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKENGIISEKYIDQINKAKTVEGVNALKEEIIKA",
+                  "midline": "E  LKEAKEKA+EELK+ GI S+ Y D INKAKTVEGVNALK+EI+KA"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|WP_227904591.1|",
+                  "accession": "WP_227904591",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1715,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.2478,
+                  "score": 173,
+                  "evalue": 9.6606e-13,
+                  "identity": 38,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 446,
+                  "hit_to": 493,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTVEGVNALKDEIIKS",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKTVEGVNALKDEI+K+"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.02806e-12,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 380,
+                  "hit_to": 427,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSEKYIEQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS+ Y + INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_316285914.1|",
+                  "accession": "WP_316285914",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 731,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.2478,
+                  "score": 173,
+                  "evalue": 9.82575e-13,
+                  "identity": 37,
+                  "positive": 43,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 318,
+                  "hit_to": 362,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKELKEAGITSDLYFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "LK+AKEKAI+ELK+AGITSD YF+LINKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "gb|MDU2202377.1|",
+                  "accession": "MDU2202377",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus hydrogenalis]",
+                  "taxid": 33029,
+                  "sciname": "Anaerococcus hydrogenalis"
+                }
+              ],
+              "len": 447,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.2478,
+                  "score": 173,
+                  "evalue": 9.86776e-13,
+                  "identity": 39,
+                  "positive": 41,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 294,
+                  "hit_to": 344,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLANAKKEAIEELKAAGITGQIYFDQINKAKTVEGVEALKAEILKA",
+                  "midline": "TIDEW L  AK++AIEELK AGIT   YFD INKAKTVEGV ALK EILKA"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_316094360.1|",
+                  "accession": "WP_316094360",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 522,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 1.75865e-12,
+                  "identity": 36,
+                  "positive": 44,
+                  "query_from": 3,
+                  "query_to": 52,
+                  "hit_from": 212,
+                  "hit_to": 261,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "IDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LDAAELEYAKENAIKELKEAGITSDFYFNMINKAKTVEGVEALKNEILKA",
+                  "midline": "+D   L+ AKE AI+ELK+AGITSD+YF++INKAKTVEGV ALK+EILKA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 5.351e-12,
+                  "identity": 33,
+                  "positive": 43,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 128,
+                  "hit_to": 178,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLKNAKEEAIKELQEAGVTSDLFLNQIRNAKTVESVNALKDQLLKS",
+                  "midline": "TIDEW LK AKE+AI+EL++AG+TSD + + I  AKTVE VNALKD++LK+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 48.9062,
+                  "score": 115,
+                  "evalue": 7.72279e-05,
+                  "identity": 25,
+                  "positive": 34,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 75,
+                  "hit_to": 119,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LEYAKENAINELKAAGVTSELFLNQIRSAKTIDSVNALKAELLKS",
+                  "midline": "L+ AKE AI ELK AG+TS+ + + I  AKT++ VNALK E+LK+"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "ref|WP_316109359.1|",
+                  "accession": "WP_316109359",
+                  "title": "albumin-binding GA domain-containing protein, partial [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 400,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 1.77383e-12,
+                  "identity": 36,
+                  "positive": 43,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 318,
+                  "hit_to": 362,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKDLKEAGITSDLYFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "LK+AKEKAI++LK+AGITSD YF+LINKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|WP_316529972.1|",
+                  "accession": "WP_316529972",
+                  "title": "cell wall-binding repeat-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 986,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 1.85483e-12,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 343,
+                  "hit_to": 390,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSPVYIDQINKAKTVEGVNALKEEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS  Y D INKAKTVEGVNALK+EI+KA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 4.37775e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 410,
+                  "hit_to": 457,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTVEGVNALKEEIIKS",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKTVEGVNALK+EI+K+"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "ref|WP_304114589.1|",
+                  "accession": "WP_304114589",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1797,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 1.93165e-12,
+                  "identity": 38,
+                  "positive": 42,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 354,
+                  "hit_to": 401,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSEKYIEQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS+ Y + INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gb|MDU5970852.1|",
+                  "accession": "MDU5970852",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 513,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.01476e-12,
+                  "identity": 37,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 378,
+                  "hit_to": 425,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSEKYIEQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS+ Y + INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_316094375.1|",
+                  "accession": "WP_316094375",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2454,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.02927e-12,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 343,
+                  "hit_to": 390,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSPVYIDQINKAKTVEGVNALKEEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS  Y D INKAKTVEGVNALK+EI+KA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 4.79003e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 410,
+                  "hit_to": 457,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTVEGVNALKEEIIKS",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKTVEGVNALK+EI+K+"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "ref|WP_353316612.1|",
+                  "accession": "WP_353316612",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1993,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.13006e-12,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 351,
+                  "hit_to": 398,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSPVYIDQINKAKTVEGVNALKEEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS  Y D INKAKTVEGVNALK+EI+KA"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|WP_421823112.1|",
+                  "accession": "WP_421823112",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2390,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.15156e-12,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 346,
+                  "hit_to": 393,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSPVYIDQINKAKTVEGVNALKEEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS  Y D INKAKTVEGVNALK+EI+KA"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_051484015.1|",
+                  "accession": "WP_051484015",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1435,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 2.19188e-12,
+                  "identity": 37,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 378,
+                  "hit_to": 425,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSEKYIEQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS+ Y + INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_316530118.1|",
+                  "accession": "WP_316530118",
+                  "title": "albumin-binding GA domain-containing protein, partial [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 140,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 67.0106,
+                  "score": 162,
+                  "evalue": 2.42745e-12,
+                  "identity": 35,
+                  "positive": 38,
+                  "query_from": 11,
+                  "query_to": 52,
+                  "hit_from": 1,
+                  "hit_to": 42,
+                  "align_len": 42,
+                  "gaps": 0,
+                  "qseq": "AKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "AKEDAIKELKEAGITSDIYFDAINKAKTVEGVEALKNEILKA",
+                  "midline": "AKE AI+ELK+AGITSD YFD INKAKTVEGV ALK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|WP_241673676.1|",
+                  "accession": "WP_241673676",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia sp. BIOML-A1]",
+                  "taxid": 2584649,
+                  "sciname": "Finegoldia sp. BIOML-A1"
+                }
+              ],
+              "len": 1323,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 2.51225e-12,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 343,
+                  "hit_to": 390,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKENGITSPVYIDQINKAKTVEGVNALKEEIIKA",
+                  "midline": "E  LKEAKEKAIEELK+ GITS  Y D INKAKTVEGVNALK+EI+KA"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 69.3218,
+                  "score": 168,
+                  "evalue": 5.75882e-12,
+                  "identity": 37,
+                  "positive": 40,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 410,
+                  "hit_to": 457,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSPVYIDQINKAKTVEGVNALKEEIIKS",
+                  "midline": "E  LKEAKEKAIEELK  GITS  Y D INKAKTVEGVNALK+EI+K+"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "ref|WP_316277547.1|",
+                  "accession": "WP_316277547",
+                  "title": "albumin-binding GA domain-containing protein, partial [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 498,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 2.5928e-12,
+                  "identity": 36,
+                  "positive": 43,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 318,
+                  "hit_to": 362,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKDLKEAGITSDLYFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "LK+AKEKAI++LK+AGITSD YF+LINKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|MDU5971011.1|",
+                  "accession": "MDU5971011",
+                  "title": "albumin-binding GA domain-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 314,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 3.00913e-12,
+                  "identity": 33,
+                  "positive": 42,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 130,
+                  "hit_to": 180,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "TIDEWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "TIDEWNLNNAKKKAIEELKDAGITSEFFLKQIRSAKTIEGVNALKDQLIKS",
+                  "midline": "TIDEW L  AK+KAIEELK AGITS+++   I  AKT+EGVNALKD+++K+"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "gb|MDU5922006.1|",
+                  "accession": "MDU5922006",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1215,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 70.0922,
+                  "score": 170,
+                  "evalue": 3.26884e-12,
+                  "identity": 37,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 378,
+                  "hit_to": 425,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSEKYIEQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS+ Y + INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "ref|WP_012291140.1|",
+                  "accession": "WP_012291140",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 2230,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 3.78916e-12,
+                  "identity": 37,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 386,
+                  "hit_to": 433,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAVEELKNNGITSEKYIEQINKAKTVEGVNALKDEIIKA",
+                  "midline": "E  LKEAKEKA+EELK  GITS+ Y + INKAKTVEGVNALKDEI+KA"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_339351887.1|",
+                  "accession": "WP_339351887",
+                  "title": "albumin-binding GA domain-containing protein [Anaerococcus vaginalis]",
+                  "taxid": 33037,
+                  "sciname": "Anaerococcus vaginalis"
+                }
+              ],
+              "len": 452,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 3.93845e-12,
+                  "identity": 36,
+                  "positive": 43,
+                  "query_from": 8,
+                  "query_to": 52,
+                  "hit_from": 34,
+                  "hit_to": 78,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "LKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "LKDAKEKAIKDLKEAGITSDLYFNLINKAKTVEGVESLKNEILKA",
+                  "midline": "LK+AKEKAI++LK+AGITSD YF+LINKAKTVEGV +LK+EILKA"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_002838023.1|",
+                  "accession": "WP_002838023",
+                  "title": "cell wall-binding repeat-containing protein [Finegoldia magna]",
+                  "taxid": 1260,
+                  "sciname": "Finegoldia magna"
+                }
+              ],
+              "len": 1842,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 69.707,
+                  "score": 169,
+                  "evalue": 4.01634e-12,
+                  "identity": 37,
+                  "positive": 41,
+                  "query_from": 5,
+                  "query_to": 52,
+                  "hit_from": 396,
+                  "hit_to": 443,
+                  "align_len": 48,
+                  "gaps": 0,
+                  "qseq": "EWLLKEAKEKAIEELKKAGITSDYYFDLINKAKTVEGVNALKDEILKA",
+                  "hseq": "EKALKEAKEKAIEELKNNGITSEKYIEQINKAKTVEGVNALKDEIIKS",
+                  "midline": "E  LKEAKEKAIEELK  GITS+ Y + INKAKTVEGVNALKDEI+K+"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

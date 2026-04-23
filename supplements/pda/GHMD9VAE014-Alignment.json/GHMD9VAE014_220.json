@@ -1,0 +1,262 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236339",
+          "query_title": "5u35_A",
+          "query_len": 125,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5TPH|A",
+                  "accession": "5TPH_A",
+                  "title": "Chain A, de novo NTF2 homodimer [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 244.202,
+                  "score": 622,
+                  "evalue": 3.76439e-81,
+                  "identity": 121,
+                  "positive": 121,
+                  "query_from": 3,
+                  "query_to": 125,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "HMTEEEVRKIMEKLKKAFKQGNPEQIVSLLSPDVKVDVGNQSFSGSEEAEKAARKLMKFVDRVEVRDVRVFENAVMIAVEFEVNGQRYKMIFTFYVENGKVSMVSIYISPTMKKLMKQILNYG",
+                  "hseq": "HMTEEEVRKIMEKLKKAFKQGNPEQIVSLLSPDVKVDVGNQSFSGSEEAEKMWRKLMKFVDRVEVRDVRVFENAVMIAVEFEVNGQRYKMIFTFYVENGKVSMVSIYISPTMKKLMKQILNYG",
+                  "midline": "HMTEEEVRKIMEKLKKAFKQGNPEQIVSLLSPDVKVDVGNQSFSGSEEAEK  RKLMKFVDRVEVRDVRVFENAVMIAVEFEVNGQRYKMIFTFYVENGKVSMVSIYISPTMKKLMKQILNYG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5TRV|A",
+                  "accession": "5TRV_A",
+                  "title": "Chain A, denovo NTF2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 204.527,
+                  "score": 519,
+                  "evalue": 1.73942e-65,
+                  "identity": 105,
+                  "positive": 108,
+                  "query_from": 1,
+                  "query_to": 125,
+                  "hit_from": 1,
+                  "hit_to": 125,
+                  "align_len": 125,
+                  "gaps": 0,
+                  "qseq": "GSHMTEEEVRKIMEKLKKAFKQGNPEQIVSLLSPDVKVDVGNQSFSGSEEAEKAARKLMKFVDRVEVRDVRVFENAVMIAVEFEVNGQRYKMIFTFYVENGKVSMVSIYISPTMKKLMKQILNYG",
+                  "hseq": "GSHMTQEEVRKIMEKLKKAFKQGNPEQIVSLLSPDVRVKVGNQEFSGSEEAEKMWRKLMKFVDRVEVRRVKVDENRVEIEVEFEVNGQRYSMEFHFEVENGKVRRVEIRISPTMKKLMKQILNYG",
+                  "midline": "GSHMT+EEVRKIMEKLKKAFKQGNPEQIVSLLSPDV+V VGNQ FSGSEEAEK  RKLMKFVDRVEVR V+V EN V I VEFEVNGQRY M F F VENGKV  V I ISPTMKKLMKQILNYG"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|5TPJ|A",
+                  "accession": "5TPJ_A",
+                  "title": "Chain A, denovo NTF2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 117.857,
+                  "score": 294,
+                  "evalue": 3.53148e-31,
+                  "identity": 57,
+                  "positive": 82,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "GSHMTEEEVRKIMEKLKKAFKQGNPEQIVSLLSPDVKVDVGNQSFSGSEEAEKAARKLMKFVDRVEVRDVRVFENAVMIAVEFEVNGQRYKMIFTFYVENGKVSMVSIYISPTMKKLMKQILN",
+                  "hseq": "GSHMSREEIRKVVEEMVRKLKQGSPEDISKYLSPDVRLEVGNYTFEGSEQVTKFWRMLTKFVDRVEVRKVQVDGNHVRVEVEVEWNGKKWTFEVEVEVRNGKIKRIRLQVDPEFKKVVQNIWN",
+                  "midline": "GSHM+ EE+RK++E++ +  KQG+PE I   LSPDV+++VGN +F GSE+  K  R L KFVDRVEVR V+V  N V + VE E NG+++       V NGK+  + + + P  KK+++ I N"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6W90|A",
+                  "accession": "6W90_A",
+                  "title": "Chain A, NTF2 fold protein loop-helix-loop design NT-9 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 74.3294,
+                  "score": 181,
+                  "evalue": 4.58969e-14,
+                  "identity": 42,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 129,
+                  "align_len": 130,
+                  "gaps": 8,
+                  "qseq": "GSHMTEEEVRKIMEKLKKAFKQGNPEQIVS-----LLSPDVKVDVGNQSFSGS--EEAEKAARKLMKFVDRVEVRDVRVFENAVMIAVEFEVNGQRYKMIFTFYVENGKVSMVSIYISPTMKKLMKQILN",
+                  "hseq": "GSHMSREEIRKVVEEYIRLL-YTDPDQFKKAARDKLLSPDVRIEIGNYTFDSRNLDRFLDAMQEWASRYDRVEIRKVQVDGNHVRVEIELESNGKKWTFEIEVEVRNGKIKRIRQQVDPEYKKVVQNLWN",
+                  "midline": "GSHM+ EE+RK++E+  +     +P+Q        LLSPDV++++GN +F     +    A ++     DRVE+R V+V  N V + +E E NG+++       V NGK+  +   + P  KK+++ + N"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|MBI4082122.1|",
+                  "accession": "MBI4082122",
+                  "title": "nuclear transport factor 2 family protein [Candidatus Lambdaproteobacteria bacterium]",
+                  "taxid": 2035771,
+                  "sciname": "Candidatus Lambdaproteobacteria bacterium"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.000710359,
+                  "identity": 38,
+                  "positive": 59,
+                  "query_from": 7,
+                  "query_to": 109,
+                  "hit_from": 9,
+                  "hit_to": 123,
+                  "align_len": 120,
+                  "gaps": 22,
+                  "qseq": "EEVRKIMEKLKKAFKQGNPEQIVSLLSPDVK-VDVG-NQSFSGSEEAEKAARKLMKFVDRVEVRDVRVFE------NAVMIA-----VEFEVNGQRYKM----IFTFYVENGKVSMVSIY",
+                  "hseq": "DEVRNVLWRLNAAWREGRPEAMTPLLHPDVVIVPPGFTMTVRGREACVASYR---EFATRAKVHEVRVREPRIEVFGATAIATTGFELAFELEGQRYREAGHDVWVFAREGG--AWLGIW",
+                  "midline": "+EVR ++ +L  A+++G PE +  LL PDV  V  G   +  G E    + R   +F  R +V +VRV E       A  IA     + FE+ GQRY+     ++ F  E G  + + I+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|5L33|A",
+                  "accession": "5L33_A",
+                  "title": "Chain A, denovo NTF2 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 46.595,
+                  "score": 109,
+                  "evalue": 0.00149106,
+                  "identity": 31,
+                  "positive": 56,
+                  "query_from": 1,
+                  "query_to": 108,
+                  "hit_from": 1,
+                  "hit_to": 105,
+                  "align_len": 108,
+                  "gaps": 3,
+                  "qseq": "GSHMTEEEVRKIMEKLKKAFKQGNPEQIVSLLSPDVKVDVGNQSFSGSEEAEKAARKLMKFVDRVEVRDVRVFENAVMIAVEFEVNGQRYKMIFTFYVENGKVSMVSI",
+                  "hseq": "GSHMPEEE--KAARLFIEALEKGDPELMRKVISPDTRMEDNGREFTGDEVVE-YVKEIQKRGEQWHLRRYTKEGNSWRFEVQVDNNGQTEQWEVQIEVRNGRIKRVTI",
+                  "midline": "GSHM EEE  K      +A ++G+PE +  ++SPD +++   + F+G E  E   +++ K  ++  +R      N+    V+ + NGQ  +      V NG++  V+I"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "tpg|HLY53173.1|",
+                  "accession": "HLY53173",
+                  "title": "nuclear transport factor 2 family protein [Steroidobacteraceae bacterium]",
+                  "taxid": 2689616,
+                  "sciname": "Steroidobacteraceae bacterium"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 44.2838,
+                  "score": 103,
+                  "evalue": 0.0229057,
+                  "identity": 24,
+                  "positive": 42,
+                  "query_from": 7,
+                  "query_to": 86,
+                  "hit_from": 38,
+                  "hit_to": 117,
+                  "align_len": 80,
+                  "gaps": 0,
+                  "qseq": "EEVRKIMEKLKKAFKQGNPEQIVSLLSPDVKVDVGNQSFSGSEEAEKAARKLMKFVDRVEVRDVRVFENAVMIAVEFEVN",
+                  "hseq": "DSVRELCERYYTAWQHKDLDGILRCLHPDIAFKSPNATTQGRDAYAAAARRFLPLVDRIEVRKTFTAPDAAMTAVDFYCS",
+                  "midline": "+ VR++ E+   A++  + + I+  L PD+     N +  G +    AAR+ +  VDR+EVR      +A M AV+F  +"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

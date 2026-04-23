@@ -1,0 +1,200 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236601",
+          "query_title": "7upq_A",
+          "query_len": 202,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|7UPQ|A",
+                  "accession": "7UPQ_A",
+                  "title": "Chain A, DHT03 protein A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 202,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 371.318,
+                  "score": 952,
+                  "evalue": 5.15894e-129,
+                  "identity": 202,
+                  "positive": 202,
+                  "query_from": 1,
+                  "query_to": 202,
+                  "hit_from": 1,
+                  "hit_to": 202,
+                  "align_len": 202,
+                  "gaps": 0,
+                  "qseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAARVMKELERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVEVSDVMLKLIS",
+                  "hseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAARVMKELERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVEVSDVMLKLIS",
+                  "midline": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAARVMKELERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVEVSDVMLKLIS"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|7UPP|A",
+                  "accession": "7UPP_A",
+                  "title": "Chain A, DHT03 protein A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 316,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 312.768,
+                  "score": 800,
+                  "evalue": 4.0643e-104,
+                  "identity": 188,
+                  "positive": 191,
+                  "query_from": 1,
+                  "query_to": 202,
+                  "hit_from": 115,
+                  "hit_to": 316,
+                  "align_len": 202,
+                  "gaps": 0,
+                  "qseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAARVMKELERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVEVSDVMLKLIS",
+                  "hseq": "SEALKVVELALEIVQQLPDTELAKEALELAEEAVKSTDSEALKVVKLALEIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAARVMKELERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVEVSDVMLKLIS",
+                  "midline": "SE  KV ELA  I +QLPDTELA+EA ELA+EA KS DSEALKVV LAL IVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAARVMKELERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVEVSDVMLKLIS"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 210.69,
+                  "score": 535,
+                  "evalue": 6.04522e-64,
+                  "identity": 120,
+                  "positive": 131,
+                  "query_from": 1,
+                  "query_to": 149,
+                  "hit_from": 1,
+                  "hit_to": 149,
+                  "align_len": 149,
+                  "gaps": 0,
+                  "qseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAAR",
+                  "hseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVELALKIVQQLPDTELAKEALKLAKEAVKSTDSEALKVVELALEIVQQLPDTELAKEALELAEEAVK",
+                  "midline": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVV LAL+IVQQLPDTELA+ AL+LAK+AV+ T  E L++   AL+  Q  P+TELA+  L LAE A +"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|7UPP|B",
+                  "accession": "7UPP_B",
+                  "title": "Chain B, DHT03 protein B [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 312,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 212.616,
+                  "score": 540,
+                  "evalue": 8.68409e-65,
+                  "identity": 120,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 149,
+                  "hit_from": 1,
+                  "hit_to": 149,
+                  "align_len": 149,
+                  "gaps": 0,
+                  "qseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAAR",
+                  "hseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVELALKIVQQLPDTELAKEALELAKEAVKSTDSEALKVVELALEIVQQLPDTELAKEALKLAKEAVK",
+                  "midline": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVV LAL+IVQQLPDTELA+ ALELAK+AV+ T  E L++   AL+  Q  P+TELA+  L+LA+ A +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 177.948,
+                  "score": 450,
+                  "evalue": 2.66506e-51,
+                  "identity": 117,
+                  "positive": 132,
+                  "query_from": 1,
+                  "query_to": 166,
+                  "hit_from": 77,
+                  "hit_to": 257,
+                  "align_len": 181,
+                  "gaps": 15,
+                  "qseq": "SEKEKVEELAQRIREQLPDTELAREAQELADEARKSDDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEALKVVYLALRIVQQLPDTELARLALELAKKAVEMTAQEVLEIARAALKAAQAFPNTELAELMLRLAEVAA---------------RVMKELERNDEEIKKSDE",
+                  "hseq": "SEALKVVELALKIVQQLPDTELAKEALELAKEAVKSTDSEALKVVELALEIVQQLPDTELAKEALKLAKEAVKSTDSEALKVVYLALRIVQQLPDTELAREALELAKEAVKSTDSEQLEVVRLALEIVQLAPDTRLARAALKLAKEAVKSTDQEELKKVKAILRVASEVLKLEEEAKKSQE",
+                  "midline": "SE  KV ELA +I +QLPDTELA+EA ELA EA KS DSEALKVV LAL IVQQLPDTELA+EAL+LAKEAVKSTDSEALKVVYLALRIVQQLPDTELAR ALELAK+AV+ T  E LE+ R AL+  Q  P+T LA   L+LA+ A                RV  E+ + +EE KKS E"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|7UPO|A",
+                  "accession": "7UPO_A",
+                  "title": "Chain A, DHT03 protein A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 75,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 2.33234e-19,
+                  "identity": 48,
+                  "positive": 52,
+                  "query_from": 149,
+                  "query_to": 202,
+                  "hit_from": 22,
+                  "hit_to": 75,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "RVMKELERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVEVSDVMLKLIS",
+                  "hseq": "RLKKILERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVELSDILLKLIS",
+                  "midline": "R+ K LERNDEEIKKSDELDDESLLEDIVELLKEIIKLWKILVE+SD++LKLIS"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

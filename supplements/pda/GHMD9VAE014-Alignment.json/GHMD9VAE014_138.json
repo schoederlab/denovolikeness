@@ -1,0 +1,360 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236257",
+          "query_title": "2kl8_A",
+          "query_len": 85,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|2KL8|A",
+                  "accession": "2KL8_A",
+                  "title": "Chain A, OR15 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 173.711,
+                  "score": 439,
+                  "evalue": 1.44869e-54,
+                  "identity": 85,
+                  "positive": 85,
+                  "query_from": 1,
+                  "query_to": 85,
+                  "hit_from": 1,
+                  "hit_to": 85,
+                  "align_len": 85,
+                  "gaps": 0,
+                  "qseq": "MEMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIRLEHHHHHH",
+                  "hseq": "MEMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIRLEHHHHHH",
+                  "midline": "MEMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIRLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5CW9|A",
+                  "accession": "5CW9_A",
+                  "title": "Chain A, De novo designed ferredoxin-ferredoxin domain insertion protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.954,
+                  "score": 328,
+                  "evalue": 8.27852e-37,
+                  "identity": 73,
+                  "positive": 73,
+                  "query_from": 5,
+                  "query_to": 78,
+                  "hit_from": 39,
+                  "hit_to": 146,
+                  "align_len": 108,
+                  "gaps": 34,
+                  "qseq": "IRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLE----------------------------------IRITGVPEQVRKELAKEAERLAKEFNITVTYTIRL",
+                  "hseq": "IRFRGDDLEALEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPPQVILELVKEAIRLAKEFNITVTVELVIRITGVPEQVRKELAKEAERLAKEFNITVTYTIRL",
+                  "midline": "IRFRGDDLEA EKALKEMIRQARKFAGTVTYTLDGNDLE                                  IRITGVPEQVRKELAKEAERLAKEFNITVTYTIRL"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|4PWW|A",
+                  "accession": "4PWW_A",
+                  "title": "Chain A, OR494 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 89,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.028,
+                  "score": 323,
+                  "evalue": 9.91525e-37,
+                  "identity": 64,
+                  "positive": 67,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 77,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "MEMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIR",
+                  "hseq": "MEMDIRFRGDDLEALLKAAIEMIKQALKFGATITLSLDGNDLEIRITGVPEQVRKELAKEAERLAKEFGITVTRTIR",
+                  "midline": "MEMDIRFRGDDLEA  KA  EMI+QA KF  T+T +LDGNDLEIRITGVPEQVRKELAKEAERLAKEF ITVT TIR"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|4KY3|A",
+                  "accession": "4KY3_A",
+                  "title": "Chain A, designed protein OR327 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 130.568,
+                  "score": 327,
+                  "evalue": 2.74494e-36,
+                  "identity": 63,
+                  "positive": 68,
+                  "query_from": 5,
+                  "query_to": 81,
+                  "hit_from": 85,
+                  "hit_to": 161,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "IRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIRLEHH",
+                  "hseq": "VRFRGDDLEALEKALKEXIRQARKFAGTVTYTLDGNDLEITITGVPRQVLEELAKEAERLAKEFNITITITVTVEGQ",
+                  "midline": "+RFRGDDLEA EKALKE IRQARKFAGTVTYTLDGNDLEI ITGVP QV +ELAKEAERLAKEFNIT+T T+ +E  "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|4NEZ|A",
+                  "accession": "4NEZ_A",
+                  "title": "Chain A, Engineered protein OR276 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 8.86251e-31,
+                  "identity": 60,
+                  "positive": 60,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 3,
+                  "hit_to": 78,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "EMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIR",
+                  "hseq": "EXXIIFEGDDLEALEKALKEXIRQARKFAGTVEYWLSGNRLXIRITGVPEQVRKELAKEAERLKAEFNIQVEYQIR",
+                  "midline": "E  I F GDDLEA EKALKE IRQARKFAGTV Y L GN L IRITGVPEQVRKELAKEAERL  EFNI V Y IR"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 116.316,
+                  "score": 290,
+                  "evalue": 8.86251e-31,
+                  "identity": 60,
+                  "positive": 60,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 86,
+                  "hit_to": 161,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "EMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIR",
+                  "hseq": "EXXIIFEGDDLEALEKALKEXIRQARKFAGTVEYWLSGNRLXIRITGVPEQVRKELAKEAERLKAEFNIQVEYQIR",
+                  "midline": "E  I F GDDLEA EKALKE IRQARKFAGTV Y L GN L IRITGVPEQVRKELAKEAERL  EFNI V Y IR"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|4HHU|A",
+                  "accession": "4HHU_A",
+                  "title": "Chain A, OR280 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 170,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 1.38453e-30,
+                  "identity": 59,
+                  "positive": 59,
+                  "query_from": 5,
+                  "query_to": 76,
+                  "hit_from": 6,
+                  "hit_to": 77,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "IRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTI",
+                  "hseq": "IVFEGDDLEALEKALKEXIRQARKFAGTVTYTLSGNRLVIVITGVPEQVRKELAKEAERLKAEFNINVQYQI",
+                  "midline": "I F GDDLEA EKALKE IRQARKFAGTVTYTL GN L I ITGVPEQVRKELAKEAERL  EFNI V Y I"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 115.931,
+                  "score": 289,
+                  "evalue": 1.38453e-30,
+                  "identity": 59,
+                  "positive": 59,
+                  "query_from": 5,
+                  "query_to": 76,
+                  "hit_from": 87,
+                  "hit_to": 158,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "IRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTI",
+                  "hseq": "IVFEGDDLEALEKALKEXIRQARKFAGTVTYTLSGNRLVIVITGVPEQVRKELAKEAERLKAEFNINVQYQI",
+                  "midline": "I F GDDLEA EKALKE IRQARKFAGTVTYTL GN L I ITGVPEQVRKELAKEAERL  EFNI V Y I"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|4RJV|A",
+                  "accession": "4RJV_A",
+                  "title": "Chain A, OR461 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 110.923,
+                  "score": 276,
+                  "evalue": 1.08627e-29,
+                  "identity": 57,
+                  "positive": 62,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 77,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "MEMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIR",
+                  "hseq": "MEMDIRFRGDDDEALARALLKMVVRAVSFGAQVRFTDDGNDLEIRITGVPEQVLKELAKEAERLAKEFGITVTRTIR",
+                  "midline": "MEMDIRFRGDD EA  +AL +M+ +A  F   V +T DGNDLEIRITGVPEQV KELAKEAERLAKEF ITVT TIR"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|6WXP|A",
+                  "accession": "6WXP_A",
+                  "title": "Chain A, TFD-EE [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 2.13293e-29,
+                  "identity": 56,
+                  "positive": 59,
+                  "query_from": 3,
+                  "query_to": 75,
+                  "hit_from": 60,
+                  "hit_to": 132,
+                  "align_len": 73,
+                  "gaps": 0,
+                  "qseq": "MDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYT",
+                  "hseq": "MTITFRGDDLEALLKAAIEMIKQALKFGATITLSLDGNDLNINITGVPEQVRKELAKEAERLAKEFGITVTRT",
+                  "midline": "M I FRGDDLEA  KA  EMI+QA KF  T+T +LDGNDL I ITGVPEQVRKELAKEAERLAKEF ITVT T"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "gb|ATA67140.1|",
+                  "accession": "ATA67140",
+                  "title": "YPet(short)-FL-mCherry tension sensor [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 550,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 6.37718e-27,
+                  "identity": 60,
+                  "positive": 62,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 233,
+                  "hit_to": 308,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "EMDIRFRGDDLEAFEKALKEMIRQARKFAGTVTYTLDGNDLEIRITGVPEQVRKELAKEAERLAKEFNITVTYTIR",
+                  "hseq": "EFDIRFRTDDDEQFEKVLKEMNRRARKDAGTVTYTRDGNDFEIRITGISEQNRKELAKEVERLAKEQNITVTYTER",
+                  "midline": "E DIRFR DD E FEK LKEM R+ARK AGTVTYT DGND EIRITG+ EQ RKELAKE ERLAKE NITVTYT R"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

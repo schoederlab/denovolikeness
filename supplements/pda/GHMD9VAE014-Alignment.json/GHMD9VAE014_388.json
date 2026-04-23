@@ -1,0 +1,468 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236507",
+          "query_title": "5cwb_A",
+          "query_len": 211,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5CWB|A",
+                  "accession": "5CWB_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 389.423,
+                  "score": 999,
+                  "evalue": 8.62482e-136,
+                  "identity": 211,
+                  "positive": 211,
+                  "query_from": 1,
+                  "query_to": 211,
+                  "hit_from": 1,
+                  "hit_to": 211,
+                  "align_len": 211,
+                  "gaps": 0,
+                  "qseq": "MSYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSWLEHHHHHH",
+                  "hseq": "MSYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSWLEHHHHHH",
+                  "midline": "MSYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSWLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|8CWY|A",
+                  "accession": "8CWY_A",
+                  "title": "Chain A, T32-15-1 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 451,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 325.094,
+                  "score": 832,
+                  "evalue": 5.1631e-107,
+                  "identity": 185,
+                  "positive": 185,
+                  "query_from": 5,
+                  "query_to": 202,
+                  "hit_from": 1,
+                  "hit_to": 198,
+                  "align_len": 198,
+                  "gaps": 0,
+                  "qseq": "DECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSS",
+                  "hseq": "DEAEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS",
+                  "midline": "DE EEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVI E V RIV EIVEALKRSGTSEDEI EIV RV SEV RTLKESGSS"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 299.671,
+                  "score": 766,
+                  "evalue": 4.96416e-97,
+                  "identity": 178,
+                  "positive": 179,
+                  "query_from": 2,
+                  "query_to": 204,
+                  "hit_from": 48,
+                  "hit_to": 250,
+                  "align_len": 203,
+                  "gaps": 0,
+                  "qseq": "SYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSWL",
+                  "hseq": "SYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSAEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSSI",
+                  "midline": "SYE   E  AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS EVI E V RIV EIVEALKRSGTSEDEI EIV RV SEV RTLKESGSS +"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 290.812,
+                  "score": 743,
+                  "evalue": 1.5009e-93,
+                  "identity": 174,
+                  "positive": 176,
+                  "query_from": 2,
+                  "query_to": 203,
+                  "hit_from": 98,
+                  "hit_to": 299,
+                  "align_len": 202,
+                  "gaps": 0,
+                  "qseq": "SYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSW",
+                  "hseq": "SYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSAEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSSILIALIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSY",
+                  "midline": "SYE   E  AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS EVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS  +I   V RIV EIVEALKRSGTSEDEI EIV RV SEV RTLKESGSS+"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 273.863,
+                  "score": 699,
+                  "evalue": 8.26336e-87,
+                  "identity": 164,
+                  "positive": 171,
+                  "query_from": 2,
+                  "query_to": 203,
+                  "hit_from": 148,
+                  "hit_to": 349,
+                  "align_len": 202,
+                  "gaps": 0,
+                  "qseq": "SYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSW",
+                  "hseq": "SYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSAEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSSILIALIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEIIALIVAMIVAEIVRALLRSGTSEEEIAKIVARVMNEVLRTLRESGSDF",
+                  "midline": "SYE   E  AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSS EVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS  +I   VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYE+I   V  IV EIV AL RSGTSE+EI +IV RV +EV RTL+ESGS +"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 225.713,
+                  "score": 574,
+                  "evalue": 3.58156e-68,
+                  "identity": 132,
+                  "positive": 147,
+                  "query_from": 11,
+                  "query_to": 184,
+                  "hit_from": 207,
+                  "hit_to": 380,
+                  "align_len": 174,
+                  "gaps": 0,
+                  "qseq": "ARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEI",
+                  "hseq": "ARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSSILIALIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEIIALIVAMIVAEIVRALLRSGTSEEEIAKIVARVMNEVLRTLRESGSDFEVIREILRLILAAIRAALQKGGVSEDEIMRI",
+                  "midline": "AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSS  +I   VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYE+I   VA IVAEIV AL RSGTSE+EIA+IVARV++EV+RTL+ESGS +EVI+E ++ I+  I  AL++ G SEDEI  I"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 214.927,
+                  "score": 546,
+                  "evalue": 6.22222e-64,
+                  "identity": 127,
+                  "positive": 128,
+                  "query_from": 61,
+                  "query_to": 203,
+                  "hit_from": 7,
+                  "hit_to": 149,
+                  "align_len": 143,
+                  "gaps": 0,
+                  "qseq": "ARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSW",
+                  "hseq": "ARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIAEIVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSY",
+                  "midline": "AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSSYEVI E VARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVI E V RIV EIVEALKRSGTSEDEI EIV RV SEV RTLKESGSS+"
+                },
+                {
+                  "num": 7,
+                  "bit_score": 152.525,
+                  "score": 384,
+                  "evalue": 4.89696e-40,
+                  "identity": 102,
+                  "positive": 126,
+                  "query_from": 11,
+                  "query_to": 183,
+                  "hit_from": 257,
+                  "hit_to": 421,
+                  "align_len": 173,
+                  "gaps": 8,
+                  "qseq": "ARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINE",
+                  "hseq": "ARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEIIALIVAMIVAEIVRALLRSGTSEEEIAKIVARVMNEVLRTLRESGSDFEVIREILRLILAAIRAALQKGGVSEDEIMRIEIKILLMLLRL-----STAEL--ERATRSLKAITEELKKN-PSEDALVE",
+                  "midline": "AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSSYE+I   VA IVAEIV AL RSGTSE+EIA+IVARV++EV+RTL+ESGS +EVI E +  I+A I  AL++ G SEDEI  I  +++  ++R      S+ E+  E   R ++ I E LK++  SED + E"
+                },
+                {
+                  "num": 8,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 5.92662e-11,
+                  "identity": 59,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 133,
+                  "hit_from": 298,
+                  "hit_to": 421,
+                  "align_len": 132,
+                  "gaps": 8,
+                  "qseq": "SYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAE",
+                  "hseq": "SYEIIALIVAMIVAEIVRALLRSGTSEEEIAKIVARVMNEVLRTLRESGSDFEVIREILRLILAAIRAALQKGGVSEDEIMRIEIKILLMLLRL-----STAE--LERATRSLKAITEELKKN-PSEDALVE",
+                  "midline": "SYE      A  VAE V  L RSGTSE+EIA+ VAR ++EV+RTL+ESGS +EVI E +  I+A I  AL++ G SEDEI  I  +++  ++R      S+ E   E   R +  I E LK++  SED + E"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|7MWR|B",
+                  "accession": "7MWR_B",
+                  "title": "Chain B, LHD101B4 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 249,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 305.064,
+                  "score": 780,
+                  "evalue": 5.9136e-102,
+                  "identity": 168,
+                  "positive": 178,
+                  "query_from": 3,
+                  "query_to": 188,
+                  "hit_from": 1,
+                  "hit_to": 186,
+                  "align_len": 186,
+                  "gaps": 0,
+                  "qseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRV",
+                  "hseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKI",
+                  "midline": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSSYEVI+EC++RI+EE++EALKRSG    EI  I+ ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 218.394,
+                  "score": 555,
+                  "evalue": 9.63543e-68,
+                  "identity": 132,
+                  "positive": 134,
+                  "query_from": 53,
+                  "query_to": 203,
+                  "hit_from": 1,
+                  "hit_to": 151,
+                  "align_len": 151,
+                  "gaps": 0,
+                  "qseq": "YEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSW",
+                  "hseq": "YEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSY",
+                  "midline": "YE  CE  AR VAE VE LKRSGTSEDEIAE VAR ISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVI ECV RIV EIVEALKRSGTSE+EI EIV RV  EV RTLKESGSS+"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|6VFI|A",
+                  "accession": "6VFI_A",
+                  "title": "Chain A, O43_dn18A [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 209,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 279.641,
+                  "score": 714,
+                  "evalue": 1.64008e-92,
+                  "identity": 162,
+                  "positive": 170,
+                  "query_from": 5,
+                  "query_to": 205,
+                  "hit_from": 2,
+                  "hit_to": 203,
+                  "align_len": 202,
+                  "gaps": 1,
+                  "qseq": "DECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGS-SWLE",
+                  "hseq": "DRCEELARRIAEVVERAKRAGTSEDEIAESVARVISLVIRALKLSGSSYEVICECVARIVAEIVEALKRSGTSAVEIAKIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSAAIIALIVALVISEVIRTLKESGSSFEVILECVIRIVLEIIEALKRSGTSEQDVMLIVMAVLLVVLATLQLSGSGGWLE",
+                  "midline": "D CEE ARR+AE VER KR+GTSEDEIAE VAR IS VIR LK SGSSYEVICECVARIVAEIVEALKRSGTS  EIA+IVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTS   IA IVA VISEVIRTLKESGSS+EVI ECV RIV EI+EALKRSGTSE ++  IV  V   V  TL+ SGS  WLE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 191.815,
+                  "score": 486,
+                  "evalue": 7.39367e-58,
+                  "identity": 114,
+                  "positive": 122,
+                  "query_from": 2,
+                  "query_to": 152,
+                  "hit_from": 49,
+                  "hit_to": 199,
+                  "align_len": 151,
+                  "gaps": 0,
+                  "qseq": "SYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS",
+                  "hseq": "SYEVICECVARIVAEIVEALKRSGTSAVEIAKIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSAAIIALIVALVISEVIRTLKESGSSFEVILECVIRIVLEIIEALKRSGTSEQDVMLIVMAVLLVVLATLQLSGSG",
+                  "midline": "SYE  CE  AR VAE VE LKRSGTS  EIA+ VAR ISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTS   IA IVA VISEVIRTLKESGSS+EVI ECV RIV EI+EALKRSGTSE ++  IV  V+  V+ TL+ SGS "
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|9DRL|A",
+                  "accession": "9DRL_A",
+                  "title": "Chain A, T33-549_B [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 511,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 252.677,
+                  "score": 644,
+                  "evalue": 7.31397e-78,
+                  "identity": 141,
+                  "positive": 157,
+                  "query_from": 10,
+                  "query_to": 188,
+                  "hit_from": 247,
+                  "hit_to": 425,
+                  "align_len": 179,
+                  "gaps": 0,
+                  "qseq": "KARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRV",
+                  "hseq": "KAIVVAIKVFVLKLSGTSEDEIAEEIARDISELIRKLKEDGSSYEDICEAVATVVDMVVEALKRAGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAAIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKI",
+                  "midline": "KA  VA KV  LK SGTSEDEIAEE+AR+ISE+IR LKE GSSYE ICE VA +V  +VEALKR+GTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVA IVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSSYEVI+EC++RI+EE++EALKRSG    EI  I+ ++"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 192.2,
+                  "score": 487,
+                  "evalue": 1.59532e-54,
+                  "identity": 121,
+                  "positive": 134,
+                  "query_from": 28,
+                  "query_to": 203,
+                  "hit_from": 215,
+                  "hit_to": 390,
+                  "align_len": 176,
+                  "gaps": 0,
+                  "qseq": "EDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSW",
+                  "hseq": "EREKARELVRLAVEAAEEVQRNPSSKEVNVKLKAIVVAIKVFVLKLSGTSEDEIAEEIARDISELIRKLKEDGSSYEDICEAVATVVDMVVEALKRAGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAAIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSY",
+                  "midline": "E E A E+ R   E    ++ + SS EV  +  A +VA  V  LK SGTSEDEIAE +AR ISE+IR LKE GSSYE ICE VA +V  +VEALKR+GTSEDEIAEIVARVISEVIRTLKESGSSYEVI ECV RIV  IVEALKRSGTSE+EI EIV RV  EV RTLKESGSS+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 185.652,
+                  "score": 470,
+                  "evalue": 3.91432e-52,
+                  "identity": 111,
+                  "positive": 123,
+                  "query_from": 2,
+                  "query_to": 155,
+                  "hit_from": 289,
+                  "hit_to": 443,
+                  "align_len": 155,
+                  "gaps": 1,
+                  "qseq": "SYEDECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIR-TLKESGSSYEV",
+                  "hseq": "SYEDICEAVATVVDMVVEALKRAGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAAIVEALKRSGTSEEEIAEIVARVIQEVIRTLKESGSSYEVIRECLRRILEEVIEALKRSGVDSSEIVLIIIKIAVAVMGVTMEEHRSGNEV",
+                  "midline": "SYED CE  A  V   VE LKR+GTSEDEIAE VAR ISEVIRTLKESGSSYEVICECVARIVA IVEALKRSGTSE+EIAEIVARVI EVIRTLKESGSSYEVI EC+ RI+ E++EALKRSG    EI  I+ ++   V+  T++E  S  EV"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 112.464,
+                  "score": 280,
+                  "evalue": 7.62067e-25,
+                  "identity": 89,
+                  "positive": 114,
+                  "query_from": 23,
+                  "query_to": 203,
+                  "hit_from": 153,
+                  "hit_to": 340,
+                  "align_len": 188,
+                  "gaps": 7,
+                  "qseq": "RSGTSE-DEIAEEVAREISEVIRTLKESGSSYEV------ICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSW",
+                  "hseq": "RTGDPEVRELARELVRLAVEAAEEVQRNPSSSDVNEALKLIVEAIEAAVQALEAAIEAGDPREREKARELVRLAVEAAEEVQRNPSSKEVNVKLKAIVVAIKVFVLKLSGTSEDEIAEEIARDISELIRKLKEDGSSYEDICEAVATVVDMVVEALKRAGTSEDEIAEIVARVISEVIRTLKESGSSY",
+                  "midline": "R+G  E  E+A E+ R   E    ++ + SS +V      I E +   V  +  A++     E E A  + R+  E    ++ + SS EV  +  A +VA  V  LK SGTSEDEIAE +AR ISE+IR LKE GSSYE I E V  +V+ +VEALKR+GTSEDEI EIV RV SEV RTLKESGSS+"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|6W2Q|A",
+                  "accession": "6W2Q_A",
+                  "title": "Chain A, Junction 34 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 220,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 145.591,
+                  "score": 366,
+                  "evalue": 1.17179e-39,
+                  "identity": 78,
+                  "positive": 92,
+                  "query_from": 96,
+                  "query_to": 205,
+                  "hit_from": 104,
+                  "hit_to": 214,
+                  "align_len": 111,
+                  "gaps": 1,
+                  "qseq": "LKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSSYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSS-WLE",
+                  "hseq": "LAEQRGDDELVCEALALLIAAQVLLLKQQGTSDEEVAEHVARTISQLVQRLKRKGASYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSSGWLE",
+                  "midline": "L E     E++CE +A ++A  V  LK+ GTS++E+AE VAR IS++++ LK  G+SYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSS WLE"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 113.235,
+                  "score": 282,
+                  "evalue": 4.74927e-27,
+                  "identity": 65,
+                  "positive": 76,
+                  "query_from": 7,
+                  "query_to": 102,
+                  "hit_from": 115,
+                  "hit_to": 210,
+                  "align_len": 96,
+                  "gaps": 0,
+                  "qseq": "CEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIRTLKESGSS",
+                  "hseq": "CEALALLIAAQVLLLKQQGTSDEEVAEHVARTISQLVQRLKRKGASYEVIKECVQRIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSS",
+                  "midline": "CE  A  +A +V  LK+ GTS++E+AE VAR IS++++ LK  G+SYEVI ECV RIV EIVEALKRSGTSEDEI EIV RV SEV RTLKESGSS"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 46.2098,
+                  "score": 108,
+                  "evalue": 0.0317602,
+                  "identity": 36,
+                  "positive": 37,
+                  "query_from": 2,
+                  "query_to": 52,
+                  "hit_from": 160,
+                  "hit_to": 210,
+                  "align_len": 53,
+                  "gaps": 4,
+                  "qseq": "SYE--DECEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIRTLKESGSS",
+                  "hseq": "SYEVIKECVQ--RIVEEIVEALKRSGTSEDEINEIVRRVKSEVERTLKESGSS",
+                  "midline": "SYE   EC +  R V E VE LKRSGTSEDEI E V R  SEV RTLKESGSS"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

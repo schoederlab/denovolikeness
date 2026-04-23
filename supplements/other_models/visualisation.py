@@ -45,9 +45,13 @@ def plot_cm(labels, predictions, cmap, threshold=0.5, title='', xlabel='', ylabe
     # Add a colorbar associated with cm_display
     # kwargs_cbar={'fontsize':40,'fontname':'Arial', 'weight':'bold', 'color':'0.2'}
     cbar = plt.colorbar(mappable=cm_display.im_, ax=ax)
-    
-    
-    cbar.set_ticklabels(np.arange(0,1751,250), fontsize=30, fontname='Arial', weight='bold', color=my_col)
+        
+    for label in cbar.ax.get_yticklabels():  # or get_xticklabels() if horizontal
+        label.set_fontsize(30)
+        label.set_fontname('Arial')
+        label.set_weight('bold')
+        label.set_color(my_col)
+
     
 
     

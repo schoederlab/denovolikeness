@@ -1,0 +1,4037 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236137",
+          "query_title": "5vbt_A",
+          "query_len": 79,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5VBT|A",
+                  "accession": "5VBT_A",
+                  "title": "Chain A, UBH04 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 161.384,
+                  "score": 407,
+                  "evalue": 8.69255e-50,
+                  "identity": 79,
+                  "positive": 79,
+                  "query_from": 1,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 79,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP",
+                  "hseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP",
+                  "midline": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|9EGV|C",
+                  "accession": "9EGV_C",
+                  "title": "Chain C, Polyubiquitin-C [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 88,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 2.74369e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 12,
+                  "hit_to": 88,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "emb|CAF3954531.1|",
+                  "accession": "CAF3954531",
+                  "title": "unnamed protein product, partial [Adineta steineri]",
+                  "taxid": 433720,
+                  "sciname": "Adineta steineri"
+                }
+              ],
+              "len": 89,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 3.52034e-41,
+                  "identity": 68,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 12,
+                  "hit_to": 89,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|1YX5|B",
+                  "accession": "1YX5_B",
+                  "title": "Chain B, Ubiquitin [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 5.31674e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 78,
+                  "hit_from": 1,
+                  "hit_to": 77,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGR",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG R"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "gb|KFP83235.1|",
+                  "accession": "KFP83235",
+                  "title": "Polyubiquitin-C, partial [Acanthisitta chloris]",
+                  "taxid": 57068,
+                  "sciname": "Acanthisitta chloris"
+                }
+              ],
+              "len": 93,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 5.33492e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 17,
+                  "hit_to": 93,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "ref|XP_051903851.1|",
+                  "accession": "XP_051903851",
+                  "title": "ubiquitin isoform X34 [Hippocampus zosterae]",
+                  "taxid": 109293,
+                  "sciname": "Hippocampus zosterae"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.584,
+                  "score": 353,
+                  "evalue": 5.35831e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 49,
+                  "hit_to": 125,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "emb|CAF4809770.1|",
+                  "accession": "CAF4809770",
+                  "title": "unnamed protein product, partial [Rotaria sp. Silwood1]",
+                  "taxid": 2762511,
+                  "sciname": "Rotaria sp. Silwood1"
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 5.55532e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 19,
+                  "hit_to": 95,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_252130101.1|",
+                  "accession": "WP_252130101",
+                  "title": "polyubiquitin, partial [Lactiplantibacillus plantarum]",
+                  "taxid": 1590,
+                  "sciname": "Lactiplantibacillus plantarum"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 5.63234e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 20,
+                  "hit_to": 96,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "emb|CAF4704970.1|",
+                  "accession": "CAF4704970",
+                  "title": "unnamed protein product, partial [Rotaria sp. Silwood1]",
+                  "taxid": 2762511,
+                  "sciname": "Rotaria sp. Silwood1"
+                }
+              ],
+              "len": 103,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 5.72705e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 24,
+                  "hit_to": 100,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 43.1282,
+                  "score": 100,
+                  "evalue": 0.00703765,
+                  "identity": 19,
+                  "positive": 21,
+                  "query_from": 54,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 24,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "GRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "ref|WP_205925429.1|",
+                  "accession": "WP_205925429",
+                  "title": "polyubiquitin, partial [Enterobacter hormaechei]",
+                  "taxid": 158836,
+                  "sciname": "Enterobacter hormaechei"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 5.82393e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 17,
+                  "hit_to": 93,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "pdb|6UPU|B",
+                  "accession": "6UPU_B",
+                  "title": "Chain B, Ubiquitin [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 6.31548e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 3,
+                  "hit_to": 79,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "emb|CAF4696042.1|",
+                  "accession": "CAF4696042",
+                  "title": "unnamed protein product, partial [Didymodactylos carnosus]",
+                  "taxid": 1234261,
+                  "sciname": "Didymodactylos carnosus"
+                }
+              ],
+              "len": 92,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 6.66459e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 7,
+                  "hit_to": 83,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_236926255.1|",
+                  "accession": "WP_236926255",
+                  "title": "polyubiquitin, partial [Erythrobacter sp. SN021]",
+                  "taxid": 2912574,
+                  "sciname": "Erythrobacter sp. SN021"
+                }
+              ],
+              "len": 111,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 7.06684e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 28,
+                  "hit_to": 104,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 3.00487e-05,
+                  "identity": 22,
+                  "positive": 25,
+                  "query_from": 50,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 28,
+                  "align_len": 28,
+                  "gaps": 0,
+                  "qseq": "KLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "QLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "gb|KAI5089236.1|",
+                  "accession": "KAI5089236",
+                  "title": "ubiquitin-60S ribosomal protein L40, partial [Silurus meridionalis]",
+                  "taxid": 175797,
+                  "sciname": "Silurus meridionalis"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 7.28445e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGMP",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG  P"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "gb|MCJ8748545.1|",
+                  "accession": "MCJ8748545",
+                  "title": "hypothetical protein [Pangasius djambal]",
+                  "taxid": 1691987,
+                  "sciname": "Pangasius djambal"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 7.5682e-41,
+                  "identity": 68,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 42,
+                  "hit_to": 119,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 67.0106,
+                  "score": 162,
+                  "evalue": 4.54118e-12,
+                  "identity": 31,
+                  "positive": 34,
+                  "query_from": 39,
+                  "query_to": 77,
+                  "hit_from": 4,
+                  "hit_to": 42,
+                  "align_len": 39,
+                  "gaps": 0,
+                  "qseq": "PDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "PYQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "P QQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|AAO73559.1|",
+                  "accession": "AAO73559",
+                  "title": "polyubiquitin, partial [Anas platyrhynchos]",
+                  "taxid": 8839,
+                  "sciname": "Anas platyrhynchos"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 7.72483e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 36,
+                  "hit_to": 112,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 1.23544e-10,
+                  "identity": 29,
+                  "positive": 32,
+                  "query_from": 42,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 36,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "QRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "QRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "QRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_411023320.1|",
+                  "accession": "WP_411023320",
+                  "title": "polyubiquitin, partial [Salmonella sp. s51228]",
+                  "taxid": 3159652,
+                  "sciname": "Salmonella sp. s51228"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 8.85801e-41,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 32,
+                  "hit_to": 108,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 56.225,
+                  "score": 134,
+                  "evalue": 9.71128e-08,
+                  "identity": 25,
+                  "positive": 28,
+                  "query_from": 46,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 32,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "FTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "F GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "gb|TKS85062.1|",
+                  "accession": "TKS85062",
+                  "title": "Ubiquitin [Collichthys lucidus]",
+                  "taxid": 240159,
+                  "sciname": "Collichthys lucidus"
+                }
+              ],
+              "len": 157,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.969,
+                  "score": 354,
+                  "evalue": 1.05554e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 72,
+                  "hit_to": 147,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGA",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRGA"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "gb|NRL53933.1|",
+                  "accession": "NRL53933",
+                  "title": "hypothetical protein [Salmonella enterica subsp. enterica serovar Typhi]",
+                  "taxid": 90370,
+                  "sciname": "Salmonella enterica subsp. enterica serovar Typhi"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.08577e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 19,
+                  "hit_to": 95,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 56.9954,
+                  "score": 136,
+                  "evalue": 3.87746e-08,
+                  "identity": 28,
+                  "positive": 28,
+                  "query_from": 1,
+                  "query_to": 30,
+                  "hit_from": 95,
+                  "hit_to": 124,
+                  "align_len": 30,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAK",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAK",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAK"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "ref|XP_032024190.2|",
+                  "accession": "XP_032024190",
+                  "title": "LOW QUALITY PROTEIN: polyubiquitin-C [Hylobates moloch]",
+                  "taxid": 81572,
+                  "sciname": "Hylobates moloch"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 1.12575e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 32,
+                  "hit_to": 108,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "gb|KAJ3580885.1|",
+                  "accession": "KAJ3580885",
+                  "title": "hypothetical protein NHX12_017386 [Muraenolepis orangiensis]",
+                  "taxid": 630683,
+                  "sciname": "Muraenolepis orangiensis"
+                }
+              ],
+              "len": 152,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.584,
+                  "score": 353,
+                  "evalue": 1.33188e-40,
+                  "identity": 68,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 75,
+                  "hit_to": 152,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 98.5969,
+                  "score": 244,
+                  "evalue": 4.84032e-24,
+                  "identity": 51,
+                  "positive": 58,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 75,
+                  "align_len": 76,
+                  "gaps": 1,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIEMSRPRSRTSKA-SPQTSRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIE  + + +  +   P   RLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "gb|AAA72503.1|",
+                  "accession": "AAA72503",
+                  "title": "beta-galactosidase/ubiquitin fusion protein, partial [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 1.36299e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 8,
+                  "hit_to": 84,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "emb|CAD7674515.1|",
+                  "accession": "CAD7674515",
+                  "title": "unnamed protein product [Nyctereutes procyonoides]",
+                  "taxid": 34880,
+                  "sciname": "Nyctereutes procyonoides"
+                }
+              ],
+              "len": 142,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 1.36698e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGA",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRGA"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "pdb|3K9O|B",
+                  "accession": "3K9O_B",
+                  "title": "Chain B, Ubiquitin [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 1.48367e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 76,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRG",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|XP_070260036.1|",
+                  "accession": "XP_070260036",
+                  "title": "LOW QUALITY PROTEIN: polyubiquitin-like [Myotis yumanensis]",
+                  "taxid": 159337,
+                  "sciname": "Myotis yumanensis"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 142.51,
+                  "score": 358,
+                  "evalue": 1.49773e-40,
+                  "identity": 69,
+                  "positive": 73,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 137,
+                  "hit_to": 213,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFMKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKQLEDGRTLSDYNIQKASTLHLVLRLRGG",
+                  "midline": "GM IF+KTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGK+LEDGRTLSDYNI+ ASTLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 109.768,
+                  "score": 273,
+                  "evalue": 7.80472e-28,
+                  "identity": 53,
+                  "positive": 58,
+                  "query_from": 12,
+                  "query_to": 77,
+                  "hit_from": 72,
+                  "hit_to": 137,
+                  "align_len": 66,
+                  "gaps": 0,
+                  "qseq": "KNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "KTITLKVEPSDTIENVKAKIQDKEGXPPDQQWLIFAGKQLKDGHTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "K ITL+VEPSDTIENVKAKIQDKEG PPDQQ LIF GK+L+DG TLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "pdb|8AMS|E",
+                  "accession": "8AMS_E",
+                  "title": "Chain E, Polyubiquitin-C [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 101,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 1.54561e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 25,
+                  "hit_to": 101,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "gb|KAF7274753.1|",
+                  "accession": "KAF7274753",
+                  "title": "hypothetical protein GWI33_012576, partial [Rhynchophorus ferrugineus]",
+                  "taxid": 354439,
+                  "sciname": "Rhynchophorus ferrugineus"
+                }
+              ],
+              "len": 119,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 1.56051e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 14,
+                  "hit_to": 90,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|XP_026529744.1|",
+                  "accession": "XP_026529744",
+                  "title": "ubiquitin-like [Notechis scutatus]",
+                  "taxid": 8663,
+                  "sciname": "Notechis scutatus"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 1.5764e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 29,
+                  "hit_to": 105,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMKIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 5.65718e-05,
+                  "identity": 22,
+                  "positive": 24,
+                  "query_from": 51,
+                  "query_to": 77,
+                  "hit_from": 3,
+                  "hit_to": 29,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "LEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "LEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "emb|CAF5191627.1|",
+                  "accession": "CAF5191627",
+                  "title": "unnamed protein product, partial [Rotaria sp. Silwood1]",
+                  "taxid": 2762511,
+                  "sciname": "Rotaria sp. Silwood1"
+                }
+              ],
+              "len": 139,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.69589e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 27,
+                  "hit_to": 103,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 70.4774,
+                  "score": 171,
+                  "evalue": 3.22267e-13,
+                  "identity": 35,
+                  "positive": 35,
+                  "query_from": 1,
+                  "query_to": 37,
+                  "hit_from": 103,
+                  "hit_to": 139,
+                  "align_len": 37,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGI",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGI",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGI"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 5.71553e-05,
+                  "identity": 22,
+                  "positive": 24,
+                  "query_from": 51,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 27,
+                  "align_len": 27,
+                  "gaps": 0,
+                  "qseq": "LEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "LEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "emb|CAF3814891.1|",
+                  "accession": "CAF3814891",
+                  "title": "unnamed protein product, partial [Adineta steineri]",
+                  "taxid": 433720,
+                  "sciname": "Adineta steineri"
+                }
+              ],
+              "len": 134,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 1.75494e-40,
+                  "identity": 68,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 57,
+                  "hit_to": 134,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 103.219,
+                  "score": 256,
+                  "evalue": 4.07324e-26,
+                  "identity": 49,
+                  "positive": 52,
+                  "query_from": 21,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 57,
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "SDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "SDTIENVKAKIQDKEGIPPDQHRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "SDTIENVKAKIQDKEGIPPDQ RLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "gb|NWW50054.1|",
+                  "accession": "NWW50054",
+                  "title": "UBB protein [Pedionomus torquatus]",
+                  "taxid": 227192,
+                  "sciname": "Pedionomus torquatus"
+                }
+              ],
+              "len": 143,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 1.91466e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 66,
+                  "hit_to": 143,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGH",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG  "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 56.225,
+                  "score": 134,
+                  "evalue": 1.24698e-07,
+                  "identity": 25,
+                  "positive": 28,
+                  "query_from": 46,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 32,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "FTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "FAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "F GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "gb|KAI5606411.1|",
+                  "accession": "KAI5606411",
+                  "title": "polyubiquitin-C, partial [Silurus asotus]",
+                  "taxid": 30991,
+                  "sciname": "Silurus asotus"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 1.92731e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 36,
+                  "hit_to": 112,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 63.1586,
+                  "score": 152,
+                  "evalue": 2.0392e-10,
+                  "identity": 29,
+                  "positive": 32,
+                  "query_from": 42,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 36,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "QRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "QRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "QRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "gb|MTV29189.1|",
+                  "accession": "MTV29189",
+                  "title": "hypothetical protein [Profundirhabdus halotolerans]",
+                  "taxid": 2604685,
+                  "sciname": "Profundirhabdus halotolerans"
+                }
+              ],
+              "len": 117,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 1.99581e-40,
+                  "identity": 67,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 7,
+                  "hit_to": 83,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDSIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSD+IENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 65.4698,
+                  "score": 158,
+                  "evalue": 1.95894e-11,
+                  "identity": 32,
+                  "positive": 33,
+                  "query_from": 1,
+                  "query_to": 35,
+                  "hit_from": 83,
+                  "hit_to": 117,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKE",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDSIENVKAKIQDKE",
+                  "midline": "GM IFVKTLTGK ITLEVEPSD+IENVKAKIQDKE"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "emb|VDD78722.1|",
+                  "accession": "VDD78722",
+                  "title": "unnamed protein product [Mesocestoides corti]",
+                  "taxid": 53468,
+                  "sciname": "Mesocestoides corti"
+                }
+              ],
+              "len": 99,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 2.00026e-40,
+                  "identity": 67,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 10,
+                  "hit_to": 86,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDSIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSD+IENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "emb|CAF4234013.1|",
+                  "accession": "CAF4234013",
+                  "title": "unnamed protein product, partial [Rotaria magnacalcarata]",
+                  "taxid": 392030,
+                  "sciname": "Rotaria magnacalcarata"
+                }
+              ],
+              "len": 135,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 2.08605e-40,
+                  "identity": 68,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 58,
+                  "hit_to": 135,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 107.842,
+                  "score": 268,
+                  "evalue": 6.24132e-28,
+                  "identity": 51,
+                  "positive": 54,
+                  "query_from": 20,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 58,
+                  "align_len": 58,
+                  "gaps": 0,
+                  "qseq": "PSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "PSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "PSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "gb|KAJ1606447.1|",
+                  "accession": "KAJ1606447",
+                  "title": "polyubiquitin, partial [Cryptosporidium canis]",
+                  "taxid": 195482,
+                  "sciname": "Cryptosporidium canis"
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 2.11673e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 52,
+                  "hit_to": 128,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 2.8663e-23,
+                  "identity": 45,
+                  "positive": 48,
+                  "query_from": 26,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 52,
+                  "align_len": 52,
+                  "gaps": 0,
+                  "qseq": "NVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "NVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "NVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "gb|KZR98643.1|",
+                  "accession": "KZR98643",
+                  "title": "Polyubiquitin-B, partial [Daphnia magna]",
+                  "taxid": 35525,
+                  "sciname": "Daphnia magna"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 2.14235e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 41,
+                  "hit_to": 117,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 74.7146,
+                  "score": 182,
+                  "evalue": 5.6938e-15,
+                  "identity": 34,
+                  "positive": 37,
+                  "query_from": 37,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 41,
+                  "align_len": 41,
+                  "gaps": 0,
+                  "qseq": "IPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "IPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "IPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "gb|NXK09023.1|",
+                  "accession": "NXK09023",
+                  "title": "UBB protein [Herpetotheres cachinnans]",
+                  "taxid": 56343,
+                  "sciname": "Herpetotheres cachinnans"
+                }
+              ],
+              "len": 131,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 2.2009e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 54,
+                  "hit_to": 130,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 1.26233e-24,
+                  "identity": 47,
+                  "positive": 50,
+                  "query_from": 24,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 54,
+                  "align_len": 54,
+                  "gaps": 0,
+                  "qseq": "IENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "IENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "IENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "emb|CAF3764088.1|",
+                  "accession": "CAF3764088",
+                  "title": "unnamed protein product [Rotaria sp. Silwood1]",
+                  "taxid": 2762511,
+                  "sciname": "Rotaria sp. Silwood1"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 2.28311e-40,
+                  "identity": 68,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 78,
+                  "hit_to": 155,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 112.849,
+                  "score": 281,
+                  "evalue": 1.35836e-29,
+                  "identity": 53,
+                  "positive": 58,
+                  "query_from": 15,
+                  "query_to": 77,
+                  "hit_from": 16,
+                  "hit_to": 78,
+                  "align_len": 63,
+                  "gaps": 0,
+                  "qseq": "TLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "SFKVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "+ +VEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gb|NWV97333.1|",
+                  "accession": "NWV97333",
+                  "title": "UBIQP protein [Machaerirhynchus nigripectus]",
+                  "taxid": 1160894,
+                  "sciname": "Machaerirhynchus nigripectus"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 2.3418e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 51,
+                  "hit_to": 127,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 2.82224e-22,
+                  "identity": 44,
+                  "positive": 47,
+                  "query_from": 27,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 51,
+                  "align_len": 51,
+                  "gaps": 0,
+                  "qseq": "VKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "VKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "VKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gb|KAF1502245.1|",
+                  "accession": "KAF1502245",
+                  "title": "hypothetical protein FQV19_0009583, partial [Eudyptula minor]",
+                  "taxid": 37083,
+                  "sciname": "Eudyptula minor"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 2.46174e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 53,
+                  "hit_to": 129,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 97.4413,
+                  "score": 241,
+                  "evalue": 5.78984e-24,
+                  "identity": 46,
+                  "positive": 49,
+                  "query_from": 25,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 53,
+                  "align_len": 53,
+                  "gaps": 0,
+                  "qseq": "ENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "ENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "ENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|XP_012518855.1|",
+                  "accession": "XP_012518855",
+                  "title": "PREDICTED: polyubiquitin-C [Propithecus coquereli]",
+                  "taxid": 379532,
+                  "sciname": "Propithecus coquereli"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 2.4915e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|XP_013251865.1|",
+                  "accession": "XP_013251865",
+                  "title": "polyubiquitin, putative, partial [Eimeria acervulina]",
+                  "taxid": 5801,
+                  "sciname": "Eimeria acervulina"
+                }
+              ],
+              "len": 101,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 2.58858e-40,
+                  "identity": 67,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 24,
+                  "hit_to": 100,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLDVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITL+VEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 43.1282,
+                  "score": 100,
+                  "evalue": 0.00779735,
+                  "identity": 19,
+                  "positive": 21,
+                  "query_from": 54,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 24,
+                  "align_len": 24,
+                  "gaps": 0,
+                  "qseq": "GRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|XP_003367195.1|",
+                  "accession": "XP_003367195",
+                  "title": "putative ubiquitin family protein [Trichinella spiralis]",
+                  "taxid": 6334,
+                  "sciname": "Trichinella spiralis"
+                }
+              ],
+              "len": 110,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 2.76038e-40,
+                  "identity": 67,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 76,
+                  "hit_from": 25,
+                  "hit_to": 100,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRG",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKSKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVK+KIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_235243558.1|",
+                  "accession": "WP_235243558",
+                  "title": "ubiquitin family protein, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 2.77669e-40,
+                  "identity": 67,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 10,
+                  "hit_to": 86,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDSIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSD+IENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 67.781,
+                  "score": 164,
+                  "evalue": 2.70756e-12,
+                  "identity": 33,
+                  "positive": 34,
+                  "query_from": 1,
+                  "query_to": 36,
+                  "hit_from": 86,
+                  "hit_to": 121,
+                  "align_len": 36,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEG",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDSIENVKAKIQDKEG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSD+IENVKAKIQDKEG"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_236957085.1|",
+                  "accession": "WP_236957085",
+                  "title": "polyubiquitin, partial [Hyphobacterium sp. SN044]",
+                  "taxid": 2912575,
+                  "sciname": "Hyphobacterium sp. SN044"
+                }
+              ],
+              "len": 130,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 2.83863e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 45,
+                  "hit_to": 121,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 82.8037,
+                  "score": 203,
+                  "evalue": 3.67048e-18,
+                  "identity": 38,
+                  "positive": 41,
+                  "query_from": 33,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 45,
+                  "align_len": 45,
+                  "gaps": 0,
+                  "qseq": "DKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "DKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "DKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_367064823.1|",
+                  "accession": "WP_367064823",
+                  "title": "ubiquitin family protein, partial [Chromobacterium vaccinii]",
+                  "taxid": 1108595,
+                  "sciname": "Chromobacterium vaccinii"
+                }
+              ],
+              "len": 78,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 2.94947e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|XP_051856913.1|",
+                  "accession": "XP_051856913",
+                  "title": "ubiquitin [Antechinus flavipes]",
+                  "taxid": 38775,
+                  "sciname": "Antechinus flavipes"
+                }
+              ],
+              "len": 125,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 2.96929e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|XP_040125540.1|",
+                  "accession": "XP_040125540",
+                  "title": "polyubiquitin-B [Ictidomys tridecemlineatus]",
+                  "taxid": 43179,
+                  "sciname": "Ictidomys tridecemlineatus"
+                }
+              ],
+              "len": 81,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 2.97937e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 5,
+                  "hit_to": 80,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_267960263.1|",
+                  "accession": "WP_267960263",
+                  "title": "ubiquitin family protein, partial [Shewanella sp. AS16]",
+                  "taxid": 2907625,
+                  "sciname": "Shewanella sp. AS16"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 3.08032e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "gb|NXS25894.1|",
+                  "accession": "NXS25894",
+                  "title": "UBIQP protein [Pomatostomus ruficeps]",
+                  "taxid": 9176,
+                  "sciname": "Pomatostomus ruficeps"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 3.14741e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 60,
+                  "hit_to": 136,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 111.309,
+                  "score": 277,
+                  "evalue": 2.71596e-29,
+                  "identity": 53,
+                  "positive": 56,
+                  "query_from": 18,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 60,
+                  "align_len": 60,
+                  "gaps": 0,
+                  "qseq": "VEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "VEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "VEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "emb|CAF4360289.1|",
+                  "accession": "CAF4360289",
+                  "title": "unnamed protein product, partial [Rotaria sordida]",
+                  "taxid": 392033,
+                  "sciname": "Rotaria sordida"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 3.28448e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 50,
+                  "hit_to": 126,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 92.0485,
+                  "score": 227,
+                  "evalue": 1.54463e-21,
+                  "identity": 43,
+                  "positive": 46,
+                  "query_from": 28,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 50,
+                  "align_len": 50,
+                  "gaps": 0,
+                  "qseq": "KAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "KAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "KAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "ref|WP_242211988.1|",
+                  "accession": "WP_242211988",
+                  "title": "ubiquitin family protein, partial [Listeria monocytogenes]",
+                  "taxid": 1639,
+                  "sciname": "Listeria monocytogenes"
+                }
+              ],
+              "len": 87,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 3.29003e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 2,
+                  "hit_to": 77,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "gb|NXH30619.1|",
+                  "accession": "NXH30619",
+                  "title": "UBIQP protein [Myiagra hebetior]",
+                  "taxid": 381031,
+                  "sciname": "Myiagra hebetior"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 3.2966e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 59,
+                  "hit_to": 135,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 109.768,
+                  "score": 273,
+                  "evalue": 1.28784e-28,
+                  "identity": 52,
+                  "positive": 55,
+                  "query_from": 19,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 59,
+                  "align_len": 59,
+                  "gaps": 0,
+                  "qseq": "EPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "EPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "EPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "gb|KRY96969.1|",
+                  "accession": "KRY96969",
+                  "title": "Polyubiquitin -like protein, partial [Trichinella pseudospiralis]",
+                  "taxid": 6337,
+                  "sciname": "Trichinella pseudospiralis"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 3.36921e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 8,
+                  "hit_to": 84,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKGKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVK KIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|KAI2581592.1|",
+                  "accession": "KAI2581592",
+                  "title": "ubiquitin B, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 93,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 3.37213e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|WP_395241654.1|",
+                  "accession": "WP_395241654",
+                  "title": "polyubiquitin, partial [Salmonella sp. s51933]",
+                  "taxid": 3160127,
+                  "sciname": "Salmonella sp. s51933"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 3.37768e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 23,
+                  "hit_to": 99,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKTKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVK KIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "emb|CAF4416082.1|",
+                  "accession": "CAF4416082",
+                  "title": "unnamed protein product, partial [Adineta steineri]",
+                  "taxid": 433720,
+                  "sciname": "Adineta steineri"
+                }
+              ],
+              "len": 148,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 3.41334e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 57,
+                  "hit_to": 133,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 100.908,
+                  "score": 250,
+                  "evalue": 4.41034e-25,
+                  "identity": 48,
+                  "positive": 52,
+                  "query_from": 21,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 57,
+                  "align_len": 57,
+                  "gaps": 0,
+                  "qseq": "SDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "SHTIDNVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "S TI+NVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gb|KRX11861.1|",
+                  "accession": "KRX11861",
+                  "title": "Polyubiquitin -like protein, partial [Trichinella nelsoni]",
+                  "taxid": 6336,
+                  "sciname": "Trichinella nelsoni"
+                }
+              ],
+              "len": 112,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 3.42023e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 36,
+                  "hit_to": 112,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKGKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVK KIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 54.299,
+                  "score": 129,
+                  "evalue": 3.2721e-07,
+                  "identity": 24,
+                  "positive": 29,
+                  "query_from": 43,
+                  "query_to": 77,
+                  "hit_from": 2,
+                  "hit_to": 36,
+                  "align_len": 35,
+                  "gaps": 0,
+                  "qseq": "RLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "RMSFIGKQLEDGRMLADYNIQKESTLHLVLRLRGG",
+                  "midline": "R+ F GK+LEDGR L+DYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "emb|CAF3803863.1|",
+                  "accession": "CAF3803863",
+                  "title": "unnamed protein product, partial [Rotaria magnacalcarata]",
+                  "taxid": 392030,
+                  "sciname": "Rotaria magnacalcarata"
+                }
+              ],
+              "len": 94,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 3.67046e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "emb|CAF1352634.1|",
+                  "accession": "CAF1352634",
+                  "title": "unnamed protein product, partial [Rotaria sordida]",
+                  "taxid": 392033,
+                  "sciname": "Rotaria sordida"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 3.68757e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 21,
+                  "hit_to": 97,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLGDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTL DYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "emb|CAD7703144.1|",
+                  "accession": "CAD7703144",
+                  "title": "unnamed protein product, partial [Ostreobium quekettii]",
+                  "taxid": 121088,
+                  "sciname": "Ostreobium quekettii"
+                }
+              ],
+              "len": 137,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 3.70945e-40,
+                  "identity": 66,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKLQDKEGIPPDQQRLIFAGKQLEDGRTLADYNIQKESTLHLVLRLRGGKP",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAK+QDKEGIPPDQQRLIF GK+LEDGRTL+DYNI+  STLHLV+RLRG +P"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|XP_011705933.1|",
+                  "accession": "XP_011705933",
+                  "title": "PREDICTED: LOW QUALITY PROTEIN: ubiquitin-like, partial [Wasmannia auropunctata]",
+                  "taxid": 64793,
+                  "sciname": "Wasmannia auropunctata"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 3.76986e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 26,
+                  "hit_to": 102,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEASDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVE SDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.3654,
+                  "score": 111,
+                  "evalue": 0.000137291,
+                  "identity": 21,
+                  "positive": 23,
+                  "query_from": 52,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 26,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "EDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "EDGRTLSDYNIQKXSTLHLVLRLRGG",
+                  "midline": "EDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "emb|CAF1627429.1|",
+                  "accession": "CAF1627429",
+                  "title": "unnamed protein product, partial [Didymodactylos carnosus]",
+                  "taxid": 1234261,
+                  "sciname": "Didymodactylos carnosus"
+                }
+              ],
+              "len": 81,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 3.79334e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "emb|CAF4361284.1|",
+                  "accession": "CAF4361284",
+                  "title": "unnamed protein product, partial [Adineta steineri]",
+                  "taxid": 433720,
+                  "sciname": "Adineta steineri"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 3.821e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gb|AAD44038.1|",
+                  "accession": "AAD44038",
+                  "title": "polyprotein, partial [Bovine viral diarrhea virus 2]",
+                  "taxid": 54315,
+                  "sciname": "Bovine viral diarrhea virus 2"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 3.85014e-40,
+                  "identity": 69,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 79,
+                  "hit_from": 44,
+                  "hit_to": 122,
+                  "align_len": 79,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGGP",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG  P"
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "sp|P23398.2|",
+                  "accession": "P23398",
+                  "title": "RecName: Full=Polyubiquitin; Contains: RecName: Full=Ubiquitin; Flags: Precursor [Strongylocentrotus purpuratus]",
+                  "taxid": 7668,
+                  "sciname": "Strongylocentrotus purpuratus"
+                }
+              ],
+              "len": 133,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.658,
+                  "score": 348,
+                  "evalue": 3.87177e-40,
+                  "identity": 67,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 56,
+                  "hit_to": 133,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDSIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSD+IENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 102.449,
+                  "score": 254,
+                  "evalue": 8.69757e-26,
+                  "identity": 48,
+                  "positive": 52,
+                  "query_from": 22,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 56,
+                  "align_len": 56,
+                  "gaps": 0,
+                  "qseq": "DTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "DSIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "D+IENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "gb|EDM13556.1|",
+                  "accession": "EDM13556",
+                  "title": "rCG21222, isoform CRA_b [Rattus norvegicus]",
+                  "taxid": 10116,
+                  "sciname": "Rattus norvegicus"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 3.95111e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 53,
+                  "hit_to": 129,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 80.4925,
+                  "score": 197,
+                  "evalue": 1.09707e-16,
+                  "identity": 36,
+                  "positive": 40,
+                  "query_from": 34,
+                  "query_to": 77,
+                  "hit_from": 10,
+                  "hit_to": 53,
+                  "align_len": 44,
+                  "gaps": 0,
+                  "qseq": "KEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "REGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "+EGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_206198175.1|",
+                  "accession": "WP_206198175",
+                  "title": "polyubiquitin, partial [Shimia sediminis]",
+                  "taxid": 2497945,
+                  "sciname": "Shimia sediminis"
+                }
+              ],
+              "len": 144,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.043,
+                  "score": 349,
+                  "evalue": 3.97721e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 67,
+                  "hit_to": 143,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 122.094,
+                  "score": 305,
+                  "evalue": 2.08651e-33,
+                  "identity": 59,
+                  "positive": 62,
+                  "query_from": 11,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 67,
+                  "align_len": 67,
+                  "gaps": 0,
+                  "qseq": "GKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|XP_051704862.1|",
+                  "accession": "XP_051704862",
+                  "title": "ubiquitin isoform X2 [Oryctolagus cuniculus]",
+                  "taxid": 9986,
+                  "sciname": "Oryctolagus cuniculus"
+                }
+              ],
+              "len": 99,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 4.03715e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 22,
+                  "hit_to": 98,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFASKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF  K+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|XP_008485840.2|",
+                  "accession": "XP_008485840",
+                  "title": "ubiquitin [Diaphorina citri]",
+                  "taxid": 121845,
+                  "sciname": "Diaphorina citri"
+                }
+              ],
+              "len": 88,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 4.03943e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|WP_414079107.1|",
+                  "accession": "WP_414079107",
+                  "title": "ubiquitin family protein, partial [Microbacterium aurugineum]",
+                  "taxid": 2851642,
+                  "sciname": "Microbacterium aurugineum"
+                }
+              ],
+              "len": 86,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 4.06692e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "pdb|9ERZ|B",
+                  "accession": "9ERZ_B",
+                  "title": "Chain B, Polyubiquitin-C,Ub-fused CBLock peptide [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 4.26658e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 6,
+                  "hit_to": 81,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRAA",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLR A"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "gb|EDL20708.1|",
+                  "accession": "EDL20708",
+                  "title": "mCG1048340, partial [Mus musculus]",
+                  "taxid": 10090,
+                  "sciname": "Mus musculus"
+                }
+              ],
+              "len": 91,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 4.27266e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "emb|CAG4935133.1|",
+                  "accession": "CAG4935133",
+                  "title": "unnamed protein product [Colias eurytheme]",
+                  "taxid": 42296,
+                  "sciname": "Colias eurytheme"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 140.198,
+                  "score": 352,
+                  "evalue": 4.39278e-40,
+                  "identity": 68,
+                  "positive": 72,
+                  "query_from": 1,
+                  "query_to": 78,
+                  "hit_from": 76,
+                  "hit_to": 153,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGAR",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGK",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 6.5862e-39,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "gb|KEG01502.1|",
+                  "accession": "KEG01502",
+                  "title": "ubiquitin C [Plasmodium vinckei vinckei]",
+                  "taxid": 54757,
+                  "sciname": "Plasmodium vinckei vinckei"
+                }
+              ],
+              "len": 118,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 4.53105e-40,
+                  "identity": 67,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 41,
+                  "hit_to": 117,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLDVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITL+VEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|KFM10709.1|",
+                  "accession": "KFM10709",
+                  "title": "Ubiquitin-40S ribosomal protein S27a, partial [Aptenodytes forsteri]",
+                  "taxid": 9233,
+                  "sciname": "Aptenodytes forsteri"
+                }
+              ],
+              "len": 83,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.732,
+                  "score": 343,
+                  "evalue": 4.53751e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 7,
+                  "hit_to": 82,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|XP_044532303.1|",
+                  "accession": "XP_044532303",
+                  "title": "ubiquitin [Gracilinanus agilis]",
+                  "taxid": 191870,
+                  "sciname": "Gracilinanus agilis"
+                }
+              ],
+              "len": 86,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 4.53879e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "gb|KAG5897294.1|",
+                  "accession": "KAG5897294",
+                  "title": "hypothetical protein JTB14_011459 [Gonioctena quinquepunctata]",
+                  "taxid": 63699,
+                  "sciname": "Gonioctena quinquepunctata"
+                }
+              ],
+              "len": 101,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 4.57979e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "gb|EDX17243.1|",
+                  "accession": "EDX17243",
+                  "title": "GD16200 [Drosophila simulans]",
+                  "taxid": 7240,
+                  "sciname": "Drosophila simulans"
+                }
+              ],
+              "len": 105,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 4.58074e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|XP_010116155.1|",
+                  "accession": "XP_010116155",
+                  "title": "PREDICTED: polyubiquitin-B isoform X5 [Chlamydotis macqueenii]",
+                  "taxid": 187382,
+                  "sciname": "Chlamydotis macqueenii"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 4.58109e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "gb|TNN13377.1|",
+                  "accession": "TNN13377",
+                  "title": "Polyubiquitin-B isoform 2 [Schistosoma japonicum]",
+                  "taxid": 6182,
+                  "sciname": "Schistosoma japonicum"
+                }
+              ],
+              "len": 177,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 4.68681e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 76,
+                  "hit_to": 152,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 4.07533e-39,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "emb|CAD7694784.1|",
+                  "accession": "CAD7694784",
+                  "title": "unnamed protein product [Ostreobium quekettii]",
+                  "taxid": 121088,
+                  "sciname": "Ostreobium quekettii"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 4.70139e-40,
+                  "identity": 66,
+                  "positive": 72,
+                  "query_from": 2,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKLQDKEGIPPDQQRLIFAGKQLEDGRTLADYNIQKESTLHLVLRLRGGKP",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAK+QDKEGIPPDQQRLIF GK+LEDGRTL+DYNI+  STLHLV+RLRG +P"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|XP_013775091.1|",
+                  "accession": "XP_013775091",
+                  "title": "ubiquitin-like [Limulus polyphemus]",
+                  "taxid": 6850,
+                  "sciname": "Limulus polyphemus"
+                }
+              ],
+              "len": 98,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 4.72085e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "emb|CAF4794890.1|",
+                  "accession": "CAF4794890",
+                  "title": "unnamed protein product, partial [Rotaria sp. Silwood2]",
+                  "taxid": 2762512,
+                  "sciname": "Rotaria sp. Silwood2"
+                }
+              ],
+              "len": 165,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 4.98096e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 26,
+                  "hit_to": 102,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 117.472,
+                  "score": 293,
+                  "evalue": 2.44055e-31,
+                  "identity": 57,
+                  "positive": 59,
+                  "query_from": 1,
+                  "query_to": 63,
+                  "hit_from": 102,
+                  "hit_to": 164,
+                  "align_len": 63,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIK",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYTIQ",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDY I+"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.000327335,
+                  "identity": 21,
+                  "positive": 23,
+                  "query_from": 52,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 26,
+                  "align_len": 26,
+                  "gaps": 0,
+                  "qseq": "EDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "EDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "EDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|XP_052544999.1|",
+                  "accession": "XP_052544999",
+                  "title": "polyubiquitin-B isoform X5 [Tympanuchus pallidicinctus]",
+                  "taxid": 109042,
+                  "sciname": "Tympanuchus pallidicinctus"
+                }
+              ],
+              "len": 175,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.813,
+                  "score": 351,
+                  "evalue": 5.03844e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 98,
+                  "hit_to": 174,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 4.14954e-39,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 23,
+                  "hit_to": 98,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "gb|ACO07958.1|",
+                  "accession": "ACO07958",
+                  "title": "Ubiquitin [Oncorhynchus mykiss]",
+                  "taxid": 8022,
+                  "sciname": "Oncorhynchus mykiss"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 5.06952e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 55.4546,
+                  "score": 132,
+                  "evalue": 1.30278e-07,
+                  "identity": 27,
+                  "positive": 27,
+                  "query_from": 1,
+                  "query_to": 29,
+                  "hit_from": 76,
+                  "hit_to": 104,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKA",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKA"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "gb|NXQ80997.1|",
+                  "accession": "NXQ80997",
+                  "title": "UBIQP protein [Nyctibius grandis]",
+                  "taxid": 48427,
+                  "sciname": "Nyctibius grandis"
+                }
+              ],
+              "len": 162,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 5.08196e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 86,
+                  "hit_to": 162,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 4.33363e-39,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 11,
+                  "hit_to": 86,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_316050556.1|",
+                  "accession": "WP_316050556",
+                  "title": "ubiquitin family protein, partial [Staphylococcus haemolyticus]",
+                  "taxid": 1283,
+                  "sciname": "Staphylococcus haemolyticus"
+                }
+              ],
+              "len": 100,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 5.23875e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 47.7506,
+                  "score": 112,
+                  "evalue": 0.000118705,
+                  "identity": 23,
+                  "positive": 23,
+                  "query_from": 1,
+                  "query_to": 25,
+                  "hit_from": 76,
+                  "hit_to": 100,
+                  "align_len": 25,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIE",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIE",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIE"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "emb|CAF5106243.1|",
+                  "accession": "CAF5106243",
+                  "title": "unnamed protein product, partial [Rotaria sp. Silwood1]",
+                  "taxid": 2762511,
+                  "sciname": "Rotaria sp. Silwood1"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 5.30995e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 73,
+                  "hit_to": 149,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 133.65,
+                  "score": 335,
+                  "evalue": 1.16099e-37,
+                  "identity": 65,
+                  "positive": 68,
+                  "query_from": 5,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 73,
+                  "align_len": 73,
+                  "gaps": 0,
+                  "qseq": "FVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "FVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "FVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "gb|NXP12370.1|",
+                  "accession": "NXP12370",
+                  "title": "UBB protein [Thinocorus orbignyianus]",
+                  "taxid": 161742,
+                  "sciname": "Thinocorus orbignyianus"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 5.36831e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 17,
+                  "hit_to": 93,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 5.44659e-39,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 93,
+                  "hit_to": 169,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIEKVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIE VKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_235243556.1|",
+                  "accession": "WP_235243556",
+                  "title": "ubiquitin family protein, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 106,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 5.44528e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 58.5362,
+                  "score": 140,
+                  "evalue": 7.86978e-09,
+                  "identity": 29,
+                  "positive": 29,
+                  "query_from": 1,
+                  "query_to": 31,
+                  "hit_from": 76,
+                  "hit_to": 106,
+                  "align_len": 31,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKI",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKI",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKI"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "gb|KAJ1617672.1|",
+                  "accession": "KAJ1617672",
+                  "title": "ubiquitin-related domain-containing protein [Pavlovales sp. CCMP2436]",
+                  "taxid": 483367,
+                  "sciname": "Pavlovales sp. CCMP2436"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 5.45868e-40,
+                  "identity": 67,
+                  "positive": 71,
+                  "query_from": 2,
+                  "query_to": 79,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGARP",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDSIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGGCP",
+                  "midline": "M IFVKTLTGK ITLEVEPSD+IENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG  P"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "ref|NP_955119.1|",
+                  "accession": "NP_955119",
+                  "title": "CNPV096 ubiquitin [Canarypox virus]",
+                  "taxid": 44088,
+                  "sciname": "Canarypox virus"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 136.732,
+                  "score": 343,
+                  "evalue": 5.48916e-40,
+                  "identity": 66,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTVENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDT+ENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "emb|CAD7689647.1|",
+                  "accession": "CAD7689647",
+                  "title": "unnamed protein product [Nyctereutes procyonoides]",
+                  "taxid": 34880,
+                  "sciname": "Nyctereutes procyonoides"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 5.53238e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "gb|OLQ17059.1|",
+                  "accession": "OLQ17059",
+                  "title": "Ubiquitin family [Cryptosporidium hominis]",
+                  "taxid": 237895,
+                  "sciname": "Cryptosporidium hominis"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.887,
+                  "score": 346,
+                  "evalue": 5.54693e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 40,
+                  "hit_to": 115,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|XP_048641846.1|",
+                  "accession": "XP_048641846",
+                  "title": "ubiquitin isoform X1 [Marmota marmota marmota]",
+                  "taxid": 9994,
+                  "sciname": "Marmota marmota marmota"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 5.55309e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 19,
+                  "hit_to": 94,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "gb|KAI2568678.1|",
+                  "accession": "KAI2568678",
+                  "title": "ubiquitin C, partial [Homo sapiens]",
+                  "taxid": 9606,
+                  "sciname": "Homo sapiens"
+                }
+              ],
+              "len": 169,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 139.428,
+                  "score": 350,
+                  "evalue": 5.60824e-40,
+                  "identity": 68,
+                  "positive": 71,
+                  "query_from": 1,
+                  "query_to": 77,
+                  "hit_from": 76,
+                  "hit_to": 152,
+                  "align_len": 77,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "GM IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 4.77717e-39,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "emb|CAF4347078.1|",
+                  "accession": "CAF4347078",
+                  "title": "unnamed protein product, partial [Rotaria sordida]",
+                  "taxid": 392033,
+                  "sciname": "Rotaria sordida"
+                }
+              ],
+              "len": 104,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.502,
+                  "score": 345,
+                  "evalue": 5.65734e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.001496,
+                  "identity": 22,
+                  "positive": 23,
+                  "query_from": 1,
+                  "query_to": 29,
+                  "hit_from": 76,
+                  "hit_to": 104,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "GMPIFVKTLTGKNITLEVEPSDTIENVKA",
+                  "hseq": "GMQIFVKTLTGKTITLEVEPRDSTANGKA",
+                  "midline": "GM IFVKTLTGK ITLEVEP D+  N KA"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "ref|WP_221935811.1|",
+                  "accession": "WP_221935811",
+                  "title": "ubiquitin family protein, partial [Salmonella sp. s51228]",
+                  "taxid": 3159652,
+                  "sciname": "Salmonella sp. s51228"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 137.117,
+                  "score": 344,
+                  "evalue": 5.65957e-40,
+                  "identity": 67,
+                  "positive": 70,
+                  "query_from": 2,
+                  "query_to": 77,
+                  "hit_from": 1,
+                  "hit_to": 76,
+                  "align_len": 76,
+                  "gaps": 0,
+                  "qseq": "MPIFVKTLTGKNITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFTGKKLEDGRTLSDYNIKFASTLHLVIRLRGA",
+                  "hseq": "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG",
+                  "midline": "M IFVKTLTGK ITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIF GK+LEDGRTLSDYNI+  STLHLV+RLRG "
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

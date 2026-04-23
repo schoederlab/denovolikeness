@@ -1,0 +1,596 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236133",
+          "query_title": "5cwh_A",
+          "query_len": 172,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5CWH|A",
+                  "accession": "5CWH_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 316.62,
+                  "score": 810,
+                  "evalue": 2.69996e-108,
+                  "identity": 172,
+                  "positive": 172,
+                  "query_from": 1,
+                  "query_to": 172,
+                  "hit_from": 1,
+                  "hit_to": 172,
+                  "align_len": 172,
+                  "gaps": 0,
+                  "qseq": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWLEHHHHHH",
+                  "hseq": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWLEHHHHHH",
+                  "midline": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5H78|A",
+                  "accession": "5H78_A",
+                  "title": "Chain A, cAMP-dependent protein kinase type II-alpha regulatory subunit,DHR14 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 197,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 277.33,
+                  "score": 708,
+                  "evalue": 2.4681e-92,
+                  "identity": 155,
+                  "positive": 156,
+                  "query_from": 1,
+                  "query_to": 158,
+                  "hit_from": 40,
+                  "hit_to": 197,
+                  "align_len": 158,
+                  "gaps": 0,
+                  "qseq": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKK",
+                  "hseq": "LRSERVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKK",
+                  "midline": "+ SE VNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKK"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 182.956,
+                  "score": 463,
+                  "evalue": 3.99078e-55,
+                  "identity": 109,
+                  "positive": 110,
+                  "query_from": 43,
+                  "query_to": 165,
+                  "hit_from": 42,
+                  "hit_to": 164,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "SELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWL",
+                  "hseq": "SERVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSEL",
+                  "midline": "SE VNE VKQLAE AKEATDKE VI IVK LAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQL EVAKEATDKELV +I KIL EL KQSTD  L"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|5H7C|A",
+                  "accession": "5H7C_A",
+                  "title": "Chain A, Immunoglobulin G-binding protein A, DHR14 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 404,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 273.092,
+                  "score": 697,
+                  "evalue": 9.1451e-88,
+                  "identity": 153,
+                  "positive": 154,
+                  "query_from": 6,
+                  "query_to": 160,
+                  "hit_from": 250,
+                  "hit_to": 404,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "VNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQS",
+                  "hseq": "VNQAVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQS",
+                  "midline": "VN+ VKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQS"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 269.626,
+                  "score": 688,
+                  "evalue": 1.9198e-86,
+                  "identity": 151,
+                  "positive": 154,
+                  "query_from": 6,
+                  "query_to": 160,
+                  "hit_from": 54,
+                  "hit_to": 208,
+                  "align_len": 155,
+                  "gaps": 0,
+                  "qseq": "VNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQS",
+                  "hseq": "VNQAVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELEQQS",
+                  "midline": "VN+ VKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEEL++QS"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 194.512,
+                  "score": 493,
+                  "evalue": 3.34149e-57,
+                  "identity": 134,
+                  "positive": 138,
+                  "query_from": 2,
+                  "query_to": 165,
+                  "hit_from": 170,
+                  "hit_to": 369,
+                  "align_len": 200,
+                  "gaps": 36,
+                  "qseq": "DSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSEL------------------------------------VNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWL",
+                  "hseq": "DSELVNEIVKQLEEVAKEATDKELVEHIEKILEELEQQSAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSEL",
+                  "midline": "DSE VNE VKQL E AKEATDKE V  I K L EL +QS   E+                                    VN+ VKQLAE AKEATDKE VI IVK LAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQL EVAKEATDKELV +I KIL EL KQSTD  L"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 194.512,
+                  "score": 493,
+                  "evalue": 3.37763e-57,
+                  "identity": 134,
+                  "positive": 138,
+                  "query_from": 2,
+                  "query_to": 165,
+                  "hit_from": 90,
+                  "hit_to": 289,
+                  "align_len": 200,
+                  "gaps": 36,
+                  "qseq": "DSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSEL------------------------------------VNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWL",
+                  "hseq": "DSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELEQQSAFYEILSLPNLNEEQRNAFIQSLKDDPSQSANLLAEAKSLNVNQAVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSEL",
+                  "midline": "DSE VNE VKQLAE AKEATDKE VI IVK LAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQL EVAKEATDKELV +I KIL EL +QS   E+                                    VN+ VKQL E AKEATDKE V  I K L EL KQSTD  L"
+                },
+                {
+                  "num": 5,
+                  "bit_score": 180.644,
+                  "score": 457,
+                  "evalue": 1.05251e-51,
+                  "identity": 106,
+                  "positive": 108,
+                  "query_from": 46,
+                  "query_to": 165,
+                  "hit_from": 54,
+                  "hit_to": 173,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "VNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWL",
+                  "hseq": "VNQAVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSEL",
+                  "midline": "VN+ VKQLAE AKEATDKE VI IVK LAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQL EVAKEATDKELV +I KIL EL KQSTD  L"
+                },
+                {
+                  "num": 6,
+                  "bit_score": 177.948,
+                  "score": 450,
+                  "evalue": 1.14772e-50,
+                  "identity": 107,
+                  "positive": 108,
+                  "query_from": 2,
+                  "query_to": 120,
+                  "hit_from": 286,
+                  "hit_to": 404,
+                  "align_len": 119,
+                  "gaps": 0,
+                  "qseq": "DSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQS",
+                  "hseq": "DSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQS",
+                  "midline": "DSE VNE VKQLAE AKEATDKE VI IVK LAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQL EVAKEATDKELV +I KIL EL KQS"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|8FBK|A",
+                  "accession": "8FBK_A",
+                  "title": "Chain A, KWOCA_65 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 253,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 182.956,
+                  "score": 463,
+                  "evalue": 2.39109e-54,
+                  "identity": 114,
+                  "positive": 127,
+                  "query_from": 5,
+                  "query_to": 156,
+                  "hit_from": 32,
+                  "hit_to": 183,
+                  "align_len": 152,
+                  "gaps": 0,
+                  "qseq": "EVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEEL",
+                  "hseq": "EVTERVAELAAEAVRATDKEEVIEIVKELAELAKQSTDSELVNFIVRALAAVAIAAQDKELVIYIVKILAELAKQSTDSELVNEIVKALAEVAKAATDKELVKYIVDILLELAKQADDATLVAKIAEQLAEVREEAKDKELQERIDRVLKKL",
+                  "midline": "EV ERV +LA +A  ATDKEEVIEIVKELAELAKQSTDSELVN IV+ LA VA  A DKELVIYIVKILAELAKQSTDSELVNEIVK LAEVAK ATDKELV YIV IL ELAKQ+ D+ LV +I +QL EV +EA DKEL E I+++L++L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 133.65,
+                  "score": 335,
+                  "evalue": 3.46376e-35,
+                  "identity": 89,
+                  "positive": 94,
+                  "query_from": 46,
+                  "query_to": 165,
+                  "hit_from": 33,
+                  "hit_to": 152,
+                  "align_len": 120,
+                  "gaps": 0,
+                  "qseq": "VNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWL",
+                  "hseq": "VTERVAELAAEAVRATDKEEVIEIVKELAELAKQSTDSELVNFIVRALAAVAIAAQDKELVIYIVKILAELAKQSTDSELVNEIVKALAEVAKAATDKELVKYIVDILLELAKQADDATL",
+                  "midline": "V E V +LA  A  ATDKE VI IVK LAELAKQSTDSELVN IV+ LA VA  A DKELVIYIVKILAELAKQSTDSELVNEIVK L EVAK ATDKELV++I  IL EL KQ+ D  L"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 117.087,
+                  "score": 292,
+                  "evalue": 1.00914e-28,
+                  "identity": 91,
+                  "positive": 109,
+                  "query_from": 2,
+                  "query_to": 157,
+                  "hit_from": 49,
+                  "hit_to": 206,
+                  "align_len": 176,
+                  "gaps": 38,
+                  "qseq": "DSEEVNERVKQLAEKAKEATD--------------------KEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELK",
+                  "hseq": "DKEEVIEIVKELAELAKQSTDSELVNFIVRALAAVAIAAQDKELVIYIVKILAELAKQSTDSELVNEIVKALAEVAKAATDKELVKYIVDILLELAKQADDATLVAKIAEQLAEVREEAKDKEL-----------------QERIDRVLKKLIEITLRALEESLRE-LRRILEELK",
+                  "midline": "D EEV E VK+LAE AK++TD                    KE VI IVK LAELAKQSTDSELVNEIVK LAEVAK ATDKELV YIV IL ELAKQ+ D+ LV +I +QLAEV +EA DKEL                  E ++ ++K+L E+   A ++ L E + +ILEELK"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|6W2V|A",
+                  "accession": "6W2V_A",
+                  "title": "Chain A, Junction 23 DHR14-DHR18 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 121.324,
+                  "score": 303,
+                  "evalue": 1.32552e-30,
+                  "identity": 69,
+                  "positive": 83,
+                  "query_from": 1,
+                  "query_to": 103,
+                  "hit_from": 1,
+                  "hit_to": 103,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDK",
+                  "hseq": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDPNLVAEVVRALTEVAKTSTDTELIREIIKVLLELASKLRDPQAVLEALQAVAELARELAEK",
+                  "midline": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTD  LV E+V+ L EVAK +TD EL+  I+K+L ELA +  D + V E ++ +AE+A+E  +K"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 4.93295e-17,
+                  "identity": 54,
+                  "positive": 60,
+                  "query_from": 82,
+                  "query_to": 162,
+                  "hit_from": 2,
+                  "hit_to": 82,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "DSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTD",
+                  "hseq": "DSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDPNLVAEVVRALTEVAKTSTDTELIREIIKVLLELASKLRD",
+                  "midline": "DSE VNE VKQLAE AKEATDKE VI IVK LAELAKQSTD  LV E+V+ L EVAK +TD EL+  I K+L EL  +  D"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 72.7886,
+                  "score": 177,
+                  "evalue": 5.15821e-12,
+                  "identity": 51,
+                  "positive": 64,
+                  "query_from": 42,
+                  "query_to": 146,
+                  "hit_from": 2,
+                  "hit_to": 86,
+                  "align_len": 105,
+                  "gaps": 20,
+                  "qseq": "DSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELV",
+                  "hseq": "DSEEVNERVKQLAEKAKEAT--------------------DKEEVIEIVKELAELAKQSTDPNLVAEVVRALTEVAKTSTDTELIREIIKVLLELASKLRDPQAV",
+                  "midline": "DSE VNE VKQLAE AKEAT                    D E V EIVK+LAE+AK++TD  LV  +V+ L E+AK STD+EL+ EI+K L E+A +  D + V"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|6W2W|A",
+                  "accession": "6W2W_A",
+                  "title": "Chain A, Junction 24 DHR14-DHR18 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 243,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 4.90638e-23,
+                  "identity": 59,
+                  "positive": 67,
+                  "query_from": 2,
+                  "query_to": 82,
+                  "hit_from": 3,
+                  "hit_to": 83,
+                  "align_len": 81,
+                  "gaps": 0,
+                  "qseq": "DSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTD",
+                  "hseq": "DSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDPNVVAEIVYQLAEVAEHSTDPELIKEILQEALRLAEEQGD",
+                  "midline": "DSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTD  +V EIV QLAEVA+ +TD EL+  I++    LA++  D"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 81.6481,
+                  "score": 200,
+                  "evalue": 3.10348e-15,
+                  "identity": 49,
+                  "positive": 54,
+                  "query_from": 81,
+                  "query_to": 149,
+                  "hit_from": 2,
+                  "hit_to": 70,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "TDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHI",
+                  "hseq": "GDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDPNVVAEIVYQLAEVAEHSTDPELIKEI",
+                  "midline": " DSE VNE VKQLAE AKEATDKE VI IVK LAELAKQSTD  +V EIV QL EVA+ +TD EL++ I"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "pdb|5CWJ|A",
+                  "accession": "5CWJ_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 80.4925,
+                  "score": 197,
+                  "evalue": 2.15192e-15,
+                  "identity": 49,
+                  "positive": 110,
+                  "query_from": 1,
+                  "query_to": 166,
+                  "hit_from": 1,
+                  "hit_to": 165,
+                  "align_len": 166,
+                  "gaps": 1,
+                  "qseq": "MDSEEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWLE",
+                  "hseq": "MDSEEEQERIRRILKEARKSGTEESLRQAIEDVAQLAKKSQDSEVLEEAIRVILRIAKESGSEEALRQAIRAVAEIAKEAQDSEVLEEAIRVILRIAKESGSEEALRQAIRAVAEIAKEAQDPRVLEEAIRVIRQIAEESGSEEARRQ-AERAEEEIRRRAQGWLE",
+                  "midline": "MDSEE  ER++++ ++A+++  +E + + ++++A+LAK+S DSE++ E ++ +  +AKE+  +E +   ++ +AE+AK++ DSE++ E ++ +  +AKE+  +E +   ++ +AE+AK++ D  ++ E ++ + ++A+E+  +E      +  EE  ++   GWLE"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "pdb|5CWN|A",
+                  "accession": "5CWN_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 71.2478,
+                  "score": 173,
+                  "evalue": 1.16704e-11,
+                  "identity": 71,
+                  "positive": 107,
+                  "query_from": 1,
+                  "query_to": 167,
+                  "hit_from": 1,
+                  "hit_to": 206,
+                  "align_len": 206,
+                  "gaps": 39,
+                  "qseq": "MDSEEVNERVKQLAEKAKEATDK----------EEVIEIVKELAELAKQSTDSELVNEIVK---QLAEVAKEATDKELV-------IYIVKILAELAKQSTDSELVNEIVK---QLAEVAKEATDKELV-------IYIVKILAELAKQSTDSELVNEIVKQLEEV---AKEATDKELVEHIEKILEELK------KQSTDGWLEH",
+                  "hseq": "MDPEEILERAKESLERAREASERGDEEEFRKAAEKALELAKRLVEQAKKEGDPELVLEAAKVALRVAELAAKNGDKEVFKKAAESALEVAKRLVEVASKEGDPELVLEAAKVALRVAELAAKNGDKEVFKKAAESALEVAKRLVEVASKEGDPELVEEAAKVAEEVRKLAKKQGDEEVYEKARETAREVKEELKRVREEKGGWLEH",
+                  "midline": "MD EE+ ER K+  E+A+EA+++          E+ +E+ K L E AK+  D ELV E  K   ++AE+A +  DKE+        + + K L E+A +  D ELV E  K   ++AE+A +  DKE+        + + K L E+A +  D ELV E  K  EEV   AK+  D+E+ E   +   E+K      ++   GWLEH"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_283218812.1|",
+                  "accession": "WP_283218812",
+                  "title": "lipase-like domain-containing protein [Staphylococcus caprae]",
+                  "taxid": 29380,
+                  "sciname": "Staphylococcus caprae"
+                }
+              ],
+              "len": 683,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 57.7658,
+                  "score": 138,
+                  "evalue": 3.3701e-06,
+                  "identity": 54,
+                  "positive": 83,
+                  "query_from": 15,
+                  "query_to": 162,
+                  "hit_from": 90,
+                  "hit_to": 237,
+                  "align_len": 152,
+                  "gaps": 8,
+                  "qseq": "EKAKEATDKEEVIEIVKELAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTD",
+                  "hseq": "DNAKQSTDKEEAMPSQSDKQDNAKQSTDKEEAMSSQSDKQ--DNTKQSTDKEETMSSQSDKQDNAKQSTDKEEAMPSQSDKQ--DNAKQSTDKEEAMPSQSDKQDNAKQSTDKEETMSSQSDKQDNAKQSTDKEEAMSSQSDKQDNAKQSTD",
+                  "midline": "+ AK++TDKEE +    +  + AKQSTD E  + ++  KQ  +  K++TDKE  +       + AKQSTD E  + ++  KQ  + AK++TDKE  +       + AKQSTD E         ++ AK++TDKE     +   ++  KQSTD"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 56.225,
+                  "score": 134,
+                  "evalue": 1.40868e-05,
+                  "identity": 53,
+                  "positive": 82,
+                  "query_from": 15,
+                  "query_to": 162,
+                  "hit_from": 70,
+                  "hit_to": 217,
+                  "align_len": 152,
+                  "gaps": 8,
+                  "qseq": "EKAKEATDKEEVIEIVKELAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTD",
+                  "hseq": "DNTKQSTDKEETMSSQSDKQDNAKQSTDKEEAMPSQSDKQ--DNAKQSTDKEEAMSSQSDKQDNTKQSTDKEETMSSQSDKQ--DNAKQSTDKEEAMPSQSDKQDNAKQSTDKEEAMPSQSDKQDNAKQSTDKEETMSSQSDKQDNAKQSTD",
+                  "midline": "+  K++TDKEE +    +  + AKQSTD E  + ++  KQ  + AK++TDKE  +       +  KQSTD E  + ++  KQ  + AK++TDKE  +       + AKQSTD E         ++ AK++TDKE     +   ++  KQSTD"
+                },
+                {
+                  "num": 3,
+                  "bit_score": 55.4546,
+                  "score": 132,
+                  "evalue": 2.04261e-05,
+                  "identity": 53,
+                  "positive": 82,
+                  "query_from": 15,
+                  "query_to": 162,
+                  "hit_from": 50,
+                  "hit_to": 197,
+                  "align_len": 152,
+                  "gaps": 8,
+                  "qseq": "EKAKEATDKEEVIEIVKELAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTD",
+                  "hseq": "DNAKQSTDKEEAMSSQSDKQDNTKQSTDKEETMSSQSDKQ--DNAKQSTDKEEAMPSQSDKQDNAKQSTDKEEAMSSQSDKQ--DNTKQSTDKEETMSSQSDKQDNAKQSTDKEEAMPSQSDKQDNAKQSTDKEEAMPSQSDKQDNAKQSTD",
+                  "midline": "+ AK++TDKEE +    +  +  KQSTD E  + ++  KQ  + AK++TDKE  +       + AKQSTD E  + ++  KQ  +  K++TDKE  +       + AKQSTD E         ++ AK++TDKE     +   ++  KQSTD"
+                },
+                {
+                  "num": 4,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 0.000220421,
+                  "identity": 46,
+                  "positive": 71,
+                  "query_from": 15,
+                  "query_to": 133,
+                  "hit_from": 150,
+                  "hit_to": 268,
+                  "align_len": 123,
+                  "gaps": 8,
+                  "qseq": "EKAKEATDKEEVIEIVKELAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSELVNEIVKQL",
+                  "hseq": "DNAKQSTDKEEAMPSQSDKQDNAKQSTDKEEAMPSQSDKQ--DNAKQSTDKEETMSSQSDKQDNAKQSTDKEEAMSSQSDKQ--DNAKQSTDKEEAMSSQSDKQDNAKQSTDKEENNNDIEQV",
+                  "midline": "+ AK++TDKEE +    +  + AKQSTD E  + ++  KQ  + AK++TDKE  +       + AKQSTD E  + ++  KQ  + AK++TDKE  +       + AKQSTD E  N  ++Q+"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|MBX5320361.1|",
+                  "accession": "MBX5320361",
+                  "title": "hypothetical protein [Staphylococcus caprae]",
+                  "taxid": 29380,
+                  "sciname": "Staphylococcus caprae"
+                }
+              ],
+              "len": 128,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.0618,
+                  "score": 118,
+                  "evalue": 0.000267046,
+                  "identity": 42,
+                  "positive": 63,
+                  "query_from": 17,
+                  "query_to": 124,
+                  "hit_from": 17,
+                  "hit_to": 124,
+                  "align_len": 112,
+                  "gaps": 8,
+                  "qseq": "AKEATDKEEVIEIVKELAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSE--LVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQSTDSE",
+                  "hseq": "AKQSTDKEEAMSSQSDKQDNAKQSTDKEETMSSQSDKQ--DNAKQSTDKEEAMPSQSDKQDNAKQSIDKEEAMSSQSDKQ--DNAKQSTDKEEAMPSQSDKQDNAKQSIDKE",
+                  "midline": "AK++TDKEE +    +  + AKQSTD E  + ++  KQ  + AK++TDKE  +       + AKQS D E  + ++  KQ  + AK++TDKE  +       + AKQS D E"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

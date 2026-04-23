@@ -1,0 +1,3289 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236468",
+          "query_title": "3lhp_S",
+          "query_len": 123,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|3LHP|S",
+                  "accession": "3LHP_S",
+                  "title": "Chain S, 4E10_D0_1ISEA_004_N (T93) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 123,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 244.973,
+                  "score": 624,
+                  "evalue": 1.2907e-81,
+                  "identity": 123,
+                  "positive": 123,
+                  "query_from": 1,
+                  "query_to": 123,
+                  "hit_from": 1,
+                  "hit_to": 123,
+                  "align_len": 123,
+                  "gaps": 0,
+                  "qseq": "HHHHHHGSISDIRKDAEVRMDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQG",
+                  "hseq": "HHHHHHGSISDIRKDAEVRMDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQG",
+                  "midline": "HHHHHHGSISDIRKDAEVRMDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQG"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|1Y69|8",
+                  "accession": "1Y69_8",
+                  "title": "Chain 8, Ribosome-recycling factor [Escherichia coli K-12]",
+                  "taxid": 83333,
+                  "sciname": "Escherichia coli K-12"
+                }
+              ],
+              "len": 113,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 138.272,
+                  "score": 347,
+                  "evalue": 2.05812e-39,
+                  "identity": 81,
+                  "positive": 86,
+                  "query_from": 9,
+                  "query_to": 122,
+                  "hit_from": 2,
+                  "hit_to": 112,
+                  "align_len": 114,
+                  "gaps": 3,
+                  "qseq": "ISDIRKDAEVRMDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "ISDIRKDAEVRMDKCVEAFKTQISKIRTGG---GGTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "ISDIRKDAEVRMDK VEAFK ++ K +        TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKKIEAALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|3LF9|A",
+                  "accession": "3LF9_A",
+                  "title": "Chain A, 4E10_D0_1IS1A_001_C (T161) [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 129.798,
+                  "score": 325,
+                  "evalue": 4.6708e-36,
+                  "identity": 69,
+                  "positive": 85,
+                  "query_from": 9,
+                  "query_to": 122,
+                  "hit_from": 2,
+                  "hit_to": 112,
+                  "align_len": 114,
+                  "gaps": 3,
+                  "qseq": "ISDIRKDAEVRMDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "INEIKKDAQERMDKSVEALKNNLSKVRTGG---GGTEERRKDLVKIVRGEAEGGRVAVRNIARDAANDLAALGKDKEVNWFDISQALWEIQKLTDVAVKKIDEVLAAKEKELME",
+                  "midline": "I++I+KDA+ RMDK+VEA KN L K +        TEER KD +KIVRGEAE  RVAVRN+ RDA +  AALGKDKE+NWFDISQ+LW++QKLTD A+KKI+  LA  E  L +"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "ref|WP_049043930.1|",
+                  "accession": "WP_049043930",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 124,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 107.071,
+                  "score": 266,
+                  "evalue": 4.52432e-27,
+                  "identity": 63,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 37,
+                  "hit_to": 123,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKKIEAALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "ref|WP_032260747.1|",
+                  "accession": "WP_032260747",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 107.071,
+                  "score": 266,
+                  "evalue": 1.19046e-26,
+                  "identity": 63,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 68,
+                  "hit_to": 154,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKKIEAALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "dbj|BEC69749.1|",
+                  "accession": "BEC69749",
+                  "title": "hypothetical protein VEE57_14650 [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 108,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.531,
+                  "score": 262,
+                  "evalue": 1.48633e-26,
+                  "identity": 63,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 21,
+                  "hit_to": 107,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKKIEAALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|WP_249819009.1|",
+                  "accession": "WP_249819009",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 160,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.916,
+                  "score": 263,
+                  "evalue": 3.78891e-26,
+                  "identity": 63,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 73,
+                  "hit_to": 159,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKKIEAALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|WP_133055019.1|",
+                  "accession": "WP_133055019",
+                  "title": "ribosome-recycling factor, partial [Cronobacter sakazakii]",
+                  "taxid": 28141,
+                  "sciname": "Cronobacter sakazakii"
+                }
+              ],
+              "len": 89,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.064,
+                  "score": 253,
+                  "evalue": 1.80056e-25,
+                  "identity": 58,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 2,
+                  "hit_to": 88,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLIKVVRGEAEQARVAIRNVRRDANDKVKALLKDKEIGEDEDRRSQDDVQKLTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD +K+VRGEAEQARVA+RNV RDANDK  AL KDKEI   +  +S  DVQKLTDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_334632423.1|",
+                  "accession": "WP_334632423",
+                  "title": "ribosome recycling factor [Phytobacter diazotrophicus]",
+                  "taxid": 395631,
+                  "sciname": "Phytobacter diazotrophicus"
+                }
+              ],
+              "len": 214,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 105.531,
+                  "score": 262,
+                  "evalue": 1.94392e-25,
+                  "identity": 61,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 127,
+                  "hit_to": 213,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQEDVQKLTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 10,
+              "description": [
+                {
+                  "id": "gb|MBN6335559.1|",
+                  "accession": "MBN6335559",
+                  "title": "ribosome recycling factor [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 127,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 102.449,
+                  "score": 254,
+                  "evalue": 3.8578e-25,
+                  "identity": 59,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 40,
+                  "hit_to": 126,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKEKEISEDDDRRSQDDVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL K+KEI+  D  +S  DVQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 11,
+              "description": [
+                {
+                  "id": "ref|WP_225287337.1|",
+                  "accession": "WP_225287337",
+                  "title": "ribosome-recycling factor, partial [Enterobacter sp. K16B]",
+                  "taxid": 2878537,
+                  "sciname": "Enterobacter sp. K16B"
+                }
+              ],
+              "len": 95,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.908,
+                  "score": 250,
+                  "evalue": 6.15878e-25,
+                  "identity": 57,
+                  "positive": 67,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 6,
+                  "hit_to": 94,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "ADIRVPLPPLTEERRKDLIKVVRGEAEQGRVSVRNVRRDANDKVKALLKEKEISEDDDRRSQDDIQKMTDAAIKKIDAALADKEAELMQ",
+                  "midline": "A +R   P  TEER KD +K+VRGEAEQ RV+VRNV RDANDK  AL K+KEI+  D  +S  D+QK+TDAAIKKI+AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 12,
+              "description": [
+                {
+                  "id": "ref|WP_080093260.1|",
+                  "accession": "WP_080093260",
+                  "title": "ribosome recycling factor, partial [Salmonella enterica]",
+                  "taxid": 28901,
+                  "sciname": "Salmonella enterica"
+                }
+              ],
+              "len": 122,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.138,
+                  "score": 248,
+                  "evalue": 2.83745e-24,
+                  "identity": 58,
+                  "positive": 65,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 35,
+                  "hit_to": 121,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKAISEDDDRRSQEEVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDK I+  D  +S  +VQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 13,
+              "description": [
+                {
+                  "id": "ref|WP_226571831.1|",
+                  "accession": "WP_226571831",
+                  "title": "ribosome recycling factor [Mangrovibacter yixingensis]",
+                  "taxid": 1529639,
+                  "sciname": "Mangrovibacter yixingensis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 101.679,
+                  "score": 252,
+                  "evalue": 3.44734e-24,
+                  "identity": 58,
+                  "positive": 68,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "SVIRVPLPPLTEERRKDLIKVVRGDAEQARVAVRNVRRDANDKVKALLKEKEISEDDDRRSQDDVQKLTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+ +R   P  TEER KD +K+VRG+AEQARVAVRNV RDANDK  AL K+KEI+  D  +S  DVQKLTDAAIKK++AALAD EA L Q"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 43.5134,
+                  "score": 101,
+                  "evalue": 0.0480488,
+                  "identity": 19,
+                  "positive": 24,
+                  "query_from": 9,
+                  "query_to": 37,
+                  "hit_from": 2,
+                  "hit_to": 30,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ISDIRKDAEVRMDKAVEAFKNKLDKFKAA",
+                  "hseq": "INDIRKDAEVRMEKCVEAFKNQISKVRTG",
+                  "midline": "I+DIRKDAEVRM+K VEAFKN++ K +  "
+                }
+              ]
+            },
+            {
+              "num": 14,
+              "description": [
+                {
+                  "id": "ref|WP_045718125.1|",
+                  "accession": "WP_045718125",
+                  "title": "ribosome recycling factor, partial [Salmonella enterica]",
+                  "taxid": 28901,
+                  "sciname": "Salmonella enterica"
+                }
+              ],
+              "len": 163,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.138,
+                  "score": 248,
+                  "evalue": 8.37256e-24,
+                  "identity": 63,
+                  "positive": 74,
+                  "query_from": 20,
+                  "query_to": 122,
+                  "hit_from": 56,
+                  "hit_to": 162,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "VEKAIMASDLGLNPSSAGTDIRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKAISEDDDRRSQEEVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDK I+  D  +S  +VQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 15,
+              "description": [
+                {
+                  "id": "ref|WP_103847797.1|",
+                  "accession": "WP_103847797",
+                  "title": "ribosome recycling factor, partial [Citrobacter amalonaticus]",
+                  "taxid": 35703,
+                  "sciname": "Citrobacter amalonaticus"
+                }
+              ],
+              "len": 107,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.2117,
+                  "score": 243,
+                  "evalue": 8.56163e-24,
+                  "identity": 57,
+                  "positive": 64,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 20,
+                  "hit_to": 106,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDNVKALLKDKAISEDDDRRSQEEVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDAND   AL KDK I+  D  +S  +VQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 16,
+              "description": [
+                {
+                  "id": "gb|MBD4757539.1|",
+                  "accession": "MBD4757539",
+                  "title": "ribosome recycling factor [Xanthomonas citri pv. citri]",
+                  "taxid": 611301,
+                  "sciname": "Xanthomonas citri pv. citri"
+                }
+              ],
+              "len": 85,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 97.4413,
+                  "score": 241,
+                  "evalue": 9.06929e-24,
+                  "identity": 57,
+                  "positive": 59,
+                  "query_from": 38,
+                  "query_to": 113,
+                  "hit_from": 8,
+                  "hit_to": 85,
+                  "align_len": 78,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAAL",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEITEDDDRRSQDDVQKLTDAAIKKIEAAL",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI   D  +S  DVQKLTDAAIKKIEAAL"
+                }
+              ]
+            },
+            {
+              "num": 17,
+              "description": [
+                {
+                  "id": "ref|WP_193810125.1|",
+                  "accession": "WP_193810125",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 184,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.523,
+                  "score": 249,
+                  "evalue": 1.0349e-23,
+                  "identity": 56,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLIKVVRGEAEQGRVSVRNVRRDANDKVKALLKEKEISEDDDRRSQDDIQKMTDAAIKKIDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD +K+VRGEAEQ RV+VRNV RDANDK  AL K+KEI+  D  +S  D+QK+TDAAIKKI+AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 18,
+              "description": [
+                {
+                  "id": "ref|WP_410026457.1|",
+                  "accession": "WP_410026457",
+                  "title": "ribosome recycling factor, partial [Enterobacter hormaechei]",
+                  "taxid": 158836,
+                  "sciname": "Enterobacter hormaechei"
+                }
+              ],
+              "len": 133,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 98.9821,
+                  "score": 245,
+                  "evalue": 1.14436e-23,
+                  "identity": 56,
+                  "positive": 67,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 44,
+                  "hit_to": 132,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "ADIRVPLPPLTEERRKDLIKVVRGEAEQGRVSVRNVRRDANDKVKALLKEKEISEDDDRRSQDDIQKMTDAAIKKIDAALAEKEAELMQ",
+                  "midline": "A +R   P  TEER KD +K+VRGEAEQ RV+VRNV RDANDK  AL K+KEI+  D  +S  D+QK+TDAAIKKI+AALA+ EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 19,
+              "description": [
+                {
+                  "id": "ref|WP_109273417.1|",
+                  "accession": "WP_109273417",
+                  "title": "ribosome recycling factor [Salmonella enterica]",
+                  "taxid": 28901,
+                  "sciname": "Salmonella enterica"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 100.138,
+                  "score": 248,
+                  "evalue": 1.45148e-23,
+                  "identity": 58,
+                  "positive": 65,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKAISEDDDRRSQEEVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDK I+  D  +S  +VQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 20,
+              "description": [
+                {
+                  "id": "gb|MCS6056072.1|",
+                  "accession": "MCS6056072",
+                  "title": "ribosome recycling factor [Klebsiella variicola subsp. variicola]",
+                  "taxid": 2590157,
+                  "sciname": "Klebsiella variicola subsp. variicola"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.7525,
+                  "score": 247,
+                  "evalue": 1.63132e-23,
+                  "identity": 59,
+                  "positive": 66,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 91,
+                  "hit_to": 177,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKEKEISEDDDRRSQDDVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL K+KEI+  D  +S  DVQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 21,
+              "description": [
+                {
+                  "id": "ref|WP_312817637.1|",
+                  "accession": "WP_312817637",
+                  "title": "MULTISPECIES: ribosome recycling factor, partial [Atlantibacter]",
+                  "taxid": 1903434,
+                  "sciname": "Atlantibacter"
+                }
+              ],
+              "len": 164,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 99.3673,
+                  "score": 246,
+                  "evalue": 1.87566e-23,
+                  "identity": 62,
+                  "positive": 74,
+                  "query_from": 20,
+                  "query_to": 122,
+                  "hit_from": 57,
+                  "hit_to": 163,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "VEKAIMASDLGLNPSSAGSDIRVPLPPLTEERRKDLIKVVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKATDAAIKKVDAALAEKETELMQ",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +K+VRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQK TDAAIKK++AALA+ E  L Q"
+                }
+              ]
+            },
+            {
+              "num": 22,
+              "description": [
+                {
+                  "id": "ref|WP_119124083.1|",
+                  "accession": "WP_119124083",
+                  "title": "ribosome-recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 73,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 3.24724e-23,
+                  "identity": 55,
+                  "positive": 57,
+                  "query_from": 51,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 72,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "WLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "LTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKIEAALADKEAELMQ",
+                  "midline": "  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKKIEAALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 23,
+              "description": [
+                {
+                  "id": "ref|WP_049040318.1|",
+                  "accession": "WP_049040318",
+                  "title": "ribosome recycling factor, partial [Citrobacter braakii]",
+                  "taxid": 57706,
+                  "sciname": "Citrobacter braakii"
+                }
+              ],
+              "len": 109,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 96.6709,
+                  "score": 239,
+                  "evalue": 4.16933e-23,
+                  "identity": 57,
+                  "positive": 64,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 22,
+                  "hit_to": 108,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEGARVAVRNVRRDANDKVKALLKEKEISEDDDRRSQDDVQKLTDAAIKKVDAALAEKETELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAE ARVAVRNV RDANDK  AL K+KEI+  D  +S  DVQKLTDAAIKK++AALA+ E  L Q"
+                }
+              ]
+            },
+            {
+              "num": 24,
+              "description": [
+                {
+                  "id": "ref|WP_240074738.1|",
+                  "accession": "WP_240074738",
+                  "title": "ribosome-recycling factor, partial [Enterobacter hormaechei]",
+                  "taxid": 158836,
+                  "sciname": "Enterobacter hormaechei"
+                }
+              ],
+              "len": 79,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.5153,
+                  "score": 236,
+                  "evalue": 5.19535e-23,
+                  "identity": 52,
+                  "positive": 62,
+                  "query_from": 45,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 78,
+                  "align_len": 78,
+                  "gaps": 0,
+                  "qseq": "EERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "EERRKDLIKVVRGEAEQGRVSVRNVRRDANDKVKALLKEKEISEDDDRRSQDDIQKMTDAAIKKIDAALAEKEAELMQ",
+                  "midline": "EER KD +K+VRGEAEQ RV+VRNV RDANDK  AL K+KEI+  D  +S  D+QK+TDAAIKKI+AALA+ EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 25,
+              "description": [
+                {
+                  "id": "ref|WP_311963228.1|",
+                  "accession": "WP_311963228",
+                  "title": "ribosome-recycling factor, partial [Acinetobacter baumannii]",
+                  "taxid": 470,
+                  "sciname": "Acinetobacter baumannii"
+                }
+              ],
+              "len": 75,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.1301,
+                  "score": 235,
+                  "evalue": 7.61322e-23,
+                  "identity": 53,
+                  "positive": 59,
+                  "query_from": 49,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 74,
+                  "align_len": 74,
+                  "gaps": 0,
+                  "qseq": "KDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "KDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKEKEISEDDDRRSQDDVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "KD  KIVRGEAEQARVAVRNV RDANDK  AL K+KEI+  D  +S  DVQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 26,
+              "description": [
+                {
+                  "id": "tpg|HBT30220.1|",
+                  "accession": "HBT30220",
+                  "title": "ribosome-recycling factor [Erwinia persicina]",
+                  "taxid": 55211,
+                  "sciname": "Erwinia persicina"
+                }
+              ],
+              "len": 97,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.7449,
+                  "score": 234,
+                  "evalue": 1.68724e-22,
+                  "identity": 54,
+                  "positive": 63,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 10,
+                  "hit_to": 94,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDDDRRSQEDVQKMTDVFIKKIDSALAEKEAEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  DVQK+TD  IKKI++ALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 27,
+              "description": [
+                {
+                  "id": "emb|SQB26301.1|",
+                  "accession": "SQB26301",
+                  "title": "ribosome recycling factor [Citrobacter koseri]",
+                  "taxid": 545,
+                  "sciname": "Citrobacter koseri"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 4.36227e-22,
+                  "identity": 58,
+                  "positive": 65,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 91,
+                  "hit_to": 177,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDEVQKLTDAAIKKVDAALTEKEAELMQ",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  +VQKLTDAAIKK++AAL + EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 28,
+              "description": [
+                {
+                  "id": "ref|WP_139777336.1|",
+                  "accession": "WP_139777336",
+                  "title": "ribosome-recycling factor, partial [Salmonella enterica]",
+                  "taxid": 28901,
+                  "sciname": "Salmonella enterica"
+                }
+              ],
+              "len": 76,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 92.8189,
+                  "score": 229,
+                  "evalue": 5.29277e-22,
+                  "identity": 52,
+                  "positive": 58,
+                  "query_from": 49,
+                  "query_to": 122,
+                  "hit_from": 2,
+                  "hit_to": 75,
+                  "align_len": 74,
+                  "gaps": 0,
+                  "qseq": "KDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "KDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKAISEDDDRRSQEEVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "KD  KIVRGEAEQARVAVRNV RDANDK  AL KDK I+  D  +S  +VQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 29,
+              "description": [
+                {
+                  "id": "ref|WP_238712046.1|",
+                  "accession": "WP_238712046",
+                  "title": "MULTISPECIES: ribosome recycling factor [Tenebrionibacter/Tenebrionicola group]",
+                  "taxid": 2969848,
+                  "sciname": "Tenebrionibacter/Tenebrionicola group"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 95.9005,
+                  "score": 237,
+                  "evalue": 5.58191e-22,
+                  "identity": 60,
+                  "positive": 74,
+                  "query_from": 20,
+                  "query_to": 122,
+                  "hit_from": 78,
+                  "hit_to": 184,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IEKAIMASDLGLNPSSAGTDIRVPLPPLTEERRKDLIKVVRAEAEQARVSVRNVRRDANDKVKALLKDKEISEDEDRRSQDDVQKLTDAAIKKVDAALAEKETELMQ",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +K+VR EAEQARV+VRNV RDANDK  AL KDKEI+  +  +S  DVQKLTDAAIKK++AALA+ E  L Q"
+                }
+              ]
+            },
+            {
+              "num": 30,
+              "description": [
+                {
+                  "id": "ref|WP_405262309.1|",
+                  "accession": "WP_405262309",
+                  "title": "ribosome recycling factor [Erwinia sp. AnSW2-5]",
+                  "taxid": 3367692,
+                  "sciname": "Erwinia sp. AnSW2-5"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 2.44611e-21,
+                  "identity": 54,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDDDRRSQEDVQKMTDVFIKKIDTALAEKEAEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  DVQK+TD  IKKI+ ALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 31,
+              "description": [
+                {
+                  "id": "ref|WP_214212048.1|",
+                  "accession": "WP_214212048",
+                  "title": "ribosome recycling factor [Rosenbergiella australiborealis]",
+                  "taxid": 1544696,
+                  "sciname": "Rosenbergiella australiborealis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.9745,
+                  "score": 232,
+                  "evalue": 3.9307e-21,
+                  "identity": 55,
+                  "positive": 63,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "ADIRVPLPALTEERRKDLIKIVRAEAEQGRVSVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDISIKKVDAALADKEKEL",
+                  "midline": "A +R   P  TEER KD +KIVR EAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  DVQKLTD +IKK++AALAD E  L"
+                }
+              ]
+            },
+            {
+              "num": 32,
+              "description": [
+                {
+                  "id": "dbj|GAB3419745.1|",
+                  "accession": "GAB3419745",
+                  "title": "ribosome recycling factor [Erwinia aphidicola]",
+                  "taxid": 68334,
+                  "sciname": "Erwinia aphidicola"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 94.3597,
+                  "score": 233,
+                  "evalue": 4.20062e-21,
+                  "identity": 53,
+                  "positive": 63,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 120,
+                  "hit_to": 204,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDDDRRSQEEIQKMTDVGIKKIDAALAEKEAEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  ++QK+TD  IKKI+AALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 33,
+              "description": [
+                {
+                  "id": "ref|WP_075182133.1|",
+                  "accession": "WP_075182133",
+                  "title": "ribosome recycling factor [Pantoea sp. 1.19]",
+                  "taxid": 1925589,
+                  "sciname": "Pantoea sp. 1.19"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 5.49002e-21,
+                  "identity": 52,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKVVRGEAEQGRVAVRNVRRDANDKLKALLKDKEVSEDDERRAQEDIQKLTDGYIKKVDAALADKEKEL",
+                  "midline": "+R   P  TEER KD +K+VRGEAEQ RVAVRNV RDANDK  AL KDKE++  D  ++  D+QKLTD  IKK++AALAD E  L"
+                }
+              ]
+            },
+            {
+              "num": 34,
+              "description": [
+                {
+                  "id": "ref|WP_138095841.1|",
+                  "accession": "WP_138095841",
+                  "title": "ribosome recycling factor [Jejubacter calystegiae]",
+                  "taxid": 2579935,
+                  "sciname": "Jejubacter calystegiae"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.5893,
+                  "score": 231,
+                  "evalue": 5.60964e-21,
+                  "identity": 54,
+                  "positive": 65,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLIKVVRGDAEDARVSVRNVRRNANDKVKALLKDKEISEDDERRSQDEVQKLTDAAIKKIDAALADKEKELME",
+                  "midline": "+R   P  TEER KD +K+VRG+AE ARV+VRNV R+ANDK  AL KDKEI+  D  +S  +VQKLTDAAIKKI+AALAD E  L +"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 45.4394,
+                  "score": 106,
+                  "evalue": 0.00938511,
+                  "identity": 20,
+                  "positive": 24,
+                  "query_from": 9,
+                  "query_to": 37,
+                  "hit_from": 2,
+                  "hit_to": 30,
+                  "align_len": 29,
+                  "gaps": 0,
+                  "qseq": "ISDIRKDAEVRMDKAVEAFKNKLDKFKAA",
+                  "hseq": "ISDIRKDADVRMDKCVEAFKNQISKIRTG",
+                  "midline": "ISDIRKDA+VRMDK VEAFKN++ K +  "
+                }
+              ]
+            },
+            {
+              "num": 35,
+              "description": [
+                {
+                  "id": "ref|WP_191934086.1|",
+                  "accession": "WP_191934086",
+                  "title": "ribosome recycling factor [Erwinia persicina]",
+                  "taxid": 55211,
+                  "sciname": "Erwinia persicina"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 93.2041,
+                  "score": 230,
+                  "evalue": 7.03423e-21,
+                  "identity": 53,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDDDRRCQEDVQKMTDVFIKKIDSALAEKEAEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  +   DVQK+TD  IKKI++ALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 36,
+              "description": [
+                {
+                  "id": "ref|WP_343147048.1|",
+                  "accession": "WP_343147048",
+                  "title": "ribosome recycling factor, partial [Pseudomonas aeruginosa]",
+                  "taxid": 287,
+                  "sciname": "Pseudomonas aeruginosa"
+                }
+              ],
+              "len": 116,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 7.84822e-21,
+                  "identity": 53,
+                  "positive": 56,
+                  "query_from": 38,
+                  "query_to": 109,
+                  "hit_from": 43,
+                  "hit_to": 116,
+                  "align_len": 74,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKI",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKI",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKKI"
+                }
+              ]
+            },
+            {
+              "num": 37,
+              "description": [
+                {
+                  "id": "pdb|4L8I|A",
+                  "accession": "4L8I_A",
+                  "title": "Chain A, RSV epitope scaffold FFL_005 [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.1225,
+                  "score": 222,
+                  "evalue": 2.05579e-20,
+                  "identity": 60,
+                  "positive": 68,
+                  "query_from": 7,
+                  "query_to": 121,
+                  "hit_from": 1,
+                  "hit_to": 111,
+                  "align_len": 115,
+                  "gaps": 4,
+                  "qseq": "GSISDIRKDAEVRMDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLT",
+                  "hseq": "GSMSDIRKDLEERFDKLVEALKNKVDKMKAAFRMDQFHEERMKDWFKDLRKEVEQMRRAVRNYASEALSKI----NDLPITNDDKKLASNDVLKLVAEVWKKLEAILADVEAWFT",
+                  "midline": "GS+SDIRKD E R DK VEA KNK+DK KAA R     EER+KDW K +R E EQ R AVRN   +A  K      D  I   D   +  DV KL     KK+EA LAD+EAW T"
+                }
+              ]
+            },
+            {
+              "num": 38,
+              "description": [
+                {
+                  "id": "ref|WP_206646182.1|",
+                  "accession": "WP_206646182",
+                  "title": "ribosome recycling factor [Providencia rettgeri]",
+                  "taxid": 587,
+                  "sciname": "Providencia rettgeri"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.6633,
+                  "score": 226,
+                  "evalue": 2.50757e-20,
+                  "identity": 56,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 122,
+                  "hit_from": 78,
+                  "hit_to": 184,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IEKAIMASDLGLNPSSAGTVIRVPLPPLTEERRKDLIKVVRGDAEQGRIAVRNVRRDANDKVKALLKDKEISEDDERRSQDDIQKLTDSYIKKVDEALAQKEAELME",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +K+VRG+AEQ R+AVRNV RDANDK  AL KDKEI+  D  +S  D+QKLTD+ IKK++ ALA  EA L +"
+                }
+              ]
+            },
+            {
+              "num": 39,
+              "description": [
+                {
+                  "id": "ref|WP_120134682.1|",
+                  "accession": "WP_120134682",
+                  "title": "ribosome recycling factor [Rahnella woolbedingensis]",
+                  "taxid": 1510574,
+                  "sciname": "Rahnella woolbedingensis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 91.6633,
+                  "score": 226,
+                  "evalue": 2.53472e-20,
+                  "identity": 52,
+                  "positive": 63,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "ATIRVPLPALTEERRKDLIKVVRGEAEQGRVSVRNVRRDANDKTKALLKDKEISEDEDRRSQDDIQKLTDMFIKKIDVALTEKEAELME",
+                  "midline": "A +R   P  TEER KD +K+VRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  +S  D+QKLTD  IKKI+ AL + EA L +"
+                }
+              ]
+            },
+            {
+              "num": 40,
+              "description": [
+                {
+                  "id": "gb|MGO2682581.1|",
+                  "accession": "MGO2682581",
+                  "title": "ribosome-recycling factor [Proteus vulgaris]",
+                  "taxid": 585,
+                  "sciname": "Proteus vulgaris"
+                }
+              ],
+              "len": 96,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 3.18188e-20,
+                  "identity": 52,
+                  "positive": 63,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 7,
+                  "hit_to": 95,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "AIIRVPLPPLTEERRKDLIKVVRGDAEQGRVSVRNIRRDANDKIKALLKDKEISEDDERRSQDDIQKLTDMFIKKIDDALALKEAELME",
+                  "midline": "A +R   P  TEER KD +K+VRG+AEQ RV+VRN+ RDANDK  AL KDKEI+  D  +S  D+QKLTD  IKKI+ ALA  EA L +"
+                }
+              ]
+            },
+            {
+              "num": 41,
+              "description": [
+                {
+                  "id": "gb|MDU6442857.1|",
+                  "accession": "MDU6442857",
+                  "title": "ribosome recycling factor [Pantoea sp.]",
+                  "taxid": 69393,
+                  "sciname": "Pantoea sp."
+                }
+              ],
+              "len": 129,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 3.34501e-20,
+                  "identity": 50,
+                  "positive": 63,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 42,
+                  "hit_to": 128,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKIKALLKDKEISEDDERRTQEEIQKMTDARIKNVDAALAEKEKELME",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  ++  ++QK+TDA IK ++AALA+ E  L +"
+                }
+              ]
+            },
+            {
+              "num": 42,
+              "description": [
+                {
+                  "id": "ref|WP_163769876.1|",
+                  "accession": "WP_163769876",
+                  "title": "ribosome-recycling factor, partial [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 88,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 3.82246e-20,
+                  "identity": 51,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 85,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPPLTEERRKDLIKIVRGEAEQGRVAVRNVRRDANDKVKALLKDKEISEDEERRSQDEIQKMTDAYIKLVDAALAEKEKEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RVAVRNV RDANDK  AL KDKEI+  +  +S  ++QK+TDA IK ++AALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 43,
+              "description": [
+                {
+                  "id": "ref|WP_061796730.1|",
+                  "accession": "WP_061796730",
+                  "title": "MULTISPECIES: ribosome recycling factor [Serratia]",
+                  "taxid": 613,
+                  "sciname": "Serratia"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 4.68229e-20,
+                  "identity": 52,
+                  "positive": 63,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "SVIRVPLPPLTEERRKDLIKVVRGEAEQGRVAVRNVRRDANDKVKALLKDKEISEDEDRRSQDDIQKMTDAYIKLLDAALADKEKEL",
+                  "midline": "+ +R   P  TEER KD +K+VRGEAEQ RVAVRNV RDANDK  AL KDKEI+  +  +S  D+QK+TDA IK ++AALAD E  L"
+                }
+              ]
+            },
+            {
+              "num": 44,
+              "description": [
+                {
+                  "id": "ref|WP_017491978.1|",
+                  "accession": "WP_017491978",
+                  "title": "ribosome recycling factor [Rouxiella badensis]",
+                  "taxid": 1646377,
+                  "sciname": "Rouxiella badensis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 4.94121e-20,
+                  "identity": 56,
+                  "positive": 70,
+                  "query_from": 20,
+                  "query_to": 120,
+                  "hit_from": 78,
+                  "hit_to": 182,
+                  "align_len": 105,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "VEKAIMASDLGLNPMSAGSVIRVPLPPLTEERRKDMIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDEDRRSQDDIQKMTDTYIKAVDKALADKEAEL",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  +S  D+QK+TD  IK ++ ALAD EA L"
+                }
+              ]
+            },
+            {
+              "num": 45,
+              "description": [
+                {
+                  "id": "ref|WP_268631176.1|",
+                  "accession": "WP_268631176",
+                  "title": "ribosome recycling factor, partial [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 114,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 5.50306e-20,
+                  "identity": 51,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 27,
+                  "hit_to": 111,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPPLTEERRKDLIKIVRGEAEQGRVAVRNVRRDANDKVKALLKDKEISEDEERRSQDEIQKMTDAYIKLVDAALAEKEKEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RVAVRNV RDANDK  AL KDKEI+  +  +S  ++QK+TDA IK ++AALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 46,
+              "description": [
+                {
+                  "id": "ref|WP_078002662.1|",
+                  "accession": "WP_078002662",
+                  "title": "ribosome recycling factor [Izhakiella australiensis]",
+                  "taxid": 1926881,
+                  "sciname": "Izhakiella australiensis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 5.68338e-20,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 120,
+                  "hit_from": 78,
+                  "hit_to": 182,
+                  "align_len": 105,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IEKAIMASDLGLNPSSAGSDIRVPLPPLTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKLKALLKDKEIGEDEERRAQDEVQKLTDASIKKIDAALSEKETEL",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI   +  ++  +VQKLTDA+IKKI+AAL++ E  L"
+                }
+              ]
+            },
+            {
+              "num": 47,
+              "description": [
+                {
+                  "id": "ref|WP_003852653.1|",
+                  "accession": "WP_003852653",
+                  "title": "MULTISPECIES: ribosome recycling factor [Pantoea]",
+                  "taxid": 53335,
+                  "sciname": "Pantoea"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 5.74489e-20,
+                  "identity": 51,
+                  "positive": 64,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKIKALLKDKEISEDDERRAQDEVQKMTDAYIKKVDAALSEKESEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  ++  +VQK+TDA IKK++AAL++ E+ L"
+                }
+              ]
+            },
+            {
+              "num": 48,
+              "description": [
+                {
+                  "id": "ref|WP_225700974.1|",
+                  "accession": "WP_225700974",
+                  "title": "ribosome recycling factor [Duffyella gerundensis]",
+                  "taxid": 1619313,
+                  "sciname": "Duffyella gerundensis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.8929,
+                  "score": 224,
+                  "evalue": 5.99763e-20,
+                  "identity": 49,
+                  "positive": 65,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANEKLKALLKDKEVSEDEERRAQEEIQKMTDASIKKVDAALADKETELME",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDAN+K  AL KDKE++  +  ++  ++QK+TDA+IKK++AALAD E  L +"
+                }
+              ]
+            },
+            {
+              "num": 49,
+              "description": [
+                {
+                  "id": "ref|WP_162368263.1|",
+                  "accession": "WP_162368263",
+                  "title": "ribosome recycling factor [Acerihabitans arboris]",
+                  "taxid": 2691583,
+                  "sciname": "Acerihabitans arboris"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.5077,
+                  "score": 223,
+                  "evalue": 8.10692e-20,
+                  "identity": 55,
+                  "positive": 73,
+                  "query_from": 20,
+                  "query_to": 122,
+                  "hit_from": 78,
+                  "hit_to": 184,
+                  "align_len": 107,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "VEKAIMASDLGLNPSSAGTVIRVPLPPLTEERRRDLIKVVRAEAEQGRVSVRNVRRDANDKVKAMLKDKEISEDEDRRSQDDIQKLTDAFIKKVDSALADKEAELME",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER +D +K+VR EAEQ RV+VRNV RDANDK  A+ KDKEI+  +  +S  D+QKLTDA IKK+++ALAD EA L +"
+                }
+              ]
+            },
+            {
+              "num": 50,
+              "description": [
+                {
+                  "id": "ref|WP_422794618.1|",
+                  "accession": "WP_422794618",
+                  "title": "ribosome recycling factor [Rouxiella sp. Mn2063]",
+                  "taxid": 3395262,
+                  "sciname": "Rouxiella sp. Mn2063"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.5077,
+                  "score": 223,
+                  "evalue": 8.55509e-20,
+                  "identity": 61,
+                  "positive": 81,
+                  "query_from": 2,
+                  "query_to": 120,
+                  "hit_from": 41,
+                  "hit_to": 182,
+                  "align_len": 142,
+                  "gaps": 23,
+                  "qseq": "HHHHHGSISDIRKDAEVRMD-------------------KAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "HVEYYGSSTPLRQLANVTVEDTRTLAVSVFDRSISSAVEKAIMSSDLGLNPMSAGTVIRVPLPPLTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDEERGCQEDVQKMTDIFIKKVDAALSEKEAEL",
+                  "midline": "H  ++GS + +R+ A V ++                   KA+ +    L+   A   +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +      DVQK+TD  IKK++AAL++ EA L"
+                }
+              ]
+            },
+            {
+              "num": 51,
+              "description": [
+                {
+                  "id": "emb|SPX12036.1|",
+                  "accession": "SPX12036",
+                  "title": "ribosome recycling factor [Escherichia coli]",
+                  "taxid": 562,
+                  "sciname": "Escherichia coli"
+                }
+              ],
+              "len": 166,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 1.27503e-19,
+                  "identity": 52,
+                  "positive": 57,
+                  "query_from": 38,
+                  "query_to": 110,
+                  "hit_from": 83,
+                  "hit_to": 157,
+                  "align_len": 75,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIE",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKDKEISEDDDRRSQDDVQKLTDAAIKKLK",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL KDKEI+  D  +S  DVQKLTDAAIKK++"
+                }
+              ]
+            },
+            {
+              "num": 52,
+              "description": [
+                {
+                  "id": "ref|WP_413650030.1|",
+                  "accession": "WP_413650030",
+                  "title": "ribosome recycling factor [Pantoea sp. B65]",
+                  "taxid": 2813359,
+                  "sciname": "Pantoea sp. B65"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 1.43392e-19,
+                  "identity": 52,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "ADIRVPLPALTEERRKDLIKVVRGEAEQGRVSVRNVRRDANDKVKALLKDKVISEDDERRSQDEIQKMTDVYIKKIDVALADKEAEL",
+                  "midline": "A +R   P  TEER KD +K+VRGEAEQ RV+VRNV RDANDK  AL KDK I+  D  +S  ++QK+TD  IKKI+ ALAD EA L"
+                }
+              ]
+            },
+            {
+              "num": 53,
+              "description": [
+                {
+                  "id": "dbj|BCT07462.1|",
+                  "accession": "BCT07462",
+                  "title": "ribosome-recycling factor [Providencia vermicola]",
+                  "taxid": 333965,
+                  "sciname": "Providencia vermicola"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 90.5077,
+                  "score": 223,
+                  "evalue": 1.4598e-19,
+                  "identity": 51,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 124,
+                  "hit_to": 212,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "TVIRVPLPPLTEERRKDLIKVVRGEAEQGRIAVRNVRRDANDKVKALLKDKEISEDDERRSQDDIQKLTDNYIKKVDESLAQKEAELME",
+                  "midline": "  +R   P  TEER KD +K+VRGEAEQ R+AVRNV RDANDK  AL KDKEI+  D  +S  D+QKLTD  IKK++ +LA  EA L +"
+                }
+              ]
+            },
+            {
+              "num": 54,
+              "description": [
+                {
+                  "id": "ref|WP_349459956.1|",
+                  "accession": "WP_349459956",
+                  "title": "ribosome recycling factor, partial [Proteus sp. fly-1067]",
+                  "taxid": 3136674,
+                  "sciname": "Proteus sp. fly-1067"
+                }
+              ],
+              "len": 126,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 1.52432e-19,
+                  "identity": 51,
+                  "positive": 61,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 39,
+                  "hit_to": 125,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPFTEERRKDLIKVVRAEAEQGRIAVRNVRRDANDKVKALLKDKEISEDDERRSQDDIQKLTDNFIKKVDDALAQKEAELME",
+                  "midline": "+R   P  TEER KD +K+VR EAEQ R+AVRNV RDANDK  AL KDKEI+  D  +S  D+QKLTD  IKK++ ALA  EA L +"
+                }
+              ]
+            },
+            {
+              "num": 55,
+              "description": [
+                {
+                  "id": "ref|WP_015673561.1|",
+                  "accession": "WP_015673561",
+                  "title": "MULTISPECIES: ribosome recycling factor [Serratia]",
+                  "taxid": 613,
+                  "sciname": "Serratia"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.7373,
+                  "score": 221,
+                  "evalue": 1.5628e-19,
+                  "identity": 51,
+                  "positive": 63,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDEERRSQDDIQKMTDAYIKLVDAALAEKEKELME",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  +S  D+QK+TDA IK ++AALA+ E  L +"
+                }
+              ]
+            },
+            {
+              "num": 56,
+              "description": [
+                {
+                  "id": "gb|MCE1713708.1|",
+                  "accession": "MCE1713708",
+                  "title": "ribosome recycling factor [Enterobacter hormaechei]",
+                  "taxid": 158836,
+                  "sciname": "Enterobacter hormaechei"
+                }
+              ],
+              "len": 146,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 1.77781e-19,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 59,
+                  "hit_to": 143,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPPLTEERRKDLIKVVRGEAEQGRVSIRNIRRDANDKVKALLKDKEISEDEERRSQDDIQKLTDSFIKKIDEALANKETEL",
+                  "midline": "+R   P  TEER KD +K+VRGEAEQ RV++RN+ RDANDK  AL KDKEI+  +  +S  D+QKLTD+ IKKI+ ALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 57,
+              "description": [
+                {
+                  "id": "ref|WP_025380995.1|",
+                  "accession": "WP_025380995",
+                  "title": "ribosome recycling factor [Yersinia similis]",
+                  "taxid": 367190,
+                  "sciname": "Yersinia similis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 89.3521,
+                  "score": 220,
+                  "evalue": 2.27723e-19,
+                  "identity": 52,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKVVRAEAEQGRVSIRNVRRDANDKVKALLKDKEISEDEDRRSQDDVQKLTDAYIKKVDAALAVKEAEL",
+                  "midline": "+R   P  TEER KD +K+VR EAEQ RV++RNV RDANDK  AL KDKEI+  +  +S  DVQKLTDA IKK++AALA  EA L"
+                }
+              ]
+            },
+            {
+              "num": 58,
+              "description": [
+                {
+                  "id": "gb|PVF10973.1|",
+                  "accession": "PVF10973",
+                  "title": "ribosome recycling factor, partial [Yersinia pestis]",
+                  "taxid": 632,
+                  "sciname": "Yersinia pestis"
+                }
+              ],
+              "len": 115,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 2.56423e-19,
+                  "identity": 49,
+                  "positive": 59,
+                  "query_from": 38,
+                  "query_to": 114,
+                  "hit_from": 37,
+                  "hit_to": 115,
+                  "align_len": 79,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALA",
+                  "hseq": "IRVPLPALTEERRKDLIKVVRAEAEQGRVSIRNVRRDANDKVKALLKDKEISEDEDRRSQDDVQKLTDAYIKKVDAALA",
+                  "midline": "+R   P  TEER KD +K+VR EAEQ RV++RNV RDANDK  AL KDKEI+  +  +S  DVQKLTDA IKK++AALA"
+                }
+              ]
+            },
+            {
+              "num": 59,
+              "description": [
+                {
+                  "id": "gb|MGL5799810.1|",
+                  "accession": "MGL5799810",
+                  "title": "ribosome recycling factor [Plesiomonas sp.]",
+                  "taxid": 2486279,
+                  "sciname": "Plesiomonas sp."
+                }
+              ],
+              "len": 121,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 2.58761e-19,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 32,
+                  "hit_to": 118,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "ATIRVPLPALTEERRKDLIKVVRGEAEQGRVSVRNVRRDANEKIKALLKDKEISEDDERRSQDDIQKITDLMVKKVDEALAEKEKEL",
+                  "midline": "A +R   P  TEER KD +K+VRGEAEQ RV+VRNV RDAN+K  AL KDKEI+  D  +S  D+QK+TD  +KK++ ALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 60,
+              "description": [
+                {
+                  "id": "ref|WP_009638351.1|",
+                  "accession": "WP_009638351",
+                  "title": "MULTISPECIES: ribosome recycling factor [Yersiniaceae]",
+                  "taxid": 1903411,
+                  "sciname": "Yersiniaceae"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 2.76364e-19,
+                  "identity": 50,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "STIRVPLPPLTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDEDRRSQDDIQKMTDVFIKSIDKSLSDKEAEL",
+                  "midline": "+ +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  +S  D+QK+TD  IK I+ +L+D EA L"
+                }
+              ]
+            },
+            {
+              "num": 61,
+              "description": [
+                {
+                  "id": "ref|WP_318788885.1|",
+                  "accession": "WP_318788885",
+                  "title": "MULTISPECIES: ribosome recycling factor [unclassified Erwinia]",
+                  "taxid": 2622719,
+                  "sciname": "unclassified Erwinia"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.9669,
+                  "score": 219,
+                  "evalue": 2.94784e-19,
+                  "identity": 50,
+                  "positive": 61,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDEERRSQDDIQKMTDLFIKKVDTALAEKETEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  +S  D+QK+TD  IKK++ ALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 62,
+              "description": [
+                {
+                  "id": "ref|WP_016190338.1|",
+                  "accession": "WP_016190338",
+                  "title": "ribosome recycling factor [Erwinia tracheiphila]",
+                  "taxid": 65700,
+                  "sciname": "Erwinia tracheiphila"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 5.10096e-19,
+                  "identity": 50,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKVLLKDKEISEDEERRSQDYIQKMTDICIKKVDAALAEKEAELME",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK   L KDKEI+  +  +S   +QK+TD  IKK++AALA+ EA L +"
+                }
+              ]
+            },
+            {
+              "num": 63,
+              "description": [
+                {
+                  "id": "ref|WP_025800224.1|",
+                  "accession": "WP_025800224",
+                  "title": "MULTISPECIES: ribosome recycling factor [Hafnia]",
+                  "taxid": 568,
+                  "sciname": "Hafnia"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 5.10096e-19,
+                  "identity": 51,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "AVIRVPLPALTEERRKDLIKLVRAEAEQGRVSVRNVRRDANDKVKVLLKDKEISEDEDRKSQDEVQKMTDVMIKKIDAALADKEKELME",
+                  "midline": "A +R   P  TEER KD +K+VR EAEQ RV+VRNV RDANDK   L KDKEI+  +  +S  +VQK+TD  IKKI+AALAD E  L +"
+                }
+              ]
+            },
+            {
+              "num": 64,
+              "description": [
+                {
+                  "id": "ref|WP_325935423.1|",
+                  "accession": "WP_325935423",
+                  "title": "ribosome recycling factor [Proteus cibi]",
+                  "taxid": 2050966,
+                  "sciname": "Proteus cibi"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 8.92053e-19,
+                  "identity": 50,
+                  "positive": 63,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "AIIRVPLPPLTEERRKDLIKVVRGDAEQGRISIRNIRRDANDKVKALLKDKEISEDDERRSQDDIQKLTDMFIKKIDDALALKEAELME",
+                  "midline": "A +R   P  TEER KD +K+VRG+AEQ R+++RN+ RDANDK  AL KDKEI+  D  +S  D+QKLTD  IKKI+ ALA  EA L +"
+                }
+              ]
+            },
+            {
+              "num": 65,
+              "description": [
+                {
+                  "id": "ref|WP_042525743.1|",
+                  "accession": "WP_042525743",
+                  "title": "ribosome recycling factor [Yersinia ruckeri]",
+                  "taxid": 29486,
+                  "sciname": "Yersinia ruckeri"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 9.01691e-19,
+                  "identity": 50,
+                  "positive": 61,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "SVIRVPLPPLTEERRKDLIKVARGEAEQGRVSVRNVRRDTNDKVKALLKDKAISEDDDRRCQDDVQKMTDSYIKKIDAALAEKEAEL",
+                  "midline": "+ +R   P  TEER KD +K+ RGEAEQ RV+VRNV RD NDK  AL KDK I+  D  +   DVQK+TD+ IKKI+AALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 66,
+              "description": [
+                {
+                  "id": "gb|ATO31945.1|",
+                  "accession": "ATO31945",
+                  "title": "Ribosome recycling factor [Dickeya dianthicola RNS04.9]",
+                  "taxid": 1306405,
+                  "sciname": "Dickeya dianthicola RNS04.9"
+                }
+              ],
+              "len": 207,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 9.3049e-19,
+                  "identity": 62,
+                  "positive": 81,
+                  "query_from": 2,
+                  "query_to": 120,
+                  "hit_from": 63,
+                  "hit_to": 204,
+                  "align_len": 142,
+                  "gaps": 23,
+                  "qseq": "HHHHHGSISDIRKDAEV-------------------RMDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "HVEYYGSATPLRQLANIVVEDTRTLAVTVFDRTLGPAVEKAIMASDLGLNPMSAGTVIRVPLPPLTEERRKDLIKVVRGEAEQSRVAVRNVRRDANDKLKAQLKDKTISEDDERRSQDDVQKLTDSFIKKIDAVLAEKEKEL",
+                  "midline": "H  ++GS + +R+ A +                    ++KA+ A    L+   A   +R   P  TEER KD +K+VRGEAEQ+RVAVRNV RDANDK  A  KDK I+  D  +S  DVQKLTD+ IKKI+A LA+ E  L"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 44.669,
+                  "score": 104,
+                  "evalue": 0.025525,
+                  "identity": 19,
+                  "positive": 24,
+                  "query_from": 6,
+                  "query_to": 37,
+                  "hit_from": 21,
+                  "hit_to": 52,
+                  "align_len": 32,
+                  "gaps": 0,
+                  "qseq": "HGSISDIRKDAEVRMDKAVEAFKNKLDKFKAA",
+                  "hseq": "HNVINEIRKDAETRMDKCVEAFKNQISKVRTG",
+                  "midline": "H  I++IRKDAE RMDK VEAFKN++ K +  "
+                }
+              ]
+            },
+            {
+              "num": 67,
+              "description": [
+                {
+                  "id": "ref|WP_332738296.1|",
+                  "accession": "WP_332738296",
+                  "title": "ribosome recycling factor [Rouxiella sp. T17]",
+                  "taxid": 3085684,
+                  "sciname": "Rouxiella sp. T17"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.8113,
+                  "score": 216,
+                  "evalue": 9.93257e-19,
+                  "identity": 50,
+                  "positive": 63,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "ATIRVPLPPLTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKLKALLKDKEISEDEDRRSQDEIQKMTDIFIKKVDVALSEKEAEL",
+                  "midline": "A +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  +S  ++QK+TD  IKK++ AL++ EA L"
+                }
+              ]
+            },
+            {
+              "num": 68,
+              "description": [
+                {
+                  "id": "ref|WP_169401018.1|",
+                  "accession": "WP_169401018",
+                  "title": "ribosome recycling factor [Rouxiella aceris]",
+                  "taxid": 2703884,
+                  "sciname": "Rouxiella aceris"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 1.01484e-18,
+                  "identity": 54,
+                  "positive": 70,
+                  "query_from": 20,
+                  "query_to": 120,
+                  "hit_from": 78,
+                  "hit_to": 182,
+                  "align_len": 105,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKA--AVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "VEKAIMASDLGLNPMSAGSTIRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKLKALLKDKEISEDEDRRSQDEIQKMTDIFIKKVDQALSDKETEL",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  +S  ++QK+TD  IKK++ AL+D E  L"
+                }
+              ]
+            },
+            {
+              "num": 69,
+              "description": [
+                {
+                  "id": "ref|WP_086108915.1|",
+                  "accession": "WP_086108915",
+                  "title": "ribosome recycling factor [Xenorhabdus vietnamensis]",
+                  "taxid": 351656,
+                  "sciname": "Xenorhabdus vietnamensis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 1.04808e-18,
+                  "identity": 48,
+                  "positive": 61,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPPLTEERRKDLIKVVRGEAEQGRVSIRNIRRDANDKVKNLLKDKEISEDEERRSQEDIQKLTDSFIKKIDEALANKETEL",
+                  "midline": "+R   P  TEER KD +K+VRGEAEQ RV++RN+ RDANDK   L KDKEI+  +  +S  D+QKLTD+ IKKI+ ALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 70,
+              "description": [
+                {
+                  "id": "ref|WP_070135562.1|",
+                  "accession": "WP_070135562",
+                  "title": "ribosome recycling factor [Candidatus Erwinia dacicola]",
+                  "taxid": 252393,
+                  "sciname": "Candidatus Erwinia dacicola"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 1.05941e-18,
+                  "identity": 51,
+                  "positive": 61,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKHKEISENDDRRLQEEIQKMTDVDIKKIDAALAEKEAEL",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL K KEI+  D  +   ++QK+TD  IKKI+AALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 71,
+              "description": [
+                {
+                  "id": "ref|WP_128601403.1|",
+                  "accession": "WP_128601403",
+                  "title": "ribosome recycling factor [Pantoea wallisii]",
+                  "taxid": 1076551,
+                  "sciname": "Pantoea wallisii"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.4261,
+                  "score": 215,
+                  "evalue": 1.14217e-18,
+                  "identity": 49,
+                  "positive": 63,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKIKALLKDKEISEDDERRAQDEIQKMTDVSIKHVDAALAEKEKELME",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  ++  ++QK+TD +IK ++AALA+ E  L +"
+                }
+              ]
+            },
+            {
+              "num": 72,
+              "description": [
+                {
+                  "id": "ref|WP_114194495.1|",
+                  "accession": "WP_114194495",
+                  "title": "ribosome recycling factor [Edaphovirga cremea]",
+                  "taxid": 2267246,
+                  "sciname": "Edaphovirga cremea"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 1.54305e-18,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "ASIRVPLPALTEERRKDLIKVVRSEAEQGRVSVRNVRRDVNDKVKALLKDKEISEDEERRTQDDIQKFTDMFVKKIDAALAEKEAEL",
+                  "midline": "A++R   P  TEER KD +K+VR EAEQ RV+VRNV RD NDK  AL KDKEI+  +  ++  D+QK TD  +KKI+AALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 73,
+              "description": [
+                {
+                  "id": "gb|EHW1147769.1|",
+                  "accession": "EHW1147769",
+                  "title": "ribosome recycling factor [Salmonella enterica subsp. enterica serovar Heidelberg]",
+                  "taxid": 611,
+                  "sciname": "Salmonella enterica subsp. enterica serovar Heidelberg"
+                }
+              ],
+              "len": 68,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.9593,
+                  "score": 206,
+                  "evalue": 1.55486e-18,
+                  "identity": 47,
+                  "positive": 53,
+                  "query_from": 56,
+                  "query_to": 122,
+                  "hit_from": 1,
+                  "hit_to": 67,
+                  "align_len": 67,
+                  "gaps": 0,
+                  "qseq": "RGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "RGEAEQARVAVRNVRRDANDKVKALLKDKAISEDDDRRSQEEVQKMTDAAIKKVDAALADKEAELMQ",
+                  "midline": "RGEAEQARVAVRNV RDANDK  AL KDK I+  D  +S  +VQK+TDAAIKK++AALAD EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 74,
+              "description": [
+                {
+                  "id": "ref|WP_373777530.1|",
+                  "accession": "WP_373777530",
+                  "title": "ribosome recycling factor [Glaesserella sp.]",
+                  "taxid": 2094731,
+                  "sciname": "Glaesserella sp."
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 1.85222e-18,
+                  "identity": 49,
+                  "positive": 60,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "TTIRVPLPPLTEERRRDLIKIVKGEAEQGKVAVRNVRRDANDKIKALLKDKEISENDERKAQEDIQKLTDTYIKKMDEVLADKEKEL",
+                  "midline": "  +R   P  TEER +D +KIV+GEAEQ +VAVRNV RDANDK  AL KDKEI+  D  ++  D+QKLTD  IKK++  LAD E  L"
+                }
+              ]
+            },
+            {
+              "num": 75,
+              "description": [
+                {
+                  "id": "emb|SQC39096.1|",
+                  "accession": "SQC39096",
+                  "title": "ribosome recycling factor [Klebsiella pneumoniae]",
+                  "taxid": 573,
+                  "sciname": "Klebsiella pneumoniae"
+                }
+              ],
+              "len": 167,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 1.85613e-18,
+                  "identity": 55,
+                  "positive": 65,
+                  "query_from": 20,
+                  "query_to": 109,
+                  "hit_from": 64,
+                  "hit_to": 157,
+                  "align_len": 94,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKI",
+                  "hseq": "VEKAIMASDLGLNPSSAGSDIRVPLPPLTEERRKDLTKIVRGEAEQARVAVRNVRRDANDKVKALLKEKEISEDDDRRSQDDVQKMTDAAIKKL",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD  KIVRGEAEQARVAVRNV RDANDK  AL K+KEI+  D  +S  DVQK+TDAAIKK+"
+                }
+              ]
+            },
+            {
+              "num": 76,
+              "description": [
+                {
+                  "id": "ref|WP_105232306.1|",
+                  "accession": "WP_105232306",
+                  "title": "MULTISPECIES: ribosome recycling factor [unclassified Serratia (in: enterobacteria)]",
+                  "taxid": 2647522,
+                  "sciname": "unclassified Serratia (in: enterobacteria)"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.6557,
+                  "score": 213,
+                  "evalue": 2.42277e-18,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKVKALLKDKEISEDEERRAQDDIQKMTDAYIKLVDTALAEKEKELME",
+                  "midline": "+R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  +  ++  D+QK+TDA IK ++ ALA+ E  L +"
+                }
+              ]
+            },
+            {
+              "num": 77,
+              "description": [
+                {
+                  "id": "gb|MGL5221846.1|",
+                  "accession": "MGL5221846",
+                  "title": "ribosome recycling factor [Plesiomonas shigelloides]",
+                  "taxid": 703,
+                  "sciname": "Plesiomonas shigelloides"
+                }
+              ],
+              "len": 155,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 2.92333e-18,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 66,
+                  "hit_to": 154,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "ATIRVPLPPLTEERRKDLIKIVRAEAEQGRVSVRNVRRDANDKIKALLKDKEISEDDERRSQDEIQKITDLMVKKVDEALAEKEKELME",
+                  "midline": "A +R   P  TEER KD +KIVR EAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  ++QK+TD  +KK++ ALA+ E  L +"
+                }
+              ]
+            },
+            {
+              "num": 78,
+              "description": [
+                {
+                  "id": "ref|WP_150437178.1|",
+                  "accession": "WP_150437178",
+                  "title": "ribosome recycling factor [Affinibrenneria salicis]",
+                  "taxid": 2590031,
+                  "sciname": "Affinibrenneria salicis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 3.03568e-18,
+                  "identity": 51,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "AVIRVPLPPLTEERRKDLIKIVRGEAEQSRVSVRNVRRDANDKLKAQLKDKAISEDEERRAQDDIQKLTDGFIKKIDAALAEKETEL",
+                  "midline": "A +R   P  TEER KD +KIVRGEAEQ+RV+VRNV RDANDK  A  KDK I+  +  ++  D+QKLTD  IKKI+AALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 79,
+              "description": [
+                {
+                  "id": "emb|CNH49830.1|",
+                  "accession": "CNH49830",
+                  "title": "ribosome recycling factor [Yersinia pekkanenii]",
+                  "taxid": 1288385,
+                  "sciname": "Yersinia pekkanenii"
+                }
+              ],
+              "len": 213,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 87.0409,
+                  "score": 214,
+                  "evalue": 3.13245e-18,
+                  "identity": 50,
+                  "positive": 61,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 124,
+                  "hit_to": 210,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "TVIRVPLPALTEERRKDLIKVVRAEAEQGRVSIRNVRRDANDKVKALLKDKEISEDEDRRSQEEVQKLTDAFIKKVDAALAAKETEL",
+                  "midline": "  +R   P  TEER KD +K+VR EAEQ RV++RNV RDANDK  AL KDKEI+  +  +S  +VQKLTDA IKK++AALA  E  L"
+                }
+              ]
+            },
+            {
+              "num": 80,
+              "description": [
+                {
+                  "id": "ref|WP_368876014.1|",
+                  "accession": "WP_368876014",
+                  "title": "ribosome recycling factor, partial [Proteus mirabilis]",
+                  "taxid": 584,
+                  "sciname": "Proteus mirabilis"
+                }
+              ],
+              "len": 136,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.7297,
+                  "score": 208,
+                  "evalue": 3.50873e-18,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 47,
+                  "hit_to": 135,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "AIIRVPLPPLTEERRKDLIKVVRGDAEQGRVSIRNIRRDANDKIKALLKDKEISEDDERRSQDEIQKLTDMFIKKIDEALTLKEAELME",
+                  "midline": "A +R   P  TEER KD +K+VRG+AEQ RV++RN+ RDANDK  AL KDKEI+  D  +S  ++QKLTD  IKKI+ AL   EA L +"
+                }
+              ]
+            },
+            {
+              "num": 81,
+              "description": [
+                {
+                  "id": "ref|WP_116586050.1|",
+                  "accession": "WP_116586050",
+                  "title": "ribosome recycling factor [Pectobacterium versatile]",
+                  "taxid": 2488639,
+                  "sciname": "Pectobacterium versatile"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 3.88609e-18,
+                  "identity": 60,
+                  "positive": 82,
+                  "query_from": 2,
+                  "query_to": 122,
+                  "hit_from": 41,
+                  "hit_to": 184,
+                  "align_len": 144,
+                  "gaps": 23,
+                  "qseq": "HHHHHGSISDIRKDAEV-------------------RMDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "HIDYYGSATPLRQVANVVVEDSRTLAISVFDRSLGPAVEKAIMASDLGLNPSSAGTVIRVPLPPLTEERRKDLIKVVRGEAEQGRISVRNVRRDANDKLKALLKDKAISEDEERRAQDDVQKLTDNFIKKVDVALAEKEAELME",
+                  "midline": "H  ++GS + +R+ A V                    ++KA+ A    L+   A   +R   P  TEER KD +K+VRGEAEQ R++VRNV RDANDK  AL KDK I+  +  ++  DVQKLTD  IKK++ ALA+ EA L +"
+                }
+              ]
+            },
+            {
+              "num": 82,
+              "description": [
+                {
+                  "id": "ref|WP_021014875.1|",
+                  "accession": "WP_021014875",
+                  "title": "ribosome recycling factor [Prodigiosinella confusarubida]",
+                  "taxid": 104623,
+                  "sciname": "Prodigiosinella confusarubida"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 3.92804e-18,
+                  "identity": 48,
+                  "positive": 63,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "SVIRVPLPPLTEERRKDLIKVVRGEAEQSRVSVRNVRRDANDKLKAQLKDKTISEDEEHRAQDDIQKLTDSYIKKVDATLADKESEL",
+                  "midline": "+ +R   P  TEER KD +K+VRGEAEQ+RV+VRNV RDANDK  A  KDK I+  +  ++  D+QKLTD+ IKK++A LAD E+ L"
+                }
+              ]
+            },
+            {
+              "num": 83,
+              "description": [
+                {
+                  "id": "ref|WP_385877181.1|",
+                  "accession": "WP_385877181",
+                  "title": "ribosome recycling factor [Thorsellia kenyensis]",
+                  "taxid": 1549888,
+                  "sciname": "Thorsellia kenyensis"
+                }
+              ],
+              "len": 187,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 86.2705,
+                  "score": 212,
+                  "evalue": 4.10724e-18,
+                  "identity": 48,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "TSIRVPLPPLTEERRKDLIKIVKAEAEQGRVSVRNVRRDANDKLKALLKDKEISEDDERRAQDEIQKMTDAVIKKVDVALAEKETEL",
+                  "midline": " ++R   P  TEER KD +KIV+ EAEQ RV+VRNV RDANDK  AL KDKEI+  D  ++  ++QK+TDA IKK++ ALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 84,
+              "description": [
+                {
+                  "id": "ref|WP_010864530.1|",
+                  "accession": "WP_010864530",
+                  "title": "MULTISPECIES: ribosome recycling factor [Plesiomonas]",
+                  "taxid": 702,
+                  "sciname": "Plesiomonas"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.8853,
+                  "score": 211,
+                  "evalue": 5.30548e-18,
+                  "identity": 49,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "ATIRVPLPPLTEERRKDLIKIVRAEAEQGRVSVRNVRRDANDKIKALLKDKEISEDDERRSQDEIQKITDLMVKKVDEALAEKEKELME",
+                  "midline": "A +R   P  TEER KD +KIVR EAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  ++QK+TD  +KK++ ALA+ E  L +"
+                }
+              ]
+            },
+            {
+              "num": 85,
+              "description": [
+                {
+                  "id": "ref|WP_313448027.1|",
+                  "accession": "WP_313448027",
+                  "title": "ribosome recycling factor [Pseudescherichia sp.]",
+                  "taxid": 2055881,
+                  "sciname": "Pseudescherichia sp."
+                }
+              ],
+              "len": 181,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 5.51664e-18,
+                  "identity": 53,
+                  "positive": 67,
+                  "query_from": 20,
+                  "query_to": 122,
+                  "hit_from": 78,
+                  "hit_to": 180,
+                  "align_len": 103,
+                  "gaps": 0,
+                  "qseq": "MDKAVEAFKNKLDKFKAAVRKVFPTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "VEKAIMASDLGLNPSSAGTDIRVPLPPLPEELIKVVRGEAEGARVAVRNVRRDANDKVKALLKDKAISEDEDRRSQDDVQKLTDVAIKKVDAALAEKEAELMQ",
+                  "midline": "++KA+ A    L+   A      P     ++ +K+VRGEAE ARVAVRNV RDANDK  AL KDK I+  +  +S  DVQKLTD AIKK++AALA+ EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 86,
+              "description": [
+                {
+                  "id": "ref|WP_012883663.1|",
+                  "accession": "WP_012883663",
+                  "title": "MULTISPECIES: ribosome recycling factor [Dickeya]",
+                  "taxid": 204037,
+                  "sciname": "Dickeya"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 5.65843e-18,
+                  "identity": 60,
+                  "positive": 80,
+                  "query_from": 2,
+                  "query_to": 120,
+                  "hit_from": 41,
+                  "hit_to": 182,
+                  "align_len": 142,
+                  "gaps": 23,
+                  "qseq": "HHHHHGSISDIRKDAEV-------------------RMDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "HVEYYGSATPLRQLANIVVEDSRTLAVTVFDRTLGPAVEKAIMASDLGLNPMSAGTVIRVPLPPLTEERRKDLIKVVRGEAEQGRVSVRNVRRDANDKLKAQLKDKTISEDEERRAQDDVQKLTDGFIKKIDAALAEKEKEL",
+                  "midline": "H  ++GS + +R+ A +                    ++KA+ A    L+   A   +R   P  TEER KD +K+VRGEAEQ RV+VRNV RDANDK  A  KDK I+  +  ++  DVQKLTD  IKKI+AALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 87,
+              "description": [
+                {
+                  "id": "ref|WP_337252288.1|",
+                  "accession": "WP_337252288",
+                  "title": "ribosome recycling factor [Moellerella wisconsensis]",
+                  "taxid": 158849,
+                  "sciname": "Moellerella wisconsensis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 5.78122e-18,
+                  "identity": 51,
+                  "positive": 60,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "TVLRVPLPALTEERRKDLIKVVRNEAEQGRIAVRNVRRDANDKIKALLKDKEISEDEERRSQDDIQKLTDGFIKKIDQALALKEAEL",
+                  "midline": "  +R   P  TEER KD +K+VR EAEQ R+AVRNV RDANDK  AL KDKEI+  +  +S  D+QKLTD  IKKI+ ALA  EA L"
+                }
+              ]
+            },
+            {
+              "num": 88,
+              "description": [
+                {
+                  "id": "emb|CAL6481353.1|",
+                  "accession": "CAL6481353",
+                  "title": "Ribosome-recycling factor [Candidatus Pluralibacter haementeriicola]",
+                  "taxid": 3158258,
+                  "sciname": "Candidatus Pluralibacter haementeriicola"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.5001,
+                  "score": 210,
+                  "evalue": 6.64691e-18,
+                  "identity": 47,
+                  "positive": 61,
+                  "query_from": 38,
+                  "query_to": 122,
+                  "hit_from": 98,
+                  "hit_to": 184,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "IRVPLPPLTEERRKDLIKVVRGEAEQARIAVRNIRREANDKVKILLKEKKISEDDERHSQDEMQKMTDMTIKKVDTALVDKEAELMQ",
+                  "midline": "+R   P  TEER KD +K+VRGEAEQAR+AVRN+ R+ANDK   L K+K+I+  D   S  ++QK+TD  IKK++ AL D EA L Q"
+                }
+              ]
+            },
+            {
+              "num": 89,
+              "description": [
+                {
+                  "id": "ref|WP_234500544.1|",
+                  "accession": "WP_234500544",
+                  "title": "ribosome-recycling factor, partial [Yersinia pseudotuberculosis]",
+                  "taxid": 633,
+                  "sciname": "Yersinia pseudotuberculosis"
+                }
+              ],
+              "len": 75,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 82.0333,
+                  "score": 201,
+                  "evalue": 8.06394e-18,
+                  "identity": 46,
+                  "positive": 55,
+                  "query_from": 49,
+                  "query_to": 120,
+                  "hit_from": 1,
+                  "hit_to": 72,
+                  "align_len": 72,
+                  "gaps": 0,
+                  "qseq": "KDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "KDLIKVVRAEAEQGRVSIRNVRRDANDKVKALLKDKEISEDEDRRSQDDVQKLTDAYIKKVDAALAVKEAEL",
+                  "midline": "KD +K+VR EAEQ RV++RNV RDANDK  AL KDKEI+  +  +S  DVQKLTDA IKK++AALA  EA L"
+                }
+              ]
+            },
+            {
+              "num": 90,
+              "description": [
+                {
+                  "id": "ref|WP_159565835.1|",
+                  "accession": "WP_159565835",
+                  "title": "ribosome recycling factor [Budvicia diplopodorum]",
+                  "taxid": 1119056,
+                  "sciname": "Budvicia diplopodorum"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 9.67711e-18,
+                  "identity": 48,
+                  "positive": 60,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "TVIRVPLPALTEERRKDLIKVVRAEAENGRISVRNVRRDANDKVKALLKDKEISEDDDRKSQDEIQKLTDVFIKKVDTALAEKEAEL",
+                  "midline": "  +R   P  TEER KD +K+VR EAE  R++VRNV RDANDK  AL KDKEI+  D  +S  ++QKLTD  IKK++ ALA+ EA L"
+                }
+              ]
+            },
+            {
+              "num": 91,
+              "description": [
+                {
+                  "id": "ref|WP_072932483.1|",
+                  "accession": "WP_072932483",
+                  "title": "MULTISPECIES: ribosome recycling factor [Yersiniaceae]",
+                  "taxid": 1903411,
+                  "sciname": "Yersiniaceae"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 85.1149,
+                  "score": 209,
+                  "evalue": 9.88703e-18,
+                  "identity": 48,
+                  "positive": 61,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "AVIRVPLPALTEERRKDLIKVVRNEAEQGRVSVRNVRRDANEKVKALLKDKEISEDEERRSQDDIQKMTDVFIKKIDVTLTEKEAELME",
+                  "midline": "A +R   P  TEER KD +K+VR EAEQ RV+VRNV RDAN+K  AL KDKEI+  +  +S  D+QK+TD  IKKI+  L + EA L +"
+                }
+              ]
+            },
+            {
+              "num": 92,
+              "description": [
+                {
+                  "id": "ref|WP_066108698.1|",
+                  "accession": "WP_066108698",
+                  "title": "ribosome recycling factor [Gallibacterium salpingitidis]",
+                  "taxid": 505341,
+                  "sciname": "Gallibacterium salpingitidis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.7297,
+                  "score": 208,
+                  "evalue": 1.27908e-17,
+                  "identity": 47,
+                  "positive": 60,
+                  "query_from": 38,
+                  "query_to": 120,
+                  "hit_from": 98,
+                  "hit_to": 182,
+                  "align_len": 85,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "IRVPLPPLTEERRRDLTKIVRGEAEQGRVAIRNIRRDANDKVKALLKDKEISENDERKAQDEIQKLTDLYVKKVDEALAEKEKEL",
+                  "midline": "+R   P  TEER +D  KIVRGEAEQ RVA+RN+ RDANDK  AL KDKEI+  D  ++  ++QKLTD  +KK++ ALA+ E  L"
+                }
+              ]
+            },
+            {
+              "num": 93,
+              "description": [
+                {
+                  "id": "ref|WP_208118987.1|",
+                  "accession": "WP_208118987",
+                  "title": "ribosome recycling factor [Spirabiliibacterium falconis]",
+                  "taxid": 572023,
+                  "sciname": "Spirabiliibacterium falconis"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 1.67251e-17,
+                  "identity": 46,
+                  "positive": 62,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "TVIRVPLPPLTEERRRDLVKVVRGEAEQSRVAVRNIRRDANDQIKALLKDKEISEDDDRRAQDEIQKLTDTYVKKVDDVLADKEKELME",
+                  "midline": "  +R   P  TEER +D +K+VRGEAEQ+RVAVRN+ RDAND+  AL KDKEI+  D  ++  ++QKLTD  +KK++  LAD E  L +"
+                }
+              ]
+            },
+            {
+              "num": 94,
+              "description": [
+                {
+                  "id": "emb|VFS72171.1|",
+                  "accession": "VFS72171",
+                  "title": "Ribosome-releasing factor [Kluyvera cryocrescens]",
+                  "taxid": 580,
+                  "sciname": "Kluyvera cryocrescens"
+                }
+              ],
+              "len": 178,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 1.71709e-17,
+                  "identity": 49,
+                  "positive": 56,
+                  "query_from": 38,
+                  "query_to": 109,
+                  "hit_from": 91,
+                  "hit_to": 164,
+                  "align_len": 74,
+                  "gaps": 2,
+                  "qseq": "VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKI",
+                  "hseq": "IRVPLPPLTEERRKDLTKIVRGEAEQARVSVRNVRRDANDKVKALLKDKEISEDDDRRSQEEVQKMTDAAIKKV",
+                  "midline": "+R   P  TEER KD  KIVRGEAEQARV+VRNV RDANDK  AL KDKEI+  D  +S  +VQK+TDAAIKK+"
+                }
+              ]
+            },
+            {
+              "num": 95,
+              "description": [
+                {
+                  "id": "dbj|GME07250.1|",
+                  "accession": "GME07250",
+                  "title": "DNA polymerase III subunit alpha [Ipomoea batatas]",
+                  "taxid": 4120,
+                  "sciname": "Ipomoea batatas"
+                }
+              ],
+              "len": 6943,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.5817,
+                  "score": 218,
+                  "evalue": 1.76499e-17,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 118,
+                  "hit_from": 601,
+                  "hit_to": 703,
+                  "align_len": 103,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEA",
+                  "hseq": "VEKAIMASDLGLNPNSAGSDIRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKIKALLKDKEISEDDERRSQDEIQKMTDAHIKKVDAALAEKEA",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  ++QK+TDA IKK++AALA+ EA"
+                }
+              ]
+            },
+            {
+              "num": 96,
+              "description": [
+                {
+                  "id": "ref|WP_420072798.1|",
+                  "accession": "WP_420072798",
+                  "title": "ribosome recycling factor [Yersinia sp. 2544 StPb PI]",
+                  "taxid": 3117409,
+                  "sciname": "Yersinia sp. 2544 StPb PI"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 2.02869e-17,
+                  "identity": 48,
+                  "positive": 60,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "TVIRVPLPALTEERRKDLIKVVRAEAEQGRVSIRNVRRDANEKVKALLKDKEISEDEDRRSQDDIQKLTDAFIKKVDTALAAKETEL",
+                  "midline": "  +R   P  TEER KD +K+VR EAEQ RV++RNV RDAN+K  AL KDKEI+  +  +S  D+QKLTDA IKK++ ALA  E  L"
+                }
+              ]
+            },
+            {
+              "num": 97,
+              "description": [
+                {
+                  "id": "ref|WP_199609294.1|",
+                  "accession": "WP_199609294",
+                  "title": "ribosome recycling factor [Flocculibacter collagenilyticus]",
+                  "taxid": 2744479,
+                  "sciname": "Flocculibacter collagenilyticus"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 84.3445,
+                  "score": 207,
+                  "evalue": 2.11761e-17,
+                  "identity": 47,
+                  "positive": 59,
+                  "query_from": 36,
+                  "query_to": 122,
+                  "hit_from": 96,
+                  "hit_to": 184,
+                  "align_len": 89,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWLTQ",
+                  "hseq": "TVIRVPLPPLTEERRKDLVKIVKAEVENARVAVRNIRRDANGDVKQLLKDKEVTEDEMRQSEEEIQKLTDAAIKRMEEVLADKEAELME",
+                  "midline": "  +R   P  TEER KD +KIV+ E E ARVAVRN+ RDAN     L KDKE+   ++ QS  ++QKLTDAAIK++E  LAD EA L +"
+                }
+              ]
+            },
+            {
+              "num": 98,
+              "description": [
+                {
+                  "id": "dbj|GME07417.1|",
+                  "accession": "GME07417",
+                  "title": "Outer membrane protein assembly factor BamA [Ipomoea batatas]",
+                  "taxid": 4120,
+                  "sciname": "Ipomoea batatas"
+                }
+              ],
+              "len": 4236,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 88.1965,
+                  "score": 217,
+                  "evalue": 2.15076e-17,
+                  "identity": 57,
+                  "positive": 72,
+                  "query_from": 20,
+                  "query_to": 118,
+                  "hit_from": 601,
+                  "hit_to": 703,
+                  "align_len": 103,
+                  "gaps": 4,
+                  "qseq": "MDKAVEAFKNKLDKFKAA--VRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEA",
+                  "hseq": "VEKAIMASDLGLNPNSAGSDIRVPLPALTEERRKDLIKIVRGEAEQGRVSVRNVRRDANDKIKALLKDKEISEDDERRSQDEIQKMTDAHIKKVDAALAEKEA",
+                  "midline": "++KA+ A    L+   A   +R   P  TEER KD +KIVRGEAEQ RV+VRNV RDANDK  AL KDKEI+  D  +S  ++QK+TDA IKK++AALA+ EA"
+                }
+              ]
+            },
+            {
+              "num": 99,
+              "description": [
+                {
+                  "id": "ref|WP_122504376.1|",
+                  "accession": "WP_122504376",
+                  "title": "ribosome-recycling factor, partial [Bacillus velezensis]",
+                  "taxid": 492670,
+                  "sciname": "Bacillus velezensis"
+                }
+              ],
+              "len": 90,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 81.6481,
+                  "score": 200,
+                  "evalue": 2.19477e-17,
+                  "identity": 45,
+                  "positive": 53,
+                  "query_from": 43,
+                  "query_to": 111,
+                  "hit_from": 22,
+                  "hit_to": 90,
+                  "align_len": 69,
+                  "gaps": 0,
+                  "qseq": "PTEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEA",
+                  "hseq": "PTDERRKALTQIVRAEAEQARVAVRNVRRDANDKVKALLKDKAISEDDDRRSQEEVQKMTDAAIKKVDA",
+                  "midline": "PT+ER K   +IVR EAEQARVAVRNV RDANDK  AL KDK I+  D  +S  +VQK+TDAAIKK++A"
+                }
+              ]
+            },
+            {
+              "num": 100,
+              "description": [
+                {
+                  "id": "gb|MGK2960348.1|",
+                  "accession": "MGK2960348",
+                  "title": "ribosome recycling factor [Candidatus Malihini olakiniferum]",
+                  "taxid": 3230033,
+                  "sciname": "Candidatus Malihini olakiniferum"
+                }
+              ],
+              "len": 185,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 83.9593,
+                  "score": 206,
+                  "evalue": 2.514e-17,
+                  "identity": 49,
+                  "positive": 60,
+                  "query_from": 36,
+                  "query_to": 120,
+                  "hit_from": 96,
+                  "hit_to": 182,
+                  "align_len": 87,
+                  "gaps": 2,
+                  "qseq": "AAVRKVFP--TEERIKDWLKIVRGEAEQARVAVRNVGRDANDKAAALGKDKEINWFDISQSLWDVQKLTDAAIKKIEAALADMEAWL",
+                  "hseq": "AVIRVPLPPLTEERRKDLTKVVRGEAEQGRISVRNVRRDANDKLKALLKDKAISEDKERRAQEEVQKLTDAYIKKVDVALAEKENEL",
+                  "midline": "A +R   P  TEER KD  K+VRGEAEQ R++VRNV RDANDK  AL KDK I+     ++  +VQKLTDA IKK++ ALA+ E  L"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}

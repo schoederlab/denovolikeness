@@ -1,0 +1,360 @@
+{
+  "BlastOutput2": {
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.17.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "db": "nr_cluster_seq"
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 0.05,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "search": {
+          "query_id": "Query_4236355",
+          "query_title": "5cwd_A",
+          "query_len": 179,
+          "hits": [
+            {
+              "num": 1,
+              "description": [
+                {
+                  "id": "pdb|5CWD|A",
+                  "accession": "5CWD_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 179,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 340.502,
+                  "score": 872,
+                  "evalue": 1.66878e-117,
+                  "identity": 179,
+                  "positive": 179,
+                  "query_from": 1,
+                  "query_to": 179,
+                  "hit_from": 1,
+                  "hit_to": 179,
+                  "align_len": 179,
+                  "gaps": 0,
+                  "qseq": "MSTKEDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKIAKKACKEVAKQAGMPWLEHHHHHH",
+                  "hseq": "MSTKEDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKIAKKACKEVAKQAGMPWLEHHHHHH",
+                  "midline": "MSTKEDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKIAKKACKEVAKQAGMPWLEHHHHHH"
+                }
+              ]
+            },
+            {
+              "num": 2,
+              "description": [
+                {
+                  "id": "pdb|5CWL|A",
+                  "accession": "5CWL_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 183,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 62.003,
+                  "score": 149,
+                  "evalue": 3.18458e-08,
+                  "identity": 64,
+                  "positive": 102,
+                  "query_from": 3,
+                  "query_to": 175,
+                  "hit_from": 2,
+                  "hit_to": 179,
+                  "align_len": 186,
+                  "gaps": 21,
+                  "qseq": "TKEDARSTCEKAARKAAE----SNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAES---NDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAES---NDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRA---AKESNDEEVEKIAKKACKEVAKQAGMPWLEHH",
+                  "hseq": "TTEDERRELEKVARKAIEAAREGNTDEVREQLQR-ALEIARESG--TTEAVKLALEVVARVAIEAARRGNTDAVREALEVALEIARESG--TTEAVKLALEVVARVAIEAARRGNTDAVREALEVALEIARESG--TEEAVRLALEVVKRVSDEAKKQGNEDAVKEAEEVRKKIEEESG-GWLEHH",
+                  "midline": "T ED R   EK ARKA E     N +EV +Q  +  LE+A+++G  T EA +   E  AR A E+    + +  + A +  LE+A+++G  T EA +   E  AR A E+    + +  + A +  LE+A+++G  T+EA R   E  KR    AK+  +E+  K A++  K++ +++G  WLEHH"
+                }
+              ]
+            },
+            {
+              "num": 3,
+              "description": [
+                {
+                  "id": "pdb|5CWB|A",
+                  "accession": "5CWB_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 53.5286,
+                  "score": 127,
+                  "evalue": 5.32009e-05,
+                  "identity": 58,
+                  "positive": 103,
+                  "query_from": 11,
+                  "query_to": 174,
+                  "hit_from": 7,
+                  "hit_to": 206,
+                  "align_len": 214,
+                  "gaps": 64,
+                  "qseq": "CEKAARKAAE---------SNDEEVAKQAAKDCLEVAKQAGMPTKEAARSF---CEAAARAAAE---------SNDEEVAKIAAKACLEVAKQAGMPTKEAARSF---CEAAARAAAE---------SNDEEVAKIAAKACLEVAKQAGMPTKEAARSF--------------CEAAKRAAKESNDEEVEKIAKKACKEV---AKQAGMPWLEH",
+                  "hseq": "CEEKARRVAEKVERLKRSGTSEDEIAEEVAREISEVIR----TLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIR----TLKESGSSYEVICECVARIVAEIVEALKRSGTSEDEIAEIVARVISEVIR----TLKESGSSYEVIKECVQRIVEEIVEALKRSG--TSEDEINEIVRRVKSEVERTLKESGSSWLEH",
+                  "midline": "CE+ AR+ AE         ++++E+A++ A++  EV +      KE+  S+   CE  AR  AE         ++++E+A+I A+   EV +      KE+  S+   CE  AR  AE         ++++E+A+I A+   EV +      KE+  S+               EA KR+   ++++E+ +I ++   EV    K++G  WLEH"
+                }
+              ]
+            },
+            {
+              "num": 4,
+              "description": [
+                {
+                  "id": "pdb|5CWJ|A",
+                  "accession": "5CWJ_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 171,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 52.7582,
+                  "score": 125,
+                  "evalue": 5.38858e-05,
+                  "identity": 51,
+                  "positive": 86,
+                  "query_from": 23,
+                  "query_to": 174,
+                  "hit_from": 2,
+                  "hit_to": 166,
+                  "align_len": 171,
+                  "gaps": 25,
+                  "qseq": "DEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKIAKKACKEVAKQAG-------------------MPWLEH",
+                  "hseq": "DSEEEQERIRRILKEARKSG--TEESLRQAIEDVAQLAKKSQDSEVLEEAIRVILRIAKESG--SEEALRQAIRAVAEIAKEAQDSEVLEEAIRVILRIAKESG--SEEALRQAIRAVAEIAKEAQDPRVLEEAIRVIRQIAEESGSEEARRQAERAEEEIRRRAQGWLEH",
+                  "midline": "D E  ++  +  L+ A+++G  T+E+ R   E  A+ A +S D EV + A +  L +AK++G  ++EA R    A A  A E+ D EV + A +  L +AK++G  ++EA R    A    AKE+ D  V + A +  +++A+++G                     WLEH"
+                }
+              ]
+            },
+            {
+              "num": 5,
+              "description": [
+                {
+                  "id": "pdb|5CWH|A",
+                  "accession": "5CWH_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 172,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 50.8322,
+                  "score": 120,
+                  "evalue": 0.000280782,
+                  "identity": 48,
+                  "positive": 79,
+                  "query_from": 5,
+                  "query_to": 174,
+                  "hit_from": 4,
+                  "hit_to": 167,
+                  "align_len": 170,
+                  "gaps": 6,
+                  "qseq": "EDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKIAKKACKEVAKQAGMPWLEH",
+                  "hseq": "EEVNERVKQLAEKAKEATDKEEVIEIVKELAELAKQS--TDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQS--TDSELVNEIVKQLAEVAKEATDKELVIYIVKILAELAKQS--TDSELVNEIVKQLEEVAKEATDKELVEHIEKILEELKKQSTDGWLEH",
+                  "midline": "E+     ++ A KA E+ D+E   +  K+  E+AKQ+     E      +  A  A E+ D+E+     K   E+AKQ+     E      +  A  A E+ D+E+     K   E+AKQ+     E      +  +  AKE+ D+E+ +  +K  +E+ KQ+   WLEH"
+                }
+              ]
+            },
+            {
+              "num": 6,
+              "description": [
+                {
+                  "id": "pdb|5CWN|A",
+                  "accession": "5CWN_A",
+                  "title": "Chain A, Designed helical repeat protein [synthetic construct]",
+                  "taxid": 32630,
+                  "sciname": "synthetic construct"
+                }
+              ],
+              "len": 211,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.9062,
+                  "score": 115,
+                  "evalue": 0.0020213,
+                  "identity": 72,
+                  "positive": 109,
+                  "query_from": 5,
+                  "query_to": 175,
+                  "hit_from": 8,
+                  "hit_to": 207,
+                  "align_len": 203,
+                  "gaps": 35,
+                  "qseq": "EDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQA-------GMP--TKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQ-AGMPTKEAARSFCEAAARAA-------AESNDEEVAKIAAKACLEVAKQA-------GMP--TKEAARSFCEAAKRAAKESNDEEVEKIAKKACKEV------AKQAGMPWLEHH",
+                  "hseq": "ERAKESLERA-REASERGDEEEFRKAAEKALELAKRLVEQAKKEGDPELVLEAAKVALRVA-ELAAKNGDKEVFKKAAESALEVAKRLVEVASKEGDPELVLEAAKVALRVAELAAKNGDKEVFKKAAESALEVAKRLVEVASKEGDPELVEEAAK-VAEEVRKLAKKQGDEEVYEKARETAREVKEELKRVREEKGGWLEHH",
+                  "midline": "E A+ + E+A R+A+E  DEE  ++AA+  LE+AK+        G P    EAA+     A   AA++ D+EV K AA++ LEVAK+   + +KE        AA+ A       A++ D+EV K AA++ LEVAK+        G P   +EAA+   E  ++ AK+  DEEV + A++  +EV       ++    WLEHH"
+                }
+              ]
+            },
+            {
+              "num": 7,
+              "description": [
+                {
+                  "id": "ref|XP_038265249.1|",
+                  "accession": "XP_038265249",
+                  "title": "coiled-coil domain-containing protein R3HCC1L isoform X1 [Dermochelys coriacea]",
+                  "taxid": 27794,
+                  "sciname": "Dermochelys coriacea"
+                }
+              ],
+              "len": 1034,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.6766,
+                  "score": 117,
+                  "evalue": 0.003112,
+                  "identity": 41,
+                  "positive": 61,
+                  "query_from": 3,
+                  "query_to": 144,
+                  "hit_from": 378,
+                  "hit_to": 507,
+                  "align_len": 142,
+                  "gaps": 12,
+                  "qseq": "TKEDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAA",
+                  "hseq": "SRESAGSACELTGEGAADPNRESTGSV----CELTGEGAADPSRESTGSMCELTGEGAADPSRES----AGSACELTGEGAADPSRESARSVCELRGEGAADPSRESTGSV----CELTGEGAADPSRESTGSVCELTGEGA",
+                  "midline": "++E A S CE     AA+ N E         C    + A  P++E+  S CE     AA+ + E     A  AC    + A  P++E+ARS CE     AA+ + E    +    C    + A  P++E+  S CE     A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.0210738,
+                  "identity": 42,
+                  "positive": 65,
+                  "query_from": 3,
+                  "query_to": 155,
+                  "hit_from": 340,
+                  "hit_to": 480,
+                  "align_len": 153,
+                  "gaps": 12,
+                  "qseq": "TKEDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKI",
+                  "hseq": "SRERAGSACELRGEGTADQSGESTGSV----CEFRGEGAADPSRESAGSACELTGEGAADPNRESTGSV----CELTGEGAADPSRESTGSMCELTGEGAADPSRES----AGSACELTGEGAADPSRESARSVCELRGEGAADPSRESTGSV",
+                  "midline": "++E A S CE      A+ + E         C    + A  P++E+A S CE     AA+ N E    +    C    + A  P++E+  S CE     AA+ + E     A  AC    + A  P++E+ARS CE     A + + E    +"
+                }
+              ]
+            },
+            {
+              "num": 8,
+              "description": [
+                {
+                  "id": "ref|XP_038265257.1|",
+                  "accession": "XP_038265257",
+                  "title": "coiled-coil domain-containing protein R3HCC1L isoform X4 [Dermochelys coriacea]",
+                  "taxid": 27794,
+                  "sciname": "Dermochelys coriacea"
+                }
+              ],
+              "len": 858,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 49.2914,
+                  "score": 116,
+                  "evalue": 0.00363827,
+                  "identity": 41,
+                  "positive": 61,
+                  "query_from": 3,
+                  "query_to": 144,
+                  "hit_from": 378,
+                  "hit_to": 507,
+                  "align_len": 142,
+                  "gaps": 12,
+                  "qseq": "TKEDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAA",
+                  "hseq": "SRESAGSACELTGEGAADPNRESTGSV----CELTGEGAADPSRESTGSMCELTGEGAADPSRES----AGSACELTGEGAADPSRESARSVCELRGEGAADPSRESTGSV----CELTGEGAADPSRESTGSVCELTGEGA",
+                  "midline": "++E A S CE     AA+ N E         C    + A  P++E+  S CE     AA+ + E     A  AC    + A  P++E+ARS CE     AA+ + E    +    C    + A  P++E+  S CE     A"
+                },
+                {
+                  "num": 2,
+                  "bit_score": 46.9802,
+                  "score": 110,
+                  "evalue": 0.0248687,
+                  "identity": 42,
+                  "positive": 65,
+                  "query_from": 3,
+                  "query_to": 155,
+                  "hit_from": 340,
+                  "hit_to": 480,
+                  "align_len": 153,
+                  "gaps": 12,
+                  "qseq": "TKEDARSTCEKAARKAAESNDEEVAKQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKI",
+                  "hseq": "SRERAGSACELRGEGTADQSGESTGSV----CEFRGEGAADPSRESAGSACELTGEGAADPNRESTGSV----CELTGEGAADPSRESTGSMCELTGEGAADPSRES----AGSACELTGEGAADPSRESARSVCELRGEGAADPSRESTGSV",
+                  "midline": "++E A S CE      A+ + E         C    + A  P++E+A S CE     AA+ N E    +    C    + A  P++E+  S CE     AA+ + E     A  AC    + A  P++E+ARS CE     A + + E    +"
+                }
+              ]
+            },
+            {
+              "num": 9,
+              "description": [
+                {
+                  "id": "ref|WP_213157567.1|",
+                  "accession": "WP_213157567",
+                  "title": "HEAT repeat domain-containing protein [Parachlamydia sp. AcF125]",
+                  "taxid": 2795736,
+                  "sciname": "Parachlamydia sp. AcF125"
+                }
+              ],
+              "len": 1608,
+              "hsps": [
+                {
+                  "num": 1,
+                  "bit_score": 48.521,
+                  "score": 114,
+                  "evalue": 0.00625993,
+                  "identity": 46,
+                  "positive": 64,
+                  "query_from": 28,
+                  "query_to": 168,
+                  "hit_from": 1297,
+                  "hit_to": 1422,
+                  "align_len": 141,
+                  "gaps": 15,
+                  "qseq": "KQAAKDCLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAARAAAESNDEEVAKIAAKACLEVAKQAGMPTKEAARSFCEAAKRAAKESNDEEVEKIAKKACKEVAKQAG",
+                  "hseq": "RSAARAVIAIAKRGGEPSKEVL-----AALIQVLKEGDREAKRSAARAVIAIAKRGSEPLKEVL-----AALIQALKEGDEGARGSAVYALGEIAKQGGEPSKEVLAALIQALKEG-----DEGARASAAYALGEIAKQEG",
+                  "midline": "+ AA+  + +AK+ G P+KE       AA     +  D E  + AA+A + +AK+   P KE       AA   A +  DE     A  A  E+AKQ G P+KE   +  +A K       DE     A  A  E+AKQ G"
+                }
+              ]
+            }
+          ],
+          "stat": {
+            "db_num": 465517121,
+            "db_len": 148632845539,
+            "hsp_len": 0,
+            "eff_space": 0,
+            "kappa": 0.041,
+            "lambda": 0.267,
+            "entropy": 0.14
+          }
+        }
+      }
+    }
+  }
+}
