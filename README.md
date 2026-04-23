@@ -9,7 +9,11 @@ The project is organized into several main components:
 Machine learning model for classifying proteins based on their structural scores.
 
 ### 2. Training (`/training`)
-Code for training the classification model.
+Code and models for training the classification model:
+- `src/`: Training source code (training.py, util.py, visualisation.py)
+- `models/`: Trained model files and training histories
+- `scaler.pkl`: Pre-trained feature scaler
+- `metrics_results.csv`: Training metrics and results
 
 ### 3. Data (`/data`)
 Contains training data, feature calculations, and prediction results:
@@ -28,11 +32,17 @@ Additional analysis and experimental work:
 - `pda/`: Protein Data Archive (PDA) analysis including:
   - `pda_jan25_analysis.ipynb`: Comprehensive PDA dataset analysis with PDB processing, Rosetta scoring, and BLAST alignment integration
   - `best_relax/`: Rosetta relaxation predictions
+  - `extracted_blast_results.csv`: BLAST alignment results
+  - `pred_pda.csv`: PDA predictions
+  - `wrong_classified.fasta`: Sequences with misclassifications
+  - `GHMD9VAE014-Alignment.json/`: Alignment data
 - `non_pred_features/`: Alternative feature analysis
 - `other_models/`: Cross-validation and alternative model evaluations
-
-### 6. Results (`/results`)
-Output data from analyses including PDA predictions and scoring results
+  - `CV_ALL.ipynb`: Comprehensive cross-validation analysis
+  - `saved_models/`: Alternative model checkpoints
+  - `plm/`: Protein language model related files
+  - `cm/`: Confusion matrix visualizations
+  - `scaler.pkl`: Feature scaler for alternative models
 
 ## Installation
 
@@ -190,7 +200,7 @@ Comprehensive analysis of Protein Data Archive (PDA) data:
 
 If you use this software in your research, please cite:
 ```
-Klier, J., et al. (2025).
+Klier, J., et al. (2026).
 ```
 
 
